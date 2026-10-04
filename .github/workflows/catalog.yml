@@ -1,0 +1,19 @@
+name: Catalog
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Check catalog structure (no corpus download)
+        run: python3 tools/check_catalog.py
+      - name: Test the checker
+        run: python3 -m unittest discover -s tests -v
