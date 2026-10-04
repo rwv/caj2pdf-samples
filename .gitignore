@@ -1,5 +1,5 @@
+*.pyc
 /cache/
 /downloads/
 /results/
 __pycache__/
-*.pyc

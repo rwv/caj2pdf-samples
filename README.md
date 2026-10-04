@@ -55,6 +55,14 @@ CAA/CAS/NH search log is recorded there with the remaining sample gaps.
 See [research notes](RESEARCH.md) and repository issues. Public issue reports
 should contain a source URL and hash, not attachments with unknown rights.
 
+## Checks
+
+`python3 tools/check_catalog.py` validates `catalog.json` structure (fields,
+hashes, unique paths and digests, status values, formatting) without the
+corpus; CI runs it on every pull request. After a catalog change merges, the
+main project re-pins the new commit and catalog SHA-256 in
+`scripts/sample_catalog.py`.
+
 ## Adding a sample
 
 Record source URL/revision, original path/extension, byte size, SHA-256,
