@@ -6,7 +6,8 @@ Real-document catalog and regression inputs for [caj2pdf-rust](https://github.co
 
 57 distinct documents indexed: the 56 existing samples below plus a newly
 collected 238,910,818-byte HN-A document from upstream issue 111 (738 pages,
-1,450 bookmarks reported by inspection; inspection is not conversion success).
+1,450 bookmarks). Its complete native, Node and browser conversions are recorded
+in [the research notes](RESEARCH.md); viewer comparison remains NOT_RUN.
 
 56 distinct real documents from the pinned upstream CAJSamples collection:
 17 CAJ, 22 HN, 5 C8, 3 KDH, 2 PDF and 7 TEB. All 56 local files were checked
@@ -40,13 +41,16 @@ integrity checks as compatibility passes. Store downloads in an external cache.
 
 ## Collection priorities
 
-1. TEB: characterize the seven existing files before collecting duplicates.
-2. CAA and CAS: obtain authentic files; determine whether each is a document,
+1. CAA and CAS: obtain authentic files; determine whether each is a document,
    link/descriptor or container before proposing a decoder.
-3. NH: obtain files with their original extension and identify their bytes;
+2. NH: obtain files with their original extension and identify their bytes;
    do not assume the extension maps one-to-one to an HN layout.
-4. New CAJ/HN/C8/KDH failures: prefer a new structure or reproducible failure
+3. New CAJ/HN/C8/KDH failures: prefer a new structure or reproducible failure
    over another copy of an already represented document.
+
+The seven TEB files share one encrypted DRM container layout (see
+[research notes](RESEARCH.md)); more TEB copies add no format evidence. The
+CAA/CAS/NH search log is recorded there with the remaining sample gaps.
 
 See [research notes](RESEARCH.md) and repository issues. Public issue reports
 should contain a source URL and hash, not attachments with unknown rights.

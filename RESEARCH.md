@@ -45,8 +45,92 @@ not an implemented classification. No new decoder is justified by an extension.
   budget before concluding that this represents a converter defect.
 - Follow-up: https://github.com/rwv/caj2pdf-rust/issues/284 .
 
-## Tracked next work
+## TEB characterization (issue 1), 2026-10-04
 
-- TEB characterization: https://github.com/rwv/caj2pdf-samples/issues/1
-- Historical CAA/CAS/NH collection: https://github.com/rwv/caj2pdf-samples/issues/2
-- Optional runner integration: https://github.com/rwv/caj2pdf-rust/issues/283
+All seven SHA-pinned `issue-61/*.teb` rows were re-verified (size and SHA-256)
+and examined read-only with bounded scripts. Only structure is recorded here;
+no payload, key material or rights values are copied.
+
+| Offset | Observation (all seven files) |
+| --- | --- |
+| `0x00` | `TEB\0`, then u32 `4`; zero padding |
+| `0x20` | ASCII vendor string `Tongfang Knowledge Network Technology(Beijing) Co., Ltd.`, zero padded to `0xA8` |
+| `0xA8` | u32 `110` or `111`, then u32 archive length `L` |
+| `0xB0` | ZIP-like archive of exactly `L` bytes |
+| `0xB0+L` | XML `<right-meta>` trailer, then `startrights <offset>,2397` |
+
+The archive has two local headers and a modified central directory: each
+central record omits six standard bytes, offsets are relative to `0xA0`, and
+names are obfuscated by XOR with their byte index. The two entries are always
+`document.xml` (deflate flag, about 1 KiB) and `content\CAJxxxx.pdf` (stored);
+their order differs between files. Neither entry's CRC matches its stored or
+inflated bytes, and the payloads are near 8 bits/byte. The trailer declares
+`<version>2.1</version>`, `<encrypt meta="1" catalog="1" notes="1">`, and
+`iv`, `password`, `cert` fields plus CNKI DRM request/registration URLs.
+
+Conclusion: the seven files share one layout, a CNKI DRM 2.1 container around an
+encrypted PDF. They are not standalone documents and no distinct sub-layout was
+observed; any one file is representative. Conversion would require decrypting
+licensed content, which this project does not do, so TEB stays detection-only.
+No parser issue is opened; this boundary is the recorded outcome.
+
+Current converter, main `509bb6e`, Linux x86_64 release CLI, default options:
+`inspect --json` reports `format: TEB`, `conversion_supported: false` for all
+seven; conversion exits 1 with `TEB input is recognized, but TEB conversion is
+not supported`. These deliberate unsupported results are not passes. CAJViewer
+checks: NOT_RUN for all seven (no pinned viewer run in this environment).
+
+## CAA, CAS and NH search log (issue 2), 2026-10-04
+
+Repeated searches, results reviewed but no authenticated sample bytes found:
+
+- Web: `CNKI ".caa" CAJViewer 链接文件`, `CAJViewer ".cas" 文件格式 CNKI`,
+  `".nh" 文件 CNKI 硕博 学位论文 nh格式`, and an English GitHub query for
+  `.nh/.caa/.cas` samples.
+- Extension directories (the-x.cn `CAA.aspx`, fileinfo.com `extension/caa`)
+  describe CAA as a CNKI shortcut holding an HTTP link that CAJViewer opens
+  by downloading the referenced item. This is secondary, unsourced
+  description: it supports the link/descriptor hypothesis but is not byte evidence.
+- CAS: no result described the bytes or offered a file; results concerned
+  CAJ or unrelated software.
+- NH: library/help pages state NH is used for CNKI theses and opens in
+  CAJViewer; none links an original `.nh` download. The pinned CAJSamples tree
+  has only `.caj`, `.teb`, `.pdf` and `.dat` files, so its HN rows were all
+  delivered as `.caj`.
+
+Unresolved gaps: no authenticated CAA, CAS or original-extension NH file exists
+in this catalog. No new layout is confirmed, so no implementation issue is
+opened in the main project. Future leads need source URL, original extension,
+size, SHA-256 and redistribution evidence before cataloging.
+
+## New HN-A complete conversion (main issue 284), 2026-10-04
+
+- Input: `issue-111/56.caj`, identity PASS (catalog SHA-256).
+- Converter: caj2pdf-rust main `509bb6e`, clean checkout, Linux x86_64 release
+  CLI built with the pinned toolchain; default options and bookmarks.
+- Native: PASS in 105 s (single run, 4 vCPU), 10.1 MiB peak RSS (`wait4`),
+  output 268,737,204 bytes, SHA-256
+  `db8f4a970e0d51a985b4e807a19dac853f15fd75efb2d5ac26ed768dc3be0888`.
+  The earlier 90-second budget was too short; that INCOMPLETE run remains
+  a timeout, not a defect.
+- PDF: `qpdf --check` clean, 738 pages; MuPDF renders all 738 pages; all 1,450
+  outline entries match the source titles, levels and pages exactly. The
+  shared-catalog runner reports conversion, PDF, page-count and source-outline
+  PASS; its page-image order check is NOT_RUN because no pinned pixel oracle
+  covers this new document.
+- Node 22 WASM, ranged file: byte-identical output, 368 s, 102 MiB RSS.
+  Node 22 WASM, standard input spooled to a temporary file: byte-identical,
+  286 s, 103 MiB RSS. Durations are single observations; the spooled Node and
+  browser runs overlapped on the same 4 vCPU host.
+- Chromium (Playwright headless shell 1194) Dedicated Worker, release WASM,
+  ranged Blob input, four 256 MiB-capped OPFS scratch stores, sequential OPFS
+  output: byte-identical, 738 pages and 1,450 bookmarks in 499 s; 430,981,910
+  input bytes read, 256 KiB maximum output chunk, scratch extents zero and no
+  OPFS entries left. Browser process memory was not measured.
+- CAJViewer comparison: NOT_RUN. Full-page CAJViewer capture is still an open
+  capability in the main project; a structural pass is not pixel parity.
+
+## Open leads
+
+No tracked collection issue remains open. Reopen work only with a new authentic
+CAA/CAS/NH file or a new CAJ/HN/C8/KDH structure or failure.
