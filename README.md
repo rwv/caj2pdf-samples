@@ -4,6 +4,10 @@ Real-document catalog and regression inputs for [caj2pdf-rust](https://github.co
 
 ## Initial collection
 
+57 distinct documents indexed: the 56 existing samples below plus a newly
+collected 238,910,818-byte HN-A document from upstream issue 111 (738 pages,
+1,450 bookmarks reported by inspection; inspection is not conversion success).
+
 56 distinct real documents from the pinned upstream CAJSamples collection:
 17 CAJ, 22 HN, 5 C8, 3 KDH, 2 PDF and 7 TEB. All 56 local files were checked
 against their SHA-256 and byte size during initial import. Aliases are retained;
@@ -24,8 +28,11 @@ Obtain the upstream corpus separately at revision
 https://github.com/caj2pdf/CAJSamples
 
 ```sh
-python3 tools/verify.py /path/to/CAJSamples
+python3 tools/verify.py /path/to/local-corpus
 ```
+
+For the additional sample, obtain the document linked from upstream issue 111
+and place it at `issue-111/56.caj` beneath the local corpus root.
 
 The verifier reads in bounded chunks, checks every catalog entry and exits
 nonzero for missing or changed files. It does not execute converters or count

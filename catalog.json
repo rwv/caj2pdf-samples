@@ -830,6 +830,22 @@
       "local_integrity": "PASS",
       "conversion": "NOT_RUN",
       "viewer": "NOT_RUN"
+    },
+    {
+      "path": "issue-111/56.caj",
+      "aliases": [],
+      "sha256": "39fc809373630c0eeb30ac2471174fcdf976916893389c0b8679d50ca730dc4b",
+      "size_bytes": 238910818,
+      "detected_type": "HN",
+      "variant": "HN-A",
+      "source_repository": "https://github.com/caj2pdf/caj2pdf",
+      "source_url": "https://github.com/caj2pdf/caj2pdf/issues/111",
+      "redistribution": "not_declared",
+      "local_integrity": "PASS",
+      "conversion": "INCOMPLETE_TIMEOUT",
+      "viewer": "NOT_RUN",
+      "page_count": 738,
+      "bookmark_count": 1450
     }
   ]
 }
