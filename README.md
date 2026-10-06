@@ -59,9 +59,9 @@ should contain a source URL and hash, not attachments with unknown rights.
 
 `python3 tools/check_catalog.py` validates `catalog.json` structure (fields,
 hashes, unique paths and digests, status values, formatting) without the
-corpus; CI runs it on every pull request. After a catalog change merges, the
-main project re-pins the new commit and catalog SHA-256 in
-`scripts/sample_catalog.py`.
+corpus; CI runs it on every pull request. After a catalog change merges,
+re-pin the new commit and catalog SHA-256 in
+[`research/scripts/sample_catalog.py`](research/scripts/sample_catalog.py).
 
 ## Adding a sample
 
@@ -76,4 +76,15 @@ page count and the exact failing page/error. Viewer comparisons also need the
 viewer version, fonts, rendering settings and selected pages. Missing inputs
 are `NOT_RUN`; successful opening is not pixel or text equivalence. Keep raw
 renders/text external unless their redistribution is established. Reuse the
-main project's existing runners; no second conversion or oracle framework.
+research runners in [`research/`](research/README.md); no second conversion or
+oracle framework.
+
+## Research tooling
+
+[`research/`](research/README.md) holds the oracles, conformance harnesses,
+CAJViewer automation, archived Rust parity examples and investigation notes
+moved out of caj2pdf-rust
+([#360](https://github.com/rwv/caj2pdf-rust/issues/360)), pinned to
+caj2pdf-rust commit `0abee3862f01756ee15f69a1b174a35208fc1e41`. Its README
+explains each directory and how to run the Python harnesses against a caj2pdf
+CLI and a local corpus.
