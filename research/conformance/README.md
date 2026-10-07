@@ -487,7 +487,7 @@ or document corpus is stored in this repository.
 
 Discovery and document identity now live in
 [caj2pdf-samples](https://github.com/rwv/caj2pdf-samples). The adapter pins commit
-`377e19882e78ad9e3be20cd04ec7bb8b26416e42` and the catalog's SHA-256; it never
+`054e082e65e956ce3e90e464e5bb926b846b360d` and the catalog's SHA-256; it never
 fetches documents or executes code from that checkout. Keep the sample checkout,
 source corpus, generated matrix and outputs outside this repository.
 
@@ -502,13 +502,17 @@ python3 scripts/sample_catalog.py \
   --output-dir /external/new-run
 ```
 
-Repeat `--sample` for more canonical paths, or omit it for all 60 unique inputs.
+Repeat `--sample` for more canonical paths, or omit it for all 1,277 unique inputs.
 The new `issue-111/56.caj` is obtained separately through its catalog source URL;
 the original upstream checkout alone contains only the first 56 inputs. The
 three additional C8/HN-B sources use the catalog's pinned URLs and canonical
 `external/` paths. Their historical conversion failures are scoped to the
 recorded converter revision; later C8 results are in the
 [new-profile note](../notes/c8-additional-profiles.md).
+The [GitHub sweep](../notes/github-sample-sweep-20261007.md) adds 1,217
+SHA-256 identities at `external/github/<sha256>.caj`, using the catalog's
+pinned Git/LFS sources or archive-member locators. The original checkout
+alone cannot satisfy this expanded selection.
 Missing or changed selected documents fail identity verification and report
 conversion `NOT_RUN`. Duplicate hashes do not inflate coverage. A completed
 runner means completed attempts, not universal conversion success. In particular,

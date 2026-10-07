@@ -67,7 +67,7 @@ integrity checks as compatibility passes. Store downloads in an external cache.
 3. New CAJ/HN/C8/KDH failures: prefer a new structure or reproducible failure
    over another copy of an already represented document.
 
-The seven TEB files share one encrypted DRM container layout (see
+The original seven TEB files share one encrypted DRM container layout (see
 [research notes](RESEARCH.md)); more TEB copies add no format evidence. The
 CAA/CAS/NH search log is recorded there with the remaining sample gaps.
 
@@ -78,8 +78,8 @@ should contain a source URL and hash, not attachments with unknown rights.
 
 `python3 tools/check_catalog.py` validates `catalog.json` structure (fields,
 hashes, unique paths and digests, status values, formatting) without the
-corpus; CI runs it on every pull request. After a catalog change merges,
-re-pin the new commit and catalog SHA-256 in
+corpus; CI runs it on every pull request. After reviewing a catalog change,
+pin its committed revision and catalog SHA-256 in
 [`research/scripts/sample_catalog.py`](research/scripts/sample_catalog.py).
 
 ## Adding a sample

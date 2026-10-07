@@ -85,6 +85,25 @@ The #381 HN-B input is the positive control: both JavaScript targets convert its
 no entries. This is a **ten-input runtime check**, not a full browser/Node corpus
 run; those broader runs remain **NOT_RUN**.
 
+## Follow-up issues
+
+[Parent tracking issue #385](https://github.com/rwv/caj2pdf-rust/issues/385) records the whole failure set.
+The following sub-issues isolate profiles with selected viewer or independent
+PDF evidence. Other groups remain explicitly pending classification in the
+parent; encrypted TEB refusals remain intentional.
+
+| Issue | Investigation | Inputs with this first error |
+| --- | --- | ---: |
+| [#386](https://github.com/rwv/caj2pdf-rust/issues/386) | investigate WebFastLoad and file-property footers in GitHub documents | 44 |
+| [#387](https://github.com/rwv/caj2pdf-rust/issues/387) | investigate the version-field 1 wrapper profile | 15 |
+| [#388](https://github.com/rwv/caj2pdf-rust/issues/388) | investigate decoded text record areas with non-16-byte tails | 12 |
+| [#389](https://github.com/rwv/caj2pdf-rust/issues/389) | investigate C8 text regions with SBRTEMPLATE and no SBREFINE | 25 |
+| [#390](https://github.com/rwv/caj2pdf-rust/issues/390) | investigate unsupported compressed text prefix profiles | 11 |
+| [#391](https://github.com/rwv/caj2pdf-rust/issues/391) | investigate the unsupported native record at byte 768 | 1 |
+| [#392](https://github.com/rwv/caj2pdf-rust/issues/392) | investigate the segment-count refusal on a blank-looking page | 1 |
+| [#393](https://github.com/rwv/caj2pdf-rust/issues/393) | investigate forward xref Prev links in KDH payloads | 4 |
+| [#394](https://github.com/rwv/caj2pdf-rust/issues/394) | investigate outline action profiles in KDH patent inputs | 2 |
+
 ## Search coverage and boundaries
 
 - Repository searches covered `.caj` references, conversion projects, theses,
@@ -154,7 +173,7 @@ python3 scripts/sample_catalog.py \
   --candidate /path/to/caj2pdf --output-dir /path/to/new-external-result
 ```
 
-The first command is integrity-only. The second actually converts the selected
+Run the first command in the samples checkout; it is integrity-only. The second actually converts the selected
 input and checks its PDF. The harness's `COMPLETE` means the attempts finished,
 including refusals; it is not an all-pass verdict.
 

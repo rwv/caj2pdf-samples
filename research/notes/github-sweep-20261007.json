@@ -2282,7 +2282,8 @@
         "f9f2841ccf85c3d31b53f5db0808fc918356c50086d63ca398eef871911fcb51",
         "fa994a734d334c7f9631656c6bf3fe5333bda76d1d7b554aeb815377415b5c40"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/386",
+      "triage": "focused investigation"
     },
     {
       "diagnostic": "malformed HN/C8 C8, image 1, segment 3: SBRTEMPLATE without SBREFINE",
@@ -2314,7 +2315,8 @@
         "f9d7754432420d92cddb678333c2283fa1e58a96323ad9f1c56fe7ca86878099",
         "ffd187b95a839b6d132fe8d66b1a4838310748ebabd1200327a0e108bfc89dab"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/389",
+      "triage": "focused investigation"
     },
     {
       "diagnostic": "malformed KDH: KDH version field is invalid",
@@ -2336,7 +2338,8 @@
         "e677aa5ead77911935d01822476dae2d3a83649e5a8eb0347ed8ab431b2241b9",
         "f56c71c4a63277df9451359b3600f04f51fe85ad821926403e05c38602bd18f0"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/387",
+      "triage": "focused investigation"
     },
     {
       "diagnostic": "malformed HN/C8 HN-A: decoded text layout: record area is not a multiple of 16",
@@ -2355,7 +2358,8 @@
         "ddd479876b9febbff35edc0797b64768179f22a4bcf394e94c79f61b7b13164e",
         "e8989ec0c80d4b49236a0e905d78333ede89b1c31be1da843424b9110c338541"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/388",
+      "triage": "focused investigation"
     },
     {
       "diagnostic": "malformed HN/C8 C8: page text prefix: unsupported compressed text header",
@@ -2373,7 +2377,8 @@
         "db6258d8e8a2ee8323b236b93026da4133c1279858c4f77a077e4b694172414b",
         "eb3529223d12dc76ad01fc32a8d4c7b765bddf2600091a96b62435fb6a03e30e"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/390",
+      "triage": "focused investigation"
     },
     {
       "diagnostic": "TEB input is a DRM-encrypted CNKI container; its document content is encrypted and cannot be converted",
@@ -2389,7 +2394,8 @@
         "d5f87439a53ce6e587db274cb68ab36f731fe0272b24c76831e5c525e703c8a3",
         "fc773e95124ea86f7a7ecf358933ec1bf260ea535dcfd5d2ad38ce816d21a5fd"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "intentional DRM refusal"
     },
     {
       "diagnostic": "malformed PDF: stream Length has no unique bounded repair",
@@ -2401,7 +2407,8 @@
         "f26570f28a2043e17c1bbf065a62a531815c56d6ce2b84b4cc501c832926858e",
         "f65742f37f10987a68c318670811dc5e0803f9d928f9ced8f2e6bdbb8000d24a"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     },
     {
       "diagnostic": "ambiguous repair PDF: duplicate PDF dictionary keys have undefined value",
@@ -2412,7 +2419,8 @@
         "9be1188adba1a3f496347f0850d841add927efa1fc4abfc188ebb5ab05048b0c",
         "acca38898dc3346140723f69894d60d90a138bd7da9b3f62ab7671c92d334bd5"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     },
     {
       "diagnostic": "malformed PDF: xref Prev must point to an earlier section",
@@ -2423,7 +2431,8 @@
         "a8155254147440cb077daf0d209eba04b6acc64ec2e6c23ee087127ad789d63a",
         "b55318f6dcb232bc10ae5b06caf3a9eadb2c3643c5ffbfac1d1e0663a9f3edce"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/393",
+      "triage": "focused investigation"
     },
     {
       "diagnostic": "ambiguous repair PDF: duplicate nested PDF dictionary keys have undefined value",
@@ -2432,7 +2441,8 @@
         "1673e115322421095a4463172335f98e0d71017307cf00ebb7fc258701044fa1",
         "ef0d77b2cdb2b9eeea105312bef7eef7727e7d8a055e7828d51fbd9a571cb17a"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     },
     {
       "diagnostic": "malformed PDF: PDF number lacks a delimiter",
@@ -2441,7 +2451,8 @@
         "2423e0b8e64060bc55cf004da3c7f79b411739753e89e39ebefcea44b300b968",
         "f08947012a4882d3f62c9e3552f5a889d4bc7dee22f3a5119f22b7cb298b180f"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     },
     {
       "diagnostic": "malformed PDF: interrupted prefix has no exact complete counterpart",
@@ -2450,7 +2461,8 @@
         "50c8c55b978aedce644fc2fba6246c0cb5babee3389e2b59fda7d4e7efdbf89c",
         "eacbcd00c35a93f049350970d6b5a38010ca5633bdd615deb86db2ce03559444"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     },
     {
       "diagnostic": "malformed PDF: stream Length does not end at endstream",
@@ -2459,7 +2471,8 @@
         "c41cd7306591e0a4fc40728617b2d42d7302ba57413591de00f18bcf63023743",
         "ece0be828c95350ed2d48c83fb8a5255f13c935d91da5c7c99448ffec99287a9"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     },
     {
       "diagnostic": "unsupported feature PDF: outline actions are outside the supported input profile",
@@ -2468,7 +2481,8 @@
         "8e8ae333d6ae8d3a7dab4977aef99698216fc566d67179867d909d13f4320d5c",
         "a2ebf94a03c8bd0699f6e213d150338759ccef32556f82ecc2d4ce847500779b"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/394",
+      "triage": "focused investigation"
     },
     {
       "diagnostic": "PDF PDF string nesting limit exceeded: maximum 64, attempted 65",
@@ -2476,7 +2490,8 @@
       "sha256": [
         "b206e40da6df3fbe07ea6c7b40e900de5fe35b16f7e25029c3cfde38eb603d03"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     },
     {
       "diagnostic": "malformed CAJ, record 37: CAJ page span extends beyond source",
@@ -2484,7 +2499,8 @@
       "sha256": [
         "48960fa0d3ac6b9e531baf1193510263f75b8d1f472312cb89c2a406204c1970"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     },
     {
       "diagnostic": "malformed PDF: indirect reference targets a missing object",
@@ -2492,7 +2508,8 @@
       "sha256": [
         "d3d8a89dc8ac9212a445935c55e29ac93224df1d157e891aebb2fb1f652906b6"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     },
     {
       "diagnostic": "malformed PDF: invalid PDF value token",
@@ -2500,7 +2517,8 @@
       "sha256": [
         "5e1ea482a56a2df02a2a452ac97949824c726471c88157e78441a1201b3d8697"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     },
     {
       "diagnostic": "malformed PDF: unexpected PDF keyword",
@@ -2508,7 +2526,8 @@
       "sha256": [
         "cb6f5e781f372e31d63f7dcc63739f5e86366b124b7619e18a8c4210217584d6"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     },
     {
       "diagnostic": "malformed PDF: unindexed bytes between PDF objects",
@@ -2516,7 +2535,8 @@
       "sha256": [
         "6cf520441256d3d0e8749cb4b49275bbfc57ff962839cd7e131055c99cca992e"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     },
     {
       "diagnostic": "unsupported HN/C8 C8, image 1: segment count",
@@ -2524,7 +2544,8 @@
       "sha256": [
         "6481714a8ac7b1b2422ec44fc11e7aa9d48bbd7e1368ee7d7c5b64ff957393d5"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/392",
+      "triage": "focused investigation"
     },
     {
       "diagnostic": "unsupported HN/C8 C8: native record tag/value",
@@ -2532,7 +2553,8 @@
       "sha256": [
         "b9a64bf99e4bc496b976541a27128ee84109835d5f79f228a9c8ad159ec6829b"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/391",
+      "triage": "focused investigation"
     },
     {
       "diagnostic": "unsupported feature PDF: stream Length repair changes PDF object width",
@@ -2540,7 +2562,8 @@
       "sha256": [
         "dc3c3a651d4abaea61b8982e5165636f61b85f2c48f2eace3c6730e00dd963d3"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     },
     {
       "diagnostic": "unsupported feature PDF: xref stream decode parameters are unsupported",
@@ -2548,7 +2571,8 @@
       "sha256": [
         "77b2ebe0a8d6cf9023b1427a0a5c4b3ff0f92b254bdee449c9a80cbc428e9fe3"
       ],
-      "issue": null
+      "issue": "https://github.com/rwv/caj2pdf-rust/issues/385",
+      "triage": "classification pending"
     }
   ],
   "samples": [
@@ -92157,5 +92181,6 @@
       "face": 0,
       "sha256": "c1dd2270ff624d66a7f1cd23075b5ce05a662f560be06a70a9599065ce008355"
     }
-  ]
+  ],
+  "tracking_issue": "https://github.com/rwv/caj2pdf-rust/issues/385"
 }
