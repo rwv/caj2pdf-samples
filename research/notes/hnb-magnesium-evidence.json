@@ -896,5 +896,67 @@
       "file": "/usr/share/fonts/truetype/freefont/FreeSerif.ttf",
       "sha256": "c1dd2270ff624d66a7f1cd23075b5ce05a662f560be06a70a9599065ce008355"
     }
+  ],
+  "bilevel_pdf_pixel_checks": [
+    {
+      "case": "TA-white",
+      "different_pixels": 0
+    },
+    {
+      "case": "AT-white",
+      "different_pixels": 0
+    },
+    {
+      "case": "TA-black",
+      "different_pixels": 0
+    },
+    {
+      "case": "AT-black",
+      "different_pixels": 0
+    },
+    {
+      "case": "TA-left",
+      "different_pixels": 0
+    },
+    {
+      "case": "AT-left",
+      "different_pixels": 0
+    },
+    {
+      "case": "TA-top",
+      "different_pixels": 0
+    },
+    {
+      "case": "AT-top",
+      "different_pixels": 0
+    },
+    {
+      "case": "TA-checker",
+      "different_pixels": 0
+    },
+    {
+      "case": "AT-checker",
+      "different_pixels": 0
+    },
+    {
+      "case": "TAB-cross",
+      "different_pixels": 0
+    },
+    {
+      "case": "TBA-cross",
+      "different_pixels": 0
+    },
+    {
+      "case": "ATB-cross",
+      "different_pixels": 0
+    },
+    {
+      "case": "ABT-cross",
+      "different_pixels": 0
+    },
+    {
+      "case": "TATB-cross",
+      "different_pixels": 0
+    }
   ]
 }

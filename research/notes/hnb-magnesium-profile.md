@@ -70,6 +70,9 @@ or an unreplaced HGBX font were repeated before measuring resource state.
   `TA`, `AT`, `TAB`, `TBA`, `ATB`, `ABT`, `TATB` distinguish ordering and persistence.
   All ten compared stable-interior masks have zero differences from the rule.
   Full-image differences remain on antialiased edges (not a pixel-parity claim).
+  Separately, MuPDF renders of the produced PDFs, with antialiasing disabled,
+  match all 15 overlap/order controls with zero differing pixels. This checks
+  the PDF translation of the observed rule; it is not source-font pixel parity.
   The PDF writer uses Multiply only for verified 1-bit resources. Colored/JPEG
   images after text and all mode-0 images remain rejected.
 
