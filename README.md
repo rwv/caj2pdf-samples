@@ -6,16 +6,22 @@ Real-document catalog and regression inputs for [caj2pdf-rust](https://github.co
 
 **1,277 distinct document candidates** are indexed, including 1,217 new
 SHA-256 identities from the [2026-10-07 GitHub sweep](research/notes/github-sample-sweep-20261007.md).
-On caj2pdf-rust `df6d023`, all were actually attempted: 1,128 convert,
-123 fail, and 26 are explicitly unsupported. Of the outputs, 1,127 pass qpdf
-without warnings; one previously catalogued output has a warning. Nine
-unsupported inputs are encrypted TEB containers. Seven synthetic fixtures
-are excluded. These are scoped conversion/structure results, not full fidelity.
+After the [profile fixes and full native rerun](research/notes/github-sweep-fixes-20261007.md)
+(caj2pdf-rust `a199539`, identical tree to the tested `18417d8`), **1,227 convert,
+39 fail and 11 are explicitly unsupported**: 99 new conversion passes and no
+conversion regressions. Of the outputs, 1,226 pass qpdf without warnings;
+one retains its source-content warning. All 50 refusals are classified, including
+16 encrypted PDFs and nine encrypted TEB containers. Seven synthetic fixtures
+are excluded. Conversion/qpdf results do not establish full fidelity: 26 ancillary
+image-order failures remain visible, and full-corpus JavaScript/visual checks
+are NOT_RUN.
 
-The new `external/github/` rows record pinned download URLs or archive members.
+The `external/github/` rows record pinned download URLs or archive members.
 Acquire their bytes in an external cache; this repository contains metadata only.
-See the [machine-readable receipt](research/notes/github-sweep-20261007.json)
-for failures, resource limits, selected Node/browser checks, and search gaps.
+See the [current per-input receipt](research/notes/github-sweep-fixes-20261007.json)
+for all attempts and classifications, and the unchanged
+[baseline receipt](research/notes/github-sweep-20261007.json) for collection
+boundaries and original failures.
 
 ## Initial collection
 

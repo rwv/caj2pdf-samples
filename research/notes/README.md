@@ -7,7 +7,7 @@ keeps its own provenance statement; the project-wide record is
 [provenance](../provenance.md). "Historical" marks a closed investigation
 whose result is summarized elsewhere.
 
-See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for the expanded sample inventory and current conversion failures.
+See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for the expanded inventory and the [post-fix validation](github-sweep-fixes-20261007.md) for current conversion results, remaining refusals and fidelity limits.
 
 ## CAJ, KDH and PDF
 
