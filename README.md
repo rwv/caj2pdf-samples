@@ -2,6 +2,21 @@
 
 Real-document catalog and regression inputs for [caj2pdf-rust](https://github.com/rwv/caj2pdf-rust).
 
+## Current collection
+
+**1,277 distinct document candidates** are indexed, including 1,217 new
+SHA-256 identities from the [2026-10-07 GitHub sweep](research/notes/github-sample-sweep-20261007.md).
+On caj2pdf-rust `df6d023`, all were actually attempted: 1,128 convert,
+123 fail, and 26 are explicitly unsupported. Of the outputs, 1,127 pass qpdf
+without warnings; one previously catalogued output has a warning. Nine
+unsupported inputs are encrypted TEB containers. Seven synthetic fixtures
+are excluded. These are scoped conversion/structure results, not full fidelity.
+
+The new `external/github/` rows record pinned download URLs or archive members.
+Acquire their bytes in an external cache; this repository contains metadata only.
+See the [machine-readable receipt](research/notes/github-sweep-20261007.json)
+for failures, resource limits, selected Node/browser checks, and search gaps.
+
 ## Initial collection
 
 60 distinct documents indexed: the 56 existing samples below, three
@@ -52,7 +67,7 @@ integrity checks as compatibility passes. Store downloads in an external cache.
 3. New CAJ/HN/C8/KDH failures: prefer a new structure or reproducible failure
    over another copy of an already represented document.
 
-The seven TEB files share one encrypted DRM container layout (see
+The original seven TEB files share one encrypted DRM container layout (see
 [research notes](RESEARCH.md)); more TEB copies add no format evidence. The
 CAA/CAS/NH search log is recorded there with the remaining sample gaps.
 
@@ -63,8 +78,8 @@ should contain a source URL and hash, not attachments with unknown rights.
 
 `python3 tools/check_catalog.py` validates `catalog.json` structure (fields,
 hashes, unique paths and digests, status values, formatting) without the
-corpus; CI runs it on every pull request. After a catalog change merges,
-re-pin the new commit and catalog SHA-256 in
+corpus; CI runs it on every pull request. After reviewing a catalog change,
+pin its committed revision and catalog SHA-256 in
 [`research/scripts/sample_catalog.py`](research/scripts/sample_catalog.py).
 
 ## Adding a sample
