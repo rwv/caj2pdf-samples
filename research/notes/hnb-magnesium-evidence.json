@@ -41,8 +41,8 @@
     "page_streams": 12,
     "image_draws": 12,
     "multiply_draws": 3,
-    "sha256": "24cddad85ed48f6af74eec6c5dadfb18d95e6a9ecf31c22d3ef127e60564981b",
-    "bytes": 726141
+    "sha256": "11cadd7d1857a26a929d5d74be4da53facef1215f5a2e43f9104706c26bb7b88",
+    "bytes": 726143
   },
   "runtime": {
     "node": [
@@ -50,7 +50,7 @@
         "label": "hnb",
         "pages": 12,
         "substitutedGlyphs": "1",
-        "sha256": "24cddad85ed48f6af74eec6c5dadfb18d95e6a9ecf31c22d3ef127e60564981b",
+        "sha256": "11cadd7d1857a26a929d5d74be4da53facef1215f5a2e43f9104706c26bb7b88",
         "maxChunk": 16384
       }
     ],
@@ -60,9 +60,9 @@
           "label": "hnb",
           "pages": 12,
           "substitutedGlyphs": "1",
-          "bytes": 726141,
+          "bytes": 726143,
           "maxChunk": 16384,
-          "sha256": "24cddad85ed48f6af74eec6c5dadfb18d95e6a9ecf31c22d3ef127e60564981b"
+          "sha256": "11cadd7d1857a26a929d5d74be4da53facef1215f5a2e43f9104706c26bb7b88"
         }
       ],
       "remaining": []

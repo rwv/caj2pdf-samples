@@ -110,8 +110,8 @@ PDF/UA, original-font or semantic-identification claim is made.
 
 With NotoSerifCJK-Regular.ttc face 2 and FreeSerif.ttf, CLI, Node and a real
 Chromium Worker each convert 12 pages with one reported visual substitution.
-All outputs are 726,141 bytes, SHA-256
-`24cddad85ed48f6af74eec6c5dadfb18d95e6a9ecf31c22d3ef127e60564981b`.
+All outputs are 726,143 bytes, SHA-256
+`11cadd7d1857a26a929d5d74be4da53facef1215f5a2e43f9104706c26bb7b88`.
 qpdf finds no syntax/stream errors. Per-page glyph counts retain all 20,693
 native glyph records; all 12 type-3 images are drawn. Three image draws use the
 text-first overlay operation. Node/browser maximum output chunks are 16,384
