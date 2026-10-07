@@ -29,6 +29,7 @@ whose result is summarized elsewhere.
 | [Uncompressed HN-A page text](hnc8-uncompressed-text.md) | `hnc8/text.rs` |
 | [HN-A/C8 text framing and placement controls](hnc8-text-source.md) | `scripts/hnc8_text_frame.py` |
 | [Expanded C8/HN-B outline sample search](hnc8-outline-sample-search.md) | #303; three new conversion failures |
+| [HN-B magnesium article](hnb-magnesium-profile.md) | #381; original controls, type-3 layering and private-code preservation |
 | [Additional C8 native profiles](c8-additional-profiles.md) | #380/#382; independent controls and conversion checks |
 | [HN-A outline fields: observed profile](hnc8-outline-fields.md) | `hnc8/outline.rs` |
 | [HN/C8 outline investigation and implementation proposal](hnc8-outline-observation.md) | `scripts/hnc8_outline_observation.py` |
