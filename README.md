@@ -4,7 +4,8 @@ Real-document catalog and regression inputs for [caj2pdf-rust](https://github.co
 
 ## Initial collection
 
-57 distinct documents indexed: the 56 existing samples below plus a newly
+60 distinct documents indexed: the 56 existing samples below, three
+[C8/HN-B search candidates](research/notes/hnc8-outline-sample-search.md), and a newly
 collected 238,910,818-byte HN-A document from upstream issue 111 (738 pages,
 1,450 bookmarks). Its complete native, Node and browser conversions are recorded
 in [the research notes](RESEARCH.md); viewer comparison remains NOT_RUN.
@@ -34,6 +35,9 @@ python3 tools/verify.py /path/to/local-corpus
 
 For the additional sample, obtain the document linked from upstream issue 111
 and place it at `issue-111/56.caj` beneath the local corpus root.
+The three C8/HN-B candidates have pinned source URLs and canonical `external/`
+paths in `catalog.json`; their recorded failures refer to the stated converter
+revision, with later C8 results in the [follow-up note](research/notes/c8-additional-profiles.md).
 
 The verifier reads in bounded chunks, checks every catalog entry and exits
 nonzero for missing or changed files. It does not execute converters or count

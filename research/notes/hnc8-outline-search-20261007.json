@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "issue": "https://github.com/rwv/caj2pdf-rust/issues/303",
+  "observed_on": "2026-10-07",
+  "scope": "Research candidates only; not an executable compatibility baseline. Document bytes and captures remain external.",
+  "rust_revision": "cb791bdef2b70a4e2cc1a1d63a5e223534d43e3b",
+  "catalog_revision": "a33905e19e8505ff922502b30a8e5c09477ff1b5",
+  "catalog_sha256": "ef5544a90d392b692ff480dc8a31f9aa1b3faff28abfc408a5937eea7396d68a",
+  "viewer_image": "sha256:cb5049d3448b6d5bcfd371cf195d522d637869dce075cb1650d74198875171de",
+  "search": {
+    "github_repositories_examined": 54,
+    "github_candidate_blobs_outside_CAJSamples": 107,
+    "classification": {
+      "CAJ": 36,
+      "HN-A": 31,
+      "KDH": 22,
+      "PDF": 12,
+      "C8": 2,
+      "HN-B": 1,
+      "not_document": 3
+    },
+    "method": "Repository tree metadata; deduplicate Git blob OIDs; read at most 512 response bytes per header, following Git LFS pointers. Fully download only selected candidates and the positive control."
+  },
+  "samples": [
+    {
+      "id": "restructured-c8",
+      "source_repository": "https://github.com/zombie110year/caj2pdf-restructured",
+      "source_revision": "d34eaf586b40e21989ea9308e9afd2fd5e23e216",
+      "source_path": "tests/c8_src.caj",
+      "source_url": "https://github.com/zombie110year/caj2pdf-restructured/blob/d34eaf586b40e21989ea9308e9afd2fd5e23e216/tests/c8_src.caj",
+      "download_url": "https://media.githubusercontent.com/media/zombie110year/caj2pdf-restructured/d34eaf586b40e21989ea9308e9afd2fd5e23e216/tests/c8_src.caj",
+      "original_extension": ".caj",
+      "sha256": "7e3f2c0faebb8ddac2f4feff3cfc9249476ab170b43250ac00610b10aa46c74b",
+      "size_bytes": 8786313,
+      "variant": "C8",
+      "page_count": 10,
+      "in_pinned_catalog": false,
+      "redistribution": "not_declared",
+      "local_integrity": "PASS",
+      "inspection": {
+        "exit_code": 0,
+        "bookmark_count": null,
+        "has_outline": null,
+        "first_page_text_error": "unsupported HN/C8 C8 at byte 358, page 1: native encoded-string word",
+        "pages_with_text_errors": 10,
+        "application_info": null,
+        "report_sha256": "7860c8c9ae7b447af3e76ee4c8d33d3aec9fac26b965e7b41f9df1e276d8daa2"
+      },
+      "conversion": {
+        "status": "FAIL",
+        "exit_code": 1,
+        "page": 1,
+        "error": "unsupported HN/C8 C8 at byte 358, page 1: native encoded-string word",
+        "output_published": false
+      },
+      "viewer": {
+        "status": "OBSERVED",
+        "version": "9.0.0 (Linux)",
+        "page_indicator": "1/10",
+        "contents_panel": "empty",
+        "capture": "c8-ten-toc.png",
+        "capture_sha256": "3a8269b63cd978f673906a8d86ad875a78fa8f0f48f937c4f6cc0ca1299fbbea",
+        "scope": "First page and contents panel only; no full rendering or conversion parity claim."
+      }
+    },
+    {
+      "id": "restructured-hnb",
+      "source_repository": "https://github.com/zombie110year/caj2pdf-restructured",
+      "source_revision": "d34eaf586b40e21989ea9308e9afd2fd5e23e216",
+      "source_path": "tests/hn_src.caj",
+      "source_url": "https://github.com/zombie110year/caj2pdf-restructured/blob/d34eaf586b40e21989ea9308e9afd2fd5e23e216/tests/hn_src.caj",
+      "download_url": "https://media.githubusercontent.com/media/zombie110year/caj2pdf-restructured/d34eaf586b40e21989ea9308e9afd2fd5e23e216/tests/hn_src.caj",
+      "original_extension": ".caj",
+      "sha256": "166d0014792326570d9e8ca42fe13a4a44329e4ad095d3ac8dfd73c8ddb9f20e",
+      "size_bytes": 163779,
+      "variant": "HN-B",
+      "page_count": 12,
+      "in_pinned_catalog": false,
+      "redistribution": "not_declared",
+      "local_integrity": "PASS",
+      "inspection": {
+        "exit_code": 0,
+        "bookmark_count": null,
+        "has_outline": null,
+        "first_page_text_error": "unsupported HN/C8 HN-B at byte 8248, page 1: HN-B native record tag/value",
+        "pages_with_text_errors": 12,
+        "application_info": null,
+        "report_sha256": "12ccc13a2c64e3adbee1a081c63a8ea99edb4d264b82806f9ecf2b6c93af949e"
+      },
+      "conversion": {
+        "status": "FAIL",
+        "exit_code": 1,
+        "page": 1,
+        "error": "malformed HN/C8 HN-B at byte 1132, page 1: unverified C8 glyph size field",
+        "output_published": false
+      },
+      "viewer": {
+        "status": "OBSERVED",
+        "version": "9.0.0 (Linux)",
+        "page_indicator": "1/12",
+        "contents_panel": "empty",
+        "capture": "hnb-fonts-contents.png",
+        "capture_sha256": "d3414824586907dc32a9a962f314b4324cdca284d6add0278cb541a167e8730d",
+        "scope": "First page and contents panel only; no full rendering or conversion parity claim."
+      }
+    },
+    {
+      "id": "xue8-kvm-c8",
+      "source_repository": "https://github.com/xue8/book",
+      "source_revision": "2406baa03be1fc213d76f868b94821a513aa0c50",
+      "source_path": "虚拟化/基于KVM的虚拟化研究及应用_崔泽永.caj",
+      "source_url": "https://github.com/xue8/book/blob/2406baa03be1fc213d76f868b94821a513aa0c50/%E8%99%9A%E6%8B%9F%E5%8C%96/%E5%9F%BA%E4%BA%8EKVM%E7%9A%84%E8%99%9A%E6%8B%9F%E5%8C%96%E7%A0%94%E7%A9%B6%E5%8F%8A%E5%BA%94%E7%94%A8_%E5%B4%94%E6%B3%BD%E6%B0%B8.caj",
+      "download_url": "https://raw.githubusercontent.com/xue8/book/2406baa03be1fc213d76f868b94821a513aa0c50/%E8%99%9A%E6%8B%9F%E5%8C%96/%E5%9F%BA%E4%BA%8EKVM%E7%9A%84%E8%99%9A%E6%8B%9F%E5%8C%96%E7%A0%94%E7%A9%B6%E5%8F%8A%E5%BA%94%E7%94%A8_%E5%B4%94%E6%B3%BD%E6%B0%B8.caj",
+      "original_extension": ".caj",
+      "sha256": "d6a23a9cfd0f37a71e245a3c96b2c3fafdf648f4bb1694f094cfe746b3f4f13d",
+      "size_bytes": 600236,
+      "variant": "C8",
+      "page_count": 5,
+      "in_pinned_catalog": false,
+      "redistribution": "not_declared",
+      "local_integrity": "PASS",
+      "inspection": {
+        "exit_code": 0,
+        "bookmark_count": null,
+        "has_outline": null,
+        "first_page_text_error": "unsupported HN/C8 C8 at byte 2372, page 1: native record tag/value",
+        "pages_with_text_errors": 5,
+        "application_info": {
+          "doi": "CNKI:SUN:WJFZ.0.2011-06-030",
+          "url": "http://gongjushu.cnki.net",
+          "note_count": 75
+        },
+        "report_sha256": "26a22252408c172e689c79c66b15efa06b569824769f96278e6a52c2145a4e5f"
+      },
+      "conversion": {
+        "status": "FAIL",
+        "exit_code": 1,
+        "page": 1,
+        "error": "malformed HN/C8 C8 at byte 2144, page 1: unverified C8 glyph resource or placement class",
+        "output_published": false
+      },
+      "viewer": {
+        "status": "OBSERVED",
+        "version": "9.0.0 (Linux)",
+        "page_indicator": "1/5",
+        "contents_panel": "empty",
+        "capture": "c8-five-toc.png",
+        "capture_sha256": "b141bc33a235a113e412b95007018256dd3f386d884a0d0e2f40c63282aa343e",
+        "scope": "First page and contents panel only; no full rendering or conversion parity claim."
+      }
+    }
+  ],
+  "positive_control": {
+    "url": "https://yjsc.sicnu.edu.cn/files/yjs/news/635413921047838750_d.caj",
+    "source_url": "https://yjsc.sicnu.edu.cn/_wx/_wx_home_news_i.aspx?iid=635413920949557500&said=yjs",
+    "sha256": "25b8efbcdb8f3f65a3cda302d3fc6ce9a4d4febc042a1e417474d97f172d51ec",
+    "size_bytes": 2908165,
+    "variant": "HN-A",
+    "pages": 45,
+    "bookmarks": 42,
+    "viewer": {
+      "version": "9.0.0 (Linux)",
+      "contents_panel": "nonempty",
+      "capture": "hna-positive-toc.png",
+      "capture_sha256": "23d1e3fb37936c8c925cd7304d95826c782be6cd818989b04ec235fc035a10be",
+      "scope": "Visible nested entries; no complete title or destination comparison."
+    }
+  }
+}

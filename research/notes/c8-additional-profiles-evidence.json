@@ -1,0 +1,808 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-07",
+  "scope": "Original controls and two complete external C8 conversions; not whole-corpus or pixel-parity evidence.",
+  "implementation_base": "cb791bdef2b70a4e2cc1a1d63a5e223534d43e3b",
+  "implementation_diff_sha256": "e0d98adb4b7af4b7f7bad12788b86ffa1188fb4edc7a54f7a27e93288c346eb2",
+  "viewer_image": "sha256:cb5049d3448b6d5bcfd371cf195d522d637869dce075cb1650d74198875171de",
+  "controls": [
+    {
+      "file": "base.caj",
+      "sha256": "2324fa29af5efb5480228be3b140b22aec86445c12df770452c58888e79c892a"
+    },
+    {
+      "file": "c8-style-094a.caj",
+      "sha256": "56f3266d8794d3c12b86e75b6ee955863a27b103eba1cd45c54eb3b9d45a4332"
+    },
+    {
+      "file": "c8-style-114a.caj",
+      "sha256": "6060b57f5398a5570534c2104a7de94a986c80d520aa0c8f5af5b09300bb0aa5"
+    },
+    {
+      "file": "c8-style-a4a5.caj",
+      "sha256": "bed6c17d754b0bab2c9721978219a107f57b1c7e005179651a0d29eaa9e482c5"
+    },
+    {
+      "file": "c8-style-10a5.caj",
+      "sha256": "157d512c7b59e14023bfa6b5970486f04844e256ea76fa22b4febda6be94675d"
+    },
+    {
+      "file": "c8-control-801c-0002.caj",
+      "sha256": "2548a8c1744c3515cd6fae7051f3e74553f8204845da39a1f6f17ca6b9ce1f59"
+    },
+    {
+      "file": "c8-control-801c-0003.caj",
+      "sha256": "0653c67a09e31b72a8699391ec80647f90bd1a7239e084ebb0df864842d2be96"
+    },
+    {
+      "file": "c8-axis-22.caj",
+      "sha256": "86f00d81827bea939e63f53ba2891aba59641eb8c3b87d6430b75f81eaf81b15"
+    },
+    {
+      "file": "c8-axis-34.caj",
+      "sha256": "e2fdc46e5d146076db44cef271eb5127f9c2100fb8b79bb12ac0637563e8501d"
+    },
+    {
+      "file": "c8-axis-35.caj",
+      "sha256": "1c8de2f6a7e4c1b397cec15b2b7c50da817a84237440b455f4dd3c4b2071efa8"
+    },
+    {
+      "file": "c8-axis-36.caj",
+      "sha256": "28333873a461941b2c6c72ac60b662cac7049f254b24c86e5c1702775ce54f5e"
+    },
+    {
+      "file": "c8-axis-38.caj",
+      "sha256": "ee11683009be8e2e4c8782e9a4a265cdc7bbc8749b99c80c2e394eb7096ff6e6"
+    },
+    {
+      "file": "c8-axis-40.caj",
+      "sha256": "ea967465905ff9e9d24e5de87e550051ab9e4b92ada446a54f4a096edf8a0974"
+    },
+    {
+      "file": "c8-code-a1a3.caj",
+      "sha256": "0adbede20a8946031b153726abd3dc1d9b142d4a365edd5d0ac4e2900969879f"
+    },
+    {
+      "file": "c8-code-a1ab.caj",
+      "sha256": "efc3b635782e815cdc32d9c7e8b1070ad7c91b14646705f229692eaf3a017398"
+    },
+    {
+      "file": "string-plain.caj",
+      "sha256": "f65508e47cabb53f16f9edb53c6e0e9a0b43ccae5a76e299d27548e84986a3fd"
+    },
+    {
+      "file": "string-nul.caj",
+      "sha256": "9c861dc42ac3f0a3345de7dfd07957137e69fdf17853082f1ea798dcda58945e"
+    },
+    {
+      "file": "string-embedded.caj",
+      "sha256": "fd02d65be4adc2cef8548fc927196e8528be3159970ea4e4506e29248c0c0270"
+    },
+    {
+      "file": "string-nulonly.caj",
+      "sha256": "7036a60499808e33164ebed6b4af791a64387ed12d753dd05517aacf36367dfa"
+    },
+    {
+      "file": "decoration-1.caj",
+      "sha256": "c7d7e941c49cefd8dd005d984d750a5d2d6d9ca593c43f7acc67449e37c76356"
+    },
+    {
+      "file": "decor-axis-34-1.caj",
+      "sha256": "ded6f0612a97ec123fc49f40bfc4f8860e9145992d692535aee4fa90a86209b8"
+    },
+    {
+      "file": "decor-axis-40-1.caj",
+      "sha256": "ae65564d2121c6587a3c7d4f659138e8fd49fa82f8a0341bbae065bc05afc3d2"
+    },
+    {
+      "file": "decoration-2.caj",
+      "sha256": "5d1e3bad23cee7906a433990598f7f6660ad17a60fa6d00fd6b82fd36b065e58"
+    },
+    {
+      "file": "decor-axis-34-2.caj",
+      "sha256": "b0bbbfa6b2b4ba788fd7755a45a54ebaa126851d84a8cb0d75567fcbf6798fc0"
+    },
+    {
+      "file": "decor-axis-40-2.caj",
+      "sha256": "7534634eb497b63aef930fcede238d1b7d94a80a8f974746340bea8d5f2ffad3"
+    },
+    {
+      "file": "decoration-46.caj",
+      "sha256": "9970ad3d6b567d099d5203207842e4647b300f7756bbf62859507711b65409c5"
+    },
+    {
+      "file": "decor-axis-34-46.caj",
+      "sha256": "102468b07fd3179500177f72e7780a5b2e54a2c6992cb7c14c2ee747d7f85e33"
+    },
+    {
+      "file": "decor-axis-40-46.caj",
+      "sha256": "a200b0e3ba10e34fecfc3d9e17079ded88e6da0ee8d23aafb0256cd27d47d48e"
+    },
+    {
+      "file": "punct-22-d6d0.caj",
+      "sha256": "86f00d81827bea939e63f53ba2891aba59641eb8c3b87d6430b75f81eaf81b15"
+    },
+    {
+      "file": "punct-22-a0c1.caj",
+      "sha256": "0502f11bbcba7bdd11dcfa6815492e8c23feeecea189f28e19c69710ba970aff"
+    },
+    {
+      "file": "punct-22-a3a8.caj",
+      "sha256": "165a4467fea75a2fba46a40665306f3466a286147de37382b45fa18d73581252"
+    },
+    {
+      "file": "punct-22-a3a9.caj",
+      "sha256": "7ca6297ec60a847e5cc681bfe4e14b03e2a277d5c175259ed8f5bed36e4d0814"
+    },
+    {
+      "file": "punct-22-a3db.caj",
+      "sha256": "eda35fe64435bf7bf4813267d3a3308db5759e8c951bd40a338ffe59303602f3"
+    },
+    {
+      "file": "punct-22-a3dd.caj",
+      "sha256": "bdedde97d25395965192410f57e247e553d4be8d31b7eedae8343257399f987c"
+    },
+    {
+      "file": "punct-22-a3a7.caj",
+      "sha256": "eeb32e10f51fccd202db353a7b24d24301fa03a7b80cc34aa5d793ab400f75d2"
+    },
+    {
+      "file": "punct-22-a3fc.caj",
+      "sha256": "58d0f763720b2fb7655c4efb750a48b2e46a627470121b6af622ec575746191b"
+    },
+    {
+      "file": "punct-34-d6d0.caj",
+      "sha256": "e2fdc46e5d146076db44cef271eb5127f9c2100fb8b79bb12ac0637563e8501d"
+    },
+    {
+      "file": "punct-34-a0c1.caj",
+      "sha256": "ca1429c23e6eaab1f307af60034db1d5f3b4e7c27a4c60448faf45f210081b41"
+    },
+    {
+      "file": "punct-34-a3a8.caj",
+      "sha256": "bd5240ac1b02ae9ce60f15babbc0d8caf825a9c2f93e8932984e56a9036f14f8"
+    },
+    {
+      "file": "punct-34-a3a9.caj",
+      "sha256": "0c3410cacc39bec161e789676bf3fa7a5aa7a25c9104b02ad055ffbd674ebc00"
+    },
+    {
+      "file": "punct-34-a3db.caj",
+      "sha256": "7b32e33f99dfa2236d6db0ead6be69801c16534438e0bf282f36cc0e5892d17b"
+    },
+    {
+      "file": "punct-34-a3dd.caj",
+      "sha256": "0e66dd6cd73ec7dfe3ad5b0ed32586d6bccc743f686c8d7008f308fd37cae15a"
+    },
+    {
+      "file": "punct-34-a3a7.caj",
+      "sha256": "6ac94e262169ad932369d8925f0fae87f2acd3ae6688a98dbf107e809db16488"
+    },
+    {
+      "file": "punct-34-a3fc.caj",
+      "sha256": "8084e00bf0549711f514eb35f6e0f319aa10e7e482272e81301b7fb38c347b2c"
+    },
+    {
+      "file": "punct-40-d6d0.caj",
+      "sha256": "ea967465905ff9e9d24e5de87e550051ab9e4b92ada446a54f4a096edf8a0974"
+    },
+    {
+      "file": "punct-40-a0c1.caj",
+      "sha256": "a23920ee81b506805127ec08388fb30b893c29e9fb25d2c7317c15b8734fb235"
+    },
+    {
+      "file": "punct-40-a3a8.caj",
+      "sha256": "a63f8d7e2045dd2d356cfddce85301e9b06a349cc28abe1ae5a1234bee2157ec"
+    },
+    {
+      "file": "punct-40-a3a9.caj",
+      "sha256": "3bba0b239bdde9a3b36e48134dc9be8e988bb97781ab7fcef6452ad327f8fec1"
+    },
+    {
+      "file": "punct-40-a3db.caj",
+      "sha256": "302fd7e0fdcada0c766c042bc1bc63b1f9b40438c1a2ab59f4dd233b926dce24"
+    },
+    {
+      "file": "punct-40-a3dd.caj",
+      "sha256": "039cad6a8bb75fa7c152ee4a01c8367d978b97654355563c72dcbe3803f31b94"
+    },
+    {
+      "file": "punct-40-a3a7.caj",
+      "sha256": "1348113d97f20045754edfc14d34c574335089e83c5a7b567f2576d814b21a4c"
+    },
+    {
+      "file": "punct-40-a3fc.caj",
+      "sha256": "e874eb9e7454c68a892992391b0a2959ddd839288dce5cf352b791f43118d5b8"
+    },
+    {
+      "file": "newcode-a3a6.caj",
+      "sha256": "5fe953051ba86c99c2b19c77aa7057e0c23d220db9f112fd14712835fb6c5af3"
+    },
+    {
+      "file": "newcode-a3a7.caj",
+      "sha256": "a8d861c602ebff44adcba22d345b498a7e591d610b18d6276abb5619f10d884c"
+    },
+    {
+      "file": "newcode-a3fc.caj",
+      "sha256": "4ca1cc1dc11136965214ddb524b52c02313fd4193fd1dbaf755c4b64867a650d"
+    },
+    {
+      "file": "punct-reset-34-a3a8.caj",
+      "sha256": "204e402f0ed3313dc00b409980851b8cf17089ee974c8cfad4df6895b8103586"
+    },
+    {
+      "file": "punct-reset-34-a3db.caj",
+      "sha256": "2b5145efebffe1c803b2e0b5f60101ec10a6a108a0a4a271fba8c6a2d92ba591"
+    },
+    {
+      "file": "punct-reset-40-a3a8.caj",
+      "sha256": "11d02e4b80706dbbc9c9fe4301867dbce090a93d129422872dae8ada8598fd33"
+    },
+    {
+      "file": "punct-reset-40-a3db.caj",
+      "sha256": "a0b5a5b816c87bdc72db71aae58607d4278e701e3c45cfbe2b1018b3e8158e92"
+    },
+    {
+      "file": "align-22-4.caj",
+      "sha256": "07c3df461af23169c473d49ba3ba8aca5f374451fa858b18dcdf20f6603f2132"
+    },
+    {
+      "file": "align-22-5.caj",
+      "sha256": "9475358673b869172b710df1f86453797aa3cc1977422a6a6819d03576746418"
+    },
+    {
+      "file": "align-34--2.caj",
+      "sha256": "ad5a05b5f04d4e479a197896bade5e90d2a28b5f9211e5e5afa4a67002565ef4"
+    },
+    {
+      "file": "align-34--3.caj",
+      "sha256": "4546007860506401f3ebbf6fd2d9ba6a91a4aede16fb0b51febbc1445362f000"
+    },
+    {
+      "file": "align-40--5.caj",
+      "sha256": "703859c26d589b68937b1ee554b5bc93e79b40a1b27329d50a7adbff23a40556"
+    },
+    {
+      "file": "align-40--6.caj",
+      "sha256": "5a70edf24c3baab5a59e8107599790e078068af6623769ef5277d31555b2622b"
+    },
+    {
+      "file": "ref-0-bare.caj",
+      "sha256": "e85439c7a19f0cc34591690ae5c2f83b62d6a1c228923c49377e82db603b7d33"
+    },
+    {
+      "file": "ref-0-padded.caj",
+      "sha256": "38bd5c9e5c8c199b3670de6fdeb5a9875691a5d81a14c3c3abf27b2af02f1959"
+    },
+    {
+      "file": "ref-4-bare.caj",
+      "sha256": "95e0b756b59b6a364f76ff834802f9e6a06ed7ffe5f2634e967b7acd83d2461a"
+    },
+    {
+      "file": "ref-4-padded.caj",
+      "sha256": "926bcd50e140af0d93bf8f3ab82e05916f40fa4fe5998cf3b138f5b048140bc0"
+    },
+    {
+      "file": "ref-8-bare.caj",
+      "sha256": "24d9e50bed22ae42178bc5a5a2bcad31764c2287f729b795b46f9e59f9f65b6b"
+    },
+    {
+      "file": "ref-8-padded.caj",
+      "sha256": "fb270687b8ab9e51f3ff2c4753e482c9c878265152226643ad4bcc2610a97c8b"
+    },
+    {
+      "file": "ref-24-bare.caj",
+      "sha256": "47ebdc9791a09edc7042cea448fde2a1b6f4898cbf1108d2582ea3efc13a2dd5"
+    },
+    {
+      "file": "ref-24-padded.caj",
+      "sha256": "a01982dd01755b4b6de3655926b23e746404a979437938a29f21a2fd527cbaa6"
+    },
+    {
+      "file": "ref-260-bare.caj",
+      "sha256": "d8e0dce4d135e2edf0a4fb48156c1ac629b1707ff1901bd0ec5d73652b3f1cf1"
+    },
+    {
+      "file": "ref-260-padded.caj",
+      "sha256": "d5e539d3a51e6104abc1a5009f0cdf8381bfd1f12505f22f214c261c718827be"
+    }
+  ],
+  "selected_captures": [
+    {
+      "file": "viewer/punct-22-a3db.png",
+      "bytes": 79733,
+      "sha256": "38792dcf7d9b898c3263dbd7f2f58e93d4d680fe392c926f454c3877cbb43681"
+    },
+    {
+      "file": "viewer/punct-34-a3db.png",
+      "bytes": 78057,
+      "sha256": "0a542de7f563c5a1dc13a2efe4c347fdfa0aa0c35d6f9492d6ab8d2497ec4723"
+    },
+    {
+      "file": "viewer/punct-40-a3a8.png",
+      "bytes": 78304,
+      "sha256": "f5b7ca0ed279c5a67a877b1105b1c4d2d4ca8908b0c1c4b28e7228b621ad9d12"
+    },
+    {
+      "file": "viewer/c8-axis-38.png",
+      "bytes": 72405,
+      "sha256": "2c1a421f6133d0b48032d37b8ca934f0d16364dd5b450bffb5e53e8b904592c9"
+    },
+    {
+      "file": "viewer/c8-style-094a.png",
+      "bytes": 78052,
+      "sha256": "7c72d30e08d675183477b6ab6518a9d203d876dc03e48f57db2e7e824fa9c392"
+    },
+    {
+      "file": "viewer/c8-style-a4a5.png",
+      "bytes": 81029,
+      "sha256": "fee3e3bb45e9ef92e83f3d062784e4c81b0b351667b62734cdc6e04791822ae4"
+    },
+    {
+      "file": "viewer/decor-axis-34-2.png",
+      "bytes": 81245,
+      "sha256": "b1fa93dbdcca18f9591f95ad511e38ff4ba7e8358d2e6cb459175df32e634533"
+    },
+    {
+      "file": "viewer/decoration-46.png",
+      "bytes": 78218,
+      "sha256": "ba5d3305536c7b8bde7e5fa905a91c25b7aecdcfe9465380afef62622ddc1356"
+    },
+    {
+      "file": "viewer/string-plain.png",
+      "bytes": 76359,
+      "sha256": "d0e4948791704f2f8270ed7369b890d28772b8b7132887dc88b3cc527a8b090d"
+    },
+    {
+      "file": "viewer/string-nul.png",
+      "bytes": 77272,
+      "sha256": "ca5172ef3fe8e792400340095a9567cee9d00d6d8a03504c2dfeb510b2488e02"
+    },
+    {
+      "file": "viewer/string-nulonly.png",
+      "bytes": 80047,
+      "sha256": "7401a3458e7c23298b8e6a0c193cc0f227ddbf5bc3e93f8dc60eb77d0dbbd9f5"
+    },
+    {
+      "file": "viewer/ref-0-bare.png",
+      "bytes": 77633,
+      "sha256": "614d010e151f9f08ed1247972fc24bda1d36ee61197af606f1d70ea1a290c945"
+    },
+    {
+      "file": "viewer/ref-0-padded.png",
+      "bytes": 77388,
+      "sha256": "5a57ce73884d9bae9fadd7de43dba4fb9fd38ec7d6e7361ab2a5f736b6f4bdc4"
+    },
+    {
+      "file": "viewer/ref-4-bare.png",
+      "bytes": 77120,
+      "sha256": "39a9930c53418e4b0a33275beb8fc4f6148c47eb35bf42371489071cae9cc3bf"
+    },
+    {
+      "file": "viewer/ref-4-padded.png",
+      "bytes": 77367,
+      "sha256": "e52cab840765470b6cec68668c19c7afc8e50400d08e11836361a956265cdf15"
+    },
+    {
+      "file": "viewer/ref-8-bare.png",
+      "bytes": 76582,
+      "sha256": "f8003449235b3fc46aec596967710c1df9831f6cc8be6f19d248267b38c93fd1"
+    },
+    {
+      "file": "viewer/ref-8-padded.png",
+      "bytes": 76443,
+      "sha256": "a121239a163ceff4038fc73afc39a7e5b3822cb5dff8a89b06079f6976f1f558"
+    },
+    {
+      "file": "viewer/ref-24-bare.png",
+      "bytes": 76715,
+      "sha256": "03302f9fb66ba984289d3a37ed93a1af05fbd566b05f6312461421bd248e0b92"
+    },
+    {
+      "file": "viewer/ref-24-padded.png",
+      "bytes": 77380,
+      "sha256": "b73368eeccf75314bc4576a97beca9e85b4e815bfb794b3158695b7199d5445c"
+    },
+    {
+      "file": "viewer/ref-260-bare.png",
+      "bytes": 76257,
+      "sha256": "bbecce4e496768120abc5714551eae270d131dd9c639c9a919d6b49b53bcd817"
+    },
+    {
+      "file": "viewer/ref-260-padded.png",
+      "bytes": 76977,
+      "sha256": "c5935feb3e936806a881559c90dd494cedf1af8a11297a870996e60ad5c2a478"
+    },
+    {
+      "file": "realviewer/c8-p10.png",
+      "bytes": 640725,
+      "sha256": "6601a508921ffe91843878010f3608adbc50ba98ed668ea50b1b8377feba99d2"
+    },
+    {
+      "file": "realviewer/kvm-p1.png",
+      "bytes": 500396,
+      "sha256": "df7a91acebb14ac1b188b8c9a4dc861767c32f5c479b868517fc1ee5961bea3d"
+    },
+    {
+      "file": "realviewer/kvm-p5.png",
+      "bytes": 690181,
+      "sha256": "5a3e2473578697a41c5d78f5fb392d3b1792f1f5dbcbcbeaad3e27a71efbd931"
+    }
+  ],
+  "marker_pdf_bounds": [
+    {
+      "control": "punct-22-a3db",
+      "source_first_glyph_bounds": [
+        94,
+        144,
+        183,
+        232
+      ],
+      "pdf_first_glyph_bounds": [
+        94,
+        143,
+        184,
+        233
+      ],
+      "delta": [
+        0,
+        -1,
+        1,
+        1
+      ]
+    },
+    {
+      "control": "punct-34-a3db",
+      "source_first_glyph_bounds": [
+        110,
+        133,
+        249,
+        271
+      ],
+      "pdf_first_glyph_bounds": [
+        110,
+        132,
+        250,
+        272
+      ],
+      "delta": [
+        0,
+        -1,
+        1,
+        1
+      ]
+    },
+    {
+      "control": "punct-40-a3a8",
+      "source_first_glyph_bounds": [
+        104,
+        134,
+        267,
+        295
+      ],
+      "pdf_first_glyph_bounds": [
+        104,
+        133,
+        269,
+        298
+      ],
+      "delta": [
+        0,
+        -1,
+        2,
+        3
+      ]
+    },
+    {
+      "control": "c8-axis-38",
+      "source_first_glyph_bounds": [
+        64,
+        137,
+        219,
+        291
+      ],
+      "pdf_first_glyph_bounds": [
+        64,
+        137,
+        220,
+        293
+      ],
+      "delta": [
+        0,
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "control": "c8-style-094a",
+      "source_first_glyph_bounds": [
+        64,
+        139,
+        409,
+        481
+      ],
+      "pdf_first_glyph_bounds": [
+        64,
+        137,
+        410,
+        483
+      ],
+      "delta": [
+        0,
+        -2,
+        1,
+        2
+      ]
+    },
+    {
+      "control": "c8-style-a4a5",
+      "source_first_glyph_bounds": [
+        64,
+        138,
+        236,
+        308
+      ],
+      "pdf_first_glyph_bounds": [
+        64,
+        136,
+        237,
+        309
+      ],
+      "delta": [
+        0,
+        -2,
+        1,
+        1
+      ]
+    },
+    {
+      "control": "decor-axis-34-2",
+      "source_first_glyph_bounds": [
+        64,
+        137,
+        203,
+        275
+      ],
+      "pdf_first_glyph_bounds": [
+        64,
+        136,
+        204,
+        276
+      ],
+      "delta": [
+        0,
+        -1,
+        1,
+        1
+      ]
+    },
+    {
+      "control": "decoration-46",
+      "source_first_glyph_bounds": [
+        64,
+        137,
+        207,
+        279
+      ],
+      "pdf_first_glyph_bounds": [
+        64,
+        137,
+        208,
+        281
+      ],
+      "delta": [
+        0,
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "complete_cli": [
+    {
+      "label": "c8",
+      "pdf_sha256": "db0859192313afc1879f3b2bf941c9978251ef01ebeec28d446a16a4992bff23",
+      "pdf_bytes": 8891004,
+      "pages": [
+        {
+          "page": 1,
+          "native_glyphs": 0,
+          "pdf_glyphs": 0,
+          "image_draws": 1
+        },
+        {
+          "page": 2,
+          "native_glyphs": 0,
+          "pdf_glyphs": 0,
+          "image_draws": 1
+        },
+        {
+          "page": 3,
+          "native_glyphs": 0,
+          "pdf_glyphs": 0,
+          "image_draws": 1
+        },
+        {
+          "page": 4,
+          "native_glyphs": 0,
+          "pdf_glyphs": 0,
+          "image_draws": 1
+        },
+        {
+          "page": 5,
+          "native_glyphs": 0,
+          "pdf_glyphs": 0,
+          "image_draws": 1
+        },
+        {
+          "page": 6,
+          "native_glyphs": 0,
+          "pdf_glyphs": 0,
+          "image_draws": 1
+        },
+        {
+          "page": 7,
+          "native_glyphs": 0,
+          "pdf_glyphs": 0,
+          "image_draws": 1
+        },
+        {
+          "page": 8,
+          "native_glyphs": 0,
+          "pdf_glyphs": 0,
+          "image_draws": 1
+        },
+        {
+          "page": 9,
+          "native_glyphs": 0,
+          "pdf_glyphs": 0,
+          "image_draws": 1
+        },
+        {
+          "page": 10,
+          "native_glyphs": 1977,
+          "pdf_glyphs": 1977,
+          "image_draws": 8
+        }
+      ]
+    },
+    {
+      "label": "kvm",
+      "pdf_sha256": "1ce3a67f4f6a43647dff2a8da88162d4a15f21ad2c06f7616e054f38989c280e",
+      "pdf_bytes": 818868,
+      "pages": [
+        {
+          "page": 1,
+          "native_glyphs": 2492,
+          "pdf_glyphs": 2492,
+          "image_draws": 0
+        },
+        {
+          "page": 2,
+          "native_glyphs": 1597,
+          "pdf_glyphs": 1597,
+          "image_draws": 2
+        },
+        {
+          "page": 3,
+          "native_glyphs": 1731,
+          "pdf_glyphs": 1731,
+          "image_draws": 1
+        },
+        {
+          "page": 4,
+          "native_glyphs": 1905,
+          "pdf_glyphs": 1905,
+          "image_draws": 1
+        },
+        {
+          "page": 5,
+          "native_glyphs": 2552,
+          "pdf_glyphs": 2552,
+          "image_draws": 0
+        }
+      ]
+    }
+  ],
+  "complete_runtimes": {
+    "node": [
+      {
+        "label": "c8",
+        "pages": 10,
+        "sha256": "db0859192313afc1879f3b2bf941c9978251ef01ebeec28d446a16a4992bff23",
+        "maxChunk": 262144
+      },
+      {
+        "label": "kvm",
+        "pages": 5,
+        "sha256": "1ce3a67f4f6a43647dff2a8da88162d4a15f21ad2c06f7616e054f38989c280e",
+        "maxChunk": 127274
+      }
+    ],
+    "browser": {
+      "results": [
+        {
+          "label": "c8",
+          "pages": 10,
+          "bytes": 8891004,
+          "maxChunk": 262144,
+          "sha256": "db0859192313afc1879f3b2bf941c9978251ef01ebeec28d446a16a4992bff23"
+        },
+        {
+          "label": "kvm",
+          "pages": 5,
+          "bytes": 818868,
+          "maxChunk": 127274,
+          "sha256": "1ce3a67f4f6a43647dff2a8da88162d4a15f21ad2c06f7616e054f38989c280e"
+        }
+      ],
+      "remaining": []
+    }
+  },
+  "validation_logs": [
+    {
+      "file": "tests-native.log",
+      "bytes": 112056,
+      "sha256": "3981aa9da9ea0c72513701980f560cef7dab0cfb101d147e062fe9a7390ff471"
+    },
+    {
+      "file": "tests-js-all.log",
+      "bytes": 11869,
+      "sha256": "67bd493f32f69fffbffad7372e1472d82fb31fcf2b4bdab4cbb107c08ec16d21"
+    },
+    {
+      "file": "tests-js-final.log",
+      "bytes": 2403,
+      "sha256": "b9044656e63b3d4999fa7465fd483f8ccaa59bf356848242347e9a4a06543309"
+    },
+    {
+      "file": "coverage.log",
+      "bytes": 114820,
+      "sha256": "a6cb5c621c4216a7d9e931fd8aecb1d09a46d8e3bb4b220e6f8e37169922c01c"
+    },
+    {
+      "file": "clippy.log",
+      "bytes": 400,
+      "sha256": "e88d4de57e33a1cbb599d6664f5b16dffc95efff17dfa8453649ba201668cddc"
+    },
+    {
+      "file": "rustdoc.log",
+      "bytes": 626,
+      "sha256": "d0de4aea64b3cef59225db54317433d0eec5ccb153ec9478d90a38142da75fed"
+    },
+    {
+      "file": "wasm-check.log",
+      "bytes": 1301,
+      "sha256": "c58f9a9d7d2ccbf3464e354775a5f80a793d19a9939591cc9da8fd250232445a"
+    },
+    {
+      "file": "wasm-build.log",
+      "bytes": 282,
+      "sha256": "fc625958fd0a5484533762f4b730d514a2e2887268790378428a0d42b4c7d297"
+    },
+    {
+      "file": "deny.log",
+      "bytes": 774,
+      "sha256": "fbf798d5be7c1112d6e8a6b813462be103551193f375dd98ac15445d367b4e2b"
+    },
+    {
+      "file": "tests-native-final.log",
+      "bytes": 23967,
+      "sha256": "56fbef30e033bace7a0ebefa41aa5a454c2af528517551888336fb8e497afecf"
+    },
+    {
+      "file": "msrv.log",
+      "bytes": 1673,
+      "sha256": "d900098ff3f2070a81592203c81ccb453980250c82f8d7c38beb6937d961ecbb"
+    }
+  ],
+  "optional_full_corpus": "NOT_RUN",
+  "limitations": [
+    "The controls include unsupported comparison inputs; their generation is not a conversion pass.",
+    "Failed, blank and stale viewer captures are excluded.",
+    "Output fonts differ from source fonts; selected layout and count checks do not prove pixel parity or all Unicode identities.",
+    "Coverage was measured before a subsequent Clippy-only or_else-to-or simplification; affected final native/WASM tests are recorded in the implementation PR.",
+    "HN-B issue 381 and C8/HN-B outline issue 303 remain open."
+  ]
+}
