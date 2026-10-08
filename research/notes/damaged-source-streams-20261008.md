@@ -2,6 +2,11 @@
 
 # Damaged source streams behind the issue-20 warning
 
+Later evidence: a [checksum-confirmed substitution candidate](stream-substitution-candidate-20261008.md)
+restores all six original checksums and page-table offsets. The observations
+below retain the earlier unchanged-source baseline; production recovery is
+still unimplemented and #436 remains open.
+
 [Rust #436](https://github.com/rwv/caj2pdf-rust/issues/436), under
 [#406](https://github.com/rwv/caj2pdf-rust/issues/406), remains open. The
 accepted 63-page conversion preserves six already damaged source streams.
