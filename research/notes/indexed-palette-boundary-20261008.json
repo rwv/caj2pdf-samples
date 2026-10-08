@@ -12892,7 +12892,7 @@
       "--mount",
       "type=bind,src=<external-cache>/420-grid-viewer/raw/start.sh,dst=/start.sh,readonly",
       "--mount",
-      "type=bind,src=/home/hzc/.cache/caj2pdf-worktrees/samples-419-verification/research/cajviewer,dst=/tools,readonly",
+      "type=bind,src=<external-worktrees>/samples-419-verification/research/cajviewer,dst=/tools,readonly",
       "--entrypoint",
       "/usr/bin/timeout",
       "sha256:cb5049d3448b6d5bcfd371cf195d522d637869dce075cb1650d74198875171de",
