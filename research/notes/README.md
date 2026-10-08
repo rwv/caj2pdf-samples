@@ -1,5 +1,10 @@
 # Research notes
 
+The [2026-10-08 CAA/NH discovery](caa-nh-discovery-20261008.md) adds 18 descriptors and one
+original-extension HN-A document, with offline viewer and complete
+CLI/Node/Chromium results. It supersedes the earlier CAA/NH sample gaps;
+CAS remains open in [#28](https://github.com/rwv/caj2pdf-samples/issues/28).
+
 These notes record the format investigations, oracles and validation runs
 behind the decoders. They are evidence, not user documentation: start with
 the [README](../../README.md) and the [CLI reference](../cli.md). Each note

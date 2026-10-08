@@ -1,0 +1,461 @@
+{
+  "schema_version": 1,
+  "baseline_rust_revision": "b02a6ece1e7e6c7c2c49c3abfa2ad72b5f8a7565",
+  "baseline_catalog_revision": "ae17dff5ce287fa37acbcfe189ad0ccf1ecf62c8",
+  "baseline_catalog_count": 1277,
+  "new_unique_descriptors": 18,
+  "new_unique_documents": 1,
+  "source_paths_caa": 21,
+  "redistribution": "not_declared; metadata only",
+  "caa": [
+    {
+      "sha256": "03419f6ff1b19296e0ad7d4e9e0a72284e739d2b8bae9fe06f33ab478b9dda7c",
+      "size_bytes": 350,
+      "doctype": "NH",
+      "newline": "LF",
+      "trailing_whitespace_bytes": 1,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 148,
+        "D2": 144
+      }
+    },
+    {
+      "sha256": "f66d3b9a0fde582c6f6256d56f08e3effbbb7e4464c896c70e61e5b34322c443",
+      "size_bytes": 404,
+      "doctype": "NH",
+      "newline": "CRLF",
+      "trailing_whitespace_bytes": 2,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
+    },
+    {
+      "sha256": "7f4f2b21fb51a23dac8aa08c9768a85bd44f5de996225834322a92978ca93259",
+      "size_bytes": 404,
+      "doctype": "NH",
+      "newline": "CRLF",
+      "trailing_whitespace_bytes": 2,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
+    },
+    {
+      "sha256": "4f9a463f7dd670e2a614c955cf305cee7b4014e5c5f861d318adbfedebfb443a",
+      "size_bytes": 404,
+      "doctype": "NH",
+      "newline": "CRLF",
+      "trailing_whitespace_bytes": 2,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
+    },
+    {
+      "sha256": "7cfa7599c089eaffdc422289d29e8a76adf44f93e9194fe211a06e4d9f5d3f11",
+      "size_bytes": 404,
+      "doctype": "NH",
+      "newline": "CRLF",
+      "trailing_whitespace_bytes": 2,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
+    },
+    {
+      "sha256": "cbd85c253338a8322120bf77742e378705be4d4e47d0e1257f0ccc45cfb4ee7a",
+      "size_bytes": 404,
+      "doctype": "NH",
+      "newline": "CRLF",
+      "trailing_whitespace_bytes": 2,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
+    },
+    {
+      "sha256": "e31143b3fc253466f3eba5987b47890d6467cf118bfc9fae1d2c07154dd4edcc",
+      "size_bytes": 404,
+      "doctype": "NH",
+      "newline": "CRLF",
+      "trailing_whitespace_bytes": 2,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
+    },
+    {
+      "sha256": "1588484537d28dac57b640be24b5bda72e5cd3e66282ab255f789e52a5356524",
+      "size_bytes": 404,
+      "doctype": "NH",
+      "newline": "CRLF",
+      "trailing_whitespace_bytes": 2,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
+    },
+    {
+      "sha256": "ab0ecfe75ff1108bd74c65dd98dda63e9169ada99d96ec599352a50239f3b65b",
+      "size_bytes": 404,
+      "doctype": "NH",
+      "newline": "CRLF",
+      "trailing_whitespace_bytes": 2,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
+    },
+    {
+      "sha256": "ca76a07651462bca2d16a884e1e744e62b522bf07ac95db97cabba9d2f052d7f",
+      "size_bytes": 404,
+      "doctype": "NH",
+      "newline": "CRLF",
+      "trailing_whitespace_bytes": 2,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
+    },
+    {
+      "sha256": "8b6ac10185fbf9a1bb00c744fe381a378ab286590afa52bc8577f6d5044c20c3",
+      "size_bytes": 359,
+      "doctype": "KDH",
+      "newline": "LF",
+      "trailing_whitespace_bytes": 1,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 152,
+        "D2": 148
+      }
+    },
+    {
+      "sha256": "e9bbce707425dd00865a9f7e2f721c298096f4dae8561ae920822101b86f3bae",
+      "size_bytes": 404,
+      "doctype": "NH",
+      "newline": "CRLF",
+      "trailing_whitespace_bytes": 2,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
+    },
+    {
+      "sha256": "c0f64bd0b1ae1f4f3f463b2a40472d76d505063403d3dc672168eadfc48634ab",
+      "size_bytes": 404,
+      "doctype": "NH",
+      "newline": "CRLF",
+      "trailing_whitespace_bytes": 2,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
+    },
+    {
+      "sha256": "b2d44f4b141beb6b564207e2638a7bb1f64d128327119205d3d546fef603453f",
+      "size_bytes": 404,
+      "doctype": "NH",
+      "newline": "CRLF",
+      "trailing_whitespace_bytes": 2,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
+    },
+    {
+      "sha256": "e0bf5036ec34eece9efaa658dc4a06c1ebbb6962a527320864540e3eff905a62",
+      "size_bytes": 367,
+      "doctype": "KDH",
+      "newline": "LF",
+      "trailing_whitespace_bytes": 1,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 156,
+        "D2": 152
+      }
+    },
+    {
+      "sha256": "6952b7758b8c9711f874102e32ebcd200f048bfde53eee70d338430bb56fa4c3",
+      "size_bytes": 362,
+      "doctype": "NH",
+      "newline": "LF",
+      "trailing_whitespace_bytes": 1,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 152,
+        "D2": 152
+      }
+    },
+    {
+      "sha256": "cd8efb8bb0039364ebc8625de3f130dc512c639ffee2c811df042a3f87312ebb",
+      "size_bytes": 362,
+      "doctype": "NH",
+      "newline": "LF",
+      "trailing_whitespace_bytes": 1,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 152,
+        "D2": 152
+      }
+    },
+    {
+      "sha256": "f41afa7ba6866a59aac14b35135ee18dac8b57653ceb70e09f62407b597bfee4",
+      "size_bytes": 355,
+      "doctype": "NH",
+      "newline": "CRLF",
+      "trailing_whitespace_bytes": 5,
+      "baseline_inspect_exit": 1,
+      "baseline_inspect_reason": "unrecognized input format",
+      "baseline_conversion_exit": 1,
+      "baseline_conversion_reason": "unrecognized input format",
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 144,
+        "D2": 140
+      }
+    }
+  ],
+  "viewer": [
+    {
+      "case": "caa-nh",
+      "sample_sha256": "03419f6ff1b19296e0ad7d4e9e0a72284e739d2b8bae9fe06f33ab478b9dda7c",
+      "viewer_version": "Linux 9.0.0.24093",
+      "image_sha256": "cb5049d3448b6d5bcfd371cf195d522d637869dce075cb1650d74198875171de",
+      "network": "none",
+      "observed_dialog_translation": "Unrecognized file type",
+      "screenshot_sha256": "a9432ab7e550ca98f9c4e45cc1927bea9c37660421c85309bdb9e6e3f3c75ce1",
+      "status": "UNSUPPORTED",
+      "scope": "Offline opening only; no decoder or linked-content/network semantics established."
+    },
+    {
+      "case": "caa-kdh",
+      "sample_sha256": "8b6ac10185fbf9a1bb00c744fe381a378ab286590afa52bc8577f6d5044c20c3",
+      "viewer_version": "Linux 9.0.0.24093",
+      "image_sha256": "cb5049d3448b6d5bcfd371cf195d522d637869dce075cb1650d74198875171de",
+      "network": "none",
+      "observed_dialog_translation": "Unrecognized file type",
+      "screenshot_sha256": "66b793bf82996a0be6133a4265c48443648c7fc858e1e16b7a8b9d97ec38be6c",
+      "status": "UNSUPPORTED",
+      "scope": "Offline opening only; no decoder or linked-content/network semantics established."
+    }
+  ],
+  "viewer_control": {
+    "fixture": "tests/fixtures/valid_out_of_order_objects.pdf",
+    "observation": "Opened two-page original PDF with Part One / Chapter Two outline",
+    "screenshot_sha256": "e3f8e554866ae30697452ce4df0465f76846c903e7345e7c46d575f642fa52aa"
+  },
+  "nh": {
+    "sha256": "16b1a3b1cb7177cc3d327f749f7f273d806b153ded5fe11d9261bac030ec66ac",
+    "legacy_v0_4_0": "FAIL: page 4, image 1, source byte 246762, SBRTEMPLATE without SBREFINE flags 0x800c",
+    "native": {
+      "status": "PASS",
+      "page_count": 433,
+      "outline_count": 365,
+      "pdf_sha256": "b12385a8a53a811ac245dd6f65b410a5c1b1be526292b42e94594a6b75c4add3",
+      "pdf_size_bytes": 24592732,
+      "qpdf": "PASS, exit 0, no warnings"
+    },
+    "node": {
+      "status": "PASS",
+      "info": {
+        "format": "hn",
+        "pageCount": 433,
+        "bookmarkCount": 365,
+        "outlineWarnings": 0,
+        "applicationInfo": null,
+        "inputBytesRead": "112445"
+      },
+      "report": {
+        "format": "hn",
+        "inputBytesRead": "9340553",
+        "outputBytesWritten": "24592732",
+        "pagesConverted": 433,
+        "substitutedGlyphs": "0",
+        "bookmarksWritten": 365,
+        "omittedPages": [],
+        "outlineWarnings": 0,
+        "outlineOmitted": false
+      },
+      "sha256": "b12385a8a53a811ac245dd6f65b410a5c1b1be526292b42e94594a6b75c4add3",
+      "qpdf": "PASS, exit 0, no warnings"
+    },
+    "browser": {
+      "status": "PASS",
+      "info": {
+        "format": "hn",
+        "pageCount": 433,
+        "bookmarkCount": 365,
+        "outlineWarnings": 0,
+        "applicationInfo": null,
+        "inputBytesRead": "112445"
+      },
+      "report": {
+        "format": "hn",
+        "inputBytesRead": "9340553",
+        "outputBytesWritten": "24592732",
+        "pagesConverted": 433,
+        "substitutedGlyphs": "0",
+        "bookmarksWritten": 365,
+        "omittedPages": [],
+        "outlineWarnings": 0,
+        "outlineOmitted": false
+      },
+      "size": 24592732,
+      "sha256": "b12385a8a53a811ac245dd6f65b410a5c1b1be526292b42e94594a6b75c4add3",
+      "pageErrors": [],
+      "qpdf": "PASS, exit 0, no warnings"
+    },
+    "source_viewer_pixel_comparison": "NOT_RUN"
+  },
+  "excluded_issue29": {
+    "source": "https://github.com/caj2pdf/caj2pdf/issues/29",
+    "archive_url": "https://github.com/JeziL/caj2pdf/files/2923341/HN_and_PDF.zip",
+    "archive_sha256": "427f80d2deca3e8c5c9e2d9507db25fac4708329a61421986b4a481d1aca427d",
+    "members": [
+      {
+        "name": "阈上和阈下奖励对无意识剌激诱发的反应抑制的影响_刁留亭.caj",
+        "size_bytes": 10155625,
+        "sha256": "ede5eddb0e8ec1dea46c32a06e16ac12b874a141ca2d6669736495d2ac549261",
+        "first_16_hex": "484e0000900100008800000000000000",
+        "already_catalogued": true
+      },
+      {
+        "name": "阈上和阈下奖励对无意识剌激诱发的反应抑制的影响_刁留亭.pdf",
+        "size_bytes": 6932313,
+        "sha256": "b4e42d82433d6f37326be0ad8285e3016553bc86e1c68f519e5cffccb8b5a400",
+        "first_16_hex": "255044462d312e360d25e2e3cfd30d0a",
+        "already_catalogued": false
+      }
+    ],
+    "reason": "HN member has .caj extension and already exists in catalog."
+  },
+  "cas": {
+    "sample_status": "UNRESOLVED",
+    "historical_vendor_reference": "https://staatsbibliothek-berlin.de/fileadmin/user_upload/zentrale_Seiten/ostasienabteilung/pdf/UserGuide35.pdf",
+    "github_code_searches": [
+      {
+        "query": "extension:cas \"TARGET\"",
+        "count": 137,
+        "conclusion": "Reviewed returned candidates; no authenticated CNKI CAS sample."
+      },
+      {
+        "query": "extension:cas \"DOCTYPE\"",
+        "count": 2,
+        "conclusion": "Reviewed returned candidates; no authenticated CNKI CAS sample."
+      },
+      {
+        "query": "extension:cas \"CAJ\"",
+        "count": 1,
+        "conclusion": "Reviewed returned candidates; no authenticated CNKI CAS sample."
+      },
+      {
+        "query": "extension:nh \"DOCTYPE\"",
+        "count": 0,
+        "conclusion": "Reviewed returned candidates; no authenticated CNKI CAS sample."
+      }
+    ],
+    "web_queries": [
+      "CAS CAJViewer sample",
+      "CAS CAJViewer 文件 下载 样本"
+    ],
+    "notes": "No CNKI CAS bytes authenticated. Many .cas hits are unrelated source, policy or simulation files. Searches are not exhaustive."
+  },
+  "tools": {
+    "node": "v24.13.0",
+    "chromium": "Chromium 154.0.8037.92 built on Debian GNU/Linux 13 (trixie)",
+    "qpdf": "qpdf version 12.2.0"
+  },
+  "caa_field_order": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2",
+    "D1",
+    "D2",
+    "DOCTYPE"
+  ]
+}
