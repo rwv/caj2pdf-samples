@@ -153,3 +153,5 @@ regression rerun after that fix.
 - [Truncated 134-page CAJ](truncated-caj-20261008.md): original Git-blob identity, missing stream/page spans, runtime refusal/cleanup, scoped viewer damage behavior and a distinct archived-PDF follow-up.
 
 - [Named local destinations](named-destinations-20261008.md): a separate 139-page archived author PDF, bounded name-tree support, all-page/object/stream checks, scoped reader navigation controls and preserved baseline results.
+
+- [Interrupted metadata and missing CAJ parents](interrupted-metadata-parents-20261008.md): one recovered 53-page original, complete object/stream/page/bookmark proof, scoped viewer negatives, preserved baseline hashes and a separately fixed browser cancellation race.
