@@ -7,8 +7,18 @@
 CAJ originals with four malformed Pattern matrices. The
 [receipt](pattern-matrix-fallback-20261008.json) pins the original sources,
 full measurement candidate `dfb539573fb37b7145ba6f6d2eb1a205946cb93d`,
-final integrated candidate `4308d424587486b57d303d317b3fededbf1223e7`, source comparisons,
+conversion rerun candidate `4308d424587486b57d303d317b3fededbf1223e7`, source comparisons,
 viewer controls, runtime hashes and 1,277 original inputs / 2,126 native attempts.
+
+The final PR head is `56e3bbc5f047173a48b8c3d44eb313c9e8a02fbb`, after
+main's v0.6.0 release preparation (#430). The
+[release integration receipt](pattern-matrix-release-integration-20261008.json)
+proves identical conversion/runtime source trees and dependency graph, with only
+project versions and release documentation changed. Both unchanged originals
+were freshly rebuilt and checked on native, Node and Chromium; local suites
+and all eight required CI checks pass on this head. The complete corpus
+execution stays attributed to `4308d42`; no additional full run is claimed.
+
 
 | Original SHA-256 prefix | Pages | Source bookmarks | Raw streams | Pattern objects | Affected page |
 | --- | ---: | ---: | ---: | --- | ---: |
