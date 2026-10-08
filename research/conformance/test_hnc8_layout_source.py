@@ -50,6 +50,7 @@ def document(variant: str, pages: int = 2, size: int = 2048) -> tuple[bytearray,
         index = 0x15C + 308
     else:
         output[0:8] = b"HN\x00\x00\xc8\x00\x00\x00"
+        struct.pack_into("<I", output, 0x88, 0xc8)
         struct.pack_into("<i", output, 0x90, pages)
         index = 0xD8
     return output, index
@@ -127,6 +128,32 @@ class SourceLayoutTests(unittest.TestCase):
                 self.assertLessEqual(measured.max_request_bytes, 5)
                 self.assertGreater(measured.reader_bytes, len(b"abc"))
 
+    def test_compact_hnb_index_uses_explicit_marker_and_bounded_rows(self):
+        data, index = document("HN-B", size=300)
+        struct.pack_into("<I", data, 0x88, 0)
+        for page, text in enumerate((b"one", b"second")):
+            offset = index + 24 + page * 12
+            struct.pack_into("<iiI", data, index + page * 12, offset, len(text), 0)
+            data[offset:offset + len(text)] = text
+        measured = SourceExtractor(MemoryInput(bytes(data), max_return=1), "compact", SourceLimits(io_chunk_bytes=2))
+        pages = list(measured.iter_pages())
+        self.assertEqual(measured.header["page_index_length"], 24)
+        self.assertEqual([p["row_offset"] for p in pages], [index, index + 12])
+        self.assertEqual([p["text_sha256"] for p in pages], [hashlib.sha256(t).hexdigest() for t in (b"one", b"second")])
+        self.assertTrue(all(p["row_bytes"] == 12 and p["images"] == [] for p in pages))
+        self.assertLessEqual(measured.max_request_bytes, 2)
+        for offset, value in [(0x88, 1), (index + 8, 1), (index, index + 23)]:
+            invalid = bytearray(data)
+            struct.pack_into("<I", invalid, offset, value)
+            with self.assertRaises(SourceMetadataError) as caught:
+                list(SourceExtractor(MemoryInput(bytes(invalid)), "invalid").iter_pages())
+            self.assertEqual(caught.exception.offset, offset)
+        # A crossed marker must not retry compact interpretation after failure.
+        crossed = bytearray(data)
+        struct.pack_into("<I", crossed, 0x88, 0xc8)
+        with self.assertRaises(SourceMetadataError):
+            list(SourceExtractor(MemoryInput(bytes(crossed)), "crossed").iter_pages())
+
     def test_cross_page_aliases_keep_both_identities(self) -> None:
         data, index = document("C8")
         row(data, index, 1, 300, b"a", 1)
@@ -156,6 +183,7 @@ class SourceLayoutTests(unittest.TestCase):
         data, index = document("HN-B", pages=4, size=13_100)
         data[:12_886] = b"x" * 12_886
         data[0:8] = b"HN\x00\x00\xc8\x00\x00\x00"
+        struct.pack_into("<I", data, 0x88, 0xc8)
         struct.pack_into("<i", data, 0x90, 4)
         row(data, index, 1, 300, b"a", 0)
         struct.pack_into("<iihHII", data, index + 20, 0, 12_886, 1, 0, 0, 0)
@@ -171,7 +199,7 @@ class SourceLayoutTests(unittest.TestCase):
 
     def test_short_reads_zero_progress_overreport_io_failure_and_bad_type(self) -> None:
         data, _ = sample()
-        source = MemoryInput(data, max_return=1)
+        source = MemoryInput(bytes(data), max_return=1)
         measured = SourceExtractor(source, "short", SourceLimits(io_chunk_bytes=7))
         self.assertEqual(measured.read_page(1)["image_count"], 2)
         for mode, fragment in (("zero", "zero progress"), ("overreport", "overreported"), ("error", "synthetic read failure"), ("wrong_type", "nonbytes")):
