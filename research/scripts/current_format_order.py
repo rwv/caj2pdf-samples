@@ -17,6 +17,7 @@ import struct
 from hnc8_layout_source import FileInput, SourceExtractor
 from hnc8_page_composition import pnm_header
 import conformance
+import native_text_order
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -170,6 +171,7 @@ def check(commands, source: Path, pdf: Path, row: dict, info: dict, label: str) 
     if len(pages) != info.get("page_count"):
         return {"status": "FAIL", "reason": "source and output page counts differ"}
     mismatches = []
+    empty_pages = []
     checked = images = aliases = 0
     with FileInput(source) as stream:
         extractor = SourceExtractor(stream, row["id"])
@@ -191,7 +193,9 @@ def check(commands, source: Path, pdf: Path, row: dict, info: dict, label: str) 
                 actual = [extracted_image(path, bottom_up=index < len(page["images"])
                                           and page["images"][index]["record_type"] == 0)
                           for index, path in enumerate(files)]
-                if not images_match(expected, actual):
+                if not expected and not actual:
+                    empty_pages.append(number)
+                elif not images_match(expected, actual):
                     mismatches.append(number)
                 else:
                     aliases += len(expected) - len(actual)
@@ -201,10 +205,23 @@ def check(commands, source: Path, pdf: Path, row: dict, info: dict, label: str) 
                 for path in image_dir.iterdir():
                     path.unlink()
                 image_dir.rmdir()
-    return {"status": "FAIL" if mismatches or checked != len(pages) else "PASS", "pages": checked, "images": images,
-            "repeated_source_descriptors": aliases, "mismatched_pages": mismatches,
-            "method": "ordered source images versus Poppler extraction and pinned pixel oracles",
-            "scope": "page/image identity and order; not placement, alias coordinates or rendered-page parity"}
+    result = {"status": "FAIL" if mismatches or checked != len(pages) else "PASS", "pages": checked, "images": images,
+              "repeated_source_descriptors": aliases, "mismatched_pages": mismatches,
+              "method": "ordered source images versus Poppler extraction and pinned pixel oracles",
+              "scope": "page/image identity and order; not placement, alias coordinates or rendered-page parity"}
+    if empty_pages:
+        result["pages_without_images"] = empty_pages
+        result["bitmap_status"] = "NOT_APPLICABLE" if images == 0 else result["status"]
+        result["bitmap_scope"] = "zero-image pages require the separate complete native text check"
+        try:
+            text = native_text_order.verify(source, pdf, row["sha256"])
+        except (ImportError, ValueError, RuntimeError) as error:
+            text = {"status": "NOT_RUN", "reason": str(error)}
+        result["native_text"] = text
+        if result["status"] == "PASS":
+            result["status"] = text["status"]
+        result["method"] += "; complete source/PDF native glyph identity and order"
+    return result
 
 
 def source_outline_hash(source: Path, format_name: str, info: dict) -> tuple[int, str] | None:

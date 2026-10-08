@@ -6,7 +6,6 @@ import hashlib
 from pathlib import Path
 import shutil
 import struct
-import subprocess
 import sys
 import tempfile
 import unittest
@@ -154,12 +153,56 @@ class PageIdentityTests(unittest.TestCase):
         self.assertEqual(result["status"], "NOT_RUN")
         self.assertIn("new-sample", result["reason"])
 
+    def test_empty_bitmap_pages_require_complete_native_text_evidence(self):
+        class Extractor:
+            def __init__(self, stream, source_id):
+                pass
+
+            def iter_pages(self):
+                yield {"page_number": 1, "images": []}
+
+        class Extraction:
+            directory = self.root
+
+            def run(self, arguments, label):
+                return {"exit_code": 0}
+
+        for status in ("PASS", "FAIL", "NOT_RUN"):
+            with patch.object(order, "pdf_pages", return_value=[{}]), patch.object(
+                order, "FileInput", return_value=nullcontext(None),
+            ), patch.object(order, "SourceExtractor", Extractor), patch.object(
+                order.native_text_order, "verify", return_value={"status": status},
+            ) as verify:
+                result = order.check(Extraction(), self.root, self.root,
+                                     {"detected_type": "C8", "id": "original", "sha256": "pinned"},
+                                     {"page_count": 1}, "empty")
+            self.assertEqual(result["status"], status)
+            self.assertEqual(result["bitmap_status"], "NOT_APPLICABLE")
+            self.assertEqual(result["pages_without_images"], [1])
+            verify.assert_called_once_with(self.root, self.root, "pinned")
+
     @unittest.skipUnless(shutil.which("qpdf"), "qpdf is required for the original PDF control")
     def test_real_pdf_page_reordering_is_rejected(self):
-        source = ROOT / "tests/fixtures/valid_nested_outline.pdf"
+        source = self.root / "original.pdf"
+        objects = [b"<< /Type /Catalog /Pages 2 0 R >>",
+                   b"<< /Type /Pages /Kids [3 0 R 4 0 R] /Count 2 >>",
+                   b"<< /Type /Page /Parent 2 0 R /MediaBox [0 0 100 200] >>",
+                   b"<< /Type /Page /Parent 2 0 R /MediaBox [0 0 200 100] >>"]
+        data = bytearray(b"%PDF-1.4\n")
+        offsets = [0]
+        for number, body in enumerate(objects, 1):
+            offsets.append(len(data))
+            data.extend(f"{number} 0 obj\n".encode() + body + b"\nendobj\n")
+        xref = len(data)
+        data.extend(b"xref\n0 5\n0000000000 65535 f \n")
+        for offset in offsets[1:]:
+            data.extend(f"{offset:010d} 00000 n \n".encode())
+        data.extend(f"trailer\n<< /Root 1 0 R /Size 5 >>\nstartxref\n{xref}\n%%EOF\n".encode())
+        source.write_bytes(data)
         output = self.root / "swapped.pdf"
-        subprocess.run(["qpdf", str(source), "--pages", ".", "2,1", "--", str(output)], check=True,
-                       stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+        # Change only the Kids order, preserving every object identity/xref.
+        # A PDF rewriter may renumber swapped pages to the original IDs.
+        output.write_bytes(data.replace(b"[3 0 R 4 0 R]", b"[4 0 R 3 0 R]"))
         commands = Commands(self.root)
         self.assertEqual(order.check(commands, source, source, {"detected_type": "PDF"}, {}, "same")["status"], "PASS")
         self.assertEqual(order.check(commands, source, output, {"detected_type": "PDF"}, {}, "swapped")["status"], "FAIL")

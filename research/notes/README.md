@@ -129,3 +129,5 @@ regression rerun after that fix.
 
 - [Identical fragment page boxes: four-original verification](fragment-mediabox-20261008.md) (#407/#408).
 - [Correct the type-0 image oracle row convention](image-order-row-convention-20261008.md) (partial #12).
+
+- [Native content checks for text-only and mixed pages](native-content-order-20261008.md) (#12).

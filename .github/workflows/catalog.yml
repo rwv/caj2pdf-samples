@@ -17,3 +17,10 @@ jobs:
         run: python3 tools/check_catalog.py
       - name: Test the checker
         run: python3 -m unittest discover -s tests -v
+      - name: Test research identity parsers (no corpus download)
+        env:
+          PYTHONPATH: research/scripts
+        run: |
+          python3 -m unittest discover -s research/conformance -p 'test_hnc8_layout_source.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_native_text_order.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_current_format_order.py' -v

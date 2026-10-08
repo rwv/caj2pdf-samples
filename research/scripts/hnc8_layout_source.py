@@ -231,7 +231,14 @@ class SourceExtractor:
             if outlines > self.limits.max_outline_records:
                 self._fail(0x158, "outline records", "limit", f"{outlines} > {self.limits.max_outline_records}")
             index_at += outlines * 308
-        index_length = count * 20
+        row_bytes = 20
+        if variant == "HN-B":
+            marker = struct.unpack("<I", self._read(0x88, 4, "HN-B index marker"))[0]
+            if marker == 0:
+                row_bytes = 12
+            elif marker != 0xc8:
+                self._fail(0x88, "HN-B index marker", "unsupported", str(marker))
+        index_length = count * row_bytes
         self._span(index_at, index_length, "page index", index_at)
         return {
             "source_id": self.source_id,
@@ -239,6 +246,7 @@ class SourceExtractor:
             "page_count": count,
             "page_index_offset": index_at,
             "page_index_length": index_length,
+            "page_index_row_bytes": row_bytes,
         }
 
     def _dib_dimensions(self, offset: int, length: int, page: int, image: int) -> dict:
@@ -321,10 +329,19 @@ class SourceExtractor:
         count = self.header["page_count"]
         if not isinstance(page_number, int) or page_number < 1 or page_number > count:
             self._fail(self.header["page_index_offset"], "page number", "malformed", f"outside 1..{count}")
-        row_at = self.header["page_index_offset"] + (page_number - 1) * 20
+        row_bytes = self.header["page_index_row_bytes"]
+        row_at = self.header["page_index_offset"] + (page_number - 1) * row_bytes
         self._cancel(row_at, page_number)
-        row = self._read(row_at, 20, "page row", page_number)
-        text_offset, text_length, image_count = struct.unpack_from("<iih", row)
+        row = self._read(row_at, row_bytes, "page row", page_number)
+        if row_bytes == 12:
+            text_offset, text_length, reserved = struct.unpack("<iiI", row)
+            if reserved != 0:
+                self._fail(row_at + 8, "compact row reserved word", "unsupported", str(reserved), page_number)
+            if text_offset < self.header["page_index_offset"] + self.header["page_index_length"]:
+                self._fail(row_at, "compact text offset", "malformed", "overlaps page index", page_number)
+            image_count = 0
+        else:
+            text_offset, text_length, image_count = struct.unpack_from("<iih", row)
         if text_offset < 0:
             self._fail(row_at, "text offset", "malformed", "negative signed value", page_number)
         if text_length < 0:
@@ -348,8 +365,9 @@ class SourceExtractor:
             "text_sha256": text_hash,
             "image_count": image_count,
             "raw_10": int.from_bytes(row[10:12], "little"),
-            "raw_12": int.from_bytes(row[12:16], "little"),
-            "raw_16": int.from_bytes(row[16:20], "little"),
+            "raw_12": int.from_bytes(row[12:16], "little") if row_bytes == 20 else None,
+            "raw_16": int.from_bytes(row[16:20], "little") if row_bytes == 20 else None,
+            "row_bytes": row_bytes,
             "images": [],
         }
         descriptor_at = text_end

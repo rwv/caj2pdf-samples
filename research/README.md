@@ -48,7 +48,7 @@ cargo build --locked --release -p caj2pdf-core --example jbig2_page_parity
 
 ## Running the Python harnesses
 
-The harnesses use only the Python standard library (3.11+), plus the external
+Most harnesses use only the Python standard library (3.11+), plus the external
 black-box tools each one names (qpdf, MuPDF `mutool`, Poppler, libjpeg-turbo).
 They resolve paths from the caj2pdf-rust layout (`scripts/`,
 `tests/conformance/`, `tools/cajviewer/`), so run them from a caj2pdf-rust
@@ -96,3 +96,8 @@ caj2pdf-rust keeps its own `#[ignore]`d corpus tests (`cargo test -- --ignored`
 with `CAJ2PDF_CORPUS_DIR`), the JavaScript corpus runner and the three
 metadata files those read (`tests/conformance/matrix.json`,
 `jbig1_oracle.json`, `hnc8_type2_jpeg_inventory.tsv`).
+
+`native_text_order.py` additionally uses optional PyMuPDF (measured with 1.27.2.2)
+to open PDF objects. Missing PyMuPDF yields NOT_RUN in the integrated native-text
+check. Its parser unit tests use only the standard library. See the
+[native content verification note](notes/native-content-order-20261008.md).
