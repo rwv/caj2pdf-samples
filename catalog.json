@@ -8787,14 +8787,15 @@
       "original_extension": ".caj",
       "redistribution": "not_declared",
       "local_integrity": "PASS",
-      "conversion": "FAIL",
+      "conversion": "PASS",
       "viewer": "NOT_RUN",
       "source_revision": "10bd169615ef5cf7f3b9fcdbab9cdda108246184",
-      "conversion_revision": "a19953921914b7cc794c1f58e5b5d33e6c1cd570",
-      "conversion_evidence": "research/notes/github-sweep-fixes-20261007.json",
+      "conversion_revision": "a1781be5188d327f04239fc9d3e8ab54b8dd616c",
+      "conversion_evidence": "research/notes/interrupted-metadata-parents-20261008.json",
       "variant": "CAJ",
       "page_count": 53,
-      "bookmark_count": 56
+      "bookmark_count": 56,
+      "source_notes": "Rust #452 / PR #453: unchanged source converts on native, Node and Chromium with identical outputs. All original values/streams/pages and CAJ bookmarks match independent framing. Scoped source-viewer comparisons cover pages 1, 20 and 53 plus a content negative; viewer NOT_RUN does not claim full-document vendor fidelity. #441 remains open."
     },
     {
       "path": "external/github/50f14ac51b370c899fd0b1019a2bfd1c2bd088171b82a5c741532059bf3170d1.caj",
