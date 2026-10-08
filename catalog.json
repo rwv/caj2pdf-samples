@@ -27324,6 +27324,24 @@
       "conversion_revision": "b02a6ece1e7e6c7c2c49c3abfa2ad72b5f8a7565",
       "conversion_evidence": "research/notes/caa-nh-discovery-20261008.json",
       "descriptor_doctype": "NH"
+    },
+    {
+      "path": "external/archive/author-thesis-0720aeb03613.pdf",
+      "aliases": [],
+      "sha256": "0720aeb03613751b5675ca02d4e8ce85ecee4312b691f9f32b071229f57d1cd1",
+      "size_bytes": 12742695,
+      "detected_type": "PDF",
+      "source_repository": "https://ise.thss.tsinghua.edu.cn/~mlong/",
+      "source_url": "https://web.archive.org/web/20220119135502id_/http://ise.thss.tsinghua.edu.cn/~mlong/doc/phd-thesis-mingsheng-long.pdf",
+      "redistribution": "not_declared",
+      "local_integrity": "PASS",
+      "conversion": "PASS",
+      "viewer": "NOT_RUN",
+      "page_count": 139,
+      "bookmark_count": 97,
+      "conversion_revision": "53466a898d1ae157fe6354bc3f3900cfe51f5f1a",
+      "conversion_evidence": "research/notes/named-destinations-20261008.json",
+      "source_notes": "Distinct archived author-hosted identity found during Rust #448 alternative search. Not a repaired or substituted version of the truncated 134-page CAJ, and outside the original 1,277-input GitHub baseline. Native/Node/Chromium output is source-byte-identical. Scoped independent reader navigation and all-page Poppler checks are recorded; no vendor-viewer run."
     }
   ]
 }

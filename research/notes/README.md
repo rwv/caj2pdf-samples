@@ -151,3 +151,5 @@ regression rerun after that fix.
 - [Proved interrupted CAJ copies](interrupted-copies-20261008.md): three unchanged originals, 463 pages, complete object/stream and reference proof, scoped viewer controls, and a 1,277-original regression.
 - [Indexed nested empty Form](indexed-empty-form-20261008.md): preserve the outer object identity in a 66-page KDH, with complete xref/stream proof, all-page comparisons, scoped viewer controls and a 1,277-original regression.
 - [Truncated 134-page CAJ](truncated-caj-20261008.md): original Git-blob identity, missing stream/page spans, runtime refusal/cleanup, scoped viewer damage behavior and a distinct archived-PDF follow-up.
+
+- [Named local destinations](named-destinations-20261008.md): a separate 139-page archived author PDF, bounded name-tree support, all-page/object/stream checks, scoped reader navigation controls and preserved baseline results.

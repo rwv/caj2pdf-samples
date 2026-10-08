@@ -4,7 +4,7 @@ Real-document catalog and regression inputs for [caj2pdf-rust](https://github.co
 
 ## Current collection
 
-**1,296 unique inputs** are indexed: 1,278 document candidates and 18 CAA
+**1,297 unique inputs** are indexed: 1,279 document candidates and 18 CAA
 target descriptors. The [2026-10-08 discovery](research/notes/caa-nh-discovery-20261008.md)
 adds one original-extension NH document (433 pages/365 bookmarks, identical
 CLI/Node/Chromium outputs) and 18 metadata-only CAA entries. CAA conversion
@@ -12,15 +12,22 @@ is unsupported; their target declarations are not document pages.
 
 ### Latest native checkpoint
 
-The [nested empty Form recovery](research/notes/nested-empty-forms-20261008.md)
-adds three passes: the fresh 1,277-original run has **1,243 PASS, 25 FAIL and
-nine UNSUPPORTED**, with all previous successful PDF hashes unchanged and
-all 1,243 primary outputs passing qpdf. The three new originals separately
-pass native/Node/Chromium and all 211 independently framed page comparisons.
-One initial source-viewer raster disagreement remains recorded under
-[Rust #441](https://github.com/rwv/caj2pdf-rust/issues/441), despite matching
-identical-input repeats. This is not complete original-viewer fidelity proof;
-remaining refusals and other verification gaps stay open under #406.
+The [named-destination report](research/notes/named-destinations-20261008.md)
+adds a separately collected 139-page archived author PDF. Native, Node and
+Chromium preserve its bytes exactly; all 139 page renders, 97 outlines and
+889 named links agree with independent readers. It is a distinct identity
+outside the GitHub baseline and does not replace the truncated 134-page CAJ
+in [Rust #448](https://github.com/rwv/caj2pdf-rust/issues/448).
+
+The fresh 1,277-original native regression retains **1,248 PASS, 20 FAIL and
+nine UNSUPPORTED**, with every previously successful output hash unchanged.
+All 19 extended inputs retain their results (one NH pass, 18 CAA refusals).
+Ancillary failures and unexecuted checks remain explicit; the full sample
+correctness goal and vendor-viewer readiness limits stay open under
+[Rust #406](https://github.com/rwv/caj2pdf-rust/issues/406) and
+[#441](https://github.com/rwv/caj2pdf-rust/issues/441). The earlier 1,247-input
+Node/Chromium run used reviewed #444 code; it is not relabeled as this new
+implementation's full-corpus WASM run.
 
 ### Previous 1,277-document checkpoint
 
