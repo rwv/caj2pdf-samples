@@ -160,3 +160,6 @@ regression rerun after that fix.
 - [Retained CAJ catalog and incomplete page tree](retained-catalog-20261008.md): one recovered 78-page original, retained page labels, complete object/stream/page/bookmark comparisons, scoped viewer controls and unchanged prior-success hashes.
 
 - [Missing Indexed colors and accepted-output audit](indexed-palette-loss-20261008.md): two incompatible completions of the same surviving source data, source-history identity, current refusal/cleanup and a bounded lookup-length audit of 1,252 accepted PDFs.
+
+- [Current complete corpus runtime checkpoint](current-corpus-runtime-20261008.md): all 1,252 accepted inputs match the reviewed native output on Node and Chromium; all 45 remaining inputs receive explicit refusal/cleanup checks on all three runtimes.
+- [Expanded C8/HN-B outline inventory](hnc8-outline-inventory-20261008.md): 849 structural inventories, six selected contents-panel observations and correction of the historical 132-page HN-A example; no verified C8/HN-B outline layout.

@@ -29,6 +29,7 @@ jobs:
           python3 -m unittest discover -s research/conformance -p 'test_native_text_order.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_current_format_order.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_github_bitmap_oracle.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_hnc8_outline_inventory.py' -v
       - name: Test original Indexed lookup audit controls (no corpus download)
         run: |
           python3 -m pip install 'pikepdf==10.5.1'

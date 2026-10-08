@@ -114,3 +114,9 @@ external output manifest, using pikepdf and bounded POSIX child processes.
 exact source; its diagnostic PDFs and pixels must remain outside Git. See the
 [Indexed palette report](notes/indexed-palette-loss-20261008.md) for commands,
 synthetic controls, dependencies and limits.
+
+`hnc8_outline_inventory.py` inventories measured C8/HN-B index boundaries
+and bounded explicit application-info packages. Its
+[849-source report](notes/hnc8-outline-inventory-20261008.md) records structural
+and selected viewer evidence without inferring missing outlines. It uses
+only Python's standard library; seven original control groups run in CI.
