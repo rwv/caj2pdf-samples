@@ -1,0 +1,1591 @@
+{
+  "schema": "ttkn-payload-viewer-boundary-v1",
+  "scope": "Research only; no successful original conversion, decryption, full-page fidelity or irrecoverability claim.",
+  "inventory": {
+    "repository": "rwv/caj2pdf-samples",
+    "revision": "270aab219cad2dff00161915cbef1e7cea3e12c4",
+    "path": "research/notes/ttkn-wrapper-inventory-20261008.json",
+    "external_inventory_sha256": "333d8b367741e6b74c8707f232b9bf38c90bf0682537fd853738eeea9648b08b"
+  },
+  "production": {
+    "reviewed_code_head": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
+    "merge": "aaedf57de1e3789347113bdc7ca6687a9987e164",
+    "unchanged_conversion_status": "FAIL",
+    "unchanged_original_error": "AMBIGUOUS_PDF_REPAIR",
+    "reason": "Unknown data after the logical PDF EOF; the unsupported TTKN handler is a separate logical-prefix probe."
+  },
+  "payload": {
+    "script_sha256": "e4dc411f3fd90b40e567f2180efc252e49378e2981c477fcda4c94e1055e2ef5",
+    "inventory_sha256": "333d8b367741e6b74c8707f232b9bf38c90bf0682537fd853738eeea9648b08b",
+    "pikepdf_version": "10.5.1",
+    "zlib_version": "1.3.1",
+    "qpdf_version": "12.2.0"
+  },
+  "totals": {
+    "originals": 16,
+    "diagnostic_qpdf_exit_2": 16,
+    "object_graph_pages_not_decoded": 2647,
+    "streams": 16863,
+    "filters": {
+      "/FlateDecode": 11162,
+      "/DCTDecode": 407,
+      "NONE": 4647,
+      "/CCITTFaxDecode": 292,
+      "/JPXDecode": 2,
+      "/JBIG2Decode": 353
+    },
+    "flate_check": {
+      "INVALID_ZLIB": 11162,
+      "NOT_CHECKED": 5701
+    },
+    "length_modulo_16": {
+      "0": 16863
+    },
+    "parser_warnings": 17
+  },
+  "rows": [
+    {
+      "source_sha256": "868dfadd1cc5e623ecc3675f17d50ecef646865ab611eea82bed7ccfedc7ade0",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 9115513,
+        "original_encrypt_reference": [
+          1002,
+          0
+        ],
+        "diagnostic_sha256": "579301b0a92ff8b151c3e85e0dd8ea71ef03557c5ca5c5d49ab8943fb31ed971",
+        "diagnostic_bytes": 9115634
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "16a45dd5409060f6810a618cb5317d84ae2be0b032f5ae63b5955cd63e62ebc8",
+      "pages_in_plaintext_object_graph": 202,
+      "objects": 1003,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 371,
+        "length_modulo_16": {
+          "0": 371
+        },
+        "filters": {
+          "/FlateDecode": 308,
+          "/DCTDecode": 63
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 308,
+          "NOT_CHECKED": 63
+        }
+      },
+      "parser_warnings": [
+        "868dfadd1cc5e623ecc3675f17d50ecef646865ab611eea82bed7ccfedc7ade0.pdf (object 1 0, offset 9093182): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "bd24744ea8e15273fadf3a7a09b064a6878372bd6e48dad2aa8a4b474cd8a5e6",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "5cdf239130bc63c9fc28ca528bb4665c60f95031f8552e9ee119dbb2afbda35b",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 5380191,
+        "original_encrypt_reference": [
+          11365,
+          0
+        ],
+        "diagnostic_sha256": "716a96a75ba1f2f27c57b47ff6211d700e9e5a47cea9091c379e4431d417d22f",
+        "diagnostic_bytes": 5380313
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "6467be45c8222f3cdfe74cbd85d328f221fd5f706fe3fa112ec4168f299f8abc",
+      "pages_in_plaintext_object_graph": 112,
+      "objects": 11366,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 10853,
+        "length_modulo_16": {
+          "0": 10853
+        },
+        "filters": {
+          "/FlateDecode": 6711,
+          "NONE": 4137,
+          "/CCITTFaxDecode": 5
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 6711,
+          "NOT_CHECKED": 4142
+        }
+      },
+      "parser_warnings": [
+        "5cdf239130bc63c9fc28ca528bb4665c60f95031f8552e9ee119dbb2afbda35b.pdf (object 1 0, offset 5151358): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "c96b730fea2109581e77301617d56de9594cb08fa92b34cd152f862dc95caad5",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "a44a836f89e8faf9a949b88b753084ba2ce5851def9f6194c7528f325606a65c",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 954323,
+        "original_encrypt_reference": [
+          631,
+          0
+        ],
+        "diagnostic_sha256": "b38b6f3778517ae5f7625f20b552f7c415ad724218f9879d4f5b6e5d6fc226b7",
+        "diagnostic_bytes": 954442
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "dae8e073aee2f8129e37237ee117f9fa4d81a9fb75bd9f3c88fdbef457648dc4",
+      "pages_in_plaintext_object_graph": 57,
+      "objects": 632,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 101,
+        "length_modulo_16": {
+          "0": 101
+        },
+        "filters": {
+          "/FlateDecode": 98,
+          "NONE": 3
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 98,
+          "NOT_CHECKED": 3
+        }
+      },
+      "parser_warnings": [
+        "a44a836f89e8faf9a949b88b753084ba2ce5851def9f6194c7528f325606a65c.pdf (object 1 0, offset 940599): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "c9a5b2f999abc6b4fbbf2f52795dde8532060b3c3bb421c85d02564c29eeefa2",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "f5451a3d79faf72c8126ee4ef32cde6da5db853ea4917c17570022c1d7326185",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 1493496,
+        "original_encrypt_reference": [
+          1173,
+          0
+        ],
+        "diagnostic_sha256": "7bfba3e414010bfb82f13c3382b74f811a8bdd29d98332a15427fffe34023c73",
+        "diagnostic_bytes": 1493617
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "1f67697e15a0dc78923c4fbec692307091111f7e7d868a3f898c589938fd138d",
+      "pages_in_plaintext_object_graph": 77,
+      "objects": 1174,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 139,
+        "length_modulo_16": {
+          "0": 139
+        },
+        "filters": {
+          "/FlateDecode": 139
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 139
+        }
+      },
+      "parser_warnings": [
+        "f5451a3d79faf72c8126ee4ef32cde6da5db853ea4917c17570022c1d7326185.pdf (object 1 0, offset 1468750): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "3dc10799ebd48c0f6f995383176fbcd894ffbf5fecd7a2c9ca781925c1bddc36",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "7ec4a11a66e4ea8f1ebd5648feac31a889460a6164bb9d543aaac996a5c053dd",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 5142368,
+        "original_encrypt_reference": [
+          1159,
+          0
+        ],
+        "diagnostic_sha256": "6258d479c72fac94e7ad431e35f9842386591e88c3ddaefa6c0a210aad2af734",
+        "diagnostic_bytes": 5142489
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "ebf70485031a32069c56635e98b1da386446953c91eb4546c394e97a4fa21fda",
+      "pages_in_plaintext_object_graph": 287,
+      "objects": 1160,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 384,
+        "length_modulo_16": {
+          "0": 384
+        },
+        "filters": {
+          "/FlateDecode": 366,
+          "/DCTDecode": 18
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 366,
+          "NOT_CHECKED": 18
+        }
+      },
+      "parser_warnings": [
+        "7ec4a11a66e4ea8f1ebd5648feac31a889460a6164bb9d543aaac996a5c053dd.pdf (object 1 0, offset 5116213): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "0afbaedbd6072186dd7ac8367fa673aae7b73eb41111b83f626fcd9031886b99",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "f8dd698645430ba7f6bef32374da0fa27324db8a493f3cbf85ff07f93941431b",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 10202479,
+        "original_encrypt_reference": [
+          556,
+          0
+        ],
+        "diagnostic_sha256": "2a245e53da813d4a7cbca92d6a93cb24e124cf52b64b207fcb87ab165c962584",
+        "diagnostic_bytes": 10202600
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "1110e04e774f298775cd0bab54f37ef792507019a0831264ed5db7abfaffe976",
+      "pages_in_plaintext_object_graph": 110,
+      "objects": 557,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 201,
+        "length_modulo_16": {
+          "0": 201
+        },
+        "filters": {
+          "/FlateDecode": 139,
+          "/DCTDecode": 62
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 139,
+          "NOT_CHECKED": 62
+        }
+      },
+      "parser_warnings": [
+        "f8dd698645430ba7f6bef32374da0fa27324db8a493f3cbf85ff07f93941431b.pdf (object 1 0, offset 10189830): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "f056e64a8ed07f284fdfb3da823bdcb0cbe79f1b1f04784e23239aac6df58f8d",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "d6599518310e88ddacba8f0cab29f4758716ae240fa786d6b70895d9ac6de353",
+      "source_unchanged": true,
+      "wrapper_profile": "auth-url-without-certificate-or-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 14295779,
+        "original_encrypt_reference": [
+          1169,
+          0
+        ],
+        "diagnostic_sha256": "032ac88fc48a5acde7e41a852dd04b8a9dc7eda19c71b2e6f190b02eedfc5fd3",
+        "diagnostic_bytes": 14295901
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "18fc6819c133deba8aa41ece988384a039059b8fa0083d2e6cf21fe4e104c513",
+      "pages_in_plaintext_object_graph": 353,
+      "objects": 1170,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 708,
+        "length_modulo_16": {
+          "0": 708
+        },
+        "filters": {
+          "/FlateDecode": 355,
+          "/JPXDecode": 2,
+          "/JBIG2Decode": 351
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 355,
+          "NOT_CHECKED": 353
+        }
+      },
+      "parser_warnings": [
+        "d6599518310e88ddacba8f0cab29f4758716ae240fa786d6b70895d9ac6de353.pdf (object 1 0, offset 14268901): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "734b33fb1b17a84575f7120c318cda8e3ecc499a77bdd2426f2e37084b970de2",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "b772751bde6c80f5bfaa8776d2fa246af90488094704386bbc9a43a15ba433aa",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 811569,
+        "original_encrypt_reference": [
+          352,
+          0
+        ],
+        "diagnostic_sha256": "5d234409ac36a6a0de5e892da819c22888d0ac2233f9fac2fcdde1ef8185ed2b",
+        "diagnostic_bytes": 811688
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "dda0f0a73f88146c5b4e618a76b2fdac0e52aa21252a426cc2f330876477ae44",
+      "pages_in_plaintext_object_graph": 57,
+      "objects": 353,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 83,
+        "length_modulo_16": {
+          "0": 83
+        },
+        "filters": {
+          "/FlateDecode": 79,
+          "NONE": 2,
+          "/CCITTFaxDecode": 2
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 79,
+          "NOT_CHECKED": 4
+        }
+      },
+      "parser_warnings": [
+        "b772751bde6c80f5bfaa8776d2fa246af90488094704386bbc9a43a15ba433aa.pdf (object 1 0, offset 803422): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "98f399839015836e1ba14f236fce3ac89a55ddd772f4955acc81985692ebc762",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "aa02ee02dbe31a446296f19615d2b5f10cc879b5472a32159fcc3c23a042fc8f",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 3025478,
+        "original_encrypt_reference": [
+          294,
+          0
+        ],
+        "diagnostic_sha256": "39716b885a063c0520d057d1cd7774819f181e4fa7b446c4ca3f2b2b964d057d",
+        "diagnostic_bytes": 3025598
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "a5af6cd08012169d19ad881427b087209eadb3c5eb4b5c34847a64f396e33413",
+      "pages_in_plaintext_object_graph": 87,
+      "objects": 295,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 131,
+        "length_modulo_16": {
+          "0": 131
+        },
+        "filters": {
+          "/FlateDecode": 128,
+          "/DCTDecode": 3
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 128,
+          "NOT_CHECKED": 3
+        }
+      },
+      "parser_warnings": [
+        "aa02ee02dbe31a446296f19615d2b5f10cc879b5472a32159fcc3c23a042fc8f.pdf (object 1 0, offset 3018276): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "567ed2e42160588c5ed62bbc89b14faa3e155563ceb8afd3cc4c944bf5191c5c",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "b3a9284d70aace13cd16f4d27021a7766d69cd08aa855c9ca54476b23a41902b",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 4672977,
+        "original_encrypt_reference": [
+          839,
+          0
+        ],
+        "diagnostic_sha256": "42b8a4848045481ea2aa4a23435fdeb02aa94a7bbafea4a9fdad6e29cd66f396",
+        "diagnostic_bytes": 4673097
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "abdadc0f0f91cf3745fa805c7a312d4204e18ddf5932e96e84a48ef24394cc11",
+      "pages_in_plaintext_object_graph": 97,
+      "objects": 840,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 231,
+        "length_modulo_16": {
+          "0": 231
+        },
+        "filters": {
+          "/FlateDecode": 189,
+          "/CCITTFaxDecode": 2,
+          "/DCTDecode": 37,
+          "/JBIG2Decode": 2,
+          "NONE": 1
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 189,
+          "NOT_CHECKED": 42
+        }
+      },
+      "parser_warnings": [
+        "b3a9284d70aace13cd16f4d27021a7766d69cd08aa855c9ca54476b23a41902b.pdf (object 1 0, offset 4654755): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "353d03618a2768efc3741275987b817e2d3d160521f9daf226578529adbd56a8",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "e13f1a78060825fe0ba718b6def135204b947e65f926a5a7e6173aafbbc72d0a",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 4483436,
+        "original_encrypt_reference": [
+          737,
+          0
+        ],
+        "diagnostic_sha256": "17fdd7f88e2bd701172a7288d37b12bf9dd31f514785be5ab0d116354113be13",
+        "diagnostic_bytes": 4483556
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "84f230f0a129276e9896c4c6fd45703a9ffa84a1185b688e02b8d10e44444570",
+      "pages_in_plaintext_object_graph": 175,
+      "objects": 738,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 296,
+        "length_modulo_16": {
+          "0": 296
+        },
+        "filters": {
+          "/FlateDecode": 260,
+          "NONE": 10,
+          "/DCTDecode": 26
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 260,
+          "NOT_CHECKED": 36
+        }
+      },
+      "parser_warnings": [
+        "e13f1a78060825fe0ba718b6def135204b947e65f926a5a7e6173aafbbc72d0a.pdf (object 1 0, offset 4466666): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "c9e62904a83f0a36db2cca80151bdf1ed0010809035dddcfa44c2fc611deb77b",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "bfdce330f077e64044d797f748400482a5fa7f3cd8a2a25ccd3cd07e3a57a017",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 6240863,
+        "original_encrypt_reference": [
+          1926,
+          0
+        ],
+        "diagnostic_sha256": "772700e931d8fe09294f49fad9fa4caf15ec956d992323f393cbf409d13ece0c",
+        "diagnostic_bytes": 6240984
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "8a1a00c199eac9aed6bcc8082b7e7806a1624a75b2312b654af1e0f7eb033d8d",
+      "pages_in_plaintext_object_graph": 114,
+      "objects": 1927,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 395,
+        "length_modulo_16": {
+          "0": 395
+        },
+        "filters": {
+          "/FlateDecode": 386,
+          "/CCITTFaxDecode": 2,
+          "/DCTDecode": 7
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 386,
+          "NOT_CHECKED": 9
+        }
+      },
+      "parser_warnings": [
+        "bfdce330f077e64044d797f748400482a5fa7f3cd8a2a25ccd3cd07e3a57a017.pdf (object 1 0, offset 6200750): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "0286db7ecef9d7fd5af7a7ea8db2573b77893201f6f18183e50d4a6769eecce4",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "9f7914297022ce11a37616060d80453b79b1519f9de595e6cfe162cd7c5f7d2f",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 2788509,
+        "original_encrypt_reference": [
+          1977,
+          0
+        ],
+        "diagnostic_sha256": "76ec1e6c366681ec0d9a67f61804ddd7e3cbd9b5a0bf5c540a47be5a6b3ad718",
+        "diagnostic_bytes": 2788630
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "75caeb9eea39bad3d42cf6495245e53a74d0fbe00215be5b19f139ae66d4e996",
+      "pages_in_plaintext_object_graph": 105,
+      "objects": 1978,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 251,
+        "length_modulo_16": {
+          "0": 251
+        },
+        "filters": {
+          "/FlateDecode": 250,
+          "NONE": 1
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 250,
+          "NOT_CHECKED": 1
+        }
+      },
+      "parser_warnings": [
+        "9f7914297022ce11a37616060d80453b79b1519f9de595e6cfe162cd7c5f7d2f.pdf (object 1 0, offset 2747447): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "65c05bd35245c61841170157777036fbfcc70232b46904937c5b58f66ab1c71a",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "64d3145cba37950a98e4ae35aabe48053b1709e788ca69387312cc26fd4e8574",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 4458270,
+        "original_encrypt_reference": [
+          1348,
+          0
+        ],
+        "diagnostic_sha256": "174d42ac3ce3de6403cec4d9bce69cd98d2b914172e11f806cb50871a27cec98",
+        "diagnostic_bytes": 4458391
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "a321c1467dc7f52caf15a710df9151a0e5dae22457d18db11f00227050f3704a",
+      "pages_in_plaintext_object_graph": 126,
+      "objects": 1349,
+      "parser_warning_count": 2,
+      "stream_counts": {
+        "total": 999,
+        "length_modulo_16": {
+          "0": 999
+        },
+        "filters": {
+          "/FlateDecode": 306,
+          "/DCTDecode": 33,
+          "NONE": 381,
+          "/CCITTFaxDecode": 279
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 306,
+          "NOT_CHECKED": 693
+        }
+      },
+      "parser_warnings": [
+        "64d3145cba37950a98e4ae35aabe48053b1709e788ca69387312cc26fd4e8574.pdf (object 1 0, offset 4429668): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones",
+        "64d3145cba37950a98e4ae35aabe48053b1709e788ca69387312cc26fd4e8574.pdf (object 735 0, offset 2623388): unknown token while reading object; treating as string"
+      ],
+      "stream_metadata_canonical_sha256": "9dc6646b7496f6511ed87d405655f5e89a6c93f64bea1e833643731cbc821289",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "e4a1064cb83e570a310065b80ff3cea8b48a9317ccb9cb6eb615955bd3891903",
+      "source_unchanged": true,
+      "wrapper_profile": "auth-url-without-certificate-or-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 10910408,
+        "original_encrypt_reference": [
+          4947,
+          0
+        ],
+        "diagnostic_sha256": "2c41ab399b6fb8dc295fbcb7ca224e467aea099cf48dd4c1649969fc24e0b190",
+        "diagnostic_bytes": 10910530
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "ac2d7b057a8ab9b85cca9fc1883ab0e9e7d27fffb2956a3ff3ab057fbc54958d",
+      "pages_in_plaintext_object_graph": 557,
+      "objects": 4948,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 1447,
+        "length_modulo_16": {
+          "0": 1447
+        },
+        "filters": {
+          "NONE": 99,
+          "/DCTDecode": 42,
+          "/FlateDecode": 1304,
+          "/CCITTFaxDecode": 2
+        },
+        "flate_check": {
+          "NOT_CHECKED": 143,
+          "INVALID_ZLIB": 1304
+        }
+      },
+      "parser_warnings": [
+        "e4a1064cb83e570a310065b80ff3cea8b48a9317ccb9cb6eb615955bd3891903.pdf (object 1 0, offset 10806120): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "312865eef9eb1f098ff1cafd02f12aa793a4cd505d058cdfcf6ce3246b9819a3",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    },
+    {
+      "source_sha256": "fa994a734d334c7f9631656c6bf3fe5333bda76d1d7b554aeb815377415b5c40",
+      "source_unchanged": true,
+      "wrapper_profile": "embedded-certificate-and-opaque-pfx",
+      "diagnostic": {
+        "trailer_key_offset": 18993983,
+        "original_encrypt_reference": [
+          617,
+          0
+        ],
+        "diagnostic_sha256": "58a0a0c6e2b5250d6993399661f21c6a83089c6b5c1b47408bbd6d1e5c65de26",
+        "diagnostic_bytes": 18994104
+      },
+      "qpdf_exit": 2,
+      "qpdf_log_sha256": "1167767fa11e9480bfa829a7d583ec6f4f250626e8c963cf0fdc6d4110e7c416",
+      "pages_in_plaintext_object_graph": 131,
+      "objects": 618,
+      "parser_warning_count": 1,
+      "stream_counts": {
+        "total": 273,
+        "length_modulo_16": {
+          "0": 273
+        },
+        "filters": {
+          "/FlateDecode": 144,
+          "NONE": 13,
+          "/DCTDecode": 116
+        },
+        "flate_check": {
+          "INVALID_ZLIB": 144,
+          "NOT_CHECKED": 129
+        }
+      },
+      "parser_warnings": [
+        "fa994a734d334c7f9631656c6bf3fe5333bda76d1d7b554aeb815377415b5c40.pdf (object 1 0, offset 18979970): dictionary has duplicated key /MediaBox; last occurrence overrides earlier ones"
+      ],
+      "stream_metadata_canonical_sha256": "1a68bdd0ccdac065734a73e3f2e9181dfb716c3137f26652bf0731aa96fbea93",
+      "independent_diagnostic_comparison": "Exactly one byte changed in the entire logical PDF prefix; source hash unchanged."
+    }
+  ],
+  "viewer": {
+    "scope": "21 fresh offline sessions: all 16 unchanged TTKN originals under .pdf names; three of them also under .caj names; the same unencrypted derived PDF control under both extensions. No online authentication, credential submission or full-page fidelity claim.",
+    "original_counts": {
+      "VALIDATION_SERVER_CONNECTION_ERROR": 11,
+      "UNKNOWN_ERROR_LITERAL_CODE_PLACEHOLDER": 5
+    },
+    "sessions": [
+      {
+        "session": "415-viewer-readable-v2/embedded-2248.caj",
+        "source_sha256": "868dfadd1cc5e623ecc3675f17d50ecef646865ab611eea82bed7ccfedc7ade0",
+        "filename_suffix": ".caj",
+        "outcome": "VALIDATION_SERVER_CONNECTION_ERROR",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.365,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.68,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.994,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.309,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_full_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 270602240,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-readable-v2/server.caj",
+        "source_sha256": "d6599518310e88ddacba8f0cab29f4758716ae240fa786d6b70895d9ac6de353",
+        "filename_suffix": ".caj",
+        "outcome": "VALIDATION_SERVER_CONNECTION_ERROR",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_full_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 274669568,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-readable-v2/server.pdf",
+        "source_sha256": "d6599518310e88ddacba8f0cab29f4758716ae240fa786d6b70895d9ac6de353",
+        "filename_suffix": ".pdf",
+        "outcome": "VALIDATION_SERVER_CONNECTION_ERROR",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.31,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_full_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 275329024,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-remaining-v3/9f7914297022.pdf",
+        "source_sha256": "9f7914297022ce11a37616060d80453b79b1519f9de595e6cfe162cd7c5f7d2f",
+        "filename_suffix": ".pdf",
+        "outcome": "VALIDATION_SERVER_CONNECTION_ERROR",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.365,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.681,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.996,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.361,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_full_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 271888384,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-remaining-v3/a44a836f89e8.pdf",
+        "source_sha256": "a44a836f89e8faf9a949b88b753084ba2ce5851def9f6194c7528f325606a65c",
+        "filename_suffix": ".pdf",
+        "outcome": "VALIDATION_SERVER_CONNECTION_ERROR",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.365,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.68,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.995,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.31,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_full_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 273334272,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-remaining-v3/b772751bde6c.pdf",
+        "source_sha256": "b772751bde6c80f5bfaa8776d2fa246af90488094704386bbc9a43a15ba433aa",
+        "filename_suffix": ".pdf",
+        "outcome": "VALIDATION_SERVER_CONNECTION_ERROR",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_full_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 274366464,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-remaining-v3/e13f1a780608.pdf",
+        "source_sha256": "e13f1a78060825fe0ba718b6def135204b947e65f926a5a7e6173aafbbc72d0a",
+        "filename_suffix": ".pdf",
+        "outcome": "VALIDATION_SERVER_CONNECTION_ERROR",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_full_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 268853248,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-remaining-v3/e4a1064cb83e.pdf",
+        "source_sha256": "e4a1064cb83e570a310065b80ff3cea8b48a9317ccb9cb6eb615955bd3891903",
+        "filename_suffix": ".pdf",
+        "outcome": "VALIDATION_SERVER_CONNECTION_ERROR",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.365,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.68,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 21.045,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.36,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_full_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 270172160,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-remaining-v3/f5451a3d79fa.pdf",
+        "source_sha256": "f5451a3d79faf72c8126ee4ef32cde6da5db853ea4917c17570022c1d7326185",
+        "filename_suffix": ".pdf",
+        "outcome": "VALIDATION_SERVER_CONNECTION_ERROR",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_full_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 274427904,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-remaining-v3/f8dd69864543.pdf",
+        "source_sha256": "f8dd698645430ba7f6bef32374da0fa27324db8a493f3cbf85ff07f93941431b",
+        "filename_suffix": ".pdf",
+        "outcome": "VALIDATION_SERVER_CONNECTION_ERROR",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_full_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 275513344,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-readable-v2/embedded-2248.pdf",
+        "source_sha256": "868dfadd1cc5e623ecc3675f17d50ecef646865ab611eea82bed7ccfedc7ade0",
+        "filename_suffix": ".pdf",
+        "outcome": "VALIDATION_SERVER_CONNECTION_ERROR",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.365,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.68,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.995,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.31,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          }
+        ],
+        "final_full_rgb_sha256": "c4e8fb9f3455c01ce622d724afb03827f8098742a17c4b8c0cc10da215c05388",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 272936960,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-remaining-v3/7ec4a11a66e4.pdf",
+        "source_sha256": "7ec4a11a66e4ea8f1ebd5648feac31a889460a6164bb9d543aaac996a5c053dd",
+        "filename_suffix": ".pdf",
+        "outcome": "VALIDATION_SERVER_CONNECTION_ERROR",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          }
+        ],
+        "final_full_rgb_sha256": "c4e8fb9f3455c01ce622d724afb03827f8098742a17c4b8c0cc10da215c05388",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 270835712,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-remaining-v3/bfdce330f077.pdf",
+        "source_sha256": "bfdce330f077e64044d797f748400482a5fa7f3cd8a2a25ccd3cd07e3a57a017",
+        "filename_suffix": ".pdf",
+        "outcome": "VALIDATION_SERVER_CONNECTION_ERROR",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.995,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.31,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          }
+        ],
+        "final_full_rgb_sha256": "c4e8fb9f3455c01ce622d724afb03827f8098742a17c4b8c0cc10da215c05388",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 271245312,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-readable-v2/embedded-2252.caj",
+        "source_sha256": "fa994a734d334c7f9631656c6bf3fe5333bda76d1d7b554aeb815377415b5c40",
+        "filename_suffix": ".caj",
+        "outcome": "UNKNOWN_ERROR_LITERAL_CODE_PLACEHOLDER",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.31,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          }
+        ],
+        "final_full_rgb_sha256": "707562e5eac3ad69d8b3e3473ae4cb8350548b5437600b825ff9692fcb94336e",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 272572416,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-readable-v2/embedded-2252.pdf",
+        "source_sha256": "fa994a734d334c7f9631656c6bf3fe5333bda76d1d7b554aeb815377415b5c40",
+        "filename_suffix": ".pdf",
+        "outcome": "UNKNOWN_ERROR_LITERAL_CODE_PLACEHOLDER",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          }
+        ],
+        "final_full_rgb_sha256": "707562e5eac3ad69d8b3e3473ae4cb8350548b5437600b825ff9692fcb94336e",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 269484032,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-remaining-v3/aa02ee02dbe3.pdf",
+        "source_sha256": "aa02ee02dbe31a446296f19615d2b5f10cc879b5472a32159fcc3c23a042fc8f",
+        "filename_suffix": ".pdf",
+        "outcome": "UNKNOWN_ERROR_LITERAL_CODE_PLACEHOLDER",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.365,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.68,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.995,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.31,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          }
+        ],
+        "final_full_rgb_sha256": "707562e5eac3ad69d8b3e3473ae4cb8350548b5437600b825ff9692fcb94336e",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 275431424,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-remaining-v3/b3a9284d70aa.pdf",
+        "source_sha256": "b3a9284d70aace13cd16f4d27021a7766d69cd08aa855c9ca54476b23a41902b",
+        "filename_suffix": ".pdf",
+        "outcome": "UNKNOWN_ERROR_LITERAL_CODE_PLACEHOLDER",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.31,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          }
+        ],
+        "final_full_rgb_sha256": "707562e5eac3ad69d8b3e3473ae4cb8350548b5437600b825ff9692fcb94336e",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 274407424,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-readable-v2/positive.caj",
+        "source_sha256": "03f312509d1ce5427beabdeed0a5dbfe016e832eab2d6838c9c5ac5296a191d9",
+        "filename_suffix": ".caj",
+        "outcome": "UNENCRYPTED_CONTROL_OPENED",
+        "control": true,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.365,
+            "png_sha256": "d09ba2bdc3db2ff224f8122804a13b3b925ed1a38491aebceaa59f467d9c3df8"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.73,
+            "png_sha256": "d09ba2bdc3db2ff224f8122804a13b3b925ed1a38491aebceaa59f467d9c3df8"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 21.096,
+            "png_sha256": "d09ba2bdc3db2ff224f8122804a13b3b925ed1a38491aebceaa59f467d9c3df8"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.461,
+            "png_sha256": "d09ba2bdc3db2ff224f8122804a13b3b925ed1a38491aebceaa59f467d9c3df8"
+          }
+        ],
+        "final_full_rgb_sha256": "0638d6bf75731cf8d648706e9a0aad5905e89553760fbfb40ff3fe97833b31f1",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 353198080,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": "1/78",
+        "visible_zoom_percent": 48
+      },
+      {
+        "session": "415-viewer-readable-v2/positive.pdf",
+        "source_sha256": "03f312509d1ce5427beabdeed0a5dbfe016e832eab2d6838c9c5ac5296a191d9",
+        "filename_suffix": ".pdf",
+        "outcome": "UNENCRYPTED_CONTROL_OPENED",
+        "control": true,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.365,
+            "png_sha256": "a208e96a7a454eead226fbf2624a00238e41b97fa5279e97c0e5c7fef2a10d6e"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.73,
+            "png_sha256": "a208e96a7a454eead226fbf2624a00238e41b97fa5279e97c0e5c7fef2a10d6e"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 21.096,
+            "png_sha256": "a208e96a7a454eead226fbf2624a00238e41b97fa5279e97c0e5c7fef2a10d6e"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.462,
+            "png_sha256": "a208e96a7a454eead226fbf2624a00238e41b97fa5279e97c0e5c7fef2a10d6e"
+          }
+        ],
+        "final_full_rgb_sha256": "a0d9f28e617879e29d6396ec43c1a5d7086a2399e185da929615dabb42c3e904",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 353488896,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": "1/78",
+        "visible_zoom_percent": 48
+      },
+      {
+        "session": "415-viewer-remaining-v3/5cdf239130bc.pdf",
+        "source_sha256": "5cdf239130bc63c9fc28ca528bb4665c60f95031f8552e9ee119dbb2afbda35b",
+        "filename_suffix": ".pdf",
+        "outcome": "UNKNOWN_ERROR_LITERAL_CODE_PLACEHOLDER",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "0b2b83f896e383a541baff50990e7ab43f45718df4d0fb749932b1390e478ed4"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "0b2b83f896e383a541baff50990e7ab43f45718df4d0fb749932b1390e478ed4"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "0b2b83f896e383a541baff50990e7ab43f45718df4d0fb749932b1390e478ed4"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "0b2b83f896e383a541baff50990e7ab43f45718df4d0fb749932b1390e478ed4"
+          }
+        ],
+        "final_full_rgb_sha256": "45618944f613198655ef58d6ab250ebe051512f8bd5c23b724ed0a5da14606ba",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 273215488,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      },
+      {
+        "session": "415-viewer-remaining-v3/64d3145cba37.pdf",
+        "source_sha256": "64d3145cba37950a98e4ae35aabe48053b1709e788ca69387312cc26fd4e8574",
+        "filename_suffix": ".pdf",
+        "outcome": "UNKNOWN_ERROR_LITERAL_CODE_PLACEHOLDER",
+        "control": false,
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "0b2b83f896e383a541baff50990e7ab43f45718df4d0fb749932b1390e478ed4"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "0b2b83f896e383a541baff50990e7ab43f45718df4d0fb749932b1390e478ed4"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.995,
+            "png_sha256": "0b2b83f896e383a541baff50990e7ab43f45718df4d0fb749932b1390e478ed4"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.31,
+            "png_sha256": "0b2b83f896e383a541baff50990e7ab43f45718df4d0fb749932b1390e478ed4"
+          }
+        ],
+        "final_full_rgb_sha256": "45618944f613198655ef58d6ab250ebe051512f8bd5c23b724ed0a5da14606ba",
+        "last_two_rgb_frames_identical": true,
+        "full_frame_group_representative_visually_inspected": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 270479360,
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "visible_page_indicator": null,
+        "visible_zoom_percent": null
+      }
+    ],
+    "viewer_image": "sha256:cb5049d3448b6d5bcfd371cf195d522d637869dce075cb1650d74198875171de",
+    "display": {
+      "width": 1600,
+      "height": 1200,
+      "dpi": 96
+    },
+    "containment": {
+      "network": "none",
+      "root_and_input": "read-only",
+      "user": "1000:1000",
+      "capabilities": "ALL dropped",
+      "no_new_privileges": true,
+      "memory_and_swap_bytes": 2147483648,
+      "cpus": 2,
+      "pids": 256,
+      "hard_lifetime_seconds": 90
+    },
+    "messages": {
+      "VALIDATION_SERVER_CONNECTION_ERROR": {
+        "observed": "连接验证服务器错误。",
+        "translation": "Error connecting to the validation server."
+      },
+      "UNKNOWN_ERROR_LITERAL_CODE_PLACEHOLDER": {
+        "observed": "未知错误Code=%d",
+        "translation": "Unknown error Code=%d; the placeholder is displayed literally."
+      }
+    },
+    "measurement_limits": [
+      "Stable 20/25-second frame pairs are observations, not universal readiness proof (#441).",
+      "Six distinct final RGB frame groups were visually inspected; remaining frames match those groups byte-for-byte.",
+      "Legacy launch records include unused page/zoom request fields. No navigation or zoom action was performed in this open-error probe; the actual positive control displays 1/78 at 48%.",
+      "The five unknown errors do not establish a server or credential cause. The eleven server-connection messages do not establish successful authentication or decryption if connectivity were supplied."
+    ]
+  },
+  "external_receipts": {
+    "full_per_stream": {
+      "filename": "receipt.json",
+      "directory": "415-payload-reviewed-v3",
+      "bytes": 4988209,
+      "sha256": "f439010d68059c482322f3adef7d102f43b56f2a6085d1a394fb6ca0bc34efe5"
+    },
+    "viewer": {
+      "filename": "415-readable-viewer-receipt.json",
+      "sha256": "67631bbeb39318a12dd062bfba57937f86009ad3bffb8fc768768ddee31fbfcf"
+    }
+  },
+  "retained_attempts": [
+    {
+      "name": "415-neutralized-diagnostics",
+      "result": "Exploratory 3-source copies, qpdf exit 2. Its unsupported-image-filter exceptions and successful raw NONE reads are not evidence of ciphertext or plaintext. Superseded by the single-Flate check."
+    },
+    {
+      "name": "415-payload-reviewed-v1",
+      "result": "Exit 1 after first input: encountered unlisted CCITTFaxDecode in the second. Guard expanded only to record it as NOT_CHECKED, with an original control."
+    },
+    {
+      "name": "415-payload-reviewed-v2",
+      "result": "Complete 16-input run, superseded by v3 to retain warning strings as well as counts. Same stream outcomes."
+    },
+    {
+      "name": "415-payload-reviewed-v3",
+      "result": "Exit 0, all 16 sources and all 17 parser warnings retained. This is successful measurement, not successful conversion."
+    }
+  ],
+  "limits": [
+    "All 2647 page counts are obtained from the object graph; page content was not successfully decoded.",
+    "All 16863 raw stream lengths are multiples of 16; this does not establish a cipher mode or key derivation.",
+    "The 5701 non-Flate or unfiltered streams were not checked for plaintext content.",
+    "Parser warnings and qpdf exit 2 prevent claiming syntactically clean recovered PDFs.",
+    "No embedded endpoint was contacted and no credentials were supplied.",
+    "Private wrapper values, document payloads, certificates, screenshots and fonts remain external.",
+    "Issue 415 acceptance criteria 2-4 remain unmet; issue 441 readiness uncertainty remains open."
+  ],
+  "local_validation": {
+    "catalog": "PASS (1297 identities)",
+    "required_synthetic_tests": 57,
+    "required_synthetic_failures": 0,
+    "required_synthetic_skips": 0,
+    "first_broad_archive_invocation": {
+      "tests": 574,
+      "failures": 26,
+      "errors": 50,
+      "result": "FAIL; unsupported direct archive layout, not a compatibility result"
+    },
+    "controlled_broad_archive_comparison": {
+      "baseline_head": "9b4e708581cd7bf6953cc19500adaad583a71aa9",
+      "baseline_tests": 569,
+      "candidate_tests": 574,
+      "failures_each": 26,
+      "errors_each": 51,
+      "failure_and_error_test_identifiers_match": true,
+      "reason": "Research README requires the historical Rust layout for the archived suite. These direct archive invocations do not provide a passing suite claim.",
+      "baseline_log_sha256": "305340b203d8907743f9fe01b70cc2268d6b7fc806ebf8e99f6b91f6df243a83",
+      "candidate_log_sha256": "646bb7f29fd1e0f93034eb78c920a1c39eede9243887ecb51e4a417ed3314be7"
+    }
+  }
+}
