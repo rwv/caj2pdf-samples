@@ -18,6 +18,7 @@ See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for th
 
 | Note | Backs |
 | --- | --- |
+| [Nested duplicate empty Forms](nested-empty-forms-20261008.md) | Rust #439; three unchanged originals, full native regression and retained viewer disagreement |
 | [Bounded issue-20 stream recovery](stream-substitution-recovery-20261008.md) | Rust #436; unchanged-original proof and full final regression |
 | [CAJ container observations](caj-format.md) | `caj/`, `gb18030.rs`, CAJ tests |
 | [Interrupted CAJ PDF objects](caj-interrupted-objects.md) | `caj/` recovery |
