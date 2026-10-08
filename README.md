@@ -10,7 +10,23 @@ adds one original-extension NH document (433 pages/365 bookmarks, identical
 CLI/Node/Chromium outputs) and 18 metadata-only CAA entries. CAA conversion
 is unsupported; their target declarations are not document pages.
 
-### Latest native checkpoint
+### Latest complete runtime checkpoint
+
+The [current per-input receipt](research/notes/current-corpus-runtime-20261008.md)
+records **1,252 conversion PASS, 18 FAIL and 27 UNSUPPORTED** across all 1,297
+identities. Every accepted input now has fresh Node and Chromium output matching
+the reviewed #457 native hashes, sizes and page counts (35,587 pages). All 45
+remaining inputs have fresh three-runtime refusal, source-integrity and cleanup
+checks; these are not conversion passes or proof of irrecoverability.
+All catalog conversion statuses point to this common reviewed build.
+
+The [849-source C8/HN-B outline investigation](research/notes/hnc8-outline-inventory-20261008.md)
+retains unknown source-outline status and corrects an old 132-page example to
+HN-A with 81 bookmarks. Full source correctness and general viewer readiness
+remain open under [Rust #406](https://github.com/rwv/caj2pdf-rust/issues/406)
+and [#441](https://github.com/rwv/caj2pdf-rust/issues/441).
+
+### Earlier named-destination checkpoint
 
 The [named-destination report](research/notes/named-destinations-20261008.md)
 adds a separately collected 139-page archived author PDF. Native, Node and
@@ -47,7 +63,7 @@ three runtimes and all 10 page renders against its unchanged decoded PDF.
 
 The `external/github/` rows record pinned download URLs or archive members.
 Acquire their bytes in an external cache; this repository contains metadata only.
-See the [current per-input receipt](research/notes/pdf-predictor-object-streams-20261007.json)
+See the [historical predictor per-input receipt](research/notes/pdf-predictor-object-streams-20261007.json)
 for all attempts, the [preceding classifications](research/notes/github-sweep-fixes-20261007.json), and the unchanged
 [baseline receipt](research/notes/github-sweep-20261007.json) for collection
 boundaries and original failures.
