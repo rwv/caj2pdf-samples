@@ -67,6 +67,13 @@ also recovers six incorrect declared lengths. Both report the same 24
 defects; its original one-warning-output corpus classification remains
 unchanged rather than becoming a clean validation result.
 
+Acceptance follows the deliberately codec-free framing introduced by
+[Rust PR #369](https://github.com/rwv/caj2pdf-rust/pull/369): a confirmed
+Length or the bounded understated-Length rule frames opaque payload bytes
+without inflating them. That breaking change explicitly permits codec-only
+defects previously rejected by v0.4.0. This investigation neither reinstates
+that historical policy nor attributes the existing outcome to PR #435.
+
 A bounded diagnostic tried deletion of each adjacent two-byte span at 4,579
 positions inside stream 142, requiring strict checksum/EOF and at most 1 MiB
 of decoded output. It found no candidate. This rejects only that narrow

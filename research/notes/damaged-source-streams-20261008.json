@@ -9,6 +9,10 @@
     "scope": "Historical author report of damaged source in CAJCloudViewer and a usable freshly downloaded alternative. The alternative was not obtained or verified in this investigation."
   },
   "production_commit": "20292ab805a9d2cef066270af549635dce753dc5",
+  "framing_policy": {
+    "url": "https://github.com/rwv/caj2pdf-rust/pull/369",
+    "scope": "Intentional breaking change to codec-free stream framing. Confirmed Length/bounded understated-Length recovery preserves opaque payloads, including codec defects. Not a PR #435 regression or reinstatement of historical v0.4.0 rejection."
+  },
   "merged_main": "25ef8dc489d1deb3be170b883702f0a591ba680f",
   "native_binary_sha256": "755c6605a57ba30d014765c3a1215fdb92b28572bbda128ff5b419e2e4e58a43",
   "native_exit": 0,
