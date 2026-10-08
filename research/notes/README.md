@@ -122,3 +122,7 @@ See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for th
 | [V14 public runtime-view report](cajviewer-runtime-view-v14.md) | historical |
 | [External vendor fixture manifests](vendor-fixture-manifest.md) | `scripts/vendor_fixtures.py` |
 | [Compare decoded vendor fixtures](vendor-fixture-diff.md) | `scripts/vendor_fixture_diff.py` |
+
+The [PNG Up/object-stream follow-up](pdf-predictor-object-streams-20261007.md)
+records #402/#404, original native/Node/Chromium parity and the complete native
+regression rerun after that fix.

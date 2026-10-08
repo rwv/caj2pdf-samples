@@ -13238,11 +13238,11 @@
       "original_extension": ".caj",
       "redistribution": "not_declared",
       "local_integrity": "PASS",
-      "conversion": "UNSUPPORTED",
+      "conversion": "PASS",
       "viewer": "NOT_RUN",
       "source_revision": "456a85d9a55690302e4dd10a95b6456afc1ceda6",
-      "conversion_revision": "a19953921914b7cc794c1f58e5b5d33e6c1cd570",
-      "conversion_evidence": "research/notes/github-sweep-fixes-20261007.json",
+      "conversion_revision": "73d62a62db672ef5d85adf69911aa6aa551d4f41",
+      "conversion_evidence": "research/notes/pdf-predictor-object-streams-20261007.json",
       "variant": "KDH"
     },
     {
