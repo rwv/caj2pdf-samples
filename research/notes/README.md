@@ -126,3 +126,5 @@ See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for th
 The [PNG Up/object-stream follow-up](pdf-predictor-object-streams-20261007.md)
 records #402/#404, original native/Node/Chromium parity and the complete native
 regression rerun after that fix.
+
+- [Identical fragment page boxes: four-original verification](fragment-mediabox-20261008.md) (#407/#408).
