@@ -1,0 +1,1029 @@
+{
+  "schema_version": 1,
+  "issue": "https://github.com/rwv/caj2pdf-samples/issues/19",
+  "parent": "https://github.com/rwv/caj2pdf-rust/issues/406",
+  "converter_commit": "c31ac81a659d3a15fa3e048785e4e0c7885a0a6a",
+  "source_count": 10,
+  "page_count": 60,
+  "nonempty_glyph_pages": 50,
+  "glyph_count": 83432,
+  "cases": [
+    {
+      "source_sha256": "03770ea1cdebc9856d1443438b296860fa11f3e283717d256ea0af57ecae1c89",
+      "pdf_sha256": "65ffb1a8fd283abd4190fc7072bfbe266b877132cf00b87e6d9028c29bc34cde",
+      "pymupdf": "1.27.2.2",
+      "status": "PASS",
+      "scope": "All native glyph identities/order, including ActualText; not geometry, font outlines, vectors or pixel parity",
+      "pages": [
+        {
+          "page": 1,
+          "source_glyphs": 1438,
+          "pdf_glyphs": 1438,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "6befca7c948cef35c0ef5b92ce588396f19628e872cc2ec132c3f6909d89d7c9",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 2,
+          "source_glyphs": 1347,
+          "pdf_glyphs": 1347,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "db72f79ea4b76f6d984605a2c1a776c995622bccc56ad28ddc0d326c6461792f",
+          "source_images": 3,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 3,
+          "source_glyphs": 921,
+          "pdf_glyphs": 921,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "3ee7da20c78265695b05077910c1c53b452d0afac0b6aea1e920bcb6a4f8ad7b",
+          "source_images": 4,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 4,
+          "source_glyphs": 1169,
+          "pdf_glyphs": 1169,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "c9337285e55c6ab296e756dc7721fdc4e8eeeec1f59645be31cdaa0b1bd611d1",
+          "source_images": 4,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 5,
+          "source_glyphs": 2846,
+          "pdf_glyphs": 2846,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "7dda0cd154fa226a6ff467c9f7d79de59e38e77535d3bff5260a6c556ea451d1",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        }
+      ]
+    },
+    {
+      "source_sha256": "166d0014792326570d9e8ca42fe13a4a44329e4ad095d3ac8dfd73c8ddb9f20e",
+      "pdf_sha256": "11cadd7d1857a26a929d5d74be4da53facef1215f5a2e43f9104706c26bb7b88",
+      "pymupdf": "1.27.2.2",
+      "status": "PASS",
+      "scope": "All native glyph identities/order, including ActualText; not geometry, font outlines, vectors or pixel parity",
+      "pages": [
+        {
+          "page": 1,
+          "source_glyphs": 1681,
+          "pdf_glyphs": 1681,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "8dee7e968da9d76eec5a82b5bf628ab411879151ec1a53f1c505632128ecf6a8",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 2,
+          "source_glyphs": 805,
+          "pdf_glyphs": 805,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "c92feea9ef3bf4450c029c672747370d12503a5acd1e17ea83ee00d6c054b48f",
+          "source_images": 3,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 3,
+          "source_glyphs": 1435,
+          "pdf_glyphs": 1435,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "0caf3b491f4fd1ad202496418c31d018bae10a428d0779c8e73cfca5c7946518",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 4,
+          "source_glyphs": 1057,
+          "pdf_glyphs": 1057,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "227be4e173348b1da60bb78ea7902f4a4377d0b5c21ee3c046ef8a178b58f0ee",
+          "source_images": 3,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 5,
+          "source_glyphs": 1737,
+          "pdf_glyphs": 1737,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "ddec7ae168c58e5049e06f100c694125a11557f8e2bd2a40389ff5f4ba5c42ff",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 6,
+          "source_glyphs": 1003,
+          "pdf_glyphs": 1003,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "4c68d5acdf1e3422e09edb6af0115ea04ec3265b6cdbc230c76b2dc37225cc5c",
+          "source_images": 2,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 7,
+          "source_glyphs": 1271,
+          "pdf_glyphs": 1271,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "6f7a70a68f205d6ac5ae0b8aa3544ede8fae9de7e3ba1973eecc02ae330f6b74",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 8,
+          "source_glyphs": 1503,
+          "pdf_glyphs": 1503,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "a551aec890d609fdc8438559e9476e11a9381ba34ea07accd5a67c95f4e161c0",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 9,
+          "source_glyphs": 1371,
+          "pdf_glyphs": 1371,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "b589f1a811c676194348f9274d9bfdf6a72fa74eb85d504e33d36c583224ccca",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 10,
+          "source_glyphs": 2592,
+          "pdf_glyphs": 2592,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "55050b4dbbaeacb315368f6d05229eccb3ff771ffe9767a2b96da21057603bcf",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 11,
+          "source_glyphs": 3632,
+          "pdf_glyphs": 3632,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "581de8862ed043d2619a747377036b784d0bca152764f7caf1e56c02df23388c",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 12,
+          "source_glyphs": 2606,
+          "pdf_glyphs": 2606,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "79f7bc680cfd4a805c6b4208a2ba6279e825986f52e257f657067b2091781cbf",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        }
+      ]
+    },
+    {
+      "source_sha256": "1b9aa912e0bc9dcce4dfbefa07e08a24665d6db624a02f9a30a8c404df5a9ef7",
+      "pdf_sha256": "4e38dc686ae8a07b23d006e9a908cd5929a0ce67281a3f1ac4f67cd5b7f6c212",
+      "pymupdf": "1.27.2.2",
+      "status": "PASS",
+      "scope": "All native glyph identities/order, including ActualText; not geometry, font outlines, vectors or pixel parity",
+      "pages": [
+        {
+          "page": 1,
+          "source_glyphs": 1536,
+          "pdf_glyphs": 1536,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "68a8f2500dfccf05e816952312c92c90b8f1839ab355e5a5f0d4513cbab7c927",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 2,
+          "source_glyphs": 1133,
+          "pdf_glyphs": 1133,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "fbd7330e4b1715627918d7c5b67bf3765da782d0a435e273258ace1f252453c4",
+          "source_images": 5,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 3,
+          "source_glyphs": 1046,
+          "pdf_glyphs": 1046,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "853c7b3641d2f8ffebd6b896b20500b9aa38e7eb19b3a45e68f1d8201be73761",
+          "source_images": 3,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 4,
+          "source_glyphs": 2864,
+          "pdf_glyphs": 2864,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "734ed8f44093e3211ec09fed8a96ae90e2556c6e9becbe4d6d1454239056ee81",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        }
+      ]
+    },
+    {
+      "source_sha256": "3f3b9b57d6925df811247dced47fd7fb74cf0f678ab9bfda0827c827258ab39b",
+      "pdf_sha256": "375b15bbcc400ebc770f51e086e8a00835956ab17233a0d3252dc5678eb00d3f",
+      "pymupdf": "1.27.2.2",
+      "status": "PASS",
+      "scope": "All native glyph identities/order, including ActualText; not geometry, font outlines, vectors or pixel parity",
+      "pages": [
+        {
+          "page": 1,
+          "source_glyphs": 1302,
+          "pdf_glyphs": 1302,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "21101c9c10d65cf5d808a3154f50c39a7465f3fa27686ede42754cd26b4cea49",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 2,
+          "source_glyphs": 1555,
+          "pdf_glyphs": 1555,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "1b3e35baa8b1294831b70d894828db38eb85fc7af65c6c24bad9705964637557",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 3,
+          "source_glyphs": 1470,
+          "pdf_glyphs": 1470,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "1379c67ad20c4d6a25e673422e8c0b3396f3a4cec48e288780887d507413312d",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 4,
+          "source_glyphs": 1642,
+          "pdf_glyphs": 1642,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "95458938a301c79c65fed2c0f73d9e35a221bd07933f77122ed9f22fd7cf5641",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        }
+      ]
+    },
+    {
+      "source_sha256": "63870d12f2069d3d6c663dc2813d04a38a632c4c319f20b6f8dd1b8b8bc589c2",
+      "pdf_sha256": "c6a63c710126984fd57d90257a5d33244bbfa876f57491aedffaf80f2842200a",
+      "pymupdf": "1.27.2.2",
+      "status": "PASS",
+      "scope": "All native glyph identities/order, including ActualText; not geometry, font outlines, vectors or pixel parity",
+      "pages": [
+        {
+          "page": 1,
+          "source_glyphs": 2060,
+          "pdf_glyphs": 2060,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "b0a2c1244c9fdfd67d7c28c2774319d12fa7263067812b72aa6625ef0ac1a55c",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 2,
+          "source_glyphs": 2569,
+          "pdf_glyphs": 2569,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "2794db168a2539c6fbdb3a58c4229bdf8badf632c663416754efb1b33b80933a",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 15904
+        },
+        {
+          "page": 3,
+          "source_glyphs": 1902,
+          "pdf_glyphs": 1902,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "b50b2865ef797f091a35b8aceb2d083b8a38504c1f216e491f2ae05139b0322b",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 9100
+        },
+        {
+          "page": 4,
+          "source_glyphs": 1398,
+          "pdf_glyphs": 1398,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "794bdfe91ddc1e3f60fbf97f5112ff02a0974e421bd979d231e679910b1df020",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 8880
+        }
+      ]
+    },
+    {
+      "source_sha256": "7e3f2c0faebb8ddac2f4feff3cfc9249476ab170b43250ac00610b10aa46c74b",
+      "pdf_sha256": "db0859192313afc1879f3b2bf941c9978251ef01ebeec28d446a16a4992bff23",
+      "pymupdf": "1.27.2.2",
+      "status": "PASS",
+      "scope": "All native glyph identities/order, including ActualText; not geometry, font outlines, vectors or pixel parity",
+      "pages": [
+        {
+          "page": 1,
+          "source_glyphs": 0,
+          "pdf_glyphs": 0,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 2,
+          "source_glyphs": 0,
+          "pdf_glyphs": 0,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 3,
+          "source_glyphs": 0,
+          "pdf_glyphs": 0,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 4,
+          "source_glyphs": 0,
+          "pdf_glyphs": 0,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 5,
+          "source_glyphs": 0,
+          "pdf_glyphs": 0,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 6,
+          "source_glyphs": 0,
+          "pdf_glyphs": 0,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 7,
+          "source_glyphs": 0,
+          "pdf_glyphs": 0,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 8,
+          "source_glyphs": 0,
+          "pdf_glyphs": 0,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 9,
+          "source_glyphs": 0,
+          "pdf_glyphs": 0,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 10,
+          "source_glyphs": 1977,
+          "pdf_glyphs": 1977,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "91a38a9357aeee3c90a5d80e5ba0ef48a5781d9d5ddd671369c42b9b6fbf78b0",
+          "source_images": 8,
+          "ignored_hnb_tail_bytes": 0
+        }
+      ]
+    },
+    {
+      "source_sha256": "90e7b47716c32ef7a67cde8094f312e0ee7f1a7e0ed50a25830e8ba64a84f6a6",
+      "pdf_sha256": "e3a45bc6a235339fd57c3822446213a6d824457efe9aecc348f5e2d778dbc919",
+      "pymupdf": "1.27.2.2",
+      "status": "PASS",
+      "scope": "All native glyph identities/order, including ActualText; not geometry, font outlines, vectors or pixel parity",
+      "pages": [
+        {
+          "page": 1,
+          "source_glyphs": 1015,
+          "pdf_glyphs": 1015,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "f2dca508d347c63179f4bf57dea30ecf0d2133632200e8af699819f14536e391",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 2,
+          "source_glyphs": 1338,
+          "pdf_glyphs": 1338,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "497f614c7a1a0c89cfcdcd4a4d550433f8d9022080ccc377a76df2f1379674a3",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 3,
+          "source_glyphs": 840,
+          "pdf_glyphs": 840,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "ec2aa2a5e1f152763516b0892819e4b007c14af4450a59e140b2f1c3544940c1",
+          "source_images": 2,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 4,
+          "source_glyphs": 986,
+          "pdf_glyphs": 986,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "1b2edfdb80a581a20723f2408ed966d91461d8c7ec2c230e1b9bae196bb0a406",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 5,
+          "source_glyphs": 801,
+          "pdf_glyphs": 801,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "17dc792e85d83dc4f806a25e8f9494306e9f2d0d27e150b60d06f8674ef50c83",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 6,
+          "source_glyphs": 1658,
+          "pdf_glyphs": 1658,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "373acfcf55c04736b7ea89d7574aab1956a1e1e9585aecf734bb4b938d5a07d1",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        }
+      ]
+    },
+    {
+      "source_sha256": "b9a64bf99e4bc496b976541a27128ee84109835d5f79f228a9c8ad159ec6829b",
+      "pdf_sha256": "185a14fd1155782ed691c450f4b63e15213c61914cd362f3a6ee380dbb8e4a42",
+      "pymupdf": "1.27.2.2",
+      "status": "PASS",
+      "scope": "All native glyph identities/order, including ActualText; not geometry, font outlines, vectors or pixel parity",
+      "pages": [
+        {
+          "page": 1,
+          "source_glyphs": 1597,
+          "pdf_glyphs": 1597,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "51bc70c6844fe9bb5ffadfe1df7fcd70bb06593e3125380a138593d2a3255f38",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 2,
+          "source_glyphs": 2052,
+          "pdf_glyphs": 2052,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "a35083b224b46c7e7cda898381d6a0bf205c1f3589dbc2d383608afc49e6c6b1",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 3,
+          "source_glyphs": 1683,
+          "pdf_glyphs": 1683,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "5e7562b705aa85802488a58e19a4750c2c0bdcc297d1a2fe87165b783b328d71",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 4,
+          "source_glyphs": 2233,
+          "pdf_glyphs": 2233,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "2274ed59dd19cb918031be4b08b13b6dedfa95218a130ea56b8af6e3fcdbe736",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        }
+      ]
+    },
+    {
+      "source_sha256": "d6a23a9cfd0f37a71e245a3c96b2c3fafdf648f4bb1694f094cfe746b3f4f13d",
+      "pdf_sha256": "1ce3a67f4f6a43647dff2a8da88162d4a15f21ad2c06f7616e054f38989c280e",
+      "pymupdf": "1.27.2.2",
+      "status": "PASS",
+      "scope": "All native glyph identities/order, including ActualText; not geometry, font outlines, vectors or pixel parity",
+      "pages": [
+        {
+          "page": 1,
+          "source_glyphs": 2492,
+          "pdf_glyphs": 2492,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "6f65ab79415b3f2832299133eef35e459e83ef7093061f7efafdb6c6d17e9441",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 2,
+          "source_glyphs": 1597,
+          "pdf_glyphs": 1597,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "a23838ea761d3be497472f9affc03c95519fe7038a0a11f201596d0eaabbdefa",
+          "source_images": 2,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 3,
+          "source_glyphs": 1731,
+          "pdf_glyphs": 1731,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "04409de79e41768acaeeeaca43b03a19aa563acf6dbaf7a1f4c8a2dfb2fe9939",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 4,
+          "source_glyphs": 1905,
+          "pdf_glyphs": 1905,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "7cdb778e7a8128927507d6c6916e9641c1c3ee62f74a242ab2fcd3f17eba0bd9",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 5,
+          "source_glyphs": 2552,
+          "pdf_glyphs": 2552,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "65c8a9bf3b62270758639e831c12fd488ad551c313dbd357f865383915f10394",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        }
+      ]
+    },
+    {
+      "source_sha256": "e1b17805a87f62097987c41f2821836d6b774caaf035c9846be966c965f08a49",
+      "pdf_sha256": "99b129a924fe0ab80d1b712ad3a7dda5009d78c62b16784422ae7c242455ff73",
+      "pymupdf": "1.27.2.2",
+      "status": "PASS",
+      "scope": "All native glyph identities/order, including ActualText; not geometry, font outlines, vectors or pixel parity",
+      "pages": [
+        {
+          "page": 1,
+          "source_glyphs": 1280,
+          "pdf_glyphs": 1280,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "d71de86c89df0bc79ff6c305d1e34ece19c3a382443a8a67dc2f6d8d21d955fa",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 2,
+          "source_glyphs": 1837,
+          "pdf_glyphs": 1837,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "ab247f8ba11e302b73758dfb05441bd511f31dffbe0b1ee1a5f8f5ee72bd9d30",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 3,
+          "source_glyphs": 1689,
+          "pdf_glyphs": 1689,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "c3aac1a4ce2a1caf47b8d1914abb7c2507cda9c87eda57971e54ad3a3790d4e7",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 4,
+          "source_glyphs": 1679,
+          "pdf_glyphs": 1679,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "031d827f34441c0de6967c400df28101f221c91173f20399c1461b178012ad51",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 5,
+          "source_glyphs": 1599,
+          "pdf_glyphs": 1599,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "4dc1030a865911479d6eb20094ad67da49ff3e0ca97565cc887742bc157aa3db",
+          "source_images": 0,
+          "ignored_hnb_tail_bytes": 0
+        },
+        {
+          "page": 6,
+          "source_glyphs": 0,
+          "pdf_glyphs": 0,
+          "unicode_order": "PASS",
+          "glyph_sequence_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_images": 1,
+          "ignored_hnb_tail_bytes": 0
+        }
+      ]
+    }
+  ],
+  "negative_controls": [
+    {
+      "source_sha256": "03770ea1cdebc9856d1443438b296860fa11f3e283717d256ea0af57ecae1c89",
+      "positive_pdf_sha256": "65ffb1a8fd283abd4190fc7072bfbe266b877132cf00b87e6d9028c29bc34cde",
+      "controls": [
+        {
+          "mutation": "swapped-pages",
+          "pdf_sha256": "e66d5965ae8697fc5d1d37661aabc57e414718bc06960e1066dcccc264e3752f",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "mutation": "missing-glyph",
+          "pdf_sha256": "03762513195ec297f57265a68eaf33cfd09e92c2be348766ccd6ee2a2f86048e",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1
+            ]
+          }
+        },
+        {
+          "mutation": "changed-unicode-map",
+          "pdf_sha256": "50614ae21abc24ce656d0ddb8f9098f0ab7e51d117f82c9241e6407236944eab",
+          "observed": {
+            "status": "REJECTED",
+            "reason": "PDF Unicode map is not the verified identity mapping"
+          }
+        }
+      ]
+    },
+    {
+      "source_sha256": "1b9aa912e0bc9dcce4dfbefa07e08a24665d6db624a02f9a30a8c404df5a9ef7",
+      "positive_pdf_sha256": "4e38dc686ae8a07b23d006e9a908cd5929a0ce67281a3f1ac4f67cd5b7f6c212",
+      "controls": [
+        {
+          "mutation": "swapped-pages",
+          "pdf_sha256": "4de3bfc447f0f60ab4df566ebe4eaf410aaefb3c97d8befd7b89c48e10f8dd15",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "mutation": "missing-glyph",
+          "pdf_sha256": "18449a70613f03ce0c6ad275dae60ba687d124dc3828714ba50f62f5a05f96c3",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1
+            ]
+          }
+        },
+        {
+          "mutation": "changed-unicode-map",
+          "pdf_sha256": "cf87d67645c921a0c13400188db94a448d758606c0086f376c80528541dbed58",
+          "observed": {
+            "status": "REJECTED",
+            "reason": "PDF Unicode map is not the verified identity mapping"
+          }
+        }
+      ]
+    },
+    {
+      "source_sha256": "3f3b9b57d6925df811247dced47fd7fb74cf0f678ab9bfda0827c827258ab39b",
+      "positive_pdf_sha256": "375b15bbcc400ebc770f51e086e8a00835956ab17233a0d3252dc5678eb00d3f",
+      "controls": [
+        {
+          "mutation": "swapped-pages",
+          "pdf_sha256": "2756be0cd6e2ba5ea5b39580aa7d8b6cdd3497c9376a41925e276f68fb79582d",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "mutation": "missing-glyph",
+          "pdf_sha256": "d605bdafe9eb40683724a6eeceb311498671697c6ef56b6546de0ff91d079870",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1
+            ]
+          }
+        },
+        {
+          "mutation": "changed-unicode-map",
+          "pdf_sha256": "130f320fd788aed880ad59673425d6ea3f5ae4502de9064bea68f70b71f2ff6a",
+          "observed": {
+            "status": "REJECTED",
+            "reason": "PDF Unicode map is not the verified identity mapping"
+          }
+        }
+      ]
+    },
+    {
+      "source_sha256": "63870d12f2069d3d6c663dc2813d04a38a632c4c319f20b6f8dd1b8b8bc589c2",
+      "positive_pdf_sha256": "c6a63c710126984fd57d90257a5d33244bbfa876f57491aedffaf80f2842200a",
+      "controls": [
+        {
+          "mutation": "swapped-pages",
+          "pdf_sha256": "c2d677759f3694759d00da131c16f95b56b33e794cb3dc5a761a3ce8b7ec45e4",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "mutation": "missing-glyph",
+          "pdf_sha256": "fff5f678d04b57893e183d47dca99684d30fc086bf3e51ff0bb308baeda977b0",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1
+            ]
+          }
+        },
+        {
+          "mutation": "changed-unicode-map",
+          "pdf_sha256": "50387d9bf2dba82668bba13128b7caf042172e89144cc731546a5fc7c18677ec",
+          "observed": {
+            "status": "REJECTED",
+            "reason": "PDF Unicode map is not the verified identity mapping"
+          }
+        }
+      ]
+    },
+    {
+      "source_sha256": "90e7b47716c32ef7a67cde8094f312e0ee7f1a7e0ed50a25830e8ba64a84f6a6",
+      "positive_pdf_sha256": "e3a45bc6a235339fd57c3822446213a6d824457efe9aecc348f5e2d778dbc919",
+      "controls": [
+        {
+          "mutation": "swapped-pages",
+          "pdf_sha256": "c6b1356184860d41745aa9bebe4732fa107278ac5d3604b5a8d77e027ca6c396",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "mutation": "missing-glyph",
+          "pdf_sha256": "c30bfcf158105d1825ab7b9fc076f6dc8a40cfb29e1d697648c063f55ccc9eec",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1
+            ]
+          }
+        },
+        {
+          "mutation": "changed-unicode-map",
+          "pdf_sha256": "d9f9941ea5fd06b855d9f65ffc34e2540ee4c10ec335c2d87287e641060d5fdd",
+          "observed": {
+            "status": "REJECTED",
+            "reason": "PDF Unicode map is not the verified identity mapping"
+          }
+        }
+      ]
+    },
+    {
+      "source_sha256": "b9a64bf99e4bc496b976541a27128ee84109835d5f79f228a9c8ad159ec6829b",
+      "positive_pdf_sha256": "185a14fd1155782ed691c450f4b63e15213c61914cd362f3a6ee380dbb8e4a42",
+      "controls": [
+        {
+          "mutation": "swapped-pages",
+          "pdf_sha256": "cfeecd82b2c6418e5f4526f3db6b821082b74ea0d8fe5d6b752e98259c370e4a",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "mutation": "missing-glyph",
+          "pdf_sha256": "e6ab92369669b85110e66563c2d1469bde1b832787a4e64c6c97a274997b2c6d",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1
+            ]
+          }
+        },
+        {
+          "mutation": "changed-unicode-map",
+          "pdf_sha256": "a49d4ef4840431fc8dc54c8ae5e1123c1db594318edcf1708ca98c6d51eaf8e3",
+          "observed": {
+            "status": "REJECTED",
+            "reason": "PDF Unicode map is not the verified identity mapping"
+          }
+        }
+      ]
+    },
+    {
+      "source_sha256": "d6a23a9cfd0f37a71e245a3c96b2c3fafdf648f4bb1694f094cfe746b3f4f13d",
+      "positive_pdf_sha256": "1ce3a67f4f6a43647dff2a8da88162d4a15f21ad2c06f7616e054f38989c280e",
+      "controls": [
+        {
+          "mutation": "swapped-pages",
+          "pdf_sha256": "e428969441b80a6d2facc869151a8a0cc70dd0db5fb4b910642eb3e4369e7272",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "mutation": "missing-glyph",
+          "pdf_sha256": "af05d4276c6e17649a10c1c7324fa93c27dd3cf6bff859dd072af3af42d5d47e",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1
+            ]
+          }
+        },
+        {
+          "mutation": "changed-unicode-map",
+          "pdf_sha256": "9464a179271f7b2c2f7707d92ff19c5511c9b9d1c24c682adc7fc22de960ede8",
+          "observed": {
+            "status": "REJECTED",
+            "reason": "PDF Unicode map is not the verified identity mapping"
+          }
+        }
+      ]
+    },
+    {
+      "source_sha256": "e1b17805a87f62097987c41f2821836d6b774caaf035c9846be966c965f08a49",
+      "positive_pdf_sha256": "99b129a924fe0ab80d1b712ad3a7dda5009d78c62b16784422ae7c242455ff73",
+      "controls": [
+        {
+          "mutation": "swapped-pages",
+          "pdf_sha256": "5bf3198ac3bafc403e22e911ea64581cacc8e86f5143ea9f99ed28da4f17caea",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "mutation": "missing-glyph",
+          "pdf_sha256": "30ba3897f0ef2be43781aa46222f71e33a2b5dd2a63dcce2be1f486e4c111627",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1
+            ]
+          }
+        },
+        {
+          "mutation": "changed-unicode-map",
+          "pdf_sha256": "a6487fa9d0a50906bceca1e73afa87688acf1bb9838769355a932134f4731420",
+          "observed": {
+            "status": "REJECTED",
+            "reason": "PDF Unicode map is not the verified identity mapping"
+          }
+        }
+      ]
+    },
+    {
+      "source_sha256": "166d0014792326570d9e8ca42fe13a4a44329e4ad095d3ac8dfd73c8ddb9f20e",
+      "positive_pdf_sha256": "11cadd7d1857a26a929d5d74be4da53facef1215f5a2e43f9104706c26bb7b88",
+      "controls": [
+        {
+          "mutation": "swapped-pages",
+          "text_page": 1,
+          "swapped_with_page": 2,
+          "pdf_sha256": "509d7125f9667c64982818a5d54ee6f5e90311389ed2c83912e8eb97a9f2d30e",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1,
+              2
+            ]
+          }
+        },
+        {
+          "mutation": "missing-glyph",
+          "text_page": 1,
+          "swapped_with_page": null,
+          "pdf_sha256": "f1d018a56dea0d4505f6af0ab08c4f21691026eee75b5fa860b3a4421ffec9b8",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1
+            ]
+          }
+        },
+        {
+          "mutation": "changed-unicode-map",
+          "text_page": 1,
+          "swapped_with_page": null,
+          "pdf_sha256": "ed2dc37e7d259c13e4370c894a31f83e9b21bca6f173102765694d72a152f7cf",
+          "observed": {
+            "status": "REJECTED",
+            "reason": "PDF Unicode map is not the verified identity mapping"
+          }
+        }
+      ]
+    },
+    {
+      "source_sha256": "7e3f2c0faebb8ddac2f4feff3cfc9249476ab170b43250ac00610b10aa46c74b",
+      "positive_pdf_sha256": "db0859192313afc1879f3b2bf941c9978251ef01ebeec28d446a16a4992bff23",
+      "controls": [
+        {
+          "mutation": "swapped-pages",
+          "text_page": 10,
+          "swapped_with_page": 1,
+          "pdf_sha256": "083d2f0de77d13b65e3a49f09ee72b35cbb188788c86f1e05407826497317138",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              1,
+              10
+            ]
+          }
+        },
+        {
+          "mutation": "missing-glyph",
+          "text_page": 10,
+          "swapped_with_page": null,
+          "pdf_sha256": "c6632cdf3ace7f811272e44fa000ceb90464c0f1e26b46017501fd12091a9343",
+          "observed": {
+            "status": "FAIL",
+            "failed_pages": [
+              10
+            ]
+          }
+        },
+        {
+          "mutation": "changed-unicode-map",
+          "text_page": 10,
+          "swapped_with_page": null,
+          "pdf_sha256": "e403310db39a73635bfc0efdaf11157ac78795963633da10aa4e333aa0344050",
+          "observed": {
+            "status": "REJECTED",
+            "reason": "PDF Unicode map is not the verified identity mapping"
+          }
+        }
+      ]
+    }
+  ],
+  "image_only_swap": {
+    "source_sha256": "7e3f2c0faebb8ddac2f4feff3cfc9249476ab170b43250ac00610b10aa46c74b",
+    "mutation": "swap image-only pages 1 and 2",
+    "glyph_check": "PASS (empty glyph sequences; intentionally not image proof)",
+    "image_order_check": {
+      "status": "FAIL",
+      "pages": 10,
+      "images": 17,
+      "repeated_source_descriptors": 0,
+      "mismatched_pages": [
+        1,
+        2
+      ],
+      "method": "ordered source images versus Poppler extraction and pinned pixel oracles",
+      "scope": "page/image identity and order; not placement, alias coordinates or rendered-page parity"
+    }
+  },
+  "limits": [
+    "Glyph identity/order does not establish layout, font shape, vectors or rendered-page fidelity.",
+    "Ten empty native-glyph pages require separate image evidence; swapping image-only pages is not detected by glyph comparison.",
+    "Available source outlines and missing bitmap oracles remain tracked in the parent."
+  ],
+  "provenance": "Original MIT checker changes based on existing independent viewer controls documented in c8-additional-profiles.md; no converter source, external document/PDF/font/render bytes or new runtime dependency."
+}
