@@ -132,3 +132,5 @@ regression rerun after that fix.
 
 - [Native content checks for text-only and mixed pages](native-content-order-20261008.md) (#12).
 - [Complete accepted-corpus Node and Chromium parity](full-runtime-parity-20261008.md) (#406).
+
+- [Complete accepted native-glyph coverage](native-content-completion-20261008.md) (#19).

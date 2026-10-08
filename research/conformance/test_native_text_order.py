@@ -73,6 +73,28 @@ class NativeTextOrderTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             order.semantic_glyphs(b'(A) Tj')
 
+    def test_encoded_string_allows_only_a_terminal_nul(self):
+        ending = record(10, 0xa0c4) + record(0x8004, 0)
+        for words in [[], [0xe000], [0xe041, 0xe000], [0xe041, 0xe042]]:
+            encoded = record(0x80cc, 0x0102 + len(words)) + struct.pack('<' + 'H' * len(words), *words)
+            self.assertEqual(glyphs(encoded + ending), (['D'], 0))
+        for words in [[0xe000, 0xe041], [0xe000, 0xe000], [0xe01f], [0xe07f], [0x8004]]:
+            encoded = record(0x80cc, 0x0102 + len(words)) + struct.pack('<' + 'H' * len(words), *words)
+            with self.assertRaisesRegex(ValueError, 'unmeasured encoded-string payload'):
+                glyphs(encoded + ending)
+
+    def test_aligned_image_names_allow_optional_zero_padding(self):
+        ending = record(10, 0xa0c4) + record(0x8004, 0)
+        for length in [0, 4, 8, 24, 260]:
+            reference = record(0x810a, 0xd300) + struct.pack('<6H', 10, 20, 30, 40, 0, length) + b'x' * length
+            for padding in [b'', b'\0' * 4]:
+                self.assertEqual(glyphs(reference + padding + ending), (['D'], 0))
+        reference = record(0x810a, 0xd300) + struct.pack('<6H', 10, 20, 30, 40, 0, 3) + b'abc'
+        self.assertEqual(glyphs(reference + b'\0' + ending), (['D'], 0))
+        for padding in [b'x', b'']:
+            with self.assertRaisesRegex(ValueError, 'invalid image reference padding'):
+                glyphs(reference + padding + ending)
+
     def test_artifacts_and_actual_text_are_distinct(self):
         data = (b'/Artifact BMC 1 0 0 1 0 0 Tm <25BA> Tj EMC\n'
                 b'/Span << /ActualText <FEFFE000> >> BDC 1 0 0 1 0 0 Tm <0041> Tj EMC\n')

@@ -99,7 +99,10 @@ def source_glyphs(source, page: dict, variant: str, mode: int) -> tuple[list[str
             if at + size > end:
                 raise ValueError("partial encoded-string record")
             payload = read_exact(source, at + 4, size - 4)
-            if any(not 0xe020 <= word[0] <= 0xe07e for word in struct.iter_unpack('<H', payload)):
+            # c8-additional-profiles.md: only the final word may be e000.
+            if any(not 0xe020 <= word[0] <= 0xe07e
+                   and not (word[0] == 0xe000 and 2 * (i + 1) == len(payload))
+                   for i, word in enumerate(struct.iter_unpack('<H', payload))):
                 raise ValueError("unmeasured encoded-string payload")
         elif tag in (0x8006, 0x8007, 0x8010, 0x8090):
             size = 12
@@ -109,12 +112,17 @@ def source_glyphs(source, page: dict, variant: str, mode: int) -> tuple[list[str
             if at + 16 > end:
                 raise ValueError("partial image reference")
             flags, name_bytes = struct.unpack('<HH', read_exact(source, at + 12, 4))
-            size = (16 + name_bytes + 1 + 3) // 4 * 4
+            size = (16 + name_bytes + 3) // 4 * 4
             if flags or at + size > end:
                 raise ValueError("unmeasured image reference")
             padding = read_exact(source, at + 16 + name_bytes, size - 16 - name_bytes)
             if any(padding):
                 raise ValueError("invalid image reference padding")
+            # Aligned names may omit the older four-byte zero pad. Both forms
+            # preserve the following record in c8-additional-profiles.md.
+            if name_bytes % 4 == 0 and at + size + 4 <= end:
+                if read_exact(source, at + size, 4) == b'\0' * 4:
+                    size += 4
         else:
             raise ValueError(f"unmeasured native record {tag:04x}/{value:04x} at {at}")
         if at + size > end:
