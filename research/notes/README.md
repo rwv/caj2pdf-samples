@@ -136,3 +136,5 @@ regression rerun after that fix.
 - [Complete accepted native-glyph coverage](native-content-completion-20261008.md) (#19).
 
 - [Interrupted live PDF object prefixes](live-object-prefix-20261008.md) (#410/#411).
+
+- [Equivalent opacity resource references](equivalent-opacity-resources-20261008.md) (#412/#413).
