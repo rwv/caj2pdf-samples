@@ -107,3 +107,10 @@ a pinned source/PDF pair through the existing external image oracles. Its
 [coverage note](notes/github-bitmap-oracles-20261008.md) explains the required
 external tools, source hashes, row conventions and evidence limits. Generated
 PDFs and pixels stay in external temporary directories.
+
+`indexed_lookup_audit.py` audits decoded palette lengths in a hash-pinned
+external output manifest, using pikepdf and bounded POSIX child processes.
+`indexed_palette_loss_probe.py` demonstrates missing-color ambiguity in one
+exact source; its diagnostic PDFs and pixels must remain outside Git. See the
+[Indexed palette report](notes/indexed-palette-loss-20261008.md) for commands,
+synthetic controls, dependencies and limits.
