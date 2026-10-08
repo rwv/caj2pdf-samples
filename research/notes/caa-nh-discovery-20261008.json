@@ -14,33 +14,15 @@
       "doctype": "NH",
       "newline": "LF",
       "trailing_whitespace_bytes": 1,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 148,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 144,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 148,
+        "D2": 144
+      }
     },
     {
       "sha256": "f66d3b9a0fde582c6f6256d56f08e3effbbb7e4464c896c70e61e5b34322c443",
@@ -48,33 +30,15 @@
       "doctype": "NH",
       "newline": "CRLF",
       "trailing_whitespace_bytes": 2,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 168,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 168,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
     },
     {
       "sha256": "7f4f2b21fb51a23dac8aa08c9768a85bd44f5de996225834322a92978ca93259",
@@ -82,33 +46,15 @@
       "doctype": "NH",
       "newline": "CRLF",
       "trailing_whitespace_bytes": 2,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 168,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 168,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
     },
     {
       "sha256": "4f9a463f7dd670e2a614c955cf305cee7b4014e5c5f861d318adbfedebfb443a",
@@ -116,33 +62,15 @@
       "doctype": "NH",
       "newline": "CRLF",
       "trailing_whitespace_bytes": 2,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 168,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 168,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
     },
     {
       "sha256": "7cfa7599c089eaffdc422289d29e8a76adf44f93e9194fe211a06e4d9f5d3f11",
@@ -150,33 +78,15 @@
       "doctype": "NH",
       "newline": "CRLF",
       "trailing_whitespace_bytes": 2,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 168,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 168,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
     },
     {
       "sha256": "cbd85c253338a8322120bf77742e378705be4d4e47d0e1257f0ccc45cfb4ee7a",
@@ -184,33 +94,15 @@
       "doctype": "NH",
       "newline": "CRLF",
       "trailing_whitespace_bytes": 2,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 168,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 168,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
     },
     {
       "sha256": "e31143b3fc253466f3eba5987b47890d6467cf118bfc9fae1d2c07154dd4edcc",
@@ -218,33 +110,15 @@
       "doctype": "NH",
       "newline": "CRLF",
       "trailing_whitespace_bytes": 2,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 168,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 168,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
     },
     {
       "sha256": "1588484537d28dac57b640be24b5bda72e5cd3e66282ab255f789e52a5356524",
@@ -252,33 +126,15 @@
       "doctype": "NH",
       "newline": "CRLF",
       "trailing_whitespace_bytes": 2,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 168,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 168,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
     },
     {
       "sha256": "ab0ecfe75ff1108bd74c65dd98dda63e9169ada99d96ec599352a50239f3b65b",
@@ -286,33 +142,15 @@
       "doctype": "NH",
       "newline": "CRLF",
       "trailing_whitespace_bytes": 2,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 168,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 168,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
     },
     {
       "sha256": "ca76a07651462bca2d16a884e1e744e62b522bf07ac95db97cabba9d2f052d7f",
@@ -320,33 +158,15 @@
       "doctype": "NH",
       "newline": "CRLF",
       "trailing_whitespace_bytes": 2,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 168,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 168,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
     },
     {
       "sha256": "8b6ac10185fbf9a1bb00c744fe381a378ab286590afa52bc8577f6d5044c20c3",
@@ -354,33 +174,15 @@
       "doctype": "KDH",
       "newline": "LF",
       "trailing_whitespace_bytes": 1,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 152,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 148,
-        "DOCTYPE": 3
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 152,
+        "D2": 148
+      }
     },
     {
       "sha256": "e9bbce707425dd00865a9f7e2f721c298096f4dae8561ae920822101b86f3bae",
@@ -388,33 +190,15 @@
       "doctype": "NH",
       "newline": "CRLF",
       "trailing_whitespace_bytes": 2,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 168,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 168,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
     },
     {
       "sha256": "c0f64bd0b1ae1f4f3f463b2a40472d76d505063403d3dc672168eadfc48634ab",
@@ -422,33 +206,15 @@
       "doctype": "NH",
       "newline": "CRLF",
       "trailing_whitespace_bytes": 2,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 168,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 168,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
     },
     {
       "sha256": "b2d44f4b141beb6b564207e2638a7bb1f64d128327119205d3d546fef603453f",
@@ -456,33 +222,15 @@
       "doctype": "NH",
       "newline": "CRLF",
       "trailing_whitespace_bytes": 2,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 168,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 168,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 168,
+        "D2": 168
+      }
     },
     {
       "sha256": "e0bf5036ec34eece9efaa658dc4a06c1ebbb6962a527320864540e3eff905a62",
@@ -490,33 +238,15 @@
       "doctype": "KDH",
       "newline": "LF",
       "trailing_whitespace_bytes": 1,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 156,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 152,
-        "DOCTYPE": 3
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 156,
+        "D2": 152
+      }
     },
     {
       "sha256": "6952b7758b8c9711f874102e32ebcd200f048bfde53eee70d338430bb56fa4c3",
@@ -524,33 +254,15 @@
       "doctype": "NH",
       "newline": "LF",
       "trailing_whitespace_bytes": 1,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 152,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 152,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 152,
+        "D2": 152
+      }
     },
     {
       "sha256": "cd8efb8bb0039364ebc8625de3f130dc512c639ffee2c811df042a3f87312ebb",
@@ -558,33 +270,15 @@
       "doctype": "NH",
       "newline": "LF",
       "trailing_whitespace_bytes": 1,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 152,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 152,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 152,
+        "D2": 152
+      }
     },
     {
       "sha256": "f41afa7ba6866a59aac14b35135ee18dac8b57653ceb70e09f62407b597bfee4",
@@ -592,33 +286,15 @@
       "doctype": "NH",
       "newline": "CRLF",
       "trailing_whitespace_bytes": 5,
-      "field_names": [
-        "A1",
-        "A2",
-        "B1",
-        "B2",
-        "C1",
-        "C2",
-        "D1",
-        "D2",
-        "DOCTYPE"
-      ],
-      "value_lengths": {
-        "A1": 2,
-        "A2": 144,
-        "B1": 1,
-        "B2": 0,
-        "C1": 1,
-        "C2": 0,
-        "D1": 2,
-        "D2": 140,
-        "DOCTYPE": 2
-      },
       "baseline_inspect_exit": 1,
       "baseline_inspect_reason": "unrecognized input format",
       "baseline_conversion_exit": 1,
       "baseline_conversion_reason": "unrecognized input format",
-      "baseline_output_created": false
+      "baseline_output_created": false,
+      "opaque_value_lengths": {
+        "A2": 144,
+        "D2": 140
+      }
     }
   ],
   "viewer": [
@@ -770,5 +446,16 @@
     "node": "v24.13.0",
     "chromium": "Chromium 154.0.8037.92 built on Debian GNU/Linux 13 (trixie)",
     "qpdf": "qpdf version 12.2.0"
-  }
+  },
+  "caa_field_order": [
+    "A1",
+    "A2",
+    "B1",
+    "B2",
+    "C1",
+    "C2",
+    "D1",
+    "D2",
+    "DOCTYPE"
+  ]
 }
