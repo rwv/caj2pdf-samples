@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "issue": "https://github.com/rwv/caj2pdf-rust/issues/414",
+  "pr": "https://github.com/rwv/caj2pdf-rust/pull/427",
+  "candidate_commit": "56e3bbc5f047173a48b8c3d44eb313c9e8a02fbb",
+  "base_commit": "f87de9d0ef92f28a51969c3fba6246e79400da14",
+  "full_conversion_candidate": "4308d424587486b57d303d317b3fededbf1223e7",
+  "previous_receipt": "https://github.com/rwv/caj2pdf-samples/blob/bc22d56f5b0313fb2cb5ff60bf7e6dbe1ebe9a50/research/notes/pattern-matrix-fallback-20261008.json",
+  "integration_reason": "Main release preparation #430 changes project versions to 0.6.0 and release/install documentation. Resolve only the Unreleased conflict, retaining #414 as post-0.6.0 work.",
+  "changed_paths_from_full_conversion_candidate": [
+    "CHANGELOG.md",
+    "Cargo.lock",
+    "crates/caj2pdf-cli/Cargo.toml",
+    "crates/caj2pdf-core/Cargo.toml",
+    "crates/caj2pdf-wasm/Cargo.toml",
+    "docs/releases/unreleased.md",
+    "docs/releases/v0.6.0.md",
+    "fuzz/Cargo.lock",
+    "js/README.md",
+    "js/package.json"
+  ],
+  "identical_git_objects": {
+    "Cargo.toml": "88016f39d8cf51981f302ac3fb4db01a8bf67c6b",
+    "crates/caj2pdf-core/src": "600ab4e7423788ddbebbca90d0d3249ce66accc5",
+    "crates/caj2pdf-cli/src": "f0f43f2055b4d7a1f5d20607abc19821c7944c0a",
+    "crates/caj2pdf-wasm/src": "8d292c0e7da982f3bfda716cced8bd150796185c",
+    "crates/caj2pdf-core/tests": "51f14b36e3d29704531acb36dc6b909b69ff0e0e",
+    "crates/caj2pdf-cli/tests": "7a05f6c0308fc6ca419be6e0f0274ddc046530a6",
+    "js/internal": "a34db0fade802c0fd8fe9653ff018811369ef7a7",
+    "js/browser.mjs": "c14b7039f75c0818a52cf7e255406350d9bb5ec7",
+    "js/node.mjs": "5ff0c668df6eae9ca5559247e65fc643a5875a21",
+    "js/io.mjs": "6de4b9bf079bead19c4f35a52ba7b476f5082508",
+    "js/test": "a4e03dd02bd08a1534464ec78d9a9d31470cc889",
+    "tests/fixtures": "e3fb3c025ebbcf1ab30645791feadfa50566fd92"
+  },
+  "locked_dependency_graph_unchanged_except_project_versions": true,
+  "manifests_unchanged_except_project_versions": true,
+  "package_versions": {
+    "before": "0.5.0",
+    "after": "0.6.0"
+  },
+  "version_use_review": "CARGO_PKG_VERSION occurs in production only in the CLI --version response; its test checks that response. PDF conversion code, runtime adapters, features, fixtures and dependency versions are unchanged.",
+  "native_version": "caj2pdf 0.6.0",
+  "native_sha256": "fb395e14a954a2cce835b977ebdc4c6f83a30070c2345f83d070bfc6080cec86",
+  "fresh_originals": [
+    {
+      "source_sha256": "2423e0b8e64060bc55cf004da3c7f79b411739753e89e39ebefcea44b300b968",
+      "source_unchanged": true,
+      "pdf_sha256": "5d086136cb15d8186617d230f2c94aa9ee13c871015d6430431250cbd13364a4",
+      "pdf_bytes": 4106444,
+      "identity_diagnostic_output_identical": true,
+      "qpdf_exit": 0,
+      "native_sha256": "fb395e14a954a2cce835b977ebdc4c6f83a30070c2345f83d070bfc6080cec86",
+      "candidate_commit": "56e3bbc5f047173a48b8c3d44eb313c9e8a02fbb",
+      "preintegration_output_identical": true
+    },
+    {
+      "source_sha256": "f08947012a4882d3f62c9e3552f5a889d4bc7dee22f3a5119f22b7cb298b180f",
+      "source_unchanged": true,
+      "pdf_sha256": "174ffe9a53a2fd95714850141e3610a192b95b97747c1dd86b767a53fbf30fc0",
+      "pdf_bytes": 3711785,
+      "identity_diagnostic_output_identical": true,
+      "qpdf_exit": 0,
+      "native_sha256": "fb395e14a954a2cce835b977ebdc4c6f83a30070c2345f83d070bfc6080cec86",
+      "candidate_commit": "56e3bbc5f047173a48b8c3d44eb313c9e8a02fbb",
+      "preintegration_output_identical": true
+    }
+  ],
+  "fresh_runtime": {
+    "summary": {
+      "candidate_base": "f87de9d0ef92f28a51969c3fba6246e79400da14",
+      "wasm_sha256": "2f6bf8de954f49046d4ee9d7283dacff0a466e4a62e58320548b180943fe6111",
+      "count": 2,
+      "node_matches": 2,
+      "browser_matches": 2,
+      "node_failures": [],
+      "browser_failures": []
+    },
+    "node": [
+      {
+        "source": "2423e0b8e64060bc55cf004da3c7f79b411739753e89e39ebefcea44b300b968",
+        "status": "CONVERTED",
+        "pages": 163,
+        "substitutedGlyphs": "0",
+        "sha256": "5d086136cb15d8186617d230f2c94aa9ee13c871015d6430431250cbd13364a4",
+        "bytes": 4106444,
+        "native_match": true,
+        "seconds": 0.2
+      },
+      {
+        "source": "f08947012a4882d3f62c9e3552f5a889d4bc7dee22f3a5119f22b7cb298b180f",
+        "status": "CONVERTED",
+        "pages": 101,
+        "substitutedGlyphs": "0",
+        "sha256": "174ffe9a53a2fd95714850141e3610a192b95b97747c1dd86b767a53fbf30fc0",
+        "bytes": 3711785,
+        "native_match": true,
+        "seconds": 0.179
+      }
+    ],
+    "chromium": [
+      {
+        "source": "2423e0b8e64060bc55cf004da3c7f79b411739753e89e39ebefcea44b300b968",
+        "status": "CONVERTED",
+        "pages": 163,
+        "substitutedGlyphs": "0",
+        "bytes": 4106444,
+        "sha256": "5d086136cb15d8186617d230f2c94aa9ee13c871015d6430431250cbd13364a4",
+        "remaining": [],
+        "native_match": true,
+        "seconds": 0.253
+      },
+      {
+        "source": "f08947012a4882d3f62c9e3552f5a889d4bc7dee22f3a5119f22b7cb298b180f",
+        "status": "CONVERTED",
+        "pages": 101,
+        "substitutedGlyphs": "0",
+        "bytes": 3711785,
+        "sha256": "174ffe9a53a2fd95714850141e3610a192b95b97747c1dd86b767a53fbf30fc0",
+        "remaining": [],
+        "native_match": true,
+        "seconds": 0.252
+      }
+    ]
+  },
+  "controls": {
+    "workspace_pass": 1299,
+    "optional_corpus_ignored": 7,
+    "javascript_pass": 166,
+    "locked_native_and_wasm_builds": "PASS",
+    "strict_clippy": "PASS"
+  },
+  "required_ci": {
+    "pr": {
+      "baseRefOid": "f87de9d0ef92f28a51969c3fba6246e79400da14",
+      "headRefOid": "56e3bbc5f047173a48b8c3d44eb313c9e8a02fbb",
+      "mergeStateStatus": "UNSTABLE",
+      "mergeable": "MERGEABLE",
+      "url": "https://github.com/rwv/caj2pdf-rust/pull/427"
+    },
+    "checks": [
+      {
+        "bucket": "pass",
+        "link": "https://github.com/rwv/caj2pdf-rust/actions/runs/37741839593/job/113194092793",
+        "name": "native (ubuntu-24.04-arm, aarch64-unknown-linux-musl)",
+        "state": "SUCCESS"
+      },
+      {
+        "bucket": "pass",
+        "link": "https://github.com/rwv/caj2pdf-rust/actions/runs/37741839593/job/113194092708",
+        "name": "native (ubuntu-24.04-arm, aarch64-unknown-linux-gnu)",
+        "state": "SUCCESS"
+      },
+      {
+        "bucket": "pass",
+        "link": "https://github.com/rwv/caj2pdf-rust/actions/runs/37741839593/job/113194092756",
+        "name": "native (ubuntu-24.04, x86_64-unknown-linux-gnu)",
+        "state": "SUCCESS"
+      },
+      {
+        "bucket": "pass",
+        "link": "https://github.com/rwv/caj2pdf-rust/actions/runs/37741839568/job/113194091702",
+        "name": "Native quality gates",
+        "state": "SUCCESS"
+      },
+      {
+        "bucket": "pass",
+        "link": "https://github.com/rwv/caj2pdf-rust/actions/runs/37741839568/job/113194092856",
+        "name": "MIT dependency and source audit",
+        "state": "SUCCESS"
+      },
+      {
+        "bucket": "pass",
+        "link": "https://github.com/rwv/caj2pdf-rust/actions/runs/37741839593/job/113194092819",
+        "name": "native (ubuntu-24.04, x86_64-unknown-linux-musl)",
+        "state": "SUCCESS"
+      },
+      {
+        "bucket": "pass",
+        "link": "https://github.com/rwv/caj2pdf-rust/actions/runs/37741839568/job/113194092093",
+        "name": "Line coverage (100% required)",
+        "state": "SUCCESS"
+      },
+      {
+        "bucket": "pass",
+        "link": "https://github.com/rwv/caj2pdf-rust/actions/runs/37741839568/job/113194092037",
+        "name": "WASM build",
+        "state": "SUCCESS"
+      }
+    ]
+  },
+  "validation_scope": "The 1,277-original / 2,126-attempt conversion ledger remains directly measured at 4308d42, with all successful PDF hashes matching dfb5395 full validators. This release-only rebase does not claim another complete-corpus execution. Code/dependency equivalence, fresh builds/local suites, both original native/qpdf/Node/Chromium checks and exact-head CI establish integration. Prior all-page/render/source-outline evidence applies to the identical recovered PDFs. The 38 frozen-sweep refusals, newer CAA/NH scope and wider #406 limitations remain unchanged.",
+  "provenance": "Only original MIT measurement metadata is added. No corpus, PDF, pixel, font, vendor binary or credential values. This PR performs no publication."
+}
