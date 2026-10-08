@@ -158,3 +158,5 @@ regression rerun after that fix.
 - [Interrupted metadata and missing CAJ parents](interrupted-metadata-parents-20261008.md): one recovered 53-page original, complete object/stream/page/bookmark proof, scoped viewer negatives, preserved baseline hashes and a separately fixed browser cancellation race.
 
 - [Retained CAJ catalog and incomplete page tree](retained-catalog-20261008.md): one recovered 78-page original, retained page labels, complete object/stream/page/bookmark comparisons, scoped viewer controls and unchanged prior-success hashes.
+
+- [Missing Indexed colors and accepted-output audit](indexed-palette-loss-20261008.md): two incompatible completions of the same surviving source data, source-history identity, current refusal/cleanup and a bounded lookup-length audit of 1,252 accepted PDFs.
