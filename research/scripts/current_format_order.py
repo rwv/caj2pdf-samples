@@ -106,7 +106,7 @@ def expected_image(sample: dict, image: dict, source_sha: str, source_id: str) -
             entry["visible_bits_sha256"] if kind == 0 else entry["normalized_pixel_sha256"])
 
 
-def extracted_image(path: Path) -> tuple:
+def extracted_image(path: Path, *, bottom_up: bool = False) -> tuple:
     if path.suffix == ".jpg":
         with path.open("rb") as stream:
             return ("jpeg", hashlib.file_digest(stream, "sha256").hexdigest())
@@ -117,11 +117,18 @@ def extracted_image(path: Path) -> tuple:
         header = pnm_header(stream)
         if header.magic != "P4" or header.width * header.height > 100_000_000:
             raise ValueError("unsupported or oversized extracted bitmap")
-        for _ in range(header.height):
+        start = stream.tell()
+        # The pinned type-0 oracle hashes bottom-up DIB memory rows. Poppler
+        # emits display-order PBM rows. Select the convention from the source
+        # record type, never by accepting whichever orientation happens to match.
+        rows = range(header.height - 1, -1, -1) if bottom_up else range(header.height)
+        for index in rows:
+            stream.seek(start + index * header.row_bytes)
             row = bytearray(read_exact(stream, header.row_bytes))
             if header.width % 8:
                 row[-1] &= (0xff << (8 - header.width % 8)) & 0xff
             digest.update(row)
+        stream.seek(start + header.height * header.row_bytes)
         if stream.read(1):
             raise ValueError("trailing bitmap data")
     return ("bits", header.width, header.height, digest.hexdigest())
@@ -131,7 +138,7 @@ def images_match(expected: list[tuple], actual: list[tuple]) -> bool:
     # Extra source descriptors may repeat a complete first group. This checks
     # byte/pixel identity and page order only; coordinate/alias semantics are
     # covered separately by the composition tests and fidelity work.
-    return bool(actual) and len(expected) % len(actual) == 0 and all(
+    return bool(expected) and bool(actual) and len(expected) % len(actual) == 0 and all(
         image == actual[index % len(actual)] for index, image in enumerate(expected)
     )
 
@@ -181,7 +188,9 @@ def check(commands, source: Path, pdf: Path, row: dict, info: dict, label: str) 
                 if result["exit_code"] != 0:
                     raise ValueError("pdfimages extraction failed")
                 files = sorted(image_dir.iterdir(), key=lambda path: int(path.stem.rsplit("-", 1)[1]))
-                actual = [extracted_image(path) for path in files]
+                actual = [extracted_image(path, bottom_up=index < len(page["images"])
+                                          and page["images"][index]["record_type"] == 0)
+                          for index, path in enumerate(files)]
                 if not images_match(expected, actual):
                     mismatches.append(number)
                 else:

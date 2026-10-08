@@ -128,3 +128,4 @@ records #402/#404, original native/Node/Chromium parity and the complete native
 regression rerun after that fix.
 
 - [Identical fragment page boxes: four-original verification](fragment-mediabox-20261008.md) (#407/#408).
+- [Correct the type-0 image oracle row convention](image-order-row-convention-20261008.md) (partial #12).
