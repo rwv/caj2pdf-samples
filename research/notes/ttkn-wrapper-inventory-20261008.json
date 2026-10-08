@@ -1,0 +1,3955 @@
+{
+  "scope": "Bounded read-only original-source structure; no key, credential, XML value, document payload or embedded URL is exported or contacted.",
+  "limits": {
+    "read_chunk_and_tail_bytes": 65536,
+    "object_bytes": 4096,
+    "xref_entries": 100000,
+    "xref_line_bytes": 128,
+    "xml_elements": 64
+  },
+  "tools": {
+    "pikepdf": "10.5.1",
+    "cryptography": "44.0.3"
+  },
+  "sources": [
+    {
+      "source_sha256": "868dfadd1cc5e623ecc3675f17d50ecef646865ab611eea82bed7ccfedc7ade0",
+      "size_bytes": 9121334,
+      "origin": {
+        "path": "external/github/868dfadd1cc5e623ecc3675f17d50ecef646865ab611eea82bed7ccfedc7ade0.caj",
+        "source_repository": "https://github.com/MengLingtian/caj2pdf-actions",
+        "source_revision": "e3e0c70c06db3fdad13c79a7d42384fcd0d9caf0"
+      },
+      "pdf": {
+        "version": "1.5",
+        "extent": [
+          0,
+          9115634
+        ],
+        "sha256": "ebda0603ea7bdbe5dc7a5033e6b677d69e8c5e331dd282c554a6518f61631c82",
+        "xref_offset": 9095392,
+        "xref_entry_count": 1003,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          1002,
+          0
+        ],
+        "encryption_object_extent": [
+          9095175,
+          9095391
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          9115646,
+          9121253
+        ],
+        "declared_xml_offset": 9115646,
+        "declared_xml_length": 5609,
+        "actual_xml_bytes": 5607,
+        "tail_bytes": 5700,
+        "bytes_after_xml": 81,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 59,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3000,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2248,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 8,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "868dfadd1cc5e623ecc3675f17d50ecef646865ab611eea82bed7ccfedc7ade0",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 9095392): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "868dfadd1cc5e623ecc3675f17d50ecef646865ab611eea82bed7ccfedc7ade0",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2248,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "too long"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "5cdf239130bc63c9fc28ca528bb4665c60f95031f8552e9ee119dbb2afbda35b",
+      "size_bytes": 5386123,
+      "origin": {
+        "path": "external/github/5cdf239130bc63c9fc28ca528bb4665c60f95031f8552e9ee119dbb2afbda35b.caj",
+        "source_repository": "https://github.com/Rainwaited/caj2pdf-actions",
+        "source_revision": "34f595150d088f7bd45e60fe77be59af73edff9e"
+      },
+      "pdf": {
+        "version": "1.3",
+        "extent": [
+          0,
+          5380313
+        ],
+        "sha256": "d8b1f26ca4d55b3223f0df90e905c51e9f76effd0c48eeaebbf6506707c0c93a",
+        "xref_offset": 5152807,
+        "xref_entry_count": 11366,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          11365,
+          0
+        ],
+        "encryption_object_extent": [
+          5152589,
+          5152806
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          5380325,
+          5385992
+        ],
+        "declared_xml_offset": 5380325,
+        "declared_xml_length": 5609,
+        "actual_xml_bytes": 5667,
+        "tail_bytes": 5810,
+        "bytes_after_xml": 131,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 94,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 94,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 79,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3000,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2248,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 8,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "5cdf239130bc63c9fc28ca528bb4665c60f95031f8552e9ee119dbb2afbda35b",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 5152807): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "5cdf239130bc63c9fc28ca528bb4665c60f95031f8552e9ee119dbb2afbda35b",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2248,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "too long"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "a44a836f89e8faf9a949b88b753084ba2ce5851def9f6194c7528f325606a65c",
+      "size_bytes": 960141,
+      "origin": {
+        "path": "external/github/a44a836f89e8faf9a949b88b753084ba2ce5851def9f6194c7528f325606a65c.caj",
+        "source_repository": "https://github.com/Li-Zijing/caj2pdf-actions",
+        "source_revision": "93694eca12bfd3e566b5bebb2b863b110ad17dac"
+      },
+      "pdf": {
+        "version": "1.6",
+        "extent": [
+          0,
+          954442
+        ],
+        "sha256": "202b69bc1f31b8cde4ab069045c15d287e69544351fc69512b670295e5c95ced",
+        "xref_offset": 941625,
+        "xref_entry_count": 632,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          631,
+          0
+        ],
+        "encryption_object_extent": [
+          941409,
+          941624
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          954454,
+          960061
+        ],
+        "declared_xml_offset": 954454,
+        "declared_xml_length": 5609,
+        "actual_xml_bytes": 5607,
+        "tail_bytes": 5699,
+        "bytes_after_xml": 80,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 59,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3000,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2248,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 8,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "a44a836f89e8faf9a949b88b753084ba2ce5851def9f6194c7528f325606a65c",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 941625): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "a44a836f89e8faf9a949b88b753084ba2ce5851def9f6194c7528f325606a65c",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2248,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "too long"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "f5451a3d79faf72c8126ee4ef32cde6da5db853ea4917c17570022c1d7326185",
+      "size_bytes": 1499317,
+      "origin": {
+        "path": "external/github/f5451a3d79faf72c8126ee4ef32cde6da5db853ea4917c17570022c1d7326185.caj",
+        "source_repository": "https://github.com/he13900/caj2pdf-actions",
+        "source_revision": "d784b54be93f6a32ed0b38e564bdc59c07705d10"
+      },
+      "pdf": {
+        "version": "1.5",
+        "extent": [
+          0,
+          1493617
+        ],
+        "sha256": "8485fe97f01063387f92badf28ea905dc4066d4fa1ae6eda23f7781f15093dc3",
+        "xref_offset": 1469955,
+        "xref_entry_count": 1174,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          1173,
+          0
+        ],
+        "encryption_object_extent": [
+          1469738,
+          1469954
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          1493629,
+          1499236
+        ],
+        "declared_xml_offset": 1493629,
+        "declared_xml_length": 5609,
+        "actual_xml_bytes": 5607,
+        "tail_bytes": 5700,
+        "bytes_after_xml": 81,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 59,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3000,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2248,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 8,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "f5451a3d79faf72c8126ee4ef32cde6da5db853ea4917c17570022c1d7326185",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 1469955): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "f5451a3d79faf72c8126ee4ef32cde6da5db853ea4917c17570022c1d7326185",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2248,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "wrong tag",
+              "nested asn1 error"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "7ec4a11a66e4ea8f1ebd5648feac31a889460a6164bb9d543aaac996a5c053dd",
+      "size_bytes": 5148189,
+      "origin": {
+        "path": "external/github/7ec4a11a66e4ea8f1ebd5648feac31a889460a6164bb9d543aaac996a5c053dd.caj",
+        "source_repository": "https://github.com/bi-wei/caj2pdf-actions",
+        "source_revision": "de9122c69a1373fbfe97fb2f2164917c7941007d"
+      },
+      "pdf": {
+        "version": "1.7",
+        "extent": [
+          0,
+          5142489
+        ],
+        "sha256": "34ee5fff2cb6095f2b0074a906a0b566084ccd9fdc63fe710b0cbbd3db47da91",
+        "xref_offset": 5119107,
+        "xref_entry_count": 1160,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          1159,
+          0
+        ],
+        "encryption_object_extent": [
+          5118890,
+          5119106
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          5142501,
+          5148108
+        ],
+        "declared_xml_offset": 5142501,
+        "declared_xml_length": 5609,
+        "actual_xml_bytes": 5607,
+        "tail_bytes": 5700,
+        "bytes_after_xml": 81,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 59,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3000,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2248,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 8,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "7ec4a11a66e4ea8f1ebd5648feac31a889460a6164bb9d543aaac996a5c053dd",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 5119107): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "7ec4a11a66e4ea8f1ebd5648feac31a889460a6164bb9d543aaac996a5c053dd",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2248,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "wrong tag",
+              "nested asn1 error"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "f8dd698645430ba7f6bef32374da0fa27324db8a493f3cbf85ff07f93941431b",
+      "size_bytes": 10208301,
+      "origin": {
+        "path": "external/github/f8dd698645430ba7f6bef32374da0fa27324db8a493f3cbf85ff07f93941431b.caj",
+        "source_repository": "https://github.com/selface/caj2pdf-actions",
+        "source_revision": "aa789ea1c4097f1b16e76a7e9705daff76f71f62"
+      },
+      "pdf": {
+        "version": "1.5",
+        "extent": [
+          0,
+          10202600
+        ],
+        "sha256": "52e8c2f1109d5942bad428f5baa7c57725bdcd909fd275fcd48d94c3ec3978ab",
+        "xref_offset": 10191281,
+        "xref_entry_count": 557,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          556,
+          0
+        ],
+        "encryption_object_extent": [
+          10191065,
+          10191280
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          10202612,
+          10208219
+        ],
+        "declared_xml_offset": 10202612,
+        "declared_xml_length": 5609,
+        "actual_xml_bytes": 5607,
+        "tail_bytes": 5701,
+        "bytes_after_xml": 82,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 59,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3000,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2248,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 8,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "f8dd698645430ba7f6bef32374da0fa27324db8a493f3cbf85ff07f93941431b",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 10191281): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "f8dd698645430ba7f6bef32374da0fa27324db8a493f3cbf85ff07f93941431b",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2248,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "wrong tag",
+              "nested asn1 error"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "d6599518310e88ddacba8f0cab29f4758716ae240fa786d6b70895d9ac6de353",
+      "size_bytes": 14297397,
+      "origin": {
+        "path": "external/github/d6599518310e88ddacba8f0cab29f4758716ae240fa786d6b70895d9ac6de353.caj",
+        "source_repository": "https://github.com/FuryMartin/caj2pdf-actions",
+        "source_revision": "456a85d9a55690302e4dd10a95b6456afc1ceda6"
+      },
+      "pdf": {
+        "version": "1.5",
+        "extent": [
+          0,
+          14295901
+        ],
+        "sha256": "8e794badcf0dc8a0d1e153dfffbcb928aac5be7a3740a1d238436c22a565afc0",
+        "xref_offset": 14272318,
+        "xref_entry_count": 1170,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          1169,
+          0
+        ],
+        "encryption_object_extent": [
+          14272101,
+          14272317
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "auth-url-without-certificate-or-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          14295913,
+          14297372
+        ],
+        "declared_xml_offset": 14295913,
+        "declared_xml_length": 1459,
+        "actual_xml_bytes": 1459,
+        "tail_bytes": 1496,
+        "bytes_after_xml": 25,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 20,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 2,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "permit",
+            "children": 2,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "server",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "url",
+            "children": 0,
+            "text_utf8_bytes": 57,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 64,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 48,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 940,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 704,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Authentication/server wrapper semantics and an available validated credential source; no certificate or PFX field is embedded in this XML",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "d6599518310e88ddacba8f0cab29f4758716ae240fa786d6b70895d9ac6de353",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 14272318): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "d6599518310e88ddacba8f0cab29f4758716ae240fa786d6b70895d9ac6de353",
+        "pfx_count": 0,
+        "pfx": [],
+        "password_fields": [
+          {
+            "decoded_bytes": 48,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "b772751bde6c80f5bfaa8776d2fa246af90488094704386bbc9a43a15ba433aa",
+      "size_bytes": 817387,
+      "origin": {
+        "path": "external/github/b772751bde6c80f5bfaa8776d2fa246af90488094704386bbc9a43a15ba433aa.caj",
+        "source_repository": "https://github.com/xinanzhengfa/caj2pdf-actions",
+        "source_revision": "93462aef5489fc42f6261c1f4d1928821f862030"
+      },
+      "pdf": {
+        "version": "1.7",
+        "extent": [
+          0,
+          811688
+        ],
+        "sha256": "3005e250381a8b0acb52ae76c516d6a29c1fd92411cdd5b9a43f483ff1e54609",
+        "xref_offset": 804451,
+        "xref_entry_count": 353,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          352,
+          0
+        ],
+        "encryption_object_extent": [
+          804235,
+          804450
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          811700,
+          817307
+        ],
+        "declared_xml_offset": 811700,
+        "declared_xml_length": 5609,
+        "actual_xml_bytes": 5607,
+        "tail_bytes": 5699,
+        "bytes_after_xml": 80,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 59,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3000,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2248,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 8,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "b772751bde6c80f5bfaa8776d2fa246af90488094704386bbc9a43a15ba433aa",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 804451): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "b772751bde6c80f5bfaa8776d2fa246af90488094704386bbc9a43a15ba433aa",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2248,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "wrong tag",
+              "nested asn1 error"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "aa02ee02dbe31a446296f19615d2b5f10cc879b5472a32159fcc3c23a042fc8f",
+      "size_bytes": 3031408,
+      "origin": {
+        "path": "external/github/aa02ee02dbe31a446296f19615d2b5f10cc879b5472a32159fcc3c23a042fc8f.caj",
+        "source_repository": "https://github.com/altomanscott/caj2pdf-actions",
+        "source_revision": "30d72076ffdd370c88abb94335ffb9e7a774a166"
+      },
+      "pdf": {
+        "version": "1.5",
+        "extent": [
+          0,
+          3025598
+        ],
+        "sha256": "5606ff556dd126718d7f0789a05912a8a40422ffc93c65a181d6bfa2527d65d1",
+        "xref_offset": 3019520,
+        "xref_entry_count": 295,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          294,
+          0
+        ],
+        "encryption_object_extent": [
+          3019304,
+          3019519
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          3025610,
+          3031277
+        ],
+        "declared_xml_offset": 3025610,
+        "declared_xml_length": 5609,
+        "actual_xml_bytes": 5667,
+        "tail_bytes": 5810,
+        "bytes_after_xml": 131,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 94,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 94,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 79,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3000,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2248,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 8,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "aa02ee02dbe31a446296f19615d2b5f10cc879b5472a32159fcc3c23a042fc8f",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 3019520): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "aa02ee02dbe31a446296f19615d2b5f10cc879b5472a32159fcc3c23a042fc8f",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2248,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "wrong tag",
+              "nested asn1 error"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "b3a9284d70aace13cd16f4d27021a7766d69cd08aa855c9ca54476b23a41902b",
+      "size_bytes": 4678911,
+      "origin": {
+        "path": "external/github/b3a9284d70aace13cd16f4d27021a7766d69cd08aa855c9ca54476b23a41902b.caj",
+        "source_repository": "https://github.com/altomanscott/caj2pdf-actions",
+        "source_revision": "30d72076ffdd370c88abb94335ffb9e7a774a166"
+      },
+      "pdf": {
+        "version": "1.7",
+        "extent": [
+          0,
+          4673097
+        ],
+        "sha256": "a63a279b8f55fcc44c9d5da13776e9511522a6f000a2818095da3767e3ea4b88",
+        "xref_offset": 4656119,
+        "xref_entry_count": 840,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          839,
+          0
+        ],
+        "encryption_object_extent": [
+          4655903,
+          4656118
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          4673109,
+          4678780
+        ],
+        "declared_xml_offset": 4673109,
+        "declared_xml_length": 5613,
+        "actual_xml_bytes": 5671,
+        "tail_bytes": 5814,
+        "bytes_after_xml": 131,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 94,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 94,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 79,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3004,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2252,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 12,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "b3a9284d70aace13cd16f4d27021a7766d69cd08aa855c9ca54476b23a41902b",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 4656119): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "b3a9284d70aace13cd16f4d27021a7766d69cd08aa855c9ca54476b23a41902b",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2252,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "too long"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "e13f1a78060825fe0ba718b6def135204b947e65f926a5a7e6173aafbbc72d0a",
+      "size_bytes": 4489256,
+      "origin": {
+        "path": "external/github/e13f1a78060825fe0ba718b6def135204b947e65f926a5a7e6173aafbbc72d0a.caj",
+        "source_repository": "https://github.com/DylanWang95/caj2pdf-actions",
+        "source_revision": "f764af7f9f377eff99e04575596e5ec33b97c99b"
+      },
+      "pdf": {
+        "version": "1.3",
+        "extent": [
+          0,
+          4483556
+        ],
+        "sha256": "b413416036d776a197bc75fd967e08e7724c8edadf9a9015680e6243b1d72c6b",
+        "xref_offset": 4468618,
+        "xref_entry_count": 738,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          737,
+          0
+        ],
+        "encryption_object_extent": [
+          4468402,
+          4468617
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          4483568,
+          4489175
+        ],
+        "declared_xml_offset": 4483568,
+        "declared_xml_length": 5609,
+        "actual_xml_bytes": 5607,
+        "tail_bytes": 5700,
+        "bytes_after_xml": 81,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 59,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3000,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2248,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 8,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "e13f1a78060825fe0ba718b6def135204b947e65f926a5a7e6173aafbbc72d0a",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 4468618): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "e13f1a78060825fe0ba718b6def135204b947e65f926a5a7e6173aafbbc72d0a",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2248,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "wrong tag",
+              "nested asn1 error"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "bfdce330f077e64044d797f748400482a5fa7f3cd8a2a25ccd3cd07e3a57a017",
+      "size_bytes": 6246684,
+      "origin": {
+        "path": "external/github/bfdce330f077e64044d797f748400482a5fa7f3cd8a2a25ccd3cd07e3a57a017.caj",
+        "source_repository": "https://github.com/skingFD/caj2pdf-actions",
+        "source_revision": "b2d8b3be09274c6f27d92713ed1a046afda53a71"
+      },
+      "pdf": {
+        "version": "1.5",
+        "extent": [
+          0,
+          6240984
+        ],
+        "sha256": "f2fc62210ac11bbbf51a3c7657434dafc54ef90b9463d13753a64dd35a82fdae",
+        "xref_offset": 6202262,
+        "xref_entry_count": 1927,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          1926,
+          0
+        ],
+        "encryption_object_extent": [
+          6202045,
+          6202261
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          6240996,
+          6246603
+        ],
+        "declared_xml_offset": 6240996,
+        "declared_xml_length": 5609,
+        "actual_xml_bytes": 5607,
+        "tail_bytes": 5700,
+        "bytes_after_xml": 81,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 59,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3000,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2248,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 8,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "bfdce330f077e64044d797f748400482a5fa7f3cd8a2a25ccd3cd07e3a57a017",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 6202262): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "bfdce330f077e64044d797f748400482a5fa7f3cd8a2a25ccd3cd07e3a57a017",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2248,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "wrong tag",
+              "nested asn1 error"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "9f7914297022ce11a37616060d80453b79b1519f9de595e6cfe162cd7c5f7d2f",
+      "size_bytes": 2794330,
+      "origin": {
+        "path": "external/github/9f7914297022ce11a37616060d80453b79b1519f9de595e6cfe162cd7c5f7d2f.caj",
+        "source_repository": "https://github.com/yaoqh974/caj2pdf-actions",
+        "source_revision": "bae5bb627f61d1c9222b8fb7cb7d7a18934ae95f"
+      },
+      "pdf": {
+        "version": "1.5",
+        "extent": [
+          0,
+          2788630
+        ],
+        "sha256": "825187c91ab5238bcc6c12496b7554f52c3f58ff9c1a5e9a9dd7eac742d38d65",
+        "xref_offset": 2748888,
+        "xref_entry_count": 1978,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          1977,
+          0
+        ],
+        "encryption_object_extent": [
+          2748671,
+          2748887
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          2788642,
+          2794249
+        ],
+        "declared_xml_offset": 2788642,
+        "declared_xml_length": 5609,
+        "actual_xml_bytes": 5607,
+        "tail_bytes": 5700,
+        "bytes_after_xml": 81,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 74,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 59,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3000,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2248,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 8,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "9f7914297022ce11a37616060d80453b79b1519f9de595e6cfe162cd7c5f7d2f",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 2748888): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "9f7914297022ce11a37616060d80453b79b1519f9de595e6cfe162cd7c5f7d2f",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2248,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "too long"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "64d3145cba37950a98e4ae35aabe48053b1709e788ca69387312cc26fd4e8574",
+      "size_bytes": 4464201,
+      "origin": {
+        "path": "external/github/64d3145cba37950a98e4ae35aabe48053b1709e788ca69387312cc26fd4e8574.caj",
+        "source_repository": "https://github.com/SnowFighting0412/caj2pdf-actions",
+        "source_revision": "4920f27e5e4406fd148f4a9f74db08f41cf65d0d"
+      },
+      "pdf": {
+        "version": "1.4",
+        "extent": [
+          0,
+          4458391
+        ],
+        "sha256": "99b147b92a39b1c72ce498787e99bcaef601d7caeed3895b3d4d412380d3d526",
+        "xref_offset": 4431229,
+        "xref_entry_count": 1349,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          1348,
+          0
+        ],
+        "encryption_object_extent": [
+          4431012,
+          4431228
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          4458403,
+          4464070
+        ],
+        "declared_xml_offset": 4458403,
+        "declared_xml_length": 5609,
+        "actual_xml_bytes": 5667,
+        "tail_bytes": 5810,
+        "bytes_after_xml": 131,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 94,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 94,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 79,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3000,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2248,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 8,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "64d3145cba37950a98e4ae35aabe48053b1709e788ca69387312cc26fd4e8574",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 4431229): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "64d3145cba37950a98e4ae35aabe48053b1709e788ca69387312cc26fd4e8574",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2248,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "too long"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "e4a1064cb83e570a310065b80ff3cea8b48a9317ccb9cb6eb615955bd3891903",
+      "size_bytes": 10912026,
+      "origin": {
+        "path": "external/github/e4a1064cb83e570a310065b80ff3cea8b48a9317ccb9cb6eb615955bd3891903.caj",
+        "source_repository": "https://github.com/forjobs/caj2pdf-actions",
+        "source_revision": "fd7750e46cc008b046e9d4fc1976ddbc3a093339"
+      },
+      "pdf": {
+        "version": "1.4",
+        "extent": [
+          0,
+          10910530
+        ],
+        "sha256": "e2a5aaaf5ad96e0a59fd57f6d4401a617562e6a2722467ffee06bce4109ec31d",
+        "xref_offset": 10811387,
+        "xref_entry_count": 4948,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          4947,
+          0
+        ],
+        "encryption_object_extent": [
+          10811170,
+          10811386
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "auth-url-without-certificate-or-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          10910542,
+          10912001
+        ],
+        "declared_xml_offset": 10910542,
+        "declared_xml_length": 1459,
+        "actual_xml_bytes": 1459,
+        "tail_bytes": 1496,
+        "bytes_after_xml": 25,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 20,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 2,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "permit",
+            "children": 2,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "server",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "url",
+            "children": 0,
+            "text_utf8_bytes": 57,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 64,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 48,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 940,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 704,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Authentication/server wrapper semantics and an available validated credential source; no certificate or PFX field is embedded in this XML",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "e4a1064cb83e570a310065b80ff3cea8b48a9317ccb9cb6eb615955bd3891903",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 10811387): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "e4a1064cb83e570a310065b80ff3cea8b48a9317ccb9cb6eb615955bd3891903",
+        "pfx_count": 0,
+        "pfx": [],
+        "password_fields": [
+          {
+            "decoded_bytes": 48,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    },
+    {
+      "source_sha256": "fa994a734d334c7f9631656c6bf3fe5333bda76d1d7b554aeb815377415b5c40",
+      "size_bytes": 18999919,
+      "origin": {
+        "path": "external/github/fa994a734d334c7f9631656c6bf3fe5333bda76d1d7b554aeb815377415b5c40.caj",
+        "source_repository": "https://github.com/wangyipengw1p/caj2pdf-actions",
+        "source_revision": "90edd97836190440d6531ad530b5bc8cedea6950"
+      },
+      "pdf": {
+        "version": "1.7",
+        "extent": [
+          0,
+          18994104
+        ],
+        "sha256": "0a3e20bb03275ce031abfbca8bf5e71b65e028fe0453a0536ca33751bb7413a0",
+        "xref_offset": 18981565,
+        "xref_entry_count": 618,
+        "incremental_or_hybrid_xref": false,
+        "encryption_object": [
+          617,
+          0
+        ],
+        "encryption_object_extent": [
+          18981349,
+          18981564
+        ],
+        "encryption_profile": {
+          "Filter": "TTKN.PubSec",
+          "SubFilter": "TTKN.PubSec.s1",
+          "StmF": "DefaultCryptFilter",
+          "StrF": "DefaultCryptFilter",
+          "Length": 40,
+          "R": 2,
+          "V": 2,
+          "EncryptMetadata": true,
+          "CF": {
+            "DefaultCryptFilter": {
+              "CFM": "AESV2",
+              "recipient_count": 1,
+              "recipient_bytes": 8,
+              "recipient_is_fixed_AppendCA_marker": true,
+              "recipient_is_pkcs7_sequence": false
+            }
+          }
+        }
+      },
+      "wrapper": {
+        "profile": "embedded-certificate-and-opaque-pfx",
+        "marker": "WebFastLoad NUL",
+        "xml_extent": [
+          18994116,
+          18999787
+        ],
+        "declared_xml_offset": 18994116,
+        "declared_xml_length": 5613,
+        "actual_xml_bytes": 5671,
+        "tail_bytes": 5815,
+        "bytes_after_xml": 132,
+        "fields": [
+          {
+            "tag": "right-meta",
+            "children": 6,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-id",
+            "children": 0,
+            "text_utf8_bytes": 32,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "file-app",
+            "children": 0,
+            "text_utf8_bytes": 24,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "o-name",
+            "children": 0,
+            "text_utf8_bytes": 12,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "version",
+            "children": 0,
+            "text_utf8_bytes": 3,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "protect",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "auth",
+            "children": 5,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 94,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "update-url",
+            "children": 0,
+            "text_utf8_bytes": 94,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "reg-machine-url",
+            "children": 0,
+            "text_utf8_bytes": 79,
+            "attribute_value_lengths": {}
+          },
+          {
+            "tag": "permit",
+            "children": 1,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 3,
+            "text_utf8_bytes": 0,
+            "attribute_value_lengths": {
+              "type": 4,
+              "no-binding": 1
+            }
+          },
+          {
+            "tag": "cert",
+            "children": 0,
+            "text_utf8_bytes": 850,
+            "attribute_value_lengths": {},
+            "certificate": {
+              "encoding": "PEM X.509",
+              "public_key_algorithm": "RSA",
+              "public_key_bits": 1024,
+              "signature_algorithm_oid": "1.2.840.113549.1.1.5",
+              "private_key_material": "NOT PROVIDED BY X.509 CERTIFICATE",
+              "trust_or_current_validity_checked": false
+            }
+          },
+          {
+            "tag": "password",
+            "children": 0,
+            "text_utf8_bytes": 172,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 128,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "pfx",
+            "children": 0,
+            "text_utf8_bytes": 3004,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 2252,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 12,
+            "decoded_is_ascii_base64": false
+          },
+          {
+            "tag": "iv",
+            "children": 0,
+            "text_utf8_bytes": 44,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 32,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          },
+          {
+            "tag": "rights",
+            "children": 0,
+            "text_utf8_bytes": 856,
+            "attribute_value_lengths": {},
+            "base64_decoded_bytes": 640,
+            "starts_as_asn1_sequence": false,
+            "decoded_length_modulo_16": 0
+          }
+        ]
+      },
+      "missing_information": [
+        "TTKN.PubSec.s1 handler and wrapper semantics, including mapping the AppendCA marker to key material",
+        "Meaning and unwrap algorithm for the opaque PFX/password/iv/rights fields; the parsed public certificate does not supply its private key",
+        "Validated credential/key unwrapping and file-key derivation for this wrapper profile",
+        "Whole-document recovery and independent content verification"
+      ],
+      "recovery_status": "UNRESOLVED; NOT PROVEN IRRECOVERABLE",
+      "source_unchanged": true,
+      "fresh_logical_pdf_probe": {
+        "source_sha256": "fa994a734d334c7f9631656c6bf3fe5333bda76d1d7b554aeb815377415b5c40",
+        "exit_code": 2,
+        "diagnostic": "qpdf: <logical-pdf> (encryption dictionary, offset 18981565): unsupported encryption filter",
+        "logical_prefix_hash_matches_fresh_source": true
+      },
+      "prior_pfx_structure_probe": {
+        "source_sha256": "fa994a734d334c7f9631656c6bf3fe5333bda76d1d7b554aeb815377415b5c40",
+        "pfx_count": 1,
+        "pfx": [
+          {
+            "decoded_bytes": 2252,
+            "empty_password_info_exit_code": 1,
+            "safe_structure_diagnostic": [],
+            "asn1_error_reasons": [
+              "wrong tag",
+              "nested asn1 error"
+            ],
+            "der_sequence_prefix": false,
+            "ascii_base64_wrapper": false,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "password_fields": [
+          {
+            "decoded_bytes": 128,
+            "raw_values": "REDACTED"
+          }
+        ],
+        "source_unchanged": true
+      },
+      "current_conversion": "FAIL; unchanged in the reviewed #457 full baseline"
+    }
+  ],
+  "issue": "https://github.com/rwv/caj2pdf-rust/issues/415",
+  "created_utc": "2026-10-08T19:38:23.427351+00:00",
+  "production_commit": "aaedf57de1e3789347113bdc7ca6687a9987e164",
+  "inventory_count": 16,
+  "wrapper_counts": {
+    "embedded-certificate-and-opaque-pfx": 14,
+    "auth-url-without-certificate-or-pfx": 2
+  },
+  "viewer": {
+    "sessions": [
+      {
+        "label": "positive-pdf",
+        "source_sha256": "03f312509d1ce5427beabdeed0a5dbfe016e832eab2d6838c9c5ac5296a191d9",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5,
+            "full_rgb_sha256": "636ae4b51ac0b687e9f3f42abb591ef171d3cfe7d5a0f606dc958555a1f9bd13",
+            "size": [
+              1600,
+              1200
+            ]
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10,
+            "full_rgb_sha256": "636ae4b51ac0b687e9f3f42abb591ef171d3cfe7d5a0f606dc958555a1f9bd13",
+            "size": [
+              1600,
+              1200
+            ]
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20,
+            "full_rgb_sha256": "636ae4b51ac0b687e9f3f42abb591ef171d3cfe7d5a0f606dc958555a1f9bd13",
+            "size": [
+              1600,
+              1200
+            ]
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 25,
+            "full_rgb_sha256": "636ae4b51ac0b687e9f3f42abb591ef171d3cfe7d5a0f606dc958555a1f9bd13",
+            "size": [
+              1600,
+              1200
+            ]
+          }
+        ],
+        "last_two_frames_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "peak_memory_bytes": 344895488,
+        "observed_outcome": "OPENED: title-page content and 1/78 page indicator visible"
+      },
+      {
+        "label": "ttkn-embedded-2248",
+        "source_sha256": "868dfadd1cc5e623ecc3675f17d50ecef646865ab611eea82bed7ccfedc7ade0",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5,
+            "full_rgb_sha256": "09eed2af3baf253511c7bf07e2b9bb8aaff02b347075fd2a717229afc6eb852f",
+            "size": [
+              1600,
+              1200
+            ]
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10,
+            "full_rgb_sha256": "09eed2af3baf253511c7bf07e2b9bb8aaff02b347075fd2a717229afc6eb852f",
+            "size": [
+              1600,
+              1200
+            ]
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20,
+            "full_rgb_sha256": "09eed2af3baf253511c7bf07e2b9bb8aaff02b347075fd2a717229afc6eb852f",
+            "size": [
+              1600,
+              1200
+            ]
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 25,
+            "full_rgb_sha256": "09eed2af3baf253511c7bf07e2b9bb8aaff02b347075fd2a717229afc6eb852f",
+            "size": [
+              1600,
+              1200
+            ]
+          }
+        ],
+        "last_two_frames_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "peak_memory_bytes": 262254592,
+        "observed_outcome": "OPEN ERROR: modal red-cross dialog, no document tab or visible page; message glyphs unavailable"
+      },
+      {
+        "label": "ttkn-embedded-2252",
+        "source_sha256": "fa994a734d334c7f9631656c6bf3fe5333bda76d1d7b554aeb815377415b5c40",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5,
+            "full_rgb_sha256": "ddb19f238dcc860a30bd5c488757377bfef8f2a670fc299b66d242232dccc311",
+            "size": [
+              1600,
+              1200
+            ]
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10,
+            "full_rgb_sha256": "ddb19f238dcc860a30bd5c488757377bfef8f2a670fc299b66d242232dccc311",
+            "size": [
+              1600,
+              1200
+            ]
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20,
+            "full_rgb_sha256": "ddb19f238dcc860a30bd5c488757377bfef8f2a670fc299b66d242232dccc311",
+            "size": [
+              1600,
+              1200
+            ]
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 25,
+            "full_rgb_sha256": "ddb19f238dcc860a30bd5c488757377bfef8f2a670fc299b66d242232dccc311",
+            "size": [
+              1600,
+              1200
+            ]
+          }
+        ],
+        "last_two_frames_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "peak_memory_bytes": 261066752,
+        "observed_outcome": "OPEN ERROR: modal red-cross dialog, no document tab or visible page; message glyphs unavailable"
+      },
+      {
+        "label": "ttkn-without-pfx",
+        "source_sha256": "d6599518310e88ddacba8f0cab29f4758716ae240fa786d6b70895d9ac6de353",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5,
+            "full_rgb_sha256": "bc9acf97822807029c506f5cc6514e9fc3a00ea213f8e992f813e0093b743476",
+            "size": [
+              1600,
+              1200
+            ]
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10,
+            "full_rgb_sha256": "bc9acf97822807029c506f5cc6514e9fc3a00ea213f8e992f813e0093b743476",
+            "size": [
+              1600,
+              1200
+            ]
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20,
+            "full_rgb_sha256": "bc9acf97822807029c506f5cc6514e9fc3a00ea213f8e992f813e0093b743476",
+            "size": [
+              1600,
+              1200
+            ]
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 25,
+            "full_rgb_sha256": "bc9acf97822807029c506f5cc6514e9fc3a00ea213f8e992f813e0093b743476",
+            "size": [
+              1600,
+              1200
+            ]
+          }
+        ],
+        "last_two_frames_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "peak_memory_bytes": 259158016,
+        "observed_outcome": "OPEN ERROR: modal red-cross dialog, no document tab or visible page; message glyphs unavailable"
+      }
+    ],
+    "viewer_image": "sha256:cb5049d3448b6d5bcfd371cf195d522d637869dce075cb1650d74198875171de",
+    "containment": {
+      "network": "none",
+      "root_and_inputs": "read-only",
+      "user": 1000,
+      "capabilities": "ALL dropped",
+      "no_new_privileges": true,
+      "memory_and_swap_bytes": 2147483648,
+      "cpus": 2,
+      "pids": 256,
+      "hard_timeout_seconds": 90,
+      "cleanup": "stop with 3 second timeout, remove, verify absent"
+    },
+    "scope": "Four fresh isolated sessions; three representative TTKN originals and one previously validated unencrypted positive PDF. No UI clicks or credentials supplied. All four final full frames visually inspected; 20/25-second frames stable. Other 13 TTKN originals NOT_RUN. Error text is not legible in the available viewer font environment, so no error cause is inferred. Offline failure is not irrecoverability proof, and #441 remains open."
+  },
+  "acceptance": {
+    "inventory": "SATISFIED within this measured 16-original profile",
+    "actual_wrapper_and_credential_semantics": "UNRESOLVED",
+    "whole_document_recovery_or_concrete_unavoidable_exception": "UNRESOLVED",
+    "production_implementation": "NOT JUSTIFIED; no supported recovery demonstrated"
+  },
+  "tool_provenance": {
+    "license": "Original MIT source; no foreign converter/private HN/JBIG/vendor implementation read or copied",
+    "script": "research/scripts/ttkn_inventory.py",
+    "script_sha256": "8792a228df5f97cbe66a017e8cbdefa0b9dd75bfcca11d8e4a0cd7a43fc1cdba",
+    "tests": "research/conformance/test_ttkn_inventory.py",
+    "tests_sha256": "fa4a0b557e854309af85f390bc19d1ef1e7e78c06adfea0ac832e96d27407f81",
+    "original_test_groups_passed": 6,
+    "qpdf": "qpdf version 12.2.0\nRun qpdf --copyright to see copyright and license information.",
+    "openssl_prior_probe": "OpenSSL 3.5.7 9 Jun 2026 (Library: OpenSSL 3.5.7 9 Jun 2026)"
+  },
+  "research_limits": {
+    "not_standard_pkcs7_recipients": "All 16 contain the same eight-byte AppendCA marker instead of a PKCS#7 recipient envelope",
+    "not_standard_pkcs12_on_single_base64_decode": "All 14 opaque PFX fields fail ASN.1 structural parsing before meaningful password verification",
+    "password_lengths": "The 14 embedded-certificate wrappers decode password to 128 bytes; the two server wrappers decode it to 48 bytes. Length does not prove an algorithm or plaintext credential.",
+    "no_external_authentication": "No embedded endpoint was contacted and no password search was run",
+    "no_exception_claim": "Missing semantics and credentials remain research questions; neither parser refusal nor offline viewer failure proves unavoidable loss."
+  },
+  "primary_sources": [
+    {
+      "url": "https://raw.githubusercontent.com/adobe/dc-acrobat-sdk-docs/master/docs/standards/pdfstandards/pdf/PDF32000_2008.pdf",
+      "clauses": "ISO 32000-1:2008 7.6.2, 7.6.4, 7.6.5, Tables 20/23/25/27",
+      "local_pdf_sha256": "9de0ca9e8570d6209e8bd48a355be8eb6ec376acfc3fc3ae97cd8730351417ff",
+      "use": "Standard security-handler selection, recipient/private-key model and crypt filters; does not specify TTKN.PubSec.s1"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc2315.html",
+      "clauses": "6, 7 and 10",
+      "use": "PKCS#7 content/recipient envelope structure"
+    },
+    {
+      "url": "https://www.rfc-editor.org/rfc/rfc7292.html",
+      "clauses": "4",
+      "use": "PFX ASN.1 outer structure; a field name alone does not establish PKCS#12 encoding"
+    }
+  ],
+  "initial_attempts": [
+    {
+      "kind": "inventory script development",
+      "outcome": "REFUSED before producing a report",
+      "detail": "An initial fixed CRLF assumption at the trailer and incomplete XML tag allowlist were corrected to measured line offsets and the server tag; all sources were rerun after correction. No source was changed."
+    },
+    {
+      "kind": "earlier Standard R2 footer diagnostic",
+      "outcome": "INVALID RECOVERY INTERPRETATION",
+      "detail": "Retained historical probe must not establish empty-password availability or successful decryption; the actual live dictionary is the TTKN profile inventoried here."
+    }
+  ],
+  "public_signature_hypothesis_probe": {
+    "scope": "Offline public-key-only test of whether the password field is a PKCS#1 v1.5 signature block under the embedded public certificate. No private operation, password search, value export or decryption claim.",
+    "sources": [
+      {
+        "source_sha256": "868dfadd1cc5e623ecc3675f17d50ecef646865ab611eea82bed7ccfedc7ade0",
+        "valid_pkcs1_v1_5_signature_block": false
+      },
+      {
+        "source_sha256": "5cdf239130bc63c9fc28ca528bb4665c60f95031f8552e9ee119dbb2afbda35b",
+        "valid_pkcs1_v1_5_signature_block": false
+      },
+      {
+        "source_sha256": "a44a836f89e8faf9a949b88b753084ba2ce5851def9f6194c7528f325606a65c",
+        "valid_pkcs1_v1_5_signature_block": false
+      },
+      {
+        "source_sha256": "f5451a3d79faf72c8126ee4ef32cde6da5db853ea4917c17570022c1d7326185",
+        "valid_pkcs1_v1_5_signature_block": false
+      },
+      {
+        "source_sha256": "7ec4a11a66e4ea8f1ebd5648feac31a889460a6164bb9d543aaac996a5c053dd",
+        "valid_pkcs1_v1_5_signature_block": false
+      },
+      {
+        "source_sha256": "f8dd698645430ba7f6bef32374da0fa27324db8a493f3cbf85ff07f93941431b",
+        "valid_pkcs1_v1_5_signature_block": false
+      },
+      {
+        "source_sha256": "b772751bde6c80f5bfaa8776d2fa246af90488094704386bbc9a43a15ba433aa",
+        "valid_pkcs1_v1_5_signature_block": false
+      },
+      {
+        "source_sha256": "aa02ee02dbe31a446296f19615d2b5f10cc879b5472a32159fcc3c23a042fc8f",
+        "valid_pkcs1_v1_5_signature_block": false
+      },
+      {
+        "source_sha256": "b3a9284d70aace13cd16f4d27021a7766d69cd08aa855c9ca54476b23a41902b",
+        "valid_pkcs1_v1_5_signature_block": false
+      },
+      {
+        "source_sha256": "e13f1a78060825fe0ba718b6def135204b947e65f926a5a7e6173aafbbc72d0a",
+        "valid_pkcs1_v1_5_signature_block": false
+      },
+      {
+        "source_sha256": "bfdce330f077e64044d797f748400482a5fa7f3cd8a2a25ccd3cd07e3a57a017",
+        "valid_pkcs1_v1_5_signature_block": false
+      },
+      {
+        "source_sha256": "9f7914297022ce11a37616060d80453b79b1519f9de595e6cfe162cd7c5f7d2f",
+        "valid_pkcs1_v1_5_signature_block": false
+      },
+      {
+        "source_sha256": "64d3145cba37950a98e4ae35aabe48053b1709e788ca69387312cc26fd4e8574",
+        "valid_pkcs1_v1_5_signature_block": false
+      },
+      {
+        "source_sha256": "fa994a734d334c7f9631656c6bf3fe5333bda76d1d7b554aeb815377415b5c40",
+        "valid_pkcs1_v1_5_signature_block": false
+      }
+    ],
+    "original_controls": {
+      "generated_1024_bit_rsa_pkcs1_v1_5_signature": "PASS",
+      "single_bit_changed_signature": "REJECTED",
+      "key_or_signature_values_exported": false
+    }
+  }
+}
