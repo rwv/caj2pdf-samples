@@ -477,7 +477,7 @@
   "runtime": {
     "summary": {
       "candidate_base": "c31ac81a659d3a15fa3e048785e4e0c7885a0a6a",
-      "wasm_sha256": "1afe8d2f1c336828ff174aa154bf9c0ab8e42d492730500faa0547a83b52ab58",
+      "wasm_sha256": "e0d9903bf5fce0bbc118893d5e08af22e61793e8aeb55082c2beb7e5108e2a4b",
       "count": 1,
       "node_matches": 1,
       "browser_matches": 1,
@@ -492,7 +492,7 @@
       "sha256": "1984cedfd504f14965ca2a0ba2cfabb6166d4559c93a5b9d36b717a1c3ff49f3",
       "bytes": 120844,
       "native_match": true,
-      "seconds": 0.234
+      "seconds": 0.09
     },
     "chromium": {
       "source": "6cf520441256d3d0e8749cb4b49275bbfc57ff962839cd7e131055c99cca992e",
@@ -503,10 +503,11 @@
       "sha256": "1984cedfd504f14965ca2a0ba2cfabb6166d4559c93a5b9d36b717a1c3ff49f3",
       "remaining": [],
       "native_match": true,
-      "seconds": 0.253
+      "seconds": 0.257
     },
     "node_version": "v24.13.0",
-    "chromium_version": "Chromium 154.0.8037.92 built on Debian GNU/Linux 13 (trixie)"
+    "chromium_version": "Chromium 154.0.8037.92 built on Debian GNU/Linux 13 (trixie)",
+    "candidate_commit": "ab2c23738ca360f1444e79a8ea07c00d07095c5a"
   },
   "native_ledger": [
     {
@@ -13286,5 +13287,54 @@
     "All prior 1,232 inputs have prior-candidate three-runtime parity; this run verifies the newly recovered original on the #410 candidate. Not a full new-candidate JavaScript rerun.",
     "Original source-body renders are scoped to PyMuPDF 1.27.2.2 at 72 dpi, not CAJViewer or every renderer/resolution."
   ],
-  "provenance": "Original MIT measurement scripts and documented KDH transform; external source/PDF/font/render bytes remain outside Git."
+  "provenance": "Original MIT measurement scripts and documented KDH transform; external source/PDF/font/render bytes remain outside Git.",
+  "final_whitespace_regression": {
+    "candidate_commit": "ab2c23738ca360f1444e79a8ea07c00d07095c5a",
+    "baseline_commit": "bca2611412830fb342a47e8aa0c035943f55f2e8",
+    "scope": "Every PDF/KDH/CAJ source in the corpus; the final change affects only complete-PDF live-gap trimming. HN/C8 conversion does not use that input gap checker.",
+    "source_count": 296,
+    "attempt_count": 296,
+    "binary_sha256": "ce071a56f7957aaa5ed38610dacd4b11d6e0c1bc4e05102b9b9458b144456c53",
+    "all_statuses_and_output_hashes_unchanged": true,
+    "source_integrity": "PASS for every original",
+    "formats": {
+      "KDH": 71,
+      "CAJ": 178,
+      "PDF": 47
+    }
+  },
+  "initial_runtime": {
+    "summary": {
+      "candidate_base": "c31ac81a659d3a15fa3e048785e4e0c7885a0a6a",
+      "wasm_sha256": "1afe8d2f1c336828ff174aa154bf9c0ab8e42d492730500faa0547a83b52ab58",
+      "count": 1,
+      "node_matches": 1,
+      "browser_matches": 1,
+      "node_failures": [],
+      "browser_failures": []
+    },
+    "node": {
+      "source": "6cf520441256d3d0e8749cb4b49275bbfc57ff962839cd7e131055c99cca992e",
+      "status": "CONVERTED",
+      "pages": 7,
+      "substitutedGlyphs": "0",
+      "sha256": "1984cedfd504f14965ca2a0ba2cfabb6166d4559c93a5b9d36b717a1c3ff49f3",
+      "bytes": 120844,
+      "native_match": true,
+      "seconds": 0.234
+    },
+    "chromium": {
+      "source": "6cf520441256d3d0e8749cb4b49275bbfc57ff962839cd7e131055c99cca992e",
+      "status": "CONVERTED",
+      "pages": 7,
+      "substitutedGlyphs": "0",
+      "bytes": 120844,
+      "sha256": "1984cedfd504f14965ca2a0ba2cfabb6166d4559c93a5b9d36b717a1c3ff49f3",
+      "remaining": [],
+      "native_match": true,
+      "seconds": 0.253
+    },
+    "node_version": "v24.13.0",
+    "chromium_version": "Chromium 154.0.8037.92 built on Debian GNU/Linux 13 (trixie)"
+  }
 }

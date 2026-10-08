@@ -31,6 +31,15 @@ The full **1,277-original / 2,126-attempt** native rerun yields **1,233 PASS,
 passing PDF hash. Every source hash is unchanged. Qpdf reports 1,232 clean
 outputs and the same single inherited source-content warning.
 
+Final self-review changed prefix trimming from generic ASCII whitespace to the
+exact PDF set: NUL is admitted and vertical TAB is rejected by original controls.
+At final candidate `ab2c23738ca360f1444e79a8ea07c00d07095c5a`, all **296 PDF/KDH/CAJ
+originals** were rerun; every status and output hash equals the full-run candidate.
+HN/C8 does not use this PDF-input gap checker. The recovered original again
+passes native/Node/Chromium with the newly rebuilt WASM; the receipt preserves
+both runtime runs and distinguishes the final affected-cohort check from the
+earlier full-corpus run.
+
 The frozen regression harness retains 26 historical order failures; the separate
 corrected checks in PRs #16/#17 and [complete native-glyph evidence](native-content-completion-20261008.md)
 resolve their applicable scope. This receipt does not rewrite the old checker
