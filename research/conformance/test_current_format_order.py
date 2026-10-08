@@ -32,6 +32,7 @@ class PageIdentityTests(unittest.TestCase):
         self.assertFalse(order.images_match([first, second], [first]))
         self.assertFalse(order.images_match([first], [("bits", 8, 1, "changed")]))
         self.assertFalse(order.images_match([], []))
+        self.assertFalse(order.images_match([], [first]))
         # Repeated byte-identical source groups affect identity counts, not
         # this check's intentionally separate placement/alias semantics.
         self.assertTrue(order.images_match([first, second] * 2, [first, second]))
@@ -55,6 +56,50 @@ class PageIdentityTests(unittest.TestCase):
         self.assertEqual(order.extracted_image(image), ("jpeg", hashlib.sha256(image.read_bytes()).hexdigest()))
         with self.assertRaises(ValueError):
             order.extracted_image(self.root / "image.png")
+
+    def test_bottom_up_oracle_reverses_rows_but_rejects_flipped_output(self):
+        image = self.root / "image.pbm"
+        image.write_bytes(b"P4\n9 2\n\x80\xff\x01\x7f")
+        expected = ("bits", 9, 2, hashlib.sha256(b"\x01\x00\x80\x80").hexdigest())
+        self.assertEqual(order.extracted_image(image, bottom_up=True), expected)
+        self.assertNotEqual(order.extracted_image(image), expected)
+        image.write_bytes(b"P4\n9 2\n\x01\x7f\x80\xff")
+        self.assertNotEqual(order.extracted_image(image, bottom_up=True), expected)
+        for raster in (b"\x80", b"\x80\xff\x01\x7fextra"):
+            image.write_bytes(b"P4\n9 2\n" + raster)
+            with self.assertRaises(ValueError):
+                order.extracted_image(image, bottom_up=True)
+
+    def test_page_check_selects_source_orientation_and_checks_repeated_descriptors(self):
+        class Extractor:
+            def __init__(self, stream, source_id):
+                pass
+
+            def iter_pages(self):
+                yield {"page_number": 1, "images": [{"record_type": kind}] * 2}
+
+        class Extraction:
+            directory = self.root
+
+            def run(self, arguments, label):
+                Path(str(arguments[-1]) + "-000.pbm").write_bytes(b"P4\n8 2\n" + raster)
+                return {"exit_code": 0}
+
+        for kind in (0, 3):
+            expected_rows = b"\x01\x80" if kind == 0 else b"\x80\x01"
+            expected = ("bits", 8, 2, hashlib.sha256(expected_rows).hexdigest())
+            for raster, status in [(b"\x80\x01", "PASS"), (b"\x01\x80", "FAIL")]:
+                with patch.object(order, "pdf_pages", return_value=[{}]), patch.object(
+                    order, "FileInput", return_value=nullcontext(None),
+                ), patch.object(order, "SourceExtractor", Extractor), patch.object(
+                    order, "expected_image", return_value=expected,
+                ):
+                    result = order.check(Extraction(), self.root, self.root,
+                                         {"detected_type": "HN", "id": "original", "sha256": "pinned"},
+                                         {"page_count": 1}, "check")
+                self.assertEqual(result["status"], status)
+                if status == "PASS":
+                    self.assertEqual(result["repeated_source_descriptors"], 1)
 
     def test_caj_table_keeps_zero_length_rows_and_declared_order(self):
         source = self.root / "source.caj"
