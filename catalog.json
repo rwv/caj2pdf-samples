@@ -147,13 +147,14 @@
       "source_repository": "https://github.com/caj2pdf/CAJSamples",
       "redistribution": "not_declared",
       "local_integrity": "PASS",
-      "conversion": "FAIL",
+      "conversion": "PASS",
       "viewer": "NOT_RUN",
-      "conversion_revision": "a19953921914b7cc794c1f58e5b5d33e6c1cd570",
-      "conversion_evidence": "research/notes/github-sweep-fixes-20261007.json",
+      "conversion_revision": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
+      "conversion_evidence": "research/notes/retained-catalog-20261008.json",
       "variant": "CAJ",
       "page_count": 78,
-      "bookmark_count": 40
+      "bookmark_count": 40,
+      "source_notes": "Rust #456/#457: unchanged original converts with all 78 pages, 40 bookmarks and explicit labels. Scoped fresh source-viewer pages 1/53/78 agree with independent source framing; other viewer pages NOT_RUN. Catalog/root replaced only after complete role/null-target proof; 421 original values and 201 streams retained. No historical missing metadata/form bytes are inferred. The catalog viewer status remains NOT_RUN for full-document vendor fidelity; #441 remains open."
     },
     {
       "path": "issue-29/阈上和阈下奖励对无意识剌激诱发的反应抑制的影响_刁留亭.caj",
