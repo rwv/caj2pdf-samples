@@ -131,3 +131,4 @@ regression rerun after that fix.
 - [Correct the type-0 image oracle row convention](image-order-row-convention-20261008.md) (partial #12).
 
 - [Native content checks for text-only and mixed pages](native-content-order-20261008.md) (#12).
+- [Complete accepted-corpus Node and Chromium parity](full-runtime-parity-20261008.md) (#406).
