@@ -1,5 +1,10 @@
 # Collection research
 
+The [2026-10-08 CAA/NH discovery](research/notes/caa-nh-discovery-20261008.md) adds 18 descriptors and one
+original-extension HN-A document, with offline viewer and complete
+CLI/Node/Chromium results. It supersedes the earlier CAA/NH sample gaps;
+CAS remains open in [#28](https://github.com/rwv/caj2pdf-samples/issues/28).
+
 ## Initial discovery, 2026-10-04
 
 - Existing corpus: https://github.com/caj2pdf/CAJSamples at

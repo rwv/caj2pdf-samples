@@ -4,6 +4,14 @@ Real-document catalog and regression inputs for [caj2pdf-rust](https://github.co
 
 ## Current collection
 
+**1,296 unique inputs** are indexed: 1,278 document candidates and 18 CAA
+target descriptors. The [2026-10-08 discovery](research/notes/caa-nh-discovery-20261008.md)
+adds one original-extension NH document (433 pages/365 bookmarks, identical
+CLI/Node/Chromium outputs) and 18 metadata-only CAA entries. CAA conversion
+is unsupported; their target declarations are not document pages.
+
+### Previous 1,277-document checkpoint
+
 **1,277 distinct document candidates** are indexed, including 1,217 new
 SHA-256 identities from the [2026-10-07 GitHub sweep](research/notes/github-sample-sweep-20261007.md).
 After the [#402/#404 follow-up and full native rerun](research/notes/pdf-predictor-object-streams-20261007.md)
@@ -68,16 +76,18 @@ integrity checks as compatibility passes. Store downloads in an external cache.
 
 ## Collection priorities
 
-1. CAA and CAS: obtain authentic files; determine whether each is a document,
-   link/descriptor or container before proposing a decoder.
-2. NH: obtain files with their original extension and identify their bytes;
-   do not assume the extension maps one-to-one to an HN layout.
+1. CAS: obtain authentic bytes and determine its layout; tracked in #28.
+2. CAA: investigate historical viewer/target-resolution behavior. The 18
+   observed descriptors are not complete documents; Linux 9 refuses them.
+   Additional original-extension NH files may reveal layouts beyond the
+   measured HN-A sample.
 3. New CAJ/HN/C8/KDH failures: prefer a new structure or reproducible failure
    over another copy of an already represented document.
 
 The original seven TEB files share one encrypted DRM container layout (see
 [research notes](RESEARCH.md)); more TEB copies add no format evidence. The
-CAA/CAS/NH search log is recorded there with the remaining sample gaps.
+historical CAA/CAS/NH search log is recorded there; the new discovery above
+resolves the NH/CAA byte-sample gaps, while CAS remains unresolved.
 
 See [research notes](RESEARCH.md) and repository issues. Public issue reports
 should contain a source URL and hash, not attachments with unknown rights.
