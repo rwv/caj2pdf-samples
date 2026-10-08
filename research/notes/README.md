@@ -155,3 +155,5 @@ regression rerun after that fix.
 - [Named local destinations](named-destinations-20261008.md): a separate 139-page archived author PDF, bounded name-tree support, all-page/object/stream checks, scoped reader navigation controls and preserved baseline results.
 
 - [Interrupted metadata and missing CAJ parents](interrupted-metadata-parents-20261008.md): one recovered 53-page original, complete object/stream/page/bookmark proof, scoped viewer negatives, preserved baseline hashes and a separately fixed browser cancellation race.
+
+- [Retained CAJ catalog and incomplete page tree](retained-catalog-20261008.md): one recovered 78-page original, retained page labels, complete object/stream/page/bookmark comparisons, scoped viewer controls and unchanged prior-success hashes.
