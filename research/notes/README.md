@@ -147,3 +147,5 @@ regression rerun after that fix.
 - [Interrupted live PDF object prefixes](live-object-prefix-20261008.md) (#410/#411).
 
 - [Equivalent opacity resource references](equivalent-opacity-resources-20261008.md) (#412/#413).
+
+- [Proved interrupted CAJ copies](interrupted-copies-20261008.md): three unchanged originals, 463 pages, complete object/stream and reference proof, scoped viewer controls, and a 1,277-original regression.
