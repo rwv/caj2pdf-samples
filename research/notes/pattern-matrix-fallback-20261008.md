@@ -6,7 +6,8 @@
 [PR #427](https://github.com/rwv/caj2pdf-rust/pull/427) recover two unchanged
 CAJ originals with four malformed Pattern matrices. The
 [receipt](pattern-matrix-fallback-20261008.json) pins the original sources,
-candidate `dfb539573fb37b7145ba6f6d2eb1a205946cb93d`, source comparisons,
+full measurement candidate `dfb539573fb37b7145ba6f6d2eb1a205946cb93d`,
+final integrated candidate `4308d424587486b57d303d317b3fededbf1223e7`, source comparisons,
 viewer controls, runtime hashes and 1,277 original inputs / 2,126 native attempts.
 
 | Original SHA-256 prefix | Pages | Source bookmarks | Raw streams | Pattern objects | Affected page |
@@ -75,8 +76,20 @@ JavaScript verification retains its separate candidate pins. This is the frozen
 GitHub sweep shared with #419; the newer CAA/NH catalog expansion in samples
 PR #29 is outside this ledger and needs separate follow-up.
 
-The workspace records **1,294 passing tests and seven ignored optional-corpus
-tests**; JavaScript records **164 passes without skips**. Original controls cover
+After main merged CAA/NH recognition (#428) and registry documentation (#429),
+the final candidate was rebased onto `8fe81ffee05c640991f1ca73776c7178dd0e9658`.
+Only the conformance-document append conflicted; both sections were retained.
+PDF recovery and CAJ conversion tests are byte-identical to the fully measured
+candidate. A fresh **1,277-original / 2,126-attempt** conversion run verifies
+all statuses, source integrity, cleanup and every successful output hash again.
+Earlier structural/content/render checks apply to those identical PDF bytes;
+they are not claimed as freshly rerun validators or vendor sessions. Fresh
+Node/Chromium verification, local suites, builds, clippy and all eight required
+CI checks pass on the final integrated head.
+
+
+The final integrated workspace records **1,299 passing tests and seven ignored optional-corpus
+tests**; JavaScript records **166 passes without skips**. Original controls cover
 visible asymmetric patterns, exact output/stream preservation, correct transforms,
 mixed Matrix/Length repairs, strict indexed PDF parsing, unmeasured neighbors,
 short reads, cancellation, changing sources and allocation/offset bounds.
