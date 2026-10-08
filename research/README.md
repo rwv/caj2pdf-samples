@@ -101,3 +101,9 @@ metadata files those read (`tests/conformance/matrix.json`,
 to open PDF objects. Missing PyMuPDF yields NOT_RUN in the integrated native-text
 check. Its parser unit tests use only the standard library. See the
 [native content verification note](notes/native-content-order-20261008.md).
+
+`github_bitmap_oracle.py` runs directly from this samples checkout and compares
+a pinned source/PDF pair through the existing external image oracles. Its
+[coverage note](notes/github-bitmap-oracles-20261008.md) explains the required
+external tools, source hashes, row conventions and evidence limits. Generated
+PDFs and pixels stay in external temporary directories.

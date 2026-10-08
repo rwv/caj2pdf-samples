@@ -42,6 +42,7 @@ See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for th
 
 | Note | Backs |
 | --- | --- |
+| [GitHub sweep bitmap coverage](github-bitmap-oracles-20261008.md) | samples #23; missing source-image oracles under rust #406 |
 | [HN/C8 type-0 image observations and pixel oracle](jbig1-oracle.md) | `scripts/jbig1_oracle.py` |
 | [HN/C8 type-0 bitstream experiments](jbig1-bitstream-investigation.md) | historical |
 | [HN/C8 type-0 row-model candidate](jbig1-row-model.md) | `qm.rs` |
