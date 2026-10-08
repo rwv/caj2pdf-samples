@@ -10,6 +10,18 @@ adds one original-extension NH document (433 pages/365 bookmarks, identical
 CLI/Node/Chromium outputs) and 18 metadata-only CAA entries. CAA conversion
 is unsupported; their target declarations are not document pages.
 
+### Latest native checkpoint
+
+The [nested empty Form recovery](research/notes/nested-empty-forms-20261008.md)
+adds three passes: the fresh 1,277-original run has **1,243 PASS, 25 FAIL and
+nine UNSUPPORTED**, with all previous successful PDF hashes unchanged and
+all 1,243 primary outputs passing qpdf. The three new originals separately
+pass native/Node/Chromium and all 211 independently framed page comparisons.
+One initial source-viewer raster disagreement remains recorded under
+[Rust #441](https://github.com/rwv/caj2pdf-rust/issues/441), despite matching
+identical-input repeats. This is not complete original-viewer fidelity proof;
+remaining refusals and other verification gaps stay open under #406.
+
 ### Previous 1,277-document checkpoint
 
 **1,277 distinct document candidates** are indexed, including 1,217 new

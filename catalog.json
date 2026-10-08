@@ -1348,14 +1348,16 @@
       "original_extension": ".caj",
       "redistribution": "not_declared",
       "local_integrity": "PASS",
-      "conversion": "FAIL",
+      "conversion": "PASS",
       "viewer": "NOT_RUN",
       "source_revision": "9d9e9ab77e7703c10b53fdae140ef283c2d9a3d0",
-      "conversion_revision": "a19953921914b7cc794c1f58e5b5d33e6c1cd570",
-      "conversion_evidence": "research/notes/github-sweep-fixes-20261007.json",
+      "conversion_revision": "849e421ef34bf0706da028ff33b8b0f5e3b95e26",
+      "conversion_evidence": "research/notes/nested-empty-forms-20261008.json",
       "variant": "CAJ",
       "page_count": 66,
-      "bookmark_count": 54
+      "bookmark_count": 54,
+      "viewer_evidence": "research/notes/nested-empty-forms-20261008.json",
+      "viewer_scope": "Selected page only; complete document NOT_RUN. See receipt for initial cold-session disagreement and repeats."
     },
     {
       "path": "external/github/049443b7bbf66400417048b05a5d931f49b9151b4ddfc89854248a78e3aa222b.caj",
@@ -13084,14 +13086,16 @@
       "original_extension": ".caj",
       "redistribution": "not_declared",
       "local_integrity": "PASS",
-      "conversion": "FAIL",
+      "conversion": "PASS",
       "viewer": "NOT_RUN",
       "source_revision": "9d9e9ab77e7703c10b53fdae140ef283c2d9a3d0",
-      "conversion_revision": "a19953921914b7cc794c1f58e5b5d33e6c1cd570",
-      "conversion_evidence": "research/notes/github-sweep-fixes-20261007.json",
+      "conversion_revision": "849e421ef34bf0706da028ff33b8b0f5e3b95e26",
+      "conversion_evidence": "research/notes/nested-empty-forms-20261008.json",
       "variant": "CAJ",
       "page_count": 81,
-      "bookmark_count": 90
+      "bookmark_count": 90,
+      "viewer_evidence": "research/notes/nested-empty-forms-20261008.json",
+      "viewer_scope": "Selected page only; complete document NOT_RUN. See receipt for initial cold-session disagreement and repeats."
     },
     {
       "path": "external/github/76effc080012c11fc749b31a81255cda636e232f90cc9a2f9cc3b59698600b16.caj",
@@ -13216,14 +13220,16 @@
       "original_extension": ".caj",
       "redistribution": "not_declared",
       "local_integrity": "PASS",
-      "conversion": "FAIL",
+      "conversion": "PASS",
       "viewer": "NOT_RUN",
       "source_revision": "9d9e9ab77e7703c10b53fdae140ef283c2d9a3d0",
-      "conversion_revision": "a19953921914b7cc794c1f58e5b5d33e6c1cd570",
-      "conversion_evidence": "research/notes/github-sweep-fixes-20261007.json",
+      "conversion_revision": "849e421ef34bf0706da028ff33b8b0f5e3b95e26",
+      "conversion_evidence": "research/notes/nested-empty-forms-20261008.json",
       "variant": "CAJ",
       "page_count": 64,
-      "bookmark_count": 22
+      "bookmark_count": 22,
+      "viewer_evidence": "research/notes/nested-empty-forms-20261008.json",
+      "viewer_scope": "Selected page only; complete document NOT_RUN. See receipt for initial cold-session disagreement and repeats."
     },
     {
       "path": "external/github/77b2ebe0a8d6cf9023b1427a0a5c4b3ff0f92b254bdee449c9a80cbc428e9fe3.caj",
