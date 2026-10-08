@@ -6,7 +6,24 @@
 source-image oracles tracked by [rust #406](https://github.com/rwv/caj2pdf-rust/issues/406).
 The selected cohort is the 936 accepted originals whose frozen native harness
 reports `page_order_check: NOT_RUN`. This note keeps that original result,
-the new bitmap evidence and any complementary native-text evidence separate.
+the new bitmap evidence and complementary native-text evidence separate.
+The [complete per-input/page receipt](github-bitmap-oracles-20261008.json)
+records **936 originals, 13,991 pages and 15,708 source image descriptors**.
+All 15,708 source-image identities match, including all 10,077 type-0 and 3,150
+type-3 bitmap descriptors. Within-document hash reuse requires 10,065 type-0
+and 3,146 type-3 independent payload decodes (the type-0 protocol runs two
+fresh workers for each). The 15,700 output images account for eight repeated
+source descriptors under the explicitly scoped identity check.
+
+All **13,986 image-bearing pages** pass. Five image-free pages in the HN-B
+source `166d0014792326570d9e8ca42fe13a4a44329e4ad095d3ac8dfd73c8ddb9f20e`
+are retained as `NOT_APPLICABLE`. Thus the raw bitmap runner reports 935 PASS
+and one incomplete-document FAIL; this is not a pixel mismatch. A fresh
+independent native-text check on the same candidate PDF verifies all 12 pages
+and 20,693 glyph identities/order for that mixed source. The complementary
+checks provide scoped identity/order evidence for all 936 originals without
+counting the five image-free pages as bitmap passes. Source, PDF and pinned
+library hashes remain unchanged throughout every document's verification.
 
 The native PDFs come from Rust candidate
 `d6e23c3dd02ed1609e2ffee3da05313b8441231a`, subsequently merged through #413.
@@ -54,7 +71,8 @@ for original controls; no corpus, external CAJ decoder or font is downloaded by 
 This scoped check does not prove placement, page geometry, native font appearance,
 vectors, source outlines or complete rendered-page fidelity. All external document,
 PDF, raster, font and decoder bytes remain outside both repositories. The receipt
-will record final counts and every failure without silently dropping inputs.
+retains the raw incomplete bitmap result, all applicable page results and the
+separate native-text proof; no input or missing check is silently dropped.
 
 Run a single pinned input from the samples checkout (Python 3.11+):
 
