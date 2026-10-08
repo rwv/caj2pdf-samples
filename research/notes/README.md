@@ -20,6 +20,7 @@ See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for th
 | --- | --- |
 | [CAJ container observations](caj-format.md) | `caj/`, `gb18030.rs`, CAJ tests |
 | [Interrupted CAJ PDF objects](caj-interrupted-objects.md) | `caj/` recovery |
+| [Indexed palettes: syntax repair is not color recovery](indexed-palette-boundary-20261008.md) | Rust #420; unresolved missing colors and cross-renderer behavior |
 | [KDH PDF wrapper observations](kdh-format.md) | `kdh.rs` |
 | [Forward-only PDF writer](pdf-writer.md) | `pdf/writer.rs`, `pdf/document.rs` |
 | [Incremental native-text PDF output](pdf-native-text.md) | `pdf/font.rs`, native pages |
