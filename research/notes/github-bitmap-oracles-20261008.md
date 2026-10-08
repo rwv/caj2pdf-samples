@@ -54,8 +54,8 @@ this is tool agreement, not proof of separate decoder code. The wrapper,
 limits and normalization reuse the [existing protocol](jbig2-oracle.md).
 JPEG types 1/2 are checked through their unchanged encoded payload hashes.
 
-Each candidate PDF page is extracted separately. Hashes, dimensions and ordered
-images must match. Type-0 expected pixels use bottom-up DIB rows, so only those
+Each candidate PDF page is extracted separately. Ordered JPEG bytes and bitmap
+dimensions/visible bits must match. Type-0 expected pixels use bottom-up DIB rows, so only those
 source descriptors select the measured reversal of Poppler's top-down PBM rows.
 The checker never chooses whichever orientation matches. Repeated, byte-identical
 source image groups are counted separately; their placement/alias semantics are
