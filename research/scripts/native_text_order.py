@@ -66,7 +66,7 @@ def character(code: int, mode: int) -> str:
     return code.to_bytes(2, 'big').decode('gb18030')
 
 
-def source_glyphs(source, page: dict, variant: str, mode: int) -> tuple[list[str], int]:
+def source_glyphs(source, page: dict, variant: str, mode: int, *, image_visitor=None) -> tuple[list[str], int]:
     start, length = page['text_offset'], page['text_length']
     if not 0 < length <= MAX_TEXT_BYTES:
         raise ValueError("native text span outside measured bound")
@@ -127,6 +127,8 @@ def source_glyphs(source, page: dict, variant: str, mode: int) -> tuple[list[str
             raise ValueError(f"unmeasured native record {tag:04x}/{value:04x} at {at}")
         if at + size > end:
             raise ValueError("partial native payload")
+        if image_visitor is not None and tag in (0x800a, 0x810a):
+            image_visitor(at, tag, size)
         at += size
     raise ValueError("native record budget exceeded")
 

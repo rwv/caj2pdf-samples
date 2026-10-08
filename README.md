@@ -20,6 +20,12 @@ remaining inputs have fresh three-runtime refusal, source-integrity and cleanup
 checks; these are not conversion passes or proof of irrecoverability.
 All catalog conversion statuses point to this common reviewed build.
 
+The [source geometry report](research/notes/source-image-geometry-20261008.md)
+adds independent declared-page and ordered-image checks for all 973 accepted
+HN/C8/NH originals (16,548 pages), including new bitmap evidence for the
+433-page NH. This scoped measurement does not establish native glyph/vector
+placement, complete rendered-page fidelity or unknown C8/HN-B outlines.
+
 The [849-source C8/HN-B outline investigation](research/notes/hnc8-outline-inventory-20261008.md)
 retains unknown source-outline status and corrects an old 132-page example to
 HN-A with 81 bookmarks. Full source correctness and general viewer readiness

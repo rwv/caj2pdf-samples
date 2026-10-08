@@ -35,3 +35,4 @@ jobs:
           python3 -m pip install 'pikepdf==10.5.1'
           python3 -m unittest discover -s research/conformance -p 'test_indexed_lookup_audit.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_ttkn_payload_boundary.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_source_image_geometry.py' -v

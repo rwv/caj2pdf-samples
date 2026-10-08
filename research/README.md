@@ -108,6 +108,13 @@ a pinned source/PDF pair through the existing external image oracles. Its
 external tools, source hashes, row conventions and evidence limits. Generated
 PDFs and pixels stay in external temporary directories.
 
+`source_image_geometry.py` runs directly on POSIX with `pikepdf==10.5.1` and
+compares declared source page extents and ordered image transforms/resources
+against pinned PDFs. It reuses independent source bitmap metadata, checks
+bounded inputs and preserves incomplete records. The
+[973-original report](notes/source-image-geometry-20261008.md) describes its
+manifest, limits, original controls and explicit native-rendering exclusions.
+
 `indexed_lookup_audit.py` audits decoded palette lengths in a hash-pinned
 external output manifest, using pikepdf and bounded POSIX child processes.
 `indexed_palette_loss_probe.py` demonstrates missing-color ambiguity in one
