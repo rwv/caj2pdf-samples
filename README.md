@@ -32,6 +32,11 @@ text/vector/image inventories, bounded complete-page observations and retained
 pixel differences. One normal-font page differs across cold viewer sessions;
 these observations do not establish complete rendered-page fidelity.
 
+The [original page-buffer controls](research/notes/viewer-page-buffer-20261009.md)
+locate both native raster variants in public Qt buffers and reproduce a related
+difference in an original PDF. All attempts and the corrected last-page crop
+are retained; renderer cause and a reliable readiness criterion remain open.
+
 The [native vector check](research/notes/native-vector-geometry-20261008.md)
 verifies all 327 measured paths and their order among glyphs/images on those
 60 pages. The [glyph and ornament model check](research/notes/native-glyph-model-20261009.md)
