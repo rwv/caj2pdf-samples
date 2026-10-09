@@ -4,13 +4,20 @@ Real-document catalog and regression inputs for [caj2pdf-rust](https://github.co
 
 ## Current collection
 
-**1,385 unique inputs** are indexed: 1,367 document candidates and 18 CAA
-target descriptors. The [public TTKN follow-up](research/notes/public-ttkn-response-20261009.md)
-adds one protected source with failed native/Node/Chromium conversion and
-controlled offline observations. The [unchanged-source follow-up](research/notes/ttkn-unaltered-wrapper-20261009.md)
-now shows viewer opening and observed-IV research recovery of 180 pages;
-original-input production conversion remains unresolved. Current totals
-are 1,339 conversion PASS, 19 FAIL and 27 UNSUPPORTED.
+**1,403 unique inputs** are indexed, including 18 CAA target descriptors and
+one acquired original with an unknown format after its header was zero-filled.
+Current totals are **1,353 conversion PASS, 22 FAIL and 28 UNSUPPORTED**.
+The [Archive/NJU follow-up](research/notes/archive-nju-followup-20261009.md)
+adds 12 identities: seven conversions with 580 pages and five unresolved originals.
+The reconciled accepted-page total is 37,138 across the separate historical
+checkpoints; this is not a fresh full-catalog run or full-rendering claim.
+
+The [TTKN product follow-up](research/notes/ttkn-product-conversion-20261009.md)
+now converts the one measured public source with its matching explicit response.
+The [SSE collection](research/notes/public-sse-collection-20261009.md) and
+[Archive 360-temp](research/notes/archive-360-temp-20261009.md) reports add their
+separate scoped checks. Remaining source, format, outline and visual-fidelity
+limits stay open.
 
 The [2026-10-09 public-web sweep](research/notes/public-web-sweep-20261009.md)
 adds 87 SHA-pinned originals from Archive.org and Nanjing University. All

@@ -43,6 +43,14 @@ class CatalogCheckTests(unittest.TestCase):
         compact = json.dumps({'schema_version': 1, 'samples': [ROW]})
         self.assertTrue(any('formatted' in p for p in check_catalog.problems(compact)))
 
+    def test_missing_signature_retains_failure_without_invented_format_metadata(self):
+        row = dict(ROW, detected_type='UNKNOWN', conversion='FAIL', page_count=None)
+        self.assertEqual(check(row), [])
+        for change in ({'conversion': 'PASS'}, {'page_count': 0},
+                       {'bookmark_count': 0}, {'variant': 'HN-A'}):
+            with self.subTest(change=change):
+                self.assertTrue(any('UNKNOWN format' in p for p in check(dict(row, **change))))
+
 
 if __name__ == '__main__':
     unittest.main()

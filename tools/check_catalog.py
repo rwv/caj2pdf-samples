@@ -8,7 +8,7 @@ import sys
 
 REQUIRED = {'path', 'aliases', 'sha256', 'size_bytes', 'detected_type', 'source_repository',
             'redistribution', 'local_integrity', 'conversion', 'viewer'}
-TYPES = {'CAJ', 'HN', 'C8', 'KDH', 'PDF', 'TEB', 'CAA', 'CAS', 'NH'}
+TYPES = {'CAJ', 'HN', 'C8', 'KDH', 'PDF', 'TEB', 'CAA', 'CAS', 'NH', 'UNKNOWN'}
 STATUS = {'NOT_RUN', 'PASS', 'FAIL', 'UNSUPPORTED', 'INCOMPLETE_TIMEOUT'}
 SHA256 = re.compile(r'[0-9a-f]{64}')
 
@@ -35,6 +35,11 @@ def problems(raw):
             yield f'{name}: size_bytes must be a positive integer'
         if row['detected_type'] not in TYPES:
             yield f'{name}: unknown detected_type {row["detected_type"]!r}'
+        if row['detected_type'] == 'UNKNOWN':
+            if row['conversion'] == 'PASS':
+                yield f'{name}: UNKNOWN format cannot claim conversion PASS'
+            if any(row.get(key) is not None for key in ('page_count', 'bookmark_count', 'variant')):
+                yield f'{name}: UNKNOWN format cannot claim page_count, bookmark_count or variant'
         for key in ('conversion', 'viewer', 'local_integrity'):
             if row[key] not in STATUS:
                 yield f'{name}: unknown {key} {row[key]!r}'
