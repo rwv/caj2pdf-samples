@@ -1,5 +1,9 @@
 # Research notes
 
+The [public-web and Internet Archive sweep](public-web-sweep-20261009.md) records
+new acquired originals, complete conversion results, three focused PDF fixes,
+and retained Wayback/Common Crawl/download limitations.
+
 The [2026-10-08 CAA/NH discovery](caa-nh-discovery-20261008.md) adds 18 descriptors and one
 original-extension HN-A document, with offline viewer and complete
 CLI/Node/Chromium results. It supersedes the earlier CAA/NH sample gaps;
