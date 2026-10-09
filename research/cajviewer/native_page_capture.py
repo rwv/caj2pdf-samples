@@ -43,6 +43,18 @@ def write_json(path, value):
     path.write_text(json.dumps(value, indent=2) + '\n')
 
 
+def navigation_route(page_count, requested):
+    if type(page_count) is not int or not 1 <= page_count <= 12:
+        raise ValueError('unmeasured page count')
+    if requested is None:
+        return tuple(range(1, page_count + 1))
+    if (not 1 <= len(requested) <= 12
+            or any(type(page) is not int or not 1 <= page <= page_count for page in requested)
+            or len(set(requested)) != len(requested)):
+        raise ValueError('route requires 1 through 12 distinct in-range pages')
+    return tuple(requested)
+
+
 def trace(path):
     if path.stat().st_size > 64 * 1024 * 1024:
         raise ValueError('paint trace byte limit')
@@ -90,6 +102,7 @@ def select_page(lines, extent, minimum):
 
 
 def observe(args, case):
+    route = navigation_route(case['pages'], args.route)
     sha = case['source_sha256']
     if not re.fullmatch('[0-9a-f]{64}', sha) or not 1 <= case['pages'] <= 12:
         raise ValueError('unmeasured case identity or page count')
@@ -143,8 +156,8 @@ def observe(args, case):
         if ',' in str(path):
             raise ValueError('commas in bind paths are not supported')
         command += ['--mount', f'type=bind,src={path},dst={destination}' + (',readonly' if readonly else '')]
-    command += ['--entrypoint', '/usr/bin/timeout', args.image, '600', 'sh', '/start.sh']
-    write_json(output / 'launch.json', {'command': command, 'source_sha256': sha,
+    command += ['--entrypoint', '/usr/bin/timeout', args.image, str(args.lifetime_seconds), 'sh', '/start.sh']
+    write_json(output / 'launch.json', {'command': command, 'source_sha256': sha, 'route': route,
                'source_extent': extent, 'observer_sha256': digest(args.observer), 'fonts': fonts})
 
     def run(command):
@@ -209,7 +222,7 @@ def observe(args, case):
         x('type', '--clearmodifiers', '--delay', '40', '150%'); x('key', 'Return')
         x('mousemove', '211', '95', 'click', '1', 'mousemove', '10', '1100')
         time.sleep(2)
-        for page in range(1, case['pages'] + 1):
+        for page in route:
             row = {'page': page}
             try:
                 lines = trace(output / 'paint.tsv')
@@ -245,7 +258,7 @@ def observe(args, case):
                    'container_absent': absent, 'pages_observed': len(rows)})
         if not intact or not absent:
             raise ValueError('input integrity or cleanup could not be confirmed')
-    return len(rows) == case['pages'] and all(row['status'] == 'STABLE' for row in rows)
+    return len(rows) == len(route) and all(row['status'] == 'STABLE' for row in rows)
 
 
 if __name__ == '__main__':
@@ -255,6 +268,9 @@ if __name__ == '__main__':
     parser.add_argument('--observer', required=True, type=Path)
     parser.add_argument('--image', required=True)
     parser.add_argument('--font-directory', type=Path)
+    parser.add_argument('--route', type=int, nargs='+', help='distinct pages to visit; default: all pages')
+    parser.add_argument('--lifetime-seconds', type=int, choices=(90, 600), default=600,
+                        help='hard container lifetime; default: 600; short controls: 90')
     args = parser.parse_args()
     if not re.fullmatch(r'sha256:[0-9a-f]{64}', args.image) or args.manifest.stat().st_size > 1024 * 1024:
         parser.error('require a pinned local image and a bounded manifest')
@@ -264,6 +280,11 @@ if __name__ == '__main__':
     cases = json.loads(args.manifest.read_text())
     if not 1 <= len(cases) <= 10 or len({case['source_sha256'] for case in cases}) != len(cases):
         parser.error('require 1 through 10 unique cases')
+    try:
+        for case in cases:
+            navigation_route(case['pages'], args.route)
+    except ValueError as error:
+        parser.error(str(error))
     args.output.mkdir(exist_ok=False)
     # Retain the executed research source before later worktree edits. Imported
     # framing/X11 modules remain pinned by the repository revision in reports.

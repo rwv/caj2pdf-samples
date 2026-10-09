@@ -157,3 +157,9 @@ parsing via the installed OpenSSL CLI, canonical base64 field sizes, a literal
 payload syntax scan and an explicit RSA-public-operation padding hypothesis.
 It reports structure only: no field/key values, trust verdict or decryption API.
 See the [credential-boundary follow-up](notes/teb-credential-boundary-20261009.md).
+
+`native_navigation_controls.py` generates original bounded HN-B controls for
+route-dependent viewer rasters. `native_page_capture.py --route` records a
+bounded explicit navigation sequence. The
+[navigation report](notes/native-viewer-navigation-20261009.md) reproduces two
+completed rasters with unchanged inputs and keeps readiness/fidelity unclaimed.

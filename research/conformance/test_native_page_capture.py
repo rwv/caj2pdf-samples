@@ -1,11 +1,16 @@
 # SPDX-License-Identifier: MIT
 """Original controls reject stale, partial and adjacent-page paint observations."""
 from pathlib import Path
+import json
+import subprocess
 import sys
+import tempfile
 import unittest
+from unittest.mock import patch
+from types import SimpleNamespace
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'cajviewer'))
-from native_page_capture import select_page
+from native_page_capture import navigation_route, observe, select_page
 
 
 def record(number=10, **changes):
@@ -20,6 +25,38 @@ def record(number=10, **changes):
 
 
 class PageCaptureTests(unittest.TestCase):
+    def test_navigation_defaults_and_explicit_order(self):
+        self.assertEqual(navigation_route(12, None), tuple(range(1, 13)))
+        self.assertEqual(navigation_route(12, [5]), (5,))
+        self.assertEqual(navigation_route(12, [3, 5]), (3, 5))
+        self.assertEqual(navigation_route(12, [10, 5]), (10, 5))
+
+    def test_invalid_routes_fail_before_io_or_container_launch(self):
+        for route in ([], [0], [13], [5, 5], [True], ['5'], list(range(1, 14))):
+            with self.subTest(route=route), patch('native_page_capture.digest') as digest, \
+                    patch('native_page_capture.subprocess.run') as run:
+                with self.assertRaises(ValueError):
+                    observe(SimpleNamespace(route=route), {'pages': 12})
+                digest.assert_not_called()
+                run.assert_not_called()
+        for count in (0, 13, True, '12'):
+            with self.assertRaises(ValueError):
+                navigation_route(count, None)
+
+    def test_cli_preflights_every_case_before_creating_output(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            manifest = root / 'manifest.json'
+            manifest.write_text(json.dumps([{'pages': 12, 'source_sha256': 'a' * 64},
+                                            {'pages': 5, 'source_sha256': 'b' * 64}]))
+            script = Path(__file__).resolve().parents[1] / 'cajviewer/native_page_capture.py'
+            result = subprocess.run([sys.executable, str(script), str(manifest), str(root / 'output'),
+                '--observer', str(root / 'absent.so'), '--image', 'sha256:' + 'c' * 64,
+                '--route', '6'], capture_output=True, text=True, timeout=10)
+            self.assertEqual(result.returncode, 2, result.stderr)
+            self.assertIn('distinct in-range pages', result.stderr)
+            self.assertFalse((root / 'output').exists())
+
     def test_current_page_wins_over_later_adjacent_page_draw(self):
         expected = select_page([record()], [5168, 7546], 10)
         for later in (record(11, **{'10': 1484}), record(11, **{'10': -1464})):
