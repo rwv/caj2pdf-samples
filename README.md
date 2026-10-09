@@ -34,8 +34,10 @@ these observations do not establish complete rendered-page fidelity.
 
 The [native vector check](research/notes/native-vector-geometry-20261008.md)
 verifies all 327 measured paths and their order among glyphs/images on those
-60 pages. Font, glyph placement, ornament and raster fidelity remain separate
-unresolved checks.
+60 pages. The [glyph and ornament model check](research/notes/native-glyph-model-20261009.md)
+adds all 83,432 glyph matrices and 212 ornament marks in both normal and marker
+PDFs, including diagnostic font roles and full paint-kind order. Original-font,
+ornament-outline and raster fidelity remain unresolved.
 
 The [849-source C8/HN-B outline investigation](research/notes/hnc8-outline-inventory-20261008.md)
 retains unknown source-outline status and corrects an old 132-page example to
