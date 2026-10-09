@@ -139,6 +139,12 @@ this project's original generated marker fonts enables CID/outline/width-based
 role checks. The [full native report](notes/native-glyph-model-20261009.md)
 preserves the distinction between model consistency and original-font fidelity.
 
+`native_font_subsets.py` checks the normal PDFs' used CID outlines and advances
+against hash-pinned caller fonts with the existing fontTools/PDF dependencies.
+The [ten-original audit](notes/native-font-subsets-20261009.md) records all
+83,644 draws and 6,140 resource/CID pairs; caller-font agreement is distinct
+from original-viewer font, hinting and raster fidelity.
+
 `teb_inventory.py` uses the Python standard library to verify the measured
 16/28/40-byte TEB archive framing, bounded metadata inflation, entry CRCs and
 redacted XML structure. The [nine-source report](notes/teb-container-boundary-20261009.md)

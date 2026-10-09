@@ -17,6 +17,10 @@ Production remains `5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc`, CLI SHA-256
 Conversion totals remain **1,252 PASS / 18 FAIL / 27 UNSUPPORTED**. No new
 converter defect or unavoidable source exception is demonstrated.
 
+The subsequent [normal caller-font subset audit](native-font-subsets-20261009.md)
+adds used-outline/CID/advance checks to these normal PDFs. It leaves original
+viewer fonts, hinting and full rendering unverified.
+
 | Source SHA-256 prefix | Pages | Ordinary glyphs | Ornament marks |
 | --- | ---: | ---: | ---: |
 | `03770ea1cdeb` | 5 | 7,721 | 0 |
