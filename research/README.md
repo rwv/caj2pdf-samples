@@ -144,3 +144,10 @@ preserves the distinction between model consistency and original-font fidelity.
 redacted XML structure. The [nine-source report](notes/teb-container-boundary-20261009.md)
 distinguishes intact protected-container observations from a verified zero-filled
 attachment; it is not a TEB decoder or an irrecoverability classifier.
+
+
+`teb_credentials.py` extends the measured inventory with bounded PEM/X.509
+parsing via the installed OpenSSL CLI, canonical base64 field sizes, a literal
+payload syntax scan and an explicit RSA-public-operation padding hypothesis.
+It reports structure only: no field/key values, trust verdict or decryption API.
+See the [credential-boundary follow-up](notes/teb-credential-boundary-20261009.md).
