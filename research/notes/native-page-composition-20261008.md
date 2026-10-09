@@ -182,3 +182,14 @@ External Qt, Python/font/rendering libraries and the opaque viewer retain
 their upstream licenses; none is vendored or relabeled as project-owned MIT
 source. The new selected controls bring Catalog validation to 80 tests,
 with zero skipped tests; external viewer observations are reported separately.
+
+## Retained native page-5 follow-up (2026-10-09)
+
+The [fixed JPEG diagnostic](native-page-jpeg-20261009.md) now numerically
+explains the two exact real-native page-5 values above. The previously observed
+quality-100, 2×2, integer-DCT profile maps the first complete raster exactly
+to the second; the reverse direction differs at 32,658 pixels. Both planned
+directions and 24 verified historical file identities are retained. This does
+not observe historical JPEG calls, compare source with PDF, establish readiness
+or relabel old outcomes. The 23,901-pixel historical disagreement and broader
+font/composition limits remain in this receipt; only a follow-up field is added.

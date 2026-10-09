@@ -39468,5 +39468,13 @@
     "skipped": 0,
     "observer_compile": "-Wall -Wextra -Werror",
     "review": "Self-review and simplification performed; exact-head review and terminal Catalog CI are recorded in the linked PR"
-  }
+  },
+  "followups": [
+    {
+      "report": "native-page-jpeg-20261009.md",
+      "receipt": "native-page-jpeg-20261009.json",
+      "receipt_sha256": "48694eaf6321c67c165880edd3404d0e1bfbcd81b62c1bf6c440625818537391",
+      "scope": "Fixed-profile JPEG round trip maps retained real native page-5 A exactly to B; reverse differs at 32658 pixels. Numerical explanation only; no historical API observation, readiness rule, source/PDF fidelity or relabeling of existing observations."
+    }
+  ]
 }
