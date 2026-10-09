@@ -36,6 +36,7 @@ jobs:
           python3 -m unittest discover -s research/conformance -p 'test_indexed_lookup_audit.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_ttkn_payload_boundary.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_source_image_geometry.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_native_vector_geometry.py' -v
       - name: Test original native composition controls (no viewer or corpus download)
         run: |
           c++ -std=c++17 -shared -fPIC -O2 -Wall -Wextra -Werror -DQT_NO_VERSION_TAGGING $(pkg-config --cflags Qt5Gui) research/cajviewer/qpaint_observe.cpp -ldl -o /tmp/qpaint-observe.so
