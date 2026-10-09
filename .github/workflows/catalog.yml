@@ -52,6 +52,8 @@ jobs:
           python3 -m unittest discover -s research/conformance -p 'test_native_navigation_controls.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_pdf_navigation_controls.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_pdf_raster_stage_controls.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_pdf_rgb_controls.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_raster_rgb_comparison.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_pdf_page_box_controls.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_page_box_observation.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_raster_gray_comparison.py' -v

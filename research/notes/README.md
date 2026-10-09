@@ -18,6 +18,7 @@ See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for th
 
 | Note | Backs |
 | --- | --- |
+| [Original RGB raster variation and interpolation controls](viewer-rgb-resampling-20261009.md) | samples #72 / Rust #441; 18 original-only sessions, retained state-check corrections, vector/image buffer differences and scoped interpolation results |
 | [Complete missing-box page observations](viewer-page-box-coverage-20261009.md) | samples #70; all 75 source/output pages in two fixed orders, retained navigation preflights and scoped viewer limits |
 | [Font-free viewer raster controls](viewer-raster-stages-20261009.md) | samples #68 / Rust #441; ten retained sessions, font-free buffer differences, matching no-observer variants and unresolved readiness |
 | [TTKN wrapper inventory](ttkn-wrapper-inventory-20261008.md) | Rust #415; 16 pinned encrypted originals, two wrapper families and unresolved credential semantics |

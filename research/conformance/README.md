@@ -558,3 +558,10 @@ add original font-free 75-page controls and fixed-grid state/marker/difference
 tests to CI. The external viewer experiment retains all navigation failures
 and uses no fitted alignment or tolerance; successful original controls do
 not count as successful corpus conversions.
+
+The [original RGB controls](../notes/viewer-rgb-resampling-20261009.md) add
+bounded font-free image/vector fixtures, exact multichannel measurements and
+original page-ID decoding tests. All 18 external sessions and both earlier
+state-check rejection sets are retained. Decoding an authored black/white
+marker at midpoint 128 never relaxes the separate exact pixel comparison;
+the interpolation experiment adds no corpus compatibility pass.
