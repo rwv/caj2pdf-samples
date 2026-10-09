@@ -1,5 +1,11 @@
 # Collection research
 
+The [2026-10-09 historical Windows CAA investigation](research/notes/caa-windows-boundary-20261009.md)
+adds primary institutional link-file guidance and offline observations for all
+18 descriptors, with original controls and retained Wine/installation limits.
+This updates the older link-file lead below; remote availability, credentials
+and actual target-document conversion remain unverified.
+
 The [2026-10-08 CAA/NH discovery](research/notes/caa-nh-discovery-20261008.md) adds 18 descriptors and one
 original-extension HN-A document, with offline viewer and complete
 CLI/Node/Chromium results. It supersedes the earlier CAA/NH sample gaps;
