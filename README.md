@@ -4,15 +4,22 @@ Real-document catalog and regression inputs for [caj2pdf-rust](https://github.co
 
 ## Current collection
 
-**1,403 unique inputs** are indexed, including 18 CAA target descriptors and
+**1,408 unique inputs** are indexed, including 18 CAA target descriptors and
 one acquired original with an unknown format after its header was zero-filled.
-Current totals are **1,356 conversion PASS, 20 FAIL and 27 UNSUPPORTED**.
+Current totals are **1,361 conversion PASS, 20 FAIL and 27 UNSUPPORTED**.
+The [public Geodata attachments](research/notes/geodata-public-attachments-20261009.md)
+add five originals (seven URLs), with native/Node/Vite Chromium parity and
+independent selected-object, stream, navigation and all-67-page rendering checks.
+The combined accepted-page total is **37,222**; source, font, outline and
+viewer-readiness limits elsewhere in the collection remain open.
+
 The [Archive/NJU follow-up](research/notes/archive-nju-followup-20261009.md)
 added 12 identities: initially seven conversions with 580 pages and five refusals.
 The [NJU native-profile follow-up](research/notes/nju-native-profiles-20261009.md)
 now converts three of those originals (17 pages), with independent text/geometry
 checks and native/Node/Chromium parity; two damaged sources remain unresolved.
-The reconciled accepted-page total is 37,155 across the separate historical
+Before the Geodata additions, the reconciled accepted-page total was 37,155
+across the separate historical
 checkpoints; this is not a fresh full-catalog run or full-rendering claim.
 
 The [TTKN product follow-up](research/notes/ttkn-product-conversion-20261009.md)
