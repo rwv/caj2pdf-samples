@@ -2,6 +2,11 @@
 
 # Public TTKN attachment and disclosed-response observation
 
+Historical checkpoint. The [unchanged-source follow-up](ttkn-unaltered-wrapper-20261009.md)
+now demonstrates viewer opening and reproduces the rights wrapper. The
+URL-edited failure below remains scoped to that modified copy; production
+conversion and independent full-document recovery are still unresolved.
+
 One [public forum research attachment](https://chaoli.club/index.php/2979/5)
 adds a seventeenth distinct TTKN original, under
 [Rust #501](https://github.com/rwv/caj2pdf-rust/issues/501),

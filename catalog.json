@@ -29297,11 +29297,11 @@
       "redistribution": "not_declared",
       "local_integrity": "PASS",
       "conversion": "FAIL",
-      "viewer": "FAIL",
+      "viewer": "PASS",
       "conversion_revision": "d2bf82e8aec6fba5e8f3783e4953606c02ab1374",
       "conversion_evidence": "research/notes/public-ttkn-response-20261009.json",
-      "viewer_evidence": "research/notes/public-ttkn-response-20261009.json",
-      "notes": "TTKN.PubSec server/auth wrapper; original offline viewer reports a validation-server connection error. Disclosed-response research copy also fails; recovery remains unresolved (rwv/caj2pdf-rust#501)."
+      "viewer_evidence": "research/notes/ttkn-unaltered-wrapper-20261009.json",
+      "notes": "Conversion still FAIL. Unchanged source opens offline with its matching disclosed response and exact-target loopback routing: page 1, 180-page counter and populated contents. External observed-IV research recovery reproduces all 234 streams and renders 180 pages; original-input production support and complete viewer equivalence remain unresolved. Prior failures retained (rwv/caj2pdf-rust#501)."
     }
   ]
 }

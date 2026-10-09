@@ -1,5 +1,10 @@
 # Research notes
 
+The [unchanged TTKN wrapper follow-up](ttkn-unaltered-wrapper-20261009.md)
+establishes viewer opening, independent rights-layer equality and observed-IV
+research recovery of all 234 streams / 180 pages. It explains the earlier
+URL-edited failure and retains the remaining initialization/production gaps.
+
 The [public TTKN response follow-up](public-ttkn-response-20261009.md) adds one
 new protected source, three-runtime refusals and controlled offline observations.
 The disclosed response does not demonstrate recovery; all attempts and the

@@ -7,7 +7,9 @@ Real-document catalog and regression inputs for [caj2pdf-rust](https://github.co
 **1,385 unique inputs** are indexed: 1,367 document candidates and 18 CAA
 target descriptors. The [public TTKN follow-up](research/notes/public-ttkn-response-20261009.md)
 adds one protected source with failed native/Node/Chromium conversion and
-controlled offline observations; recovery remains unresolved. Current totals
+controlled offline observations. The [unchanged-source follow-up](research/notes/ttkn-unaltered-wrapper-20261009.md)
+now shows viewer opening and observed-IV research recovery of 180 pages;
+original-input production conversion remains unresolved. Current totals
 are 1,339 conversion PASS, 19 FAIL and 27 UNSUPPORTED.
 
 The [2026-10-09 public-web sweep](research/notes/public-web-sweep-20261009.md)
