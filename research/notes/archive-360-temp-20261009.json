@@ -1,0 +1,3084 @@
+{
+  "schema_version": 1,
+  "issue": "rwv/caj2pdf-samples#92",
+  "acquisition": {
+    "item": "https://archive.org/details/360-temp",
+    "prior_metadata_request_failed": true,
+    "retry_metadata_receipt_sha256": "a56d3a5d6ce0addc7b65650ef2897e66be970a7262276c5a75064b8799846ff7",
+    "metadata_server": "https://ia600509.us.archive.org/0/items/360-temp/",
+    "server_supplied_by_item_metadata": true,
+    "restriction_flags_present": false,
+    "bounded_retry": true,
+    "canonical_attempts": 9,
+    "canonical_successes": 6,
+    "canonical_failures": [
+      {
+        "url": "https://archive.org/download/360-temp/%E2%80%9C%E9%92%B1%E6%B0%8F%E9%9F%B3%E5%B7%AE%E2%80%9D%E8%A7%A3%E6%9E%90.caj",
+        "error": "HTTP Error 500: Internal Server Error"
+      },
+      {
+        "url": "https://archive.org/download/360-temp/%E3%80%8A%E5%A4%AA%E7%8E%84%E3%80%8B%E8%B1%A1%E6%95%B0%E4%B8%8E%E6%B1%89%E4%BB%A3%E6%98%93%E5%AD%A6%E5%8D%A6%E6%B0%94%E8%AF%B4.caj",
+        "error": "HTTP Error 500: Internal Server Error"
+      },
+      {
+        "url": "https://archive.org/download/360-temp/%E3%80%8A%E6%96%B0%E5%94%90%E4%B9%A6%E3%80%8B%E4%B9%90%E5%BE%8B%E5%AD%A6%E4%BA%8C%E9%A2%98%E8%BE%A8%E6%83%91.caj",
+        "error": "HTTP Error 500: Internal Server Error"
+      }
+    ],
+    "storage_retry_attempts": 9,
+    "storage_retry_successes": 9,
+    "unique_downloaded_identities": 9,
+    "new_identities": 5,
+    "known_duplicates": 4,
+    "all_size_sha1_md5_match": true,
+    "documents_committed": false,
+    "public_availability_is_not_redistribution_license": true
+  },
+  "product": {
+    "reviewed_revision": "f75b9e4605593ca8c7300a025af0f5db78750d82",
+    "merge_commit": "02adcc63eea447f82167facf0a38c0d2bb964684",
+    "merge_tree_matches_reviewed_revision": true,
+    "native_sha256": "38edd40354c4e32c6064cd08292c7f6145a18057f22a1e6b434a869e738a68f3",
+    "wasm_sha256": "caf67fe1e6cdf8006d5c0739ea7d0e44cb2d9e461d4dbffcdf7eb67cc1ff1812",
+    "runtime_runner_sha256": "4cf41a5871f9ef7ff3a0d8ffda3a39096a29debcdc45b944db527892bf7d706e",
+    "no_new_converter_change_for_this_batch": true
+  },
+  "results": [
+    {
+      "source_sha256": "a3a0a922abb5e0d499d345c4204a2d15ffdc17524faa014e0e03f133028d9940",
+      "name": "“钱氏音差”解析.caj",
+      "format": "PDF",
+      "size_bytes": 1138368,
+      "source_url": "https://archive.org/download/360-temp/%E2%80%9C%E9%92%B1%E6%B0%8F%E9%9F%B3%E5%B7%AE%E2%80%9D%E8%A7%A3%E6%9E%90.caj",
+      "duplicate_of_existing_catalog": false,
+      "native": {
+        "sha256": "a3a0a922abb5e0d499d345c4204a2d15ffdc17524faa014e0e03f133028d9940",
+        "name": "“钱氏音差”解析.caj",
+        "in_catalog": false,
+        "exit": 0,
+        "stderr": "",
+        "output_sha256": "a3a0a922abb5e0d499d345c4204a2d15ffdc17524faa014e0e03f133028d9940",
+        "output_bytes": 1138368,
+        "qpdf_exit": 0,
+        "pages": 3
+      },
+      "acquisition_attempts": [
+        {
+          "url": "https://archive.org/download/360-temp/%E2%80%9C%E9%92%B1%E6%B0%8F%E9%9F%B3%E5%B7%AE%E2%80%9D%E8%A7%A3%E6%9E%90.caj",
+          "identifier": "360-temp",
+          "archive": {
+            "name": "“钱氏音差”解析.caj",
+            "source": "original",
+            "mtime": "1621706552",
+            "size": "1138368",
+            "md5": "1f9d1c1b803102f11d6f10a6ab3754c0",
+            "crc32": "03bf1c70",
+            "sha1": "b1f84e006fe2ca9b7dc5f3e9fdabee173cfc8716",
+            "format": "Unknown"
+          },
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "original_url": "https://archive.org/download/360-temp/%E2%80%9C%E9%92%B1%E6%B0%8F%E9%9F%B3%E5%B7%AE%E2%80%9D%E8%A7%A3%E6%9E%90.caj",
+          "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E2%80%9C%E9%92%B1%E6%B0%8F%E9%9F%B3%E5%B7%AE%E2%80%9D%E8%A7%A3%E6%9E%90.caj",
+          "metadata_server": "d1",
+          "archive": {
+            "name": "“钱氏音差”解析.caj",
+            "source": "original",
+            "mtime": "1621706552",
+            "size": "1138368",
+            "md5": "1f9d1c1b803102f11d6f10a6ab3754c0",
+            "crc32": "03bf1c70",
+            "sha1": "b1f84e006fe2ca9b7dc5f3e9fdabee173cfc8716",
+            "format": "Unknown"
+          },
+          "bytes": 1138368,
+          "sha256": "a3a0a922abb5e0d499d345c4204a2d15ffdc17524faa014e0e03f133028d9940",
+          "archive_checksums_match": true,
+          "signature": "255044462d312e33"
+        }
+      ],
+      "preservation": {
+        "source_sha256": "a3a0a922abb5e0d499d345c4204a2d15ffdc17524faa014e0e03f133028d9940",
+        "pdf_sha256": "a3a0a922abb5e0d499d345c4204a2d15ffdc17524faa014e0e03f133028d9940",
+        "format": "PDF",
+        "pages": 3,
+        "outline_nodes": 0,
+        "page_tree_nodes": 4,
+        "source_streams": 116,
+        "source_objects": 134,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [],
+        "source_reader_exit": 0,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      },
+      "rendering": {
+        "source_sha256": "a3a0a922abb5e0d499d345c4204a2d15ffdc17524faa014e0e03f133028d9940",
+        "format": "PDF",
+        "pages": 3,
+        "all_page_geometry_words_pixels_match": true,
+        "pixel_sha256": [
+          "16ae4d20bcb604f7d69c072fd00dd290cedf21ca690eb32c0aa6f665abb6660b",
+          "9f6956cdb1fca5690de1a2e5d4b9a57adff80fb62e83d9f24d5316e0e3592811",
+          "c7fc4c5fbcac896077e5d059266ede76598e2d3c2ce9e1be90de28c79ff6ffce"
+        ],
+        "reference": {
+          "kind": "unchanged original PDF"
+        }
+      }
+    },
+    {
+      "source_sha256": "12697aa8dd7a0e92ca2769e8189684fe4d206f3936720348decc28cd67af0c15",
+      "name": "《太玄》象数与汉代易学卦气说.caj",
+      "format": "CAJ",
+      "size_bytes": 952400,
+      "source_url": "https://archive.org/download/360-temp/%E3%80%8A%E5%A4%AA%E7%8E%84%E3%80%8B%E8%B1%A1%E6%95%B0%E4%B8%8E%E6%B1%89%E4%BB%A3%E6%98%93%E5%AD%A6%E5%8D%A6%E6%B0%94%E8%AF%B4.caj",
+      "duplicate_of_existing_catalog": false,
+      "native": {
+        "sha256": "12697aa8dd7a0e92ca2769e8189684fe4d206f3936720348decc28cd67af0c15",
+        "name": "《太玄》象数与汉代易学卦气说.caj",
+        "in_catalog": false,
+        "exit": 0,
+        "stderr": "",
+        "output_sha256": "8d4453e02c95332a6746ce7c6a5b14f1fcfb4b3b25b9e281f2777980f2bd72de",
+        "output_bytes": 952419,
+        "qpdf_exit": 0,
+        "pages": 45
+      },
+      "acquisition_attempts": [
+        {
+          "url": "https://archive.org/download/360-temp/%E3%80%8A%E5%A4%AA%E7%8E%84%E3%80%8B%E8%B1%A1%E6%95%B0%E4%B8%8E%E6%B1%89%E4%BB%A3%E6%98%93%E5%AD%A6%E5%8D%A6%E6%B0%94%E8%AF%B4.caj",
+          "identifier": "360-temp",
+          "archive": {
+            "name": "《太玄》象数与汉代易学卦气说.caj",
+            "source": "original",
+            "mtime": "1621706570",
+            "size": "952400",
+            "md5": "fa9125c7568e2bdc37477423eb4b5173",
+            "crc32": "32fd7f10",
+            "sha1": "305fbd9027ccd54578f9efbd9350c564d29b02e1",
+            "format": "Unknown"
+          },
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "original_url": "https://archive.org/download/360-temp/%E3%80%8A%E5%A4%AA%E7%8E%84%E3%80%8B%E8%B1%A1%E6%95%B0%E4%B8%8E%E6%B1%89%E4%BB%A3%E6%98%93%E5%AD%A6%E5%8D%A6%E6%B0%94%E8%AF%B4.caj",
+          "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E3%80%8A%E5%A4%AA%E7%8E%84%E3%80%8B%E8%B1%A1%E6%95%B0%E4%B8%8E%E6%B1%89%E4%BB%A3%E6%98%93%E5%AD%A6%E5%8D%A6%E6%B0%94%E8%AF%B4.caj",
+          "metadata_server": "d1",
+          "archive": {
+            "name": "《太玄》象数与汉代易学卦气说.caj",
+            "source": "original",
+            "mtime": "1621706570",
+            "size": "952400",
+            "md5": "fa9125c7568e2bdc37477423eb4b5173",
+            "crc32": "32fd7f10",
+            "sha1": "305fbd9027ccd54578f9efbd9350c564d29b02e1",
+            "format": "Unknown"
+          },
+          "bytes": 952400,
+          "sha256": "12697aa8dd7a0e92ca2769e8189684fe4d206f3936720348decc28cd67af0c15",
+          "archive_checksums_match": true,
+          "signature": "43414a0001000200"
+        }
+      ],
+      "preservation": {
+        "source_sha256": "12697aa8dd7a0e92ca2769e8189684fe4d206f3936720348decc28cd67af0c15",
+        "pdf_sha256": "8d4453e02c95332a6746ce7c6a5b14f1fcfb4b3b25b9e281f2777980f2bd72de",
+        "pages": 45,
+        "outline_nodes": 19,
+        "source_navigation_sha256": "d53424af3a3efe5c554050e8fd1bf79a11b55e3dfb98c7c54eee787298944df5",
+        "selected_original_objects": 248,
+        "selected_original_streams": 110,
+        "parent_insertions": 8,
+        "added_navigation_objects": 22,
+        "candidate_unresolved_references": 0,
+        "status": "VERIFIED_SELECTED_OBJECTS_AND_NAVIGATION",
+        "source_reader_exit": 0,
+        "candidate_reader_exit": 0,
+        "scope": "Complete acquired selected-object/raw-stream preservation, independently sourced page/outline navigation and explicitly checked generated framing; not a rendering oracle or proof that reader recovery found every original object."
+      },
+      "rendering": {
+        "source_sha256": "12697aa8dd7a0e92ca2769e8189684fe4d206f3936720348decc28cd67af0c15",
+        "format": "CAJ",
+        "pages": 45,
+        "all_page_geometry_words_pixels_match": true,
+        "pixel_sha256": [
+          "cd6fc6e5e3d0f5613f21842c61f938d9f24be54e09b2d57dfae8ce4072b7f8b0",
+          "76d8c4d437664ad13c6d2c2ba9c07edd1cdfed662753fbeb3946c45b686fd151",
+          "a0eaaa09be392b540d473952dfddcb577fa57e4c843cacb5c741b5c9bd6a7e5e",
+          "580c9828081f4e70affd5735c0d2dbb8a792ab2647e5ba2fcaa7a6710275634a",
+          "6db9dd1cb710a74a8f601f4aff269abc56415d5673d4d9c54cdca5828cabd474",
+          "f1c384b695c58083a9e56c42fd3e60bb974475dc5c5d9e20c5c4be5db5c14461",
+          "eddfc135fbadaf9a69d1332653f63dcafbcc69d6341f04cb64b0e25b07e08980",
+          "810bb3ea10a8249cc7833be964c16d9115497e180b1f90a0147bee19843a2b92",
+          "183a0a5307ef921f84837d79ac696c224ef7b448a2ff0ca77effe8d2e0d4e9af",
+          "a08e31314ee982d8552092f5e469ef008fcdd0a8926584102499412909eb14fc",
+          "c69230d1ad4687673388fa30d83ede156c00bee060b650e6554633c9cc69ac6e",
+          "8fdc9f73bd5fc6d3c68320e324eb9fc61b6a20095a702c72aaae0c93e5c04554",
+          "b7052b173acb3b502903ebf106dee0ca0d1ad66cb8f20d42491895ab62125e00",
+          "7ca3166ceac621bdd4c11d1dd7365a9b1c441f7cc172fc7726df65535f61164f",
+          "a727efde5d897505e187c8d38a443895f2840170b7da7390102729c514817a26",
+          "26461a9bbf1a8676c98b17d478d703af1b8502d16e90d2afd27fe610e7de51c6",
+          "1ba00272f4c22441ef5153987e64433227c1c71b902b96a3039ac1e053fb7b35",
+          "397a8d9f2fb798c5df157bb3abc9b9e481080b92f23c7f7b8f09a989c9c4135d",
+          "cb6619e9e8f35e0b7f94e3c1e28759130604ecfa1ef37abbd21ff26c472f8a9c",
+          "5c88a12a066ef95b067069ac99bb3bbfdcda5c01bc12f730f029991593b4b4fa",
+          "4ef67054bea2618cc1f7912c9d03a961ea5ca7cc571695fa671e51824930a74d",
+          "ead6286c8a79563091501f7c6878f098116dc45fdf2a9df73d7bf2ba1e8e531c",
+          "42eb9fc050cb8b5b31915ad091dc320fcbc5992817899c6058d1cd5812eff7a5",
+          "8fb4e401884eb7c8f18720a68ef6c050752e42dcf800a7c773c7180499daff83",
+          "57d004753a84037bbf398a249341b61409bc25201ffd46faaa4dc2aba06b68ff",
+          "9ecf3af7fca5c7565009c8d106583799e3884728f14512ba6ac213db96cd00ec",
+          "7b44104b57d6c5dca895140232373546525b861fe62e75e3459efaee805ec670",
+          "152b2cf0a79042f232a93a7585316736bdb246721ae27fa0bbcd7cc45129c437",
+          "e54797a52b08f530eeb556f79ad07ede80dae48f6a84945197bd16b8836e5f61",
+          "d95a38b8fadc3276664e18ba6625e51cf3af75f448615183728df8663034380e",
+          "16ff587795917f940156562c06ef95c9c3481061baec6c1c29155b731d1ac47d",
+          "b9ec61dd390185a963ac7d6ecb52ee838c3088dcd90f1feab0c393c650be5ea1",
+          "16b218b8fb68b4fcfb585e84a970cbcc119720a0cbb2f7544857490ddfa7a588",
+          "29fb5620ff428f001394ecd3cf246f17b1e720a3d6c0a848bcb16676aad5390e",
+          "886732e3c69a5a10e832598ff23dca146708ea0215081fba66fe5ec67dbe113f",
+          "01c3d0217926111f8c919d12e11d11320fa0dbc60048612a93bd40a103d5025b",
+          "b08e85fad6f004fc40e3c561d713cc3081e4641e04002e99a8bd61edcf269a90",
+          "629e3d845464fd83311ed34bfc3e0fc8e6af8b91caa6759219e9c28054bfa29d",
+          "f59d64079d22c85ef912d4a7133c9b453c9fa224c706c4773f3648c812a4d4f1",
+          "4b33c83efc796b4f256eba5de7d0d4aa085c6c9550e73b30e7e5281f9d37a59d",
+          "a8da87da8fc18e65aeb333bbcc1b744927e2d4a58f8708591d3059a25016783b",
+          "82e2bc235e71e900c3957b7d99590ae92932934d7b38393c0428dfd66b264353",
+          "db49d3b9c8e162ade47291c93790681a449bdc89c5f0ee032f7a7fc21141811f",
+          "a14c72d230a0ac062fcc0036e664b621987b0c4131441929d9a7a8fef9e2e78b",
+          "93f1243d3e72686c4bdbf8191f6b03653203b91edaf314d6d5e214912a5d7bbd"
+        ],
+        "reference": {
+          "source_only_reference_sha256": "e8432cd332f6b9c1bad4122bded34a6a985f4b4244c46ba6884340dc68140f36",
+          "source_page_table_order": true,
+          "every_original_page_explicit_geometry_resources": true,
+          "vendor_viewer_compared": false
+        }
+      }
+    },
+    {
+      "source_sha256": "5dfd97fc3c35c0b24a884fac0971054116dcc06ab48c76a1e4807322cc3fb26b",
+      "name": "《新唐书》乐律学二题辨惑.caj",
+      "format": "PDF",
+      "size_bytes": 116576,
+      "source_url": "https://archive.org/download/360-temp/%E3%80%8A%E6%96%B0%E5%94%90%E4%B9%A6%E3%80%8B%E4%B9%90%E5%BE%8B%E5%AD%A6%E4%BA%8C%E9%A2%98%E8%BE%A8%E6%83%91.caj",
+      "duplicate_of_existing_catalog": true,
+      "native": {
+        "sha256": "5dfd97fc3c35c0b24a884fac0971054116dcc06ab48c76a1e4807322cc3fb26b",
+        "name": "《新唐书》乐律学二题辨惑.caj",
+        "in_catalog": true,
+        "exit": 0,
+        "stderr": "",
+        "output_sha256": "6b420c1ed2d1e0de6a6a9d504ec9a69242040f6ffd6430347c474c2c0457b993",
+        "output_bytes": 116574,
+        "qpdf_exit": 0,
+        "pages": 4
+      },
+      "acquisition_attempts": [
+        {
+          "url": "https://archive.org/download/360-temp/%E3%80%8A%E6%96%B0%E5%94%90%E4%B9%A6%E3%80%8B%E4%B9%90%E5%BE%8B%E5%AD%A6%E4%BA%8C%E9%A2%98%E8%BE%A8%E6%83%91.caj",
+          "identifier": "360-temp",
+          "archive": {
+            "name": "《新唐书》乐律学二题辨惑.caj",
+            "source": "original",
+            "mtime": "1621706579",
+            "size": "116576",
+            "md5": "6e232da78293e1de22f56d9a2d6ed333",
+            "crc32": "33e8c776",
+            "sha1": "177d50a42eeecdb0fc5d33dcca3567e2b251f1b8",
+            "format": "Unknown"
+          },
+          "error": "HTTP Error 500: Internal Server Error"
+        },
+        {
+          "original_url": "https://archive.org/download/360-temp/%E3%80%8A%E6%96%B0%E5%94%90%E4%B9%A6%E3%80%8B%E4%B9%90%E5%BE%8B%E5%AD%A6%E4%BA%8C%E9%A2%98%E8%BE%A8%E6%83%91.caj",
+          "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E3%80%8A%E6%96%B0%E5%94%90%E4%B9%A6%E3%80%8B%E4%B9%90%E5%BE%8B%E5%AD%A6%E4%BA%8C%E9%A2%98%E8%BE%A8%E6%83%91.caj",
+          "metadata_server": "d1",
+          "archive": {
+            "name": "《新唐书》乐律学二题辨惑.caj",
+            "source": "original",
+            "mtime": "1621706579",
+            "size": "116576",
+            "md5": "6e232da78293e1de22f56d9a2d6ed333",
+            "crc32": "33e8c776",
+            "sha1": "177d50a42eeecdb0fc5d33dcca3567e2b251f1b8",
+            "format": "Unknown"
+          },
+          "bytes": 116576,
+          "sha256": "5dfd97fc3c35c0b24a884fac0971054116dcc06ab48c76a1e4807322cc3fb26b",
+          "archive_checksums_match": true,
+          "signature": "255044462d312e36"
+        }
+      ],
+      "preservation": {
+        "source_sha256": "5dfd97fc3c35c0b24a884fac0971054116dcc06ab48c76a1e4807322cc3fb26b",
+        "pdf_sha256": "6b420c1ed2d1e0de6a6a9d504ec9a69242040f6ffd6430347c474c2c0457b993",
+        "format": "PDF",
+        "pages": 4,
+        "outline_nodes": 0,
+        "page_tree_nodes": 5,
+        "source_streams": 47,
+        "source_objects": 116,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [],
+        "source_reader_exit": 0,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      },
+      "rendering": {
+        "source_sha256": "5dfd97fc3c35c0b24a884fac0971054116dcc06ab48c76a1e4807322cc3fb26b",
+        "format": "PDF",
+        "pages": 4,
+        "all_page_geometry_words_pixels_match": true,
+        "pixel_sha256": [
+          "a0f4e5e7e270674b6aea872cc26f88d3334d8a8557c87f89de21329a442375f1",
+          "e6a5a9bfbca6988af9e4af8a9ffa4f4b8c8d0c1f4e4d2222b6145bb2bd463006",
+          "f4b5d4c5e5c7ec2253e44ed6da9859398b91489aebf1e8948f9dc1d520a8910e",
+          "60abe81f2f100ab214768fde5ef469bb585ddf1f5df8e12045ddc3bfb79b3afd"
+        ],
+        "reference": {
+          "kind": "unchanged original PDF"
+        }
+      }
+    },
+    {
+      "source_sha256": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+      "name": "《管子·地员》五音说之探究.caj",
+      "format": "PDF",
+      "size_bytes": 488192,
+      "source_url": "https://archive.org/download/360-temp/%E3%80%8A%E7%AE%A1%E5%AD%90%C2%B7%E5%9C%B0%E5%91%98%E3%80%8B%E4%BA%94%E9%9F%B3%E8%AF%B4%E4%B9%8B%E6%8E%A2%E7%A9%B6.caj",
+      "duplicate_of_existing_catalog": false,
+      "native": {
+        "sha256": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+        "name": "《管子·地员》五音说之探究.caj",
+        "in_catalog": false,
+        "exit": 0,
+        "stderr": "",
+        "output_sha256": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+        "output_bytes": 488192,
+        "qpdf_exit": 0,
+        "pages": 8
+      },
+      "acquisition_attempts": [
+        {
+          "url": "https://archive.org/download/360-temp/%E3%80%8A%E7%AE%A1%E5%AD%90%C2%B7%E5%9C%B0%E5%91%98%E3%80%8B%E4%BA%94%E9%9F%B3%E8%AF%B4%E4%B9%8B%E6%8E%A2%E7%A9%B6.caj",
+          "identifier": "360-temp",
+          "archive": {
+            "name": "《管子·地员》五音说之探究.caj",
+            "source": "original",
+            "mtime": "1621706585",
+            "size": "488192",
+            "md5": "58836f0ac6bf0bf4a267ff6aa42fdf0c",
+            "crc32": "6583f1cd",
+            "sha1": "a5fdd480faa195309813a3b6ed925a7be9456679",
+            "format": "Unknown"
+          },
+          "sha256": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+          "bytes": 488192,
+          "signature": "255044462d312e36"
+        },
+        {
+          "original_url": "https://archive.org/download/360-temp/%E3%80%8A%E7%AE%A1%E5%AD%90%C2%B7%E5%9C%B0%E5%91%98%E3%80%8B%E4%BA%94%E9%9F%B3%E8%AF%B4%E4%B9%8B%E6%8E%A2%E7%A9%B6.caj",
+          "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E3%80%8A%E7%AE%A1%E5%AD%90%C2%B7%E5%9C%B0%E5%91%98%E3%80%8B%E4%BA%94%E9%9F%B3%E8%AF%B4%E4%B9%8B%E6%8E%A2%E7%A9%B6.caj",
+          "metadata_server": "d1",
+          "archive": {
+            "name": "《管子·地员》五音说之探究.caj",
+            "source": "original",
+            "mtime": "1621706585",
+            "size": "488192",
+            "md5": "58836f0ac6bf0bf4a267ff6aa42fdf0c",
+            "crc32": "6583f1cd",
+            "sha1": "a5fdd480faa195309813a3b6ed925a7be9456679",
+            "format": "Unknown"
+          },
+          "bytes": 488192,
+          "sha256": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+          "archive_checksums_match": true,
+          "signature": "255044462d312e36"
+        }
+      ],
+      "preservation": {
+        "source_sha256": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+        "pdf_sha256": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+        "format": "PDF",
+        "pages": 8,
+        "outline_nodes": 0,
+        "page_tree_nodes": 9,
+        "source_streams": 59,
+        "source_objects": 153,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [],
+        "source_reader_exit": 0,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      },
+      "rendering": {
+        "source_sha256": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+        "format": "PDF",
+        "pages": 8,
+        "all_page_geometry_words_pixels_match": true,
+        "pixel_sha256": [
+          "cabeac03fda3f5650959cafd1f755e0bb0a576fb759f6c67cba21b8bde34ed40",
+          "65f0aa2ee5f09e693f64a22ebdd3479bbf376d52d2245996688a71ad1d2901f4",
+          "6516803420ee949cf627cbb0abee73b6b46772964b8b11a905afa6ad4ba11990",
+          "c0abea281d80fe1554d4c1da0e9224a7292da35b72da73ea95294f3aae61ed73",
+          "0f6b4f69e133561375f749382c30a789187e55ec360e3b5efaca343b62b76042",
+          "3e21610ad36237ba561d1639dc6cd81cdb1e35fbe79c77afa7933f53dc5f06e5",
+          "537f05add4d5f6eff1614336e8d07398768b0f702ca1ba4fa5dec2a68d2a98b4",
+          "a4c0ecb0238d032fa29db8a69d0b1d97efad42bb20a294f8a3f8049a567070af"
+        ],
+        "reference": {
+          "kind": "unchanged original PDF"
+        }
+      }
+    },
+    {
+      "source_sha256": "43677f02f2184c0c4e772339357eb1c14f941b799c0226a0730974ac13f1898d",
+      "name": "中国古代律学史研究需要“接通”的思维向度.caj",
+      "format": "PDF",
+      "size_bytes": 69232,
+      "source_url": "https://archive.org/download/360-temp/%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E5%BE%8B%E5%AD%A6%E5%8F%B2%E7%A0%94%E7%A9%B6%E9%9C%80%E8%A6%81%E2%80%9C%E6%8E%A5%E9%80%9A%E2%80%9D%E7%9A%84%E6%80%9D%E7%BB%B4%E5%90%91%E5%BA%A6.caj",
+      "duplicate_of_existing_catalog": false,
+      "native": {
+        "sha256": "43677f02f2184c0c4e772339357eb1c14f941b799c0226a0730974ac13f1898d",
+        "name": "中国古代律学史研究需要“接通”的思维向度.caj",
+        "in_catalog": false,
+        "exit": 0,
+        "stderr": "",
+        "output_sha256": "48314e11c3b0a8b770c11e5468cf8a2ee543d7d2eeaaa7180b7f7faa1fab98a9",
+        "output_bytes": 69226,
+        "qpdf_exit": 0,
+        "pages": 4
+      },
+      "acquisition_attempts": [
+        {
+          "url": "https://archive.org/download/360-temp/%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E5%BE%8B%E5%AD%A6%E5%8F%B2%E7%A0%94%E7%A9%B6%E9%9C%80%E8%A6%81%E2%80%9C%E6%8E%A5%E9%80%9A%E2%80%9D%E7%9A%84%E6%80%9D%E7%BB%B4%E5%90%91%E5%BA%A6.caj",
+          "identifier": "360-temp",
+          "archive": {
+            "name": "中国古代律学史研究需要“接通”的思维向度.caj",
+            "source": "original",
+            "mtime": "1621706605",
+            "size": "69232",
+            "md5": "e21dbc2dce78f8fe2a97c6e1d285503a",
+            "crc32": "a64c5130",
+            "sha1": "8b95dfec9deb8841365e305a3616e7ecd3c85b6a",
+            "format": "Unknown"
+          },
+          "sha256": "43677f02f2184c0c4e772339357eb1c14f941b799c0226a0730974ac13f1898d",
+          "bytes": 69232,
+          "signature": "255044462d312e36"
+        },
+        {
+          "original_url": "https://archive.org/download/360-temp/%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E5%BE%8B%E5%AD%A6%E5%8F%B2%E7%A0%94%E7%A9%B6%E9%9C%80%E8%A6%81%E2%80%9C%E6%8E%A5%E9%80%9A%E2%80%9D%E7%9A%84%E6%80%9D%E7%BB%B4%E5%90%91%E5%BA%A6.caj",
+          "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E5%BE%8B%E5%AD%A6%E5%8F%B2%E7%A0%94%E7%A9%B6%E9%9C%80%E8%A6%81%E2%80%9C%E6%8E%A5%E9%80%9A%E2%80%9D%E7%9A%84%E6%80%9D%E7%BB%B4%E5%90%91%E5%BA%A6.caj",
+          "metadata_server": "d1",
+          "archive": {
+            "name": "中国古代律学史研究需要“接通”的思维向度.caj",
+            "source": "original",
+            "mtime": "1621706605",
+            "size": "69232",
+            "md5": "e21dbc2dce78f8fe2a97c6e1d285503a",
+            "crc32": "a64c5130",
+            "sha1": "8b95dfec9deb8841365e305a3616e7ecd3c85b6a",
+            "format": "Unknown"
+          },
+          "bytes": 69232,
+          "sha256": "43677f02f2184c0c4e772339357eb1c14f941b799c0226a0730974ac13f1898d",
+          "archive_checksums_match": true,
+          "signature": "255044462d312e36"
+        }
+      ],
+      "preservation": {
+        "source_sha256": "43677f02f2184c0c4e772339357eb1c14f941b799c0226a0730974ac13f1898d",
+        "pdf_sha256": "48314e11c3b0a8b770c11e5468cf8a2ee543d7d2eeaaa7180b7f7faa1fab98a9",
+        "format": "PDF",
+        "pages": 4,
+        "outline_nodes": 0,
+        "page_tree_nodes": 5,
+        "source_streams": 41,
+        "source_objects": 82,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [],
+        "source_reader_exit": 0,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      },
+      "rendering": {
+        "source_sha256": "43677f02f2184c0c4e772339357eb1c14f941b799c0226a0730974ac13f1898d",
+        "format": "PDF",
+        "pages": 4,
+        "all_page_geometry_words_pixels_match": true,
+        "pixel_sha256": [
+          "05d9f01086117a0157ccbac2ca4267357e93e7d90075b91365abc726cad38ade",
+          "ada6b9cf85b3f5b6ca1f592ce4dc072c0af3ca429bb1cb6f6ae54b3bbb9d1cc7",
+          "db7d38798ccb52cf32d240d5b97950077d751530332cb4b1cc4c3e7feaf95b17",
+          "f6f5563190456c3ac5a586bc37cbc948a56612f4c0673c489c812e77bc6d9d88"
+        ],
+        "reference": {
+          "kind": "unchanged original PDF"
+        }
+      }
+    },
+    {
+      "source_sha256": "8dd737fc3ab7e0d0a4abd26d0609d5b7a18951056d28ec57596af7dc8c765e05",
+      "name": "中国宫廷音乐“密码”  穿越百年历史从荷兰来到重庆纪实.caj",
+      "format": "PDF",
+      "size_bytes": 1259648,
+      "source_url": "https://archive.org/download/360-temp/%E4%B8%AD%E5%9B%BD%E5%AE%AB%E5%BB%B7%E9%9F%B3%E4%B9%90%E2%80%9C%E5%AF%86%E7%A0%81%E2%80%9D%20%20%E7%A9%BF%E8%B6%8A%E7%99%BE%E5%B9%B4%E5%8E%86%E5%8F%B2%E4%BB%8E%E8%8D%B7%E5%85%B0%E6%9D%A5%E5%88%B0%E9%87%8D%E5%BA%86%E7%BA%AA%E5%AE%9E.caj",
+      "duplicate_of_existing_catalog": false,
+      "native": {
+        "sha256": "8dd737fc3ab7e0d0a4abd26d0609d5b7a18951056d28ec57596af7dc8c765e05",
+        "name": "中国宫廷音乐“密码”  穿越百年历史从荷兰来到重庆纪实.caj",
+        "in_catalog": false,
+        "exit": 0,
+        "stderr": "",
+        "output_sha256": "726402afec525beb1fd22ad67df4a4d4d0be2206fb0e3bf162a32cae6a72b94f",
+        "output_bytes": 1259642,
+        "qpdf_exit": 0,
+        "pages": 4
+      },
+      "acquisition_attempts": [
+        {
+          "url": "https://archive.org/download/360-temp/%E4%B8%AD%E5%9B%BD%E5%AE%AB%E5%BB%B7%E9%9F%B3%E4%B9%90%E2%80%9C%E5%AF%86%E7%A0%81%E2%80%9D%20%20%E7%A9%BF%E8%B6%8A%E7%99%BE%E5%B9%B4%E5%8E%86%E5%8F%B2%E4%BB%8E%E8%8D%B7%E5%85%B0%E6%9D%A5%E5%88%B0%E9%87%8D%E5%BA%86%E7%BA%AA%E5%AE%9E.caj",
+          "identifier": "360-temp",
+          "archive": {
+            "name": "中国宫廷音乐“密码”  穿越百年历史从荷兰来到重庆纪实.caj",
+            "source": "original",
+            "mtime": "1621706610",
+            "size": "1259648",
+            "md5": "f6de6d25aafe6d996441e5cd22e210b0",
+            "crc32": "36612126",
+            "sha1": "e4aa3363d3dab7d051245e2d2c2b9f3f4a96ca6e",
+            "format": "Unknown"
+          },
+          "sha256": "8dd737fc3ab7e0d0a4abd26d0609d5b7a18951056d28ec57596af7dc8c765e05",
+          "bytes": 1259648,
+          "signature": "255044462d312e36"
+        },
+        {
+          "original_url": "https://archive.org/download/360-temp/%E4%B8%AD%E5%9B%BD%E5%AE%AB%E5%BB%B7%E9%9F%B3%E4%B9%90%E2%80%9C%E5%AF%86%E7%A0%81%E2%80%9D%20%20%E7%A9%BF%E8%B6%8A%E7%99%BE%E5%B9%B4%E5%8E%86%E5%8F%B2%E4%BB%8E%E8%8D%B7%E5%85%B0%E6%9D%A5%E5%88%B0%E9%87%8D%E5%BA%86%E7%BA%AA%E5%AE%9E.caj",
+          "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E4%B8%AD%E5%9B%BD%E5%AE%AB%E5%BB%B7%E9%9F%B3%E4%B9%90%E2%80%9C%E5%AF%86%E7%A0%81%E2%80%9D%20%20%E7%A9%BF%E8%B6%8A%E7%99%BE%E5%B9%B4%E5%8E%86%E5%8F%B2%E4%BB%8E%E8%8D%B7%E5%85%B0%E6%9D%A5%E5%88%B0%E9%87%8D%E5%BA%86%E7%BA%AA%E5%AE%9E.caj",
+          "metadata_server": "d1",
+          "archive": {
+            "name": "中国宫廷音乐“密码”  穿越百年历史从荷兰来到重庆纪实.caj",
+            "source": "original",
+            "mtime": "1621706610",
+            "size": "1259648",
+            "md5": "f6de6d25aafe6d996441e5cd22e210b0",
+            "crc32": "36612126",
+            "sha1": "e4aa3363d3dab7d051245e2d2c2b9f3f4a96ca6e",
+            "format": "Unknown"
+          },
+          "bytes": 1259648,
+          "sha256": "8dd737fc3ab7e0d0a4abd26d0609d5b7a18951056d28ec57596af7dc8c765e05",
+          "archive_checksums_match": true,
+          "signature": "255044462d312e36"
+        }
+      ],
+      "preservation": {
+        "source_sha256": "8dd737fc3ab7e0d0a4abd26d0609d5b7a18951056d28ec57596af7dc8c765e05",
+        "pdf_sha256": "726402afec525beb1fd22ad67df4a4d4d0be2206fb0e3bf162a32cae6a72b94f",
+        "format": "PDF",
+        "pages": 4,
+        "outline_nodes": 0,
+        "page_tree_nodes": 5,
+        "source_streams": 44,
+        "source_objects": 93,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [],
+        "source_reader_exit": 0,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      },
+      "rendering": {
+        "source_sha256": "8dd737fc3ab7e0d0a4abd26d0609d5b7a18951056d28ec57596af7dc8c765e05",
+        "format": "PDF",
+        "pages": 4,
+        "all_page_geometry_words_pixels_match": true,
+        "pixel_sha256": [
+          "2b77ac541bf991429bbddd5f2dba862bd9b93c4b3a1557c967e16b6434ac4310",
+          "fe93daab3dbfe07a6b0f2178274b1fb0eef7580e6941d0a9fb971a75892ad4e6",
+          "5143b358eea6dbde3e59f1fe9bf69245af127a6feb6b6cef78d4adcc8e5f8714",
+          "00eecfaaee1f01a8f8bf95135905954084164403c0a2a9dea4271e44abdef3f0"
+        ],
+        "reference": {
+          "kind": "unchanged original PDF"
+        }
+      }
+    },
+    {
+      "source_sha256": "8294e9dd26455794cb5ba57d706cb31e6ebd2df69d8e07abb664027d4a456f34",
+      "name": "史記律书的樂律学——古代史資料之一.caj",
+      "format": "PDF",
+      "size_bytes": 1085872,
+      "source_url": "https://archive.org/download/360-temp/%E5%8F%B2%E8%A8%98%E5%BE%8B%E4%B9%A6%E7%9A%84%E6%A8%82%E5%BE%8B%E5%AD%A6%E2%80%94%E2%80%94%E5%8F%A4%E4%BB%A3%E5%8F%B2%E8%B3%87%E6%96%99%E4%B9%8B%E4%B8%80.caj",
+      "duplicate_of_existing_catalog": true,
+      "native": {
+        "sha256": "8294e9dd26455794cb5ba57d706cb31e6ebd2df69d8e07abb664027d4a456f34",
+        "name": "史記律书的樂律学——古代史資料之一.caj",
+        "in_catalog": true,
+        "exit": 0,
+        "stderr": "",
+        "output_sha256": "df2ae871563f58d7a0c57ccac17aa2589227fcc27bde3ca8552532015e80dfd5",
+        "output_bytes": 1085870,
+        "qpdf_exit": 0,
+        "pages": 21
+      },
+      "acquisition_attempts": [
+        {
+          "url": "https://archive.org/download/360-temp/%E5%8F%B2%E8%A8%98%E5%BE%8B%E4%B9%A6%E7%9A%84%E6%A8%82%E5%BE%8B%E5%AD%A6%E2%80%94%E2%80%94%E5%8F%A4%E4%BB%A3%E5%8F%B2%E8%B3%87%E6%96%99%E4%B9%8B%E4%B8%80.caj",
+          "identifier": "360-temp",
+          "archive": {
+            "name": "史記律书的樂律学——古代史資料之一.caj",
+            "source": "original",
+            "mtime": "1621706642",
+            "size": "1085872",
+            "md5": "fceb2ae1b7cd0827dddfaaf13cd75f80",
+            "crc32": "abeb7b11",
+            "sha1": "4048e2ab50b9df79f032f9926f1a52c60b8ef30e",
+            "format": "Unknown"
+          },
+          "sha256": "8294e9dd26455794cb5ba57d706cb31e6ebd2df69d8e07abb664027d4a456f34",
+          "bytes": 1085872,
+          "signature": "255044462d312e36"
+        },
+        {
+          "original_url": "https://archive.org/download/360-temp/%E5%8F%B2%E8%A8%98%E5%BE%8B%E4%B9%A6%E7%9A%84%E6%A8%82%E5%BE%8B%E5%AD%A6%E2%80%94%E2%80%94%E5%8F%A4%E4%BB%A3%E5%8F%B2%E8%B3%87%E6%96%99%E4%B9%8B%E4%B8%80.caj",
+          "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E5%8F%B2%E8%A8%98%E5%BE%8B%E4%B9%A6%E7%9A%84%E6%A8%82%E5%BE%8B%E5%AD%A6%E2%80%94%E2%80%94%E5%8F%A4%E4%BB%A3%E5%8F%B2%E8%B3%87%E6%96%99%E4%B9%8B%E4%B8%80.caj",
+          "metadata_server": "d1",
+          "archive": {
+            "name": "史記律书的樂律学——古代史資料之一.caj",
+            "source": "original",
+            "mtime": "1621706642",
+            "size": "1085872",
+            "md5": "fceb2ae1b7cd0827dddfaaf13cd75f80",
+            "crc32": "abeb7b11",
+            "sha1": "4048e2ab50b9df79f032f9926f1a52c60b8ef30e",
+            "format": "Unknown"
+          },
+          "bytes": 1085872,
+          "sha256": "8294e9dd26455794cb5ba57d706cb31e6ebd2df69d8e07abb664027d4a456f34",
+          "archive_checksums_match": true,
+          "signature": "255044462d312e36"
+        }
+      ],
+      "preservation": {
+        "source_sha256": "8294e9dd26455794cb5ba57d706cb31e6ebd2df69d8e07abb664027d4a456f34",
+        "pdf_sha256": "df2ae871563f58d7a0c57ccac17aa2589227fcc27bde3ca8552532015e80dfd5",
+        "format": "PDF",
+        "pages": 21,
+        "outline_nodes": 0,
+        "page_tree_nodes": 22,
+        "source_streams": 48,
+        "source_objects": 81,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [],
+        "source_reader_exit": 0,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      },
+      "rendering": {
+        "source_sha256": "8294e9dd26455794cb5ba57d706cb31e6ebd2df69d8e07abb664027d4a456f34",
+        "format": "PDF",
+        "pages": 21,
+        "all_page_geometry_words_pixels_match": true,
+        "pixel_sha256": [
+          "af9ec60faf6e9bb55ad50dab29f1fbacd49acbb003e85aed36fef7c4eebfa19c",
+          "473be5a0aaf4659784ffd887d63f68272d3d0e09308bf83106b5193c7e650c9e",
+          "14428016c0e25d2b3479f4fb11e60bc8169fbd59df41c942f2e6032a8be960a5",
+          "df373a07a3b365e25615d8d7085106c875f778117186fb497fad8bb145140d62",
+          "463f4d07b8c8ac7f751f5ab67e432345ee03da8188ce152dedab17ed929d8bcc",
+          "f31b08fedd11d154775f52051d0486e6a39c50b74e4674dcd0cb8e01f4562bfd",
+          "3d22765b72d9f909a56a5ab18f4cac071c847e0359ae0f1f62eba3e1145ba08a",
+          "b7fb0b470e3fee1ba5eb422b14cace907035e9195ae612d3c629caf3d7a1df47",
+          "d19a7ccac0d53fdbb6403d922c28a10007800cc06d61b21882b7f5d8d5f22682",
+          "cde8e3f979a4cd18becf598b8146a039b1ebdc94d207896e29b1590cf4d5c67a",
+          "b66a037cc3130438c4ef889bda6457541bc14cfa866b0c3752f6fd534c1ff5d8",
+          "df18f8404cb25ebe815e504c6a923ce3540c29fb944588b04e631f61359c2e4c",
+          "f9ac21abf83bbcb610f722cbf896768bcf76b48cad8fce2324388576626f4d94",
+          "1afd412a7f2a579f2b1d8945112669fecb87861fd7d6567024878046a443dcd0",
+          "9475c7b5ba1cdbb9782849082c302c28d1ce5bf1522e9afd833136ad6dd1b406",
+          "e7ad432ddc8b22e0bfc94e00039d44f449b10c68ff97443b54a99ab4901749ef",
+          "2e7957462a46abcba0ffe0e6f34c368017cb22a32ae05cddf1516762d9050d26",
+          "75f5e09224cbc16673916668d60c92aec3deeff87c7a7a762e1b9476874a98cb",
+          "9e95421c0e7215418a9d61e5b77e7f378c667ac3c08db144e92d672c695f1c92",
+          "cdf621ca370b20a301dc97d3af5811ad2db0550f24165d3b04bf3f13fcf7c058",
+          "8826bd8bab0eeb3f06c85e81c48c288114f9988c120581f5bb0da0f6446a8d37"
+        ],
+        "reference": {
+          "kind": "unchanged original PDF"
+        }
+      }
+    },
+    {
+      "source_sha256": "18f6eaca5acbf8460144c4f454df414def31e99d4f697efe47bb0640bcc1a4fa",
+      "name": "春秋战国时期阴阳五行学说的美学思想.caj",
+      "format": "PDF",
+      "size_bytes": 1827840,
+      "source_url": "https://archive.org/download/360-temp/%E6%98%A5%E7%A7%8B%E6%88%98%E5%9B%BD%E6%97%B6%E6%9C%9F%E9%98%B4%E9%98%B3%E4%BA%94%E8%A1%8C%E5%AD%A6%E8%AF%B4%E7%9A%84%E7%BE%8E%E5%AD%A6%E6%80%9D%E6%83%B3.caj",
+      "duplicate_of_existing_catalog": true,
+      "native": {
+        "sha256": "18f6eaca5acbf8460144c4f454df414def31e99d4f697efe47bb0640bcc1a4fa",
+        "name": "春秋战国时期阴阳五行学说的美学思想.caj",
+        "in_catalog": true,
+        "exit": 0,
+        "stderr": "",
+        "output_sha256": "5001f53cea69d9953e00f5f0cb09b886d8a079c0d18d84ffffcc40a4e199318e",
+        "output_bytes": 1827837,
+        "qpdf_exit": 0,
+        "pages": 19
+      },
+      "acquisition_attempts": [
+        {
+          "url": "https://archive.org/download/360-temp/%E6%98%A5%E7%A7%8B%E6%88%98%E5%9B%BD%E6%97%B6%E6%9C%9F%E9%98%B4%E9%98%B3%E4%BA%94%E8%A1%8C%E5%AD%A6%E8%AF%B4%E7%9A%84%E7%BE%8E%E5%AD%A6%E6%80%9D%E6%83%B3.caj",
+          "identifier": "360-temp",
+          "archive": {
+            "name": "春秋战国时期阴阳五行学说的美学思想.caj",
+            "source": "original",
+            "mtime": "1621706676",
+            "size": "1827840",
+            "md5": "9090f99e6d2e1632a92f979a9836958d",
+            "crc32": "efb4237c",
+            "sha1": "507a838d1c8a3845cdf286d1676b8c28265dd044",
+            "format": "Unknown"
+          },
+          "sha256": "18f6eaca5acbf8460144c4f454df414def31e99d4f697efe47bb0640bcc1a4fa",
+          "bytes": 1827840,
+          "signature": "255044462d312e36"
+        },
+        {
+          "original_url": "https://archive.org/download/360-temp/%E6%98%A5%E7%A7%8B%E6%88%98%E5%9B%BD%E6%97%B6%E6%9C%9F%E9%98%B4%E9%98%B3%E4%BA%94%E8%A1%8C%E5%AD%A6%E8%AF%B4%E7%9A%84%E7%BE%8E%E5%AD%A6%E6%80%9D%E6%83%B3.caj",
+          "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E6%98%A5%E7%A7%8B%E6%88%98%E5%9B%BD%E6%97%B6%E6%9C%9F%E9%98%B4%E9%98%B3%E4%BA%94%E8%A1%8C%E5%AD%A6%E8%AF%B4%E7%9A%84%E7%BE%8E%E5%AD%A6%E6%80%9D%E6%83%B3.caj",
+          "metadata_server": "d1",
+          "archive": {
+            "name": "春秋战国时期阴阳五行学说的美学思想.caj",
+            "source": "original",
+            "mtime": "1621706676",
+            "size": "1827840",
+            "md5": "9090f99e6d2e1632a92f979a9836958d",
+            "crc32": "efb4237c",
+            "sha1": "507a838d1c8a3845cdf286d1676b8c28265dd044",
+            "format": "Unknown"
+          },
+          "bytes": 1827840,
+          "sha256": "18f6eaca5acbf8460144c4f454df414def31e99d4f697efe47bb0640bcc1a4fa",
+          "archive_checksums_match": true,
+          "signature": "255044462d312e36"
+        }
+      ],
+      "preservation": {
+        "source_sha256": "18f6eaca5acbf8460144c4f454df414def31e99d4f697efe47bb0640bcc1a4fa",
+        "pdf_sha256": "5001f53cea69d9953e00f5f0cb09b886d8a079c0d18d84ffffcc40a4e199318e",
+        "format": "PDF",
+        "pages": 19,
+        "outline_nodes": 0,
+        "page_tree_nodes": 20,
+        "source_streams": 40,
+        "source_objects": 66,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [],
+        "source_reader_exit": 0,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      },
+      "rendering": {
+        "source_sha256": "18f6eaca5acbf8460144c4f454df414def31e99d4f697efe47bb0640bcc1a4fa",
+        "format": "PDF",
+        "pages": 19,
+        "all_page_geometry_words_pixels_match": true,
+        "pixel_sha256": [
+          "d801fb360cbc99f3858226efb93dafb36e26d2f28ce3eef3a20dcaf4b1a1e824",
+          "6ab0cf2f371d6bbd7c667893cb43142eb5faa72e63ea8af86da9c803745047ba",
+          "a99d5bd4563086a3129f9212951a6a6cfe4466c4837854c0eb10b60da4f5ba5f",
+          "f08967c504e547e7912123beb5c065ed2c6ad744c983810cefd287bb321c0b48",
+          "05a11867aa57dc3fb799faa9cfdfe1d4000bf189f378ca96f6524390078ba05a",
+          "409b64801ac399358228cbe11ccc19f5386997bed4624578198913fd521b34f9",
+          "14d75f632ea24e1f04afb9de01b247428de4d8fb7174a91164ff5dcf375eb7bb",
+          "5e0d2bea0fc68be831d4a689170dede3f10fc2132a61fc9256ced8530fd2bb7d",
+          "721a9dd4ad3d3b5eebacb40cd67736f356f3d0312783e0c9bbcf3c7afcfb3977",
+          "1c4c8107d620bc34416a165d5535de537d08fbbaf413d7acd5c5d88a8eacc234",
+          "4d9d3fd0d435d9a2a25561d5382599a0c4d8a5871ce1590481d53ea9cc4f310c",
+          "6bde4abe35bffb3f4bc6901244c10fc47660bd1db6360372346b9ca2fbde95e1",
+          "ba5493ba413f2bb350c3df386cfb56605d5d20325fb705be15f50dda56238db9",
+          "80d9591f83b2e730307c7d648b119ea7e9c0291b345c533d58c599eb782df8fc",
+          "03f22a69b8cbcfe7d24f3bfb556a1b7a5d257bcc7e094c7f42ddd0d347e45ba5",
+          "ed820032f2e18f143ba341a6080df55be805b1d2f877e842352f4f79214ccf4d",
+          "e05aef3c3f02901dd78736394a961f1a43906a384b82f28d9e7953e9cf6865b4",
+          "f2a37b2d719ff68de812eb00a177cb321a4740a1c0e52594d96170fc103877b3",
+          "034c93ed599ae65478a67897451c281f157e9f38817c4402c412398e00df408b"
+        ],
+        "reference": {
+          "kind": "unchanged original PDF"
+        }
+      }
+    },
+    {
+      "source_sha256": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+      "name": "祖孝孙音阶及其旋宫体系的源流.caj",
+      "format": "PDF",
+      "size_bytes": 55216,
+      "source_url": "https://archive.org/download/360-temp/%E7%A5%96%E5%AD%9D%E5%AD%99%E9%9F%B3%E9%98%B6%E5%8F%8A%E5%85%B6%E6%97%8B%E5%AE%AB%E4%BD%93%E7%B3%BB%E7%9A%84%E6%BA%90%E6%B5%81.caj",
+      "duplicate_of_existing_catalog": true,
+      "native": {
+        "sha256": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+        "name": "祖孝孙音阶及其旋宫体系的源流.caj",
+        "in_catalog": true,
+        "exit": 0,
+        "stderr": "",
+        "output_sha256": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+        "output_bytes": 55216,
+        "qpdf_exit": 0,
+        "pages": 6
+      },
+      "acquisition_attempts": [
+        {
+          "url": "https://archive.org/download/360-temp/%E7%A5%96%E5%AD%9D%E5%AD%99%E9%9F%B3%E9%98%B6%E5%8F%8A%E5%85%B6%E6%97%8B%E5%AE%AB%E4%BD%93%E7%B3%BB%E7%9A%84%E6%BA%90%E6%B5%81.caj",
+          "identifier": "360-temp",
+          "archive": {
+            "name": "祖孝孙音阶及其旋宫体系的源流.caj",
+            "source": "original",
+            "mtime": "1621706688",
+            "size": "55216",
+            "md5": "8471463a8cd143a5396ff3827bc270e7",
+            "crc32": "04baf814",
+            "sha1": "2927a541ae96449d9f0aee9a75c71aee33e221b8",
+            "format": "Unknown"
+          },
+          "sha256": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+          "bytes": 55216,
+          "signature": "255044462d312e36"
+        },
+        {
+          "original_url": "https://archive.org/download/360-temp/%E7%A5%96%E5%AD%9D%E5%AD%99%E9%9F%B3%E9%98%B6%E5%8F%8A%E5%85%B6%E6%97%8B%E5%AE%AB%E4%BD%93%E7%B3%BB%E7%9A%84%E6%BA%90%E6%B5%81.caj",
+          "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E7%A5%96%E5%AD%9D%E5%AD%99%E9%9F%B3%E9%98%B6%E5%8F%8A%E5%85%B6%E6%97%8B%E5%AE%AB%E4%BD%93%E7%B3%BB%E7%9A%84%E6%BA%90%E6%B5%81.caj",
+          "metadata_server": "d1",
+          "archive": {
+            "name": "祖孝孙音阶及其旋宫体系的源流.caj",
+            "source": "original",
+            "mtime": "1621706688",
+            "size": "55216",
+            "md5": "8471463a8cd143a5396ff3827bc270e7",
+            "crc32": "04baf814",
+            "sha1": "2927a541ae96449d9f0aee9a75c71aee33e221b8",
+            "format": "Unknown"
+          },
+          "bytes": 55216,
+          "sha256": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+          "archive_checksums_match": true,
+          "signature": "255044462d312e36"
+        }
+      ],
+      "preservation": {
+        "source_sha256": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+        "pdf_sha256": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+        "format": "PDF",
+        "pages": 6,
+        "outline_nodes": 0,
+        "page_tree_nodes": 7,
+        "source_streams": 45,
+        "source_objects": 66,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [],
+        "source_reader_exit": 0,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      },
+      "rendering": {
+        "source_sha256": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+        "format": "PDF",
+        "pages": 6,
+        "all_page_geometry_words_pixels_match": true,
+        "pixel_sha256": [
+          "5d46a36de7f91b0b23905381157d6a54d467bd66305b0f72e1ce4972a56f3a4c",
+          "7b330855cf9982b22be5bc7717a7393933ff9697b8e87d0316900b8db25e6061",
+          "56b69bf5d0f4bd7ff50617ca1487455280279d094235172a604baf4520d24b0e",
+          "9a1f10bb2da81cee7a8b84348ef07ed4eb6197c0958d0349bd209bd4f2cf2767",
+          "dddc8f51d3e5cc7492f845fa9de88ef781814392f6c3ccd9bc17c9bb6935f758",
+          "10af3885f5454fb21d4fca444905dd822c152214759e42385da6f28e8d5cbb86"
+        ],
+        "reference": {
+          "kind": "unchanged original PDF"
+        }
+      }
+    }
+  ],
+  "runtime": {
+    "node": [
+      {
+        "source": "a3a0a922abb5e0d499d345c4204a2d15ffdc17524faa014e0e03f133028d9940",
+        "status": "CONVERTED",
+        "pages": 3,
+        "substitutedGlyphs": "0",
+        "sha256": "a3a0a922abb5e0d499d345c4204a2d15ffdc17524faa014e0e03f133028d9940",
+        "bytes": 1138368,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.064
+      },
+      {
+        "source": "12697aa8dd7a0e92ca2769e8189684fe4d206f3936720348decc28cd67af0c15",
+        "status": "CONVERTED",
+        "pages": 45,
+        "substitutedGlyphs": "0",
+        "sha256": "8d4453e02c95332a6746ce7c6a5b14f1fcfb4b3b25b9e281f2777980f2bd72de",
+        "bytes": 952419,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.067
+      },
+      {
+        "source": "5dfd97fc3c35c0b24a884fac0971054116dcc06ab48c76a1e4807322cc3fb26b",
+        "status": "CONVERTED",
+        "pages": 4,
+        "substitutedGlyphs": "0",
+        "sha256": "6b420c1ed2d1e0de6a6a9d504ec9a69242040f6ffd6430347c474c2c0457b993",
+        "bytes": 116574,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.035
+      },
+      {
+        "source": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+        "status": "CONVERTED",
+        "pages": 8,
+        "substitutedGlyphs": "0",
+        "sha256": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+        "bytes": 488192,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.039
+      },
+      {
+        "source": "43677f02f2184c0c4e772339357eb1c14f941b799c0226a0730974ac13f1898d",
+        "status": "CONVERTED",
+        "pages": 4,
+        "substitutedGlyphs": "0",
+        "sha256": "48314e11c3b0a8b770c11e5468cf8a2ee543d7d2eeaaa7180b7f7faa1fab98a9",
+        "bytes": 69226,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.035
+      },
+      {
+        "source": "8dd737fc3ab7e0d0a4abd26d0609d5b7a18951056d28ec57596af7dc8c765e05",
+        "status": "CONVERTED",
+        "pages": 4,
+        "substitutedGlyphs": "0",
+        "sha256": "726402afec525beb1fd22ad67df4a4d4d0be2206fb0e3bf162a32cae6a72b94f",
+        "bytes": 1259642,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.048
+      },
+      {
+        "source": "8294e9dd26455794cb5ba57d706cb31e6ebd2df69d8e07abb664027d4a456f34",
+        "status": "CONVERTED",
+        "pages": 21,
+        "substitutedGlyphs": "0",
+        "sha256": "df2ae871563f58d7a0c57ccac17aa2589227fcc27bde3ca8552532015e80dfd5",
+        "bytes": 1085870,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.052
+      },
+      {
+        "source": "18f6eaca5acbf8460144c4f454df414def31e99d4f697efe47bb0640bcc1a4fa",
+        "status": "CONVERTED",
+        "pages": 19,
+        "substitutedGlyphs": "0",
+        "sha256": "5001f53cea69d9953e00f5f0cb09b886d8a079c0d18d84ffffcc40a4e199318e",
+        "bytes": 1827837,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.069
+      },
+      {
+        "source": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+        "status": "CONVERTED",
+        "pages": 6,
+        "substitutedGlyphs": "0",
+        "sha256": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+        "bytes": 55216,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.051
+      }
+    ],
+    "browser": [
+      {
+        "source": "a3a0a922abb5e0d499d345c4204a2d15ffdc17524faa014e0e03f133028d9940",
+        "status": "CONVERTED",
+        "pages": 3,
+        "substitutedGlyphs": "0",
+        "bytes": 1138368,
+        "sha256": "a3a0a922abb5e0d499d345c4204a2d15ffdc17524faa014e0e03f133028d9940",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.256
+      },
+      {
+        "source": "12697aa8dd7a0e92ca2769e8189684fe4d206f3936720348decc28cd67af0c15",
+        "status": "CONVERTED",
+        "pages": 45,
+        "substitutedGlyphs": "0",
+        "bytes": 952419,
+        "sha256": "8d4453e02c95332a6746ce7c6a5b14f1fcfb4b3b25b9e281f2777980f2bd72de",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.256
+      },
+      {
+        "source": "5dfd97fc3c35c0b24a884fac0971054116dcc06ab48c76a1e4807322cc3fb26b",
+        "status": "CONVERTED",
+        "pages": 4,
+        "substitutedGlyphs": "0",
+        "bytes": 116574,
+        "sha256": "6b420c1ed2d1e0de6a6a9d504ec9a69242040f6ffd6430347c474c2c0457b993",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.253
+      },
+      {
+        "source": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+        "status": "CONVERTED",
+        "pages": 8,
+        "substitutedGlyphs": "0",
+        "bytes": 488192,
+        "sha256": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.253
+      },
+      {
+        "source": "43677f02f2184c0c4e772339357eb1c14f941b799c0226a0730974ac13f1898d",
+        "status": "CONVERTED",
+        "pages": 4,
+        "substitutedGlyphs": "0",
+        "bytes": 69226,
+        "sha256": "48314e11c3b0a8b770c11e5468cf8a2ee543d7d2eeaaa7180b7f7faa1fab98a9",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.253
+      },
+      {
+        "source": "8dd737fc3ab7e0d0a4abd26d0609d5b7a18951056d28ec57596af7dc8c765e05",
+        "status": "CONVERTED",
+        "pages": 4,
+        "substitutedGlyphs": "0",
+        "bytes": 1259642,
+        "sha256": "726402afec525beb1fd22ad67df4a4d4d0be2206fb0e3bf162a32cae6a72b94f",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.257
+      },
+      {
+        "source": "8294e9dd26455794cb5ba57d706cb31e6ebd2df69d8e07abb664027d4a456f34",
+        "status": "CONVERTED",
+        "pages": 21,
+        "substitutedGlyphs": "0",
+        "bytes": 1085870,
+        "sha256": "df2ae871563f58d7a0c57ccac17aa2589227fcc27bde3ca8552532015e80dfd5",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.255
+      },
+      {
+        "source": "18f6eaca5acbf8460144c4f454df414def31e99d4f697efe47bb0640bcc1a4fa",
+        "status": "CONVERTED",
+        "pages": 19,
+        "substitutedGlyphs": "0",
+        "bytes": 1827837,
+        "sha256": "5001f53cea69d9953e00f5f0cb09b886d8a079c0d18d84ffffcc40a4e199318e",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.257
+      },
+      {
+        "source": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+        "status": "CONVERTED",
+        "pages": 6,
+        "substitutedGlyphs": "0",
+        "bytes": 55216,
+        "sha256": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.253
+      }
+    ]
+  },
+  "caj_complete_body_accounting": {
+    "source_sha256": "12697aa8dd7a0e92ca2769e8189684fe4d206f3936720348decc28cd67af0c15",
+    "diagnostic_prefix_sha256": "8661733b9b5a041ab01ba56009287db390d0808f6b9d57959726e116b3dab476",
+    "diagnostic_prefix_bytes": 952195,
+    "selection": {
+      "body_range": [
+        8916,
+        952195
+      ],
+      "selected": {
+        "1": {
+          "offset": 340227,
+          "end": 340367
+        },
+        "2": {
+          "offset": 408825,
+          "end": 409044
+        },
+        "3": {
+          "offset": 407638,
+          "end": 408491
+        },
+        "4": {
+          "offset": 406739,
+          "end": 407592
+        },
+        "5": {
+          "offset": 405840,
+          "end": 406693
+        },
+        "6": {
+          "offset": 404941,
+          "end": 405794
+        },
+        "7": {
+          "offset": 404042,
+          "end": 404895
+        },
+        "8": {
+          "offset": 403890,
+          "end": 403997
+        },
+        "9": {
+          "offset": 391210,
+          "end": 403889
+        },
+        "10": {
+          "offset": 378831,
+          "end": 391209
+        },
+        "11": {
+          "offset": 367922,
+          "end": 378830
+        },
+        "12": {
+          "offset": 351152,
+          "end": 367921
+        },
+        "13": {
+          "offset": 350734,
+          "end": 351151
+        },
+        "14": {
+          "offset": 340368,
+          "end": 350733
+        },
+        "16": {
+          "offset": 409045,
+          "end": 409187
+        },
+        "17": {
+          "offset": 519717,
+          "end": 520001
+        },
+        "18": {
+          "offset": 518506,
+          "end": 519360
+        },
+        "19": {
+          "offset": 517605,
+          "end": 518459
+        },
+        "20": {
+          "offset": 516704,
+          "end": 517558
+        },
+        "21": {
+          "offset": 515803,
+          "end": 516657
+        },
+        "22": {
+          "offset": 514902,
+          "end": 515756
+        },
+        "23": {
+          "offset": 514001,
+          "end": 514855
+        },
+        "24": {
+          "offset": 504211,
+          "end": 514000
+        },
+        "25": {
+          "offset": 470747,
+          "end": 504210
+        },
+        "26": {
+          "offset": 465744,
+          "end": 470746
+        },
+        "27": {
+          "offset": 440695,
+          "end": 465743
+        },
+        "28": {
+          "offset": 424985,
+          "end": 440694
+        },
+        "29": {
+          "offset": 409443,
+          "end": 424984
+        },
+        "30": {
+          "offset": 409188,
+          "end": 409442
+        },
+        "38": {
+          "offset": 408537,
+          "end": 408824
+        },
+        "39": {
+          "offset": 519407,
+          "end": 519716
+        },
+        "40": {
+          "offset": 408492,
+          "end": 408536
+        },
+        "41": {
+          "offset": 404896,
+          "end": 404940
+        },
+        "42": {
+          "offset": 407593,
+          "end": 407637
+        },
+        "43": {
+          "offset": 406694,
+          "end": 406738
+        },
+        "44": {
+          "offset": 403998,
+          "end": 404041
+        },
+        "45": {
+          "offset": 405795,
+          "end": 405839
+        },
+        "46": {
+          "offset": 519361,
+          "end": 519406
+        },
+        "47": {
+          "offset": 514856,
+          "end": 514901
+        },
+        "48": {
+          "offset": 517559,
+          "end": 517604
+        },
+        "49": {
+          "offset": 515757,
+          "end": 515802
+        },
+        "50": {
+          "offset": 518460,
+          "end": 518505
+        },
+        "51": {
+          "offset": 516658,
+          "end": 516703
+        },
+        "58": {
+          "offset": 8916,
+          "end": 9058
+        },
+        "60": {
+          "offset": 339901,
+          "end": 340226
+        },
+        "61": {
+          "offset": 336803,
+          "end": 339498
+        },
+        "62": {
+          "offset": 298424,
+          "end": 336308
+        },
+        "63": {
+          "offset": 255754,
+          "end": 298423
+        },
+        "64": {
+          "offset": 213552,
+          "end": 255753
+        },
+        "65": {
+          "offset": 170397,
+          "end": 213551
+        },
+        "66": {
+          "offset": 128467,
+          "end": 170396
+        },
+        "67": {
+          "offset": 89810,
+          "end": 128466
+        },
+        "68": {
+          "offset": 49091,
+          "end": 89809
+        },
+        "69": {
+          "offset": 9059,
+          "end": 49090
+        },
+        "71": {
+          "offset": 339535,
+          "end": 339760
+        },
+        "72": {
+          "offset": 339499,
+          "end": 339534
+        },
+        "73": {
+          "offset": 336724,
+          "end": 336802
+        },
+        "74": {
+          "offset": 336309,
+          "end": 336558
+        },
+        "75": {
+          "offset": 336559,
+          "end": 336723
+        },
+        "78": {
+          "offset": 339761,
+          "end": 339900
+        },
+        "79": {
+          "offset": 812900,
+          "end": 813002
+        },
+        "80": {
+          "offset": 826155,
+          "end": 826257
+        },
+        "81": {
+          "offset": 840084,
+          "end": 840186
+        },
+        "82": {
+          "offset": 852524,
+          "end": 852626
+        },
+        "83": {
+          "offset": 865748,
+          "end": 865850
+        },
+        "84": {
+          "offset": 930253,
+          "end": 930355
+        },
+        "85": {
+          "offset": 942744,
+          "end": 942841
+        },
+        "86": {
+          "offset": 942474,
+          "end": 942618
+        },
+        "87": {
+          "offset": 945056,
+          "end": 945200
+        },
+        "88": {
+          "offset": 947380,
+          "end": 947524
+        },
+        "89": {
+          "offset": 948807,
+          "end": 948951
+        },
+        "90": {
+          "offset": 950555,
+          "end": 950697
+        },
+        "91": {
+          "offset": 950822,
+          "end": 952192
+        },
+        "92": {
+          "offset": 950698,
+          "end": 950821
+        },
+        "93": {
+          "offset": 520239,
+          "end": 520769
+        },
+        "94": {
+          "offset": 766049,
+          "end": 766185
+        },
+        "95": {
+          "offset": 796992,
+          "end": 797126
+        },
+        "96": {
+          "offset": 798634,
+          "end": 799004
+        },
+        "97": {
+          "offset": 798378,
+          "end": 798633
+        },
+        "98": {
+          "offset": 766186,
+          "end": 767029
+        },
+        "99": {
+          "offset": 796718,
+          "end": 796991
+        },
+        "100": {
+          "offset": 796448,
+          "end": 796717
+        },
+        "101": {
+          "offset": 796167,
+          "end": 796447
+        },
+        "102": {
+          "offset": 767030,
+          "end": 796166
+        },
+        "103": {
+          "offset": 520770,
+          "end": 528465
+        },
+        "104": {
+          "offset": 765694,
+          "end": 766048
+        },
+        "105": {
+          "offset": 765424,
+          "end": 765693
+        },
+        "106": {
+          "offset": 764148,
+          "end": 765423
+        },
+        "107": {
+          "offset": 528466,
+          "end": 764147
+        },
+        "108": {
+          "offset": 797127,
+          "end": 797206
+        },
+        "109": {
+          "offset": 949055,
+          "end": 950554
+        },
+        "110": {
+          "offset": 948952,
+          "end": 949054
+        },
+        "111": {
+          "offset": 947650,
+          "end": 948806
+        },
+        "112": {
+          "offset": 947525,
+          "end": 947649
+        },
+        "113": {
+          "offset": 945304,
+          "end": 947379
+        },
+        "114": {
+          "offset": 945201,
+          "end": 945303
+        },
+        "115": {
+          "offset": 942842,
+          "end": 945055
+        },
+        "116": {
+          "offset": 942619,
+          "end": 942743
+        },
+        "117": {
+          "offset": 930004,
+          "end": 930149
+        },
+        "118": {
+          "offset": 932594,
+          "end": 932739
+        },
+        "119": {
+          "offset": 934958,
+          "end": 935103
+        },
+        "120": {
+          "offset": 937680,
+          "end": 937825
+        },
+        "121": {
+          "offset": 940283,
+          "end": 940428
+        },
+        "122": {
+          "offset": 940532,
+          "end": 942473
+        },
+        "123": {
+          "offset": 940429,
+          "end": 940531
+        },
+        "124": {
+          "offset": 937929,
+          "end": 940282
+        },
+        "125": {
+          "offset": 937826,
+          "end": 937928
+        },
+        "126": {
+          "offset": 935241,
+          "end": 937679
+        },
+        "127": {
+          "offset": 935104,
+          "end": 935240
+        },
+        "128": {
+          "offset": 804961,
+          "end": 805122
+        },
+        "129": {
+          "offset": 804724,
+          "end": 804960
+        },
+        "130": {
+          "offset": 932843,
+          "end": 934957
+        },
+        "131": {
+          "offset": 932740,
+          "end": 932842
+        },
+        "132": {
+          "offset": 930356,
+          "end": 932593
+        },
+        "133": {
+          "offset": 930150,
+          "end": 930252
+        },
+        "134": {
+          "offset": 865499,
+          "end": 865644
+        },
+        "135": {
+          "offset": 868191,
+          "end": 868336
+        },
+        "136": {
+          "offset": 870616,
+          "end": 870761
+        },
+        "137": {
+          "offset": 872854,
+          "end": 872999
+        },
+        "138": {
+          "offset": 875021,
+          "end": 875166
+        },
+        "139": {
+          "offset": 927932,
+          "end": 930003
+        },
+        "140": {
+          "offset": 927447,
+          "end": 927931
+        },
+        "141": {
+          "offset": 911152,
+          "end": 914356
+        },
+        "142": {
+          "offset": 907809,
+          "end": 911151
+        },
+        "143": {
+          "offset": 904399,
+          "end": 907808
+        },
+        "144": {
+          "offset": 901244,
+          "end": 904398
+        },
+        "145": {
+          "offset": 897889,
+          "end": 901243
+        },
+        "146": {
+          "offset": 894535,
+          "end": 897888
+        },
+        "147": {
+          "offset": 891334,
+          "end": 894534
+        },
+        "148": {
+          "offset": 888145,
+          "end": 891333
+        },
+        "149": {
+          "offset": 884933,
+          "end": 888144
+        },
+        "150": {
+          "offset": 881642,
+          "end": 884932
+        },
+        "151": {
+          "offset": 878383,
+          "end": 881641
+        },
+        "152": {
+          "offset": 875167,
+          "end": 878382
+        },
+        "153": {
+          "offset": 920389,
+          "end": 920437
+        },
+        "154": {
+          "offset": 927360,
+          "end": 927397
+        },
+        "155": {
+          "offset": 919572,
+          "end": 920388
+        },
+        "156": {
+          "offset": 924663,
+          "end": 927359
+        },
+        "157": {
+          "offset": 921242,
+          "end": 921290
+        },
+        "158": {
+          "offset": 920438,
+          "end": 921241
+        },
+        "159": {
+          "offset": 922099,
+          "end": 922147
+        },
+        "160": {
+          "offset": 921291,
+          "end": 922098
+        },
+        "161": {
+          "offset": 922937,
+          "end": 922985
+        },
+        "162": {
+          "offset": 922148,
+          "end": 922936
+        },
+        "163": {
+          "offset": 923791,
+          "end": 923839
+        },
+        "164": {
+          "offset": 922986,
+          "end": 923790
+        },
+        "165": {
+          "offset": 927398,
+          "end": 927446
+        },
+        "166": {
+          "offset": 923840,
+          "end": 924662
+        },
+        "167": {
+          "offset": 915143,
+          "end": 915191
+        },
+        "168": {
+          "offset": 914357,
+          "end": 915142
+        },
+        "169": {
+          "offset": 916038,
+          "end": 916086
+        },
+        "170": {
+          "offset": 915192,
+          "end": 916037
+        },
+        "171": {
+          "offset": 916901,
+          "end": 916949
+        },
+        "172": {
+          "offset": 916087,
+          "end": 916900
+        },
+        "173": {
+          "offset": 917796,
+          "end": 917844
+        },
+        "174": {
+          "offset": 916950,
+          "end": 917795
+        },
+        "175": {
+          "offset": 918656,
+          "end": 918704
+        },
+        "176": {
+          "offset": 917845,
+          "end": 918655
+        },
+        "177": {
+          "offset": 919523,
+          "end": 919571
+        },
+        "178": {
+          "offset": 918705,
+          "end": 919522
+        },
+        "179": {
+          "offset": 873103,
+          "end": 875020
+        },
+        "180": {
+          "offset": 873000,
+          "end": 873102
+        },
+        "181": {
+          "offset": 870865,
+          "end": 872853
+        },
+        "182": {
+          "offset": 870762,
+          "end": 870864
+        },
+        "183": {
+          "offset": 868440,
+          "end": 870615
+        },
+        "184": {
+          "offset": 868337,
+          "end": 868439
+        },
+        "185": {
+          "offset": 865851,
+          "end": 868190
+        },
+        "186": {
+          "offset": 865645,
+          "end": 865747
+        },
+        "187": {
+          "offset": 852275,
+          "end": 852420
+        },
+        "188": {
+          "offset": 855150,
+          "end": 855295
+        },
+        "189": {
+          "offset": 858133,
+          "end": 858278
+        },
+        "190": {
+          "offset": 860868,
+          "end": 861013
+        },
+        "191": {
+          "offset": 863093,
+          "end": 863238
+        },
+        "192": {
+          "offset": 863365,
+          "end": 865498
+        },
+        "193": {
+          "offset": 863239,
+          "end": 863364
+        },
+        "194": {
+          "offset": 861117,
+          "end": 863092
+        },
+        "195": {
+          "offset": 861014,
+          "end": 861116
+        },
+        "196": {
+          "offset": 858382,
+          "end": 860867
+        },
+        "197": {
+          "offset": 858279,
+          "end": 858381
+        },
+        "198": {
+          "offset": 855399,
+          "end": 858132
+        },
+        "199": {
+          "offset": 855296,
+          "end": 855398
+        },
+        "200": {
+          "offset": 852627,
+          "end": 855149
+        },
+        "201": {
+          "offset": 852421,
+          "end": 852523
+        },
+        "202": {
+          "offset": 839835,
+          "end": 839980
+        },
+        "203": {
+          "offset": 842318,
+          "end": 842463
+        },
+        "204": {
+          "offset": 844780,
+          "end": 844925
+        },
+        "205": {
+          "offset": 847113,
+          "end": 847258
+        },
+        "206": {
+          "offset": 849567,
+          "end": 849712
+        },
+        "207": {
+          "offset": 849816,
+          "end": 852274
+        },
+        "208": {
+          "offset": 849713,
+          "end": 849815
+        },
+        "209": {
+          "offset": 847396,
+          "end": 849566
+        },
+        "210": {
+          "offset": 847259,
+          "end": 847395
+        },
+        "211": {
+          "offset": 845029,
+          "end": 847112
+        },
+        "212": {
+          "offset": 844926,
+          "end": 845028
+        },
+        "213": {
+          "offset": 842567,
+          "end": 844779
+        },
+        "214": {
+          "offset": 842464,
+          "end": 842566
+        },
+        "215": {
+          "offset": 840187,
+          "end": 842317
+        },
+        "216": {
+          "offset": 839981,
+          "end": 840083
+        },
+        "217": {
+          "offset": 825883,
+          "end": 826028
+        },
+        "218": {
+          "offset": 828847,
+          "end": 828992
+        },
+        "219": {
+          "offset": 831906,
+          "end": 832051
+        },
+        "220": {
+          "offset": 834515,
+          "end": 834660
+        },
+        "221": {
+          "offset": 837232,
+          "end": 837377
+        },
+        "222": {
+          "offset": 837481,
+          "end": 839834
+        },
+        "223": {
+          "offset": 837378,
+          "end": 837480
+        },
+        "224": {
+          "offset": 834787,
+          "end": 837231
+        },
+        "225": {
+          "offset": 834661,
+          "end": 834786
+        },
+        "226": {
+          "offset": 832189,
+          "end": 834514
+        },
+        "227": {
+          "offset": 832052,
+          "end": 832188
+        },
+        "228": {
+          "offset": 829096,
+          "end": 831905
+        },
+        "229": {
+          "offset": 828993,
+          "end": 829095
+        },
+        "230": {
+          "offset": 826258,
+          "end": 828846
+        },
+        "231": {
+          "offset": 826029,
+          "end": 826154
+        },
+        "232": {
+          "offset": 812617,
+          "end": 812762
+        },
+        "233": {
+          "offset": 815004,
+          "end": 815149
+        },
+        "234": {
+          "offset": 817710,
+          "end": 817855
+        },
+        "235": {
+          "offset": 820140,
+          "end": 820285
+        },
+        "236": {
+          "offset": 822882,
+          "end": 823027
+        },
+        "237": {
+          "offset": 823131,
+          "end": 825882
+        },
+        "238": {
+          "offset": 823028,
+          "end": 823130
+        },
+        "239": {
+          "offset": 820389,
+          "end": 822881
+        },
+        "240": {
+          "offset": 820286,
+          "end": 820388
+        },
+        "241": {
+          "offset": 817959,
+          "end": 820139
+        },
+        "242": {
+          "offset": 817856,
+          "end": 817958
+        },
+        "243": {
+          "offset": 815253,
+          "end": 817709
+        },
+        "244": {
+          "offset": 815150,
+          "end": 815252
+        },
+        "245": {
+          "offset": 813003,
+          "end": 815003
+        },
+        "246": {
+          "offset": 812763,
+          "end": 812899
+        },
+        "247": {
+          "offset": 520002,
+          "end": 520238
+        },
+        "248": {
+          "offset": 798232,
+          "end": 798377
+        },
+        "249": {
+          "offset": 800995,
+          "end": 801140
+        },
+        "250": {
+          "offset": 802888,
+          "end": 803033
+        },
+        "251": {
+          "offset": 804578,
+          "end": 804723
+        },
+        "252": {
+          "offset": 807330,
+          "end": 807475
+        },
+        "253": {
+          "offset": 809834,
+          "end": 809979
+        },
+        "254": {
+          "offset": 810106,
+          "end": 812616
+        },
+        "255": {
+          "offset": 809980,
+          "end": 810105
+        },
+        "256": {
+          "offset": 807579,
+          "end": 809833
+        },
+        "257": {
+          "offset": 807476,
+          "end": 807578
+        },
+        "258": {
+          "offset": 805260,
+          "end": 807329
+        },
+        "259": {
+          "offset": 805123,
+          "end": 805259
+        },
+        "260": {
+          "offset": 803126,
+          "end": 804577
+        },
+        "261": {
+          "offset": 803034,
+          "end": 803125
+        },
+        "262": {
+          "offset": 801244,
+          "end": 802887
+        },
+        "263": {
+          "offset": 801141,
+          "end": 801243
+        },
+        "264": {
+          "offset": 799130,
+          "end": 800994
+        },
+        "265": {
+          "offset": 799005,
+          "end": 799129
+        },
+        "266": {
+          "offset": 797207,
+          "end": 798231
+        }
+      },
+      "streams": [
+        {
+          "object": 2,
+          "offset": 408825,
+          "end": 409044,
+          "data_start": 408878,
+          "bytes": 148,
+          "sha256": "b99e2f3dc8875e473be4de42a1dabbb473bd0251b144c70013ef069412b2831c"
+        },
+        {
+          "object": 3,
+          "offset": 407638,
+          "end": 408491,
+          "data_start": 407691,
+          "bytes": 782,
+          "sha256": "6278aec1c7abf8fe525b32e77701b06a5d2bb163150324418cafcc69a1dcaa82"
+        },
+        {
+          "object": 4,
+          "offset": 406739,
+          "end": 407592,
+          "data_start": 406792,
+          "bytes": 782,
+          "sha256": "500a7c22c4bfbf6da500d8c616ac8790aaaf38ddfdff1177e509a4d16ed35ef5"
+        },
+        {
+          "object": 5,
+          "offset": 405840,
+          "end": 406693,
+          "data_start": 405893,
+          "bytes": 782,
+          "sha256": "81e1ea17e83c0d098fc0d40ef8bfd4a3cac3876f8865da65277943aaf850b6a4"
+        },
+        {
+          "object": 6,
+          "offset": 404941,
+          "end": 405794,
+          "data_start": 404994,
+          "bytes": 782,
+          "sha256": "97d72aaf6670938eacf978a922681804312be2a17f705078ee75d9c4c8986428"
+        },
+        {
+          "object": 7,
+          "offset": 404042,
+          "end": 404895,
+          "data_start": 404095,
+          "bytes": 782,
+          "sha256": "14a7a9fbbf5ed9e61bcfdc1c73cf9b0073bdd3f72441c8793b4fe560a8967ccf"
+        },
+        {
+          "object": 8,
+          "offset": 403890,
+          "end": 403997,
+          "data_start": 403922,
+          "bytes": 57,
+          "sha256": "b2cd86ff9e00e27ceac8758cca51fb28654cdceb8871d920faa6d9d3c6676035"
+        },
+        {
+          "object": 9,
+          "offset": 391210,
+          "end": 403889,
+          "data_start": 391352,
+          "bytes": 12519,
+          "sha256": "4202521bdabce21ddf72efa4d3fe8b73bb49eaa34cc78b2bb189f43bdc6a72d9"
+        },
+        {
+          "object": 10,
+          "offset": 378831,
+          "end": 391209,
+          "data_start": 378974,
+          "bytes": 12217,
+          "sha256": "0644e864d1182ec2f5c9de0edb7dd78ba045d009cde74705969c90834a8e9197"
+        },
+        {
+          "object": 11,
+          "offset": 367922,
+          "end": 378830,
+          "data_start": 368065,
+          "bytes": 10747,
+          "sha256": "5588881f8432f8577e00d5b42b1523744c95be361a1b3a488ae8f84a6732c661"
+        },
+        {
+          "object": 12,
+          "offset": 351152,
+          "end": 367921,
+          "data_start": 351295,
+          "bytes": 16608,
+          "sha256": "a983f07f16bb73cf799f14ef32e8f3e8b93dc1aa0e5ae5288e188b9bfa70167b"
+        },
+        {
+          "object": 13,
+          "offset": 350734,
+          "end": 351151,
+          "data_start": 350875,
+          "bytes": 258,
+          "sha256": "35e49fcb3db7e14f941ebffcedb17565240a02cc3e25954fbec252ea28710938"
+        },
+        {
+          "object": 14,
+          "offset": 340368,
+          "end": 350733,
+          "data_start": 340511,
+          "bytes": 10204,
+          "sha256": "374730086f1367e2a2ecff972cc1e3cfbc4f7e28e8c5f46bd5f4f5a1724b0e62"
+        },
+        {
+          "object": 17,
+          "offset": 519717,
+          "end": 520001,
+          "data_start": 519771,
+          "bytes": 212,
+          "sha256": "13bc4d324c13d264161a9f29ca09b11505dd2b875f2021ef9b2666951eb2018a"
+        },
+        {
+          "object": 18,
+          "offset": 518506,
+          "end": 519360,
+          "data_start": 518560,
+          "bytes": 782,
+          "sha256": "296ad6435da79bf92ee1bf8ee13f34d9e46bc3a6b3410cef66521a31b5823814"
+        },
+        {
+          "object": 19,
+          "offset": 517605,
+          "end": 518459,
+          "data_start": 517659,
+          "bytes": 782,
+          "sha256": "83928549e7b25cea255f8e6d89f6922a560491c43d4c3daca066ecdd3ed999b2"
+        },
+        {
+          "object": 20,
+          "offset": 516704,
+          "end": 517558,
+          "data_start": 516758,
+          "bytes": 782,
+          "sha256": "d3be616f599a432c31809bdac79c5d43bc8d3bcf79a7c89c061462197c102063"
+        },
+        {
+          "object": 21,
+          "offset": 515803,
+          "end": 516657,
+          "data_start": 515857,
+          "bytes": 782,
+          "sha256": "230b4d43228ad397506a7b1d77533569496e05c2d76e1ad164ff16f50deedf61"
+        },
+        {
+          "object": 22,
+          "offset": 514902,
+          "end": 515756,
+          "data_start": 514956,
+          "bytes": 782,
+          "sha256": "7242e47204c889012abed02061da440b142fe9659000664bff409bbbba145d1e"
+        },
+        {
+          "object": 23,
+          "offset": 514001,
+          "end": 514855,
+          "data_start": 514055,
+          "bytes": 782,
+          "sha256": "311406d5c05ef79017e63dc833f31e11e4f25e8cfea1533b24b2e1b625843fe4"
+        },
+        {
+          "object": 24,
+          "offset": 504211,
+          "end": 514000,
+          "data_start": 504353,
+          "bytes": 9629,
+          "sha256": "e92d3f5271e95d0a98366b46e9f3775c97367ec44dee7c90f9a38ddbd6567eea"
+        },
+        {
+          "object": 25,
+          "offset": 470747,
+          "end": 504210,
+          "data_start": 470890,
+          "bytes": 33302,
+          "sha256": "0748b5315712afafdc2c8181edc66bfadd8a6a7f7f760a124efe8d0445e6a0a7"
+        },
+        {
+          "object": 26,
+          "offset": 465744,
+          "end": 470746,
+          "data_start": 465886,
+          "bytes": 4842,
+          "sha256": "fef53df9d3b39ddaf39b1a22e6b9b4400776bb2965d2195fc58f34f41a88a6ee"
+        },
+        {
+          "object": 27,
+          "offset": 440695,
+          "end": 465743,
+          "data_start": 440838,
+          "bytes": 24887,
+          "sha256": "cb83d8ac7fa54ff421690b267c1511f33b9ad12eb6a08c02928e549ece5a774e"
+        },
+        {
+          "object": 28,
+          "offset": 424985,
+          "end": 440694,
+          "data_start": 425128,
+          "bytes": 15548,
+          "sha256": "3b572d3c9ee464ed38ac1da06784d65f78e0147a1be25729fb0324c786970585"
+        },
+        {
+          "object": 29,
+          "offset": 409443,
+          "end": 424984,
+          "data_start": 409586,
+          "bytes": 15380,
+          "sha256": "f213f1e0f5ee21bb6e913a7ac940711172fd14afe02bb44ab90f857093659136"
+        },
+        {
+          "object": 30,
+          "offset": 409188,
+          "end": 409442,
+          "data_start": 409364,
+          "bytes": 60,
+          "sha256": "4fe2e00988129db5861d23aac907b723478615bdc3fe1d39c2c622f6367cc01c"
+        },
+        {
+          "object": 60,
+          "offset": 339901,
+          "end": 340226,
+          "data_start": 339955,
+          "bytes": 253,
+          "sha256": "38e1a8662420cf561c718ff100e9a885ab0d3556d6a8def74d066d314313dcf0"
+        },
+        {
+          "object": 61,
+          "offset": 336803,
+          "end": 339498,
+          "data_start": 336883,
+          "bytes": 2597,
+          "sha256": "e68c6a2226c485ed64257a77f41b015a28a4215b8c2d2c2ff5340035f6ea9709"
+        },
+        {
+          "object": 62,
+          "offset": 298424,
+          "end": 336308,
+          "data_start": 298566,
+          "bytes": 37724,
+          "sha256": "3b4ca133fa07826282c6a14b3f097732e2dd3692f34fb388ab15df3a38d62b28"
+        },
+        {
+          "object": 63,
+          "offset": 255754,
+          "end": 298423,
+          "data_start": 255896,
+          "bytes": 42509,
+          "sha256": "142e6042281e004836f10707eba68f7ef36fb6b031e94501d5684f9c8c30f946"
+        },
+        {
+          "object": 64,
+          "offset": 213552,
+          "end": 255753,
+          "data_start": 213694,
+          "bytes": 42041,
+          "sha256": "3dc395675c7e86a21a5388621a241806bee7dc79affdc9daf65ac8ca1386f370"
+        },
+        {
+          "object": 65,
+          "offset": 170397,
+          "end": 213551,
+          "data_start": 170539,
+          "bytes": 42994,
+          "sha256": "a0839522bdc1c9574b77403477be022a08386705ddbf2a1f274a923b9c2dcb44"
+        },
+        {
+          "object": 66,
+          "offset": 128467,
+          "end": 170396,
+          "data_start": 128609,
+          "bytes": 41769,
+          "sha256": "09f90693be4aa864eb3b4ea184d56dabd318f50e72372c7633aae1c76a4f97dc"
+        },
+        {
+          "object": 67,
+          "offset": 89810,
+          "end": 128466,
+          "data_start": 89952,
+          "bytes": 38496,
+          "sha256": "f3fc5e77c815ca48f38070a42ef8f2b788507f6a0f9e7dbab17822d5c03a40b1"
+        },
+        {
+          "object": 68,
+          "offset": 49091,
+          "end": 89809,
+          "data_start": 49233,
+          "bytes": 40558,
+          "sha256": "da96bad71fd3cdee9b6a536ea042d8c393a328870d3fce9bcaac3fcd0523388d"
+        },
+        {
+          "object": 69,
+          "offset": 9059,
+          "end": 49090,
+          "data_start": 9201,
+          "bytes": 39871,
+          "sha256": "29416a8e946fdbd7fa6da816a7e194db7e3e8f50d96236d4440914976024df45"
+        },
+        {
+          "object": 91,
+          "offset": 950822,
+          "end": 952192,
+          "data_start": 950877,
+          "bytes": 1297,
+          "sha256": "527dd819cf185f5daa467bad080b437e4cf7689f4d26d17288ba2f218117f20d"
+        },
+        {
+          "object": 98,
+          "offset": 766186,
+          "end": 767029,
+          "data_start": 766240,
+          "bytes": 771,
+          "sha256": "01b9c34a6e067908c924d32d76ea23bc798e8cb27e1f354be25aeea56a60ee7b"
+        },
+        {
+          "object": 101,
+          "offset": 796167,
+          "end": 796447,
+          "data_start": 796222,
+          "bytes": 207,
+          "sha256": "cd82f5d8b54874227b551c3754457636de5088c67bc4f34090d4e94ec8ff0ede"
+        },
+        {
+          "object": 102,
+          "offset": 767030,
+          "end": 796166,
+          "data_start": 767102,
+          "bytes": 29046,
+          "sha256": "fb7f98e15a07c448f17fcc2fadde1627253b146fab9463c7566762eea5dd3761"
+        },
+        {
+          "object": 103,
+          "offset": 520770,
+          "end": 528465,
+          "data_start": 520826,
+          "bytes": 7621,
+          "sha256": "b8751260e4d57f4d85b38d925303fe311bd811638bbd10b07ee750d70c03f3b6"
+        },
+        {
+          "object": 106,
+          "offset": 764148,
+          "end": 765423,
+          "data_start": 764204,
+          "bytes": 1201,
+          "sha256": "0de06f6d9fd6d11f877c0bf1b2baeddd144a726e4d238c3cfe19698fc3f46a09"
+        },
+        {
+          "object": 107,
+          "offset": 528466,
+          "end": 764147,
+          "data_start": 528539,
+          "bytes": 235590,
+          "sha256": "288151ae9eb6d3e4cad6a5234a26da82bc975b9ad5f1774fcf7a59430ef75720"
+        },
+        {
+          "object": 109,
+          "offset": 949055,
+          "end": 950554,
+          "data_start": 949111,
+          "bytes": 1425,
+          "sha256": "01883b46db1e7e9725bca969347253cf6dcd86069fa781ae83962afc651c92c6"
+        },
+        {
+          "object": 111,
+          "offset": 947650,
+          "end": 948806,
+          "data_start": 947706,
+          "bytes": 1082,
+          "sha256": "4fa994dbc0fe63d782686d24c6b34c86861f1d9b6d62ccba9293d448c8e62de0"
+        },
+        {
+          "object": 113,
+          "offset": 945304,
+          "end": 947379,
+          "data_start": 945360,
+          "bytes": 2001,
+          "sha256": "229db53f5c391277e0ed60bba2d6103672d396c7bfcf65d9e0e058cd6ae6c059"
+        },
+        {
+          "object": 115,
+          "offset": 942842,
+          "end": 945055,
+          "data_start": 942898,
+          "bytes": 2139,
+          "sha256": "dde0f9a54cee29f09284304cf0a24633b9a83f8a69af9ad961ab688b84b13b51"
+        },
+        {
+          "object": 122,
+          "offset": 940532,
+          "end": 942473,
+          "data_start": 940588,
+          "bytes": 1867,
+          "sha256": "fc81db74f7deb77ffb65b0c5e58f582b5b0c0225bd3db738fbd28b87b440ddf8"
+        },
+        {
+          "object": 124,
+          "offset": 937929,
+          "end": 940282,
+          "data_start": 937985,
+          "bytes": 2279,
+          "sha256": "8a04c5c1667b39e27aeed4e5c393894ce5aa09c96677571ea16fdd1f501b6ea1"
+        },
+        {
+          "object": 126,
+          "offset": 935241,
+          "end": 937679,
+          "data_start": 935297,
+          "bytes": 2364,
+          "sha256": "c70b8180eb125a6bf6815eaf9f72a4dc5474fc000b23d68f5ace397afc65c796"
+        },
+        {
+          "object": 130,
+          "offset": 932843,
+          "end": 934957,
+          "data_start": 932899,
+          "bytes": 2040,
+          "sha256": "4c650a6ea11e0d4ad69e6e38c1f91e2cda4eb25aeda861f88e70dd32fca0b2e9"
+        },
+        {
+          "object": 132,
+          "offset": 930356,
+          "end": 932593,
+          "data_start": 930412,
+          "bytes": 2163,
+          "sha256": "ccf3826df342e737a854893118de2b68f38deca3159841c2e363c8e3159c7950"
+        },
+        {
+          "object": 139,
+          "offset": 927932,
+          "end": 930003,
+          "data_start": 927988,
+          "bytes": 1997,
+          "sha256": "72818268bf1e4726dd300933240cdacfd30be1c4378cf4daee87e8d674850533"
+        },
+        {
+          "object": 141,
+          "offset": 911152,
+          "end": 914356,
+          "data_start": 911294,
+          "bytes": 3044,
+          "sha256": "e4bf0bccbdf778252842abbefa23ba131121fe7aadada42db99e4064413c74e6"
+        },
+        {
+          "object": 142,
+          "offset": 907809,
+          "end": 911151,
+          "data_start": 907951,
+          "bytes": 3182,
+          "sha256": "6a20597cf809456a3a608152454fc77d6523507d4fcc7ef6231a12046b50e40d"
+        },
+        {
+          "object": 143,
+          "offset": 904399,
+          "end": 907808,
+          "data_start": 904541,
+          "bytes": 3249,
+          "sha256": "520a6a941edf055c96c7967a7fa1811a57b8ca00fc672d6478aadf48ab5e6a6d"
+        },
+        {
+          "object": 144,
+          "offset": 901244,
+          "end": 904398,
+          "data_start": 901386,
+          "bytes": 2994,
+          "sha256": "e655537e2fd052d889d4bff55e7e68e24e14af79927a38239b9990918fe941c7"
+        },
+        {
+          "object": 145,
+          "offset": 897889,
+          "end": 901243,
+          "data_start": 898031,
+          "bytes": 3194,
+          "sha256": "1542ebb42d84401fcf11af0404ebbd9f71c0929ab3db2eefdaac0b553b1e747e"
+        },
+        {
+          "object": 146,
+          "offset": 894535,
+          "end": 897888,
+          "data_start": 894677,
+          "bytes": 3193,
+          "sha256": "569a31eeee31715667c96ea144982a05bcf09021ac120085d1ee5e51ad1f5f70"
+        },
+        {
+          "object": 147,
+          "offset": 891334,
+          "end": 894534,
+          "data_start": 891476,
+          "bytes": 3040,
+          "sha256": "cd54a4896c49eb43f79c6fcd62c2e6927cc7017f844333b11c7dfc191e97d903"
+        },
+        {
+          "object": 148,
+          "offset": 888145,
+          "end": 891333,
+          "data_start": 888287,
+          "bytes": 3028,
+          "sha256": "08e4313d50f30f0d7a826229fad3922c2c59ffe34030eb2d4da5f11734373a34"
+        },
+        {
+          "object": 149,
+          "offset": 884933,
+          "end": 888144,
+          "data_start": 885075,
+          "bytes": 3051,
+          "sha256": "33d6c17be65ae71657bb1ca72b029e0d213c94c4c49ef98ce093f74feaf0ce3f"
+        },
+        {
+          "object": 150,
+          "offset": 881642,
+          "end": 884932,
+          "data_start": 881784,
+          "bytes": 3130,
+          "sha256": "26869bb67770fcebe4344884cd1d5ee97fd13176065f65e40bc626e63cf905c5"
+        },
+        {
+          "object": 151,
+          "offset": 878383,
+          "end": 881641,
+          "data_start": 878525,
+          "bytes": 3098,
+          "sha256": "54e05f924a132810123e520197a62c73c4ff9a7def9db3d6d069eb8647674da9"
+        },
+        {
+          "object": 152,
+          "offset": 875167,
+          "end": 878382,
+          "data_start": 875309,
+          "bytes": 3055,
+          "sha256": "42e8f5a0c6cb01a47b67b167099836a6ee65140c53f51616250ca659aa599b14"
+        },
+        {
+          "object": 155,
+          "offset": 919572,
+          "end": 920388,
+          "data_start": 919627,
+          "bytes": 743,
+          "sha256": "5277aadac720f4171a4a6c88ad53ead927dffd243db1fdacd49a0d2355801044"
+        },
+        {
+          "object": 156,
+          "offset": 924663,
+          "end": 927359,
+          "data_start": 924744,
+          "bytes": 2597,
+          "sha256": "e68c6a2226c485ed64257a77f41b015a28a4215b8c2d2c2ff5340035f6ea9709"
+        },
+        {
+          "object": 158,
+          "offset": 920438,
+          "end": 921241,
+          "data_start": 920493,
+          "bytes": 730,
+          "sha256": "53cecf4166a5d6d374f5456016877ad8c749d6d40763044014db051d4382f7e5"
+        },
+        {
+          "object": 160,
+          "offset": 921291,
+          "end": 922098,
+          "data_start": 921346,
+          "bytes": 734,
+          "sha256": "d5b88a1a63be1a4be0eccbba41ec6ced5e4c5810a94f487024d4f3da018f0eeb"
+        },
+        {
+          "object": 162,
+          "offset": 922148,
+          "end": 922936,
+          "data_start": 922203,
+          "bytes": 715,
+          "sha256": "75221a2397e234f468cfc3669d4f38ca4f1bfd0d01a117a3d2109f3361ca5fa0"
+        },
+        {
+          "object": 164,
+          "offset": 922986,
+          "end": 923790,
+          "data_start": 923041,
+          "bytes": 731,
+          "sha256": "075174bf1eb61be054f1fce0eda22ced281c27a60baf3d9e65a94a52d3e05635"
+        },
+        {
+          "object": 166,
+          "offset": 923840,
+          "end": 924662,
+          "data_start": 923895,
+          "bytes": 749,
+          "sha256": "67b0bcfef7f704cf3d4d5b0793c16f791e8e3825bbaac8f76a0a19ee29f83e7a"
+        },
+        {
+          "object": 168,
+          "offset": 914357,
+          "end": 915142,
+          "data_start": 914412,
+          "bytes": 712,
+          "sha256": "29d1f46d2aa8ed423084637468975c042c4e69c89d0616a9357d7e13f64afb67"
+        },
+        {
+          "object": 170,
+          "offset": 915192,
+          "end": 916037,
+          "data_start": 915247,
+          "bytes": 772,
+          "sha256": "985db3bc4abf8e676be06bacadc99a7c3a88b2a5a71c12f06b6127488aba5da1"
+        },
+        {
+          "object": 172,
+          "offset": 916087,
+          "end": 916900,
+          "data_start": 916142,
+          "bytes": 740,
+          "sha256": "ba1b9a3aa3efd78cff603f1d7caff1aac08ab0d07fa66ec65b7274f1ac9a8f17"
+        },
+        {
+          "object": 174,
+          "offset": 916950,
+          "end": 917795,
+          "data_start": 917005,
+          "bytes": 772,
+          "sha256": "c7ac98da42f2c8d4cb613c30a0bde838a42f5788ea2d841e7ca31ebd072eb409"
+        },
+        {
+          "object": 176,
+          "offset": 917845,
+          "end": 918655,
+          "data_start": 917900,
+          "bytes": 737,
+          "sha256": "251f0a4ebc3196d55b920857a94ffb709a3f520ab7bc48c9c57e7a1eed1d7be4"
+        },
+        {
+          "object": 178,
+          "offset": 918705,
+          "end": 919522,
+          "data_start": 918760,
+          "bytes": 744,
+          "sha256": "a98e210fdcfe11bc24ae954428e1401790a6b16bd1bebfc6fbb8020058b21926"
+        },
+        {
+          "object": 179,
+          "offset": 873103,
+          "end": 875020,
+          "data_start": 873159,
+          "bytes": 1843,
+          "sha256": "d94808d064c53252653826304dda2a35737c0315c39f40b913e95cf299c6f612"
+        },
+        {
+          "object": 181,
+          "offset": 870865,
+          "end": 872853,
+          "data_start": 870921,
+          "bytes": 1914,
+          "sha256": "31a615f5e6d2ad99e089ff33dd47021bd568048b492adb20c6deb9784b0ae2e0"
+        },
+        {
+          "object": 183,
+          "offset": 868440,
+          "end": 870615,
+          "data_start": 868496,
+          "bytes": 2101,
+          "sha256": "1cf27b40fbdd0556486d673366e1097c592ba42118980ad19546965d580245c9"
+        },
+        {
+          "object": 185,
+          "offset": 865851,
+          "end": 868190,
+          "data_start": 865907,
+          "bytes": 2265,
+          "sha256": "cc66e595798d821844e3c57f6e1ac59f7bb1219661cdab49c0aa49cb6719da54"
+        },
+        {
+          "object": 192,
+          "offset": 863365,
+          "end": 865498,
+          "data_start": 863421,
+          "bytes": 2059,
+          "sha256": "89ac05e0a6b7a67d7ae3d0f7951439349974faaff0e730612b3e86f6fb7a0760"
+        },
+        {
+          "object": 194,
+          "offset": 861117,
+          "end": 863092,
+          "data_start": 861173,
+          "bytes": 1901,
+          "sha256": "b2aee7aaccdd82a873affa0414f7b4aec4dce687f7f1e6dabcba57e00fa3262e"
+        },
+        {
+          "object": 196,
+          "offset": 858382,
+          "end": 860867,
+          "data_start": 858438,
+          "bytes": 2411,
+          "sha256": "8075b6fe78c4f146c76dad9074dc915390f14cb3360df9e6e7362437671c651a"
+        },
+        {
+          "object": 198,
+          "offset": 855399,
+          "end": 858132,
+          "data_start": 855455,
+          "bytes": 2659,
+          "sha256": "46a2df83bcad0e48565f0d6fd1cc5a8fa645cb243b899af1077ed35a9fabcaef"
+        },
+        {
+          "object": 200,
+          "offset": 852627,
+          "end": 855149,
+          "data_start": 852683,
+          "bytes": 2448,
+          "sha256": "40b861a99a310388f21021b837635f8ad0cd98215a33f866e4ce13c13fd9ae90"
+        },
+        {
+          "object": 207,
+          "offset": 849816,
+          "end": 852274,
+          "data_start": 849872,
+          "bytes": 2384,
+          "sha256": "3213c10fdf2803b83d329f2c174004dcfe7b632145737a24b9dfe804b824e88a"
+        },
+        {
+          "object": 209,
+          "offset": 847396,
+          "end": 849566,
+          "data_start": 847452,
+          "bytes": 2096,
+          "sha256": "26b1d2bc846c08ceb7cd4d4c1d34bea304dbbe8ef473eab2633a8e7642fffa9b"
+        },
+        {
+          "object": 211,
+          "offset": 845029,
+          "end": 847112,
+          "data_start": 845085,
+          "bytes": 2009,
+          "sha256": "a0431c81e2ac7b7df1da3e2ff8dc1b206d8f40108c89e17a0f8d2f850209cff4"
+        },
+        {
+          "object": 213,
+          "offset": 842567,
+          "end": 844779,
+          "data_start": 842623,
+          "bytes": 2138,
+          "sha256": "90c1848e2900d305bad35bc5a0624a4667f090e9726035e0d65e6be4e6460540"
+        },
+        {
+          "object": 215,
+          "offset": 840187,
+          "end": 842317,
+          "data_start": 840243,
+          "bytes": 2056,
+          "sha256": "ab56861bf4a389aafb132daed6949fc66ea46f10480e481483cb54e40af6d90f"
+        },
+        {
+          "object": 222,
+          "offset": 837481,
+          "end": 839834,
+          "data_start": 837537,
+          "bytes": 2279,
+          "sha256": "96b9841ed37309c7c3c35814f72e2871697baa7e9f68bd27e2aab176627874e9"
+        },
+        {
+          "object": 224,
+          "offset": 834787,
+          "end": 837231,
+          "data_start": 834843,
+          "bytes": 2370,
+          "sha256": "b3e6e262bd57f920e1c975d4747966a0cd9bc04f3ada170973ed6c023f5980a2"
+        },
+        {
+          "object": 226,
+          "offset": 832189,
+          "end": 834514,
+          "data_start": 832245,
+          "bytes": 2251,
+          "sha256": "e0b54ba50109e28eda12c7da3dc9074e65f4f994ccdf49682f0dde07d479bd23"
+        },
+        {
+          "object": 228,
+          "offset": 829096,
+          "end": 831905,
+          "data_start": 829152,
+          "bytes": 2735,
+          "sha256": "b58f1b39c6fae31ea1896e9f3bdac7e38146f27f4a6a54ea31b12ca50383895e"
+        },
+        {
+          "object": 230,
+          "offset": 826258,
+          "end": 828846,
+          "data_start": 826314,
+          "bytes": 2514,
+          "sha256": "8329d6f7d58186a68923ba1a55275325b0add4e6fb8f5c98fec3a7f7699e8011"
+        },
+        {
+          "object": 237,
+          "offset": 823131,
+          "end": 825882,
+          "data_start": 823187,
+          "bytes": 2677,
+          "sha256": "233326dd5bad617506729d24fe109d0abeb982d586c3cbe921e5e93cef70e51c"
+        },
+        {
+          "object": 239,
+          "offset": 820389,
+          "end": 822881,
+          "data_start": 820445,
+          "bytes": 2418,
+          "sha256": "f671c8dfebbe3ac4aea5f3354a862804a944fc91be0a6e0e769b907e1afe522a"
+        },
+        {
+          "object": 241,
+          "offset": 817959,
+          "end": 820139,
+          "data_start": 818015,
+          "bytes": 2106,
+          "sha256": "855f40f9bcc83655728934662f9f789bf8c6be4de2bc5ab508c3f55fb1278764"
+        },
+        {
+          "object": 243,
+          "offset": 815253,
+          "end": 817709,
+          "data_start": 815309,
+          "bytes": 2382,
+          "sha256": "503165066d14c4c6dda8a0d837a56016ae6f2633b557fbb10c8979f77a6d2bc2"
+        },
+        {
+          "object": 245,
+          "offset": 813003,
+          "end": 815003,
+          "data_start": 813059,
+          "bytes": 1926,
+          "sha256": "64077bff485628f794d707a14fd832eab97edd3777868d0cda0dbb850e224b2c"
+        },
+        {
+          "object": 254,
+          "offset": 810106,
+          "end": 812616,
+          "data_start": 810162,
+          "bytes": 2436,
+          "sha256": "68debe8138668fa76dd54b953e9b83c82fb428db8ee67528b2b087605909a715"
+        },
+        {
+          "object": 256,
+          "offset": 807579,
+          "end": 809833,
+          "data_start": 807635,
+          "bytes": 2180,
+          "sha256": "0d191d31172e104b62f9c8d8b3aad9ae96c18685fa1960312b32ac5116cdd3e6"
+        },
+        {
+          "object": 258,
+          "offset": 805260,
+          "end": 807329,
+          "data_start": 805316,
+          "bytes": 1995,
+          "sha256": "c1f26308a58258c7a1f0ae8da55cb365154fe2e35aebb609b9113c5d60da36a7"
+        },
+        {
+          "object": 260,
+          "offset": 803126,
+          "end": 804577,
+          "data_start": 803182,
+          "bytes": 1377,
+          "sha256": "99b0379f65c20ec13a70b3a7efb2459434dd9cdef411e0274e3ffeb5742a6e65"
+        },
+        {
+          "object": 262,
+          "offset": 801244,
+          "end": 802887,
+          "data_start": 801300,
+          "bytes": 1569,
+          "sha256": "9064bdc81a8601a328f30275b9a8b8680821f5b6654a4e09f8b8a54f14c9787f"
+        },
+        {
+          "object": 264,
+          "offset": 799130,
+          "end": 800994,
+          "data_start": 799186,
+          "bytes": 1790,
+          "sha256": "178a93abe1b335f4c98b4c914eed14b00462029e952ab99b66790444a65a0832"
+        },
+        {
+          "object": 266,
+          "offset": 797207,
+          "end": 798231,
+          "data_start": 797262,
+          "bytes": 951,
+          "sha256": "b7b9b7f173fd7000ac3b7e02c03ccec2777fb25001cfbe2ab0fe53307c37dd37"
+        }
+      ],
+      "duplicates": [],
+      "omitted": []
+    },
+    "proof": {
+      "selected_objects": 248,
+      "selected_streams": 110,
+      "complete_duplicates": 0,
+      "proper_prefixes": 0,
+      "partial_headers": [],
+      "unexplained_source_bytes": 0,
+      "opaque_metadata_streams": 0,
+      "body_range": [
+        8916,
+        952195
+      ]
+    },
+    "container_tail": {
+      "offset": 952195,
+      "xml_bytes": 200,
+      "xml_sha256": "bb736d50d5a033852a567ddb240a90f6b9d3ac512937bd3e5084f5a04ce4f8c4",
+      "root": "FileProperty-Package",
+      "leaves": [
+        "DOI",
+        "SCODE",
+        "PCODE",
+        "DURL"
+      ],
+      "padding_byte": 5,
+      "padding_bytes": 5,
+      "values_published": false,
+      "embedded_target_contacted": false
+    },
+    "initial_attempt": "Whole-file PDF-body accounting refused the separate container XML suffix; the measured suffix is now reported separately without treating it as PDF content.",
+    "scope": "Every byte of the measured original PDF-object body accounted for using existing MIT syntax/extent/hash checks; a byte-identical diagnostic prefix excludes the independently validated container-only XML suffix. Not a proprietary viewer oracle."
+  },
+  "research_runner_hashes": {
+    "compare-360-pages.py": "575ffb8247471add390330bdc1646a86c32aa646b0b00651d0de03752ec4d91c",
+    "account-360-caj.py": "5ee2c676458d0d17f3e9bf9cdeaf9b8a06fd402844d030c80910fd3b18a6ffc1",
+    "account-360-tail.py": "f912a4c55c976ac93ceae82fdd5939c555cc3bed2effef4968339601c032b8af"
+  },
+  "source_checker_revision": "f261c7408b016f20075b6e2ab45d7a9a72a75bd1",
+  "source_checker_files": {
+    "pdf_source_preservation.py": "704cb46dd53a97ed3bd9c0f382ed5fbe2773768d007cda366d2bb8335ba6ad42",
+    "pdf_source_inventory.py": "797ab18c406cd5b5e97c2254ccba56f38e6c47360df367da99276f4db985dac5",
+    "caj_source_preservation.py": "cf229e62b2732cce98b4eb00f574adbe29ace2ff4bfee8f0fbebbab901867cf5",
+    "caj_source_navigation.py": "49dc91bc85ed6b554a72b946b84e9f2467432c5930a8494740d885624d0551ba",
+    "caj_source_accounting.py": "f56a98b776d311fc1d4369a7adc76df2e3f0e1cadbc56d2b658ef563c296179e"
+  },
+  "catalog_update": {
+    "prior_revision": "39ab04aedb20c6007085d52050381714b859a0a4",
+    "prior_catalog_sha256": "42cc3816e9ce207d222c4b054326c121acd99097c345a3bb15d7006e34de11cd",
+    "existing_rows_preserved": 1386,
+    "new_rows": 5,
+    "identities": 1391,
+    "conversion_after": {
+      "PASS": 1346,
+      "FAIL": 18,
+      "UNSUPPORTED": 27
+    },
+    "new_unique_pages": 64,
+    "downloaded_pages_including_duplicates": 114,
+    "reported_accepted_pages_after": 36558,
+    "full_catalog_rerun": false
+  },
+  "scope_limits": [
+    "No proprietary vendor-viewer comparison.",
+    "CAJ reference framing is independent source-object/page-table reconstruction; its complete measured PDF body is accounted separately from a 200-byte container XML suffix plus five padding bytes. No XML leaf values or embedded targets are published/contacted.",
+    "The first whole-file body accounting rejected that XML suffix; it was retained as a failed assumption and measured separately. The original remains unchanged.",
+    "Known duplicate downloads do not add identities or accepted-page totals.",
+    "No optional corpus skip counted as a compatibility pass, no irrecoverability finding or release."
+  ]
+}

@@ -204,3 +204,5 @@ regression rerun after that fix.
 - [Explicit-response TTKN product conversion](ttkn-product-conversion-20261009.md): original-control initializer proof and one unchanged 180-page source, with native/Node/Chromium parity and all-stream/page/outline agreement against independent recovery; other profiles and complete vendor equivalence remain open.
 
 - [Public SSE object-stream collection and continued web search](public-sse-collection-20261009.md)
+
+- [Recovered Archive.org 360-temp samples](archive-360-temp-20261009.md)
