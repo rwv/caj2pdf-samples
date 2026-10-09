@@ -31,6 +31,9 @@ adds all 60 native pages with normal and original marker fonts, per-page
 text/vector/image inventories, bounded complete-page observations and retained
 pixel differences. One normal-font page differs across cold viewer sessions;
 these observations do not establish complete rendered-page fidelity.
+The [retained native JPEG diagnostic](research/notes/native-page-jpeg-20261009.md)
+numerically connects the two historical page-5 rasters; it does not establish
+historical API calls, viewer readiness or source/PDF fidelity.
 
 The [original page-buffer controls](research/notes/viewer-page-buffer-20261009.md)
 locate both native raster variants in public Qt buffers and reproduce a related
