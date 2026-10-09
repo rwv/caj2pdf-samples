@@ -29296,12 +29296,14 @@
       "source_url": "https://chaoli.club/index.php/attachment/5e4a932b693dc_%E5%8C%BB%E5%AD%A6%E5%BD%B1%E5%83%8F%E5%AD%A6%E7%AC%94%E8%AE%B0.pdf/download",
       "redistribution": "not_declared",
       "local_integrity": "PASS",
-      "conversion": "FAIL",
+      "conversion": "PASS",
       "viewer": "PASS",
-      "conversion_revision": "d2bf82e8aec6fba5e8f3783e4953606c02ab1374",
-      "conversion_evidence": "research/notes/public-ttkn-response-20261009.json",
+      "conversion_revision": "f0cea0e715cdab70282199140dbe7b396b3651b1",
+      "conversion_evidence": "research/notes/ttkn-product-conversion-20261009.json",
       "viewer_evidence": "research/notes/ttkn-unaltered-wrapper-20261009.json",
-      "notes": "Conversion still FAIL. Unchanged source opens offline with its matching disclosed response and exact-target loopback routing: page 1, 180-page counter and populated contents. External observed-IV research recovery reproduces all 234 streams and renders 180 pages; original-input production support and complete viewer equivalence remain unresolved. Prior failures retained (rwv/caj2pdf-rust#501)."
+      "notes": "Converts with its explicitly supplied matching author-disclosed response: native/Node/Chromium bytes agree; all 234 plaintext streams, 180 page geometry/word positions/pixels and 97 preserved outline entries match independent recovery. No new bookmarks are generated. Vendor-viewer evidence remains scoped to opening/page 1/counter/contents, not all-page equivalence. Other TTKN profiles remain unresolved (rwv/caj2pdf-rust#501).",
+      "page_count": 180,
+      "bookmark_count": 97
     }
   ]
 }

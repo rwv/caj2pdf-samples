@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "scope": "One unchanged public TTKN server-response PDF converted by native/Node/Chromium with explicit matching response; no full vendor-pixel equivalence claim.",
+  "issues": [
+    "rwv/caj2pdf-samples#89",
+    "rwv/caj2pdf-rust#504",
+    "rwv/caj2pdf-rust#505",
+    "rwv/caj2pdf-rust#506"
+  ],
+  "source": {
+    "sha256": "074cb4d57181e92826c37b549f811008c58c7b66366f9045e8985c58178263d8",
+    "size_bytes": 1891106,
+    "public_post": "https://chaoli.club/index.php/2979/5",
+    "previous_receipt": "ttkn-unaltered-wrapper-20261009.json",
+    "sha256_after_all_product_runs": "074cb4d57181e92826c37b549f811008c58c7b66366f9045e8985c58178263d8"
+  },
+  "authored_initializer_controls": [
+    {
+      "variant": 1,
+      "source_sha256": "0e64b8b9a19271879148816bc89013a9edc1505b5d05c6460ce314083dfde16d",
+      "all_fields_wholly_authored": true,
+      "initial_wrapping_iv": "sixteen zero bytes",
+      "observed_initializer": "200CFC8299B84aa9",
+      "independent_derivation_from_known_control_ciphertext_plaintext": true
+    },
+    {
+      "variant": 2,
+      "source_sha256": "2b79500bb2d2f6e26c5f69476f705684773afe55f3e54867e103acca1e213c46",
+      "all_fields_wholly_authored": true,
+      "initial_wrapping_iv": "sixteen zero bytes",
+      "observed_initializer": "200CFC8299B84aa9",
+      "independent_derivation_from_known_control_ciphertext_plaintext": true
+    }
+  ],
+  "authored_positive_control": {
+    "source_sha256": "5782429d292045eaf74226af2866e69b5496b9dedddc3419418f4b5a7ef172a3",
+    "generator_sha256": "14ce4a6a5209d4da9991a37148bc99ccb8c82c6cf8de5fd204d969d838992bae",
+    "generator_revision": "f0cea0e715cdab70282199140dbe7b396b3651b1",
+    "viewer_content_text_rectangles_outline": "PASS",
+    "password_and_rights_plaintexts_exact": true
+  },
+  "product": {
+    "reviewed_revision": "f0cea0e715cdab70282199140dbe7b396b3651b1",
+    "pull_request": "https://github.com/rwv/caj2pdf-rust/pull/506",
+    "native_sha256": "44e03a5aedbfe8933c96e4f6450a30338b8a3a94916492ed2fa83804d291f64e",
+    "wasm_sha256": "7dbcb4cb42ba3110f430c498e0c321c03e6ce545888dd49b213b358d2f678522",
+    "native_build": "cargo build --locked -p caj2pdf-cli",
+    "wasm_build": "cargo build --locked --release --all-features -p caj2pdf-wasm --target wasm32-unknown-unknown",
+    "runtime_receipt": {
+      "pages": 180,
+      "native_node_chromium_exact_parity": true,
+      "pdf_sha256": "c8e4e9dd1c377a8c704291ea4e8d2864fcf322c19e2fbf915a793fb5b5320a94",
+      "browser_wrong_missing_response_no_writes": true,
+      "external_targets_contacted": false
+    },
+    "local_quality": {
+      "rust_tests_passed": 1391,
+      "rust_tests_failed": 0,
+      "optional_external_corpus_tests_ignored": 7,
+      "javascript_tests_passed": 182,
+      "javascript_tests_failed": 0,
+      "javascript_tests_skipped": 0,
+      "real_chromium": true,
+      "line_coverage": {
+        "hit": 31295,
+        "found": 31798,
+        "percent": 98.42,
+        "workspace_threshold_percent": 90
+      },
+      "rust_1_88_all_targets": "PASS",
+      "locked_fuzz_check": "PASS",
+      "clippy": "PASS",
+      "rustdoc": "PASS",
+      "license_advisory_bans_sources": "PASS",
+      "fixture_regeneration": "PASS",
+      "markdown_links": "PASS"
+    },
+    "merge_commit": "a2e2ccbb56db780bbba29eb1363eea0c4e506b85",
+    "merge_tree_matches_reviewed_revision": true,
+    "ci": {
+      "checks_passed": 60,
+      "all_conclusions": "SUCCESS",
+      "quality_run": "https://github.com/rwv/caj2pdf-rust/actions/runs/37981419279",
+      "platform_run": "https://github.com/rwv/caj2pdf-rust/actions/runs/37981419155",
+      "retry_scope": "Initial Linux x86_64 glibc job timed out downloading mupdf-tools before compilation. The unfinished workflow was cancelled to permit failed-job retry; 56 completed successful results were retained. Linux x86_64 glibc and SPARC64 were rerun and passed; the final Docker and matrix jobs also passed."
+    }
+  },
+  "validation": {
+    "qpdf_check_exit": 0,
+    "independent_recovery_comparison": {
+      "pages": 180,
+      "outlines": 97,
+      "streams": 234,
+      "all_streams_equal": true,
+      "all_geometry_equal": true,
+      "all_words_equal": true,
+      "all_page_pixels_equal": true,
+      "native_sha256": "c8e4e9dd1c377a8c704291ea4e8d2864fcf322c19e2fbf915a793fb5b5320a94"
+    },
+    "comparison_page_pixels_receipt_sha256": "3493f40aa18b8e8c6a7dee7693f0d0edac2afa844fa4e09e33e779782c40d856",
+    "native_wrong_response_staged_output_cleanup": "PASS (unchanged public original and original MIT fixture)",
+    "node_chromium_wrong_missing_response_before_output": "PASS",
+    "embedded_targets_contacted": false,
+    "live_viewer_or_api_observer_used_for_product_conversion": false,
+    "external_source_credentials_committed": false,
+    "tools": {
+      "qpdf": "qpdf version 12.2.0",
+      "pymupdf": "1.27.2.2",
+      "pikepdf": "10.5.1",
+      "node": "v24.13.0",
+      "chromium": "Chromium 154.0.8037.92 built on Debian GNU/Linux 13 (trixie)"
+    },
+    "original_input_native_refusals": [
+      {
+        "label": "missing",
+        "exit_code": 1,
+        "output_exists": false,
+        "staged_files_remaining": 0,
+        "response_echoed": false
+      },
+      {
+        "label": "wrong",
+        "exit_code": 1,
+        "output_exists": false,
+        "staged_files_remaining": 0,
+        "response_echoed": false
+      }
+    ],
+    "original_input_node_refusals": [
+      {
+        "label": "missing",
+        "refused": true,
+        "writes": 0,
+        "flushes": 0
+      },
+      {
+        "label": "wrong",
+        "refused": true,
+        "writes": 0,
+        "flushes": 0
+      }
+    ]
+  },
+  "limits": [
+    "Other TTKN profiles and unavailable responses remain unresolved.",
+    "Viewer evidence covers opening/page 1/counter/populated contents; full vendor-viewer page pixels were not compared.",
+    "No other sample rows rerun; no new full-catalog compatibility claim.",
+    "Optional corpus skips are not successful compatibility tests.",
+    "No release."
+  ],
+  "attempts_retained": [
+    "product-v1: decryption reached PDF validation; indirect local GoTo actions refused, tracked by Rust #505.",
+    "product-v2: native and all-page/stream/outline comparison passed.",
+    "product-v3: native/qpdf passed; runtime harness passed a Buffer to the path-only Node module loader and failed before conversion.",
+    "product-v4: native/Node/Chromium parity passed after harness correction.",
+    "product-v5: reviewed-head native/Node/Chromium parity passed.",
+    "Early original-control JS tests exposed harness sink return-count and browser-harness invocation mistakes; corrected tests retained, no converter-success claim made for failed attempts."
+  ],
+  "catalog_update": {
+    "prior_revision": "df09c1167b1b1e19e9abe109aec21c76c5251d6f",
+    "prior_catalog_sha256": "310bf0b25e2d2b220ebdb62e4e818904976cf1e462772d9de5810d40d512c904",
+    "other_rows_preserved": 1384,
+    "identities": 1385,
+    "conversion_after": {
+      "PASS": 1340,
+      "FAIL": 18,
+      "UNSUPPORTED": 27
+    },
+    "only_changed_source": "074cb4d57181e92826c37b549f811008c58c7b66366f9045e8985c58178263d8",
+    "full_catalog_rerun": false,
+    "accepted_pages_added": 180,
+    "prior_reported_accepted_pages": 36288,
+    "reported_accepted_pages_after": 36468,
+    "catalog_explicit_page_count_sum_before": 34535,
+    "catalog_explicit_page_count_sum_after": 34715,
+    "prior_pass_rows_without_page_count": 54,
+    "page_total_scope": "34,715 explicit successful-row pages plus 1,753 pages from 54 unchanged rows whose page_count is absent; all 54 reconcile across the prior native/Node/browser receipt. No new full-catalog rerun.",
+    "missing_page_counts_independently_reconciled_from": "current-corpus-runtime-20261008.json",
+    "missing_page_counts_pages": 1753
+  }
+}
