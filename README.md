@@ -4,11 +4,17 @@ Real-document catalog and regression inputs for [caj2pdf-rust](https://github.co
 
 ## Current collection
 
-**1,297 unique inputs** are indexed: 1,279 document candidates and 18 CAA
-target descriptors. The [2026-10-08 discovery](research/notes/caa-nh-discovery-20261008.md)
-adds one original-extension NH document (433 pages/365 bookmarks, identical
-CLI/Node/Chromium outputs) and 18 metadata-only CAA entries. CAA conversion
-is unsupported; their target declarations are not document pages.
+**1,384 unique inputs** are indexed: 1,366 document candidates and 18 CAA
+target descriptors. The [2026-10-09 public-web sweep](research/notes/public-web-sweep-20261009.md)
+adds 87 SHA-pinned originals from Archive.org and Nanjing University. All
+87 convert after the three focused PDF fixes, with 701 pages. Of these,
+80 pass qpdf cleanly and seven retain source-content warnings tracked in
+[Rust #499](https://github.com/rwv/caj2pdf-rust/issues/499).
+Public availability does not grant redistribution; all new rows are metadata-only.
+
+The [2026-10-08 NH/CAA discovery](research/notes/caa-nh-discovery-20261008.md)
+remains the original-extension NH and CAA evidence. CAA conversion is unsupported;
+its target declarations are not document pages.
 
 The [historical Windows CAA observation](research/notes/caa-windows-boundary-20261009.md)
 adds all 18 originals under Wine, with original PDF/invalid-file controls and
@@ -16,7 +22,7 @@ offline network/server-error keyword observations. Installation limitations
 remain explicit; target availability and credentials are unverified. This
 adds no conversion pass or irrecoverability verdict.
 
-### Latest complete runtime checkpoint
+### Previous full-catalog runtime checkpoint
 
 The [current per-input receipt](research/notes/current-corpus-runtime-20261008.md)
 records **1,252 conversion PASS, 18 FAIL and 27 UNSUPPORTED** across all 1,297
@@ -24,7 +30,8 @@ identities. Every accepted input now has fresh Node and Chromium output matching
 the reviewed #457 native hashes, sizes and page counts (35,587 pages). All 45
 remaining inputs have fresh three-runtime refusal, source-integrity and cleanup
 checks; these are not conversion passes or proof of irrecoverability.
-All catalog conversion statuses point to this common reviewed build.
+The original 1,297 catalog rows retain this reviewed checkpoint; the new web
+cohort points to its separate revision and receipt.
 
 The [source geometry report](research/notes/source-image-geometry-20261008.md)
 adds independent declared-page and ordered-image checks for all 973 accepted
