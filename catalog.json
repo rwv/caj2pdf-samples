@@ -523,10 +523,13 @@
       "redistribution": "not_declared",
       "local_integrity": "PASS",
       "conversion": "UNSUPPORTED",
-      "viewer": "NOT_RUN",
+      "viewer": "FAIL",
       "variant": "TEB",
       "conversion_revision": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
-      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json"
+      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json",
+      "viewer_scope": "Offline open error; not a whole-document fidelity comparison",
+      "viewer_evidence": "research/notes/teb-container-boundary-20261009.json",
+      "teb_container_evidence": "research/notes/teb-container-boundary-20261009.json"
     },
     {
       "path": "issue-61/2.teb",
@@ -541,10 +544,13 @@
       "redistribution": "not_declared",
       "local_integrity": "PASS",
       "conversion": "UNSUPPORTED",
-      "viewer": "NOT_RUN",
+      "viewer": "FAIL",
       "variant": "TEB",
       "conversion_revision": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
-      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json"
+      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json",
+      "viewer_scope": "Offline open error; not a whole-document fidelity comparison",
+      "viewer_evidence": "research/notes/teb-container-boundary-20261009.json",
+      "teb_container_evidence": "research/notes/teb-container-boundary-20261009.json"
     },
     {
       "path": "issue-61/3.teb",
@@ -559,10 +565,13 @@
       "redistribution": "not_declared",
       "local_integrity": "PASS",
       "conversion": "UNSUPPORTED",
-      "viewer": "NOT_RUN",
+      "viewer": "FAIL",
       "variant": "TEB",
       "conversion_revision": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
-      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json"
+      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json",
+      "viewer_scope": "Offline open error; not a whole-document fidelity comparison",
+      "viewer_evidence": "research/notes/teb-container-boundary-20261009.json",
+      "teb_container_evidence": "research/notes/teb-container-boundary-20261009.json"
     },
     {
       "path": "issue-61/4.teb",
@@ -577,10 +586,13 @@
       "redistribution": "not_declared",
       "local_integrity": "PASS",
       "conversion": "UNSUPPORTED",
-      "viewer": "NOT_RUN",
+      "viewer": "FAIL",
       "variant": "TEB",
       "conversion_revision": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
-      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json"
+      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json",
+      "viewer_scope": "Offline open error; not a whole-document fidelity comparison",
+      "viewer_evidence": "research/notes/teb-container-boundary-20261009.json",
+      "teb_container_evidence": "research/notes/teb-container-boundary-20261009.json"
     },
     {
       "path": "issue-61/5.teb",
@@ -595,10 +607,13 @@
       "redistribution": "not_declared",
       "local_integrity": "PASS",
       "conversion": "UNSUPPORTED",
-      "viewer": "NOT_RUN",
+      "viewer": "FAIL",
       "variant": "TEB",
       "conversion_revision": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
-      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json"
+      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json",
+      "viewer_scope": "Offline open error; not a whole-document fidelity comparison",
+      "viewer_evidence": "research/notes/teb-container-boundary-20261009.json",
+      "teb_container_evidence": "research/notes/teb-container-boundary-20261009.json"
     },
     {
       "path": "issue-61/6.teb",
@@ -613,10 +628,13 @@
       "redistribution": "not_declared",
       "local_integrity": "PASS",
       "conversion": "UNSUPPORTED",
-      "viewer": "NOT_RUN",
+      "viewer": "FAIL",
       "variant": "TEB",
       "conversion_revision": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
-      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json"
+      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json",
+      "viewer_scope": "Offline open error; not a whole-document fidelity comparison",
+      "viewer_evidence": "research/notes/teb-container-boundary-20261009.json",
+      "teb_container_evidence": "research/notes/teb-container-boundary-20261009.json"
     },
     {
       "path": "issue-61/7.teb",
@@ -631,10 +649,13 @@
       "redistribution": "not_declared",
       "local_integrity": "PASS",
       "conversion": "UNSUPPORTED",
-      "viewer": "NOT_RUN",
+      "viewer": "FAIL",
       "variant": "TEB",
       "conversion_revision": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
-      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json"
+      "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json",
+      "viewer_scope": "Offline open error; not a whole-document fidelity comparison",
+      "viewer_evidence": "research/notes/teb-container-boundary-20261009.json",
+      "teb_container_evidence": "research/notes/teb-container-boundary-20261009.json"
     },
     {
       "path": "issue-63/对任务型教学法的理论基础与课堂实践的思考.caj",
@@ -15177,12 +15198,15 @@
       "redistribution": "not_declared",
       "local_integrity": "PASS",
       "conversion": "UNSUPPORTED",
-      "viewer": "NOT_RUN",
+      "viewer": "FAIL",
       "archive_member": "6.teb",
       "attachment_sha256": "334d2d3cc586a9cafa18a8f8dedb6098bca34ee4d7abb03c406c14678d2136a1",
       "conversion_revision": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
       "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json",
-      "variant": "TEB"
+      "variant": "TEB",
+      "viewer_scope": "Offline open error; not a whole-document fidelity comparison",
+      "viewer_evidence": "research/notes/teb-container-boundary-20261009.json",
+      "teb_container_evidence": "research/notes/teb-container-boundary-20261009.json"
     },
     {
       "path": "external/github/8c5d0cfda71cb771ba7308193ceee1a2b32d1092cf517c660664722aa4495f78.caj",
@@ -22616,11 +22640,14 @@
       "redistribution": "not_declared",
       "local_integrity": "PASS",
       "conversion": "UNSUPPORTED",
-      "viewer": "NOT_RUN",
+      "viewer": "FAIL",
       "source_revision": "915407732d196dc76c468c657791c6f3ea9a6d5a",
       "conversion_revision": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
       "conversion_evidence": "research/notes/current-corpus-runtime-20261008.json",
-      "variant": "TEB"
+      "variant": "TEB",
+      "viewer_scope": "Offline open error; not a whole-document fidelity comparison",
+      "viewer_evidence": "research/notes/teb-container-boundary-20261009.json",
+      "teb_container_evidence": "research/notes/teb-container-boundary-20261009.json"
     },
     {
       "path": "external/github/d30270e39d4b775b6dab227bbfaa12bfc43cca0ed6bd95543795174c9d974ca6.caj",

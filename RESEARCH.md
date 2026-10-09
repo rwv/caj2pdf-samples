@@ -50,40 +50,32 @@ not an implemented classification. No new decoder is justified by an extension.
   budget before concluding that this represents a converter defect.
 - Follow-up: https://github.com/rwv/caj2pdf-rust/issues/284 .
 
-## TEB characterization (issue 1), 2026-10-04
+## TEB characterization: corrected 2026-10-09
 
-All seven SHA-pinned `issue-61/*.teb` rows were re-verified (size and SHA-256)
-and examined read-only with bounded scripts. Only structure is recorded here;
-no payload, key material or rights values are copied.
+The [nine-source follow-up](research/notes/teb-container-boundary-20261009.md)
+supersedes the 2026-10-04 framing and CRC interpretation. The earlier refusal
+observations remain historical, but did not prove that all TEB input was
+irrecoverable or that every entry was encrypted.
 
-| Offset | Observation (all seven files) |
-| --- | --- |
-| `0x00` | `TEB\0`, then u32 `4`; zero padding |
-| `0x20` | ASCII vendor string `Tongfang Knowledge Network Technology(Beijing) Co., Ltd.`, zero padded to `0xA8` |
-| `0xA8` | u32 `110` or `111`, then u32 archive length `L` |
-| `0xB0` | ZIP-like archive of exactly `L` bytes |
-| `0xB0+L` | XML `<right-meta>` trailer, then `startrights <offset>,2397` |
+Eight intact sources have a 16-byte archive header at `0xA0`, two 28-byte
+local records without filename bytes, and 40-byte central records with
+index-XOR names. The words at `0xA8`/`0xAC` are directory byte length and
+directory offset relative to `0xA0`, not a type and archive length. Both stored
+payload CRCs and inflated `document.xml` CRCs match. The XML metadata is readable;
+the declared PDF payload's wrapping/key semantics remain unknown.
 
-The archive has two local headers and a modified central directory: each
-central record omits six standard bytes, offsets are relative to `0xA0`, and
-names are obfuscated by XOR with their byte index. The two entries are always
-`document.xml` (deflate flag, about 1 KiB) and `content\CAJxxxx.pdf` (stored);
-their order differs between files. Neither entry's CRC matches its stored or
-inflated bytes, and the payloads are near 8 bits/byte. The trailer declares
-`<version>2.1</version>`, `<encrypt meta="1" catalog="1" notes="1">`, and
-`iv`, `password`, `cert` fields plus CNKI DRM request/registration URLs.
+The ninth identity is a separately uploaded `6.teb` with a verified 1,507,965-byte
+zero-filled suffix. Its outer ZIP CRC and a fresh download match, so this is
+source damage, not an interrupted local acquisition. A separately cataloged
+intact file has the same 4 MiB prefix; it is not silently substituted.
 
-Conclusion: the seven files share one layout, a CNKI DRM 2.1 container around an
-encrypted PDF. They are not standalone documents and no distinct sub-layout was
-observed; any one file is representative. Conversion would require decrypting
-licensed content, which this project does not do, so TEB stays detection-only.
-No parser issue is opened; this boundary is the recorded outcome.
-
-Current converter, main `509bb6e`, Linux x86_64 release CLI, default options:
-`inspect --json` reports `format: TEB`, `conversion_supported: false` for all
-seven; conversion exits 1 with `TEB input is recognized, but TEB conversion is
-not supported`. These deliberate unsupported results are not passes. CAJViewer
-checks: NOT_RUN for all seven (no pinned viewer run in this environment).
+All nine originals now have offline viewer observations: eight validation-server
+connection errors and one unknown error. An original two-page PDF control opens.
+No TEB source is newly converted. Actual recovery/credential requirements remain
+open in [Rust #468](https://github.com/rwv/caj2pdf-rust/issues/468); the overly
+certain CLI/JavaScript diagnostic is addressed separately in
+[#469](https://github.com/rwv/caj2pdf-rust/issues/469). Captures, source/payload
+bytes, XML values, fonts and credentials remain external.
 
 ## CAA, CAS and NH search log (issue 2), 2026-10-04
 

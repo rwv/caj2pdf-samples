@@ -138,3 +138,9 @@ pikepdf 10.5.1, PyMuPDF 1.27.2.2 and fonttools 4.62.1. An optional directory of
 this project's original generated marker fonts enables CID/outline/width-based
 role checks. The [full native report](notes/native-glyph-model-20261009.md)
 preserves the distinction between model consistency and original-font fidelity.
+
+`teb_inventory.py` uses the Python standard library to verify the measured
+16/28/40-byte TEB archive framing, bounded metadata inflation, entry CRCs and
+redacted XML structure. The [nine-source report](notes/teb-container-boundary-20261009.md)
+distinguishes intact protected-container observations from a verified zero-filled
+attachment; it is not a TEB decoder or an irrecoverability classifier.
