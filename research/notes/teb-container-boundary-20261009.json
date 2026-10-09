@@ -1,0 +1,2893 @@
+{
+  "schema": "teb-container-boundary-v1",
+  "scope": "Eight intact container inventories and one independently verified zero-filled source; no successful TEB content conversion or decryption.",
+  "production_implementation": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
+  "rust_main_at_measurement": "affd2871d165f045411cdf28721e790c59779849",
+  "cli_sha256": "d213898ee16a32f0d5304dc96438ffde2402d8135af3b0728a764c1ae8ea41a0",
+  "catalog_base": "f3ce99e4093de840fbd71ee6ed7450a6cbff8a20",
+  "tool_sha256": "3f954381b1dd1673e695424733b2e8e4db46c9fb9712caeabcab12a2f5daf9b6",
+  "python": "3.13.5",
+  "zlib": "1.3.1",
+  "limits": {
+    "source_bytes": 536870912,
+    "buffer_bytes": 65536,
+    "directory_bytes": 65536,
+    "inflated_metadata_bytes": 65536,
+    "xml_nodes": 128,
+    "measured_entries": 2,
+    "address_space_bytes": 536870912,
+    "workers": 1
+  },
+  "rows": [
+    {
+      "source_sha256": "760b0da0263587bfb8f9a26e2f82318c78b49a88283f7e0599fade8fb86d7274",
+      "source_bytes": 5977033,
+      "source_unchanged": true,
+      "status": "INVENTORIED",
+      "archive_offset": 160,
+      "directory_offset": 5974501,
+      "directory_bytes": 111,
+      "entries": [
+        {
+          "kind": "declared-pdf",
+          "local_header_offset": 176,
+          "payload_offset": 204,
+          "stored_bytes": 5973657,
+          "declared_uncompressed_bytes": 5973657,
+          "method": 0,
+          "flags": 0,
+          "declared_crc32": 2576993236,
+          "payload_sha256": "23d92580e2a547b1473f2b512aec23d25e944327441ba0abdf8f703d8dafd4b4",
+          "raw_crc_matches": true,
+          "pdf_header_in_first_1024_bytes": false
+        },
+        {
+          "kind": "metadata",
+          "local_header_offset": 5973861,
+          "payload_offset": 5973889,
+          "stored_bytes": 612,
+          "declared_uncompressed_bytes": 1007,
+          "method": 8,
+          "flags": 2,
+          "declared_crc32": 50066406,
+          "payload_sha256": "f5f6ad9e7b043f1f2a68c681a42f71e01d7ed2e8670bbcb072de903e7c8cc3a9",
+          "raw_crc_matches": false,
+          "pdf_header_in_first_1024_bytes": false,
+          "decoded_crc_matches": true,
+          "decoded_sha256": "9dfa3921efdbef79999c8ecf1bc9fa1d92e0e9d3b7a9a1323960a7cebbd68a85",
+          "xml_structure": [
+            {
+              "tag": "document-meta",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "view",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "read-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "page-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale",
+              "attribute_names": [],
+              "text_bytes": 3
+            },
+            {
+              "tag": "doi",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "file-id",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "structure",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "content",
+              "attribute_names": [
+                "page-count"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "item",
+              "attribute_names": [
+                "type"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "url",
+              "attribute_names": [],
+              "text_bytes": 19
+            },
+            {
+              "tag": "page-map",
+              "attribute_names": [],
+              "text_bytes": 583
+            }
+          ]
+        }
+      ],
+      "declared_pages_not_decoded": 100,
+      "rights_offset": 5974612,
+      "rights_xml_element_extent": 2394,
+      "rights_declared_bytes_including_whitespace": 2397,
+      "rights_version": "2.1",
+      "encryption_declarations": {
+        "meta": "1",
+        "catalog": "1",
+        "notes": "1",
+        "content": "1"
+      },
+      "rights_xml_structure": [
+        {
+          "tag": "right-meta",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "file-id",
+          "attribute_names": [],
+          "text_bytes": 32
+        },
+        {
+          "tag": "file-app",
+          "attribute_names": [],
+          "text_bytes": 108
+        },
+        {
+          "tag": "o-name",
+          "attribute_names": [],
+          "text_bytes": 4
+        },
+        {
+          "tag": "version",
+          "attribute_names": [],
+          "text_bytes": 3
+        },
+        {
+          "tag": "protect",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "encrypt",
+          "attribute_names": [
+            "catalog",
+            "content",
+            "meta",
+            "notes"
+          ],
+          "text_bytes": 0
+        },
+        {
+          "tag": "auth",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "update-url",
+          "attribute_names": [],
+          "text_bytes": 56
+        },
+        {
+          "tag": "reg-machine-url",
+          "attribute_names": [],
+          "text_bytes": 41
+        },
+        {
+          "tag": "permit",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [
+            "no-binding",
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [],
+          "text_bytes": 818
+        },
+        {
+          "tag": "password",
+          "attribute_names": [],
+          "text_bytes": 172
+        },
+        {
+          "tag": "iv",
+          "attribute_names": [],
+          "text_bytes": 44
+        },
+        {
+          "tag": "rights",
+          "attribute_names": [],
+          "text_bytes": 664
+        }
+      ],
+      "scope": "Container integrity and declared metadata only; no PDF recovery, decryption or irrecoverability proof",
+      "origin": {
+        "path": "issue-61/1.teb",
+        "source_revision": "7e1c35e7b6de34e21972fcd1752c2a7e99b4ad07",
+        "source_repository": "https://github.com/caj2pdf/CAJSamples"
+      }
+    },
+    {
+      "source_sha256": "b7dfd1fbf5a61d33e4d14e36b33b62fe4aa839361a1ab4c2f323041872b2c92c",
+      "source_bytes": 6008099,
+      "source_unchanged": true,
+      "status": "INVENTORIED",
+      "archive_offset": 160,
+      "directory_offset": 6005567,
+      "directory_bytes": 111,
+      "entries": [
+        {
+          "kind": "metadata",
+          "local_header_offset": 176,
+          "payload_offset": 204,
+          "stored_bytes": 612,
+          "declared_uncompressed_bytes": 1007,
+          "method": 8,
+          "flags": 2,
+          "declared_crc32": 1810446833,
+          "payload_sha256": "02f57f2a69ecaf73bf9b25c5937133d3d6dae119d835171a8f5baff1edee1a9e",
+          "raw_crc_matches": false,
+          "pdf_header_in_first_1024_bytes": false,
+          "decoded_crc_matches": true,
+          "decoded_sha256": "104181eac94a2b670222ffa92875c69c05914d893beb5e05f900b8a346b1e815",
+          "xml_structure": [
+            {
+              "tag": "document-meta",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "view",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "read-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "page-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale",
+              "attribute_names": [],
+              "text_bytes": 3
+            },
+            {
+              "tag": "doi",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "file-id",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "structure",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "content",
+              "attribute_names": [
+                "page-count"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "item",
+              "attribute_names": [
+                "type"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "url",
+              "attribute_names": [],
+              "text_bytes": 19
+            },
+            {
+              "tag": "page-map",
+              "attribute_names": [],
+              "text_bytes": 583
+            }
+          ]
+        },
+        {
+          "kind": "declared-pdf",
+          "local_header_offset": 816,
+          "payload_offset": 844,
+          "stored_bytes": 6004723,
+          "declared_uncompressed_bytes": 6004723,
+          "method": 0,
+          "flags": 0,
+          "declared_crc32": 157098651,
+          "payload_sha256": "f269300583f2479ca4f8f8fdce49213724d5dd2367a16dd1fe767453e6003a8c",
+          "raw_crc_matches": true,
+          "pdf_header_in_first_1024_bytes": false
+        }
+      ],
+      "declared_pages_not_decoded": 100,
+      "rights_offset": 6005678,
+      "rights_xml_element_extent": 2394,
+      "rights_declared_bytes_including_whitespace": 2397,
+      "rights_version": "2.1",
+      "encryption_declarations": {
+        "meta": "1",
+        "catalog": "1",
+        "notes": "1",
+        "content": "1"
+      },
+      "rights_xml_structure": [
+        {
+          "tag": "right-meta",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "file-id",
+          "attribute_names": [],
+          "text_bytes": 32
+        },
+        {
+          "tag": "file-app",
+          "attribute_names": [],
+          "text_bytes": 108
+        },
+        {
+          "tag": "o-name",
+          "attribute_names": [],
+          "text_bytes": 4
+        },
+        {
+          "tag": "version",
+          "attribute_names": [],
+          "text_bytes": 3
+        },
+        {
+          "tag": "protect",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "encrypt",
+          "attribute_names": [
+            "catalog",
+            "content",
+            "meta",
+            "notes"
+          ],
+          "text_bytes": 0
+        },
+        {
+          "tag": "auth",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "update-url",
+          "attribute_names": [],
+          "text_bytes": 56
+        },
+        {
+          "tag": "reg-machine-url",
+          "attribute_names": [],
+          "text_bytes": 41
+        },
+        {
+          "tag": "permit",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [
+            "no-binding",
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [],
+          "text_bytes": 818
+        },
+        {
+          "tag": "password",
+          "attribute_names": [],
+          "text_bytes": 172
+        },
+        {
+          "tag": "iv",
+          "attribute_names": [],
+          "text_bytes": 44
+        },
+        {
+          "tag": "rights",
+          "attribute_names": [],
+          "text_bytes": 664
+        }
+      ],
+      "scope": "Container integrity and declared metadata only; no PDF recovery, decryption or irrecoverability proof",
+      "origin": {
+        "path": "issue-61/2.teb",
+        "source_revision": "7e1c35e7b6de34e21972fcd1752c2a7e99b4ad07",
+        "source_repository": "https://github.com/caj2pdf/CAJSamples"
+      }
+    },
+    {
+      "source_sha256": "88efaaad1426a53de66557bd317eaf10ecd735cd3f0721317938d86c426f959a",
+      "source_bytes": 5886085,
+      "source_unchanged": true,
+      "status": "INVENTORIED",
+      "archive_offset": 160,
+      "directory_offset": 5883553,
+      "directory_bytes": 111,
+      "entries": [
+        {
+          "kind": "metadata",
+          "local_header_offset": 176,
+          "payload_offset": 204,
+          "stored_bytes": 614,
+          "declared_uncompressed_bytes": 1007,
+          "method": 8,
+          "flags": 2,
+          "declared_crc32": 1245725764,
+          "payload_sha256": "0611f0f30737bf1aa4f3d5cf9daa70edf6f5f56b67757dcc834f3605a88afbda",
+          "raw_crc_matches": false,
+          "pdf_header_in_first_1024_bytes": false,
+          "decoded_crc_matches": true,
+          "decoded_sha256": "1fa9a7df12cf7d06095ac5976ff4fb9091dbd6358bc12bcc5845b3028bbbb045",
+          "xml_structure": [
+            {
+              "tag": "document-meta",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "view",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "read-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "page-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale",
+              "attribute_names": [],
+              "text_bytes": 3
+            },
+            {
+              "tag": "doi",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "file-id",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "structure",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "content",
+              "attribute_names": [
+                "page-count"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "item",
+              "attribute_names": [
+                "type"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "url",
+              "attribute_names": [],
+              "text_bytes": 19
+            },
+            {
+              "tag": "page-map",
+              "attribute_names": [],
+              "text_bytes": 583
+            }
+          ]
+        },
+        {
+          "kind": "declared-pdf",
+          "local_header_offset": 818,
+          "payload_offset": 846,
+          "stored_bytes": 5882707,
+          "declared_uncompressed_bytes": 5882707,
+          "method": 0,
+          "flags": 0,
+          "declared_crc32": 1967552121,
+          "payload_sha256": "1066f958721b8fa91edc07a28df79d2b303d23d6b210071648dfdfa87d3e7e53",
+          "raw_crc_matches": true,
+          "pdf_header_in_first_1024_bytes": false
+        }
+      ],
+      "declared_pages_not_decoded": 100,
+      "rights_offset": 5883664,
+      "rights_xml_element_extent": 2394,
+      "rights_declared_bytes_including_whitespace": 2397,
+      "rights_version": "2.1",
+      "encryption_declarations": {
+        "meta": "1",
+        "catalog": "1",
+        "notes": "1",
+        "content": "1"
+      },
+      "rights_xml_structure": [
+        {
+          "tag": "right-meta",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "file-id",
+          "attribute_names": [],
+          "text_bytes": 32
+        },
+        {
+          "tag": "file-app",
+          "attribute_names": [],
+          "text_bytes": 108
+        },
+        {
+          "tag": "o-name",
+          "attribute_names": [],
+          "text_bytes": 4
+        },
+        {
+          "tag": "version",
+          "attribute_names": [],
+          "text_bytes": 3
+        },
+        {
+          "tag": "protect",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "encrypt",
+          "attribute_names": [
+            "catalog",
+            "content",
+            "meta",
+            "notes"
+          ],
+          "text_bytes": 0
+        },
+        {
+          "tag": "auth",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "update-url",
+          "attribute_names": [],
+          "text_bytes": 56
+        },
+        {
+          "tag": "reg-machine-url",
+          "attribute_names": [],
+          "text_bytes": 41
+        },
+        {
+          "tag": "permit",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [
+            "no-binding",
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [],
+          "text_bytes": 818
+        },
+        {
+          "tag": "password",
+          "attribute_names": [],
+          "text_bytes": 172
+        },
+        {
+          "tag": "iv",
+          "attribute_names": [],
+          "text_bytes": 44
+        },
+        {
+          "tag": "rights",
+          "attribute_names": [],
+          "text_bytes": 664
+        }
+      ],
+      "scope": "Container integrity and declared metadata only; no PDF recovery, decryption or irrecoverability proof",
+      "origin": {
+        "path": "issue-61/3.teb",
+        "source_revision": "7e1c35e7b6de34e21972fcd1752c2a7e99b4ad07",
+        "source_repository": "https://github.com/caj2pdf/CAJSamples"
+      }
+    },
+    {
+      "source_sha256": "84e6df33d3d0752e76b56ce262a5194871da765c3b61248c1a07d89c79e616f3",
+      "source_bytes": 5939922,
+      "source_unchanged": true,
+      "status": "INVENTORIED",
+      "archive_offset": 160,
+      "directory_offset": 5937391,
+      "directory_bytes": 110,
+      "entries": [
+        {
+          "kind": "declared-pdf",
+          "local_header_offset": 176,
+          "payload_offset": 204,
+          "stored_bytes": 5936546,
+          "declared_uncompressed_bytes": 5936546,
+          "method": 0,
+          "flags": 0,
+          "declared_crc32": 2594168465,
+          "payload_sha256": "3025c24c5c620a01b7add6837cde8abaa9f5f9f857690c4d543740e5dbbb5db5",
+          "raw_crc_matches": true,
+          "pdf_header_in_first_1024_bytes": false
+        },
+        {
+          "kind": "metadata",
+          "local_header_offset": 5936750,
+          "payload_offset": 5936778,
+          "stored_bytes": 613,
+          "declared_uncompressed_bytes": 1006,
+          "method": 8,
+          "flags": 2,
+          "declared_crc32": 2857039717,
+          "payload_sha256": "66673edd7d45bee463f3a5fe571bd22ed0ae76b38aff754dc76f71b6dbe3a2ed",
+          "raw_crc_matches": false,
+          "pdf_header_in_first_1024_bytes": false,
+          "decoded_crc_matches": true,
+          "decoded_sha256": "f35c5db197f6ff739d37d38e6a59535a6577ff2e973f91be2dab4d6f9e07a2a7",
+          "xml_structure": [
+            {
+              "tag": "document-meta",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "view",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "read-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "page-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale",
+              "attribute_names": [],
+              "text_bytes": 3
+            },
+            {
+              "tag": "doi",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "file-id",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "structure",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "content",
+              "attribute_names": [
+                "page-count"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "item",
+              "attribute_names": [
+                "type"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "url",
+              "attribute_names": [],
+              "text_bytes": 18
+            },
+            {
+              "tag": "page-map",
+              "attribute_names": [],
+              "text_bytes": 583
+            }
+          ]
+        }
+      ],
+      "declared_pages_not_decoded": 100,
+      "rights_offset": 5937501,
+      "rights_xml_element_extent": 2394,
+      "rights_declared_bytes_including_whitespace": 2397,
+      "rights_version": "2.1",
+      "encryption_declarations": {
+        "meta": "1",
+        "catalog": "1",
+        "notes": "1",
+        "content": "1"
+      },
+      "rights_xml_structure": [
+        {
+          "tag": "right-meta",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "file-id",
+          "attribute_names": [],
+          "text_bytes": 32
+        },
+        {
+          "tag": "file-app",
+          "attribute_names": [],
+          "text_bytes": 108
+        },
+        {
+          "tag": "o-name",
+          "attribute_names": [],
+          "text_bytes": 4
+        },
+        {
+          "tag": "version",
+          "attribute_names": [],
+          "text_bytes": 3
+        },
+        {
+          "tag": "protect",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "encrypt",
+          "attribute_names": [
+            "catalog",
+            "content",
+            "meta",
+            "notes"
+          ],
+          "text_bytes": 0
+        },
+        {
+          "tag": "auth",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "update-url",
+          "attribute_names": [],
+          "text_bytes": 56
+        },
+        {
+          "tag": "reg-machine-url",
+          "attribute_names": [],
+          "text_bytes": 41
+        },
+        {
+          "tag": "permit",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [
+            "no-binding",
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [],
+          "text_bytes": 818
+        },
+        {
+          "tag": "password",
+          "attribute_names": [],
+          "text_bytes": 172
+        },
+        {
+          "tag": "iv",
+          "attribute_names": [],
+          "text_bytes": 44
+        },
+        {
+          "tag": "rights",
+          "attribute_names": [],
+          "text_bytes": 664
+        }
+      ],
+      "scope": "Container integrity and declared metadata only; no PDF recovery, decryption or irrecoverability proof",
+      "origin": {
+        "path": "issue-61/4.teb",
+        "source_revision": "7e1c35e7b6de34e21972fcd1752c2a7e99b4ad07",
+        "source_repository": "https://github.com/caj2pdf/CAJSamples"
+      }
+    },
+    {
+      "source_sha256": "ba7efa391b926f72699a47b840c440fd0f1407f46800632ab8553fd92406dc30",
+      "source_bytes": 7973056,
+      "source_unchanged": true,
+      "status": "INVENTORIED",
+      "archive_offset": 160,
+      "directory_offset": 7970525,
+      "directory_bytes": 110,
+      "entries": [
+        {
+          "kind": "declared-pdf",
+          "local_header_offset": 176,
+          "payload_offset": 204,
+          "stored_bytes": 7969678,
+          "declared_uncompressed_bytes": 7969678,
+          "method": 0,
+          "flags": 0,
+          "declared_crc32": 907002353,
+          "payload_sha256": "b2fa92361a7b084ed6575e7d0835cb05f6d37779e210720a33be0bfc7c937709",
+          "raw_crc_matches": true,
+          "pdf_header_in_first_1024_bytes": false
+        },
+        {
+          "kind": "metadata",
+          "local_header_offset": 7969882,
+          "payload_offset": 7969910,
+          "stored_bytes": 615,
+          "declared_uncompressed_bytes": 1006,
+          "method": 8,
+          "flags": 2,
+          "declared_crc32": 3488661482,
+          "payload_sha256": "69409091e11feb86037fb3a49663663af8dd16347cf7e0467029c013a12194ae",
+          "raw_crc_matches": false,
+          "pdf_header_in_first_1024_bytes": false,
+          "decoded_crc_matches": true,
+          "decoded_sha256": "d9e17af39e0bea3c3434ee3ee96577c1cc2c17e2046df99b9ffb45679324c01b",
+          "xml_structure": [
+            {
+              "tag": "document-meta",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "view",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "read-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "page-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale",
+              "attribute_names": [],
+              "text_bytes": 3
+            },
+            {
+              "tag": "doi",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "file-id",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "structure",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "content",
+              "attribute_names": [
+                "page-count"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "item",
+              "attribute_names": [
+                "type"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "url",
+              "attribute_names": [],
+              "text_bytes": 18
+            },
+            {
+              "tag": "page-map",
+              "attribute_names": [],
+              "text_bytes": 583
+            }
+          ]
+        }
+      ],
+      "declared_pages_not_decoded": 100,
+      "rights_offset": 7970635,
+      "rights_xml_element_extent": 2394,
+      "rights_declared_bytes_including_whitespace": 2397,
+      "rights_version": "2.1",
+      "encryption_declarations": {
+        "meta": "1",
+        "catalog": "1",
+        "notes": "1",
+        "content": "1"
+      },
+      "rights_xml_structure": [
+        {
+          "tag": "right-meta",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "file-id",
+          "attribute_names": [],
+          "text_bytes": 32
+        },
+        {
+          "tag": "file-app",
+          "attribute_names": [],
+          "text_bytes": 108
+        },
+        {
+          "tag": "o-name",
+          "attribute_names": [],
+          "text_bytes": 4
+        },
+        {
+          "tag": "version",
+          "attribute_names": [],
+          "text_bytes": 3
+        },
+        {
+          "tag": "protect",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "encrypt",
+          "attribute_names": [
+            "catalog",
+            "content",
+            "meta",
+            "notes"
+          ],
+          "text_bytes": 0
+        },
+        {
+          "tag": "auth",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "update-url",
+          "attribute_names": [],
+          "text_bytes": 56
+        },
+        {
+          "tag": "reg-machine-url",
+          "attribute_names": [],
+          "text_bytes": 41
+        },
+        {
+          "tag": "permit",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [
+            "no-binding",
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [],
+          "text_bytes": 818
+        },
+        {
+          "tag": "password",
+          "attribute_names": [],
+          "text_bytes": 172
+        },
+        {
+          "tag": "iv",
+          "attribute_names": [],
+          "text_bytes": 44
+        },
+        {
+          "tag": "rights",
+          "attribute_names": [],
+          "text_bytes": 664
+        }
+      ],
+      "scope": "Container integrity and declared metadata only; no PDF recovery, decryption or irrecoverability proof",
+      "origin": {
+        "path": "issue-61/5.teb",
+        "source_revision": "7e1c35e7b6de34e21972fcd1752c2a7e99b4ad07",
+        "source_repository": "https://github.com/caj2pdf/CAJSamples"
+      }
+    },
+    {
+      "source_sha256": "d5f87439a53ce6e587db274cb68ab36f731fe0272b24c76831e5c525e703c8a3",
+      "source_bytes": 5702269,
+      "source_unchanged": true,
+      "status": "INVENTORIED",
+      "archive_offset": 160,
+      "directory_offset": 5699737,
+      "directory_bytes": 111,
+      "entries": [
+        {
+          "kind": "metadata",
+          "local_header_offset": 176,
+          "payload_offset": 204,
+          "stored_bytes": 615,
+          "declared_uncompressed_bytes": 1007,
+          "method": 8,
+          "flags": 2,
+          "declared_crc32": 92316341,
+          "payload_sha256": "8679b681cb1b02d4bdb4459a0a6a4e31f5c7a2cfbf316643054b68b0a69772a6",
+          "raw_crc_matches": false,
+          "pdf_header_in_first_1024_bytes": false,
+          "decoded_crc_matches": true,
+          "decoded_sha256": "a7f88254c040769a2f5a6b8bf38ac5b016577f87bbe6747f83d04660825a84b6",
+          "xml_structure": [
+            {
+              "tag": "document-meta",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "view",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "read-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "page-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale",
+              "attribute_names": [],
+              "text_bytes": 3
+            },
+            {
+              "tag": "doi",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "file-id",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "structure",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "content",
+              "attribute_names": [
+                "page-count"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "item",
+              "attribute_names": [
+                "type"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "url",
+              "attribute_names": [],
+              "text_bytes": 19
+            },
+            {
+              "tag": "page-map",
+              "attribute_names": [],
+              "text_bytes": 583
+            }
+          ]
+        },
+        {
+          "kind": "declared-pdf",
+          "local_header_offset": 819,
+          "payload_offset": 847,
+          "stored_bytes": 5698890,
+          "declared_uncompressed_bytes": 5698890,
+          "method": 0,
+          "flags": 0,
+          "declared_crc32": 2841977808,
+          "payload_sha256": "993e9f17f41390855315748fddcdd36a8a620e400487f15f2b5527c1d58040c3",
+          "raw_crc_matches": true,
+          "pdf_header_in_first_1024_bytes": false
+        }
+      ],
+      "declared_pages_not_decoded": 100,
+      "rights_offset": 5699848,
+      "rights_xml_element_extent": 2394,
+      "rights_declared_bytes_including_whitespace": 2397,
+      "rights_version": "2.1",
+      "encryption_declarations": {
+        "meta": "1",
+        "catalog": "1",
+        "notes": "1",
+        "content": "1"
+      },
+      "rights_xml_structure": [
+        {
+          "tag": "right-meta",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "file-id",
+          "attribute_names": [],
+          "text_bytes": 32
+        },
+        {
+          "tag": "file-app",
+          "attribute_names": [],
+          "text_bytes": 108
+        },
+        {
+          "tag": "o-name",
+          "attribute_names": [],
+          "text_bytes": 4
+        },
+        {
+          "tag": "version",
+          "attribute_names": [],
+          "text_bytes": 3
+        },
+        {
+          "tag": "protect",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "encrypt",
+          "attribute_names": [
+            "catalog",
+            "content",
+            "meta",
+            "notes"
+          ],
+          "text_bytes": 0
+        },
+        {
+          "tag": "auth",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "update-url",
+          "attribute_names": [],
+          "text_bytes": 56
+        },
+        {
+          "tag": "reg-machine-url",
+          "attribute_names": [],
+          "text_bytes": 41
+        },
+        {
+          "tag": "permit",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [
+            "no-binding",
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [],
+          "text_bytes": 818
+        },
+        {
+          "tag": "password",
+          "attribute_names": [],
+          "text_bytes": 172
+        },
+        {
+          "tag": "iv",
+          "attribute_names": [],
+          "text_bytes": 44
+        },
+        {
+          "tag": "rights",
+          "attribute_names": [],
+          "text_bytes": 664
+        }
+      ],
+      "scope": "Container integrity and declared metadata only; no PDF recovery, decryption or irrecoverability proof",
+      "origin": {
+        "path": "issue-61/6.teb",
+        "source_revision": "7e1c35e7b6de34e21972fcd1752c2a7e99b4ad07",
+        "source_repository": "https://github.com/caj2pdf/CAJSamples"
+      }
+    },
+    {
+      "source_sha256": "fc773e95124ea86f7a7ecf358933ec1bf260ea535dcfd5d2ad38ce816d21a5fd",
+      "source_bytes": 5520323,
+      "source_unchanged": true,
+      "status": "INVENTORIED",
+      "archive_offset": 160,
+      "directory_offset": 5517791,
+      "directory_bytes": 111,
+      "entries": [
+        {
+          "kind": "metadata",
+          "local_header_offset": 176,
+          "payload_offset": 204,
+          "stored_bytes": 614,
+          "declared_uncompressed_bytes": 1007,
+          "method": 8,
+          "flags": 2,
+          "declared_crc32": 1938027182,
+          "payload_sha256": "4b6cb1ce3bad9838d75a5316b684dedc788e4dc81438e22b6f7731efd71a93d8",
+          "raw_crc_matches": false,
+          "pdf_header_in_first_1024_bytes": false,
+          "decoded_crc_matches": true,
+          "decoded_sha256": "7249451dbc82c4f1ffb1b0594eb8ccb0fc04395766307a4ab500906fd1d9f3c8",
+          "xml_structure": [
+            {
+              "tag": "document-meta",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "view",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "read-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "page-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale",
+              "attribute_names": [],
+              "text_bytes": 3
+            },
+            {
+              "tag": "doi",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "file-id",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "structure",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "content",
+              "attribute_names": [
+                "page-count"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "item",
+              "attribute_names": [
+                "type"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "url",
+              "attribute_names": [],
+              "text_bytes": 19
+            },
+            {
+              "tag": "page-map",
+              "attribute_names": [],
+              "text_bytes": 583
+            }
+          ]
+        },
+        {
+          "kind": "declared-pdf",
+          "local_header_offset": 818,
+          "payload_offset": 846,
+          "stored_bytes": 5516945,
+          "declared_uncompressed_bytes": 5516945,
+          "method": 0,
+          "flags": 0,
+          "declared_crc32": 3828427447,
+          "payload_sha256": "18ec718f04cd8c4f10368146d46366bb5695f44360f193756fffce948634e038",
+          "raw_crc_matches": true,
+          "pdf_header_in_first_1024_bytes": false
+        }
+      ],
+      "declared_pages_not_decoded": 100,
+      "rights_offset": 5517902,
+      "rights_xml_element_extent": 2394,
+      "rights_declared_bytes_including_whitespace": 2397,
+      "rights_version": "2.1",
+      "encryption_declarations": {
+        "meta": "1",
+        "catalog": "1",
+        "notes": "1",
+        "content": "1"
+      },
+      "rights_xml_structure": [
+        {
+          "tag": "right-meta",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "file-id",
+          "attribute_names": [],
+          "text_bytes": 32
+        },
+        {
+          "tag": "file-app",
+          "attribute_names": [],
+          "text_bytes": 108
+        },
+        {
+          "tag": "o-name",
+          "attribute_names": [],
+          "text_bytes": 4
+        },
+        {
+          "tag": "version",
+          "attribute_names": [],
+          "text_bytes": 3
+        },
+        {
+          "tag": "protect",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "encrypt",
+          "attribute_names": [
+            "catalog",
+            "content",
+            "meta",
+            "notes"
+          ],
+          "text_bytes": 0
+        },
+        {
+          "tag": "auth",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "update-url",
+          "attribute_names": [],
+          "text_bytes": 56
+        },
+        {
+          "tag": "reg-machine-url",
+          "attribute_names": [],
+          "text_bytes": 41
+        },
+        {
+          "tag": "permit",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [
+            "no-binding",
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [],
+          "text_bytes": 818
+        },
+        {
+          "tag": "password",
+          "attribute_names": [],
+          "text_bytes": 172
+        },
+        {
+          "tag": "iv",
+          "attribute_names": [],
+          "text_bytes": 44
+        },
+        {
+          "tag": "rights",
+          "attribute_names": [],
+          "text_bytes": 664
+        }
+      ],
+      "scope": "Container integrity and declared metadata only; no PDF recovery, decryption or irrecoverability proof",
+      "origin": {
+        "path": "issue-61/7.teb",
+        "source_revision": "7e1c35e7b6de34e21972fcd1752c2a7e99b4ad07",
+        "source_repository": "https://github.com/caj2pdf/CAJSamples"
+      }
+    },
+    {
+      "source_sha256": "8c406195b11f48186411a18edf0eb7e02db8440cff376bbd8045cd09b0e2aafe",
+      "source_bytes": 5702269,
+      "status": "MISSING_DIRECTORY",
+      "checker_error": "unmeasured central record",
+      "source_unchanged": true,
+      "origin": {
+        "path": "external/github/8c406195b11f48186411a18edf0eb7e02db8440cff376bbd8045cd09b0e2aafe.caj",
+        "source_repository": "https://github.com/caj2pdf/CAJSamples",
+        "source_path": "6.teb",
+        "source_url": "https://github.com/caj2pdf/CAJSamples/issues/1#issuecomment-783200987",
+        "download_url": "https://github.com/caj2pdf/CAJSamples/files/6020638/teb_samples.zip",
+        "archive_member": "6.teb",
+        "attachment_sha256": "334d2d3cc586a9cafa18a8f8dedb6098bca34ee4d7abb03c406c14678d2136a1"
+      }
+    },
+    {
+      "source_sha256": "d2ef9d7327b9d8771e625bc7773e9a0484eb5f5bfd165ca29b44dcf7466ef82f",
+      "source_bytes": 18146296,
+      "source_unchanged": true,
+      "status": "INVENTORIED",
+      "archive_offset": 160,
+      "directory_offset": 18143759,
+      "directory_bytes": 111,
+      "entries": [
+        {
+          "kind": "declared-pdf",
+          "local_header_offset": 176,
+          "payload_offset": 204,
+          "stored_bytes": 18143023,
+          "declared_uncompressed_bytes": 18143023,
+          "method": 0,
+          "flags": 0,
+          "declared_crc32": 2996850268,
+          "payload_sha256": "b490f416207d791a3287c2fa7826ad2c4e4e5ab466ce6bfb4300a47cc3a1e92c",
+          "raw_crc_matches": true,
+          "pdf_header_in_first_1024_bytes": false
+        },
+        {
+          "kind": "metadata",
+          "local_header_offset": 18143227,
+          "payload_offset": 18143255,
+          "stored_bytes": 504,
+          "declared_uncompressed_bytes": 812,
+          "method": 8,
+          "flags": 2,
+          "declared_crc32": 1638785162,
+          "payload_sha256": "5765cd760795f1c2ea92a2747fb6f962151d7bd8494322d71190a3a1c1567f02",
+          "raw_crc_matches": false,
+          "pdf_header_in_first_1024_bytes": false,
+          "decoded_crc_matches": true,
+          "decoded_sha256": "d518d45454b46dfc3d10ff9e31d6713352ef39a226b50ea2ab39a4ad31dc6cbf",
+          "xml_structure": [
+            {
+              "tag": "document-meta",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "view",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "read-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "page-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale-mode",
+              "attribute_names": [],
+              "text_bytes": 1
+            },
+            {
+              "tag": "scale",
+              "attribute_names": [],
+              "text_bytes": 3
+            },
+            {
+              "tag": "doi",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "file-id",
+              "attribute_names": [],
+              "text_bytes": 36
+            },
+            {
+              "tag": "structure",
+              "attribute_names": [],
+              "text_bytes": 0
+            },
+            {
+              "tag": "content",
+              "attribute_names": [
+                "page-count"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "item",
+              "attribute_names": [
+                "type"
+              ],
+              "text_bytes": 0
+            },
+            {
+              "tag": "url",
+              "attribute_names": [],
+              "text_bytes": 19
+            },
+            {
+              "tag": "page-map",
+              "attribute_names": [],
+              "text_bytes": 389
+            }
+          ]
+        }
+      ],
+      "declared_pages_not_decoded": 68,
+      "rights_offset": 18143870,
+      "rights_xml_element_extent": 2398,
+      "rights_declared_bytes_including_whitespace": 2401,
+      "rights_version": "2.1",
+      "encryption_declarations": {
+        "meta": "1",
+        "catalog": "1",
+        "notes": "1",
+        "content": "1"
+      },
+      "rights_xml_structure": [
+        {
+          "tag": "right-meta",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "file-id",
+          "attribute_names": [],
+          "text_bytes": 32
+        },
+        {
+          "tag": "file-app",
+          "attribute_names": [],
+          "text_bytes": 108
+        },
+        {
+          "tag": "o-name",
+          "attribute_names": [],
+          "text_bytes": 4
+        },
+        {
+          "tag": "version",
+          "attribute_names": [],
+          "text_bytes": 3
+        },
+        {
+          "tag": "protect",
+          "attribute_names": [],
+          "text_bytes": 0
+        },
+        {
+          "tag": "encrypt",
+          "attribute_names": [
+            "catalog",
+            "content",
+            "meta",
+            "notes"
+          ],
+          "text_bytes": 0
+        },
+        {
+          "tag": "auth",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "update-url",
+          "attribute_names": [],
+          "text_bytes": 56
+        },
+        {
+          "tag": "reg-machine-url",
+          "attribute_names": [],
+          "text_bytes": 41
+        },
+        {
+          "tag": "permit",
+          "attribute_names": [
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [
+            "no-binding",
+            "type"
+          ],
+          "text_bytes": 1
+        },
+        {
+          "tag": "cert",
+          "attribute_names": [],
+          "text_bytes": 822
+        },
+        {
+          "tag": "password",
+          "attribute_names": [],
+          "text_bytes": 172
+        },
+        {
+          "tag": "iv",
+          "attribute_names": [],
+          "text_bytes": 44
+        },
+        {
+          "tag": "rights",
+          "attribute_names": [],
+          "text_bytes": 664
+        }
+      ],
+      "scope": "Container integrity and declared metadata only; no PDF recovery, decryption or irrecoverability proof",
+      "origin": {
+        "path": "external/github/d2ef9d7327b9d8771e625bc7773e9a0484eb5f5bfd165ca29b44dcf7466ef82f.caj",
+        "source_repository": "https://github.com/ce-amtic/caj2pdf-actions",
+        "source_path": "file.caj",
+        "source_url": "https://github.com/ce-amtic/caj2pdf-actions/blob/915407732d196dc76c468c657791c6f3ea9a6d5a/file.caj",
+        "download_url": "https://raw.githubusercontent.com/ce-amtic/caj2pdf-actions/915407732d196dc76c468c657791c6f3ea9a6d5a/file.caj",
+        "source_revision": "915407732d196dc76c468c657791c6f3ea9a6d5a"
+      }
+    }
+  ],
+  "zero_suffix_comparison": {
+    "damaged_sha256": "8c406195b11f48186411a18edf0eb7e02db8440cff376bbd8045cd09b0e2aafe",
+    "intact_candidate_sha256": "d5f87439a53ce6e587db274cb68ab36f731fe0272b24c76831e5c525e703c8a3",
+    "source_bytes": 5702269,
+    "identical_prefix_bytes": 4194304,
+    "zero_suffix_bytes": 1507965,
+    "different_byte_count": 1502134,
+    "both_sources_unchanged": true,
+    "scope": "Separate candidate matches the surviving prefix; no automatic substitution or recovered-source claim"
+  },
+  "attachment_identity": {
+    "url": "https://github.com/caj2pdf/CAJSamples/files/6020638/teb_samples.zip",
+    "archive_bytes": 9392366,
+    "archive_sha256": "334d2d3cc586a9cafa18a8f8dedb6098bca34ee4d7abb03c406c14678d2136a1",
+    "cached_and_fresh_identical": true,
+    "members": [
+      {
+        "member": "6.teb",
+        "bytes": 5702269,
+        "sha256": "8c406195b11f48186411a18edf0eb7e02db8440cff376bbd8045cd09b0e2aafe",
+        "declared_zip_crc32": 1826993174,
+        "computed_zip_crc32": 1826993174,
+        "crc_matches": true,
+        "nonzero_bytes_after_4mib": 0
+      },
+      {
+        "member": "7.teb",
+        "bytes": 5520323,
+        "sha256": "fc773e95124ea86f7a7ecf358933ec1bf260ea535dcfd5d2ad38ce816d21a5fd",
+        "declared_zip_crc32": 1201373713,
+        "computed_zip_crc32": 1201373713,
+        "crc_matches": true,
+        "nonzero_bytes_after_4mib": 1320163
+      }
+    ]
+  },
+  "intact_candidate_identity": {
+    "repository": "caj2pdf/CAJSamples",
+    "revision": "7e1c35e7b6de34e21972fcd1752c2a7e99b4ad07",
+    "path": "issue-61/6.teb",
+    "git_blob_sha1": "77f7d036ab61c1b785d0a1a426e510a9e5700944",
+    "size_bytes": 5702269,
+    "sha256": "d5f87439a53ce6e587db274cb68ab36f731fe0272b24c76831e5c525e703c8a3",
+    "computed_blob_matches_github": true
+  },
+  "existing_node_chromium_evidence": {
+    "scope": "Earlier complete runtime receipt; not rerun or relabeled as fresh in this research follow-up.",
+    "path": "research/notes/current-corpus-runtime-20261008.json",
+    "sha256": "d1bba8bb320842e9a875af502ae3df48be583f5ca5a54a6086eaed5402d242b5"
+  },
+  "viewer": {
+    "image": "sha256:cb5049d3448b6d5bcfd371cf195d522d637869dce075cb1650d74198875171de",
+    "version": "9.0.0.24093 Linux x86_64",
+    "network": "none",
+    "read_only_root_and_inputs": true,
+    "unprivileged_user": "1000:1000",
+    "capabilities_dropped": "ALL",
+    "no_new_privileges": true,
+    "memory_and_swap_bytes": 2147483648,
+    "cpus": 2,
+    "pids": 256,
+    "hard_lifetime_seconds": 90,
+    "initial_runner_sha256": "5f0d2987aefad48e1da48dcfd524983dccb2bf854695377913fb1ee6e2ecf065",
+    "paired_runner_sha256": "807ab3c551793d4a3b0bcbcd4b5a8dd034f221bf3437ca25140ba9d2b15d5d64",
+    "sessions": [
+      {
+        "input_label": "760b0da02635.teb",
+        "source_sha256": "760b0da0263587bfb8f9a26e2f82318c78b49a88283f7e0599fade8fb86d7274",
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "outcome": "validation_server_connection_error",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.365,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.68,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.995,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.31,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          }
+        ],
+        "final_rgb_sha256": "c4e8fb9f3455c01ce622d724afb03827f8098742a17c4b8c0cc10da215c05388",
+        "final_20_25s_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "cgroup_memory_peak_bytes": 271540224,
+        "scope": "Offline open only; no page/zoom action, full-document rendering or general readiness claim"
+      },
+      {
+        "input_label": "84e6df33d3d0.teb",
+        "source_sha256": "84e6df33d3d0752e76b56ce262a5194871da765c3b61248c1a07d89c79e616f3",
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "outcome": "validation_server_connection_error",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "final_20_25s_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "cgroup_memory_peak_bytes": 272760832,
+        "scope": "Offline open only; no page/zoom action, full-document rendering or general readiness claim"
+      },
+      {
+        "input_label": "88efaaad1426.teb",
+        "source_sha256": "88efaaad1426a53de66557bd317eaf10ecd735cd3f0721317938d86c426f959a",
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "outcome": "validation_server_connection_error",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "final_20_25s_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "cgroup_memory_peak_bytes": 271327232,
+        "scope": "Offline open only; no page/zoom action, full-document rendering or general readiness claim"
+      },
+      {
+        "input_label": "8c406195b11f.teb",
+        "source_sha256": "8c406195b11f48186411a18edf0eb7e02db8440cff376bbd8045cd09b0e2aafe",
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "outcome": "unknown_error_literal_Code_percent_d",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.995,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.31,
+            "png_sha256": "a8706e2edffde397f911252be4c2254acfc0efe232ca1dc33389387c04181d69"
+          }
+        ],
+        "final_rgb_sha256": "707562e5eac3ad69d8b3e3473ae4cb8350548b5437600b825ff9692fcb94336e",
+        "final_20_25s_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "cgroup_memory_peak_bytes": 272531456,
+        "scope": "Offline open only; no page/zoom action, full-document rendering or general readiness claim"
+      },
+      {
+        "input_label": "b7dfd1fbf5a6.teb",
+        "source_sha256": "b7dfd1fbf5a61d33e4d14e36b33b62fe4aa839361a1ab4c2f323041872b2c92c",
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "outcome": "validation_server_connection_error",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "final_20_25s_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "cgroup_memory_peak_bytes": 269725696,
+        "scope": "Offline open only; no page/zoom action, full-document rendering or general readiness claim"
+      },
+      {
+        "input_label": "ba7efa391b92.teb",
+        "source_sha256": "ba7efa391b926f72699a47b840c440fd0f1407f46800632ab8553fd92406dc30",
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "outcome": "validation_server_connection_error",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "final_20_25s_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "cgroup_memory_peak_bytes": 269553664,
+        "scope": "Offline open only; no page/zoom action, full-document rendering or general readiness claim"
+      },
+      {
+        "input_label": "d2ef9d7327b9.caj",
+        "source_sha256": "d2ef9d7327b9d8771e625bc7773e9a0484eb5f5bfd165ca29b44dcf7466ef82f",
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "outcome": "validation_server_connection_error",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          }
+        ],
+        "final_rgb_sha256": "c4e8fb9f3455c01ce622d724afb03827f8098742a17c4b8c0cc10da215c05388",
+        "final_20_25s_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "cgroup_memory_peak_bytes": 273317888,
+        "scope": "Offline open only; no page/zoom action, full-document rendering or general readiness claim"
+      },
+      {
+        "input_label": "d2ef9d7327b9.teb",
+        "source_sha256": "d2ef9d7327b9d8771e625bc7773e9a0484eb5f5bfd165ca29b44dcf7466ef82f",
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "outcome": "validation_server_connection_error",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "final_20_25s_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "cgroup_memory_peak_bytes": 269840384,
+        "scope": "Offline open only; no page/zoom action, full-document rendering or general readiness claim"
+      },
+      {
+        "input_label": "d5f87439a53c.teb",
+        "source_sha256": "d5f87439a53ce6e587db274cb68ab36f731fe0272b24c76831e5c525e703c8a3",
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "outcome": "validation_server_connection_error",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.63,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.945,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.26,
+            "png_sha256": "4d75957089656450379eca10e356f75087c3bd301fb7e62c71a0d9bc43e552a2"
+          }
+        ],
+        "final_rgb_sha256": "c4e8fb9f3455c01ce622d724afb03827f8098742a17c4b8c0cc10da215c05388",
+        "final_20_25s_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "cgroup_memory_peak_bytes": 273321984,
+        "scope": "Offline open only; no page/zoom action, full-document rendering or general readiness claim"
+      },
+      {
+        "input_label": "fc773e95124e.teb",
+        "source_sha256": "fc773e95124ea86f7a7ecf358933ec1bf260ea535dcfd5d2ad38ce816d21a5fd",
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "outcome": "validation_server_connection_error",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.315,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.629,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.944,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.259,
+            "png_sha256": "158d72bfe29d57893c5ee7353f89d361226562aaa21cfe315c0783d706fc8d80"
+          }
+        ],
+        "final_rgb_sha256": "76f087328930d386aca7b3d2f4c9aaa3181e429ad0d50042959a230fb39dc7cb",
+        "final_20_25s_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "cgroup_memory_peak_bytes": 273326080,
+        "scope": "Offline open only; no page/zoom action, full-document rendering or general readiness claim"
+      },
+      {
+        "input_label": "positive.pdf",
+        "source_sha256": "28aa0482fd2d3b0244374f27196ac76a14896de380bde09cbb9925891c033e13",
+        "ui_font_sha256": "b76b0433203017ca80401b2ee0dd69350349871c4b19d504c34dbdd80541690a",
+        "outcome": "original_control_opened_2_pages_2_outlines",
+        "captures": [
+          {
+            "label": "initial",
+            "seconds_after_launch": 5.365,
+            "png_sha256": "d4e5296be25fb8cf51f95e6fd4fc07378efa602673fbc14afeded6042214bd95"
+          },
+          {
+            "label": "after-10s",
+            "seconds_after_launch": 10.679,
+            "png_sha256": "d4e5296be25fb8cf51f95e6fd4fc07378efa602673fbc14afeded6042214bd95"
+          },
+          {
+            "label": "after-20s",
+            "seconds_after_launch": 20.994,
+            "png_sha256": "d4e5296be25fb8cf51f95e6fd4fc07378efa602673fbc14afeded6042214bd95"
+          },
+          {
+            "label": "after-25s",
+            "seconds_after_launch": 26.309,
+            "png_sha256": "d4e5296be25fb8cf51f95e6fd4fc07378efa602673fbc14afeded6042214bd95"
+          }
+        ],
+        "final_rgb_sha256": "39cc16889d95a0d79f856ba7982c2a6f9e929c520cb32588c878ddbc0624ce6a",
+        "final_20_25s_identical": true,
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "cgroup_memory_peak_bytes": 243396608,
+        "scope": "Offline open only; no page/zoom action, full-document rendering or general readiness claim"
+      }
+    ]
+  },
+  "attempts": [
+    {
+      "step": "Earlier seven-source research record",
+      "result": "Incorrect archive-length/type interpretation and blanket CRC-failure claim are superseded. They were not evidence of an irrecoverable format."
+    },
+    {
+      "step": "Exploratory framing",
+      "result": "Treating the old length word as archive extent failed XML parsing; using standard 30-byte local headers failed filename decoding. A guessed standard directory-prefix layout was also refused. Measured 16/28/40-byte framing corrected these interpretations."
+    },
+    {
+      "step": "First complete-profile scan",
+      "result": "Seven inventories completed before the eighth source exposed a zero-filled directory. It is retained as missing structure, not discarded or repaired."
+    },
+    {
+      "step": "First bounded checker run",
+      "result": "Initially over-narrow decimal-only internal names and an XML-footer extent excluding three whitespace bytes were refused. Hexadecimal names and measured footer-inclusive whitespace extents were incorporated before the final run."
+    },
+    {
+      "step": "Original control review",
+      "result": "An initial negative test removed only an optional final newline and incorrectly expected refusal. It now preserves that valid variant and tests an actually truncated numeric footer instead."
+    }
+  ],
+  "public_sources": [
+    {
+      "url": "https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT",
+      "use": "Public ZIP local/central/CRC baseline only; TEB deviations are independently observed bytes."
+    },
+    {
+      "url": "https://cajviewer.cnki.net/download.html",
+      "use": "Fresh fetch failed; existing pinned installer/image remains the measured viewer, not a new vendor-download claim."
+    }
+  ],
+  "remaining": [
+    "Actual declared-PDF wrapping, key derivation and validated credential requirements are unestablished; no endpoint was contacted and no credential supplied.",
+    "The eight complete container CRCs verify stored bytes, not plaintext PDF content, authored page count, geometry, outlines or recoverability.",
+    "The damaged attachment needs missing bytes or a separate intact edition; its prefix-matching catalog candidate is not silently substituted.",
+    "Stable error screenshots do not resolve #441 or prove that network access alone would make any protected source readable."
+  ],
+  "process_status": {
+    "VmPeak": "79480 kB",
+    "VmHWM": "60828 kB"
+  },
+  "elapsed_seconds": 1.6108063831925392,
+  "fresh_native_before_diagnostic_fix": [
+    {
+      "source_sha256": "760b0da0263587bfb8f9a26e2f82318c78b49a88283f7e0599fade8fb86d7274",
+      "inspect_exit": 0,
+      "inspection": {
+        "schema_version": 1,
+        "format": "TEB",
+        "variant": null,
+        "conversion_supported": false,
+        "page_count": null,
+        "has_outline": null,
+        "bookmark_count": null,
+        "outline_warnings": null,
+        "unsupported_reason": "drm-encrypted"
+      },
+      "convert_exit": 1,
+      "convert_stderr": "caj2pdf: error: cannot convert '<external-corpus>/issue-61/1.teb': TEB input is a DRM-encrypted CNKI container; its document content is encrypted and cannot be converted",
+      "output_absent": true
+    },
+    {
+      "source_sha256": "b7dfd1fbf5a61d33e4d14e36b33b62fe4aa839361a1ab4c2f323041872b2c92c",
+      "inspect_exit": 0,
+      "inspection": {
+        "schema_version": 1,
+        "format": "TEB",
+        "variant": null,
+        "conversion_supported": false,
+        "page_count": null,
+        "has_outline": null,
+        "bookmark_count": null,
+        "outline_warnings": null,
+        "unsupported_reason": "drm-encrypted"
+      },
+      "convert_exit": 1,
+      "convert_stderr": "caj2pdf: error: cannot convert '<external-corpus>/issue-61/2.teb': TEB input is a DRM-encrypted CNKI container; its document content is encrypted and cannot be converted",
+      "output_absent": true
+    },
+    {
+      "source_sha256": "88efaaad1426a53de66557bd317eaf10ecd735cd3f0721317938d86c426f959a",
+      "inspect_exit": 0,
+      "inspection": {
+        "schema_version": 1,
+        "format": "TEB",
+        "variant": null,
+        "conversion_supported": false,
+        "page_count": null,
+        "has_outline": null,
+        "bookmark_count": null,
+        "outline_warnings": null,
+        "unsupported_reason": "drm-encrypted"
+      },
+      "convert_exit": 1,
+      "convert_stderr": "caj2pdf: error: cannot convert '<external-corpus>/issue-61/3.teb': TEB input is a DRM-encrypted CNKI container; its document content is encrypted and cannot be converted",
+      "output_absent": true
+    },
+    {
+      "source_sha256": "84e6df33d3d0752e76b56ce262a5194871da765c3b61248c1a07d89c79e616f3",
+      "inspect_exit": 0,
+      "inspection": {
+        "schema_version": 1,
+        "format": "TEB",
+        "variant": null,
+        "conversion_supported": false,
+        "page_count": null,
+        "has_outline": null,
+        "bookmark_count": null,
+        "outline_warnings": null,
+        "unsupported_reason": "drm-encrypted"
+      },
+      "convert_exit": 1,
+      "convert_stderr": "caj2pdf: error: cannot convert '<external-corpus>/issue-61/4.teb': TEB input is a DRM-encrypted CNKI container; its document content is encrypted and cannot be converted",
+      "output_absent": true
+    },
+    {
+      "source_sha256": "ba7efa391b926f72699a47b840c440fd0f1407f46800632ab8553fd92406dc30",
+      "inspect_exit": 0,
+      "inspection": {
+        "schema_version": 1,
+        "format": "TEB",
+        "variant": null,
+        "conversion_supported": false,
+        "page_count": null,
+        "has_outline": null,
+        "bookmark_count": null,
+        "outline_warnings": null,
+        "unsupported_reason": "drm-encrypted"
+      },
+      "convert_exit": 1,
+      "convert_stderr": "caj2pdf: error: cannot convert '<external-corpus>/issue-61/5.teb': TEB input is a DRM-encrypted CNKI container; its document content is encrypted and cannot be converted",
+      "output_absent": true
+    },
+    {
+      "source_sha256": "d5f87439a53ce6e587db274cb68ab36f731fe0272b24c76831e5c525e703c8a3",
+      "inspect_exit": 0,
+      "inspection": {
+        "schema_version": 1,
+        "format": "TEB",
+        "variant": null,
+        "conversion_supported": false,
+        "page_count": null,
+        "has_outline": null,
+        "bookmark_count": null,
+        "outline_warnings": null,
+        "unsupported_reason": "drm-encrypted"
+      },
+      "convert_exit": 1,
+      "convert_stderr": "caj2pdf: error: cannot convert '<external-corpus>/issue-61/6.teb': TEB input is a DRM-encrypted CNKI container; its document content is encrypted and cannot be converted",
+      "output_absent": true
+    },
+    {
+      "source_sha256": "fc773e95124ea86f7a7ecf358933ec1bf260ea535dcfd5d2ad38ce816d21a5fd",
+      "inspect_exit": 0,
+      "inspection": {
+        "schema_version": 1,
+        "format": "TEB",
+        "variant": null,
+        "conversion_supported": false,
+        "page_count": null,
+        "has_outline": null,
+        "bookmark_count": null,
+        "outline_warnings": null,
+        "unsupported_reason": "drm-encrypted"
+      },
+      "convert_exit": 1,
+      "convert_stderr": "caj2pdf: error: cannot convert '<external-corpus>/issue-61/7.teb': TEB input is a DRM-encrypted CNKI container; its document content is encrypted and cannot be converted",
+      "output_absent": true
+    },
+    {
+      "source_sha256": "8c406195b11f48186411a18edf0eb7e02db8440cff376bbd8045cd09b0e2aafe",
+      "inspect_exit": 0,
+      "inspection": {
+        "schema_version": 1,
+        "format": "TEB",
+        "variant": null,
+        "conversion_supported": false,
+        "page_count": null,
+        "has_outline": null,
+        "bookmark_count": null,
+        "outline_warnings": null,
+        "unsupported_reason": "drm-encrypted"
+      },
+      "convert_exit": 1,
+      "convert_stderr": "caj2pdf: error: cannot convert '<external-corpus>/external/github/8c406195b11f48186411a18edf0eb7e02db8440cff376bbd8045cd09b0e2aafe.caj': TEB input is a DRM-encrypted CNKI container; its document content is encrypted and cannot be converted",
+      "output_absent": true
+    },
+    {
+      "source_sha256": "d2ef9d7327b9d8771e625bc7773e9a0484eb5f5bfd165ca29b44dcf7466ef82f",
+      "inspect_exit": 0,
+      "inspection": {
+        "schema_version": 1,
+        "format": "TEB",
+        "variant": null,
+        "conversion_supported": false,
+        "page_count": null,
+        "has_outline": null,
+        "bookmark_count": null,
+        "outline_warnings": null,
+        "unsupported_reason": "drm-encrypted"
+      },
+      "convert_exit": 1,
+      "convert_stderr": "caj2pdf: error: cannot convert '<external-corpus>/external/github/d2ef9d7327b9d8771e625bc7773e9a0484eb5f5bfd165ca29b44dcf7466ef82f.caj': TEB input is a DRM-encrypted CNKI container; its document content is encrypted and cannot be converted",
+      "output_absent": true
+    }
+  ],
+  "diagnostic_follow_up": {
+    "issue": 469,
+    "implementation_commit": "149c380f948fce9f7d56037378653152afb924f7",
+    "scope": "CLI/shared JavaScript diagnostic only; no TEB recovery, new conversion success or core/WASM implementation change.",
+    "native": {
+      "implementation_commit": "149c380f948fce9f7d56037378653152afb924f7",
+      "cli_sha256": "db099654f5e7b6388a68550d7f2deba02f187026b251222ed25f690e6f64a3a9",
+      "scope": "Expected refusal only, not conversion compatibility",
+      "limits": {
+        "address_space_bytes": 536870912,
+        "cpu_seconds": 30,
+        "wall_seconds_per_command": 35,
+        "workers": 1
+      },
+      "rows": [
+        {
+          "source_sha256": "760b0da0263587bfb8f9a26e2f82318c78b49a88283f7e0599fade8fb86d7274",
+          "inspect": {
+            "schema_version": 1,
+            "format": "TEB",
+            "variant": null,
+            "conversion_supported": false,
+            "page_count": null,
+            "has_outline": null,
+            "bookmark_count": null,
+            "outline_warnings": null,
+            "unsupported_reason": "not-implemented"
+          },
+          "inspect_exit": 0,
+          "convert_exit": 1,
+          "message": "TEB input is recognized, but TEB conversion is not supported",
+          "output_bytes": 0,
+          "source_unchanged": true,
+          "remaining": []
+        },
+        {
+          "source_sha256": "b7dfd1fbf5a61d33e4d14e36b33b62fe4aa839361a1ab4c2f323041872b2c92c",
+          "inspect": {
+            "schema_version": 1,
+            "format": "TEB",
+            "variant": null,
+            "conversion_supported": false,
+            "page_count": null,
+            "has_outline": null,
+            "bookmark_count": null,
+            "outline_warnings": null,
+            "unsupported_reason": "not-implemented"
+          },
+          "inspect_exit": 0,
+          "convert_exit": 1,
+          "message": "TEB input is recognized, but TEB conversion is not supported",
+          "output_bytes": 0,
+          "source_unchanged": true,
+          "remaining": []
+        },
+        {
+          "source_sha256": "88efaaad1426a53de66557bd317eaf10ecd735cd3f0721317938d86c426f959a",
+          "inspect": {
+            "schema_version": 1,
+            "format": "TEB",
+            "variant": null,
+            "conversion_supported": false,
+            "page_count": null,
+            "has_outline": null,
+            "bookmark_count": null,
+            "outline_warnings": null,
+            "unsupported_reason": "not-implemented"
+          },
+          "inspect_exit": 0,
+          "convert_exit": 1,
+          "message": "TEB input is recognized, but TEB conversion is not supported",
+          "output_bytes": 0,
+          "source_unchanged": true,
+          "remaining": []
+        },
+        {
+          "source_sha256": "84e6df33d3d0752e76b56ce262a5194871da765c3b61248c1a07d89c79e616f3",
+          "inspect": {
+            "schema_version": 1,
+            "format": "TEB",
+            "variant": null,
+            "conversion_supported": false,
+            "page_count": null,
+            "has_outline": null,
+            "bookmark_count": null,
+            "outline_warnings": null,
+            "unsupported_reason": "not-implemented"
+          },
+          "inspect_exit": 0,
+          "convert_exit": 1,
+          "message": "TEB input is recognized, but TEB conversion is not supported",
+          "output_bytes": 0,
+          "source_unchanged": true,
+          "remaining": []
+        },
+        {
+          "source_sha256": "ba7efa391b926f72699a47b840c440fd0f1407f46800632ab8553fd92406dc30",
+          "inspect": {
+            "schema_version": 1,
+            "format": "TEB",
+            "variant": null,
+            "conversion_supported": false,
+            "page_count": null,
+            "has_outline": null,
+            "bookmark_count": null,
+            "outline_warnings": null,
+            "unsupported_reason": "not-implemented"
+          },
+          "inspect_exit": 0,
+          "convert_exit": 1,
+          "message": "TEB input is recognized, but TEB conversion is not supported",
+          "output_bytes": 0,
+          "source_unchanged": true,
+          "remaining": []
+        },
+        {
+          "source_sha256": "d5f87439a53ce6e587db274cb68ab36f731fe0272b24c76831e5c525e703c8a3",
+          "inspect": {
+            "schema_version": 1,
+            "format": "TEB",
+            "variant": null,
+            "conversion_supported": false,
+            "page_count": null,
+            "has_outline": null,
+            "bookmark_count": null,
+            "outline_warnings": null,
+            "unsupported_reason": "not-implemented"
+          },
+          "inspect_exit": 0,
+          "convert_exit": 1,
+          "message": "TEB input is recognized, but TEB conversion is not supported",
+          "output_bytes": 0,
+          "source_unchanged": true,
+          "remaining": []
+        },
+        {
+          "source_sha256": "fc773e95124ea86f7a7ecf358933ec1bf260ea535dcfd5d2ad38ce816d21a5fd",
+          "inspect": {
+            "schema_version": 1,
+            "format": "TEB",
+            "variant": null,
+            "conversion_supported": false,
+            "page_count": null,
+            "has_outline": null,
+            "bookmark_count": null,
+            "outline_warnings": null,
+            "unsupported_reason": "not-implemented"
+          },
+          "inspect_exit": 0,
+          "convert_exit": 1,
+          "message": "TEB input is recognized, but TEB conversion is not supported",
+          "output_bytes": 0,
+          "source_unchanged": true,
+          "remaining": []
+        },
+        {
+          "source_sha256": "8c406195b11f48186411a18edf0eb7e02db8440cff376bbd8045cd09b0e2aafe",
+          "inspect": {
+            "schema_version": 1,
+            "format": "TEB",
+            "variant": null,
+            "conversion_supported": false,
+            "page_count": null,
+            "has_outline": null,
+            "bookmark_count": null,
+            "outline_warnings": null,
+            "unsupported_reason": "not-implemented"
+          },
+          "inspect_exit": 0,
+          "convert_exit": 1,
+          "message": "TEB input is recognized, but TEB conversion is not supported",
+          "output_bytes": 0,
+          "source_unchanged": true,
+          "remaining": []
+        },
+        {
+          "source_sha256": "d2ef9d7327b9d8771e625bc7773e9a0484eb5f5bfd165ca29b44dcf7466ef82f",
+          "inspect": {
+            "schema_version": 1,
+            "format": "TEB",
+            "variant": null,
+            "conversion_supported": false,
+            "page_count": null,
+            "has_outline": null,
+            "bookmark_count": null,
+            "outline_warnings": null,
+            "unsupported_reason": "not-implemented"
+          },
+          "inspect_exit": 0,
+          "convert_exit": 1,
+          "message": "TEB input is recognized, but TEB conversion is not supported",
+          "output_bytes": 0,
+          "source_unchanged": true,
+          "remaining": []
+        }
+      ]
+    },
+    "node_chromium": {
+      "summary": {
+        "candidate_commit": "149c380f948fce9f7d56037378653152afb924f7",
+        "scope": "Expected refusal with zero output and source/temp integrity; NOT a conversion compatibility pass",
+        "wasm_sha256": "7e8d90aef49fa4d15e3b95ccc0bc3b207e325b19d777548c81c5cc2665a5e77b",
+        "count": 9,
+        "node_matches": 9,
+        "browser_matches": 9,
+        "node_failures": [],
+        "browser_failures": []
+      },
+      "node": [
+        {
+          "source": "760b0da0263587bfb8f9a26e2f82318c78b49a88283f7e0599fade8fb86d7274",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.077
+        },
+        {
+          "source": "b7dfd1fbf5a61d33e4d14e36b33b62fe4aa839361a1ab4c2f323041872b2c92c",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.07
+        },
+        {
+          "source": "88efaaad1426a53de66557bd317eaf10ecd735cd3f0721317938d86c426f959a",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.059
+        },
+        {
+          "source": "84e6df33d3d0752e76b56ce262a5194871da765c3b61248c1a07d89c79e616f3",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.06
+        },
+        {
+          "source": "ba7efa391b926f72699a47b840c440fd0f1407f46800632ab8553fd92406dc30",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.064
+        },
+        {
+          "source": "d5f87439a53ce6e587db274cb68ab36f731fe0272b24c76831e5c525e703c8a3",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.056
+        },
+        {
+          "source": "fc773e95124ea86f7a7ecf358933ec1bf260ea535dcfd5d2ad38ce816d21a5fd",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.066
+        },
+        {
+          "source": "8c406195b11f48186411a18edf0eb7e02db8440cff376bbd8045cd09b0e2aafe",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.06
+        },
+        {
+          "source": "d2ef9d7327b9d8771e625bc7773e9a0484eb5f5bfd165ca29b44dcf7466ef82f",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.16
+        }
+      ],
+      "chromium": [
+        {
+          "source": "760b0da0263587bfb8f9a26e2f82318c78b49a88283f7e0599fade8fb86d7274",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "remaining": [],
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.266
+        },
+        {
+          "source": "b7dfd1fbf5a61d33e4d14e36b33b62fe4aa839361a1ab4c2f323041872b2c92c",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "remaining": [],
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.266
+        },
+        {
+          "source": "88efaaad1426a53de66557bd317eaf10ecd735cd3f0721317938d86c426f959a",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "remaining": [],
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.265
+        },
+        {
+          "source": "84e6df33d3d0752e76b56ce262a5194871da765c3b61248c1a07d89c79e616f3",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "remaining": [],
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.265
+        },
+        {
+          "source": "ba7efa391b926f72699a47b840c440fd0f1407f46800632ab8553fd92406dc30",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "remaining": [],
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.269
+        },
+        {
+          "source": "d5f87439a53ce6e587db274cb68ab36f731fe0272b24c76831e5c525e703c8a3",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "remaining": [],
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.264
+        },
+        {
+          "source": "fc773e95124ea86f7a7ecf358933ec1bf260ea535dcfd5d2ad38ce816d21a5fd",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "remaining": [],
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.263
+        },
+        {
+          "source": "8c406195b11f48186411a18edf0eb7e02db8440cff376bbd8045cd09b0e2aafe",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "remaining": [],
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.264
+        },
+        {
+          "source": "d2ef9d7327b9d8771e625bc7773e9a0484eb5f5bfd165ca29b44dcf7466ef82f",
+          "status": "REJECTED",
+          "code": "UNSUPPORTED_FORMAT",
+          "message": "TEB input is recognized, but converting it is not supported yet",
+          "bytes": 0,
+          "remaining": [],
+          "source_unchanged": true,
+          "expected_refusal": true,
+          "seconds": 0.289
+        }
+      ]
+    },
+    "runtime_package_unchanged": true,
+    "shared_io_sha256": "8e8f923114bb371fbcceca1e522bb0fafad63a4f4fb86b134bdfe3a7966ffd42",
+    "cli_reason_migration": {
+      "before": "drm-encrypted",
+      "after": "not-implemented",
+      "breaking": true
+    },
+    "validation": {
+      "cli_pass": 95,
+      "cli_optional_ignored": 1,
+      "js_convert_pass": 44,
+      "js_convert_skip": 0,
+      "catalog_selected_pass": 103,
+      "catalog_skip": 0
+    },
+    "attempts": [
+      "Initial Node unit run looked for the WASM build under the new worktree target path; after pointing that ignored path to the build cache, all 44 tests passed.",
+      "Initial external native harness used a nonexistent convert subcommand and exited with argument error; corrected to the documented positional-input syntax before all nine expected refusals.",
+      "Review tightened document-meta content references to the declared PDF entry; self-reference and unknown-entry negative controls pass.",
+      "A later full local Catalog rerun lacked scipy in the system Python; isolated test dependencies pinned to the Catalog workflow were added before repeating the suite. The prior successful run and the affected seven final controls are retained separately."
+    ]
+  }
+}

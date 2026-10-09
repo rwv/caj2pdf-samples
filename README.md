@@ -138,10 +138,12 @@ integrity checks as compatibility passes. Store downloads in an external cache.
 3. New CAJ/HN/C8/KDH failures: prefer a new structure or reproducible failure
    over another copy of an already represented document.
 
-The original seven TEB files share one encrypted DRM container layout (see
-[research notes](RESEARCH.md)); more TEB copies add no format evidence. The
-historical CAA/CAS/NH search log is recorded there; the new discovery above
-resolves the NH/CAA byte-sample gaps, while CAS remains unresolved.
+The [TEB follow-up](research/notes/teb-container-boundary-20261009.md) corrects
+the old framing/CRC claims: eight containers have intact entries and readable
+metadata, while one uploaded source has a zero-filled suffix. Content wrapping
+and credential requirements remain unresolved; unsupported status is not proof
+of irrecoverability. The historical CAA/CAS/NH search log is in
+[research notes](RESEARCH.md); CAS remains unresolved.
 
 See [research notes](RESEARCH.md) and repository issues. Public issue reports
 should contain a source URL and hash, not attachments with unknown rights.
