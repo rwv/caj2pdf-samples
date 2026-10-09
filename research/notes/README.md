@@ -1,5 +1,9 @@
 # Research notes
 
+The [public-web source correctness follow-up](public-web-correctness-20261009.md)
+adds complete HN/C8 bitmap/geometry checks, KDH preservation, C8 contents-panel
+observations and framing evidence for the seven unresolved PDF content defects.
+
 The [public-web and Internet Archive sweep](public-web-sweep-20261009.md) records
 new acquired originals, complete conversion results, three focused PDF fixes,
 and retained Wayback/Common Crawl/download limitations.
