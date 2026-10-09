@@ -1,0 +1,774 @@
+{
+  "scope": "Original controls and public Qt page buffers; observations, not corpus fidelity passes.",
+  "viewer_image": "sha256:cb5049d3448b6d5bcfd371cf195d522d637869dce075cb1650d74198875171de",
+  "viewer_sessions": 12,
+  "native": [
+    {
+      "directory": "441-buffer-observer/direct/c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "source_sha256": "c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "route": [
+        5
+      ],
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom": false,
+      "peak_memory_bytes": 313720832,
+      "artifacts": {
+        "launch.json": "51e44c9810d3c75e1aafb823ad3edba3bb7d5bfe4eeeba1e52acc0fcf0a486db",
+        "closing.json": "82d2563074de23360dfe774bf11f1d0c95d3f2e6bc8449bfff4016daab3ab470",
+        "actions.jsonl": "041fda02cef966717218fce7d57068bdb4f3d0068f5c441421ceb73e67129684",
+        "paint.tsv": "953897c6a247f400cd677dd6e6598a0f2ee9df7f6fda0ec1732d5bd26e5ec198",
+        "buffers.tsv": "9f0746788c512d144deacd28801caf3b0afce90603d769d06c7a6d3115c259c2"
+      },
+      "label": "direct",
+      "observed_page": "5/12",
+      "zoom": "150%",
+      "within_session_equal": true,
+      "pixmap": {
+        "event": 313,
+        "cache_key": "000004a600000000",
+        "size": [
+          1003,
+          1506
+        ],
+        "target": [
+          10.0,
+          10.0,
+          1002.0,
+          1505.0
+        ],
+        "source": [
+          0.0,
+          0.0,
+          1003.0,
+          1506.0
+        ],
+        "source_aspect_error_pixels": 0.05263157894728465,
+        "file": "pixmap-21-000004a600000000.png",
+        "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+      },
+      "rgb_sha256": "9e7b361f30339fd3766750250e127a627ba5f0c68aa087f94a97e929abf358e1"
+    },
+    {
+      "directory": "441-buffer-observer/prior3/c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "source_sha256": "c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "route": [
+        3,
+        5
+      ],
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom": false,
+      "peak_memory_bytes": 324530176,
+      "artifacts": {
+        "launch.json": "49a4b06949b18dca0ddbf937d71ae3cb6764925545c514bfc8dd7683536bb344",
+        "closing.json": "093aab63c667f42b4fd45ad66e7470ce5bbddd96fc155b92ef5e114292a4ef40",
+        "actions.jsonl": "b17484fa60f2910291a7c4129bcb4f1f7cdae4445e738d62c652fc3f099361a9",
+        "paint.tsv": "ee28f5e15d8c73c4388893ab9b77848a0d9b2f58494b0d2b448f98c2ec74e189",
+        "buffers.tsv": "1d57d5683968757c85a343d0698101f909425f653700c323ba1a51ebe31cb3e7"
+      },
+      "label": "prior3",
+      "observed_page": "5/12",
+      "zoom": "150%",
+      "within_session_equal": true,
+      "pixmap": {
+        "event": 372,
+        "cache_key": "0000052c00000000",
+        "size": [
+          1003,
+          1506
+        ],
+        "target": [
+          10.0,
+          10.0,
+          1002.0,
+          1505.0
+        ],
+        "source": [
+          0.0,
+          0.0,
+          1003.0,
+          1506.0
+        ],
+        "source_aspect_error_pixels": 0.05263157894728465,
+        "file": "pixmap-20-0000052c00000000.png",
+        "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+      },
+      "rgb_sha256": "61bc169cd89d75373e77443c38726aae47d40614fd48e5b3d519e4931ce20c6c"
+    },
+    {
+      "directory": "441-buffer-observer/digest-direct/c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "source_sha256": "c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "route": [
+        5
+      ],
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom": false,
+      "peak_memory_bytes": 313237504,
+      "artifacts": {
+        "launch.json": "816c58609b6e4f726c53a36564bee1284bc7bfcd5bbd6f75dd7c718e96292aa3",
+        "closing.json": "0ddfd016fd248ab5f4be24f8c488923a12085a81c4187b6d0ec2bf2edec6ac01",
+        "actions.jsonl": "4db008c183c72e65c8bf9b7799fd5658c271c002020650f88e3d9ad30db10df2",
+        "paint.tsv": "3aedc224b0faf1d3da2de77f67525ff253e94e13c65fdbab71e8260f56a15158",
+        "buffers.tsv": "df8b6995672400a9db1578fb731bfbd8f26bfd43bb697c5017049f8f2bcaebcb"
+      },
+      "label": "digest-direct",
+      "observed_page": "5/12",
+      "zoom": "150%",
+      "within_session_equal": true,
+      "pixmap": {
+        "event": 321,
+        "cache_key": "000004b400000000",
+        "size": [
+          1003,
+          1506
+        ],
+        "target": [
+          10.0,
+          10.0,
+          1002.0,
+          1505.0
+        ],
+        "source": [
+          0.0,
+          0.0,
+          1003.0,
+          1506.0
+        ],
+        "source_aspect_error_pixels": 0.05263157894728465,
+        "file": "pixmap-21-000004b400000000.png",
+        "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+      },
+      "rgb_sha256": "9e7b361f30339fd3766750250e127a627ba5f0c68aa087f94a97e929abf358e1",
+      "matching_buffers": [
+        {
+          "event": 12,
+          "monotonic_ns_after_digest": 20632487556294808,
+          "thread_id": 138,
+          "constructor": "mutable_tight",
+          "width": 1003,
+          "height": 1506,
+          "format": 13,
+          "stride": 3012,
+          "image_key": "4b300000000",
+          "pointer_mod64": 16,
+          "fegetround": 0,
+          "mxcsr": "1fa3",
+          "x87_control": "37f",
+          "rgb_sha256": "9e7b361f30339fd3766750250e127a627ba5f0c68aa087f94a97e929abf358e1"
+        }
+      ]
+    },
+    {
+      "directory": "441-buffer-observer/digest-prior3/c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "source_sha256": "c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "route": [
+        3,
+        5
+      ],
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom": false,
+      "peak_memory_bytes": 326348800,
+      "artifacts": {
+        "launch.json": "07a243ec3e1548ecba54bc5368ebe4e696047437ce3cf2f9561ad985022aa581",
+        "closing.json": "1a41e09348c3eab6fe541127615ddbd925e2618147f1f90e73e817b14760a516",
+        "actions.jsonl": "12917055ae21ec587ebe9a9fba0174eee40eaf9567767f9e50baae842534a4b5",
+        "paint.tsv": "7c6514a9eefa0eee9d3c7396f578adce80409e90b45bdfdcf8560eb33ae24c29",
+        "buffers.tsv": "2985e6d83e4eb8791e7d174654a030672b39f248906c9134b1c1b5006f86a573"
+      },
+      "label": "digest-prior3",
+      "observed_page": "5/12",
+      "zoom": "150%",
+      "within_session_equal": true,
+      "pixmap": {
+        "event": 375,
+        "cache_key": "0000053000000000",
+        "size": [
+          1003,
+          1506
+        ],
+        "target": [
+          10.0,
+          10.0,
+          1002.0,
+          1505.0
+        ],
+        "source": [
+          0.0,
+          0.0,
+          1003.0,
+          1506.0
+        ],
+        "source_aspect_error_pixels": 0.05263157894728465,
+        "file": "pixmap-21-0000053000000000.png",
+        "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+      },
+      "rgb_sha256": "9e7b361f30339fd3766750250e127a627ba5f0c68aa087f94a97e929abf358e1",
+      "matching_buffers": [
+        {
+          "event": 12,
+          "monotonic_ns_after_digest": 20632507254453499,
+          "thread_id": 137,
+          "constructor": "mutable_tight",
+          "width": 1003,
+          "height": 1506,
+          "format": 13,
+          "stride": 3012,
+          "image_key": "52f00000000",
+          "pointer_mod64": 32,
+          "fegetround": 0,
+          "mxcsr": "1fa3",
+          "x87_control": "37f",
+          "rgb_sha256": "9e7b361f30339fd3766750250e127a627ba5f0c68aa087f94a97e929abf358e1"
+        }
+      ]
+    },
+    {
+      "directory": "441-buffer-observer/digest-prior3-repeat-1/c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "source_sha256": "c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "route": [
+        3,
+        5
+      ],
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom": false,
+      "peak_memory_bytes": 328171520,
+      "artifacts": {
+        "launch.json": "6adbee0fcee386789db315d0f88f4dacd7a8c82d5613f641032c0df10b7febf7",
+        "closing.json": "190308617b9901bb676e4c6f818ab20ee68b3194dabc5b25ce79b1bff3976569",
+        "actions.jsonl": "7ace08bdcf33d13646d80705333c8289cc6372b5e6e86503484c5fd22c61f91d",
+        "paint.tsv": "a2e1e57032b11e8632bad461889e8c463a06c69190e72366afde8280de3f368a",
+        "buffers.tsv": "85a6ae938bf5c71f3fccc108cab3c00c8980dbd87278688e70c43fbf84bbfd63"
+      },
+      "label": "digest-prior3-repeat-1",
+      "observed_page": "5/12",
+      "zoom": "150%",
+      "within_session_equal": true,
+      "pixmap": {
+        "event": 368,
+        "cache_key": "0000052600000000",
+        "size": [
+          1003,
+          1506
+        ],
+        "target": [
+          10.0,
+          10.0,
+          1002.0,
+          1505.0
+        ],
+        "source": [
+          0.0,
+          0.0,
+          1003.0,
+          1506.0
+        ],
+        "source_aspect_error_pixels": 0.05263157894728465,
+        "file": "pixmap-21-0000052600000000.png",
+        "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+      },
+      "rgb_sha256": "9e7b361f30339fd3766750250e127a627ba5f0c68aa087f94a97e929abf358e1",
+      "matching_buffers": [
+        {
+          "event": 12,
+          "monotonic_ns_after_digest": 20632631955669112,
+          "thread_id": 137,
+          "constructor": "mutable_tight",
+          "width": 1003,
+          "height": 1506,
+          "format": 13,
+          "stride": 3012,
+          "image_key": "52500000000",
+          "pointer_mod64": 32,
+          "fegetround": 0,
+          "mxcsr": "1fa3",
+          "x87_control": "37f",
+          "rgb_sha256": "9e7b361f30339fd3766750250e127a627ba5f0c68aa087f94a97e929abf358e1"
+        }
+      ]
+    },
+    {
+      "directory": "441-buffer-observer/digest-prior3-repeat-2/c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "source_sha256": "c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "route": [
+        3,
+        5
+      ],
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom": false,
+      "peak_memory_bytes": 325689344,
+      "artifacts": {
+        "launch.json": "679613a5b01eaef9086eae89673a8ac7e755402d9e3310c259e42cb937ef9e9b",
+        "closing.json": "c17aa91384dfe48e83cfc2c054c2e4727237fde317567a304c41ba19a6993297",
+        "actions.jsonl": "be3af0f2ad6fe75066a59ec7d65e3241c0124df82dd43012ea716b768b2f5d00",
+        "paint.tsv": "8e1a92e3e13129fa893a5525fdbd9c43c850458ffa68db8378d9ba8849729e0b",
+        "buffers.tsv": "dbc665fa98e0704d56c9e1bc1a28517c4b5e70eea83dd02d7d69cef559e06179"
+      },
+      "label": "digest-prior3-repeat-2",
+      "observed_page": "5/12",
+      "zoom": "150%",
+      "within_session_equal": true,
+      "pixmap": {
+        "event": 368,
+        "cache_key": "0000052700000000",
+        "size": [
+          1003,
+          1506
+        ],
+        "target": [
+          10.0,
+          10.0,
+          1002.0,
+          1505.0
+        ],
+        "source": [
+          0.0,
+          0.0,
+          1003.0,
+          1506.0
+        ],
+        "source_aspect_error_pixels": 0.05263157894728465,
+        "file": "pixmap-21-0000052700000000.png",
+        "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+      },
+      "rgb_sha256": "61bc169cd89d75373e77443c38726aae47d40614fd48e5b3d519e4931ce20c6c",
+      "matching_buffers": [
+        {
+          "event": 12,
+          "monotonic_ns_after_digest": 20632651962685848,
+          "thread_id": 137,
+          "constructor": "mutable_tight",
+          "width": 1003,
+          "height": 1506,
+          "format": 13,
+          "stride": 3012,
+          "image_key": "52600000000",
+          "pointer_mod64": 32,
+          "fegetround": 0,
+          "mxcsr": "1fa3",
+          "x87_control": "37f",
+          "rgb_sha256": "61bc169cd89d75373e77443c38726aae47d40614fd48e5b3d519e4931ce20c6c"
+        }
+      ]
+    }
+  ],
+  "pdf": [
+    {
+      "directory": "441-original-pdf/captures/original-5-direct5",
+      "source_sha256": "80dd555d6a8cfc8ed37ac13793f32fa00bc74dd69fa0722a66143d7aa1decbed",
+      "route": [
+        5
+      ],
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom": false,
+      "peak_memory_bytes": 318779392,
+      "artifacts": {
+        "launch.json": "02422a6f301723cfaa28936db2c2343dc6b550f5ad3eaaf7fdd12129582c26f8",
+        "closing.json": "20b04e77ad18f79e1326349e250266bb3fc99646005e659a886940e281d97e8a",
+        "actions.jsonl": "53e8f667fb2f995c7954db251e11cedb32fdcfc7f53ffafab350378515930a12"
+      },
+      "label": "captures/original-5-direct5",
+      "crop": [
+        626,
+        607,
+        1023,
+        1169
+      ],
+      "observed_page": "5/5",
+      "zoom": "50%",
+      "within_session_equal": true,
+      "rgb_sha256": "c84dbaadf73d452f2bc4f56843bb4f2ac5a00a5e576f515f6ee336279ff840f7"
+    },
+    {
+      "directory": "441-original-pdf/captures/original-5-prior3",
+      "source_sha256": "80dd555d6a8cfc8ed37ac13793f32fa00bc74dd69fa0722a66143d7aa1decbed",
+      "route": [
+        3,
+        5
+      ],
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom": false,
+      "peak_memory_bytes": 320237568,
+      "artifacts": {
+        "launch.json": "bb1191ae49de37940369fc253699c750e94e6e45062919393b7618af220a0972",
+        "closing.json": "18e379e7f71cc731c4c1f1c74754bce381afcc54ee02244047570744060bf3c5",
+        "actions.jsonl": "2afdb6a54f54ebbd7a2dac3394217eea77d0bb94cdca030f215c2d27f6709552"
+      },
+      "label": "captures/original-5-prior3",
+      "crop": [
+        626,
+        607,
+        1023,
+        1169
+      ],
+      "observed_page": "5/5",
+      "zoom": "50%",
+      "within_session_equal": true,
+      "rgb_sha256": "c84dbaadf73d452f2bc4f56843bb4f2ac5a00a5e576f515f6ee336279ff840f7"
+    },
+    {
+      "directory": "441-original-pdf/captures/original-6-direct5",
+      "source_sha256": "164f598498d6d722aaf243592d7535d73f0b628818dba05a65c64b3d2c3921e8",
+      "route": [
+        5
+      ],
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom": false,
+      "peak_memory_bytes": 322789376,
+      "artifacts": {
+        "launch.json": "bc0a99787c68765809598c6f527ccf5228979877233558654447f331ff032ab8",
+        "closing.json": "ae9405090acff97878e35c6c0dc97af10eefae52de953bdd79ef28996edaf62f",
+        "actions.jsonl": "3c06e6e017b9656a181d24c330a482e485387c1238c9eee317765f2957936bb1"
+      },
+      "label": "captures/original-6-direct5",
+      "crop": [
+        626,
+        156,
+        1023,
+        718
+      ],
+      "observed_page": "5/6",
+      "zoom": "50%",
+      "within_session_equal": true,
+      "rgb_sha256": "44491d7892daf121712e174ffa09edea487de243298fd1410195f5bf72112ca6"
+    },
+    {
+      "directory": "441-original-pdf/captures/original-6-prior3",
+      "source_sha256": "164f598498d6d722aaf243592d7535d73f0b628818dba05a65c64b3d2c3921e8",
+      "route": [
+        3,
+        5
+      ],
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom": false,
+      "peak_memory_bytes": 324546560,
+      "artifacts": {
+        "launch.json": "fa1f8d7b4897f78bd28b001d25e08f91e24d4ec829772c190d27a95cd8cb74fa",
+        "closing.json": "a644830081566203670454838e2387d578576f689e43097b93a935292744a1f3",
+        "actions.jsonl": "3630f533b57ab6074bfae1fcf52836569efbeb0b87d6816bb9526bf672d78bd6"
+      },
+      "label": "captures/original-6-prior3",
+      "crop": [
+        626,
+        156,
+        1023,
+        718
+      ],
+      "observed_page": "5/6",
+      "zoom": "50%",
+      "within_session_equal": true,
+      "rgb_sha256": "940fbdc652e734c0bbebf31da5a2f9f8274e74eab816771666f5e0bd48d0e309"
+    },
+    {
+      "directory": "441-original-pdf/captures-buffer/original-6-direct5",
+      "source_sha256": "164f598498d6d722aaf243592d7535d73f0b628818dba05a65c64b3d2c3921e8",
+      "route": [
+        5
+      ],
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom": false,
+      "peak_memory_bytes": 322031616,
+      "artifacts": {
+        "launch.json": "bad52c416afed52296d357fb1583e8ce430a70122e246f17b817d250869459dc",
+        "closing.json": "a282b69369a807accd9cb326af5635cede45cfbd6a9a98137df7909d2ad07432",
+        "actions.jsonl": "6f217b52101c33badc5021884f8fc1916568d5becd8bcba6519b6f284fe083ed",
+        "paint.tsv": "28bfa86c7494998076ec487af94a0473a8c894f13e0bb93ebe6cfa06489fc9b4",
+        "buffers.tsv": "ca82477b1f2cff109552e1039e0f8ad3ad4c644fdd8e7c81d6f473732bfa0f99"
+      },
+      "label": "captures-buffer/original-6-direct5",
+      "crop": [
+        626,
+        156,
+        1023,
+        718
+      ],
+      "observed_page": "5/6",
+      "zoom": "50%",
+      "within_session_equal": true,
+      "rgb_sha256": "44491d7892daf121712e174ffa09edea487de243298fd1410195f5bf72112ca6",
+      "target_pixmap": {
+        "file": "pixmap-21-0000048400000000.png",
+        "sha256": "48080d68364c74d933e6a3b85c38007a4655c2e14c24f2486183be923c4cf568",
+        "size": [
+          397,
+          561
+        ],
+        "cache_key": "0000048400000000",
+        "paint_event": 235,
+        "target": [
+          560.0,
+          10.0,
+          396.0,
+          561.0
+        ],
+        "source": [
+          0.0,
+          0.0,
+          397.0,
+          561.0
+        ],
+        "transform": [
+          1.00077819824,
+          0.0,
+          0.0,
+          1.00077819824,
+          0.0,
+          0.0
+        ],
+        "rgb_sha256": "c698008964df9d0e4a269f56bf9d93b9b3015160f533b64b326d48abe9cad306"
+      },
+      "matching_buffers": [
+        {
+          "event": 17,
+          "monotonic_ns_after_digest": 20632961958221071,
+          "thread_id": 137,
+          "constructor": "mutable_tight",
+          "width": 397,
+          "height": 561,
+          "format": 13,
+          "stride": 1192,
+          "image_key": "48100000000",
+          "pointer_mod64": 0,
+          "fegetround": 0,
+          "mxcsr": "1fa3",
+          "x87_control": "37f",
+          "rgb_sha256": "c698008964df9d0e4a269f56bf9d93b9b3015160f533b64b326d48abe9cad306"
+        }
+      ]
+    },
+    {
+      "directory": "441-original-pdf/captures-buffer/original-6-prior3",
+      "source_sha256": "164f598498d6d722aaf243592d7535d73f0b628818dba05a65c64b3d2c3921e8",
+      "route": [
+        3,
+        5
+      ],
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom": false,
+      "peak_memory_bytes": 323424256,
+      "artifacts": {
+        "launch.json": "06497107a621a60a6e976e5ab385da9e3af97c15fff3e426198606f8207f6052",
+        "closing.json": "0f00d85ee9ec7c0f1c2dfdf8de2b72c24a75004d2bd1b369a41910ecc4e8da63",
+        "actions.jsonl": "c21588d869222940fbff9610f5013bf3fd0ba775d701b37157b897ad780f6600",
+        "paint.tsv": "6ef1814518469496be693c423efcb1270f30f4cd52614fa82a3655907d196b55",
+        "buffers.tsv": "31c77b92d45101ea7e2bcbbc15b6555a281ed856df37c05502afc3798b1549e6"
+      },
+      "label": "captures-buffer/original-6-prior3",
+      "crop": [
+        626,
+        156,
+        1023,
+        718
+      ],
+      "observed_page": "5/6",
+      "zoom": "50%",
+      "within_session_equal": true,
+      "rgb_sha256": "940fbdc652e734c0bbebf31da5a2f9f8274e74eab816771666f5e0bd48d0e309",
+      "target_pixmap": {
+        "file": "pixmap-21-0000048000000000.png",
+        "sha256": "d72475d6caee865c7e7de18c5851adeb11a1eabf39046c1777392e0246843738",
+        "size": [
+          397,
+          561
+        ],
+        "cache_key": "0000048000000000",
+        "paint_event": 255,
+        "target": [
+          560.0,
+          10.0,
+          396.0,
+          561.0
+        ],
+        "source": [
+          0.0,
+          0.0,
+          397.0,
+          561.0
+        ],
+        "transform": [
+          1.00077819824,
+          0.0,
+          0.0,
+          1.00077819824,
+          0.0,
+          0.0
+        ],
+        "rgb_sha256": "dae35413af13b0b763f8f69839052cdb40f1a1362b45f3574e89dd0066879800"
+      },
+      "matching_buffers": [
+        {
+          "event": 16,
+          "monotonic_ns_after_digest": 20632978704570493,
+          "thread_id": 137,
+          "constructor": "mutable_tight",
+          "width": 397,
+          "height": 561,
+          "format": 13,
+          "stride": 1192,
+          "image_key": "47f00000000",
+          "pointer_mod64": 0,
+          "fegetround": 0,
+          "mxcsr": "1fa3",
+          "x87_control": "37f",
+          "rgb_sha256": "dae35413af13b0b763f8f69839052cdb40f1a1362b45f3574e89dd0066879800"
+        }
+      ]
+    }
+  ],
+  "native_difference": {
+    "changed_pixels": 29877,
+    "channel_delta": [
+      -2,
+      2
+    ],
+    "bounds_exclusive": [
+      32,
+      40,
+      880,
+      1392
+    ]
+  },
+  "pdf_screenshot_difference": {
+    "changed_pixels": 21073,
+    "channel_delta": [
+      -1,
+      1
+    ],
+    "bounds_exclusive": [
+      16,
+      16,
+      368,
+      513
+    ]
+  },
+  "pdf_buffer_difference": {
+    "changed_pixels": 8254,
+    "channel_delta": [
+      -1,
+      1
+    ],
+    "bounds_exclusive": [
+      16,
+      16,
+      368,
+      512
+    ]
+  },
+  "pdf_manifest": [
+    {
+      "path": "original-5-pages.pdf",
+      "sha256": "80dd555d6a8cfc8ed37ac13793f32fa00bc74dd69fa0722a66143d7aa1decbed",
+      "pages": 5,
+      "target_page": 5,
+      "target_stream_sha256": "8d9d48f805bbb0f1a20979d3f3aaabd8a5d44232f528a3ca11b0ffe238575ecb"
+    },
+    {
+      "path": "original-6-pages.pdf",
+      "sha256": "164f598498d6d722aaf243592d7535d73f0b628818dba05a65c64b3d2c3921e8",
+      "pages": 6,
+      "target_page": 5,
+      "target_stream_sha256": "8d9d48f805bbb0f1a20979d3f3aaabd8a5d44232f528a3ca11b0ffe238575ecb"
+    }
+  ],
+  "crop_correction": {
+    "rows": [
+      {
+        "label": "original-5-direct5",
+        "crop": [
+          626,
+          607,
+          1023,
+          1169
+        ],
+        "rgb_sha256": "c84dbaadf73d452f2bc4f56843bb4f2ac5a00a5e576f515f6ee336279ff840f7",
+        "pair_equal": true
+      },
+      {
+        "label": "original-5-prior3",
+        "crop": [
+          626,
+          607,
+          1023,
+          1169
+        ],
+        "rgb_sha256": "c84dbaadf73d452f2bc4f56843bb4f2ac5a00a5e576f515f6ee336279ff840f7",
+        "pair_equal": true
+      },
+      {
+        "label": "original-6-direct5",
+        "crop": [
+          626,
+          156,
+          1023,
+          718
+        ],
+        "rgb_sha256": "44491d7892daf121712e174ffa09edea487de243298fd1410195f5bf72112ca6",
+        "pair_equal": true
+      },
+      {
+        "label": "original-6-prior3",
+        "crop": [
+          626,
+          156,
+          1023,
+          718
+        ],
+        "rgb_sha256": "940fbdc652e734c0bbebf31da5a2f9f8274e74eab816771666f5e0bd48d0e309",
+        "pair_equal": true
+      }
+    ],
+    "initial_crop_boundary": "The old7797 crop [626,156,1023,718] contains the preceding page for five-page controls because last-page navigation clamps scrolling. Those initial five-page hashes do not measure the target. Independent full-frame inspection identifies target5 at [626,607,1023,1169]. Six-page target remains at [626,156,1023,718]. All original screenshots retained."
+  },
+  "repeat_plan_sha256": "8310894254ade001fde0471a7f005c3d35ea81047f7e6151ff385c24898982ba",
+  "source_files": {
+    "441-buffer-observer/buffer_observe.cpp": "6369f7fe562d74be54a96f0e9d93876eaee94f65880eef3878700a8156b0043b",
+    "441-buffer-observer/buffer_observe.so": "79b463e649fc853f05d0b1fb1da47ee61fb117da12768b966d73d4cb543fbba5",
+    "441-buffer-observer/buffer_control.cpp": "efb8574b80ff269cc44bc411625204cde6d75ab18b8d1fbcf3cbc7c082d5601d",
+    "441-buffer-observer/buffer_digest_observe.cpp": "66f32da1e51f6e21a15fec2b354f4041ee71f7581bd9b059ca1dec95a331a0ac",
+    "441-buffer-observer/buffer_digest_observe.so": "1cfcddaa7d469caac728b4c25e93658146206896d7735f891e5ccea26c4747ea",
+    "441-buffer-observer/buffer_digest_control.cpp": "414013c6c144963d1237743e0d4c36dccc1c59d8c57fef34683d54b33f4fb3f4",
+    "441-original-pdf/generate.py": "5f785bc43b59110d274fb5e38b77898502b7f8af8fdf3a22f97d42843f589a13",
+    "441-original-pdf/run_capture.py": "5156562d6320d9c22500528fb09f4298ed36397ec8f04bf8973a187df9bcc2e9",
+    "441-original-pdf/run_capture_buffer.py": "c5246cc3700b0897c7119434c17da34eb35c86965746c759b58f17549a029b09",
+    "441-buffer-observer/collect_receipt.py": "2e52e3977238cb78adc271ad6cabbbbb271cc6204357683db47e90dd6830237e"
+  },
+  "positive_controls": [
+    {
+      "label": "positive",
+      "result_sha256": "80bb56b4116bd9374f41c051952eda1e4b7503e3327b76f1a64c2b0a4157d3bd",
+      "trace_sha256": "4796560ae7fa9679df588e7357dffbf00c2f8a6a85a8e323ce6bd6ed13d19a94",
+      "exit": 0
+    },
+    {
+      "label": "digest-positive",
+      "result_sha256": "e127980d0c7b9144de875b0117251e9df521bbff92c4fafb37caa7838299f9a4",
+      "trace_sha256": "5e05fd99c14b15f92ae023e31ec373245de09d76d074c824a09192fcf932e5cf",
+      "exit": 0
+    }
+  ],
+  "limitations": [
+    "The QImage hash is taken after forwarding a buffer constructor, not before rendering.",
+    "Only selected RGB888 buffers are hashed; the hooks can perturb process timing.",
+    "Matching endpoint floating state does not establish all-thread or earlier rendering state.",
+    "Action logs retain command order/durations, not absolute times: no timed prefetch inference.",
+    "Last-page scrolling changes crop origin. Cross-document 5/6-page raster alignment is not equivalent.",
+    "The original 7797 PDF disagreement, readiness criterion and complete source fidelity remain open.",
+    "No new full-corpus run, conversion pass, production change or tolerance."
+  ],
+  "external_full_receipt_sha256": "8f5ee676fa5946d1ea20ed542aa48c509526fea1575f534d2a43990a0aa5983e",
+  "published_tools": {
+    "observer": "research/cajviewer/qimage_buffer_observe.cpp",
+    "pdf_generator": "research/cajviewer/pdf_navigation_controls.py",
+    "scope": "The measured prototypes are hashed above. Published observer adds an ABI guard, compile-time test log path a saturating event counter and avoids hashing the LIMIT event; no viewer session is relabeled as a final-tool rerun. The generator preserves both measured document hashes."
+  }
+}
