@@ -552,3 +552,9 @@ The [displayed-contents protocol](../notes/viewer-outline-protocol-20261009.md)
 adds original Qt model and receipt controls without a viewer or corpus
 dependency in CI. Per-document `EMPTY_DISPLAYED` observations do not establish
 that no unknown stored outline exists or that page rendering is correct.
+
+The [complete page-box observations](../notes/viewer-page-box-coverage-20261009.md)
+add original font-free 75-page controls and fixed-grid state/marker/difference
+tests to CI. The external viewer experiment retains all navigation failures
+and uses no fitted alignment or tolerance; successful original controls do
+not count as successful corpus conversions.
