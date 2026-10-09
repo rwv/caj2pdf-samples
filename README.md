@@ -10,6 +10,12 @@ adds one original-extension NH document (433 pages/365 bookmarks, identical
 CLI/Node/Chromium outputs) and 18 metadata-only CAA entries. CAA conversion
 is unsupported; their target declarations are not document pages.
 
+The [historical Windows CAA observation](research/notes/caa-windows-boundary-20261009.md)
+adds all 18 originals under Wine, with original PDF/invalid-file controls and
+offline network/server-error keyword observations. Installation limitations
+remain explicit; target availability and credentials are unverified. This
+adds no conversion pass or irrecoverability verdict.
+
 ### Latest complete runtime checkpoint
 
 The [current per-input receipt](research/notes/current-corpus-runtime-20261008.md)
@@ -148,8 +154,10 @@ integrity checks as compatibility passes. Store downloads in an external cache.
 ## Collection priorities
 
 1. CAS: obtain authentic bytes and determine its layout; tracked in #28.
-2. CAA: investigate historical viewer/target-resolution behavior. The 18
-   observed descriptors are not complete documents; Linux 9 refuses them.
+2. CAA: obtain authorized actual documents behind the 18 descriptors. The
+   historical Windows/Wine observations reach offline network-error controls;
+   the two earlier Linux 9 probes refuse the type. Target availability remains
+   unverified.
    Additional original-extension NH files may reveal layouts beyond the
    measured HN-A sample.
 3. New CAJ/HN/C8/KDH failures: prefer a new structure or reproducible failure
