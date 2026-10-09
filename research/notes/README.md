@@ -200,3 +200,5 @@ regression rerun after that fix.
 - [Complete displayed-contents sweep](viewer-outlines-20261009.md): all 849 C8/HN-B originals, three empty-model checkpoints each, populated controls before/after and retained attempts; no stored-layout absence or rendering claim.
 
 - [Original #441 JPEG representation](viewer-original7797-jpeg-20261009.md): the actual historical page-3 crops recur on unchanged source/PDF inputs; seven observed pre-encoding values agree and a public API chain explains the two representations. All twelve sessions, one abort and the initial analysis correction remain recorded; general readiness stays open.
+
+- [Explicit-response TTKN product conversion](ttkn-product-conversion-20261009.md): original-control initializer proof and one unchanged 180-page source, with native/Node/Chromium parity and all-stream/page/outline agreement against independent recovery; other profiles and complete vendor equivalence remain open.
