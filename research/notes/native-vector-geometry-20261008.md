@@ -110,8 +110,9 @@ python3 research/scripts/native_vector_geometry.py /external/source.caj \
 ## Provenance and remaining acceptance
 
 All added source and fixtures are independently authored MIT research code.
-Only existing original controls/notes, public PDF syntax and pikepdf APIs
-inform the check. No foreign converter, vendor/private HN/JBIG implementation,
+Existing original controls/notes, original MIT Rust code, public PDF syntax
+and pikepdf APIs were consulted. Expected coordinates follow the published
+original-control models; the checker does not establish those models anew. No foreign converter, vendor/private HN/JBIG implementation,
 source-document text, font outlines, document bytes or pixels are imported.
 Documents, fonts, captures and derived PDFs remain external. No new dependency,
 production API/CLI/JavaScript behavior, output PDF or release changes.
