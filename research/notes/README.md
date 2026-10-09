@@ -125,6 +125,7 @@ See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for th
 
 | Note | Backs |
 | --- | --- |
+| [Displayed-contents observation protocol](viewer-outline-protocol-20261009.md) | samples #63; bounded public Qt tree counts and original controls |
 | [CAJViewer vendor fixtures](cajviewer-fixtures.md) | `tools/cajviewer/` |
 | [CAJViewer fixture snapshot](cajviewer-fixture-snapshot.md) | historical |
 | [HN/C8 and KDH viewer checks](cajviewer-hnc8-kdh.md) | release checkpoint |
@@ -173,3 +174,5 @@ regression rerun after that fix.
 - [Source page and ordered image geometry](source-image-geometry-20261008.md): 973 accepted HN/C8/NH originals, 16,548 pages, independent bitmap/resource bindings and fresh NH bitmap evidence; native glyph/vector placement and complete rendering remain separate.
 
 - [Original native viewer navigation controls](native-viewer-navigation-20261009.md): page-count/index controls reproduce differing completed rasters; index swaps distinguish preceding content from navigation position. No readiness or fidelity pass.
+
+- [Complete displayed-contents sweep](viewer-outlines-20261009.md): all 849 C8/HN-B originals, three empty-model checkpoints each, populated controls before/after and retained attempts; no stored-layout absence or rendering claim.
