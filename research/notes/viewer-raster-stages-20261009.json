@@ -1,0 +1,1811 @@
+{
+  "schema": "viewer-raster-stages-v1",
+  "date": "2026-10-09",
+  "issue": "https://github.com/rwv/caj2pdf-samples/issues/68",
+  "parents": [
+    "https://github.com/rwv/caj2pdf-rust/issues/441",
+    "https://github.com/rwv/caj2pdf-samples/issues/51",
+    "https://github.com/rwv/caj2pdf-rust/issues/406"
+  ],
+  "baseline_samples_commit": "58869f003cc9eaff4e5212dc55846d48319b1a7f",
+  "baseline_rust_commit": "e9b9b5e8e490c5214482c6d1fb5b1508e9eba182",
+  "original_fixture": {
+    "path": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/controls-v1/original-font-free-6-pages.pdf",
+    "sha256": "ec76ddfc28489b701947de36c47348d3309fe654f12f976963f083c6d03a3a2b",
+    "pages": 6,
+    "target_page": 5,
+    "target_stream_sha256": "544b50170f4a6584db2b9f934f78da5159160d87eac62d27f93cbc6f3cf60016",
+    "panels_pdf_points": {
+      "solid_gray_cells": [
+        32,
+        530,
+        269,
+        767
+      ],
+      "fractional_vector_edges": [
+        315,
+        530,
+        537,
+        752
+      ],
+      "opaque_gray_image": [
+        32,
+        330,
+        544,
+        394
+      ],
+      "black_image_soft_mask": [
+        32,
+        150,
+        544,
+        214
+      ]
+    },
+    "scope": "Original font-free discriminator; no readiness or fidelity acceptance criterion."
+  },
+  "plans": {
+    "plan-v1.json": {
+      "sha256": "6bbf472e7fe8bb17f61d78094373f4ecce529b5bde2f7df87558513ecb995ab1",
+      "content": {
+        "question": "Can the retained cold-buffer disagreement occur without any PDF font or text operator?",
+        "analysis": "Exact RGB equality per unchanged control and fixed route order, plus predeclared font-free panels. A single gray lookup is tested as a mathematical discriminator, never fitted as a correction or tolerance.",
+        "sessions": [
+          {
+            "label": "01-baseline-direct5",
+            "kind": "baseline",
+            "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-original-pdf/original-6-pages.pdf",
+            "source_sha256": "164f598498d6d722aaf243592d7535d73f0b628818dba05a65c64b3d2c3921e8",
+            "route": [
+              5
+            ],
+            "pages": 6,
+            "target": 5,
+            "zoom": 50
+          },
+          {
+            "label": "02-font-free-direct5",
+            "kind": "font-free",
+            "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/controls-v1/original-font-free-6-pages.pdf",
+            "source_sha256": "ec76ddfc28489b701947de36c47348d3309fe654f12f976963f083c6d03a3a2b",
+            "route": [
+              5
+            ],
+            "pages": 6,
+            "target": 5,
+            "zoom": 50
+          },
+          {
+            "label": "03-font-free-prior3",
+            "kind": "font-free",
+            "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/controls-v1/original-font-free-6-pages.pdf",
+            "source_sha256": "ec76ddfc28489b701947de36c47348d3309fe654f12f976963f083c6d03a3a2b",
+            "route": [
+              3,
+              5
+            ],
+            "pages": 6,
+            "target": 5,
+            "zoom": 50
+          },
+          {
+            "label": "04-baseline-prior3",
+            "kind": "baseline",
+            "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-original-pdf/original-6-pages.pdf",
+            "source_sha256": "164f598498d6d722aaf243592d7535d73f0b628818dba05a65c64b3d2c3921e8",
+            "route": [
+              3,
+              5
+            ],
+            "pages": 6,
+            "target": 5,
+            "zoom": 50
+          },
+          {
+            "label": "05-baseline-prior3",
+            "kind": "baseline",
+            "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-original-pdf/original-6-pages.pdf",
+            "source_sha256": "164f598498d6d722aaf243592d7535d73f0b628818dba05a65c64b3d2c3921e8",
+            "route": [
+              3,
+              5
+            ],
+            "pages": 6,
+            "target": 5,
+            "zoom": 50
+          },
+          {
+            "label": "06-font-free-prior3",
+            "kind": "font-free",
+            "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/controls-v1/original-font-free-6-pages.pdf",
+            "source_sha256": "ec76ddfc28489b701947de36c47348d3309fe654f12f976963f083c6d03a3a2b",
+            "route": [
+              3,
+              5
+            ],
+            "pages": 6,
+            "target": 5,
+            "zoom": 50
+          },
+          {
+            "label": "07-font-free-direct5",
+            "kind": "font-free",
+            "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/controls-v1/original-font-free-6-pages.pdf",
+            "source_sha256": "ec76ddfc28489b701947de36c47348d3309fe654f12f976963f083c6d03a3a2b",
+            "route": [
+              5
+            ],
+            "pages": 6,
+            "target": 5,
+            "zoom": 50
+          },
+          {
+            "label": "08-baseline-direct5",
+            "kind": "baseline",
+            "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-original-pdf/original-6-pages.pdf",
+            "source_sha256": "164f598498d6d722aaf243592d7535d73f0b628818dba05a65c64b3d2c3921e8",
+            "route": [
+              5
+            ],
+            "pages": 6,
+            "target": 5,
+            "zoom": 50
+          }
+        ],
+        "repeat_policy": "Eight sessions only, frozen before first launch. No retry to obtain a desired variant; retain missing/refused outcomes.",
+        "driver_sha256": "df4a795b2dbddbd633b9ba2e00cf2bdd4329cb3e4de814f8e7b0b20502c13558",
+        "generator_sha256": "db0e72e737530f0c4bd05b4944385ece80c614a83891179e43a2218530019957",
+        "observer_sha256": "1cfcddaa7d469caac728b4c25e93658146206896d7735f891e5ccea26c4747ea",
+        "observer_scope": "Pinned earlier public Qt buffer/paint prototype; not relabeled as the later final observer source.",
+        "viewer_image": "sha256:cb5049d3448b6d5bcfd371cf195d522d637869dce075cb1650d74198875171de",
+        "panels_pdf_points": {
+          "solid_gray_cells": [
+            32,
+            530,
+            269,
+            767
+          ],
+          "fractional_vector_edges": [
+            315,
+            530,
+            537,
+            752
+          ],
+          "opaque_gray_image": [
+            32,
+            330,
+            544,
+            394
+          ],
+          "black_image_soft_mask": [
+            32,
+            150,
+            544,
+            214
+          ]
+        }
+      }
+    },
+    "plan-no-observer-v1.json": {
+      "sha256": "e2ff15ba59fc2a8fdbeefde38bc649cfcfced44277e693660cf724359d02612c",
+      "content": {
+        "question": "Does the font-free difference also occur without any observer preload, and do whole-page screenshot bytes match the two already retained instrumented variants?",
+        "analysis": "Exact RGB equality per unchanged control and fixed route order, plus predeclared font-free panels. A single gray lookup is tested as a mathematical discriminator, never fitted as a correction or tolerance.",
+        "sessions": [
+          {
+            "label": "09-font-free-direct5",
+            "kind": "font-free",
+            "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/controls-v1/original-font-free-6-pages.pdf",
+            "source_sha256": "ec76ddfc28489b701947de36c47348d3309fe654f12f976963f083c6d03a3a2b",
+            "route": [
+              5
+            ],
+            "pages": 6,
+            "target": 5,
+            "zoom": 50
+          },
+          {
+            "label": "10-font-free-prior3",
+            "kind": "font-free",
+            "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/controls-v1/original-font-free-6-pages.pdf",
+            "source_sha256": "ec76ddfc28489b701947de36c47348d3309fe654f12f976963f083c6d03a3a2b",
+            "route": [
+              3,
+              5
+            ],
+            "pages": 6,
+            "target": 5,
+            "zoom": 50
+          }
+        ],
+        "repeat_policy": "Exactly two new sessions after the frozen eight-session experiment, testing observer interference. No retry or replacement of the first crashed bracket.",
+        "driver_sha256": "cccc0b45c45509f72f8b2c809491967a89c26e83238746dd8b5b4d79fab67ef0",
+        "generator_sha256": "db0e72e737530f0c4bd05b4944385ece80c614a83891179e43a2218530019957",
+        "observer_sha256": "1cfcddaa7d469caac728b4c25e93658146206896d7735f891e5ccea26c4747ea",
+        "observer_scope": "No LD_PRELOAD and no observer mount. Existing observer hash check is only an unchanged-driver preflight, not a loaded dependency.",
+        "viewer_image": "sha256:cb5049d3448b6d5bcfd371cf195d522d637869dce075cb1650d74198875171de",
+        "panels_pdf_points": {
+          "solid_gray_cells": [
+            32,
+            530,
+            269,
+            767
+          ],
+          "fractional_vector_edges": [
+            315,
+            530,
+            537,
+            752
+          ],
+          "opaque_gray_image": [
+            32,
+            330,
+            544,
+            394
+          ],
+          "black_image_soft_mask": [
+            32,
+            150,
+            544,
+            214
+          ]
+        }
+      }
+    }
+  },
+  "instrumented": {
+    "plan_sha256": "6bbf472e7fe8bb17f61d78094373f4ecce529b5bde2f7df87558513ecb995ab1",
+    "driver_receipt_sha256": "30f86783d2dc380eb549d2e0ebfe6ed28a4f63fa49289de754208f52135eac5d",
+    "collector_sha256": "16a19d77c78c8d163d1ce8e07c1edab3e5a5b99da048f764b809aefe3dc8f01d",
+    "observations": [
+      {
+        "label": "01-baseline-direct5",
+        "kind": "baseline",
+        "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-original-pdf/original-6-pages.pdf",
+        "source_sha256": "164f598498d6d722aaf243592d7535d73f0b628818dba05a65c64b3d2c3921e8",
+        "route": [
+          5
+        ],
+        "pages": 6,
+        "target": 5,
+        "zoom": 50,
+        "directory": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/sessions-v1/01-baseline-direct5",
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom": false,
+        "peak_memory_bytes": 365793280,
+        "artifacts_sha256": {
+          "launch.json": "0887b28fd04c254739dc2adb8967df49a5a380348e5470d61be96429a794396b",
+          "launch-result.json": "479736a4c2374f551894d4cae2be7b42e2d1cf4ca10f10364cd4e29f48bf07a6",
+          "closing.json": "040650ac95f9da2d2e5c1d263ca871ad84770120527710b1dcffaf6acbe09708",
+          "actions.jsonl": "7e8025c8adc1bc6388fcbe894cd86ce9f6be494d7d7641cdd4e96682016592b1",
+          "timed-actions.json": "0d056549a57c95bc09090c78e1007621fa6ae34fca258c70e5694f6db943a4b7",
+          "paint.tsv": "26f5e4767cf088fd705fe54c350e1d2ee8b93ccdaefed37a21d7a05fcf3a3bcd",
+          "buffers.tsv": "1b55be80d754741ba2d775751424bb7a1fa6fd51caf181562c45e0ad6002b5bb",
+          "viewer.log": "4ed1e591b21d2ce2eaf0302ab37bfb898a4cc336c6e16cefad11219375b28b5a",
+          "page-5-a.png": "8ac210c2cb60b8d0eeb2269e5e5a2c991256ad67e7a19a6ed894a50c0ad1b68a",
+          "page-5-b.png": "8ac210c2cb60b8d0eeb2269e5e5a2c991256ad67e7a19a6ed894a50c0ad1b68a"
+        },
+        "status": "NOT_CONFIRMED",
+        "reason": "viewer abort diagnostics: free(): invalid pointer, realloc(): invalid pointer, Aborted"
+      },
+      {
+        "label": "02-font-free-direct5",
+        "kind": "font-free",
+        "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/controls-v1/original-font-free-6-pages.pdf",
+        "source_sha256": "ec76ddfc28489b701947de36c47348d3309fe654f12f976963f083c6d03a3a2b",
+        "route": [
+          5
+        ],
+        "pages": 6,
+        "target": 5,
+        "zoom": "50%",
+        "directory": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/sessions-v1/02-font-free-direct5",
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom": false,
+        "peak_memory_bytes": 350351360,
+        "artifacts_sha256": {
+          "launch.json": "de4b7132701e4c02ef129a2f18a2f0a6df41489c09fec5fa1689688b33da6f3b",
+          "launch-result.json": "7d1ee9eefa96f53ba09152ca032237c602287a0ba6be6f44f3ffd50f0cb3c0a9",
+          "closing.json": "7b2a25145a0a4d1a84cb9c945019676031a9a0882f2bf3a83aa381df4035ab2d",
+          "actions.jsonl": "559acc897af405708b022c6bbeacfb402e3d14058b33f322fbf6c2676453c079",
+          "timed-actions.json": "30186a331dc53c90f7e0fb1bcec3a7fdf003cfa4c41d70e882c61cab47ab427d",
+          "paint.tsv": "b95961f5ba0187553d0941b212e6bf45e2a2ae9b814064e8c8517735808c5fd9",
+          "buffers.tsv": "24a79f3f7f66226156108ccd1eae0c2727e188bb303931c12787fd4b5cfb8616",
+          "viewer.log": "3d7b70b782fa97a88686ed6cba45471f5c60130c9989888a2f8ee25fb87a2fdd",
+          "page-5-a.png": "4391bfbb102d6b347af4aa38bf177e9aee0af112612611f0489105bb23eeae44",
+          "page-5-b.png": "4391bfbb102d6b347af4aa38bf177e9aee0af112612611f0489105bb23eeae44"
+        },
+        "status": "CONFIRMED_BUFFER_OBSERVATION",
+        "observed_page": "5/6",
+        "within_session_equal": true,
+        "crop": [
+          626,
+          156,
+          1023,
+          718
+        ],
+        "screenshot_rgb_sha256": "29d722a3350fb5598e519c223cb5dac68523efaedb412fdf7d88e227da6ccd1c",
+        "pixmap": {
+          "file": "pixmap-20-0000046f00000000.png",
+          "file_sha256": "be752865a1d57824cd76ede8513f95c70b483f44bffca2d3327b2d2162d8a009",
+          "rgb_sha256": "0aa149b1481a23a7ace2a0d153c5a9b2640239150d1c4991ed7e30f938e6a9a7",
+          "size": [
+            397,
+            561
+          ],
+          "paint_event": 224,
+          "target": [
+            560.0,
+            10.0,
+            396.0,
+            561.0
+          ],
+          "source": [
+            0.0,
+            0.0,
+            397.0,
+            561.0
+          ],
+          "transform": [
+            1.00077819824,
+            0.0,
+            0.0,
+            1.00077819824,
+            0.0,
+            0.0
+          ]
+        },
+        "matching_buffers": [
+          {
+            "event": 15,
+            "monotonic_ns_after_digest": 20647305588622321,
+            "thread_id": 136,
+            "constructor": "mutable_tight",
+            "width": 397,
+            "height": 561,
+            "format": 13,
+            "stride": 1192,
+            "image_key": "46e00000000",
+            "pointer_mod64": 0,
+            "fegetround": 0,
+            "mxcsr": "1fa3",
+            "x87_control": "37f",
+            "rgb_sha256": "0aa149b1481a23a7ace2a0d153c5a9b2640239150d1c4991ed7e30f938e6a9a7"
+          }
+        ]
+      },
+      {
+        "label": "03-font-free-prior3",
+        "kind": "font-free",
+        "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/controls-v1/original-font-free-6-pages.pdf",
+        "source_sha256": "ec76ddfc28489b701947de36c47348d3309fe654f12f976963f083c6d03a3a2b",
+        "route": [
+          3,
+          5
+        ],
+        "pages": 6,
+        "target": 5,
+        "zoom": "50%",
+        "directory": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/sessions-v1/03-font-free-prior3",
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom": false,
+        "peak_memory_bytes": 319004672,
+        "artifacts_sha256": {
+          "launch.json": "b3e8e31c505bf2b7cd44e28bb5970c49e896efd0ab57b9013faa198aae191edc",
+          "launch-result.json": "8183173f7a8ef4f0d573c0034bdc1f03f65de22a145bc17ebb402a7b68568d6a",
+          "closing.json": "6072d455d8a08cbc9e1169b6d32b44c7ee7cf51e8081c8312d70ab462817b811",
+          "actions.jsonl": "c32fa2b8c40587575ba50d4219f92029bdd6899cee80e109869b4261fd7f5d52",
+          "timed-actions.json": "5813aeaae8f03026537cb422ea0302b6412dc3c95801a14035de9a2d66a55a47",
+          "paint.tsv": "1d9712ea75012de2bb7cbe0ea51726a7e18cb843926acfe3fa022330ac302a46",
+          "buffers.tsv": "fd334c5c920fbcb841069b9af2b097c745b939b92409f9e4e4554adfe58df60e",
+          "viewer.log": "c71e2438b3cd4185d0c9b1b95a93b5bea0cd3a70cc97acec739b773919f5dd69",
+          "page-5-a.png": "7ee675a5c2b39983431a1591fd219adfe9bba7f05f00808b9d4d896ca214d8df",
+          "page-5-b.png": "7ee675a5c2b39983431a1591fd219adfe9bba7f05f00808b9d4d896ca214d8df"
+        },
+        "status": "CONFIRMED_BUFFER_OBSERVATION",
+        "observed_page": "5/6",
+        "within_session_equal": true,
+        "crop": [
+          626,
+          156,
+          1023,
+          718
+        ],
+        "screenshot_rgb_sha256": "c5310647f04dad5ed37fb322bfa6fb3e2b778b72b766e83c430f06e3448062c5",
+        "pixmap": {
+          "file": "pixmap-21-0000047a00000000.png",
+          "file_sha256": "6d0d72f0f10a803544a23fd7c820fc28269c7480aa1f6055c7a9563ada769978",
+          "rgb_sha256": "f88ba07f749d7d099977cd381e7c1618a1d652525d8c77294dda743951bf746c",
+          "size": [
+            397,
+            561
+          ],
+          "paint_event": 255,
+          "target": [
+            560.0,
+            10.0,
+            396.0,
+            561.0
+          ],
+          "source": [
+            0.0,
+            0.0,
+            397.0,
+            561.0
+          ],
+          "transform": [
+            1.00077819824,
+            0.0,
+            0.0,
+            1.00077819824,
+            0.0,
+            0.0
+          ]
+        },
+        "matching_buffers": [
+          {
+            "event": 15,
+            "monotonic_ns_after_digest": 20647321852605778,
+            "thread_id": 137,
+            "constructor": "mutable_tight",
+            "width": 397,
+            "height": 561,
+            "format": 13,
+            "stride": 1192,
+            "image_key": "47900000000",
+            "pointer_mod64": 0,
+            "fegetround": 0,
+            "mxcsr": "1fa3",
+            "x87_control": "37f",
+            "rgb_sha256": "f88ba07f749d7d099977cd381e7c1618a1d652525d8c77294dda743951bf746c"
+          }
+        ]
+      },
+      {
+        "label": "04-baseline-prior3",
+        "kind": "baseline",
+        "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-original-pdf/original-6-pages.pdf",
+        "source_sha256": "164f598498d6d722aaf243592d7535d73f0b628818dba05a65c64b3d2c3921e8",
+        "route": [
+          3,
+          5
+        ],
+        "pages": 6,
+        "target": 5,
+        "zoom": "50%",
+        "directory": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/sessions-v1/04-baseline-prior3",
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom": false,
+        "peak_memory_bytes": 322379776,
+        "artifacts_sha256": {
+          "launch.json": "026a6a100a3f8baf0117ed06c6cd5b1928cb86fba82b33681e8f6eb2e0c8a865",
+          "launch-result.json": "aedbcfe9c3307cd88388c6023a9cb6ff6ba58c62a94300e41619a08754244aaa",
+          "closing.json": "ac89284ef11eba9eba76acc143cd907851f3de9442608b1461c54671ba9b4d49",
+          "actions.jsonl": "82497015c6813fe2448b606f1a389571b0dd26a5d70a675b9bd3ea33fdcf4912",
+          "timed-actions.json": "01fb22db368c4e62da1b15711bc32fac50739a8ce56ed8f5ea504448087d8436",
+          "paint.tsv": "d04c6d233af253ee6dd3e1cd555ab7767b370c9b433a1a2b6ae9b90ebf19c55a",
+          "buffers.tsv": "805af5629bc52fe97213aa535807f1de00de1f1c07ec8c32e49a24e2b3f71eb3",
+          "viewer.log": "f36aaa66b501b694116aabd8b4fe1984d0e2664b4e84ce78f8306c0267bfe33a",
+          "page-5-a.png": "ae78ae7a4eaa4e1f66e97c9231ffbc37d5eb290474d9383a0e5fed2e67db026b",
+          "page-5-b.png": "ae78ae7a4eaa4e1f66e97c9231ffbc37d5eb290474d9383a0e5fed2e67db026b"
+        },
+        "status": "CONFIRMED_BUFFER_OBSERVATION",
+        "observed_page": "5/6",
+        "within_session_equal": true,
+        "crop": [
+          626,
+          156,
+          1023,
+          718
+        ],
+        "screenshot_rgb_sha256": "940fbdc652e734c0bbebf31da5a2f9f8274e74eab816771666f5e0bd48d0e309",
+        "pixmap": {
+          "file": "pixmap-21-0000047a00000000.png",
+          "file_sha256": "d72475d6caee865c7e7de18c5851adeb11a1eabf39046c1777392e0246843738",
+          "rgb_sha256": "dae35413af13b0b763f8f69839052cdb40f1a1362b45f3574e89dd0066879800",
+          "size": [
+            397,
+            561
+          ],
+          "paint_event": 252,
+          "target": [
+            560.0,
+            10.0,
+            396.0,
+            561.0
+          ],
+          "source": [
+            0.0,
+            0.0,
+            397.0,
+            561.0
+          ],
+          "transform": [
+            1.00077819824,
+            0.0,
+            0.0,
+            1.00077819824,
+            0.0,
+            0.0
+          ]
+        },
+        "matching_buffers": [
+          {
+            "event": 15,
+            "monotonic_ns_after_digest": 20647343346607545,
+            "thread_id": 137,
+            "constructor": "mutable_tight",
+            "width": 397,
+            "height": 561,
+            "format": 13,
+            "stride": 1192,
+            "image_key": "47700000000",
+            "pointer_mod64": 0,
+            "fegetround": 0,
+            "mxcsr": "1fa3",
+            "x87_control": "37f",
+            "rgb_sha256": "dae35413af13b0b763f8f69839052cdb40f1a1362b45f3574e89dd0066879800"
+          }
+        ]
+      },
+      {
+        "label": "05-baseline-prior3",
+        "kind": "baseline",
+        "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-original-pdf/original-6-pages.pdf",
+        "source_sha256": "164f598498d6d722aaf243592d7535d73f0b628818dba05a65c64b3d2c3921e8",
+        "route": [
+          3,
+          5
+        ],
+        "pages": 6,
+        "target": 5,
+        "zoom": "50%",
+        "directory": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/sessions-v1/05-baseline-prior3",
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom": false,
+        "peak_memory_bytes": 324313088,
+        "artifacts_sha256": {
+          "launch.json": "0bf021ebabe31912c2ecb4be5a43e5206d2287071ad70e19310d373447120372",
+          "launch-result.json": "b0ee77990ce8c1a2894df4872bb6af0e4eb00834e51f1efca9d9707c46fde7d9",
+          "closing.json": "4422133ca4ceed67665e305ae8805ceb4e5f36e21c3c01c8b378fe1f41d113ef",
+          "actions.jsonl": "d359d1f347b46cc99a1fdeb5433eb4b13cdaea36d95141bb2abff229e1706202",
+          "timed-actions.json": "d3325a6b89c0b5b33cc26155bdd68fcae73fe3ad32ca09412eb3d3a9542725b5",
+          "paint.tsv": "6fe8227d779e1e32897348a39d2be989105e6c4ad083d27a49d5ef1086209078",
+          "buffers.tsv": "a0a5b39e980b86065eca6263900dcb2d70cfacb8240728bd99bfe077752c3610",
+          "viewer.log": "6a171f8d02204b7d159ed8f38a473801f3c1c6439a1936d4fcbfeb8fa00e89d0",
+          "page-5-a.png": "ae78ae7a4eaa4e1f66e97c9231ffbc37d5eb290474d9383a0e5fed2e67db026b",
+          "page-5-b.png": "ae78ae7a4eaa4e1f66e97c9231ffbc37d5eb290474d9383a0e5fed2e67db026b"
+        },
+        "status": "CONFIRMED_BUFFER_OBSERVATION",
+        "observed_page": "5/6",
+        "within_session_equal": true,
+        "crop": [
+          626,
+          156,
+          1023,
+          718
+        ],
+        "screenshot_rgb_sha256": "940fbdc652e734c0bbebf31da5a2f9f8274e74eab816771666f5e0bd48d0e309",
+        "pixmap": {
+          "file": "pixmap-21-0000047f00000000.png",
+          "file_sha256": "d72475d6caee865c7e7de18c5851adeb11a1eabf39046c1777392e0246843738",
+          "rgb_sha256": "dae35413af13b0b763f8f69839052cdb40f1a1362b45f3574e89dd0066879800",
+          "size": [
+            397,
+            561
+          ],
+          "paint_event": 255,
+          "target": [
+            560.0,
+            10.0,
+            396.0,
+            561.0
+          ],
+          "source": [
+            0.0,
+            0.0,
+            397.0,
+            561.0
+          ],
+          "transform": [
+            1.00077819824,
+            0.0,
+            0.0,
+            1.00077819824,
+            0.0,
+            0.0
+          ]
+        },
+        "matching_buffers": [
+          {
+            "event": 16,
+            "monotonic_ns_after_digest": 20647364824860504,
+            "thread_id": 137,
+            "constructor": "mutable_tight",
+            "width": 397,
+            "height": 561,
+            "format": 13,
+            "stride": 1192,
+            "image_key": "47e00000000",
+            "pointer_mod64": 48,
+            "fegetround": 0,
+            "mxcsr": "1fa3",
+            "x87_control": "37f",
+            "rgb_sha256": "dae35413af13b0b763f8f69839052cdb40f1a1362b45f3574e89dd0066879800"
+          }
+        ]
+      },
+      {
+        "label": "06-font-free-prior3",
+        "kind": "font-free",
+        "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/controls-v1/original-font-free-6-pages.pdf",
+        "source_sha256": "ec76ddfc28489b701947de36c47348d3309fe654f12f976963f083c6d03a3a2b",
+        "route": [
+          3,
+          5
+        ],
+        "pages": 6,
+        "target": 5,
+        "zoom": "50%",
+        "directory": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/sessions-v1/06-font-free-prior3",
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom": false,
+        "peak_memory_bytes": 318820352,
+        "artifacts_sha256": {
+          "launch.json": "aeb148daa38b7cb3e728c672985aef3369dcb3f0a4c98d5819021f45e95d348b",
+          "launch-result.json": "af4952f63ef0f5780e9b507714329709aa5c8ed4c09aa1bb4d234b2302a8c0c2",
+          "closing.json": "b4486840302751e8a296093606845556d433d03d69322e83a49907cc67a8fbd2",
+          "actions.jsonl": "5a93fe0512bfcf8ad60c9639766ae132f49db7a1ac4e7cd7833eba0f676705e9",
+          "timed-actions.json": "f67a826fc0087f68b8f721aff3ad928fecd50d9ed016a075690ebbc4f12346d3",
+          "paint.tsv": "8a798b0c0f8981552773fc4279c67dbceaaae0d35db5850a0eac19664ba38976",
+          "buffers.tsv": "58445500d8ff86d085d21af9a7ba07f628a66479a8f61fb2983c639066a3e306",
+          "viewer.log": "5a1a7eff61c9b337ef55d873a1ab6accc98f2f0b36e2cab598cba0ba4fea7149",
+          "page-5-a.png": "7ee675a5c2b39983431a1591fd219adfe9bba7f05f00808b9d4d896ca214d8df",
+          "page-5-b.png": "7ee675a5c2b39983431a1591fd219adfe9bba7f05f00808b9d4d896ca214d8df"
+        },
+        "status": "CONFIRMED_BUFFER_OBSERVATION",
+        "observed_page": "5/6",
+        "within_session_equal": true,
+        "crop": [
+          626,
+          156,
+          1023,
+          718
+        ],
+        "screenshot_rgb_sha256": "c5310647f04dad5ed37fb322bfa6fb3e2b778b72b766e83c430f06e3448062c5",
+        "pixmap": {
+          "file": "pixmap-21-0000047000000000.png",
+          "file_sha256": "6d0d72f0f10a803544a23fd7c820fc28269c7480aa1f6055c7a9563ada769978",
+          "rgb_sha256": "f88ba07f749d7d099977cd381e7c1618a1d652525d8c77294dda743951bf746c",
+          "size": [
+            397,
+            561
+          ],
+          "paint_event": 246,
+          "target": [
+            560.0,
+            10.0,
+            396.0,
+            561.0
+          ],
+          "source": [
+            0.0,
+            0.0,
+            397.0,
+            561.0
+          ],
+          "transform": [
+            1.00077819824,
+            0.0,
+            0.0,
+            1.00077819824,
+            0.0,
+            0.0
+          ]
+        },
+        "matching_buffers": [
+          {
+            "event": 16,
+            "monotonic_ns_after_digest": 20647386387725819,
+            "thread_id": 137,
+            "constructor": "mutable_tight",
+            "width": 397,
+            "height": 561,
+            "format": 13,
+            "stride": 1192,
+            "image_key": "46f00000000",
+            "pointer_mod64": 32,
+            "fegetround": 0,
+            "mxcsr": "1fa3",
+            "x87_control": "37f",
+            "rgb_sha256": "f88ba07f749d7d099977cd381e7c1618a1d652525d8c77294dda743951bf746c"
+          }
+        ]
+      },
+      {
+        "label": "07-font-free-direct5",
+        "kind": "font-free",
+        "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/controls-v1/original-font-free-6-pages.pdf",
+        "source_sha256": "ec76ddfc28489b701947de36c47348d3309fe654f12f976963f083c6d03a3a2b",
+        "route": [
+          5
+        ],
+        "pages": 6,
+        "target": 5,
+        "zoom": "50%",
+        "directory": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/sessions-v1/07-font-free-direct5",
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom": false,
+        "peak_memory_bytes": 315011072,
+        "artifacts_sha256": {
+          "launch.json": "b97431d97fd9403af94dc02c14b462f6ab1f23fc46030ef0c2da9ddb98063aca",
+          "launch-result.json": "4b49ece0b19387acfaccc2811b08ed3364d4a6939cc89cd6594223d3f4eda3fc",
+          "closing.json": "5747add5216bed429c0797d0747dfc750ce001f26f3ec8eea7e569969b33b8ec",
+          "actions.jsonl": "436899fff0cb9ca92c3ef7e2cc01161a5ea93cac39660df94861128602b62d0d",
+          "timed-actions.json": "7994df56a49f4f6eaac6f7e21bad493dcf2429e6c3b4bd387bd2e2e8afc0dcfc",
+          "paint.tsv": "d7123c42c6d6ab9a08d86992b5632ee5633e72342eec9b2b8df5383a5437702a",
+          "buffers.tsv": "e7453d72fe49ad6c4c3bbaf78594a202ca186148b3d0b6880811633d0cf96280",
+          "viewer.log": "d80b5035d4af4b1339aff6e5f1b501aaa72fa22f471efaf610718b7e637550d9",
+          "page-5-a.png": "4391bfbb102d6b347af4aa38bf177e9aee0af112612611f0489105bb23eeae44",
+          "page-5-b.png": "4391bfbb102d6b347af4aa38bf177e9aee0af112612611f0489105bb23eeae44"
+        },
+        "status": "CONFIRMED_BUFFER_OBSERVATION",
+        "observed_page": "5/6",
+        "within_session_equal": true,
+        "crop": [
+          626,
+          156,
+          1023,
+          718
+        ],
+        "screenshot_rgb_sha256": "29d722a3350fb5598e519c223cb5dac68523efaedb412fdf7d88e227da6ccd1c",
+        "pixmap": {
+          "file": "pixmap-21-0000047500000000.png",
+          "file_sha256": "be752865a1d57824cd76ede8513f95c70b483f44bffca2d3327b2d2162d8a009",
+          "rgb_sha256": "0aa149b1481a23a7ace2a0d153c5a9b2640239150d1c4991ed7e30f938e6a9a7",
+          "size": [
+            397,
+            561
+          ],
+          "paint_event": 228,
+          "target": [
+            560.0,
+            10.0,
+            396.0,
+            561.0
+          ],
+          "source": [
+            0.0,
+            0.0,
+            397.0,
+            561.0
+          ],
+          "transform": [
+            1.00077819824,
+            0.0,
+            0.0,
+            1.00077819824,
+            0.0,
+            0.0
+          ]
+        },
+        "matching_buffers": [
+          {
+            "event": 15,
+            "monotonic_ns_after_digest": 20647408070043079,
+            "thread_id": 137,
+            "constructor": "mutable_tight",
+            "width": 397,
+            "height": 561,
+            "format": 13,
+            "stride": 1192,
+            "image_key": "47400000000",
+            "pointer_mod64": 0,
+            "fegetround": 0,
+            "mxcsr": "1fa3",
+            "x87_control": "37f",
+            "rgb_sha256": "0aa149b1481a23a7ace2a0d153c5a9b2640239150d1c4991ed7e30f938e6a9a7"
+          }
+        ]
+      },
+      {
+        "label": "08-baseline-direct5",
+        "kind": "baseline",
+        "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-original-pdf/original-6-pages.pdf",
+        "source_sha256": "164f598498d6d722aaf243592d7535d73f0b628818dba05a65c64b3d2c3921e8",
+        "route": [
+          5
+        ],
+        "pages": 6,
+        "target": 5,
+        "zoom": "50%",
+        "directory": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/sessions-v1/08-baseline-direct5",
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom": false,
+        "peak_memory_bytes": 319578112,
+        "artifacts_sha256": {
+          "launch.json": "16b422b68dbc28916c8b13bd2982266fb873caec2ace38e7e48bac48d6643bb1",
+          "launch-result.json": "ebcfabfcfd92313bb383321ecfb0791fc245d67da51362454d00ae5cba439f48",
+          "closing.json": "176f251e760001381583177a44f79d229f44e95842d079db48a92e4c59153f10",
+          "actions.jsonl": "8c27400248bf2bc87671da2e0e46e03cbb87326c84aa081cacf972879fcfd71f",
+          "timed-actions.json": "8fc65c4e2d5e383e061985e4a6ac95506ce9a154d8232e74ded151a1d17a4228",
+          "paint.tsv": "0e96c95b87bf0d0332f53749cdbf4eeb86e6ef528d0657abac51f494ccc0bcaf",
+          "buffers.tsv": "2ebe3e55f89fa6bb493c79c1a1c17d2029cff7935a92114c86c20e117490a3fa",
+          "viewer.log": "73b0b119ac9f25ca75f247187f187e132163555e99fc3d5d4131857118cae4d0",
+          "page-5-a.png": "4895260ea877d13cdd346dc6dfa76d726f330b899d6268e369b4c04fbb25bdad",
+          "page-5-b.png": "4895260ea877d13cdd346dc6dfa76d726f330b899d6268e369b4c04fbb25bdad"
+        },
+        "status": "CONFIRMED_BUFFER_OBSERVATION",
+        "observed_page": "5/6",
+        "within_session_equal": true,
+        "crop": [
+          626,
+          156,
+          1023,
+          718
+        ],
+        "screenshot_rgb_sha256": "44491d7892daf121712e174ffa09edea487de243298fd1410195f5bf72112ca6",
+        "pixmap": {
+          "file": "pixmap-21-0000047300000000.png",
+          "file_sha256": "48080d68364c74d933e6a3b85c38007a4655c2e14c24f2486183be923c4cf568",
+          "rgb_sha256": "c698008964df9d0e4a269f56bf9d93b9b3015160f533b64b326d48abe9cad306",
+          "size": [
+            397,
+            561
+          ],
+          "paint_event": 225,
+          "target": [
+            560.0,
+            10.0,
+            396.0,
+            561.0
+          ],
+          "source": [
+            0.0,
+            0.0,
+            397.0,
+            561.0
+          ],
+          "transform": [
+            1.00077819824,
+            0.0,
+            0.0,
+            1.00077819824,
+            0.0,
+            0.0
+          ]
+        },
+        "matching_buffers": [
+          {
+            "event": 15,
+            "monotonic_ns_after_digest": 20647424596254513,
+            "thread_id": 137,
+            "constructor": "mutable_tight",
+            "width": 397,
+            "height": 561,
+            "format": 13,
+            "stride": 1192,
+            "image_key": "46f00000000",
+            "pointer_mod64": 0,
+            "fegetround": 0,
+            "mxcsr": "1fa3",
+            "x87_control": "37f",
+            "rgb_sha256": "c698008964df9d0e4a269f56bf9d93b9b3015160f533b64b326d48abe9cad306"
+          }
+        ]
+      }
+    ],
+    "panels_buffer_pixels": {
+      "solid_gray_cells": [
+        21,
+        49,
+        180,
+        208
+      ],
+      "fractional_vector_edges": [
+        210,
+        59,
+        359,
+        208
+      ],
+      "opaque_gray_image": [
+        21,
+        298,
+        363,
+        342
+      ],
+      "black_image_soft_mask": [
+        21,
+        418,
+        363,
+        462
+      ]
+    },
+    "comparisons": [
+      {
+        "first": "01-baseline-direct5",
+        "second": "04-baseline-prior3",
+        "kind": "baseline",
+        "status": "NOT_COMPARABLE"
+      },
+      {
+        "first": "01-baseline-direct5",
+        "second": "05-baseline-prior3",
+        "kind": "baseline",
+        "status": "NOT_COMPARABLE"
+      },
+      {
+        "first": "01-baseline-direct5",
+        "second": "08-baseline-direct5",
+        "kind": "baseline",
+        "status": "NOT_COMPARABLE"
+      },
+      {
+        "first": "04-baseline-prior3",
+        "second": "05-baseline-prior3",
+        "kind": "baseline",
+        "status": "MEASURED",
+        "buffer": {
+          "changed_pixels": 0,
+          "channel_delta": [
+            0,
+            0
+          ],
+          "bounds_exclusive": null
+        },
+        "screenshot": {
+          "changed_pixels": 0,
+          "channel_delta": [
+            0,
+            0
+          ],
+          "bounds_exclusive": null
+        }
+      },
+      {
+        "first": "04-baseline-prior3",
+        "second": "08-baseline-direct5",
+        "kind": "baseline",
+        "status": "MEASURED",
+        "buffer": {
+          "changed_pixels": 8254,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            16,
+            368,
+            512
+          ]
+        },
+        "screenshot": {
+          "changed_pixels": 21073,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            16,
+            368,
+            513
+          ]
+        }
+      },
+      {
+        "first": "05-baseline-prior3",
+        "second": "08-baseline-direct5",
+        "kind": "baseline",
+        "status": "MEASURED",
+        "buffer": {
+          "changed_pixels": 8254,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            16,
+            368,
+            512
+          ]
+        },
+        "screenshot": {
+          "changed_pixels": 21073,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            16,
+            368,
+            513
+          ]
+        }
+      },
+      {
+        "first": "02-font-free-direct5",
+        "second": "03-font-free-prior3",
+        "kind": "font-free",
+        "status": "MEASURED",
+        "buffer": {
+          "changed_pixels": 3655,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            8,
+            368,
+            463
+          ]
+        },
+        "screenshot": {
+          "changed_pixels": 6037,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            8,
+            368,
+            464
+          ]
+        },
+        "panels": {
+          "solid_gray_cells": {
+            "changed_pixels": 2043,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              0,
+              0,
+              159,
+              159
+            ]
+          },
+          "fractional_vector_edges": {
+            "changed_pixels": 1399,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              0,
+              0,
+              149,
+              149
+            ]
+          },
+          "opaque_gray_image": {
+            "changed_pixels": 28,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              2,
+              2,
+              340,
+              44
+            ]
+          },
+          "black_image_soft_mask": {
+            "changed_pixels": 45,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              2,
+              0,
+              340,
+              44
+            ]
+          }
+        },
+        "changed_outside_panels": 140
+      },
+      {
+        "first": "02-font-free-direct5",
+        "second": "06-font-free-prior3",
+        "kind": "font-free",
+        "status": "MEASURED",
+        "buffer": {
+          "changed_pixels": 3655,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            8,
+            368,
+            463
+          ]
+        },
+        "screenshot": {
+          "changed_pixels": 6037,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            8,
+            368,
+            464
+          ]
+        },
+        "panels": {
+          "solid_gray_cells": {
+            "changed_pixels": 2043,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              0,
+              0,
+              159,
+              159
+            ]
+          },
+          "fractional_vector_edges": {
+            "changed_pixels": 1399,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              0,
+              0,
+              149,
+              149
+            ]
+          },
+          "opaque_gray_image": {
+            "changed_pixels": 28,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              2,
+              2,
+              340,
+              44
+            ]
+          },
+          "black_image_soft_mask": {
+            "changed_pixels": 45,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              2,
+              0,
+              340,
+              44
+            ]
+          }
+        },
+        "changed_outside_panels": 140
+      },
+      {
+        "first": "02-font-free-direct5",
+        "second": "07-font-free-direct5",
+        "kind": "font-free",
+        "status": "MEASURED",
+        "buffer": {
+          "changed_pixels": 0,
+          "channel_delta": [
+            0,
+            0
+          ],
+          "bounds_exclusive": null
+        },
+        "screenshot": {
+          "changed_pixels": 0,
+          "channel_delta": [
+            0,
+            0
+          ],
+          "bounds_exclusive": null
+        },
+        "panels": {
+          "solid_gray_cells": {
+            "changed_pixels": 0,
+            "channel_delta": [
+              0,
+              0
+            ],
+            "bounds_exclusive": null
+          },
+          "fractional_vector_edges": {
+            "changed_pixels": 0,
+            "channel_delta": [
+              0,
+              0
+            ],
+            "bounds_exclusive": null
+          },
+          "opaque_gray_image": {
+            "changed_pixels": 0,
+            "channel_delta": [
+              0,
+              0
+            ],
+            "bounds_exclusive": null
+          },
+          "black_image_soft_mask": {
+            "changed_pixels": 0,
+            "channel_delta": [
+              0,
+              0
+            ],
+            "bounds_exclusive": null
+          }
+        },
+        "changed_outside_panels": 0
+      },
+      {
+        "first": "03-font-free-prior3",
+        "second": "06-font-free-prior3",
+        "kind": "font-free",
+        "status": "MEASURED",
+        "buffer": {
+          "changed_pixels": 0,
+          "channel_delta": [
+            0,
+            0
+          ],
+          "bounds_exclusive": null
+        },
+        "screenshot": {
+          "changed_pixels": 0,
+          "channel_delta": [
+            0,
+            0
+          ],
+          "bounds_exclusive": null
+        },
+        "panels": {
+          "solid_gray_cells": {
+            "changed_pixels": 0,
+            "channel_delta": [
+              0,
+              0
+            ],
+            "bounds_exclusive": null
+          },
+          "fractional_vector_edges": {
+            "changed_pixels": 0,
+            "channel_delta": [
+              0,
+              0
+            ],
+            "bounds_exclusive": null
+          },
+          "opaque_gray_image": {
+            "changed_pixels": 0,
+            "channel_delta": [
+              0,
+              0
+            ],
+            "bounds_exclusive": null
+          },
+          "black_image_soft_mask": {
+            "changed_pixels": 0,
+            "channel_delta": [
+              0,
+              0
+            ],
+            "bounds_exclusive": null
+          }
+        },
+        "changed_outside_panels": 0
+      },
+      {
+        "first": "03-font-free-prior3",
+        "second": "07-font-free-direct5",
+        "kind": "font-free",
+        "status": "MEASURED",
+        "buffer": {
+          "changed_pixels": 3655,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            8,
+            368,
+            463
+          ]
+        },
+        "screenshot": {
+          "changed_pixels": 6037,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            8,
+            368,
+            464
+          ]
+        },
+        "panels": {
+          "solid_gray_cells": {
+            "changed_pixels": 2043,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              0,
+              0,
+              159,
+              159
+            ]
+          },
+          "fractional_vector_edges": {
+            "changed_pixels": 1399,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              0,
+              0,
+              149,
+              149
+            ]
+          },
+          "opaque_gray_image": {
+            "changed_pixels": 28,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              2,
+              2,
+              340,
+              44
+            ]
+          },
+          "black_image_soft_mask": {
+            "changed_pixels": 45,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              2,
+              0,
+              340,
+              44
+            ]
+          }
+        },
+        "changed_outside_panels": 140
+      },
+      {
+        "first": "06-font-free-prior3",
+        "second": "07-font-free-direct5",
+        "kind": "font-free",
+        "status": "MEASURED",
+        "buffer": {
+          "changed_pixels": 3655,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            8,
+            368,
+            463
+          ]
+        },
+        "screenshot": {
+          "changed_pixels": 6037,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            8,
+            368,
+            464
+          ]
+        },
+        "panels": {
+          "solid_gray_cells": {
+            "changed_pixels": 2043,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              0,
+              0,
+              159,
+              159
+            ]
+          },
+          "fractional_vector_edges": {
+            "changed_pixels": 1399,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              0,
+              0,
+              149,
+              149
+            ]
+          },
+          "opaque_gray_image": {
+            "changed_pixels": 28,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              2,
+              2,
+              340,
+              44
+            ]
+          },
+          "black_image_soft_mask": {
+            "changed_pixels": 45,
+            "channel_delta": [
+              -1,
+              1
+            ],
+            "bounds_exclusive": [
+              2,
+              0,
+              340,
+              44
+            ]
+          }
+        },
+        "changed_outside_panels": 140
+      }
+    ],
+    "scope": "No converter or external documents involved. All frozen sessions retained. Pixel differences are observations, never fitted tolerance or readiness/fidelity success."
+  },
+  "no_observer": {
+    "plan_sha256": "e2ff15ba59fc2a8fdbeefde38bc649cfcfced44277e693660cf724359d02612c",
+    "driver_receipt_sha256": "2343a6dab7fda441271cd821ceab3e88373405b26f6c6aecb459b2cd52c611af",
+    "observations": [
+      {
+        "label": "09-font-free-direct5",
+        "kind": "font-free",
+        "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/controls-v1/original-font-free-6-pages.pdf",
+        "source_sha256": "ec76ddfc28489b701947de36c47348d3309fe654f12f976963f083c6d03a3a2b",
+        "route": [
+          5
+        ],
+        "pages": 6,
+        "target": 5,
+        "zoom": "50%",
+        "directory": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/sessions-no-observer-v1/09-font-free-direct5",
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom": false,
+        "observer_loaded": false,
+        "peak_memory_bytes": 315875328,
+        "artifacts_sha256": {
+          "launch.json": "264b2f14a694d4f1851eb6484f857002270edb3fbc33eb959f66732494492fb0",
+          "page-5-b.ppm": "30b3a2f32dc3f1b965fba7909d26f66eab83908fd0bbfd2f765e9947ad4d1c0a",
+          "launch-result.json": "45e2acde4bb3334848de977761458faee6673e98d31412d64a53faca8bf94932",
+          "page-5-b.png": "4391bfbb102d6b347af4aa38bf177e9aee0af112612611f0489105bb23eeae44",
+          "viewer.log": "e4f573c45ad8c1852df2d1e3afca83dae04e44ca88a9bc37be4a4b5bb6ff8fe5",
+          "timed-actions.json": "d70f9fbd02b31829f9c770dc755af7c4ac7a083071ed3f92f64eba9d9e4d0407",
+          "actions.jsonl": "504c301ad647bfb71ee6cc235e4ef7b54e60333ba9681dd4648f8dd64a1c1910",
+          "closing.json": "2e2776bfc3dd0db3d2cdb03f78da03ceb8040c6027d3d7771823c2f7b9726cae",
+          "ui.py": "2cc3f88f507a0144d1518f12f629bbb19ec9771da8acfd3c3d4fdaa4285ed295",
+          "desktop.ppm": "30b3a2f32dc3f1b965fba7909d26f66eab83908fd0bbfd2f765e9947ad4d1c0a",
+          "initial.png": "a8a0496245fb7385f6fd95cdb72dc08f505577c2ea1d69e6475c58b45ceecf93",
+          "before-page.ppm": "3d5024dae10497bd87e3e06aa3e54d1943cb96c23ef90409e25ec4315b241479",
+          "xvfb.log": "e2861dbf17c9cb74d57668ceaa0ec8111c014cd26d10d2d0dffdf37188dac690",
+          "page-5-a.png": "4391bfbb102d6b347af4aa38bf177e9aee0af112612611f0489105bb23eeae44",
+          "start.sh": "7604bb6db7d6cf86cd41c9658e0e1905b09870f9f6bed49d225f8f724139050c",
+          "before-page.png": "cef12d4bbd8265a942b9e71d0594355810b935438622fbc56061faab334be9b7",
+          "initial.ppm": "ffa720a73e80ebd805656165f7ebd41b43bce98f037fdf2325fa2de102a2958d",
+          "openbox.log": "95c0b23fa7dc08a3a7816a44ed0ed418004ac3c72977f69174eb7220d35f35ae",
+          "page-5-a.ppm": "30b3a2f32dc3f1b965fba7909d26f66eab83908fd0bbfd2f765e9947ad4d1c0a"
+        },
+        "status": "CONFIRMED_SCREENSHOT_OBSERVATION",
+        "observed_page": "5/6",
+        "within_session_equal": true,
+        "crop": [
+          626,
+          156,
+          1023,
+          718
+        ],
+        "screenshot_rgb_sha256": "29d722a3350fb5598e519c223cb5dac68523efaedb412fdf7d88e227da6ccd1c",
+        "matching_instrumented_sessions": [
+          "02-font-free-direct5",
+          "07-font-free-direct5"
+        ]
+      },
+      {
+        "label": "10-font-free-prior3",
+        "kind": "font-free",
+        "source": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/controls-v1/original-font-free-6-pages.pdf",
+        "source_sha256": "ec76ddfc28489b701947de36c47348d3309fe654f12f976963f083c6d03a3a2b",
+        "route": [
+          3,
+          5
+        ],
+        "pages": 6,
+        "target": 5,
+        "zoom": "50%",
+        "directory": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-raster-stages/sessions-no-observer-v1/10-font-free-prior3",
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom": false,
+        "observer_loaded": false,
+        "peak_memory_bytes": 316329984,
+        "artifacts_sha256": {
+          "page-3-a.ppm": "63d8c764e7762db09ed574a0f7ea056250b3731afce76b47c840ec3eb7cab43a",
+          "launch.json": "1ee4e6ca998d345840777925aa655aa6592b07ad911c891e9d85137c6ed4275d",
+          "page-5-b.ppm": "841e687a19a08cff4fa57bad4d3dde7ff0b36c3d7b45575dc0633f6e9f42b911",
+          "closing.json": "c026027c5a2d03efc150ffaec86630da65a9f1278075f5cd2284fb2fcd4b04d9",
+          "page-3-a.png": "bc7c70a193ee5154dcc83b64210c16ee52c1418a217a84df55798d4a3107db5a",
+          "desktop.ppm": "841e687a19a08cff4fa57bad4d3dde7ff0b36c3d7b45575dc0633f6e9f42b911",
+          "ui.py": "73d12b27011c512e16247be6524ced5884edc94ca125e94de9d5154e8d68c086",
+          "page-5-b.png": "7ee675a5c2b39983431a1591fd219adfe9bba7f05f00808b9d4d896ca214d8df",
+          "before-page.png": "cef12d4bbd8265a942b9e71d0594355810b935438622fbc56061faab334be9b7",
+          "viewer.log": "086f0fd899f5d24a9ba82555c28717d6af6a85833a16316b8eaad342ef6cc303",
+          "page-5-a.png": "7ee675a5c2b39983431a1591fd219adfe9bba7f05f00808b9d4d896ca214d8df",
+          "launch-result.json": "8417cd860fe5b7eb0eba0fc0eefbd22d1f3b768415816f85f6e520d5deab9fb7",
+          "initial.png": "a8a0496245fb7385f6fd95cdb72dc08f505577c2ea1d69e6475c58b45ceecf93",
+          "page-3-b.png": "bc7c70a193ee5154dcc83b64210c16ee52c1418a217a84df55798d4a3107db5a",
+          "initial.ppm": "ffa720a73e80ebd805656165f7ebd41b43bce98f037fdf2325fa2de102a2958d",
+          "page-5-a.ppm": "841e687a19a08cff4fa57bad4d3dde7ff0b36c3d7b45575dc0633f6e9f42b911",
+          "start.sh": "7604bb6db7d6cf86cd41c9658e0e1905b09870f9f6bed49d225f8f724139050c",
+          "before-page.ppm": "3d5024dae10497bd87e3e06aa3e54d1943cb96c23ef90409e25ec4315b241479",
+          "page-3-b.ppm": "63d8c764e7762db09ed574a0f7ea056250b3731afce76b47c840ec3eb7cab43a",
+          "timed-actions.json": "c9fcb4494dc386301fb0f784bfd9c871a9f4e6fbdc56830f127dfb4fd94925ff",
+          "actions.jsonl": "450e2c72faea70fe0dbbc95862202c658d331b8bf59603b821f38ff93fc031a9",
+          "openbox.log": "6f748c3cd02a858c087697c3afac639205c62b7b206558bd40d1bcbd98165a5c",
+          "xvfb.log": "e2861dbf17c9cb74d57668ceaa0ec8111c014cd26d10d2d0dffdf37188dac690"
+        },
+        "status": "CONFIRMED_SCREENSHOT_OBSERVATION",
+        "observed_page": "5/6",
+        "within_session_equal": true,
+        "crop": [
+          626,
+          156,
+          1023,
+          718
+        ],
+        "screenshot_rgb_sha256": "c5310647f04dad5ed37fb322bfa6fb3e2b778b72b766e83c430f06e3448062c5",
+        "matching_instrumented_sessions": [
+          "03-font-free-prior3",
+          "06-font-free-prior3"
+        ]
+      }
+    ],
+    "comparison": {
+      "changed_pixels": 6037,
+      "channel_delta": [
+        -1,
+        1
+      ],
+      "bounds_exclusive": [
+        16,
+        8,
+        368,
+        464
+      ]
+    }
+  },
+  "gray_lookup_discriminator": {
+    "prior_report_sha256": "3349fdab8d3c6bbd3d78e666de3d2f6c67b3878d6d50ce461095a1e1bf2d6dba",
+    "retained_original_pairs": [
+      {
+        "kind": "native",
+        "inputs": [
+          {
+            "path": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-buffer-observer/direct/c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca/pixmap-21-000004a600000000.png",
+            "file_sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68",
+            "rgb_sha256": "9e7b361f30339fd3766750250e127a627ba5f0c68aa087f94a97e929abf358e1"
+          },
+          {
+            "path": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-buffer-observer/prior3/c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca/pixmap-20-0000052c00000000.png",
+            "file_sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677",
+            "rgb_sha256": "61bc169cd89d75373e77443c38726aae47d40614fd48e5b3d519e4931ce20c6c"
+          }
+        ],
+        "metrics": {
+          "pixels": 1510518,
+          "changed_pixels": 29877,
+          "channel_delta": [
+            -2,
+            2
+          ],
+          "bounds_exclusive": [
+            32,
+            40,
+            880,
+            1392
+          ],
+          "first_values_with_multiple_second": 112,
+          "second_values_with_multiple_first": 117,
+          "maximum_second_levels_per_first": 4,
+          "coordinate_independent_lookup_possible": false,
+          "first_white_pixels_changed": 15046,
+          "first_black_pixels_changed": 0
+        }
+      },
+      {
+        "kind": "pdf",
+        "inputs": [
+          {
+            "path": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-original-pdf/captures-buffer/original-6-direct5/pixmap-21-0000048400000000.png",
+            "file_sha256": "48080d68364c74d933e6a3b85c38007a4655c2e14c24f2486183be923c4cf568",
+            "rgb_sha256": "c698008964df9d0e4a269f56bf9d93b9b3015160f533b64b326d48abe9cad306"
+          },
+          {
+            "path": "/home/hzc/.cache/caj2pdf-all-sample-correctness/441-original-pdf/captures-buffer/original-6-prior3/pixmap-21-0000048000000000.png",
+            "file_sha256": "d72475d6caee865c7e7de18c5851adeb11a1eabf39046c1777392e0246843738",
+            "rgb_sha256": "dae35413af13b0b763f8f69839052cdb40f1a1362b45f3574e89dd0066879800"
+          }
+        ],
+        "metrics": {
+          "pixels": 222717,
+          "changed_pixels": 8254,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            16,
+            368,
+            512
+          ],
+          "first_values_with_multiple_second": 47,
+          "second_values_with_multiple_first": 33,
+          "maximum_second_levels_per_first": 3,
+          "coordinate_independent_lookup_possible": false,
+          "first_white_pixels_changed": 4937,
+          "first_black_pixels_changed": 0
+        }
+      }
+    ],
+    "current_original_pairs": [
+      {
+        "kind": "font-free",
+        "first": "02-font-free-direct5",
+        "second": "03-font-free-prior3",
+        "metrics": {
+          "pixels": 222717,
+          "changed_pixels": 3655,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            8,
+            368,
+            463
+          ],
+          "first_values_with_multiple_second": 256,
+          "second_values_with_multiple_first": 256,
+          "maximum_second_levels_per_first": 3,
+          "coordinate_independent_lookup_possible": false,
+          "first_white_pixels_changed": 694,
+          "first_black_pixels_changed": 5
+        }
+      },
+      {
+        "kind": "baseline",
+        "first": "04-baseline-prior3",
+        "second": "08-baseline-direct5",
+        "metrics": {
+          "pixels": 222717,
+          "changed_pixels": 8254,
+          "channel_delta": [
+            -1,
+            1
+          ],
+          "bounds_exclusive": [
+            16,
+            16,
+            368,
+            512
+          ],
+          "first_values_with_multiple_second": 33,
+          "second_values_with_multiple_first": 47,
+          "maximum_second_levels_per_first": 3,
+          "coordinate_independent_lookup_possible": false,
+          "first_white_pixels_changed": 0,
+          "first_black_pixels_changed": 0
+        }
+      }
+    ],
+    "method": "Equal-sized grayscale RGB arrays only. Count all 256 by 256 ordered value pairs. More than one target value for one input value rejects a coordinate-independent lookup. No fitted correction/tolerance, alignment or fidelity verdict."
+  },
+  "tool_sha256": {
+    "research/cajviewer/pdf_raster_stage_controls.py": "db0e72e737530f0c4bd05b4944385ece80c614a83891179e43a2218530019957",
+    "research/conformance/test_pdf_raster_stage_controls.py": "450003208b24fe8c9d1ab1576b7b97b834a4a2e984c98d42af2bcb0e915bc7aa",
+    "research/scripts/raster_gray_comparison.py": "2aca21ac14dc2e508f38e7a77c1d99665e5002e085a1886a67bd61e7a4c04b5f",
+    "research/conformance/test_raster_gray_comparison.py": "11eeaaed5ce47da571364b1dc4b16f6f98659656ae0196832096e639406c4d36"
+  },
+  "external_sha256": {
+    "run_sessions.py": "df4a795b2dbddbd633b9ba2e00cf2bdd4329cb3e4de814f8e7b0b20502c13558",
+    "run_no_observer.py": "cccc0b45c45509f72f8b2c809491967a89c26e83238746dd8b5b4d79fab67ef0",
+    "collect_sessions.py": "16a19d77c78c8d163d1ce8e07c1edab3e5a5b99da048f764b809aefe3dc8f01d",
+    "observations-v1.json": "725e6bcd311c2229de5393a093aa9c9876278fc75d974ac1567dfc057cb711e5",
+    "observations-no-observer-v1.json": "e7c696d5a1db1f2777741c728bcd62f72b7ba8a1585a7faa01f8633d531af2e0",
+    "retained-gray-pairs-v1.json": "54dcdd63770791210ea19c863fb568eb32bc3cfadd0027441df1c0d8f36be2ee"
+  },
+  "validation": {
+    "fixture_tests_pass": 3,
+    "gray_comparison_tests_pass": 4,
+    "skipped": 0,
+    "catalog_check": "PASS",
+    "qpdf_original_fixture": "PASS",
+    "current_measured_buffer_pairs_rechecked": 9,
+    "prior_measured_pairs_rechecked": 2,
+    "all_session_input_integrity_cleanup_no_oom": true
+  },
+  "session_accounting": {
+    "planned": 10,
+    "retained": 10,
+    "confirmed_buffer_observations": 7,
+    "confirmed_screenshot_only_observations": 2,
+    "not_confirmed": 1,
+    "retries": 0
+  },
+  "limits": [
+    "First instrumented baseline session aborted with invalid-pointer diagnostics; retained as NOT_CONFIRMED, not replaced. Cause unknown.",
+    "No converter or corpus conversion was run; original font-free fixtures establish only that fonts/text operators are not required for the observed variation.",
+    "No-observer whole-page screenshots match both instrumented variants; this does not prove observation has no timing impact or explain the first abort.",
+    "397x561 buffer/pixmap and 397x562 displayed crop are distinct stages; source-panel projections are descriptive, not fitted registration.",
+    "Prior native repeats already show that route alone does not determine raster variant. Two equal consecutive captures do not establish general readiness.",
+    "Only public Qt API observations, ordinary application logs and original fixtures. Earlier prototype observer binary retained under its original hash; not relabeled as a final published-tool run.",
+    "No vendor implementation, vendor font program or outline was inspected. No private/differently licensed converter code migrated.",
+    "PDFs, pixels, fonts, binaries and raw logs remain external. All committed source is original MIT.",
+    "No inferred internal rasterizer cause, pixel tolerance, broad source-font/ornament fidelity, or closure of Rust #441/#406 or samples #51."
+  ],
+  "unchanged_conversion_ledger": {
+    "originals": 1297,
+    "pass": 1252,
+    "fail": 18,
+    "unsupported": 27,
+    "accepted_pages": 35587,
+    "runtime_sweep_this_report": false,
+    "release": false
+  }
+}
