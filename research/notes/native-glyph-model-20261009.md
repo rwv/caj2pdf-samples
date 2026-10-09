@@ -11,7 +11,7 @@ with the published original-control models, not original-font or raster fidelity
 
 The [per-page receipt](native-glyph-model-20261009.json), recorded on
 2026-10-09 UTC, pins every source/PDF/font and checker dependency SHA-256.
-Its SHA-256 is `3458d2b9d89b43e41581098445b850aac01104e8bcc30eefd39a9266c024a2f5`.
+Its SHA-256 is `869470f8666ee34dcf51c635ebc7de63de538a7f1f91201f66bed380ef6c618c`.
 Production remains `5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc`, CLI SHA-256
 `d213898ee16a32f0d5304dc96438ffde2402d8135af3b0728a764c1ae8ea41a0`.
 Conversion totals remain **1,252 PASS / 18 FAIL / 27 UNSUPPORTED**. No new
@@ -105,8 +105,8 @@ graphics stack depth 32 and marked-content depth two. Diagnostic font data is
 bounded to 4 MiB per program, 64 used font resources per document, eight subset
 glyphs and bounded CID maps/width arrays. Dependencies are pikepdf 10.5.1,
 PyMuPDF 1.27.2.2 and fonttools 4.62.1; Python was 3.13.5. The final 20-pair run
-used one process with a 2 GiB address-space cap; VmHWM was 89,392 KiB and VmPeak
-147,680 KiB. Elapsed time was 46.31 seconds. No optional skip counts as a pass.
+used one process with a 2 GiB address-space cap; VmHWM was 89,444 KiB and VmPeak
+147,652 KiB. Elapsed time was 45.21 seconds. No optional skip counts as a pass.
 
 ```sh
 python3 research/scripts/native_glyph_geometry.py /external/source.caj \
@@ -119,7 +119,9 @@ python3 research/scripts/native_glyph_geometry.py /external/source.caj \
 
 The initial complete glyph run passed. Review added explicit PDF-width checks,
 stricter neighboring profiles, then ornament clipping/repetition/order before
-the final bounded run; each complete run passed. A separate public-API probe
+the bounded run; each complete run passed. Final self-review also refused direct
+font resources to prevent cache-key aliasing, added a negative control and reran
+all nine affected groups and all 20 pinned pairs successfully. A separate public-API probe
 of two QPainter drawImage entry points observed no calls on a new original
 two-glyph control. Existing pixmap observations were unchanged. This repeats
 the earlier observer limitation and supplies no new corpus fidelity evidence.

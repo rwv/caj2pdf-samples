@@ -136,12 +136,15 @@ class GlyphGeometryTests(unittest.TestCase):
     def test_font_widths_and_actual_cid_mapping_are_checked(self):
         with tempfile.TemporaryDirectory() as name:
             root = Path(name); source, original = fixture(root, self.fonts)
-            for kind in ('default-width', 'explicit-width', 'cid-glyph'):
+            for kind in ('default-width', 'explicit-width', 'cid-glyph', 'direct-resource'):
                 with pikepdf.open(original) as doc:
                     cid = doc.pages[0].Resources.Font.Arbitrary9.DescendantFonts[0]
                     if kind == 'default-width': cid.DW = 500
                     elif kind == 'explicit-width': cid.W = [0x4e2d, [500]]
-                    else: cid.CIDToGIDMap = doc.make_stream(b'\0\2' * 65536)
+                    elif kind == 'cid-glyph': cid.CIDToGIDMap = doc.make_stream(b'\0\2' * 65536)
+                    else:
+                        fonts = doc.pages[0].Resources.Font
+                        fonts.Arbitrary9 = pikepdf.Dictionary(fonts.Arbitrary9)
                     changed = root / (kind + '.pdf'); doc.save(changed)
                 with self.subTest(kind=kind), self.assertRaises(ValueError):
                     g.inspect(source, changed, g.digest(source), g.digest(changed), self.fonts)

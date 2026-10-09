@@ -9,7 +9,7 @@
   "fonttools": "4.62.1",
   "script_sha256": {
     "research/scripts/native_glyph_model.py": "9e5b0db4c44d5219d487069db8582b376873b243818d534cc16642e57c8d5aba",
-    "research/scripts/native_glyph_geometry.py": "4487b6d814e80a3e22fda768618351d48c0fffd3f37eefd26b35858e29680fcc",
+    "research/scripts/native_glyph_geometry.py": "1be6281f08a183b4682f69ca9cb5f61eb954ef1e2494466be22d80f0540d4c2c",
     "research/scripts/native_vector_geometry.py": "34625bc31a11bbaa4e70dbf5388f4f6d25257bd5580fe582133f4b6f3fe3606a",
     "research/scripts/source_image_geometry.py": "6df091f16de043be4594acbb58a309587ffe672aeeff6da44c6960048491f910",
     "research/scripts/native_text_order.py": "efeede08dd646781bc333e115bc6071664086064644b7b9a68ea999f97697d0b",
@@ -27,10 +27,10 @@
   "address_space_limit_bytes": 2147483648,
   "workers": 1,
   "process_status": {
-    "VmPeak": "147680 kB",
-    "VmHWM": "89392 kB"
+    "VmPeak": "147652 kB",
+    "VmHWM": "89444 kB"
   },
-  "elapsed_seconds": 46.305775959044695,
+  "elapsed_seconds": 45.214505810290575,
   "documents": [
     {
       "source_sha256": "03770ea1cdebc9856d1443438b296860fa11f3e283717d256ea0af57ecae1c89",
@@ -5281,6 +5281,10 @@
     {
       "attempt": "probe manifest error",
       "result": "An older HN-B control was initially read with a C8 page-count offset and was refused before any viewer launched. A new original C8 two-glyph control replaced that manifest; the failed attempt remains external."
+    },
+    {
+      "attempt": "Final font-resource self-review",
+      "result": "A direct font dictionary has no unique indirect-object cache key. The checker now refuses direct font resources, with an original negative control. All nine affected control groups and all 20 pinned external pairs passed again; earlier complete receipts remain external."
     }
   ],
   "limits": [

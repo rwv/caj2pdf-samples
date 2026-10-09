@@ -84,6 +84,7 @@ class Fonts:
 
     def inspect(self, resource, code):
         key = resource.objgen
+        require(key[0] > 0, 'unmeasured direct font resource')
         if key not in self.cache:
             require(len(self.cache) < 64, 'document font resource limit')
             require(resource.Subtype == pikepdf.Name('/Type0') and resource.Encoding == pikepdf.Name('/Identity-H'),
