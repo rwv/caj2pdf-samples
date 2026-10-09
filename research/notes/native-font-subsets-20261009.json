@@ -1,0 +1,669 @@
+{
+  "documents": [
+    {
+      "source_sha256": "03770ea1cdebc9856d1443438b296860fa11f3e283717d256ea0af57ecae1c89",
+      "pdf_sha256": "65ffb1a8fd283abd4190fc7072bfbe266b877132cf00b87e6d9028c29bc34cde",
+      "pages": [
+        {
+          "page": 1,
+          "glyphs": 1438,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 2,
+          "glyphs": 1347,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 3,
+          "glyphs": 921,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "glyphs": 1169,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 5,
+          "glyphs": 2846,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        }
+      ],
+      "font_programs": {
+        "CFF": 1,
+        "TrueType": 1
+      },
+      "unique_resource_cids": 462,
+      "selected_role_counts": {
+        "cjk": 7558,
+        "latin": 163
+      },
+      "status": "PASS"
+    },
+    {
+      "source_sha256": "166d0014792326570d9e8ca42fe13a4a44329e4ad095d3ac8dfd73c8ddb9f20e",
+      "pdf_sha256": "11cadd7d1857a26a929d5d74be4da53facef1215f5a2e43f9104706c26bb7b88",
+      "pages": [
+        {
+          "page": 1,
+          "glyphs": 1681,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 2,
+          "glyphs": 805,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 3,
+          "glyphs": 1435,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "glyphs": 1057,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 5,
+          "glyphs": 1737,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 6,
+          "glyphs": 1003,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 7,
+          "glyphs": 1271,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 8,
+          "glyphs": 1503,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 9,
+          "glyphs": 1371,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 10,
+          "glyphs": 2592,
+          "errors": {},
+          "replacements": 1,
+          "status": "PASS"
+        },
+        {
+          "page": 11,
+          "glyphs": 3632,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 12,
+          "glyphs": 2606,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        }
+      ],
+      "font_programs": {
+        "CFF": 1,
+        "TrueType": 1
+      },
+      "unique_resource_cids": 878,
+      "selected_role_counts": {
+        "cjk": 12283,
+        "latin": 8410
+      },
+      "status": "PASS"
+    },
+    {
+      "source_sha256": "1b9aa912e0bc9dcce4dfbefa07e08a24665d6db624a02f9a30a8c404df5a9ef7",
+      "pdf_sha256": "4e38dc686ae8a07b23d006e9a908cd5929a0ce67281a3f1ac4f67cd5b7f6c212",
+      "pages": [
+        {
+          "page": 1,
+          "glyphs": 1536,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 2,
+          "glyphs": 1133,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 3,
+          "glyphs": 1046,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "glyphs": 2864,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        }
+      ],
+      "font_programs": {
+        "CFF": 1,
+        "TrueType": 1
+      },
+      "unique_resource_cids": 428,
+      "selected_role_counts": {
+        "cjk": 6449,
+        "latin": 130
+      },
+      "status": "PASS"
+    },
+    {
+      "source_sha256": "3f3b9b57d6925df811247dced47fd7fb74cf0f678ab9bfda0827c827258ab39b",
+      "pdf_sha256": "375b15bbcc400ebc770f51e086e8a00835956ab17233a0d3252dc5678eb00d3f",
+      "pages": [
+        {
+          "page": 1,
+          "glyphs": 1302,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 2,
+          "glyphs": 1555,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 3,
+          "glyphs": 1470,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "glyphs": 1642,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        }
+      ],
+      "font_programs": {
+        "CFF": 1,
+        "TrueType": 1
+      },
+      "unique_resource_cids": 696,
+      "selected_role_counts": {
+        "cjk": 5381,
+        "latin": 588
+      },
+      "status": "PASS"
+    },
+    {
+      "source_sha256": "63870d12f2069d3d6c663dc2813d04a38a632c4c319f20b6f8dd1b8b8bc589c2",
+      "pdf_sha256": "c6a63c710126984fd57d90257a5d33244bbfa876f57491aedffaf80f2842200a",
+      "pages": [
+        {
+          "page": 1,
+          "glyphs": 2060,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 2,
+          "glyphs": 2569,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 3,
+          "glyphs": 1902,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "glyphs": 1398,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        }
+      ],
+      "font_programs": {
+        "CFF": 1,
+        "TrueType": 1
+      },
+      "unique_resource_cids": 583,
+      "selected_role_counts": {
+        "cjk": 4135,
+        "latin": 3794
+      },
+      "status": "PASS"
+    },
+    {
+      "source_sha256": "7e3f2c0faebb8ddac2f4feff3cfc9249476ab170b43250ac00610b10aa46c74b",
+      "pdf_sha256": "db0859192313afc1879f3b2bf941c9978251ef01ebeec28d446a16a4992bff23",
+      "pages": [
+        {
+          "page": 1,
+          "glyphs": 0,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 2,
+          "glyphs": 0,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 3,
+          "glyphs": 0,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "glyphs": 0,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 5,
+          "glyphs": 0,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 6,
+          "glyphs": 0,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 7,
+          "glyphs": 0,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 8,
+          "glyphs": 0,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 9,
+          "glyphs": 0,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 10,
+          "glyphs": 2040,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        }
+      ],
+      "font_programs": {
+        "CFF": 1,
+        "TrueType": 1
+      },
+      "unique_resource_cids": 319,
+      "selected_role_counts": {
+        "cjk": 1964,
+        "latin": 76
+      },
+      "status": "PASS"
+    },
+    {
+      "source_sha256": "90e7b47716c32ef7a67cde8094f312e0ee7f1a7e0ed50a25830e8ba64a84f6a6",
+      "pdf_sha256": "e3a45bc6a235339fd57c3822446213a6d824457efe9aecc348f5e2d778dbc919",
+      "pages": [
+        {
+          "page": 1,
+          "glyphs": 1015,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 2,
+          "glyphs": 1338,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 3,
+          "glyphs": 840,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "glyphs": 986,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 5,
+          "glyphs": 801,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 6,
+          "glyphs": 1703,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        }
+      ],
+      "font_programs": {
+        "CFF": 1,
+        "TrueType": 1
+      },
+      "unique_resource_cids": 519,
+      "selected_role_counts": {
+        "cjk": 3363,
+        "latin": 3320
+      },
+      "status": "PASS"
+    },
+    {
+      "source_sha256": "b9a64bf99e4bc496b976541a27128ee84109835d5f79f228a9c8ad159ec6829b",
+      "pdf_sha256": "185a14fd1155782ed691c450f4b63e15213c61914cd362f3a6ee380dbb8e4a42",
+      "pages": [
+        {
+          "page": 1,
+          "glyphs": 1644,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 2,
+          "glyphs": 2052,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 3,
+          "glyphs": 1683,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "glyphs": 2233,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        }
+      ],
+      "font_programs": {
+        "CFF": 1,
+        "TrueType": 1
+      },
+      "unique_resource_cids": 694,
+      "selected_role_counts": {
+        "cjk": 6879,
+        "latin": 733
+      },
+      "status": "PASS"
+    },
+    {
+      "source_sha256": "d6a23a9cfd0f37a71e245a3c96b2c3fafdf648f4bb1694f094cfe746b3f4f13d",
+      "pdf_sha256": "1ce3a67f4f6a43647dff2a8da88162d4a15f21ad2c06f7616e054f38989c280e",
+      "pages": [
+        {
+          "page": 1,
+          "glyphs": 2492,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 2,
+          "glyphs": 1597,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 3,
+          "glyphs": 1731,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "glyphs": 1905,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 5,
+          "glyphs": 2609,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        }
+      ],
+      "font_programs": {
+        "CFF": 1,
+        "TrueType": 1
+      },
+      "unique_resource_cids": 762,
+      "selected_role_counts": {
+        "cjk": 10247,
+        "latin": 87
+      },
+      "status": "PASS"
+    },
+    {
+      "source_sha256": "e1b17805a87f62097987c41f2821836d6b774caaf035c9846be966c965f08a49",
+      "pdf_sha256": "99b129a924fe0ab80d1b712ad3a7dda5009d78c62b16784422ae7c242455ff73",
+      "pages": [
+        {
+          "page": 1,
+          "glyphs": 1280,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 2,
+          "glyphs": 1837,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 3,
+          "glyphs": 1689,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "glyphs": 1679,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 5,
+          "glyphs": 1599,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        },
+        {
+          "page": 6,
+          "glyphs": 0,
+          "errors": {},
+          "replacements": 0,
+          "status": "PASS"
+        }
+      ],
+      "font_programs": {
+        "CFF": 1,
+        "TrueType": 1
+      },
+      "unique_resource_cids": 799,
+      "selected_role_counts": {
+        "cjk": 7737,
+        "latin": 347
+      },
+      "status": "PASS"
+    }
+  ],
+  "fonts": {
+    "cjk": {
+      "face": 2,
+      "sha256": "5d9c31a059600193c9d7968a998bde886ccdc77e934006ad243b41794c496a7d",
+      "name": "NotoSerifCJKsc-Regular",
+      "license": "SIL Open Font License 1.1",
+      "license_record_sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    "latin": {
+      "face": -1,
+      "sha256": "c1dd2270ff624d66a7f1cd23075b5ce05a662f560be06a70a9599065ce008355",
+      "name": "FreeSerif",
+      "license": "GPL-3+ with Special Font Exception",
+      "license_record_sha256": "18834b9bd37876d71e37a5aa9b2e2a003bd66c52e1e3cfbbf7456a6d9b2b7a44"
+    }
+  },
+  "elapsed_seconds": 35.50748037546873,
+  "process": {
+    "VmPeak": "292868 kB",
+    "VmHWM": "230576 kB"
+  },
+  "schema": 1,
+  "issue": "rwv/caj2pdf-samples#57",
+  "parent": "rwv/caj2pdf-samples#51; rwv/caj2pdf-rust#406",
+  "scope": "Selected unhinted subset outlines, CID mapping and advances against the pinned caller fonts. Not original-viewer font, hinting or raster fidelity.",
+  "production_implementation": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
+  "cli_sha256": "d213898ee16a32f0d5304dc96438ffde2402d8135af3b0728a764c1ae8ea41a0",
+  "summary": {
+    "originals": 10,
+    "pages": 60,
+    "ordinary_glyphs": 83432,
+    "ornament_marks": 212,
+    "total_draws": 83644,
+    "resource_cids": 6140,
+    "CFF_programs": 10,
+    "TrueType_programs": 10,
+    "actual_text_replacements": 1,
+    "new_conversion_passes": 0
+  },
+  "tools": {
+    "python": "3.13.5",
+    "pikepdf": "10.5.1",
+    "pymupdf": "1.27.2.2",
+    "fonttools": "4.62.1"
+  },
+  "checker_sha256": {
+    "native_font_subsets.py": "838a96a94057fde5b17c6e34f41cdd0a19d6bb7dfb2faf3dae12a4096a62e80b",
+    "native_glyph_geometry.py": "1be6281f08a183b4682f69ca9cb5f61eb954ef1e2494466be22d80f0540d4c2c",
+    "native_glyph_model.py": "9e5b0db4c44d5219d487069db8582b376873b243818d534cc16642e57c8d5aba",
+    "native_text_order.py": "efeede08dd646781bc333e115bc6071664086064644b7b9a68ea999f97697d0b",
+    "native_vector_geometry.py": "34625bc31a11bbaa4e70dbf5388f4f6d25257bd5580fe582133f4b6f3fe3606a",
+    "source_image_geometry.py": "6df091f16de043be4594acbb58a309587ffe672aeeff6da44c6960048491f910",
+    "hnc8_layout_source.py": "54ef9179b7dc03316f43c3205542df36e3dd5c9bebfa6a77b9fc9b7bed456cdf"
+  },
+  "bounds": {
+    "address_space_bytes": 2147483648,
+    "workers": 1,
+    "caller_font_bytes": 67108864,
+    "subset_bytes": 4194304,
+    "font_resources": 64,
+    "glyph_path_commands_and_points": 16384,
+    "component_depth": 16,
+    "CID_domain": 65536,
+    "CFF_FD_count": 256,
+    "PDF_width_tolerance": "1/20000"
+  },
+  "validation": {
+    "original_control_groups": 6,
+    "selected_catalog_tests": 115,
+    "skipped": 0,
+    "outline_comparison": "Exact normalized path-operation digest; no fitted tolerance.",
+    "failed_attempts": [
+      "First selected-suite driver retained shell quote characters, so unittest discovered zero tests and exited 5. Corrected with shlex.split; no pass counted.",
+      "Next suite stopped because the host Python lacked scipy. The existing pinned external NumPy/SciPy directory was supplied and the whole selected suite rerun."
+    ]
+  },
+  "limitations": [
+    "Only the measured default two-role configuration is checked; optional roles use documented fallback.",
+    "One E6C7 to U+0403 visual approximation retains original ActualText; 212 decorations use the existing nonsemantic U+25BA alias.",
+    "Expected glyph selection follows published models and original MIT Rust, not an independent source-font discovery.",
+    "Equal used outlines/advances do not distinguish shape-equivalent resources or verify all font metadata and hinting.",
+    "The chosen open caller fonts are substitutes. No CAJViewer font outlines or implementation are inspected.",
+    "The report contains no document text, font paths/contours/programs, pixels or derived PDFs.",
+    "Source/PDF/font hashes are checked before and after each document. Runtime parity remains the prior complete corpus receipt."
+  ]
+}
