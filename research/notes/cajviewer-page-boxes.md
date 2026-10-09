@@ -69,3 +69,9 @@ The offline container used the snapshot's resource limits and was stopped and
 removed. Its observed memory peak was 614,481,920 bytes; that is viewer/display
 memory, not converter memory. No external document, output or capture is
 committed. Prior acquisition receipt/review states remain unchanged.
+
+The [2026-10-09 follow-up](viewer-page-box-coverage-20261009.md) extends the
+unchanged pair to all 75 pages in two fixed acquisition orders. It retains
+the single-page navigation failures, uses independently controlled continuous
+display grids and reports every observation without promoting frame equality
+to general viewer readiness or recovered lost geometry.
