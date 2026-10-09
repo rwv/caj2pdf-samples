@@ -2,7 +2,7 @@
 
 The [public Geodata attachment collection](geodata-public-attachments-20261009.md)
 adds five original PDF identities under CAJ filenames, with three-runtime and
-independent all-page preservation/render checks; bounded web/Archive limits remain.
+selected-object preservation and all-page rendering checks; web/Archive limits remain.
 
 The [incomplete PDF content-token follow-up](content-eof-ambiguity-20261009.md)
 locates 11 endings in seven originals, checks non-unique diagnostic completions

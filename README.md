@@ -19,8 +19,8 @@ The [NJU native-profile follow-up](research/notes/nju-native-profiles-20261009.m
 now converts three of those originals (17 pages), with independent text/geometry
 checks and native/Node/Chromium parity; two damaged sources remain unresolved.
 Before the Geodata additions, the reconciled accepted-page total was 37,155
-across the separate historical
-checkpoints; this is not a fresh full-catalog run or full-rendering claim.
+across separate historical checkpoints; this is not a fresh full-catalog run
+or full-rendering claim.
 
 The [TTKN product follow-up](research/notes/ttkn-product-conversion-20261009.md)
 now converts the one measured public source with its matching explicit response.
