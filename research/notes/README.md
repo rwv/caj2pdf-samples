@@ -106,6 +106,7 @@ See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for th
 
 | Note | Backs |
 | --- | --- |
+| [Full native composition checkpoint](native-page-composition-20261008.md) | samples #51; all 60 pages, original marker controls, per-page differences and retained viewer uncertainty |
 | [Native text feasibility (#223)](native-text-feasibility.md) | historical |
 | [Observed C8 native records](c8-native-records.md) | `hnc8/native.rs`, `hnc8/native_page.rs` |
 | [C8 encoded-string record framing](c8-encoded-prefix.md) | `hnc8/native.rs` |

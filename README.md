@@ -26,6 +26,12 @@ HN/C8/NH originals (16,548 pages), including new bitmap evidence for the
 433-page NH. This scoped measurement does not establish native glyph/vector
 placement, complete rendered-page fidelity or unknown C8/HN-B outlines.
 
+The [native composition checkpoint](research/notes/native-page-composition-20261008.md)
+adds all 60 native pages with normal and original marker fonts, per-page
+text/vector/image inventories, bounded complete-page observations and retained
+pixel differences. One normal-font page differs across cold viewer sessions;
+these observations do not establish complete rendered-page fidelity.
+
 The [849-source C8/HN-B outline investigation](research/notes/hnc8-outline-inventory-20261008.md)
 retains unknown source-outline status and corrects an old 132-page example to
 HN-A with 81 bookmarks. Full source correctness and general viewer readiness

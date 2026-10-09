@@ -20,7 +20,7 @@ jobs:
       - name: Install external PDF tools for original controls
         run: |
           sudo apt-get update
-          sudo apt-get install --no-install-recommends -y poppler-utils qpdf
+          sudo apt-get install --no-install-recommends -y poppler-utils qpdf qtbase5-dev g++
       - name: Test research identity parsers (no corpus download)
         env:
           PYTHONPATH: research/scripts
@@ -36,3 +36,11 @@ jobs:
           python3 -m unittest discover -s research/conformance -p 'test_indexed_lookup_audit.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_ttkn_payload_boundary.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_source_image_geometry.py' -v
+      - name: Test original native composition controls (no viewer or corpus download)
+        run: |
+          c++ -std=c++17 -shared -fPIC -O2 -Wall -Wextra -Werror -DQT_NO_VERSION_TAGGING $(pkg-config --cflags Qt5Gui) research/cajviewer/qpaint_observe.cpp -ldl -o /tmp/qpaint-observe.so
+          python3 -m pip install 'Pillow==11.1.0' 'numpy==2.2.4' 'scipy==1.15.2' 'PyMuPDF==1.27.2.2' 'fonttools==4.62.1'
+          python3 -m unittest discover -s research/conformance -p 'test_native_composition_inventory.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_native_page_capture.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_native_raster_comparison.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_composition_marker_fonts.py' -v
