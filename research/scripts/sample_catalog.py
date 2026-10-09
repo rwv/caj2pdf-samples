@@ -11,8 +11,8 @@ import tempfile
 import conformance
 import current_formats
 
-CATALOG_COMMIT = "24a30ce2bf658c8f420c4cf0a5050a023231e117"
-CATALOG_SHA256 = "12f0b320033f96e7116aa12ee268a0be6d9573b5ff84c000fc487bb6ccb5e8bd"
+CATALOG_COMMIT = "69f2082af1117f1a5a4c578b33f75ac5b33dece7"
+CATALOG_SHA256 = "a3ef22470df2fb694e99ac65e4be4232d0470dff70fee6cc05848011b6bf97a8"
 
 
 def prepare(catalog, corpus, selected):

@@ -73,7 +73,9 @@ opaque metadata was followed, and no foreign converter implementation was read.
 Reviewed candidate commit: `7c13b4052dc7a20fa143c710cfba572d1543e2ab`.
 CLI SHA-256: `dcd68b74d6f51b182cdde50db46cca5a367cdbbb72b55945a903e6fbb2d01106`.
 WASM SHA-256: `245c16344b3c4285d33e6be262d5236af4c917eacd192f4b1e7789cb1b300336`.
-The final-head CI checks are recorded in the linked PRs. Self-review and
+Merged Rust commit: `d2bf82e8aec6fba5e8f3783e4953606c02ab1374`; its complete
+Git tree matches the tested candidate. The final-head CI checks are recorded
+in the linked PRs. Self-review and
 simplification were performed; no independent human approval is claimed.
 
 Native tests reuse the existing bounded `current_formats.Commands` runner:
