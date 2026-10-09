@@ -4,8 +4,13 @@ Real-document catalog and regression inputs for [caj2pdf-rust](https://github.co
 
 ## Current collection
 
-**1,384 unique inputs** are indexed: 1,366 document candidates and 18 CAA
-target descriptors. The [2026-10-09 public-web sweep](research/notes/public-web-sweep-20261009.md)
+**1,385 unique inputs** are indexed: 1,367 document candidates and 18 CAA
+target descriptors. The [public TTKN follow-up](research/notes/public-ttkn-response-20261009.md)
+adds one protected source with failed native/Node/Chromium conversion and
+controlled offline observations; recovery remains unresolved. Current totals
+are 1,339 conversion PASS, 19 FAIL and 27 UNSUPPORTED.
+
+The [2026-10-09 public-web sweep](research/notes/public-web-sweep-20261009.md)
 adds 87 SHA-pinned originals from Archive.org and Nanjing University. All
 87 convert after the three focused PDF fixes, with 701 pages. Of these,
 80 pass qpdf cleanly and seven retain source-content warnings tracked in
