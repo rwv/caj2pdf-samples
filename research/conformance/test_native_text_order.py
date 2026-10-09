@@ -6,7 +6,7 @@ from pathlib import Path
 import unittest
 import zlib
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2] / 'scripts'))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import native_text_order as order
 
 
@@ -28,6 +28,24 @@ def glyphs(data, variant='C8', mode=2):
 
 
 class NativeTextOrderTests(unittest.TestCase):
+    def test_record_observer_keeps_atomic_boundaries_and_excludes_tail(self):
+        data = (record(0x8006, 0xa381) + record(10, 0xa0c1) + record(0x8004, 0)
+                + record(0x801d, 4) + record(20, 0xa0c3)
+                + record(0x8004, 1) + record(30, 0xa0c4))
+        seen = []
+        result = order.source_glyphs(Source(data), {'text_offset': 0, 'text_length': len(data)},
+                                     'HN-B', 2, record_visitor=lambda *args: seen.append(args))
+        self.assertEqual(result, (['C'], 4))
+        self.assertEqual(seen, [(0, 0x8006, 0xa381, 12), (12, 0x801d, 4, 4),
+                                (16, 20, 0xa0c3, 4)])
+        for truncated in range(4, 12):
+            seen.clear()
+            with self.assertRaises(ValueError):
+                order.source_glyphs(Source(data[:truncated]),
+                                    {'text_offset': 0, 'text_length': truncated}, 'C8', 2,
+                                    record_visitor=lambda *args: seen.append(args))
+            self.assertEqual(seen, [])
+
     def test_mode_specific_character_maps(self):
         for code, mode, expected in [(0xa980, 0, 'A'), (0xa99a, 0, 'a'), (0xa3c1, 0, 'A'),
                                      (0xa3c1, 2, 'Ａ'), (0xa3a8, 0, '（'), (0xa3b1, 0, '1'),
