@@ -127,3 +127,8 @@ and bounded explicit application-info packages. Its
 [849-source report](notes/hnc8-outline-inventory-20261008.md) records structural
 and selected viewer evidence without inferring missing outlines. It uses
 only Python's standard library; seven original control groups run in CI.
+
+`native_vector_geometry.py` checks the measured source segment/radical models,
+PDF stroke state and glyph/image/vector kind order with pikepdf 10.5.1.
+The [60-page report](notes/native-vector-geometry-20261008.md) records all 327
+paths, original negative controls, bounds and explicit ornament/font exclusions.

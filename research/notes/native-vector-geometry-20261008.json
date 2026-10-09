@@ -1,0 +1,3826 @@
+{
+  "schema_version": 1,
+  "scope": "All measured native vectors and glyph/image/vector kind order, excluding ornaments; no source-font or raster fidelity verdict",
+  "production_commit": "5f3cf7fb08297ddadfb1cff05e8dcdfe17c037dc",
+  "cli_sha256": "d213898ee16a32f0d5304dc96438ffde2402d8135af3b0728a764c1ae8ea41a0",
+  "source_manifest_sha256": "2313c01ec495842807c63a3928a43c303d8fa5765158e21d53074bfef60161af",
+  "python": "3.13.5",
+  "pikepdf": "10.5.1",
+  "script_sha256": {
+    "research/scripts/native_vector_geometry.py": "34625bc31a11bbaa4e70dbf5388f4f6d25257bd5580fe582133f4b6f3fe3606a",
+    "research/scripts/source_image_geometry.py": "6df091f16de043be4594acbb58a309587ffe672aeeff6da44c6960048491f910",
+    "research/scripts/native_text_order.py": "efeede08dd646781bc333e115bc6071664086064644b7b9a68ea999f97697d0b",
+    "research/scripts/hnc8_layout_source.py": "54ef9179b7dc03316f43c3205542df36e3dd5c9bebfa6a77b9fc9b7bed456cdf"
+  },
+  "coordinate_tolerance_points": "1/20000",
+  "gray_tolerance": "1/1000000",
+  "maximum_decoded_page_content_bytes": 1048576,
+  "maximum_native_records": 65536,
+  "maximum_pdf_operations": 131072,
+  "address_space_limit_bytes": 2147483648,
+  "workers": 1,
+  "process_status": {
+    "VmPeak": "65408 kB",
+    "VmHWM": "45796 kB"
+  },
+  "elapsed_seconds": 10.49099849909544,
+  "documents": [
+    {
+      "source_sha256": "03770ea1cdebc9856d1443438b296860fa11f3e283717d256ea0af57ecae1c89",
+      "pdf_sha256": "65ffb1a8fd283abd4190fc7072bfbe266b877132cf00b87e6d9028c29bc34cde",
+      "variant": "C8",
+      "native_mode": 2,
+      "pikepdf": "10.5.1",
+      "pages": [
+        {
+          "page": 1,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 2,
+          "pdf_vectors": 2,
+          "source_paint_events": 1440,
+          "pdf_paint_events": 1440,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a385",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.064294379296401e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.862515163768703e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 7,
+          "pdf_vectors": 7,
+          "source_paint_events": 1357,
+          "pdf_paint_events": 1357,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.836635665183987e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.836635665183987e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8090/a3da",
+              "points": 5,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.285483218762636e-14,
+              "width_delta_points": 1.722604124545087e-17,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.836635665183987e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8090/a3e6",
+              "points": 5,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.100687424181157e-14,
+              "width_delta_points": 1.722604124545087e-17,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 6,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.7375657096643752e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 7,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.4557217953902142e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 926,
+          "pdf_paint_events": 926,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.4557217953902142e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1174,
+          "pdf_paint_events": 1174,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.4557217953902142e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 5,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 2847,
+          "pdf_paint_events": 2847,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.4557217953902142e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        }
+      ],
+      "status": "PASS",
+      "source_and_pdf_unchanged": true,
+      "scope": "Measured vector geometry, stroke properties and glyph/image/vector kind order (excluding ornaments); not pixel/font/glyph/ornament fidelity"
+    },
+    {
+      "source_sha256": "166d0014792326570d9e8ca42fe13a4a44329e4ad095d3ac8dfd73c8ddb9f20e",
+      "pdf_sha256": "11cadd7d1857a26a929d5d74be4da53facef1215f5a2e43f9104706c26bb7b88",
+      "variant": "HN-B",
+      "native_mode": 2,
+      "pikepdf": "10.5.1",
+      "pages": [
+        {
+          "page": 1,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 11,
+          "pdf_vectors": 11,
+          "source_paint_events": 1692,
+          "pdf_paint_events": 1692,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.826122118883946e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.826122118883946e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.3416902547513142e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.655883542256369e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.676101900525678e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 6,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.517185604528912e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 7,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.976951071572988e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 8,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.976951071572988e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 9,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.976951071572988e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 10,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.976951071572988e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 11,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.714921148402749e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 809,
+          "pdf_paint_events": 809,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.676101900525678e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 18,
+          "pdf_vectors": 18,
+          "source_paint_events": 1454,
+          "pdf_paint_events": 1454,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.047715325515568e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.047715325515568e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.047715325515568e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.886777193691873e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.886777193691873e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 6,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.185604528912253e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 7,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.185604528912253e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 8,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.944197331176708e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 9,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.944197331176708e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 10,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.507480792559644e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 11,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.07076425394258e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 12,
+              "source_record": "8006/a385",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.721391023048928e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 13,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.372017792155277e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 14,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.022644561261625e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 15,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.585928022644561e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 16,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.2672866963202587e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 17,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.7453295592397895e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 18,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.676101900525678e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1061,
+          "pdf_paint_events": 1061,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.676101900525678e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 5,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 34,
+          "pdf_vectors": 34,
+          "source_paint_events": 1771,
+          "pdf_paint_events": 1771,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.77719369187222e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.77719369187222e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.7468661544682572e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.903760614638091e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.903760614638091e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 6,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.855640921957137e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 7,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.855640921957137e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 8,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.855640921957137e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 9,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.458147998382531e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 10,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.458147998382531e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 11,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.458147998382531e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 12,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.759401536595228e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 13,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.759401536595228e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 14,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.7391831783259197e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 15,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.450465022240194e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 16,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.361908613020623e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 17,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.361908613020623e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 18,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.012535382126971e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 19,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.012535382126971e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 20,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.3137889203396686e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 21,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.3137889203396686e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 22,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.3137889203396686e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 23,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.265669227658714e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 24,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.265669227658714e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 25,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.265669227658714e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 26,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.566922765871411e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 27,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.566922765871411e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 28,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.566922765871411e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 29,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.518803073190457e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 30,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.7391831783259197e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 31,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.518803073190457e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 32,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.820056611403154e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 33,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.820056611403154e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 34,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.676101900525678e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 6,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1006,
+          "pdf_paint_events": 1006,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.676101900525678e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 7,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 5,
+          "pdf_vectors": 5,
+          "source_paint_events": 1277,
+          "pdf_paint_events": 1277,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.788111605337647e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.199353012535382e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.215123331985442e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.215123331985442e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.676101900525678e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 8,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1505,
+          "pdf_paint_events": 1505,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.676101900525678e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 9,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1373,
+          "pdf_paint_events": 1373,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.676101900525678e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 10,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 17,
+          "pdf_vectors": 17,
+          "source_paint_events": 2609,
+          "pdf_paint_events": 2609,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.780024262029923e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.0703598867771938e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.776789324706834e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.766275778406793e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.822887181560857e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 6,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.784067933683785e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 7,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.886777193691873e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 8,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.819652244237768e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 9,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.5220380105135464e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 10,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.837444399514759e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 11,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.894055802668824e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 12,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.883542256368782e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 13,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.0940153659522846e-13,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 14,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.1528507885159724e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 15,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.890820865345733e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 16,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.6344520824909015e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 17,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.676101900525678e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 11,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 28,
+          "pdf_vectors": 28,
+          "source_paint_events": 3660,
+          "pdf_paint_events": 3660,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.342903356247473e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.781237363526081e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.219571370804691e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.562879094217549e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.220380105135463e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 6,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.563283461382936e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 7,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.220784472300849e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 8,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.4399514759401536e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 9,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.782854832187626e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 10,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.221188839466235e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 11,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.783259199353012e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 12,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.440760210270926e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 13,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.219167003639304e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 14,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.781237363526081e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 15,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.34330772341286e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 16,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.34330772341286e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 17,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.000808734330772e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 18,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.000808734330772e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 19,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.0012131014961586e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 20,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.78245046502224e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 21,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.002021835826931e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 22,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.783259199353012e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 23,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.440760210270926e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 24,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.783663566518399e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 25,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.441164577436312e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 26,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.660735948241003e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 27,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.72280630812778e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 28,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.676101900525678e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 12,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 16,
+          "pdf_vectors": 16,
+          "source_paint_events": 2622,
+          "pdf_paint_events": 2622,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.275778406793368e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.360695511524464e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.44561261625556e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.530529720986656e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.58714112414072e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 6,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.672058228871816e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 7,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.72866963202588e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 8,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.813586736756976e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 9,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.926809543065103e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 10,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.6473918317832592e-13,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 11,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.643752527294783e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 12,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.700363930448847e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 13,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.7852810351799434e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 14,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.841892438334007e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 15,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.898503841488071e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 16,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.676101900525678e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        }
+      ],
+      "status": "PASS",
+      "source_and_pdf_unchanged": true,
+      "scope": "Measured vector geometry, stroke properties and glyph/image/vector kind order (excluding ornaments); not pixel/font/glyph/ornament fidelity"
+    },
+    {
+      "source_sha256": "1b9aa912e0bc9dcce4dfbefa07e08a24665d6db624a02f9a30a8c404df5a9ef7",
+      "pdf_sha256": "4e38dc686ae8a07b23d006e9a908cd5929a0ce67281a3f1ac4f67cd5b7f6c212",
+      "variant": "C8",
+      "native_mode": 2,
+      "pikepdf": "10.5.1",
+      "pages": [
+        {
+          "page": 1,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 6,
+          "pdf_vectors": 6,
+          "source_paint_events": 1542,
+          "pdf_paint_events": 1542,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a385",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.064294379296401e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.862515163768703e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8090/a3e6",
+              "points": 5,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.563687828548322e-14,
+              "width_delta_points": 1.722604124545087e-17,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.114840274969672e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8090/a3e6",
+              "points": 5,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.9801860088960776e-14,
+              "width_delta_points": 1.722604124545087e-17,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 6,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.5313384553174284e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 6,
+          "pdf_vectors": 6,
+          "source_paint_events": 1144,
+          "pdf_paint_events": 1144,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.530529720986656e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8090/a3b2",
+              "points": 5,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.180347755762232e-14,
+              "width_delta_points": 1.722604124545087e-17,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.562879094217549e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.471087747674889e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8090/a3b1",
+              "points": 5,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.854023453295593e-14,
+              "width_delta_points": 1.722604124545087e-17,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 6,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.4557217953902142e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1050,
+          "pdf_paint_events": 1050,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.4557217953902142e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 2865,
+          "pdf_paint_events": 2865,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.4557217953902142e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        }
+      ],
+      "status": "PASS",
+      "source_and_pdf_unchanged": true,
+      "scope": "Measured vector geometry, stroke properties and glyph/image/vector kind order (excluding ornaments); not pixel/font/glyph/ornament fidelity"
+    },
+    {
+      "source_sha256": "3f3b9b57d6925df811247dced47fd7fb74cf0f678ab9bfda0827c827258ab39b",
+      "pdf_sha256": "375b15bbcc400ebc770f51e086e8a00835956ab17233a0d3252dc5678eb00d3f",
+      "variant": "HN-B",
+      "native_mode": 2,
+      "pikepdf": "10.5.1",
+      "pages": [
+        {
+          "page": 1,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 2,
+          "pdf_vectors": 2,
+          "source_paint_events": 1304,
+          "pdf_paint_events": 1304,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a385",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.732713303679741e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.881924787707238e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1556,
+          "pdf_paint_events": 1556,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.3752527294783666e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1471,
+          "pdf_paint_events": 1471,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.3752527294783666e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1643,
+          "pdf_paint_events": 1643,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.3752527294783666e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        }
+      ],
+      "status": "PASS",
+      "source_and_pdf_unchanged": true,
+      "scope": "Measured vector geometry, stroke properties and glyph/image/vector kind order (excluding ornaments); not pixel/font/glyph/ornament fidelity"
+    },
+    {
+      "source_sha256": "63870d12f2069d3d6c663dc2813d04a38a632c4c319f20b6f8dd1b8b8bc589c2",
+      "pdf_sha256": "c6a63c710126984fd57d90257a5d33244bbfa876f57491aedffaf80f2842200a",
+      "variant": "HN-B",
+      "native_mode": 0,
+      "pikepdf": "10.5.1",
+      "pages": [
+        {
+          "page": 1,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 2061,
+          "pdf_paint_events": 2061,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a385",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.116862110796603e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 2570,
+          "pdf_paint_events": 2570,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a385",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.116862110796603e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1903,
+          "pdf_paint_events": 1903,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a385",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.116862110796603e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1399,
+          "pdf_paint_events": 1399,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a385",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.116862110796603e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        }
+      ],
+      "status": "PASS",
+      "source_and_pdf_unchanged": true,
+      "scope": "Measured vector geometry, stroke properties and glyph/image/vector kind order (excluding ornaments); not pixel/font/glyph/ornament fidelity"
+    },
+    {
+      "source_sha256": "7e3f2c0faebb8ddac2f4feff3cfc9249476ab170b43250ac00610b10aa46c74b",
+      "pdf_sha256": "db0859192313afc1879f3b2bf941c9978251ef01ebeec28d446a16a4992bff23",
+      "variant": "C8",
+      "native_mode": 2,
+      "pikepdf": "10.5.1",
+      "pages": [
+        {
+          "page": 1,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1,
+          "pdf_paint_events": 1,
+          "painting_order_match": true,
+          "vectors": []
+        },
+        {
+          "page": 2,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1,
+          "pdf_paint_events": 1,
+          "painting_order_match": true,
+          "vectors": []
+        },
+        {
+          "page": 3,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1,
+          "pdf_paint_events": 1,
+          "painting_order_match": true,
+          "vectors": []
+        },
+        {
+          "page": 4,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1,
+          "pdf_paint_events": 1,
+          "painting_order_match": true,
+          "vectors": []
+        },
+        {
+          "page": 5,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1,
+          "pdf_paint_events": 1,
+          "painting_order_match": true,
+          "vectors": []
+        },
+        {
+          "page": 6,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1,
+          "pdf_paint_events": 1,
+          "painting_order_match": true,
+          "vectors": []
+        },
+        {
+          "page": 7,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1,
+          "pdf_paint_events": 1,
+          "painting_order_match": true,
+          "vectors": []
+        },
+        {
+          "page": 8,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1,
+          "pdf_paint_events": 1,
+          "painting_order_match": true,
+          "vectors": []
+        },
+        {
+          "page": 9,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1,
+          "pdf_paint_events": 1,
+          "painting_order_match": true,
+          "vectors": []
+        },
+        {
+          "page": 10,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1986,
+          "pdf_paint_events": 1986,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.118479579458148e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        }
+      ],
+      "status": "PASS",
+      "source_and_pdf_unchanged": true,
+      "scope": "Measured vector geometry, stroke properties and glyph/image/vector kind order (excluding ornaments); not pixel/font/glyph/ornament fidelity"
+    },
+    {
+      "source_sha256": "90e7b47716c32ef7a67cde8094f312e0ee7f1a7e0ed50a25830e8ba64a84f6a6",
+      "pdf_sha256": "e3a45bc6a235339fd57c3822446213a6d824457efe9aecc348f5e2d778dbc919",
+      "variant": "C8",
+      "native_mode": 2,
+      "pikepdf": "10.5.1",
+      "pages": [
+        {
+          "page": 1,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 2,
+          "pdf_vectors": 2,
+          "source_paint_events": 1018,
+          "pdf_paint_events": 1018,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.110392236150424e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.919530934088152e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 73,
+          "pdf_vectors": 73,
+          "source_paint_events": 1411,
+          "pdf_paint_events": 1411,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.0594419733117671e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.2454508693894056e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.5192074403558432e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.978972907399919e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.978972907399919e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 6,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.6566922765871412e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 7,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.6566922765871412e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 8,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.832591993530126e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 9,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.832591993530126e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 10,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.832591993530126e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 11,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.832591993530126e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 12,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.451273756570967e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 13,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.8156085725839063e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 14,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.099474322684998e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 15,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.099474322684998e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 16,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.099474322684998e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 17,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.099474322684998e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 18,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.4638091386979378e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 19,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.4638091386979378e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 20,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.923574605742014e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 21,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.923574605742014e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 22,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.804286291953094e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 23,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.856854023453296e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 24,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.405175899716943e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 25,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.476748887990295e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 26,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.476748887990295e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 27,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.572583906186817e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 28,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.8520016174686615e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 29,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.1120097048119692e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 30,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.1120097048119692e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 31,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.1120097048119692e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 32,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.721795390214315e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 33,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.7759805903760615e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 34,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.212697128993126e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 35,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.21957137080469e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 36,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.936109987868986e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 37,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.936109987868986e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 38,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.6041245450869388e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 39,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.6041245450869388e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 40,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.602102709260008e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 41,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.843105539830166e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 42,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.843105539830166e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 43,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.0440760210270926e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 44,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.8847553578649415e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 45,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.2943792964011324e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 46,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.405580266882329e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 47,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.307723412858876e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 48,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.307723412858876e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 49,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.307723412858876e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 50,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.307723412858876e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 51,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.0566114031540639e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 52,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.8115649009300446e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 53,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.2337242215932066e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 54,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.6623534169025473e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 55,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.684997978164173e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 56,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.51637687019814e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 57,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.51637687019814e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 58,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.721795390214315e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 59,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.7759805903760615e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 60,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.212697128993126e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 61,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 9.21957137080469e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 62,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.272543469470279e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 63,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.354225636878285e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 64,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.011322280630813e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 65,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.011322280630813e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 66,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.011322280630813e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 67,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.011322280630813e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 68,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.646987464617873e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 69,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.646987464617873e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 70,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.187221997573797e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 71,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.187221997573797e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 72,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.3109785685402346e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 73,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.919530934088152e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 6,
+          "pdf_vectors": 6,
+          "source_paint_events": 848,
+          "pdf_paint_events": 848,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.978972907399919e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.101496158511929e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.7375657096643752e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.98625151637687e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8006/a38b",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.3251112009704813e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 6,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.919530934088152e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 2,
+          "pdf_vectors": 2,
+          "source_paint_events": 988,
+          "pdf_paint_events": 988,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.3372422159320663e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.919530934088152e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 5,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 25,
+          "pdf_vectors": 25,
+          "source_paint_events": 826,
+          "pdf_paint_events": 826,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.0594419733117671e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.5192074403558432e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.196926809543065e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.832591993530126e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.372826526486049e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 6,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.372826526486049e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 7,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.991508289526891e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 8,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.451273756570967e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 9,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.8156085725839063e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 10,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.8156085725839063e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 11,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.8156085725839063e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 12,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.4828143954710877e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 13,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.4561261625556e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 14,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 5.6934896886372824e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 15,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.639708855640922e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 16,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.639708855640922e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 17,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 7.602102709260008e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 18,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.2199757379700768e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 19,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.0841083704003236e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 20,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.307723412858876e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 21,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.4302466639708856e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 22,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.0566114031540639e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 23,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.51637687019814e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 24,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.51637687019814e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 25,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.919530934088152e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 6,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1659,
+          "pdf_paint_events": 1659,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.919530934088152e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        }
+      ],
+      "status": "PASS",
+      "source_and_pdf_unchanged": true,
+      "scope": "Measured vector geometry, stroke properties and glyph/image/vector kind order (excluding ornaments); not pixel/font/glyph/ornament fidelity"
+    },
+    {
+      "source_sha256": "b9a64bf99e4bc496b976541a27128ee84109835d5f79f228a9c8ad159ec6829b",
+      "pdf_sha256": "185a14fd1155782ed691c450f4b63e15213c61914cd362f3a6ee380dbb8e4a42",
+      "variant": "C8",
+      "native_mode": 2,
+      "pikepdf": "10.5.1",
+      "pages": [
+        {
+          "page": 1,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1598,
+          "pdf_paint_events": 1598,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.707238172260413e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 2053,
+          "pdf_paint_events": 2053,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.4557217953902142e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 37,
+          "pdf_vectors": 37,
+          "source_paint_events": 1720,
+          "pdf_paint_events": 1720,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.639708855640922e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.5192074403558432e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 3,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.5192074403558432e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 4,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.5192074403558432e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 5,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.639708855640922e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 6,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.639708855640922e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 7,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.080064698746462e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 8,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.080064698746462e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 9,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.080064698746462e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 10,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.080064698746462e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 11,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.080064698746462e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 12,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.080064698746462e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 13,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.080064698746462e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 14,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.080064698746462e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 15,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.080064698746462e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 16,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.639708855640922e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 17,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.379700768297614e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 18,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.379700768297614e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 19,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 2.379700768297614e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 20,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.639708855640922e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 21,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.639708855640922e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 22,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.813586736756976e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 23,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.813586736756976e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 24,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.813586736756976e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 25,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.813586736756976e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 26,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.813586736756976e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 27,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.813586736756976e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 28,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.813586736756976e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 29,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.813586736756976e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 30,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 6.813586736756976e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 31,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.639708855640922e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 32,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.082086534573393e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 33,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.082086534573393e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 34,
+              "source_record": "8007/a380",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.082086534573393e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 35,
+              "source_record": "8007/a382",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.082086534573393e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 36,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.082086534573393e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 37,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.4557217953902142e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 2234,
+          "pdf_paint_events": 2234,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 1.4557217953902142e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        }
+      ],
+      "status": "PASS",
+      "source_and_pdf_unchanged": true,
+      "scope": "Measured vector geometry, stroke properties and glyph/image/vector kind order (excluding ornaments); not pixel/font/glyph/ornament fidelity"
+    },
+    {
+      "source_sha256": "d6a23a9cfd0f37a71e245a3c96b2c3fafdf648f4bb1694f094cfe746b3f4f13d",
+      "pdf_sha256": "1ce3a67f4f6a43647dff2a8da88162d4a15f21ad2c06f7616e054f38989c280e",
+      "variant": "C8",
+      "native_mode": 2,
+      "pikepdf": "10.5.1",
+      "pages": [
+        {
+          "page": 1,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 2,
+          "pdf_vectors": 2,
+          "source_paint_events": 2494,
+          "pdf_paint_events": 2494,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 8.422968054993935e-15,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.7391831783259197e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1600,
+          "pdf_paint_events": 1600,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.7391831783259197e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1733,
+          "pdf_paint_events": 1733,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.7391831783259197e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 1907,
+          "pdf_paint_events": 1907,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.7391831783259197e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 5,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 1,
+          "pdf_vectors": 1,
+          "source_paint_events": 2553,
+          "pdf_paint_events": 2553,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.7391831783259197e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        }
+      ],
+      "status": "PASS",
+      "source_and_pdf_unchanged": true,
+      "scope": "Measured vector geometry, stroke properties and glyph/image/vector kind order (excluding ornaments); not pixel/font/glyph/ornament fidelity"
+    },
+    {
+      "source_sha256": "e1b17805a87f62097987c41f2821836d6b774caaf035c9846be966c965f08a49",
+      "pdf_sha256": "99b129a924fe0ab80d1b712ad3a7dda5009d78c62b16784422ae7c242455ff73",
+      "variant": "HN-B",
+      "native_mode": 2,
+      "pikepdf": "10.5.1",
+      "pages": [
+        {
+          "page": 1,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 2,
+          "pdf_vectors": 2,
+          "source_paint_events": 1283,
+          "pdf_paint_events": 1283,
+          "painting_order_match": true,
+          "vectors": [
+            {
+              "number": 1,
+              "source_record": "8006/a383",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 4.221593206631621e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            },
+            {
+              "number": 2,
+              "source_record": "8006/a381",
+              "points": 2,
+              "status": "PASS",
+              "maximum_coordinate_delta_points": 3.155276991508289e-14,
+              "width_delta_points": 0.0,
+              "gray_delta": 0.0
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1837,
+          "pdf_paint_events": 1837,
+          "painting_order_match": true,
+          "vectors": []
+        },
+        {
+          "page": 3,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1689,
+          "pdf_paint_events": 1689,
+          "painting_order_match": true,
+          "vectors": []
+        },
+        {
+          "page": 4,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1679,
+          "pdf_paint_events": 1679,
+          "painting_order_match": true,
+          "vectors": []
+        },
+        {
+          "page": 5,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1599,
+          "pdf_paint_events": 1599,
+          "painting_order_match": true,
+          "vectors": []
+        },
+        {
+          "page": 6,
+          "status": "PASS",
+          "errors": [],
+          "source_vectors": 0,
+          "pdf_vectors": 0,
+          "source_paint_events": 1,
+          "pdf_paint_events": 1,
+          "painting_order_match": true,
+          "vectors": []
+        }
+      ],
+      "status": "PASS",
+      "source_and_pdf_unchanged": true,
+      "scope": "Measured vector geometry, stroke properties and glyph/image/vector kind order (excluding ornaments); not pixel/font/glyph/ornament fidelity"
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": "initial",
+      "result": "Six documents completed; four refused nested marked content in ornaments. Not conversion failures."
+    },
+    {
+      "attempt": "test fixture correction",
+      "result": "A hand-calculated marked second-x assertion was 40 source units too large; corrected. This did not change the source model."
+    },
+    {
+      "attempt": "intermediate edit",
+      "result": "An indentation error prevented both tests and corpus retry from executing; not counted as a corpus run."
+    },
+    {
+      "attempt": "second",
+      "result": "All ten completed after excluding ornament Artifact spans from paint-kind order and supporting their nested empty ActualText spans. Final bounded run is reported here."
+    },
+    {
+      "attempt": "final self-review",
+      "result": "Added bounded inherited page-box/rotation resolution, transparency-group refusal, composed matrix handling and a nonzero CLI failure status; affected original controls and all ten originals pass after review."
+    }
+  ],
+  "limits": [
+    "Existing measured vector models, not a newly independent physical-unit or source-pixel oracle.",
+    "Paint-kind order compares glyph/image/vector categories; glyph identities and image resources have separate published checks. Ornament order/appearance is excluded.",
+    "Clipped/transformed/blended vectors, unknown stroke operators, fonts and glyph transforms are outside this checker.",
+    "No normal/marker cold-session discrepancy is waived; native page/font fidelity and source-outline acceptance remain open."
+  ]
+}

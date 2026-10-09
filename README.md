@@ -32,6 +32,11 @@ text/vector/image inventories, bounded complete-page observations and retained
 pixel differences. One normal-font page differs across cold viewer sessions;
 these observations do not establish complete rendered-page fidelity.
 
+The [native vector check](research/notes/native-vector-geometry-20261008.md)
+verifies all 327 measured paths and their order among glyphs/images on those
+60 pages. Font, glyph placement, ornament and raster fidelity remain separate
+unresolved checks.
+
 The [849-source C8/HN-B outline investigation](research/notes/hnc8-outline-inventory-20261008.md)
 retains unknown source-outline status and corrects an old 132-page example to
 HN-A with 81 bookmarks. Full source correctness and general viewer readiness
