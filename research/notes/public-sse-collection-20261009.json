@@ -1,0 +1,1063 @@
+{
+  "schema_version": 1,
+  "issues": [
+    "rwv/caj2pdf-rust#507",
+    "rwv/caj2pdf-rust#508",
+    "rwv/caj2pdf-samples#91"
+  ],
+  "source": {
+    "url": "https://www.sse.com.cn/aboutus/publication/actofcourt/law/list/c/10643464/files/9f66fd525ace4005b03ee2be1b60779b.pdf",
+    "discovery": "Public web search: source PDF indexed under a .caj title; not presumed to have CAJ bytes",
+    "status": "ACQUIRED",
+    "bytes": 4280581,
+    "sha256": "e7f78ebc47de69356e364a4c90e47a9e93f61855d47a6ac0230ba6ae06880da1",
+    "signature_hex": "255044462d312e37",
+    "already_cataloged": false,
+    "native_exit": 1,
+    "native_stderr": " PDF at byte 4275352, object 302 0: object stream is outside the direct-length Flate profile\n",
+    "baseline_revision": "f0cea0e715cdab70282199140dbe7b396b3651b1"
+  },
+  "format": {
+    "actual": "PDF 1.7",
+    "indexed_title": "00a5195040eac2ddbd2bf45d43fd235a0.caj",
+    "object_streams": 5,
+    "extends_object": 302,
+    "extends_target": 301,
+    "N": 25,
+    "First": 195,
+    "Length": 231,
+    "filter": "FlateDecode",
+    "specification": "https://opensource.adobe.com/dc-acrobat-sdk-docs/pdfstandards/pdfreference1.7old.pdf",
+    "section": "3.4.6 / Table 3.14"
+  },
+  "product": {
+    "reviewed_revision": "f75b9e4605593ca8c7300a025af0f5db78750d82",
+    "code_tested_revision": "8d5cc32a67a38c6d54bdc4be4a673df52e904b45",
+    "merge_commit": "02adcc63eea447f82167facf0a38c0d2bb964684",
+    "merged_tree_equals_reviewed_tree": true,
+    "code_unchanged_since_tested_revision": true,
+    "native_sha256": "38edd40354c4e32c6064cd08292c7f6145a18057f22a1e6b434a869e738a68f3",
+    "wasm_sha256": "caf67fe1e6cdf8006d5c0739ea7d0e44cb2d9e461d4dbffcdf7eb67cc1ff1812",
+    "required_checks": [
+      {
+        "name": "Native quality gates",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/rwv/caj2pdf-rust/actions/runs/37986409866/job/114014240895"
+      },
+      {
+        "name": "WASM build",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/rwv/caj2pdf-rust/actions/runs/37986409866/job/114014209054"
+      },
+      {
+        "name": "native (ubuntu-24.04, x86_64-unknown-linux-gnu)",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/rwv/caj2pdf-rust/actions/runs/37986409932/job/114009506316"
+      },
+      {
+        "name": "native (ubuntu-24.04-arm, aarch64-unknown-linux-gnu)",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/rwv/caj2pdf-rust/actions/runs/37986409932/job/114009506473"
+      },
+      {
+        "name": "native (ubuntu-24.04, x86_64-unknown-linux-musl)",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/rwv/caj2pdf-rust/actions/runs/37986409932/job/114009506427"
+      },
+      {
+        "name": "native (ubuntu-24.04-arm, aarch64-unknown-linux-musl)",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/rwv/caj2pdf-rust/actions/runs/37986409932/job/114009506372"
+      },
+      {
+        "name": "MIT dependency and source audit",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/rwv/caj2pdf-rust/actions/runs/37986409866/job/114014209617"
+      },
+      {
+        "name": "Line coverage (100% required)",
+        "conclusion": "SUCCESS",
+        "detailsUrl": "https://github.com/rwv/caj2pdf-rust/actions/runs/37986409866/job/114014208045"
+      }
+    ],
+    "all_check_conclusions": {
+      "SUCCESS": 14,
+      "SKIPPED": 13
+    },
+    "rust_tests": {
+      "passed": 1395,
+      "failed": 0,
+      "optional_corpus_ignored": 7
+    },
+    "javascript_tests": {
+      "passed": 182,
+      "failed": 0,
+      "skipped": 0
+    },
+    "format_clippy_rustdoc_doclinks_source_inventory": "PASS",
+    "ci_retry": {
+      "cancelled_job": 114009388966,
+      "cancelled_log_sha256": "ec418f98b926472d9e1bc5d9a17ea74624e1e3c70776aae5d5f1fb2a798d74c2",
+      "reason": "mupdf-tools download stalled for over ten minutes before compilation or coverage; the cancelled job log confirms the package and mirror. A job-only retry passed on unchanged reviewed head. No quality gate waived."
+    }
+  },
+  "preservation": {
+    "source_sha256": "e7f78ebc47de69356e364a4c90e47a9e93f61855d47a6ac0230ba6ae06880da1",
+    "output_sha256": "4d32c240b5ec61e462a6809979c78be207f3529c8821484aee7a9bc7798f4f65",
+    "source_bytes": 4280581,
+    "output_bytes": 4280845,
+    "source_prefix_preserved": true,
+    "checks": [
+      {
+        "page": 1,
+        "pixel_sha256": "34a8ce399e1e22f2f7248d9dca8a005412dfa17bd2245e2223bcd033c6543eed"
+      },
+      {
+        "page": 2,
+        "pixel_sha256": "4f84a0fbfacb7df2c3549d258479332b863c81980db4cf8ff9494790e7c43b55"
+      },
+      {
+        "page": 3,
+        "pixel_sha256": "ebb821a05d60f6fbf75a01475c210e2887629894ef5c282483c05c456a87c535"
+      },
+      {
+        "page": 4,
+        "pixel_sha256": "8fa705d4d1efc08819d8a05c984001bfcf6dbfb7ad89896a3f1c90975fc40a01"
+      },
+      {
+        "page": 5,
+        "pixel_sha256": "b03f54cb972a771c5d034436c39ff60ec45326d6bfc431f3153fa90b7a25bbc1"
+      },
+      {
+        "page": 6,
+        "pixel_sha256": "83ed70806bc2733d444ca9013318b8835f43a1a6285e2114dfc991b271aa8421"
+      },
+      {
+        "page": 7,
+        "pixel_sha256": "e6b18e11009e80b9f1da72233c93b6ff2f56e51587c58218038673c68cd4de4d"
+      },
+      {
+        "page": 8,
+        "pixel_sha256": "2ff15a5eb1baba742d0a36070dd1a893b041c7892c289d9f38deccabaa02542d"
+      },
+      {
+        "page": 9,
+        "pixel_sha256": "4c2b1e06b18a36959a25b973b807b0239d3889ae9237d22c460ec1efcbf16e7c"
+      },
+      {
+        "page": 10,
+        "pixel_sha256": "e2848f453a689f2eeb8df0e7cfcec1f8f308210037740464ec4f7aa199991564"
+      },
+      {
+        "page": 11,
+        "pixel_sha256": "cbd379ad852456e54588b6bfb7dfcdc5c8189dcce9758577c4963581e3437670"
+      },
+      {
+        "page": 12,
+        "pixel_sha256": "f69d8ac158f492a6457ecd9c22c85d84bd875564a37e63f0d11e3ac238442893"
+      },
+      {
+        "page": 13,
+        "pixel_sha256": "9173dc9cecbe0a9fe17a13f0b9e526cfdc49b07868eb2037d32d1b80202f21df"
+      },
+      {
+        "page": 14,
+        "pixel_sha256": "84d6932dfe91ff6faa61ceaca10bf2c57c3efe850e61872ef1b87bd200bd8d2b"
+      },
+      {
+        "page": 15,
+        "pixel_sha256": "a307bc748d43fd6c7e725b17664f3272eb4ae9dd4db6cd7a9463b443d7af8714"
+      },
+      {
+        "page": 16,
+        "pixel_sha256": "ef13b202f0b8a4c28c86a70e0655907688dd0c73fcbb7d84c590da997ebfe759"
+      },
+      {
+        "page": 17,
+        "pixel_sha256": "f62c1c70342baacb303502ea0ed18cbe7bb760a6e04c472668dbd873f010f520"
+      },
+      {
+        "page": 18,
+        "pixel_sha256": "9624fbd705a89ca8f55c1dff42053f1ac775d33bccccf36024556b39dc533cdc"
+      },
+      {
+        "page": 19,
+        "pixel_sha256": "e4e082f979ed246938e8aa2aa0c7ec0551c46d8d84436fbffda48017ee7b07da"
+      },
+      {
+        "page": 20,
+        "pixel_sha256": "26e16d359eeaec7e4ee5ceca5807f292d022026e6286c6e74cd6d55c7a9e7c93"
+      },
+      {
+        "page": 21,
+        "pixel_sha256": "d4e944bbd989029899967ef776a91dab225d462a7b5da8f54b7a49cb6338fcfe"
+      },
+      {
+        "page": 22,
+        "pixel_sha256": "1b5b720af9f86c22380fb80326fcb122d75a4728cefc0610d421766a71b81599"
+      },
+      {
+        "page": 23,
+        "pixel_sha256": "b2dad005d8dfd37c15a6739a707fd94b029b33cf02b486fe794c063ad0eb8fed"
+      },
+      {
+        "page": 24,
+        "pixel_sha256": "13b6792fe84f28c0014f8074265c333dd8a17a3e1d1aca85bb1fb2a11f4b58cd"
+      },
+      {
+        "page": 25,
+        "pixel_sha256": "ffefbb38e2f794d8f63ede72092d7ec22ebbc7ba4a3cf48281a428d45b061664"
+      },
+      {
+        "page": 26,
+        "pixel_sha256": "7f4dbcf0e491074fde212bbbf41e14ae8056eb74e30553dd714e6481260aee0f"
+      }
+    ],
+    "sse-caj-title_qpdf_exit": 3,
+    "sse-native-v1_qpdf_exit": 0,
+    "pages": 26,
+    "outlines": 0,
+    "all_page_geometry_words_pixels_match": true,
+    "original_streams_preserved": 295,
+    "source_objects": 455,
+    "output_objects": 455,
+    "all_455_live_object_values_match": true
+  },
+  "runtime": {
+    "node": [
+      {
+        "source": "e7f78ebc47de69356e364a4c90e47a9e93f61855d47a6ac0230ba6ae06880da1",
+        "status": "CONVERTED",
+        "pages": 26,
+        "substitutedGlyphs": "0",
+        "sha256": "4d32c240b5ec61e462a6809979c78be207f3529c8821484aee7a9bc7798f4f65",
+        "bytes": 4280845,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.107
+      }
+    ],
+    "browser": [
+      {
+        "source": "e7f78ebc47de69356e364a4c90e47a9e93f61855d47a6ac0230ba6ae06880da1",
+        "status": "CONVERTED",
+        "pages": 26,
+        "substitutedGlyphs": "0",
+        "bytes": 4280845,
+        "sha256": "4d32c240b5ec61e462a6809979c78be207f3529c8821484aee7a9bc7798f4f65",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.267
+      }
+    ]
+  },
+  "source_qpdf_warnings": [
+    "linearized file contains an uncompressed object after a compressed one in a cross-reference stream",
+    "first shared object offset mismatch: hint table = 4274735; computed = 4274481",
+    "page 0 has shared identifier entries",
+    "page 0: shared object 436: in hint table but not computed list"
+  ],
+  "negative_cycle": {
+    "scope": "Equal-width mutation of the external document, in addition to required original MIT controls",
+    "native": {
+      "exit_code": 1,
+      "reason": "malformed PDF at byte 4275352, object 302 0: object stream Extends contains a cycle",
+      "output_exists": false,
+      "staged_files_remaining": [],
+      "scope": "Equal-length external-source mutation, independent of original MIT controls"
+    },
+    "runtime": {
+      "node": [
+        {
+          "source": "8f13a2a88ce2fac905ff1791eef403f40adf73890564159959e0cac55f2781b6",
+          "status": "REJECTED",
+          "code": "MALFORMED_PDF",
+          "message": "malformed PDF at byte 4275352, object 302 0: object stream Extends contains a cycle",
+          "bytes": 0,
+          "source_unchanged": true,
+          "native_match": true,
+          "seconds": 0.077
+        }
+      ],
+      "browser": [
+        {
+          "source": "8f13a2a88ce2fac905ff1791eef403f40adf73890564159959e0cac55f2781b6",
+          "status": "REJECTED",
+          "code": "MALFORMED_PDF",
+          "message": "malformed PDF at byte 4275352, object 302 0: object stream Extends contains a cycle",
+          "bytes": 0,
+          "remaining": [],
+          "source_unchanged": true,
+          "native_match": true,
+          "seconds": 0.262
+        }
+      ]
+    },
+    "first_assessment": "The first harness expected MALFORMED instead of actual MALFORMED_PDF; both runtimes correctly refused before output. Corrected assessment was rerun with unchanged WASM.",
+    "first_assessment_sha256": "b5d1e367a5d2cf846be8a000c4e76e40703663b1db98b886f8491e444b60d460"
+  },
+  "controls": {
+    "path": "crates/caj2pdf-core/src/pdf/input/tests/object_stream_collection_tests.rs",
+    "sha256": "267be281c416eef240b9d2fcce1638344f643b9bb05a7d67093033a5f3add140",
+    "license": "MIT; wholly authored; no external source bytes"
+  },
+  "scope_limits": [
+    "No full-catalog rerun.",
+    "No proprietary vendor-viewer comparison.",
+    "No external document or converter source committed.",
+    "Public availability does not grant redistribution permission.",
+    "No new irrecoverability finding or release."
+  ],
+  "existing_pdf_kdh_regression": {
+    "inputs": 203,
+    "unchanged_outcomes_and_successful_output_hashes": 203,
+    "before_revision": "f0cea0e715cdab70282199140dbe7b396b3651b1",
+    "after_revision": "f75b9e4605593ca8c7300a025af0f5db78750d82",
+    "outcomes": {
+      "PASS": 186,
+      "FAIL": 17
+    },
+    "receipt_sha256": "e0207e7cdea713d0cb5ecfda73d472a93a2945fd291fe792c617e01dc4baabb3",
+    "scope": "Before/after native comparison of every prior PDF/KDH identity. Refusals are preserved and not counted as conversion passes; no TTKN response is supplied in this regression."
+  },
+  "renewed_search": {
+    "nju": {
+      "additional_pages_attempted": 600,
+      "total_distinct_urls_attempted": 1300,
+      "remaining_frontier": 107,
+      "new_archives": [
+        {
+          "url": "https://eduwx.nju.edu.cn/_upload/article/files/b7/8f/40bc18d04779b946479659b77f15/d6acdc54-dc2e-481a-bc79-864dd7ef8943.rar",
+          "referrers": [
+            "https://eduwx.nju.edu.cn/22767/list24.htm"
+          ],
+          "bytes": 78960,
+          "sha256": "df2be02866714dbca2cd4bd73e56c5e623d7ac76db7617d4ece31e24583fd2a5",
+          "extraction_exit": 0,
+          "entries": 11
+        },
+        {
+          "url": "https://eduwx.nju.edu.cn/_upload/article/files/d6/54/104e463f4597b60f3460d281f194/182ae16e-e75a-448a-a0f5-b9eabc50a1f9.rar",
+          "referrers": [
+            "https://eduwx.nju.edu.cn/22767/list24.htm"
+          ],
+          "bytes": 51465,
+          "sha256": "3182d3bd44404c3e5bcd763315f067340082cbd12b70d4989ca4b7071304b232",
+          "extraction_exit": 0,
+          "entries": 10
+        },
+        {
+          "url": "https://eduwx.nju.edu.cn/_upload/article/files/0d/c8/4f1f843d4173a7a9e2d1d6ba37ef/4c33d526-d90a-4b54-bc46-79f737adb483.zip",
+          "referrers": [
+            "https://eduwx.nju.edu.cn/22767/list24.htm"
+          ],
+          "bytes": 112120,
+          "sha256": "16658d82b6580ba5150b44babcd7971a8bd5badf582f42d045d7b8a51fa6e807",
+          "extraction_exit": 0,
+          "entries": 3
+        },
+        {
+          "url": "https://eduwx.nju.edu.cn/_upload/article/files/ed/b4/b4355c354f809fb8022916b75c06/3dc9f5d2-c164-4e5a-9994-efe2d26d17c1.rar",
+          "referrers": [
+            "https://eduwx.nju.edu.cn/22767/list24.htm"
+          ],
+          "bytes": 126335,
+          "sha256": "9c573b2373174b606813260d16c08e35d2a4a5154368e9d18311f8bedbb07987",
+          "extraction_exit": 0,
+          "entries": 17
+        },
+        {
+          "url": "https://eduwx.nju.edu.cn/_upload/article/files/28/a7/f0b192da41d480a5913558e2cf85/ca6111b3-e1d5-4943-aeb2-af0309e5ca68.rar",
+          "referrers": [
+            "https://eduwx.nju.edu.cn/22767/list24.htm"
+          ],
+          "bytes": 117552,
+          "sha256": "267c930f6b5553cbcbaa5a0a9894afa5e555a3156f2096153ac97b132dd2c43a",
+          "extraction_exit": 0,
+          "entries": 17
+        }
+      ],
+      "new_caj_family_members": 0,
+      "receipts_sha256": [
+        "240a7ba6b8baa0956ee2f20b94cc51beaeb46597ccc8690b4f4bf783b30676fc",
+        "5033b437a56c19240c42425fd4f5a00581e919e45cef866dbce0d064ff375e60"
+      ]
+    },
+    "wayback": [
+      {
+        "url": "https://web.archive.org/cdx/search/cdx?url=www.lib.szu.edu.cn%2Fnkos2%2Fdownload%2Fresource%2F570&output=json&filter=statuscode%3A200&collapse=digest&limit=10&fl=timestamp%2Coriginal%2Cmimetype%2Cstatuscode%2Cdigest%2Clength",
+        "error": "The read operation timed out"
+      },
+      {
+        "url": "https://archive.org/wayback/available?url=http%3A%2F%2Fwww.lib.szu.edu.cn%2Fnkos%2Fdownload%21getFile%3Fid%3D570",
+        "error": "HTTP Error 429: Too Many Requests"
+      }
+    ],
+    "archive_searches": [
+      {
+        "query": "CNKI",
+        "url": "https://archive.org/advancedsearch.php?q=CNKI&output=json&rows=1000&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=mediatype",
+        "found": 938,
+        "returned": 938,
+        "sha256": "87b17cf83e5ca82b8f7073cbfa06015b44795e70c3788c1ecee1615f7ea0331d"
+      },
+      {
+        "query": "\".caj\"",
+        "url": "https://archive.org/advancedsearch.php?q=%22.caj%22&output=json&rows=1000&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=mediatype",
+        "found": 1158,
+        "returned": 1000,
+        "sha256": "e68095ba985f502270a23a915cd85a1dc826465077dc5f70dd9de809585df7fb"
+      },
+      {
+        "query": "title:(学位论文)",
+        "url": "https://archive.org/advancedsearch.php?q=title%3A%28%E5%AD%A6%E4%BD%8D%E8%AE%BA%E6%96%87%29&output=json&rows=1000&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=mediatype",
+        "found": 8,
+        "returned": 8,
+        "sha256": "79e39b55f6c99eaff0a2c1f8bffeff9476a2fbcf9bc0bfcdcb0867a65066c5c2"
+      },
+      {
+        "query": "\"中国期刊\"",
+        "url": "https://archive.org/advancedsearch.php?q=%22%E4%B8%AD%E5%9B%BD%E6%9C%9F%E5%88%8A%22&output=json&rows=1000&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=mediatype",
+        "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+      },
+      {
+        "query": "\"知网\"",
+        "url": "https://archive.org/advancedsearch.php?q=%22%E7%9F%A5%E7%BD%91%22&output=json&rows=1000&fl%5B%5D=identifier&fl%5B%5D=title&fl%5B%5D=mediatype",
+        "found": 13700,
+        "returned": 1000,
+        "sha256": "e4a8be6901f461e6ae0768937a5f6df92d37b0e69d4e90761dcf685d37cfff3a"
+      }
+    ],
+    "archive_batches": [
+      {
+        "metadata_requests": 300,
+        "failed_requests": 27,
+        "direct_original_caj_family_candidates": 0,
+        "metadata_receipt_sha256": "fe0e98613e947f12b9dae31d0c710fdb8eba5af6abedd8f29d4fba3de76182b1",
+        "queue_sha256": "d568ba584b60ab1125afec95e465e31315f37aeecb69415d66975edec90204e3"
+      },
+      {
+        "metadata_requests": 600,
+        "failed_requests": 36,
+        "direct_original_caj_family_candidates": 0,
+        "metadata_receipt_sha256": "4f74625933e503adce1d1b362817f3a4f118523f98bf15dee4221f4b971b2b6c",
+        "queue_sha256": "305016affafa042ed191d3e6e7aaf9105003c327d8bf0dace84659784c1e12ea"
+      }
+    ],
+    "archive_unvisited_candidates": 1533,
+    "additional_exact_archive_metadata": [
+      {
+        "identifier": "covid19-cnki-20200329",
+        "url": "https://archive.org/metadata/covid19-cnki-20200329",
+        "original_files": [
+          {
+            "name": "cnki_metadata.2020-03-29.json",
+            "source": "original",
+            "size": "1643673",
+            "md5": "b9147a205c403a4f0e340d5f8a0c33f0",
+            "sha1": "869334e4b082fb0e4b390deee5e5f1a17a8fd855",
+            "format": "JSON"
+          },
+          {
+            "name": "covid19-cnki-20200329_files.xml",
+            "source": "original",
+            "format": "Metadata",
+            "md5": "62ef210d0e4c9362dcdccc5ecaf0c795"
+          },
+          {
+            "name": "covid19-cnki-20200329_meta.sqlite",
+            "source": "original",
+            "size": "8192",
+            "format": "Metadata",
+            "md5": "1b1662dddd9175b08851dbe3d6153565",
+            "sha1": "b08dc409a590ebef7bf91517fab84f5634f64253"
+          },
+          {
+            "name": "covid19-cnki-20200329_meta.xml",
+            "source": "original",
+            "size": "1000",
+            "format": "Metadata",
+            "md5": "ba088824807dbd5d99ff6e9f2e558fe7",
+            "sha1": "c6741b7cb28f5d9c95e906ada079e4f6683e4f41"
+          }
+        ]
+      },
+      {
+        "identifier": "coastalwolf-full-cnki-com-20250815_192717",
+        "url": "https://archive.org/metadata/coastalwolf-full-cnki-com-20250815_192717",
+        "original_files": [
+          {
+            "name": "coastalwolf-full-cnki-com-20250815_192717.zip",
+            "source": "original",
+            "size": "2748494",
+            "md5": "12dd3a39a6dd154cc35d333947473926",
+            "sha1": "b1948371d61a7f1d6832ec556d912275161caa46",
+            "format": "ZIP"
+          },
+          {
+            "name": "coastalwolf-full-cnki-com-20250815_192717_files.xml",
+            "source": "original",
+            "format": "Metadata",
+            "md5": "0fcec1413bc3182ecfb8d65c3f0b62ea"
+          },
+          {
+            "name": "coastalwolf-full-cnki-com-20250815_192717_meta.sqlite",
+            "source": "original",
+            "size": "20480",
+            "md5": "68ac92add2d369c11f5292e4925ee9b1",
+            "sha1": "28b8c5855499bc57ea209860fe37c1d9611c2ac0",
+            "format": "Metadata"
+          },
+          {
+            "name": "coastalwolf-full-cnki-com-20250815_192717_meta.xml",
+            "source": "original",
+            "size": "784",
+            "md5": "6dfd2d38df74e43c8d7f557698ef28a3",
+            "sha1": "b8b450731bd8e301d612a578988152023998340d",
+            "format": "Metadata"
+          }
+        ]
+      },
+      {
+        "identifier": "mthsieh-cnki-conference-2",
+        "url": "https://archive.org/metadata/mthsieh-cnki-conference-2",
+        "original_files": [
+          {
+            "name": "__ia_thumb.jpg",
+            "source": "original",
+            "size": "15509",
+            "md5": "a8620d52e6cc03fbaa7cc30a49f59c0a",
+            "sha1": "e2face79731e18a117bb875692a989b6953ff858",
+            "format": "Item Tile"
+          },
+          {
+            "name": "mthsieh-cnki-conference-2.pdf",
+            "source": "original",
+            "size": "208933",
+            "md5": "11134f1093a83926d5aed27bfb6c77c9",
+            "sha1": "063982fc788576151766097da0ac66b405daf050",
+            "format": "Text PDF"
+          },
+          {
+            "name": "mthsieh-cnki-conference-2_files.xml",
+            "source": "original",
+            "format": "Metadata",
+            "md5": "e1dbeef590f03c22c8b72aff209c82ea"
+          },
+          {
+            "name": "mthsieh-cnki-conference-2_meta.sqlite",
+            "source": "original",
+            "size": "20480",
+            "md5": "c1721b28fd19b29191f28f9a7e6f99c2",
+            "sha1": "fbf9240e7b84f69a1f9697d6b6ec54a2fc2fedf4",
+            "format": "Metadata"
+          },
+          {
+            "name": "mthsieh-cnki-conference-2_meta.xml",
+            "source": "original",
+            "size": "1957",
+            "md5": "d1e910e83ba20723491702a14737cb92",
+            "sha1": "53b5f079a30b73c5b580ff0671036b0b216bc638",
+            "format": "Metadata"
+          }
+        ]
+      }
+    ],
+    "website_archive_inspection": {
+      "url": "https://archive.org/download/coastalwolf-full-cnki-com-20250815_192717/coastalwolf-full-cnki-com-20250815_192717.zip",
+      "bytes": 2748494,
+      "sha256": "416808aec7cb9ae078c5fef41ebe3480cc769054e19f7bea3e8ac684fe6ea6a4",
+      "archive_checksums_match": true,
+      "extraction_exit": 0,
+      "extracted": {
+        "archive": "/home/hzc/.cache/caj2pdf-web-sweep-20261009/post504-web-leads/coastalwolf-cnki-website.zip",
+        "entries": 178,
+        "documents": []
+      }
+    },
+    "previously_unavailable_metadata_retry": [
+      {
+        "identifier": "mthsieh-cnki-conference-3",
+        "title": null,
+        "url": "https://archive.org/metadata/mthsieh-cnki-conference-3",
+        "sha256": "f577414d86f5cbb8509dcfa8d709c1949f6aeaee452c96e27290102bb0b13636",
+        "files": 16,
+        "candidates": []
+      },
+      {
+        "identifier": "360-temp",
+        "title": null,
+        "url": "https://archive.org/metadata/360-temp",
+        "sha256": "4fc1e8674cfcc203582f641be45deb285455e4267ea35673610a778e74d6ba91",
+        "files": 404,
+        "candidates": [
+          {
+            "name": "“钱氏音差”解析.caj",
+            "source": "original",
+            "mtime": "1621706552",
+            "size": "1138368",
+            "md5": "1f9d1c1b803102f11d6f10a6ab3754c0",
+            "crc32": "03bf1c70",
+            "sha1": "b1f84e006fe2ca9b7dc5f3e9fdabee173cfc8716",
+            "format": "Unknown"
+          },
+          {
+            "name": "《太玄》象数与汉代易学卦气说.caj",
+            "source": "original",
+            "mtime": "1621706570",
+            "size": "952400",
+            "md5": "fa9125c7568e2bdc37477423eb4b5173",
+            "crc32": "32fd7f10",
+            "sha1": "305fbd9027ccd54578f9efbd9350c564d29b02e1",
+            "format": "Unknown"
+          },
+          {
+            "name": "《新唐书》乐律学二题辨惑.caj",
+            "source": "original",
+            "mtime": "1621706579",
+            "size": "116576",
+            "md5": "6e232da78293e1de22f56d9a2d6ed333",
+            "crc32": "33e8c776",
+            "sha1": "177d50a42eeecdb0fc5d33dcca3567e2b251f1b8",
+            "format": "Unknown"
+          },
+          {
+            "name": "《管子·地员》五音说之探究.caj",
+            "source": "original",
+            "mtime": "1621706585",
+            "size": "488192",
+            "md5": "58836f0ac6bf0bf4a267ff6aa42fdf0c",
+            "crc32": "6583f1cd",
+            "sha1": "a5fdd480faa195309813a3b6ed925a7be9456679",
+            "format": "Unknown"
+          },
+          {
+            "name": "中国古代律学史研究需要“接通”的思维向度.caj",
+            "source": "original",
+            "mtime": "1621706605",
+            "size": "69232",
+            "md5": "e21dbc2dce78f8fe2a97c6e1d285503a",
+            "crc32": "a64c5130",
+            "sha1": "8b95dfec9deb8841365e305a3616e7ecd3c85b6a",
+            "format": "Unknown"
+          },
+          {
+            "name": "中国宫廷音乐“密码”  穿越百年历史从荷兰来到重庆纪实.caj",
+            "source": "original",
+            "mtime": "1621706610",
+            "size": "1259648",
+            "md5": "f6de6d25aafe6d996441e5cd22e210b0",
+            "crc32": "36612126",
+            "sha1": "e4aa3363d3dab7d051245e2d2c2b9f3f4a96ca6e",
+            "format": "Unknown"
+          },
+          {
+            "name": "史記律书的樂律学——古代史資料之一.caj",
+            "source": "original",
+            "mtime": "1621706642",
+            "size": "1085872",
+            "md5": "fceb2ae1b7cd0827dddfaaf13cd75f80",
+            "crc32": "abeb7b11",
+            "sha1": "4048e2ab50b9df79f032f9926f1a52c60b8ef30e",
+            "format": "Unknown"
+          },
+          {
+            "name": "春秋战国时期阴阳五行学说的美学思想.caj",
+            "source": "original",
+            "mtime": "1621706676",
+            "size": "1827840",
+            "md5": "9090f99e6d2e1632a92f979a9836958d",
+            "crc32": "efb4237c",
+            "sha1": "507a838d1c8a3845cdf286d1676b8c28265dd044",
+            "format": "Unknown"
+          },
+          {
+            "name": "祖孝孙音阶及其旋宫体系的源流.caj",
+            "source": "original",
+            "mtime": "1621706688",
+            "size": "55216",
+            "md5": "8471463a8cd143a5396ff3827bc270e7",
+            "crc32": "04baf814",
+            "sha1": "2927a541ae96449d9f0aee9a75c71aee33e221b8",
+            "format": "Unknown"
+          }
+        ]
+      },
+      {
+        "identifier": "20260429_20260429_0936",
+        "title": null,
+        "url": "https://archive.org/metadata/20260429_20260429_0936",
+        "sha256": "12c690818bb2ad42aee14ab211b86081f0e513c29881362901136a6c6f9824e5",
+        "files": 15,
+        "candidates": []
+      },
+      {
+        "identifier": "1989_20221021",
+        "title": null,
+        "url": "https://archive.org/metadata/1989_20221021",
+        "sha256": "a0f99e0fcda7977fa773876197f159589bd5120bf51a4db7be9c1e65e357525f",
+        "files": 290,
+        "candidates": []
+      },
+      {
+        "identifier": "tawhid-al-mofazzal-simplified-chinese-translation",
+        "title": null,
+        "url": "https://archive.org/metadata/tawhid-al-mofazzal-simplified-chinese-translation",
+        "sha256": "9e6bbd2a2faadddf4e0ede64d1141a4ccaf425afc21d8e4b14f67be42d9ea997",
+        "files": 5,
+        "candidates": []
+      }
+    ],
+    "previously_unavailable_candidate_downloads": [
+      {
+        "url": "https://archive.org/download/360-temp/%E2%80%9C%E9%92%B1%E6%B0%8F%E9%9F%B3%E5%B7%AE%E2%80%9D%E8%A7%A3%E6%9E%90.caj",
+        "identifier": "360-temp",
+        "archive": {
+          "name": "“钱氏音差”解析.caj",
+          "source": "original",
+          "mtime": "1621706552",
+          "size": "1138368",
+          "md5": "1f9d1c1b803102f11d6f10a6ab3754c0",
+          "crc32": "03bf1c70",
+          "sha1": "b1f84e006fe2ca9b7dc5f3e9fdabee173cfc8716",
+          "format": "Unknown"
+        },
+        "error": "HTTP Error 500: Internal Server Error"
+      },
+      {
+        "url": "https://archive.org/download/360-temp/%E3%80%8A%E5%A4%AA%E7%8E%84%E3%80%8B%E8%B1%A1%E6%95%B0%E4%B8%8E%E6%B1%89%E4%BB%A3%E6%98%93%E5%AD%A6%E5%8D%A6%E6%B0%94%E8%AF%B4.caj",
+        "identifier": "360-temp",
+        "archive": {
+          "name": "《太玄》象数与汉代易学卦气说.caj",
+          "source": "original",
+          "mtime": "1621706570",
+          "size": "952400",
+          "md5": "fa9125c7568e2bdc37477423eb4b5173",
+          "crc32": "32fd7f10",
+          "sha1": "305fbd9027ccd54578f9efbd9350c564d29b02e1",
+          "format": "Unknown"
+        },
+        "error": "HTTP Error 500: Internal Server Error"
+      },
+      {
+        "url": "https://archive.org/download/360-temp/%E3%80%8A%E6%96%B0%E5%94%90%E4%B9%A6%E3%80%8B%E4%B9%90%E5%BE%8B%E5%AD%A6%E4%BA%8C%E9%A2%98%E8%BE%A8%E6%83%91.caj",
+        "identifier": "360-temp",
+        "archive": {
+          "name": "《新唐书》乐律学二题辨惑.caj",
+          "source": "original",
+          "mtime": "1621706579",
+          "size": "116576",
+          "md5": "6e232da78293e1de22f56d9a2d6ed333",
+          "crc32": "33e8c776",
+          "sha1": "177d50a42eeecdb0fc5d33dcca3567e2b251f1b8",
+          "format": "Unknown"
+        },
+        "error": "HTTP Error 500: Internal Server Error"
+      },
+      {
+        "url": "https://archive.org/download/360-temp/%E3%80%8A%E7%AE%A1%E5%AD%90%C2%B7%E5%9C%B0%E5%91%98%E3%80%8B%E4%BA%94%E9%9F%B3%E8%AF%B4%E4%B9%8B%E6%8E%A2%E7%A9%B6.caj",
+        "identifier": "360-temp",
+        "archive": {
+          "name": "《管子·地员》五音说之探究.caj",
+          "source": "original",
+          "mtime": "1621706585",
+          "size": "488192",
+          "md5": "58836f0ac6bf0bf4a267ff6aa42fdf0c",
+          "crc32": "6583f1cd",
+          "sha1": "a5fdd480faa195309813a3b6ed925a7be9456679",
+          "format": "Unknown"
+        },
+        "sha256": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+        "bytes": 488192,
+        "signature": "255044462d312e36"
+      },
+      {
+        "url": "https://archive.org/download/360-temp/%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E5%BE%8B%E5%AD%A6%E5%8F%B2%E7%A0%94%E7%A9%B6%E9%9C%80%E8%A6%81%E2%80%9C%E6%8E%A5%E9%80%9A%E2%80%9D%E7%9A%84%E6%80%9D%E7%BB%B4%E5%90%91%E5%BA%A6.caj",
+        "identifier": "360-temp",
+        "archive": {
+          "name": "中国古代律学史研究需要“接通”的思维向度.caj",
+          "source": "original",
+          "mtime": "1621706605",
+          "size": "69232",
+          "md5": "e21dbc2dce78f8fe2a97c6e1d285503a",
+          "crc32": "a64c5130",
+          "sha1": "8b95dfec9deb8841365e305a3616e7ecd3c85b6a",
+          "format": "Unknown"
+        },
+        "sha256": "43677f02f2184c0c4e772339357eb1c14f941b799c0226a0730974ac13f1898d",
+        "bytes": 69232,
+        "signature": "255044462d312e36"
+      },
+      {
+        "url": "https://archive.org/download/360-temp/%E4%B8%AD%E5%9B%BD%E5%AE%AB%E5%BB%B7%E9%9F%B3%E4%B9%90%E2%80%9C%E5%AF%86%E7%A0%81%E2%80%9D%20%20%E7%A9%BF%E8%B6%8A%E7%99%BE%E5%B9%B4%E5%8E%86%E5%8F%B2%E4%BB%8E%E8%8D%B7%E5%85%B0%E6%9D%A5%E5%88%B0%E9%87%8D%E5%BA%86%E7%BA%AA%E5%AE%9E.caj",
+        "identifier": "360-temp",
+        "archive": {
+          "name": "中国宫廷音乐“密码”  穿越百年历史从荷兰来到重庆纪实.caj",
+          "source": "original",
+          "mtime": "1621706610",
+          "size": "1259648",
+          "md5": "f6de6d25aafe6d996441e5cd22e210b0",
+          "crc32": "36612126",
+          "sha1": "e4aa3363d3dab7d051245e2d2c2b9f3f4a96ca6e",
+          "format": "Unknown"
+        },
+        "sha256": "8dd737fc3ab7e0d0a4abd26d0609d5b7a18951056d28ec57596af7dc8c765e05",
+        "bytes": 1259648,
+        "signature": "255044462d312e36"
+      },
+      {
+        "url": "https://archive.org/download/360-temp/%E5%8F%B2%E8%A8%98%E5%BE%8B%E4%B9%A6%E7%9A%84%E6%A8%82%E5%BE%8B%E5%AD%A6%E2%80%94%E2%80%94%E5%8F%A4%E4%BB%A3%E5%8F%B2%E8%B3%87%E6%96%99%E4%B9%8B%E4%B8%80.caj",
+        "identifier": "360-temp",
+        "archive": {
+          "name": "史記律书的樂律学——古代史資料之一.caj",
+          "source": "original",
+          "mtime": "1621706642",
+          "size": "1085872",
+          "md5": "fceb2ae1b7cd0827dddfaaf13cd75f80",
+          "crc32": "abeb7b11",
+          "sha1": "4048e2ab50b9df79f032f9926f1a52c60b8ef30e",
+          "format": "Unknown"
+        },
+        "sha256": "8294e9dd26455794cb5ba57d706cb31e6ebd2df69d8e07abb664027d4a456f34",
+        "bytes": 1085872,
+        "signature": "255044462d312e36"
+      },
+      {
+        "url": "https://archive.org/download/360-temp/%E6%98%A5%E7%A7%8B%E6%88%98%E5%9B%BD%E6%97%B6%E6%9C%9F%E9%98%B4%E9%98%B3%E4%BA%94%E8%A1%8C%E5%AD%A6%E8%AF%B4%E7%9A%84%E7%BE%8E%E5%AD%A6%E6%80%9D%E6%83%B3.caj",
+        "identifier": "360-temp",
+        "archive": {
+          "name": "春秋战国时期阴阳五行学说的美学思想.caj",
+          "source": "original",
+          "mtime": "1621706676",
+          "size": "1827840",
+          "md5": "9090f99e6d2e1632a92f979a9836958d",
+          "crc32": "efb4237c",
+          "sha1": "507a838d1c8a3845cdf286d1676b8c28265dd044",
+          "format": "Unknown"
+        },
+        "sha256": "18f6eaca5acbf8460144c4f454df414def31e99d4f697efe47bb0640bcc1a4fa",
+        "bytes": 1827840,
+        "signature": "255044462d312e36"
+      },
+      {
+        "url": "https://archive.org/download/360-temp/%E7%A5%96%E5%AD%9D%E5%AD%99%E9%9F%B3%E9%98%B6%E5%8F%8A%E5%85%B6%E6%97%8B%E5%AE%AB%E4%BD%93%E7%B3%BB%E7%9A%84%E6%BA%90%E6%B5%81.caj",
+        "identifier": "360-temp",
+        "archive": {
+          "name": "祖孝孙音阶及其旋宫体系的源流.caj",
+          "source": "original",
+          "mtime": "1621706688",
+          "size": "55216",
+          "md5": "8471463a8cd143a5396ff3827bc270e7",
+          "crc32": "04baf814",
+          "sha1": "2927a541ae96449d9f0aee9a75c71aee33e221b8",
+          "format": "Unknown"
+        },
+        "sha256": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+        "bytes": 55216,
+        "signature": "255044462d312e36"
+      }
+    ],
+    "previously_unavailable_candidate_retry": [
+      {
+        "original_url": "https://archive.org/download/360-temp/%E2%80%9C%E9%92%B1%E6%B0%8F%E9%9F%B3%E5%B7%AE%E2%80%9D%E8%A7%A3%E6%9E%90.caj",
+        "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E2%80%9C%E9%92%B1%E6%B0%8F%E9%9F%B3%E5%B7%AE%E2%80%9D%E8%A7%A3%E6%9E%90.caj",
+        "metadata_server": "d1",
+        "archive": {
+          "name": "“钱氏音差”解析.caj",
+          "source": "original",
+          "mtime": "1621706552",
+          "size": "1138368",
+          "md5": "1f9d1c1b803102f11d6f10a6ab3754c0",
+          "crc32": "03bf1c70",
+          "sha1": "b1f84e006fe2ca9b7dc5f3e9fdabee173cfc8716",
+          "format": "Unknown"
+        },
+        "bytes": 1138368,
+        "sha256": "a3a0a922abb5e0d499d345c4204a2d15ffdc17524faa014e0e03f133028d9940",
+        "archive_checksums_match": true,
+        "signature": "255044462d312e33"
+      },
+      {
+        "original_url": "https://archive.org/download/360-temp/%E3%80%8A%E5%A4%AA%E7%8E%84%E3%80%8B%E8%B1%A1%E6%95%B0%E4%B8%8E%E6%B1%89%E4%BB%A3%E6%98%93%E5%AD%A6%E5%8D%A6%E6%B0%94%E8%AF%B4.caj",
+        "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E3%80%8A%E5%A4%AA%E7%8E%84%E3%80%8B%E8%B1%A1%E6%95%B0%E4%B8%8E%E6%B1%89%E4%BB%A3%E6%98%93%E5%AD%A6%E5%8D%A6%E6%B0%94%E8%AF%B4.caj",
+        "metadata_server": "d1",
+        "archive": {
+          "name": "《太玄》象数与汉代易学卦气说.caj",
+          "source": "original",
+          "mtime": "1621706570",
+          "size": "952400",
+          "md5": "fa9125c7568e2bdc37477423eb4b5173",
+          "crc32": "32fd7f10",
+          "sha1": "305fbd9027ccd54578f9efbd9350c564d29b02e1",
+          "format": "Unknown"
+        },
+        "bytes": 952400,
+        "sha256": "12697aa8dd7a0e92ca2769e8189684fe4d206f3936720348decc28cd67af0c15",
+        "archive_checksums_match": true,
+        "signature": "43414a0001000200"
+      },
+      {
+        "original_url": "https://archive.org/download/360-temp/%E3%80%8A%E6%96%B0%E5%94%90%E4%B9%A6%E3%80%8B%E4%B9%90%E5%BE%8B%E5%AD%A6%E4%BA%8C%E9%A2%98%E8%BE%A8%E6%83%91.caj",
+        "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E3%80%8A%E6%96%B0%E5%94%90%E4%B9%A6%E3%80%8B%E4%B9%90%E5%BE%8B%E5%AD%A6%E4%BA%8C%E9%A2%98%E8%BE%A8%E6%83%91.caj",
+        "metadata_server": "d1",
+        "archive": {
+          "name": "《新唐书》乐律学二题辨惑.caj",
+          "source": "original",
+          "mtime": "1621706579",
+          "size": "116576",
+          "md5": "6e232da78293e1de22f56d9a2d6ed333",
+          "crc32": "33e8c776",
+          "sha1": "177d50a42eeecdb0fc5d33dcca3567e2b251f1b8",
+          "format": "Unknown"
+        },
+        "bytes": 116576,
+        "sha256": "5dfd97fc3c35c0b24a884fac0971054116dcc06ab48c76a1e4807322cc3fb26b",
+        "archive_checksums_match": true,
+        "signature": "255044462d312e36"
+      },
+      {
+        "original_url": "https://archive.org/download/360-temp/%E3%80%8A%E7%AE%A1%E5%AD%90%C2%B7%E5%9C%B0%E5%91%98%E3%80%8B%E4%BA%94%E9%9F%B3%E8%AF%B4%E4%B9%8B%E6%8E%A2%E7%A9%B6.caj",
+        "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E3%80%8A%E7%AE%A1%E5%AD%90%C2%B7%E5%9C%B0%E5%91%98%E3%80%8B%E4%BA%94%E9%9F%B3%E8%AF%B4%E4%B9%8B%E6%8E%A2%E7%A9%B6.caj",
+        "metadata_server": "d1",
+        "archive": {
+          "name": "《管子·地员》五音说之探究.caj",
+          "source": "original",
+          "mtime": "1621706585",
+          "size": "488192",
+          "md5": "58836f0ac6bf0bf4a267ff6aa42fdf0c",
+          "crc32": "6583f1cd",
+          "sha1": "a5fdd480faa195309813a3b6ed925a7be9456679",
+          "format": "Unknown"
+        },
+        "bytes": 488192,
+        "sha256": "3dd33ec74ba940e6536e5112e47c04615ef873898a2f993a23a2f7f8a20b1e84",
+        "archive_checksums_match": true,
+        "signature": "255044462d312e36"
+      },
+      {
+        "original_url": "https://archive.org/download/360-temp/%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E5%BE%8B%E5%AD%A6%E5%8F%B2%E7%A0%94%E7%A9%B6%E9%9C%80%E8%A6%81%E2%80%9C%E6%8E%A5%E9%80%9A%E2%80%9D%E7%9A%84%E6%80%9D%E7%BB%B4%E5%90%91%E5%BA%A6.caj",
+        "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E4%B8%AD%E5%9B%BD%E5%8F%A4%E4%BB%A3%E5%BE%8B%E5%AD%A6%E5%8F%B2%E7%A0%94%E7%A9%B6%E9%9C%80%E8%A6%81%E2%80%9C%E6%8E%A5%E9%80%9A%E2%80%9D%E7%9A%84%E6%80%9D%E7%BB%B4%E5%90%91%E5%BA%A6.caj",
+        "metadata_server": "d1",
+        "archive": {
+          "name": "中国古代律学史研究需要“接通”的思维向度.caj",
+          "source": "original",
+          "mtime": "1621706605",
+          "size": "69232",
+          "md5": "e21dbc2dce78f8fe2a97c6e1d285503a",
+          "crc32": "a64c5130",
+          "sha1": "8b95dfec9deb8841365e305a3616e7ecd3c85b6a",
+          "format": "Unknown"
+        },
+        "bytes": 69232,
+        "sha256": "43677f02f2184c0c4e772339357eb1c14f941b799c0226a0730974ac13f1898d",
+        "archive_checksums_match": true,
+        "signature": "255044462d312e36"
+      },
+      {
+        "original_url": "https://archive.org/download/360-temp/%E4%B8%AD%E5%9B%BD%E5%AE%AB%E5%BB%B7%E9%9F%B3%E4%B9%90%E2%80%9C%E5%AF%86%E7%A0%81%E2%80%9D%20%20%E7%A9%BF%E8%B6%8A%E7%99%BE%E5%B9%B4%E5%8E%86%E5%8F%B2%E4%BB%8E%E8%8D%B7%E5%85%B0%E6%9D%A5%E5%88%B0%E9%87%8D%E5%BA%86%E7%BA%AA%E5%AE%9E.caj",
+        "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E4%B8%AD%E5%9B%BD%E5%AE%AB%E5%BB%B7%E9%9F%B3%E4%B9%90%E2%80%9C%E5%AF%86%E7%A0%81%E2%80%9D%20%20%E7%A9%BF%E8%B6%8A%E7%99%BE%E5%B9%B4%E5%8E%86%E5%8F%B2%E4%BB%8E%E8%8D%B7%E5%85%B0%E6%9D%A5%E5%88%B0%E9%87%8D%E5%BA%86%E7%BA%AA%E5%AE%9E.caj",
+        "metadata_server": "d1",
+        "archive": {
+          "name": "中国宫廷音乐“密码”  穿越百年历史从荷兰来到重庆纪实.caj",
+          "source": "original",
+          "mtime": "1621706610",
+          "size": "1259648",
+          "md5": "f6de6d25aafe6d996441e5cd22e210b0",
+          "crc32": "36612126",
+          "sha1": "e4aa3363d3dab7d051245e2d2c2b9f3f4a96ca6e",
+          "format": "Unknown"
+        },
+        "bytes": 1259648,
+        "sha256": "8dd737fc3ab7e0d0a4abd26d0609d5b7a18951056d28ec57596af7dc8c765e05",
+        "archive_checksums_match": true,
+        "signature": "255044462d312e36"
+      },
+      {
+        "original_url": "https://archive.org/download/360-temp/%E5%8F%B2%E8%A8%98%E5%BE%8B%E4%B9%A6%E7%9A%84%E6%A8%82%E5%BE%8B%E5%AD%A6%E2%80%94%E2%80%94%E5%8F%A4%E4%BB%A3%E5%8F%B2%E8%B3%87%E6%96%99%E4%B9%8B%E4%B8%80.caj",
+        "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E5%8F%B2%E8%A8%98%E5%BE%8B%E4%B9%A6%E7%9A%84%E6%A8%82%E5%BE%8B%E5%AD%A6%E2%80%94%E2%80%94%E5%8F%A4%E4%BB%A3%E5%8F%B2%E8%B3%87%E6%96%99%E4%B9%8B%E4%B8%80.caj",
+        "metadata_server": "d1",
+        "archive": {
+          "name": "史記律书的樂律学——古代史資料之一.caj",
+          "source": "original",
+          "mtime": "1621706642",
+          "size": "1085872",
+          "md5": "fceb2ae1b7cd0827dddfaaf13cd75f80",
+          "crc32": "abeb7b11",
+          "sha1": "4048e2ab50b9df79f032f9926f1a52c60b8ef30e",
+          "format": "Unknown"
+        },
+        "bytes": 1085872,
+        "sha256": "8294e9dd26455794cb5ba57d706cb31e6ebd2df69d8e07abb664027d4a456f34",
+        "archive_checksums_match": true,
+        "signature": "255044462d312e36"
+      },
+      {
+        "original_url": "https://archive.org/download/360-temp/%E6%98%A5%E7%A7%8B%E6%88%98%E5%9B%BD%E6%97%B6%E6%9C%9F%E9%98%B4%E9%98%B3%E4%BA%94%E8%A1%8C%E5%AD%A6%E8%AF%B4%E7%9A%84%E7%BE%8E%E5%AD%A6%E6%80%9D%E6%83%B3.caj",
+        "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E6%98%A5%E7%A7%8B%E6%88%98%E5%9B%BD%E6%97%B6%E6%9C%9F%E9%98%B4%E9%98%B3%E4%BA%94%E8%A1%8C%E5%AD%A6%E8%AF%B4%E7%9A%84%E7%BE%8E%E5%AD%A6%E6%80%9D%E6%83%B3.caj",
+        "metadata_server": "d1",
+        "archive": {
+          "name": "春秋战国时期阴阳五行学说的美学思想.caj",
+          "source": "original",
+          "mtime": "1621706676",
+          "size": "1827840",
+          "md5": "9090f99e6d2e1632a92f979a9836958d",
+          "crc32": "efb4237c",
+          "sha1": "507a838d1c8a3845cdf286d1676b8c28265dd044",
+          "format": "Unknown"
+        },
+        "bytes": 1827840,
+        "sha256": "18f6eaca5acbf8460144c4f454df414def31e99d4f697efe47bb0640bcc1a4fa",
+        "archive_checksums_match": true,
+        "signature": "255044462d312e36"
+      },
+      {
+        "original_url": "https://archive.org/download/360-temp/%E7%A5%96%E5%AD%9D%E5%AD%99%E9%9F%B3%E9%98%B6%E5%8F%8A%E5%85%B6%E6%97%8B%E5%AE%AB%E4%BD%93%E7%B3%BB%E7%9A%84%E6%BA%90%E6%B5%81.caj",
+        "retry_url": "https://ia600509.us.archive.org/0/items/360-temp/%E7%A5%96%E5%AD%9D%E5%AD%99%E9%9F%B3%E9%98%B6%E5%8F%8A%E5%85%B6%E6%97%8B%E5%AE%AB%E4%BD%93%E7%B3%BB%E7%9A%84%E6%BA%90%E6%B5%81.caj",
+        "metadata_server": "d1",
+        "archive": {
+          "name": "祖孝孙音阶及其旋宫体系的源流.caj",
+          "source": "original",
+          "mtime": "1621706688",
+          "size": "55216",
+          "md5": "8471463a8cd143a5396ff3827bc270e7",
+          "crc32": "04baf814",
+          "sha1": "2927a541ae96449d9f0aee9a75c71aee33e221b8",
+          "format": "Unknown"
+        },
+        "bytes": 55216,
+        "sha256": "32bba94704cc74e5fa2a1f554efbfe24ee91441bae2eefb16a40c3cffe8a2b7e",
+        "archive_checksums_match": true,
+        "signature": "255044462d312e36"
+      }
+    ],
+    "new_archive_acquisitions_followup": "rwv/caj2pdf-samples#92: nine checksum-verified transfers, five new identities and four known duplicates; separate catalog update.",
+    "login_gated_leads": [
+      {
+        "url": "https://dl.21ic.com/download/45665995guangfuchuneng-277221.html",
+        "download": "https://dl.21ic.com/download/alert/Mjc3MjIx.html",
+        "result": "Redirected to my.21ic.com/logging.php; no document acquired."
+      },
+      {
+        "url": "https://www.dssz.com/2577623.html",
+        "download": "https://www.dssz.com/download.php?aid=565957&id=2577623",
+        "result": "Redirected to www.dssz.com:8081/login.html; no document acquired."
+      }
+    ],
+    "limits": "Bounded searches and selected metadata queries; unrelated CAJ shelf codes, novels and papers also match. No exhaustive web/archive search or historical absence is inferred. Timeout/429 results are unavailable leads, not failed conversions."
+  },
+  "catalog_update": {
+    "prior_revision": "d4be1c97d5ce75a4ec4e2024e473d86d7d148457",
+    "prior_catalog_sha256": "f999faa11e85d3f8b5365fbd62d71c0e97c6e9bbf9b68f81af2d0397148cc931",
+    "existing_rows_preserved": 1385,
+    "identities": 1386,
+    "conversion_after": {
+      "PASS": 1341,
+      "FAIL": 18,
+      "UNSUPPORTED": 27
+    },
+    "pages_added": 26,
+    "reported_accepted_pages_after": 36494,
+    "page_total_scope": "36,468 from the reconciled TTKN report plus this original 26-page document; no new full-catalog rerun."
+  }
+}

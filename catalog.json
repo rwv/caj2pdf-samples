@@ -29304,6 +29304,25 @@
       "notes": "Converts with its explicitly supplied matching author-disclosed response: native/Node/Chromium bytes agree; all 234 plaintext streams, 180 page geometry/word positions/pixels and 97 preserved outline entries match independent recovery. No new bookmarks are generated. Vendor-viewer evidence remains scoped to opening/page 1/counter/contents, not all-page equivalence. Other TTKN profiles remain unresolved (rwv/caj2pdf-rust#501).",
       "page_count": 180,
       "bookmark_count": 97
+    },
+    {
+      "path": "external/web/e7f78ebc47de69356e364a4c90e47a9e93f61855d47a6ac0230ba6ae06880da1.pdf",
+      "aliases": [],
+      "sha256": "e7f78ebc47de69356e364a4c90e47a9e93f61855d47a6ac0230ba6ae06880da1",
+      "size_bytes": 4280581,
+      "detected_type": "PDF",
+      "source_repository": "https://www.sse.com.cn/",
+      "source_url": "https://www.sse.com.cn/aboutus/publication/actofcourt/law/list/c/10643464/files/9f66fd525ace4005b03ee2be1b60779b.pdf",
+      "source_path": "9f66fd525ace4005b03ee2be1b60779b.pdf",
+      "redistribution": "not_declared",
+      "local_integrity": "PASS",
+      "conversion": "PASS",
+      "viewer": "NOT_RUN",
+      "page_count": 26,
+      "bookmark_count": 0,
+      "conversion_revision": "f75b9e4605593ca8c7300a025af0f5db78750d82",
+      "conversion_evidence": "research/notes/public-sse-collection-20261009.json",
+      "source_notes": "PDF bytes despite a CAJ indexed title. Native/Node/Chromium output agrees after validated ObjStm Extends support; all source bytes/455 objects/295 streams and 26 page geometry/words/pixels are preserved. Original qpdf exits 3 with four linearization warnings; output exits 0. No vendor-viewer claim."
     }
   ]
 }
