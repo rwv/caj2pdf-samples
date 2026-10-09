@@ -125,6 +125,7 @@ See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for th
 
 | Note | Backs |
 | --- | --- |
+| [Displayed-contents observation protocol](viewer-outline-protocol-20261009.md) | samples #63; bounded public Qt tree counts and original controls |
 | [CAJViewer vendor fixtures](cajviewer-fixtures.md) | `tools/cajviewer/` |
 | [CAJViewer fixture snapshot](cajviewer-fixture-snapshot.md) | historical |
 | [HN/C8 and KDH viewer checks](cajviewer-hnc8-kdh.md) | release checkpoint |

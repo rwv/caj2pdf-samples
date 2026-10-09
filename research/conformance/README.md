@@ -547,3 +547,8 @@ The [original native navigation controls](../notes/native-viewer-navigation-2026
 add corpus-free framing/content/limit tests and preflight checks for explicit
 capture routes. Viewer results remain a separate opt-in receipt: two equal
 cached captures are not counted as readiness or document fidelity.
+
+The [displayed-contents protocol](../notes/viewer-outline-protocol-20261009.md)
+adds original Qt model and receipt controls without a viewer or corpus
+dependency in CI. Per-document `EMPTY_DISPLAYED` observations do not establish
+that no unknown stored outline exists or that page rendering is correct.
