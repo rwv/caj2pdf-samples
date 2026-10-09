@@ -11,6 +11,9 @@ adds 87 SHA-pinned originals from Archive.org and Nanjing University. All
 80 pass qpdf cleanly and seven retain source-content warnings tracked in
 [Rust #499](https://github.com/rwv/caj2pdf-rust/issues/499).
 Public availability does not grant redistribution; all new rows are metadata-only.
+The [source correctness follow-up](research/notes/public-web-correctness-20261009.md)
+adds independent HN/C8 content/geometry and KDH preservation checks, with
+the seven unresolved PDF content defects and broader fidelity limits retained.
 
 The [2026-10-08 NH/CAA discovery](research/notes/caa-nh-discovery-20261008.md)
 remains the original-extension NH and CAA evidence. CAA conversion is unsupported;
