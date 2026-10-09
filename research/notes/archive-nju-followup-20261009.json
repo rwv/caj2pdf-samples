@@ -1,0 +1,2319 @@
+{
+  "schema_version": 1,
+  "issue": "rwv/caj2pdf-samples#95",
+  "product": {
+    "reviewed_revision": "56d7b7ba0b4da366b73ae842deccd33d207e507f",
+    "merge_commit": "0fb8a78a8d8fffb4e855fe13a742085ff731fc10",
+    "merge_tree_matches_reviewed_revision": true,
+    "native_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+    "wasm_sha256": "d47d89dceee5216bed7e844fd77f1bccbc1991d750635d0371d75106e749e476",
+    "rust_tests": {
+      "passed": 1397,
+      "failed": 0,
+      "optional_ignored": 7
+    },
+    "js_tests": {
+      "passed": 182,
+      "failed": 0,
+      "skipped": 0
+    },
+    "existing_pdf_kdh_regression": {
+      "attempted": 204,
+      "same_outcome_and_success_hash": 204,
+      "receipt_sha256": "0570273d7d24295001dd9c153af9a397a63adfdcfd7cbf75b462b601ddf287da",
+      "initial_missing_sse_source_path_retained": true
+    }
+  },
+  "acquisition": {
+    "archive_retries": 7,
+    "all_archive_size_sha1_md5_match": true,
+    "nju_archive": [
+      {
+        "url": "https://eduwx.nju.edu.cn/_upload/article/files/17/ec/3070d5a94a0fbbc191043d5a40b0/95995b6d-99cf-45a1-9c1e-9c6c829a2486.zip",
+        "referrers": [
+          "https://eduwx.nju.edu.cn/46/ad/c22766a345773/page.htm"
+        ],
+        "bytes": 1725485,
+        "sha256": "8588da940f339a547b87078d772f42e04b55faa54e4b672bf48e454442af5a8d",
+        "extraction_exit": 0,
+        "extracted": {
+          "archive": "external-cache/post504-web-leads/nju-final-archives/bca7e9afb57a1e8006e5953eec824cd6b8fdf6ac999959e9638ce3ef28ef99f5",
+          "entries": 6,
+          "documents": [
+            {
+              "member": "���ϴ�-20140913/�Ӷ�Ԫ��ת�������_�����о��ķ�����ͻ��_�µ���.caj",
+              "bytes": 1182131,
+              "sha256": "bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43",
+              "path": "external-cache/post504-web-leads/nju-final-archives/members/bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43.caj"
+            },
+            {
+              "member": "���ϴ�-20140913/������˼ά���ѧ���о�_������ϵĸߵȽ����о�������_�Ƶº�.caj",
+              "bytes": 122566,
+              "sha256": "9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c",
+              "path": "external-cache/post504-web-leads/nju-final-archives/members/9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c.caj"
+            },
+            {
+              "member": "���ϴ�-20140913/�����о������۷�ʽ�뷽���ķ�˼_��־��.caj",
+              "bytes": 422509,
+              "sha256": "78bcceee7c667fe13352fa8f6540aae33c8b73eb3c3ac72f2601fbb59481c1de",
+              "path": "external-cache/post504-web-leads/nju-final-archives/members/78bcceee7c667fe13352fa8f6540aae33c8b73eb3c3ac72f2601fbb59481c1de.caj"
+            },
+            {
+              "member": "���ϴ�-20140913/�����о��Ļ���������_�����.caj",
+              "bytes": 163470,
+              "sha256": "a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852",
+              "path": "external-cache/post504-web-leads/nju-final-archives/members/a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852.caj"
+            },
+            {
+              "member": "���ϴ�-20140913/�ߵȽ����о��ķ����۷�˼_��ѧ��_ʡ��_����ʽ��������ߵȽ��������ļ���_����.caj",
+              "bytes": 122962,
+              "sha256": "4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33",
+              "path": "external-cache/post504-web-leads/nju-final-archives/members/4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33.caj"
+            }
+          ]
+        }
+      }
+    ],
+    "decoded_zip_members": [
+      {
+        "member_name": "请上传-20140913/从二元性转向二重性_教育研究的方法论突破_郝德永.caj",
+        "raw_name_hex": "c7ebc9cfb4ab2d32303134303931332fb4d3b6fed4aad0d4d7aacff2b6fed6d8d0d45fbdccd3fdd1d0bebfb5c4b7bdb7a8c2dbcdbbc6c65fbac2b5c2d3c02e63616a",
+        "encoding": "gb18030",
+        "sha256": "bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43",
+        "bytes": 1182131,
+        "known_duplicate": false,
+        "zip_crc32": "cbd33746",
+        "inspection": null,
+        "inspection_error": "caj2pdf: error: cannot inspect 'external-cache/post504-web-leads/nju-final-archives/members/bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43.caj': ambiguous repair PDF at byte 1181914: bytes after PDF EOF are not a recognized CAJ footer\n"
+      },
+      {
+        "member_name": "请上传-20140913/复杂性思维与多学科研究_功能耦合的高等教育研究方法论_唐德海.caj",
+        "raw_name_hex": "c7ebc9cfb4ab2d32303134303931332fb8b4d4d3d0d4cbbcceacd3ebb6e0d1a7bfc6d1d0bebf5fb9a6c4dcf1eebacfb5c4b8dfb5c8bdccd3fdd1d0bebfb7bdb7a8c2db5fccc6b5c2baa32e63616a",
+        "encoding": "gb18030",
+        "sha256": "9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c",
+        "bytes": 122566,
+        "known_duplicate": false,
+        "zip_crc32": "53a6cc50",
+        "inspection": {
+          "schema_version": 1,
+          "format": "C8",
+          "variant": "C8",
+          "conversion_supported": true,
+          "page_count": 5,
+          "has_outline": null,
+          "bookmark_count": null,
+          "outline_warnings": null
+        },
+        "inspection_error": ""
+      },
+      {
+        "member_name": "请上传-20140913/教育研究方法论范式与方法的反思_朱志勇.caj",
+        "raw_name_hex": "c7ebc9cfb4ab2d32303134303931332fbdccd3fdd1d0bebfb7bdb7a8c2dbb7b6cabdd3ebb7bdb7a8b5c4b7b4cbbc5fd6ecd6bed3c22e63616a",
+        "encoding": "gb18030",
+        "sha256": "78bcceee7c667fe13352fa8f6540aae33c8b73eb3c3ac72f2601fbb59481c1de",
+        "bytes": 422509,
+        "known_duplicate": false,
+        "zip_crc32": "06bccb84",
+        "inspection": {
+          "schema_version": 1,
+          "format": "C8",
+          "variant": "C8",
+          "conversion_supported": true,
+          "page_count": 6,
+          "has_outline": null,
+          "bookmark_count": null,
+          "outline_warnings": null
+        },
+        "inspection_error": ""
+      },
+      {
+        "member_name": "请上传-20140913/教育研究的基本方法论_王洪才.caj",
+        "raw_name_hex": "c7ebc9cfb4ab2d32303134303931332fbdccd3fdd1d0bebfb5c4bbf9b1beb7bdb7a8c2db5fcdf5bae9b2c52e63616a",
+        "encoding": "gb18030",
+        "sha256": "a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852",
+        "bytes": 163470,
+        "known_duplicate": false,
+        "zip_crc32": "8476af11",
+        "inspection": {
+          "schema_version": 1,
+          "format": "C8",
+          "variant": "C8",
+          "conversion_supported": true,
+          "page_count": 7,
+          "has_outline": null,
+          "bookmark_count": null,
+          "outline_warnings": null
+        },
+        "inspection_error": ""
+      },
+      {
+        "member_name": "请上传-20140913/高等教育研究的方法论反思_多学科_省略_究范式的引入与高等教育立场的坚守_周玲.caj",
+        "raw_name_hex": "c7ebc9cfb4ab2d32303134303931332fb8dfb5c8bdccd3fdd1d0bebfb5c4b7bdb7a8c2dbb7b4cbbc5fb6e0d1a7bfc65fcaa1c2d45fbebfb7b6cabdb5c4d2fdc8ebd3ebb8dfb5c8bdccd3fdc1a2b3a1b5c4bce1cad85fd6dcc1e12e63616a",
+        "encoding": "gb18030",
+        "sha256": "4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33",
+        "bytes": 122962,
+        "known_duplicate": false,
+        "zip_crc32": "53f2a28f",
+        "inspection": {
+          "schema_version": 1,
+          "format": "C8",
+          "variant": "C8",
+          "conversion_supported": true,
+          "page_count": 5,
+          "has_outline": null,
+          "bookmark_count": null,
+          "outline_warnings": null
+        },
+        "inspection_error": ""
+      }
+    ],
+    "new_unique_identities": 12,
+    "duplicates": 0,
+    "source_documents_committed": false,
+    "redistribution_grant_observed": false
+  },
+  "search": {
+    "additional_nju_pages": 300,
+    "cumulative_distinct_nju_attempts": 1600,
+    "remaining_frontier": 91,
+    "new_archive_links": [
+      "https://eduwx.nju.edu.cn/_upload/article/files/17/ec/3070d5a94a0fbbc191043d5a40b0/95995b6d-99cf-45a1-9c1e-9c6c829a2486.zip"
+    ],
+    "receipt_sha256": "689dd7cedd29f0dff4400f4b6f68afef86530cd211971db3b890f012848a5d81",
+    "whole_web_queries": [
+      "\"研究.caj\" site:edu.cn",
+      "\"研究.nh\" \"下载\"",
+      "\"蔡元定《律吕新书》点注与分析\"",
+      "\"藏族舞蹈创作中的神圣性与艺术性\" pdf caj"
+    ],
+    "intact_alternates_acquired": 0,
+    "drymt_lead": "Public indexed pages list NH filenames, but no anonymous attachment link was exposed; no document acquired.",
+    "wayback": "Earlier exact-endpoint CDX timeout and availability HTTP 429 remain unresolved; this is not absence evidence.",
+    "exhaustive_web_search_claim": false
+  },
+  "results": [
+    {
+      "source": {
+        "source_sha256": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+        "name": "浅析儒道思想下的“太一”起源说.caj",
+        "url": "https://archive.org/download/china-12-temp/%E6%B5%85%E6%9E%90%E5%84%92%E9%81%93%E6%80%9D%E6%83%B3%E4%B8%8B%E7%9A%84%E2%80%9C%E5%A4%AA%E4%B8%80%E2%80%9D%E8%B5%B7%E6%BA%90%E8%AF%B4.caj",
+        "repository": "https://archive.org/details/china-12-temp",
+        "bytes": 1271072,
+        "group": "Archive",
+        "acquisition": {
+          "archive": {
+            "name": "浅析儒道思想下的“太一”起源说.caj",
+            "size": "1271072",
+            "sha1": "68da20a7131acba9233928b95e28fede374a0c27",
+            "md5": "2ac8627b4bd70a93874acd3c5e0397ab",
+            "source": "original",
+            "format": "Unknown"
+          },
+          "identifier": "china-12-temp",
+          "canonical_url": "https://archive.org/download/china-12-temp/%E6%B5%85%E6%9E%90%E5%84%92%E9%81%93%E6%80%9D%E6%83%B3%E4%B8%8B%E7%9A%84%E2%80%9C%E5%A4%AA%E4%B8%80%E2%80%9D%E8%B5%B7%E6%BA%90%E8%AF%B4.caj",
+          "prior_attempt": {
+            "identifier": "china-12-temp",
+            "name": "浅析儒道思想下的“太一”起源说.caj",
+            "filename": "浅析儒道思想下的“太一”起源说.caj",
+            "url": "https://archive.org/download/china-12-temp/%E6%B5%85%E6%9E%90%E5%84%92%E9%81%93%E6%80%9D%E6%83%B3%E4%B8%8B%E7%9A%84%E2%80%9C%E5%A4%AA%E4%B8%80%E2%80%9D%E8%B5%B7%E6%BA%90%E8%AF%B4.caj",
+            "size": "1271072",
+            "sha1": "68da20a7131acba9233928b95e28fede374a0c27",
+            "md5": "2ac8627b4bd70a93874acd3c5e0397ab",
+            "source": "original",
+            "format": "Unknown",
+            "curl_exit": 35,
+            "stderr": "curl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading\n",
+            "seconds": 3.0969153083860874
+          },
+          "retry_url": "https://ia600807.us.archive.org/6/items/china-12-temp/%E6%B5%85%E6%9E%90%E5%84%92%E9%81%93%E6%80%9D%E6%83%B3%E4%B8%8B%E7%9A%84%E2%80%9C%E5%A4%AA%E4%B8%80%E2%80%9D%E8%B5%B7%E6%BA%90%E8%AF%B4.caj",
+          "metadata_sha256": "c5ead0db1825cb2d10901183ce7063c13916c99fe1a65d8cc025de777b6abe11",
+          "metadata_url": "https://archive.org/metadata/china-12-temp",
+          "metadata_restriction_flags_present": false,
+          "curl_exit": 0,
+          "stderr": "",
+          "seconds": 2.2158170603215694,
+          "http": {
+            "http_code": 200,
+            "url_effective": "https://ia600807.us.archive.org/6/items/china-12-temp/%E6%B5%85%E6%9E%90%E5%84%92%E9%81%93%E6%80%9D%E6%83%B3%E4%B8%8B%E7%9A%84%E2%80%9C%E5%A4%AA%E4%B8%80%E2%80%9D%E8%B5%B7%E6%BA%90%E8%AF%B4.caj",
+            "size_download": 1271072,
+            "content_type": "application/octet-stream",
+            "time_total": 2.197312
+          },
+          "bytes": 1271072,
+          "sha256": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+          "signature": "255044462d312e36",
+          "archive_checksums_match": true,
+          "known_duplicate": false
+        }
+      },
+      "format": "PDF",
+      "native": {
+        "source_sha256": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+        "inspection": {
+          "schema_version": 1,
+          "format": "PDF",
+          "variant": null,
+          "conversion_supported": true,
+          "page_count": 2,
+          "has_outline": false,
+          "bookmark_count": null,
+          "outline_warnings": null
+        },
+        "inspection_exit": 0,
+        "name": "浅析儒道思想下的“太一”起源说.caj",
+        "cli_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+        "attempt": {
+          "exit_code": 0,
+          "seconds": 0.026,
+          "stdout": "",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "exit": 0,
+        "status": "PASS",
+        "source_unchanged": true,
+        "output_exists": true,
+        "staging_files": [],
+        "output_sha256": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+        "output_bytes": 1271072,
+        "pages": 2,
+        "qpdf_exit": 0
+      },
+      "independent_proof": {
+        "source_sha256": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+        "pdf_sha256": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+        "format": "PDF",
+        "pages": 2,
+        "outline_nodes": 0,
+        "page_tree_nodes": 3,
+        "source_streams": 38,
+        "source_objects": 89,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [],
+        "source_reader_exit": 0,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      },
+      "followup_issue": null
+    },
+    {
+      "source": {
+        "source_sha256": "16ccb2feb13de5ae29461a604a20d0d1fd11d46cfcaec61eba372462b8b622a5",
+        "name": "蔡元定《律吕新书》点注与分析.caj",
+        "url": "https://archive.org/download/china-12-temp/%E8%94%A1%E5%85%83%E5%AE%9A%E3%80%8A%E5%BE%8B%E5%90%95%E6%96%B0%E4%B9%A6%E3%80%8B%E7%82%B9%E6%B3%A8%E4%B8%8E%E5%88%86%E6%9E%90.caj",
+        "repository": "https://archive.org/details/china-12-temp",
+        "bytes": 4804816,
+        "group": "Archive",
+        "acquisition": {
+          "archive": {
+            "name": "蔡元定《律吕新书》点注与分析.caj",
+            "size": "4804816",
+            "sha1": "3e9a6e3664ccfe3579470eecfc1114339d89dcba",
+            "md5": "8ee8cebd03789d107495f699d74b2e21",
+            "source": "original",
+            "format": "Unknown"
+          },
+          "identifier": "china-12-temp",
+          "canonical_url": "https://archive.org/download/china-12-temp/%E8%94%A1%E5%85%83%E5%AE%9A%E3%80%8A%E5%BE%8B%E5%90%95%E6%96%B0%E4%B9%A6%E3%80%8B%E7%82%B9%E6%B3%A8%E4%B8%8E%E5%88%86%E6%9E%90.caj",
+          "prior_attempt": {
+            "identifier": "china-12-temp",
+            "name": "蔡元定《律吕新书》点注与分析.caj",
+            "filename": "蔡元定《律吕新书》点注与分析.caj",
+            "url": "https://archive.org/download/china-12-temp/%E8%94%A1%E5%85%83%E5%AE%9A%E3%80%8A%E5%BE%8B%E5%90%95%E6%96%B0%E4%B9%A6%E3%80%8B%E7%82%B9%E6%B3%A8%E4%B8%8E%E5%88%86%E6%9E%90.caj",
+            "size": "4804816",
+            "sha1": "3e9a6e3664ccfe3579470eecfc1114339d89dcba",
+            "md5": "8ee8cebd03789d107495f699d74b2e21",
+            "source": "original",
+            "format": "Unknown",
+            "curl_exit": 28,
+            "stderr": "curl: (28) Operation timed out after 150312 milliseconds with 3964604 out of 4804816 bytes received\n",
+            "seconds": 150.32490254193544
+          },
+          "retry_url": "https://ia600807.us.archive.org/6/items/china-12-temp/%E8%94%A1%E5%85%83%E5%AE%9A%E3%80%8A%E5%BE%8B%E5%90%95%E6%96%B0%E4%B9%A6%E3%80%8B%E7%82%B9%E6%B3%A8%E4%B8%8E%E5%88%86%E6%9E%90.caj",
+          "metadata_sha256": "c5ead0db1825cb2d10901183ce7063c13916c99fe1a65d8cc025de777b6abe11",
+          "metadata_url": "https://archive.org/metadata/china-12-temp",
+          "metadata_restriction_flags_present": false,
+          "curl_exit": 0,
+          "stderr": "",
+          "seconds": 25.349606528878212,
+          "http": {
+            "http_code": 200,
+            "url_effective": "https://ia600807.us.archive.org/6/items/china-12-temp/%E8%94%A1%E5%85%83%E5%AE%9A%E3%80%8A%E5%BE%8B%E5%90%95%E6%96%B0%E4%B9%A6%E3%80%8B%E7%82%B9%E6%B3%A8%E4%B8%8E%E5%88%86%E6%9E%90.caj",
+            "size_download": 4804816,
+            "content_type": "application/octet-stream",
+            "time_total": 25.336289
+          },
+          "bytes": 4804816,
+          "sha256": "16ccb2feb13de5ae29461a604a20d0d1fd11d46cfcaec61eba372462b8b622a5",
+          "signature": "0000000000000000",
+          "archive_checksums_match": true,
+          "known_duplicate": false
+        }
+      },
+      "format": "UNKNOWN",
+      "native": {
+        "source_sha256": "16ccb2feb13de5ae29461a604a20d0d1fd11d46cfcaec61eba372462b8b622a5",
+        "inspection": null,
+        "inspection_exit": 1,
+        "name": "蔡元定《律吕新书》点注与分析.caj",
+        "cli_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+        "attempt": {
+          "exit_code": 1,
+          "seconds": 0.007,
+          "stdout": "",
+          "stderr": "caj2pdf: error: cannot convert 'external-cache/post504-web-leads/archive-nju-twelve/inputs/16ccb2feb13de5ae29461a604a20d0d1fd11d46cfcaec61eba372462b8b622a5.caj': unrecognized input format\n",
+          "stdout_truncated": false
+        },
+        "exit": 1,
+        "status": "FAIL",
+        "source_unchanged": true,
+        "output_exists": false,
+        "staging_files": []
+      },
+      "independent_proof": null,
+      "followup_issue": "rwv/caj2pdf-rust#509"
+    },
+    {
+      "source": {
+        "source_sha256": "c7af016853a0f56f1367011121360eb10804bf488fef18125b65788a2e11c828",
+        "name": "谁是9∶4的发现者——以中国管律律种学之倍半相生公式研究为例.caj",
+        "url": "https://archive.org/download/china-12-temp/%E8%B0%81%E6%98%AF9%E2%88%B64%E7%9A%84%E5%8F%91%E7%8E%B0%E8%80%85%E2%80%94%E2%80%94%E4%BB%A5%E4%B8%AD%E5%9B%BD%E7%AE%A1%E5%BE%8B%E5%BE%8B%E7%A7%8D%E5%AD%A6%E4%B9%8B%E5%80%8D%E5%8D%8A%E7%9B%B8%E7%94%9F%E5%85%AC%E5%BC%8F%E7%A0%94%E7%A9%B6%E4%B8%BA%E4%BE%8B.caj",
+        "repository": "https://archive.org/details/china-12-temp",
+        "bytes": 896464,
+        "group": "Archive",
+        "acquisition": {
+          "archive": {
+            "name": "谁是9∶4的发现者——以中国管律律种学之倍半相生公式研究为例.caj",
+            "size": "896464",
+            "sha1": "c2b9a91b1e04727a7d93a7e39cac5b0675597c1f",
+            "md5": "fa60604cea56353cf244c01a7be82eee",
+            "source": "original",
+            "format": "Unknown"
+          },
+          "identifier": "china-12-temp",
+          "canonical_url": "https://archive.org/download/china-12-temp/%E8%B0%81%E6%98%AF9%E2%88%B64%E7%9A%84%E5%8F%91%E7%8E%B0%E8%80%85%E2%80%94%E2%80%94%E4%BB%A5%E4%B8%AD%E5%9B%BD%E7%AE%A1%E5%BE%8B%E5%BE%8B%E7%A7%8D%E5%AD%A6%E4%B9%8B%E5%80%8D%E5%8D%8A%E7%9B%B8%E7%94%9F%E5%85%AC%E5%BC%8F%E7%A0%94%E7%A9%B6%E4%B8%BA%E4%BE%8B.caj",
+          "prior_attempt": {
+            "identifier": "china-12-temp",
+            "name": "谁是9∶4的发现者——以中国管律律种学之倍半相生公式研究为例.caj",
+            "filename": "谁是9∶4的发现者——以中国管律律种学之倍半相生公式研究为例.caj",
+            "url": "https://archive.org/download/china-12-temp/%E8%B0%81%E6%98%AF9%E2%88%B64%E7%9A%84%E5%8F%91%E7%8E%B0%E8%80%85%E2%80%94%E2%80%94%E4%BB%A5%E4%B8%AD%E5%9B%BD%E7%AE%A1%E5%BE%8B%E5%BE%8B%E7%A7%8D%E5%AD%A6%E4%B9%8B%E5%80%8D%E5%8D%8A%E7%9B%B8%E7%94%9F%E5%85%AC%E5%BC%8F%E7%A0%94%E7%A9%B6%E4%B8%BA%E4%BE%8B.caj",
+            "size": "896464",
+            "sha1": "c2b9a91b1e04727a7d93a7e39cac5b0675597c1f",
+            "md5": "fa60604cea56353cf244c01a7be82eee",
+            "source": "original",
+            "format": "Unknown",
+            "curl_exit": 35,
+            "stderr": "curl: (35) TLS connect error: error:0A000126:SSL routines::unexpected eof while reading\n",
+            "seconds": 0.5285013653337955
+          },
+          "retry_url": "https://ia600807.us.archive.org/6/items/china-12-temp/%E8%B0%81%E6%98%AF9%E2%88%B64%E7%9A%84%E5%8F%91%E7%8E%B0%E8%80%85%E2%80%94%E2%80%94%E4%BB%A5%E4%B8%AD%E5%9B%BD%E7%AE%A1%E5%BE%8B%E5%BE%8B%E7%A7%8D%E5%AD%A6%E4%B9%8B%E5%80%8D%E5%8D%8A%E7%9B%B8%E7%94%9F%E5%85%AC%E5%BC%8F%E7%A0%94%E7%A9%B6%E4%B8%BA%E4%BE%8B.caj",
+          "metadata_sha256": "c5ead0db1825cb2d10901183ce7063c13916c99fe1a65d8cc025de777b6abe11",
+          "metadata_url": "https://archive.org/metadata/china-12-temp",
+          "metadata_restriction_flags_present": false,
+          "curl_exit": 0,
+          "stderr": "",
+          "seconds": 2.4592110253870487,
+          "http": {
+            "http_code": 200,
+            "url_effective": "https://ia600807.us.archive.org/6/items/china-12-temp/%E8%B0%81%E6%98%AF9%E2%88%B64%E7%9A%84%E5%8F%91%E7%8E%B0%E8%80%85%E2%80%94%E2%80%94%E4%BB%A5%E4%B8%AD%E5%9B%BD%E7%AE%A1%E5%BE%8B%E5%BE%8B%E7%A7%8D%E5%AD%A6%E4%B9%8B%E5%80%8D%E5%8D%8A%E7%9B%B8%E7%94%9F%E5%85%AC%E5%BC%8F%E7%A0%94%E7%A9%B6%E4%B8%BA%E4%BE%8B.caj",
+            "size_download": 896464,
+            "content_type": "application/octet-stream",
+            "time_total": 2.448003
+          },
+          "bytes": 896464,
+          "sha256": "c7af016853a0f56f1367011121360eb10804bf488fef18125b65788a2e11c828",
+          "signature": "255044462d312e36",
+          "archive_checksums_match": true,
+          "known_duplicate": false
+        }
+      },
+      "format": "PDF",
+      "native": {
+        "source_sha256": "c7af016853a0f56f1367011121360eb10804bf488fef18125b65788a2e11c828",
+        "inspection": {
+          "schema_version": 1,
+          "format": "PDF",
+          "variant": null,
+          "conversion_supported": true,
+          "page_count": 17,
+          "has_outline": false,
+          "bookmark_count": null,
+          "outline_warnings": null
+        },
+        "inspection_exit": 0,
+        "name": "谁是9∶4的发现者——以中国管律律种学之倍半相生公式研究为例.caj",
+        "cli_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+        "attempt": {
+          "exit_code": 0,
+          "seconds": 0.046,
+          "stdout": "",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "exit": 0,
+        "status": "PASS",
+        "source_unchanged": true,
+        "output_exists": true,
+        "staging_files": [],
+        "output_sha256": "487b9a4b28a8beeda7761ecb4c809b3440202693194273e453e586c9a0ede09a",
+        "output_bytes": 896450,
+        "pages": 17,
+        "qpdf_exit": 0
+      },
+      "independent_proof": {
+        "source_sha256": "c7af016853a0f56f1367011121360eb10804bf488fef18125b65788a2e11c828",
+        "pdf_sha256": "487b9a4b28a8beeda7761ecb4c809b3440202693194273e453e586c9a0ede09a",
+        "format": "PDF",
+        "pages": 17,
+        "outline_nodes": 0,
+        "page_tree_nodes": 18,
+        "source_streams": 45,
+        "source_objects": 81,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [],
+        "source_reader_exit": 0,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      },
+      "followup_issue": null
+    },
+    {
+      "source": {
+        "source_sha256": "ff8bd83668cca823172ae6a52b572080c28462e9b21b2c6402c215809466f88e",
+        "name": "《淮南子·天文》研究.caj",
+        "url": "https://archive.org/download/china-history-jupiter-orbit/%E3%80%8A%E6%B7%AE%E5%8D%97%E5%AD%90%C2%B7%E5%A4%A9%E6%96%87%E3%80%8B%E7%A0%94%E7%A9%B6.caj",
+        "repository": "https://archive.org/details/china-history-jupiter-orbit",
+        "bytes": 8343968,
+        "group": "Archive",
+        "acquisition": {
+          "archive": {
+            "name": "《淮南子·天文》研究.caj",
+            "size": "8343968",
+            "sha1": "7dd48ce1391a8600f8ef34227ce1de7e39eef238",
+            "md5": "cf60b43aef3085f6c36b2fe29b43a1c5",
+            "source": "original",
+            "format": "Unknown"
+          },
+          "identifier": "china-history-jupiter-orbit",
+          "canonical_url": "https://archive.org/download/china-history-jupiter-orbit/%E3%80%8A%E6%B7%AE%E5%8D%97%E5%AD%90%C2%B7%E5%A4%A9%E6%96%87%E3%80%8B%E7%A0%94%E7%A9%B6.caj",
+          "prior_attempt": {
+            "identifier": "china-history-jupiter-orbit",
+            "name": "《淮南子·天文》研究.caj",
+            "filename": "《淮南子·天文》研究.caj",
+            "url": "https://archive.org/download/china-history-jupiter-orbit/%E3%80%8A%E6%B7%AE%E5%8D%97%E5%AD%90%C2%B7%E5%A4%A9%E6%96%87%E3%80%8B%E7%A0%94%E7%A9%B6.caj",
+            "size": "8343968",
+            "sha1": "7dd48ce1391a8600f8ef34227ce1de7e39eef238",
+            "md5": "cf60b43aef3085f6c36b2fe29b43a1c5",
+            "source": "original",
+            "format": "Unknown",
+            "curl_exit": 28,
+            "stderr": "curl: (28) Operation timed out after 150015 milliseconds with 6143586 out of 8343968 bytes received\n",
+            "seconds": 150.02654943987727
+          },
+          "retry_url": "https://ia600805.us.archive.org/4/items/china-history-jupiter-orbit/%E3%80%8A%E6%B7%AE%E5%8D%97%E5%AD%90%C2%B7%E5%A4%A9%E6%96%87%E3%80%8B%E7%A0%94%E7%A9%B6.caj",
+          "metadata_sha256": "5b5a1a2668c82e595433755902d7418565356f6d500227440bf3b20b7c449619",
+          "metadata_url": "https://archive.org/metadata/china-history-jupiter-orbit",
+          "metadata_restriction_flags_present": false,
+          "curl_exit": 0,
+          "stderr": "",
+          "seconds": 42.16098923608661,
+          "http": {
+            "http_code": 200,
+            "url_effective": "https://ia600805.us.archive.org/4/items/china-history-jupiter-orbit/%E3%80%8A%E6%B7%AE%E5%8D%97%E5%AD%90%C2%B7%E5%A4%A9%E6%96%87%E3%80%8B%E7%A0%94%E7%A9%B6.caj",
+            "size_download": 8343968,
+            "content_type": "application/octet-stream",
+            "time_total": 42.151106
+          },
+          "bytes": 8343968,
+          "sha256": "ff8bd83668cca823172ae6a52b572080c28462e9b21b2c6402c215809466f88e",
+          "signature": "484e000090010000",
+          "archive_checksums_match": true,
+          "known_duplicate": false
+        }
+      },
+      "format": "HN",
+      "native": {
+        "source_sha256": "ff8bd83668cca823172ae6a52b572080c28462e9b21b2c6402c215809466f88e",
+        "inspection": {
+          "schema_version": 1,
+          "format": "HN",
+          "variant": "HN-A",
+          "conversion_supported": true,
+          "page_count": 132,
+          "has_outline": true,
+          "bookmark_count": 14,
+          "outline_warnings": 0
+        },
+        "inspection_exit": 0,
+        "name": "《淮南子·天文》研究.caj",
+        "cli_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+        "attempt": {
+          "exit_code": 0,
+          "seconds": 26.296,
+          "stdout": "",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "exit": 0,
+        "status": "PASS",
+        "source_unchanged": true,
+        "output_exists": true,
+        "staging_files": [],
+        "output_sha256": "a6da936c117fea0d3caf2f8ca8faf6d15e84d2fc312c786cfc8758df85559867",
+        "output_bytes": 16372234,
+        "pages": 132,
+        "qpdf_exit": 0
+      },
+      "independent_proof": {
+        "source_sha256": "ff8bd83668cca823172ae6a52b572080c28462e9b21b2c6402c215809466f88e",
+        "bitmap_status": "PASS",
+        "bitmap_sha256": "60147b78b9b0020fdd8abc437f3df0cded9c2233b3d955a1df5314c912d9baa6",
+        "geometry_counts": {
+          "PASS": 132
+        },
+        "geometry_sha256": "dc4d7df9e7b0f6d189acc6fc094b014f430c8eb23bce3605740c39b881b15bd9"
+      },
+      "followup_issue": null
+    },
+    {
+      "source": {
+        "source_sha256": "52db5d34e6bae3bf27830db75d2f3e8e99d1e1af1178eb5e05098e758b095bfa",
+        "name": "古天文词汇研究.caj",
+        "url": "https://archive.org/download/china-history-jupiter-orbit/%E5%8F%A4%E5%A4%A9%E6%96%87%E8%AF%8D%E6%B1%87%E7%A0%94%E7%A9%B6.caj",
+        "repository": "https://archive.org/details/china-history-jupiter-orbit",
+        "bytes": 7465376,
+        "group": "Archive",
+        "acquisition": {
+          "archive": {
+            "name": "古天文词汇研究.caj",
+            "size": "7465376",
+            "sha1": "b66942431a471401ea98f3ff2af5453373d3cd8e",
+            "md5": "0d73a22e50a4ff7b60b0746454537aab",
+            "source": "original",
+            "format": "Unknown"
+          },
+          "identifier": "china-history-jupiter-orbit",
+          "canonical_url": "https://archive.org/download/china-history-jupiter-orbit/%E5%8F%A4%E5%A4%A9%E6%96%87%E8%AF%8D%E6%B1%87%E7%A0%94%E7%A9%B6.caj",
+          "prior_attempt": {
+            "identifier": "china-history-jupiter-orbit",
+            "name": "古天文词汇研究.caj",
+            "filename": "古天文词汇研究.caj",
+            "url": "https://archive.org/download/china-history-jupiter-orbit/%E5%8F%A4%E5%A4%A9%E6%96%87%E8%AF%8D%E6%B1%87%E7%A0%94%E7%A9%B6.caj",
+            "size": "7465376",
+            "sha1": "b66942431a471401ea98f3ff2af5453373d3cd8e",
+            "md5": "0d73a22e50a4ff7b60b0746454537aab",
+            "source": "original",
+            "format": "Unknown",
+            "curl_exit": 28,
+            "stderr": "curl: (28) Operation timed out after 150074 milliseconds with 5717494 out of 7465376 bytes received\n",
+            "seconds": 150.0877748169005
+          },
+          "retry_url": "https://ia600805.us.archive.org/4/items/china-history-jupiter-orbit/%E5%8F%A4%E5%A4%A9%E6%96%87%E8%AF%8D%E6%B1%87%E7%A0%94%E7%A9%B6.caj",
+          "metadata_sha256": "5b5a1a2668c82e595433755902d7418565356f6d500227440bf3b20b7c449619",
+          "metadata_url": "https://archive.org/metadata/china-history-jupiter-orbit",
+          "metadata_restriction_flags_present": false,
+          "curl_exit": 0,
+          "stderr": "",
+          "seconds": 5.1738539673388,
+          "http": {
+            "http_code": 200,
+            "url_effective": "https://ia600805.us.archive.org/4/items/china-history-jupiter-orbit/%E5%8F%A4%E5%A4%A9%E6%96%87%E8%AF%8D%E6%B1%87%E7%A0%94%E7%A9%B6.caj",
+            "size_download": 7465376,
+            "content_type": "application/octet-stream",
+            "time_total": 5.162086
+          },
+          "bytes": 7465376,
+          "sha256": "52db5d34e6bae3bf27830db75d2f3e8e99d1e1af1178eb5e05098e758b095bfa",
+          "signature": "484e000090010000",
+          "archive_checksums_match": true,
+          "known_duplicate": false
+        }
+      },
+      "format": "HN",
+      "native": {
+        "source_sha256": "52db5d34e6bae3bf27830db75d2f3e8e99d1e1af1178eb5e05098e758b095bfa",
+        "inspection": {
+          "schema_version": 1,
+          "format": "HN",
+          "variant": "HN-A",
+          "conversion_supported": true,
+          "page_count": 124,
+          "has_outline": true,
+          "bookmark_count": 9,
+          "outline_warnings": 0
+        },
+        "inspection_exit": 0,
+        "name": "古天文词汇研究.caj",
+        "cli_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+        "attempt": {
+          "exit_code": 0,
+          "seconds": 22.781,
+          "stdout": "",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "exit": 0,
+        "status": "PASS",
+        "source_unchanged": true,
+        "output_exists": true,
+        "staging_files": [],
+        "output_sha256": "b415137df453629f1f806d46a0b8093da289f2c8ae652b0969504202d122f03e",
+        "output_bytes": 14969340,
+        "pages": 124,
+        "qpdf_exit": 0
+      },
+      "independent_proof": {
+        "source_sha256": "52db5d34e6bae3bf27830db75d2f3e8e99d1e1af1178eb5e05098e758b095bfa",
+        "bitmap_status": "PASS",
+        "bitmap_sha256": "f26bc0f68b15f1deaefa9694a6361f04173c5a3058f2480f0be5d6922b6af4e8",
+        "geometry_counts": {
+          "PASS": 124
+        },
+        "geometry_sha256": "590c7292adf9e9538ab594ba052f84f0fce0530915ce2dda192117d69d26f4e6"
+      },
+      "followup_issue": null
+    },
+    {
+      "source": {
+        "source_sha256": "0cebdd5cbaa5d99dab2b804a2d2baf45629d9e04757402572a1ac4b72415b013",
+        "name": "中国新石器时代出土乐器研究.caj",
+        "url": "https://archive.org/download/jiahu-bone-flute/%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%9F%B3%E5%99%A8%E6%97%B6%E4%BB%A3%E5%87%BA%E5%9C%9F%E4%B9%90%E5%99%A8%E7%A0%94%E7%A9%B6.caj",
+        "repository": "https://archive.org/details/jiahu-bone-flute",
+        "bytes": 57087904,
+        "group": "Archive",
+        "acquisition": {
+          "archive": {
+            "name": "中国新石器时代出土乐器研究.caj",
+            "size": "57087904",
+            "sha1": "cb4fb1ddf15fe4258264580dde18e73acf10a2d6",
+            "md5": "766d5c36ee172737a280e195cc960385",
+            "source": "original",
+            "format": "Unknown"
+          },
+          "identifier": "jiahu-bone-flute",
+          "canonical_url": "https://archive.org/download/jiahu-bone-flute/%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%9F%B3%E5%99%A8%E6%97%B6%E4%BB%A3%E5%87%BA%E5%9C%9F%E4%B9%90%E5%99%A8%E7%A0%94%E7%A9%B6.caj",
+          "prior_attempt": {
+            "identifier": "jiahu-bone-flute",
+            "name": "中国新石器时代出土乐器研究.caj",
+            "filename": "中国新石器时代出土乐器研究.caj",
+            "url": "https://archive.org/download/jiahu-bone-flute/%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%9F%B3%E5%99%A8%E6%97%B6%E4%BB%A3%E5%87%BA%E5%9C%9F%E4%B9%90%E5%99%A8%E7%A0%94%E7%A9%B6.caj",
+            "size": "57087904",
+            "sha1": "cb4fb1ddf15fe4258264580dde18e73acf10a2d6",
+            "md5": "766d5c36ee172737a280e195cc960385",
+            "source": "original",
+            "format": "Unknown",
+            "curl_exit": 28,
+            "stderr": "curl: (28) Operation timed out after 150043 milliseconds with 2555400 out of 57087904 bytes received\n",
+            "seconds": 150.05599654838443
+          },
+          "retry_url": "https://ia601501.us.archive.org/10/items/jiahu-bone-flute/%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%9F%B3%E5%99%A8%E6%97%B6%E4%BB%A3%E5%87%BA%E5%9C%9F%E4%B9%90%E5%99%A8%E7%A0%94%E7%A9%B6.caj",
+          "metadata_sha256": "6362ed4cafc89e3276e475196f08935ae9a04ca340590420994f0459156df65d",
+          "metadata_url": "https://archive.org/metadata/jiahu-bone-flute",
+          "metadata_restriction_flags_present": false,
+          "curl_exit": 0,
+          "stderr": "",
+          "seconds": 317.3384799659252,
+          "http": {
+            "http_code": 200,
+            "url_effective": "https://ia601501.us.archive.org/10/items/jiahu-bone-flute/%E4%B8%AD%E5%9B%BD%E6%96%B0%E7%9F%B3%E5%99%A8%E6%97%B6%E4%BB%A3%E5%87%BA%E5%9C%9F%E4%B9%90%E5%99%A8%E7%A0%94%E7%A9%B6.caj",
+            "size_download": 57087904,
+            "content_type": "application/octet-stream",
+            "time_total": 317.327876
+          },
+          "bytes": 57087904,
+          "sha256": "0cebdd5cbaa5d99dab2b804a2d2baf45629d9e04757402572a1ac4b72415b013",
+          "signature": "484e000090010000",
+          "archive_checksums_match": true,
+          "known_duplicate": false
+        }
+      },
+      "format": "HN",
+      "native": {
+        "source_sha256": "0cebdd5cbaa5d99dab2b804a2d2baf45629d9e04757402572a1ac4b72415b013",
+        "inspection": {
+          "schema_version": 1,
+          "format": "HN",
+          "variant": "HN-A",
+          "conversion_supported": true,
+          "page_count": 294,
+          "has_outline": true,
+          "bookmark_count": 95,
+          "outline_warnings": 0
+        },
+        "inspection_exit": 0,
+        "name": "中国新石器时代出土乐器研究.caj",
+        "cli_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+        "attempt": {
+          "exit_code": 0,
+          "seconds": 17.25,
+          "stdout": "",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "exit": 0,
+        "status": "PASS",
+        "source_unchanged": true,
+        "output_exists": true,
+        "staging_files": [],
+        "output_sha256": "f8c82f3bc0f568e5cf9d727555e9397e344c3c89ba6abc0fdc98e777b299d3a7",
+        "output_bytes": 64648322,
+        "pages": 294,
+        "qpdf_exit": 0
+      },
+      "independent_proof": {
+        "source_sha256": "0cebdd5cbaa5d99dab2b804a2d2baf45629d9e04757402572a1ac4b72415b013",
+        "bitmap_status": "PASS",
+        "bitmap_sha256": "7b4708b3796cff60c817e9c8ac1833d29baa4ee70f97746a138becf0b1d26b29",
+        "geometry_counts": {
+          "PASS": 294
+        },
+        "geometry_sha256": "48d4fba7e33b6058818f37997c2888dcc8ea64eb9987c920b64a5de66272e158"
+      },
+      "followup_issue": null
+    },
+    {
+      "source": {
+        "source_sha256": "595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3",
+        "name": "藏族舞蹈创作中的神圣性与艺术性.caj",
+        "url": "https://archive.org/download/tibet-music/%E8%97%8F%E6%97%8F%E8%88%9E%E8%B9%88%E5%88%9B%E4%BD%9C%E4%B8%AD%E7%9A%84%E7%A5%9E%E5%9C%A3%E6%80%A7%E4%B8%8E%E8%89%BA%E6%9C%AF%E6%80%A7.caj",
+        "repository": "https://archive.org/details/tibet-music",
+        "bytes": 11081488,
+        "group": "Archive",
+        "acquisition": {
+          "archive": {
+            "name": "藏族舞蹈创作中的神圣性与艺术性.caj",
+            "size": "11081488",
+            "sha1": "15e003324a3c28af142a0192942b70b8f34a37cc",
+            "md5": "8898f9b78d1f47efdf6ee61ec20d52f4",
+            "source": "original",
+            "format": "Unknown"
+          },
+          "identifier": "tibet-music",
+          "canonical_url": "https://archive.org/download/tibet-music/%E8%97%8F%E6%97%8F%E8%88%9E%E8%B9%88%E5%88%9B%E4%BD%9C%E4%B8%AD%E7%9A%84%E7%A5%9E%E5%9C%A3%E6%80%A7%E4%B8%8E%E8%89%BA%E6%9C%AF%E6%80%A7.caj",
+          "prior_attempt": {
+            "identifier": "tibet-music",
+            "name": "藏族舞蹈创作中的神圣性与艺术性.caj",
+            "filename": "藏族舞蹈创作中的神圣性与艺术性.caj",
+            "url": "https://archive.org/download/tibet-music/%E8%97%8F%E6%97%8F%E8%88%9E%E8%B9%88%E5%88%9B%E4%BD%9C%E4%B8%AD%E7%9A%84%E7%A5%9E%E5%9C%A3%E6%80%A7%E4%B8%8E%E8%89%BA%E6%9C%AF%E6%80%A7.caj",
+            "size": "11081488",
+            "sha1": "15e003324a3c28af142a0192942b70b8f34a37cc",
+            "md5": "8898f9b78d1f47efdf6ee61ec20d52f4",
+            "source": "original",
+            "format": "Unknown",
+            "curl_exit": 28,
+            "stderr": "curl: (28) Operation timed out after 150133 milliseconds with 3522146 out of 11081488 bytes received\n",
+            "seconds": 150.14346243813634
+          },
+          "retry_url": "https://ia601804.us.archive.org/30/items/tibet-music/%E8%97%8F%E6%97%8F%E8%88%9E%E8%B9%88%E5%88%9B%E4%BD%9C%E4%B8%AD%E7%9A%84%E7%A5%9E%E5%9C%A3%E6%80%A7%E4%B8%8E%E8%89%BA%E6%9C%AF%E6%80%A7.caj",
+          "metadata_sha256": "d48b1d581190d2a585daa68beb1efa6753a780b4ef00a69728a230e1e3865f9b",
+          "metadata_url": "https://archive.org/metadata/tibet-music",
+          "metadata_restriction_flags_present": false,
+          "curl_exit": 0,
+          "stderr": "",
+          "seconds": 63.069735042750835,
+          "http": {
+            "http_code": 200,
+            "url_effective": "https://ia601804.us.archive.org/30/items/tibet-music/%E8%97%8F%E6%97%8F%E8%88%9E%E8%B9%88%E5%88%9B%E4%BD%9C%E4%B8%AD%E7%9A%84%E7%A5%9E%E5%9C%A3%E6%80%A7%E4%B8%8E%E8%89%BA%E6%9C%AF%E6%80%A7.caj",
+            "size_download": 11081488,
+            "content_type": "application/octet-stream",
+            "time_total": 63.05886
+          },
+          "bytes": 11081488,
+          "sha256": "595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3",
+          "signature": "255044462d312e36",
+          "archive_checksums_match": true,
+          "known_duplicate": false
+        }
+      },
+      "format": "PDF",
+      "native": {
+        "source_sha256": "595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3",
+        "inspection": null,
+        "inspection_exit": 1,
+        "name": "藏族舞蹈创作中的神圣性与艺术性.caj",
+        "cli_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+        "attempt": {
+          "exit_code": 1,
+          "seconds": 0.01,
+          "stdout": "",
+          "stderr": "caj2pdf: error: cannot convert 'external-cache/post504-web-leads/archive-nju-twelve/inputs/595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3.caj': malformed PDF at byte 10194944, object 2 0: PDF number has no digits\n",
+          "stdout_truncated": false
+        },
+        "exit": 1,
+        "status": "FAIL",
+        "source_unchanged": true,
+        "output_exists": false,
+        "staging_files": []
+      },
+      "independent_proof": null,
+      "followup_issue": "rwv/caj2pdf-rust#515"
+    },
+    {
+      "source": {
+        "source_sha256": "bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43",
+        "name": "请上传-20140913/从二元性转向二重性_教育研究的方法论突破_郝德永.caj",
+        "url": "https://eduwx.nju.edu.cn/_upload/article/files/17/ec/3070d5a94a0fbbc191043d5a40b0/95995b6d-99cf-45a1-9c1e-9c6c829a2486.zip",
+        "repository": "https://eduwx.nju.edu.cn/46/ad/c22766a345773/page.htm",
+        "bytes": 1182131,
+        "group": "NJU",
+        "acquisition": {
+          "member_name": "请上传-20140913/从二元性转向二重性_教育研究的方法论突破_郝德永.caj",
+          "raw_name_hex": "c7ebc9cfb4ab2d32303134303931332fb4d3b6fed4aad0d4d7aacff2b6fed6d8d0d45fbdccd3fdd1d0bebfb5c4b7bdb7a8c2dbcdbbc6c65fbac2b5c2d3c02e63616a",
+          "encoding": "gb18030",
+          "sha256": "bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43",
+          "bytes": 1182131,
+          "known_duplicate": false,
+          "zip_crc32": "cbd33746",
+          "inspection": null,
+          "inspection_error": "caj2pdf: error: cannot inspect 'external-cache/post504-web-leads/nju-final-archives/members/bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43.caj': ambiguous repair PDF at byte 1181914: bytes after PDF EOF are not a recognized CAJ footer\n"
+        }
+      },
+      "format": "PDF",
+      "native": {
+        "source_sha256": "bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43",
+        "inspection": {
+          "schema_version": 1,
+          "format": "PDF",
+          "variant": null,
+          "conversion_supported": true,
+          "page_count": 5,
+          "has_outline": false,
+          "bookmark_count": null,
+          "outline_warnings": null
+        },
+        "inspection_exit": 0,
+        "name": "请上传-20140913/从二元性转向二重性_教育研究的方法论突破_郝德永.caj",
+        "cli_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+        "attempt": {
+          "exit_code": 0,
+          "seconds": 0.018,
+          "stdout": "",
+          "stderr": "",
+          "stdout_truncated": false
+        },
+        "exit": 0,
+        "status": "PASS",
+        "source_unchanged": true,
+        "output_exists": true,
+        "staging_files": [],
+        "output_sha256": "ae15336a87189fcb2d1ba6be0d5be158eebf01b6aea44065b6d128b10e4fb927",
+        "output_bytes": 1182213,
+        "pages": 5,
+        "qpdf_exit": 0
+      },
+      "independent_proof": {
+        "source_sha256": "bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43",
+        "pdf_sha256": "ae15336a87189fcb2d1ba6be0d5be158eebf01b6aea44065b6d128b10e4fb927",
+        "format": "PDF",
+        "pages": 5,
+        "outline_nodes": 0,
+        "page_tree_nodes": 6,
+        "source_streams": 37,
+        "source_objects": 76,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [
+          {
+            "object": "trailer",
+            "proof": "xref-only trailer fields and incremental identity",
+            "fields": [
+              "/ID",
+              "/Prev"
+            ]
+          }
+        ],
+        "source_reader_exit": 3,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      },
+      "followup_issue": null
+    },
+    {
+      "source": {
+        "source_sha256": "9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c",
+        "name": "请上传-20140913/复杂性思维与多学科研究_功能耦合的高等教育研究方法论_唐德海.caj",
+        "url": "https://eduwx.nju.edu.cn/_upload/article/files/17/ec/3070d5a94a0fbbc191043d5a40b0/95995b6d-99cf-45a1-9c1e-9c6c829a2486.zip",
+        "repository": "https://eduwx.nju.edu.cn/46/ad/c22766a345773/page.htm",
+        "bytes": 122566,
+        "group": "NJU",
+        "acquisition": {
+          "member_name": "请上传-20140913/复杂性思维与多学科研究_功能耦合的高等教育研究方法论_唐德海.caj",
+          "raw_name_hex": "c7ebc9cfb4ab2d32303134303931332fb8b4d4d3d0d4cbbcceacd3ebb6e0d1a7bfc6d1d0bebf5fb9a6c4dcf1eebacfb5c4b8dfb5c8bdccd3fdd1d0bebfb7bdb7a8c2db5fccc6b5c2baa32e63616a",
+          "encoding": "gb18030",
+          "sha256": "9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c",
+          "bytes": 122566,
+          "known_duplicate": false,
+          "zip_crc32": "53a6cc50",
+          "inspection": {
+            "schema_version": 1,
+            "format": "C8",
+            "variant": "C8",
+            "conversion_supported": true,
+            "page_count": 5,
+            "has_outline": null,
+            "bookmark_count": null,
+            "outline_warnings": null
+          },
+          "inspection_error": ""
+        }
+      },
+      "format": "C8",
+      "native": {
+        "source_sha256": "9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c",
+        "inspection": {
+          "schema_version": 1,
+          "format": "C8",
+          "variant": "C8",
+          "conversion_supported": true,
+          "page_count": 5,
+          "has_outline": null,
+          "bookmark_count": null,
+          "outline_warnings": null
+        },
+        "inspection_exit": 0,
+        "name": "请上传-20140913/复杂性思维与多学科研究_功能耦合的高等教育研究方法论_唐德海.caj",
+        "cli_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+        "attempt": {
+          "exit_code": 1,
+          "seconds": 0.066,
+          "stdout": "",
+          "stderr": "caj2pdf: using installed CJK font /usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc#2 (NotoSerifCJKsc-Regular)\ncaj2pdf: using installed Latin font /usr/share/fonts/truetype/freefont/FreeSerif.ttf (FreeSerif)\ncaj2pdf: error: cannot convert 'external-cache/post504-web-leads/archive-nju-twelve/inputs/9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c.caj': malformed HN/C8 C8 at byte 456, page 1: unverified C8 glyph size field\n",
+          "stdout_truncated": false
+        },
+        "exit": 1,
+        "status": "FAIL",
+        "source_unchanged": true,
+        "output_exists": false,
+        "staging_files": []
+      },
+      "independent_proof": null,
+      "followup_issue": "rwv/caj2pdf-rust#513"
+    },
+    {
+      "source": {
+        "source_sha256": "78bcceee7c667fe13352fa8f6540aae33c8b73eb3c3ac72f2601fbb59481c1de",
+        "name": "请上传-20140913/教育研究方法论范式与方法的反思_朱志勇.caj",
+        "url": "https://eduwx.nju.edu.cn/_upload/article/files/17/ec/3070d5a94a0fbbc191043d5a40b0/95995b6d-99cf-45a1-9c1e-9c6c829a2486.zip",
+        "repository": "https://eduwx.nju.edu.cn/46/ad/c22766a345773/page.htm",
+        "bytes": 422509,
+        "group": "NJU",
+        "acquisition": {
+          "member_name": "请上传-20140913/教育研究方法论范式与方法的反思_朱志勇.caj",
+          "raw_name_hex": "c7ebc9cfb4ab2d32303134303931332fbdccd3fdd1d0bebfb7bdb7a8c2dbb7b6cabdd3ebb7bdb7a8b5c4b7b4cbbc5fd6ecd6bed3c22e63616a",
+          "encoding": "gb18030",
+          "sha256": "78bcceee7c667fe13352fa8f6540aae33c8b73eb3c3ac72f2601fbb59481c1de",
+          "bytes": 422509,
+          "known_duplicate": false,
+          "zip_crc32": "06bccb84",
+          "inspection": {
+            "schema_version": 1,
+            "format": "C8",
+            "variant": "C8",
+            "conversion_supported": true,
+            "page_count": 6,
+            "has_outline": null,
+            "bookmark_count": null,
+            "outline_warnings": null
+          },
+          "inspection_error": ""
+        }
+      },
+      "format": "C8",
+      "native": {
+        "source_sha256": "78bcceee7c667fe13352fa8f6540aae33c8b73eb3c3ac72f2601fbb59481c1de",
+        "inspection": {
+          "schema_version": 1,
+          "format": "C8",
+          "variant": "C8",
+          "conversion_supported": true,
+          "page_count": 6,
+          "has_outline": null,
+          "bookmark_count": null,
+          "outline_warnings": null
+        },
+        "inspection_exit": 0,
+        "name": "请上传-20140913/教育研究方法论范式与方法的反思_朱志勇.caj",
+        "cli_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+        "attempt": {
+          "exit_code": 0,
+          "seconds": 1.569,
+          "stdout": "",
+          "stderr": "caj2pdf: warning: C8/HN-B bookmarks are not verified; wrote no outline (--no-bookmarks silences this)\n",
+          "stdout_truncated": false
+        },
+        "exit": 0,
+        "status": "PASS",
+        "source_unchanged": true,
+        "output_exists": true,
+        "staging_files": [],
+        "output_sha256": "f5895f444cd929c5e3e175423aa63fffa76f40900d657d6629dd4545f42be2b0",
+        "output_bytes": 1019958,
+        "pages": 6,
+        "qpdf_exit": 0
+      },
+      "independent_proof": {
+        "source_sha256": "78bcceee7c667fe13352fa8f6540aae33c8b73eb3c3ac72f2601fbb59481c1de",
+        "bitmap_status": "PASS",
+        "bitmap_sha256": "c3e40a463374b8947ab658811a725b1f2b66e34eb894ec7c9c840e6bee7cc86f",
+        "geometry_counts": {
+          "PASS": 6
+        },
+        "geometry_sha256": "6f1db40be2c2dca105985a2f82cfa071445453fd5ad165a7703031e19f9dd5c6"
+      },
+      "followup_issue": null
+    },
+    {
+      "source": {
+        "source_sha256": "a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852",
+        "name": "请上传-20140913/教育研究的基本方法论_王洪才.caj",
+        "url": "https://eduwx.nju.edu.cn/_upload/article/files/17/ec/3070d5a94a0fbbc191043d5a40b0/95995b6d-99cf-45a1-9c1e-9c6c829a2486.zip",
+        "repository": "https://eduwx.nju.edu.cn/46/ad/c22766a345773/page.htm",
+        "bytes": 163470,
+        "group": "NJU",
+        "acquisition": {
+          "member_name": "请上传-20140913/教育研究的基本方法论_王洪才.caj",
+          "raw_name_hex": "c7ebc9cfb4ab2d32303134303931332fbdccd3fdd1d0bebfb5c4bbf9b1beb7bdb7a8c2db5fcdf5bae9b2c52e63616a",
+          "encoding": "gb18030",
+          "sha256": "a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852",
+          "bytes": 163470,
+          "known_duplicate": false,
+          "zip_crc32": "8476af11",
+          "inspection": {
+            "schema_version": 1,
+            "format": "C8",
+            "variant": "C8",
+            "conversion_supported": true,
+            "page_count": 7,
+            "has_outline": null,
+            "bookmark_count": null,
+            "outline_warnings": null
+          },
+          "inspection_error": ""
+        }
+      },
+      "format": "C8",
+      "native": {
+        "source_sha256": "a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852",
+        "inspection": {
+          "schema_version": 1,
+          "format": "C8",
+          "variant": "C8",
+          "conversion_supported": true,
+          "page_count": 7,
+          "has_outline": null,
+          "bookmark_count": null,
+          "outline_warnings": null
+        },
+        "inspection_exit": 0,
+        "name": "请上传-20140913/教育研究的基本方法论_王洪才.caj",
+        "cli_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+        "attempt": {
+          "exit_code": 1,
+          "seconds": 0.066,
+          "stdout": "",
+          "stderr": "caj2pdf: using installed CJK font /usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc#2 (NotoSerifCJKsc-Regular)\ncaj2pdf: using installed Latin font /usr/share/fonts/truetype/freefont/FreeSerif.ttf (FreeSerif)\ncaj2pdf: error: cannot convert 'external-cache/post504-web-leads/archive-nju-twelve/inputs/a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852.caj': unsupported HN/C8 C8 at byte 404, page 1: native record tag/value\n",
+          "stdout_truncated": false
+        },
+        "exit": 1,
+        "status": "UNSUPPORTED",
+        "source_unchanged": true,
+        "output_exists": false,
+        "staging_files": []
+      },
+      "independent_proof": null,
+      "followup_issue": "rwv/caj2pdf-rust#514"
+    },
+    {
+      "source": {
+        "source_sha256": "4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33",
+        "name": "请上传-20140913/高等教育研究的方法论反思_多学科_省略_究范式的引入与高等教育立场的坚守_周玲.caj",
+        "url": "https://eduwx.nju.edu.cn/_upload/article/files/17/ec/3070d5a94a0fbbc191043d5a40b0/95995b6d-99cf-45a1-9c1e-9c6c829a2486.zip",
+        "repository": "https://eduwx.nju.edu.cn/46/ad/c22766a345773/page.htm",
+        "bytes": 122962,
+        "group": "NJU",
+        "acquisition": {
+          "member_name": "请上传-20140913/高等教育研究的方法论反思_多学科_省略_究范式的引入与高等教育立场的坚守_周玲.caj",
+          "raw_name_hex": "c7ebc9cfb4ab2d32303134303931332fb8dfb5c8bdccd3fdd1d0bebfb5c4b7bdb7a8c2dbb7b4cbbc5fb6e0d1a7bfc65fcaa1c2d45fbebfb7b6cabdb5c4d2fdc8ebd3ebb8dfb5c8bdccd3fdc1a2b3a1b5c4bce1cad85fd6dcc1e12e63616a",
+          "encoding": "gb18030",
+          "sha256": "4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33",
+          "bytes": 122962,
+          "known_duplicate": false,
+          "zip_crc32": "53f2a28f",
+          "inspection": {
+            "schema_version": 1,
+            "format": "C8",
+            "variant": "C8",
+            "conversion_supported": true,
+            "page_count": 5,
+            "has_outline": null,
+            "bookmark_count": null,
+            "outline_warnings": null
+          },
+          "inspection_error": ""
+        }
+      },
+      "format": "C8",
+      "native": {
+        "source_sha256": "4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33",
+        "inspection": {
+          "schema_version": 1,
+          "format": "C8",
+          "variant": "C8",
+          "conversion_supported": true,
+          "page_count": 5,
+          "has_outline": null,
+          "bookmark_count": null,
+          "outline_warnings": null
+        },
+        "inspection_exit": 0,
+        "name": "请上传-20140913/高等教育研究的方法论反思_多学科_省略_究范式的引入与高等教育立场的坚守_周玲.caj",
+        "cli_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+        "attempt": {
+          "exit_code": 1,
+          "seconds": 0.066,
+          "stdout": "",
+          "stderr": "caj2pdf: using installed CJK font /usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc#2 (NotoSerifCJKsc-Regular)\ncaj2pdf: using installed Latin font /usr/share/fonts/truetype/freefont/FreeSerif.ttf (FreeSerif)\ncaj2pdf: error: cannot convert 'external-cache/post504-web-leads/archive-nju-twelve/inputs/4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33.caj': malformed HN/C8 C8 at byte 456, page 1: unverified C8 glyph size field\n",
+          "stdout_truncated": false
+        },
+        "exit": 1,
+        "status": "FAIL",
+        "source_unchanged": true,
+        "output_exists": false,
+        "staging_files": []
+      },
+      "independent_proof": null,
+      "followup_issue": "rwv/caj2pdf-rust#513"
+    }
+  ],
+  "native_debug_initial_attempts": [
+    {
+      "source_sha256": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+      "inspection": {
+        "schema_version": 1,
+        "format": "PDF",
+        "variant": null,
+        "conversion_supported": true,
+        "page_count": 2,
+        "has_outline": false,
+        "bookmark_count": null,
+        "outline_warnings": null
+      },
+      "inspection_exit": 0,
+      "name": "浅析儒道思想下的“太一”起源说.caj",
+      "attempts": [
+        {
+          "exit_code": 0,
+          "seconds": 0.017,
+          "stdout": "",
+          "stderr": "",
+          "stdout_truncated": false
+        }
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "source_unchanged": true,
+      "output_exists": true,
+      "staging_files": [],
+      "output_sha256": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+      "output_bytes": 1271072,
+      "pages": 2,
+      "qpdf_exit": 0
+    },
+    {
+      "source_sha256": "16ccb2feb13de5ae29461a604a20d0d1fd11d46cfcaec61eba372462b8b622a5",
+      "inspection": null,
+      "inspection_exit": 1,
+      "name": "蔡元定《律吕新书》点注与分析.caj",
+      "attempts": [
+        {
+          "exit_code": 1,
+          "seconds": 0.005,
+          "stdout": "",
+          "stderr": "caj2pdf: error: cannot convert 'external-cache/post504-web-leads/ia-seven/inputs/16ccb2feb13de5ae29461a604a20d0d1fd11d46cfcaec61eba372462b8b622a5': unrecognized input format\n",
+          "stdout_truncated": false
+        }
+      ],
+      "exit": 1,
+      "status": "FAIL",
+      "source_unchanged": true,
+      "output_exists": false,
+      "staging_files": []
+    },
+    {
+      "source_sha256": "c7af016853a0f56f1367011121360eb10804bf488fef18125b65788a2e11c828",
+      "inspection": {
+        "schema_version": 1,
+        "format": "PDF",
+        "variant": null,
+        "conversion_supported": true,
+        "page_count": 17,
+        "has_outline": false,
+        "bookmark_count": null,
+        "outline_warnings": null
+      },
+      "inspection_exit": 0,
+      "name": "谁是9∶4的发现者——以中国管律律种学之倍半相生公式研究为例.caj",
+      "attempts": [
+        {
+          "exit_code": 0,
+          "seconds": 0.017,
+          "stdout": "",
+          "stderr": "",
+          "stdout_truncated": false
+        }
+      ],
+      "exit": 0,
+      "status": "PASS",
+      "source_unchanged": true,
+      "output_exists": true,
+      "staging_files": [],
+      "output_sha256": "487b9a4b28a8beeda7761ecb4c809b3440202693194273e453e586c9a0ede09a",
+      "output_bytes": 896450,
+      "pages": 17,
+      "qpdf_exit": 0
+    },
+    {
+      "source_sha256": "ff8bd83668cca823172ae6a52b572080c28462e9b21b2c6402c215809466f88e",
+      "inspection": {
+        "schema_version": 1,
+        "format": "HN",
+        "variant": "HN-A",
+        "conversion_supported": true,
+        "page_count": 132,
+        "has_outline": true,
+        "bookmark_count": 14,
+        "outline_warnings": 0
+      },
+      "inspection_exit": 0,
+      "name": "《淮南子·天文》研究.caj",
+      "attempts": [
+        {
+          "exit_code": "TIMEOUT",
+          "seconds": 180.002,
+          "stdout": "",
+          "stderr": "",
+          "stdout_truncated": false
+        }
+      ],
+      "exit": "TIMEOUT",
+      "status": "FAIL",
+      "source_unchanged": true,
+      "output_exists": false,
+      "staging_files": [
+        ".caj2pdf-3tJ0rC.tmp"
+      ]
+    },
+    {
+      "source_sha256": "52db5d34e6bae3bf27830db75d2f3e8e99d1e1af1178eb5e05098e758b095bfa",
+      "inspection": {
+        "schema_version": 1,
+        "format": "HN",
+        "variant": "HN-A",
+        "conversion_supported": true,
+        "page_count": 124,
+        "has_outline": true,
+        "bookmark_count": 9,
+        "outline_warnings": 0
+      },
+      "inspection_exit": 0,
+      "name": "古天文词汇研究.caj",
+      "attempts": [
+        {
+          "exit_code": "TIMEOUT",
+          "seconds": 180.002,
+          "stdout": "",
+          "stderr": "",
+          "stdout_truncated": false
+        }
+      ],
+      "exit": "TIMEOUT",
+      "status": "FAIL",
+      "source_unchanged": true,
+      "output_exists": false,
+      "staging_files": [
+        ".caj2pdf-y9WQmF.tmp"
+      ]
+    },
+    {
+      "source_sha256": "0cebdd5cbaa5d99dab2b804a2d2baf45629d9e04757402572a1ac4b72415b013",
+      "inspection": {
+        "schema_version": 1,
+        "format": "HN",
+        "variant": "HN-A",
+        "conversion_supported": true,
+        "page_count": 294,
+        "has_outline": true,
+        "bookmark_count": 95,
+        "outline_warnings": 0
+      },
+      "inspection_exit": 0,
+      "name": "中国新石器时代出土乐器研究.caj",
+      "attempts": [
+        {
+          "exit_code": "TIMEOUT",
+          "seconds": 180.006,
+          "stdout": "",
+          "stderr": "",
+          "stdout_truncated": false
+        }
+      ],
+      "exit": "TIMEOUT",
+      "status": "FAIL",
+      "source_unchanged": true,
+      "output_exists": false,
+      "staging_files": [
+        ".caj2pdf-k3o8bS.tmp"
+      ]
+    },
+    {
+      "source_sha256": "595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3",
+      "inspection": null,
+      "inspection_exit": 1,
+      "name": "藏族舞蹈创作中的神圣性与艺术性.caj",
+      "attempts": [
+        {
+          "exit_code": 1,
+          "seconds": 0.005,
+          "stdout": "",
+          "stderr": "caj2pdf: error: cannot convert 'external-cache/post504-web-leads/ia-seven/inputs/595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3': ambiguous repair PDF at byte 11081463: bytes after PDF EOF are not a recognized CAJ footer\n",
+          "stdout_truncated": false
+        }
+      ],
+      "exit": 1,
+      "status": "FAIL",
+      "source_unchanged": true,
+      "output_exists": false,
+      "staging_files": []
+    }
+  ],
+  "runtime_audit": {
+    "reviewed_revision": "56d7b7ba0b4da366b73ae842deccd33d207e507f",
+    "native_sha256": "d3532a150eee32ca3b963b1500ae1ba2f5813e8f2ab4868032d808da28d99d3f",
+    "wasm_sha256": "d47d89dceee5216bed7e844fd77f1bccbc1991d750635d0371d75106e749e476",
+    "raw_runner_sha256": "5dff4823168f095bed0b7fb49da53a5164ef1edb3af782a047e6f7095b22605d",
+    "original_attempt_retained": true,
+    "fresh_rerun": false,
+    "corrections": [
+      "The copied harness summary labeled an old source revision; the run imports the new worktree and hard-checks its new WASM hash. Correct revision is pinned here against that artifact.",
+      "The generic refusal assertion expected zero sink bytes for every format. Three C8 failures emit a 73-byte partial PDF header before rejecting, consistently in both JS targets. They are matching diagnostic failures with browser cleanup, not conversion or zero-output passes. CLI removes its temporary output. No outcome was discarded."
+    ],
+    "outcomes": {
+      "node": {
+        "converted_native_hash_size_pages_matches": [
+          "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+          "c7af016853a0f56f1367011121360eb10804bf488fef18125b65788a2e11c828",
+          "ff8bd83668cca823172ae6a52b572080c28462e9b21b2c6402c215809466f88e",
+          "52db5d34e6bae3bf27830db75d2f3e8e99d1e1af1178eb5e05098e758b095bfa",
+          "0cebdd5cbaa5d99dab2b804a2d2baf45629d9e04757402572a1ac4b72415b013",
+          "bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43",
+          "78bcceee7c667fe13352fa8f6540aae33c8b73eb3c3ac72f2601fbb59481c1de"
+        ],
+        "refusals": [
+          {
+            "source_sha256": "16ccb2feb13de5ae29461a604a20d0d1fd11d46cfcaec61eba372462b8b622a5",
+            "code": "UNSUPPORTED_FORMAT",
+            "sink_bytes_before_error": 0,
+            "cleanup_confirmed": false,
+            "conversion_pass": false
+          },
+          {
+            "source_sha256": "595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3",
+            "code": "MALFORMED_PDF",
+            "sink_bytes_before_error": 0,
+            "cleanup_confirmed": false,
+            "conversion_pass": false
+          },
+          {
+            "source_sha256": "9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c",
+            "code": "HNC8",
+            "sink_bytes_before_error": 73,
+            "cleanup_confirmed": false,
+            "conversion_pass": false
+          },
+          {
+            "source_sha256": "a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852",
+            "code": "HNC8",
+            "sink_bytes_before_error": 73,
+            "cleanup_confirmed": false,
+            "conversion_pass": false
+          },
+          {
+            "source_sha256": "4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33",
+            "code": "HNC8",
+            "sink_bytes_before_error": 73,
+            "cleanup_confirmed": false,
+            "conversion_pass": false
+          },
+          {
+            "source_sha256": "697464e0dc8fa9ddd91b6073e276ceabe1b48c4dd2caf2173560a01e10334e85",
+            "code": "AMBIGUOUS_PDF_REPAIR",
+            "sink_bytes_before_error": 0,
+            "cleanup_confirmed": false,
+            "conversion_pass": false
+          },
+          {
+            "source_sha256": "98157b57a4f51364d6249afdaad3d923f328c8be9b89f1040e4989e96e9e88b3",
+            "code": "AMBIGUOUS_PDF_REPAIR",
+            "sink_bytes_before_error": 0,
+            "cleanup_confirmed": false,
+            "conversion_pass": false
+          }
+        ],
+        "source_integrity_all": true,
+        "browser_opfs_empty_all": false
+      },
+      "browser": {
+        "converted_native_hash_size_pages_matches": [
+          "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+          "c7af016853a0f56f1367011121360eb10804bf488fef18125b65788a2e11c828",
+          "ff8bd83668cca823172ae6a52b572080c28462e9b21b2c6402c215809466f88e",
+          "52db5d34e6bae3bf27830db75d2f3e8e99d1e1af1178eb5e05098e758b095bfa",
+          "0cebdd5cbaa5d99dab2b804a2d2baf45629d9e04757402572a1ac4b72415b013",
+          "bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43",
+          "78bcceee7c667fe13352fa8f6540aae33c8b73eb3c3ac72f2601fbb59481c1de"
+        ],
+        "refusals": [
+          {
+            "source_sha256": "16ccb2feb13de5ae29461a604a20d0d1fd11d46cfcaec61eba372462b8b622a5",
+            "code": "UNSUPPORTED_FORMAT",
+            "sink_bytes_before_error": 0,
+            "cleanup_confirmed": true,
+            "conversion_pass": false
+          },
+          {
+            "source_sha256": "595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3",
+            "code": "MALFORMED_PDF",
+            "sink_bytes_before_error": 0,
+            "cleanup_confirmed": true,
+            "conversion_pass": false
+          },
+          {
+            "source_sha256": "9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c",
+            "code": "HNC8",
+            "sink_bytes_before_error": 73,
+            "cleanup_confirmed": true,
+            "conversion_pass": false
+          },
+          {
+            "source_sha256": "a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852",
+            "code": "HNC8",
+            "sink_bytes_before_error": 73,
+            "cleanup_confirmed": true,
+            "conversion_pass": false
+          },
+          {
+            "source_sha256": "4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33",
+            "code": "HNC8",
+            "sink_bytes_before_error": 73,
+            "cleanup_confirmed": true,
+            "conversion_pass": false
+          },
+          {
+            "source_sha256": "697464e0dc8fa9ddd91b6073e276ceabe1b48c4dd2caf2173560a01e10334e85",
+            "code": "AMBIGUOUS_PDF_REPAIR",
+            "sink_bytes_before_error": 0,
+            "cleanup_confirmed": true,
+            "conversion_pass": false
+          },
+          {
+            "source_sha256": "98157b57a4f51364d6249afdaad3d923f328c8be9b89f1040e4989e96e9e88b3",
+            "code": "AMBIGUOUS_PDF_REPAIR",
+            "sink_bytes_before_error": 0,
+            "cleanup_confirmed": true,
+            "conversion_pass": false
+          }
+        ],
+        "source_integrity_all": true,
+        "browser_opfs_empty_all": true
+      }
+    }
+  },
+  "runtime_raw_summary": {
+    "candidate_commit": "8d5cc32a67a38c6d54bdc4be4a673df52e904b45",
+    "wasm_sha256": "d47d89dceee5216bed7e844fd77f1bccbc1991d750635d0371d75106e749e476",
+    "count": 14,
+    "node_matches": 11,
+    "browser_matches": 11,
+    "node_failures": [
+      {
+        "source": "9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c",
+        "status": "REJECTED",
+        "code": "HNC8",
+        "message": "malformed HN/C8 C8 at byte 456, page 1: unverified C8 glyph size field",
+        "bytes": 73,
+        "source_unchanged": true,
+        "native_match": false,
+        "seconds": 0.069
+      },
+      {
+        "source": "a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852",
+        "status": "REJECTED",
+        "code": "HNC8",
+        "message": "unsupported HN/C8 C8 at byte 404, page 1: native record tag/value",
+        "bytes": 73,
+        "source_unchanged": true,
+        "native_match": false,
+        "seconds": 0.057
+      },
+      {
+        "source": "4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33",
+        "status": "REJECTED",
+        "code": "HNC8",
+        "message": "malformed HN/C8 C8 at byte 456, page 1: unverified C8 glyph size field",
+        "bytes": 73,
+        "source_unchanged": true,
+        "native_match": false,
+        "seconds": 0.063
+      }
+    ],
+    "browser_failures": [
+      {
+        "source": "9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c",
+        "status": "REJECTED",
+        "code": "HNC8",
+        "message": "malformed HN/C8 C8 at byte 456, page 1: unverified C8 glyph size field",
+        "bytes": 73,
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": false,
+        "seconds": 0.253
+      },
+      {
+        "source": "a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852",
+        "status": "REJECTED",
+        "code": "HNC8",
+        "message": "unsupported HN/C8 C8 at byte 404, page 1: native record tag/value",
+        "bytes": 73,
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": false,
+        "seconds": 0.252
+      },
+      {
+        "source": "4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33",
+        "status": "REJECTED",
+        "code": "HNC8",
+        "message": "malformed HN/C8 C8 at byte 456, page 1: unverified C8 glyph size field",
+        "bytes": 73,
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": false,
+        "seconds": 0.251
+      }
+    ]
+  },
+  "runtime_raw_results": {
+    "node": [
+      {
+        "source": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+        "status": "CONVERTED",
+        "pages": 2,
+        "substitutedGlyphs": "0",
+        "sha256": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+        "bytes": 1271072,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.064
+      },
+      {
+        "source": "16ccb2feb13de5ae29461a604a20d0d1fd11d46cfcaec61eba372462b8b622a5",
+        "status": "REJECTED",
+        "code": "UNSUPPORTED_FORMAT",
+        "message": "input is not a recognized PDF, CAJ, KDH, HN, C8, TEB or CAA format",
+        "bytes": 0,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.061
+      },
+      {
+        "source": "c7af016853a0f56f1367011121360eb10804bf488fef18125b65788a2e11c828",
+        "status": "CONVERTED",
+        "pages": 17,
+        "substitutedGlyphs": "0",
+        "sha256": "487b9a4b28a8beeda7761ecb4c809b3440202693194273e453e586c9a0ede09a",
+        "bytes": 896450,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.045
+      },
+      {
+        "source": "ff8bd83668cca823172ae6a52b572080c28462e9b21b2c6402c215809466f88e",
+        "status": "CONVERTED",
+        "pages": 132,
+        "substitutedGlyphs": "0",
+        "sha256": "a6da936c117fea0d3caf2f8ca8faf6d15e84d2fc312c786cfc8758df85559867",
+        "bytes": 16372234,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 30.22
+      },
+      {
+        "source": "52db5d34e6bae3bf27830db75d2f3e8e99d1e1af1178eb5e05098e758b095bfa",
+        "status": "CONVERTED",
+        "pages": 124,
+        "substitutedGlyphs": "0",
+        "sha256": "b415137df453629f1f806d46a0b8093da289f2c8ae652b0969504202d122f03e",
+        "bytes": 14969340,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 26.8
+      },
+      {
+        "source": "0cebdd5cbaa5d99dab2b804a2d2baf45629d9e04757402572a1ac4b72415b013",
+        "status": "CONVERTED",
+        "pages": 294,
+        "substitutedGlyphs": "0",
+        "sha256": "f8c82f3bc0f568e5cf9d727555e9397e344c3c89ba6abc0fdc98e777b299d3a7",
+        "bytes": 64648322,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 21.004
+      },
+      {
+        "source": "595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3",
+        "status": "REJECTED",
+        "code": "MALFORMED_PDF",
+        "message": "malformed PDF at byte 10194944, object 2 0: PDF number has no digits",
+        "bytes": 0,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.082
+      },
+      {
+        "source": "bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43",
+        "status": "CONVERTED",
+        "pages": 5,
+        "substitutedGlyphs": "0",
+        "sha256": "ae15336a87189fcb2d1ba6be0d5be158eebf01b6aea44065b6d128b10e4fb927",
+        "bytes": 1182213,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.051
+      },
+      {
+        "source": "9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c",
+        "status": "REJECTED",
+        "code": "HNC8",
+        "message": "malformed HN/C8 C8 at byte 456, page 1: unverified C8 glyph size field",
+        "bytes": 73,
+        "source_unchanged": true,
+        "native_match": false,
+        "seconds": 0.069
+      },
+      {
+        "source": "78bcceee7c667fe13352fa8f6540aae33c8b73eb3c3ac72f2601fbb59481c1de",
+        "status": "CONVERTED",
+        "pages": 6,
+        "substitutedGlyphs": "0",
+        "sha256": "f5895f444cd929c5e3e175423aa63fffa76f40900d657d6629dd4545f42be2b0",
+        "bytes": 1019958,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 1.572
+      },
+      {
+        "source": "a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852",
+        "status": "REJECTED",
+        "code": "HNC8",
+        "message": "unsupported HN/C8 C8 at byte 404, page 1: native record tag/value",
+        "bytes": 73,
+        "source_unchanged": true,
+        "native_match": false,
+        "seconds": 0.057
+      },
+      {
+        "source": "4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33",
+        "status": "REJECTED",
+        "code": "HNC8",
+        "message": "malformed HN/C8 C8 at byte 456, page 1: unverified C8 glyph size field",
+        "bytes": 73,
+        "source_unchanged": true,
+        "native_match": false,
+        "seconds": 0.063
+      },
+      {
+        "source": "697464e0dc8fa9ddd91b6073e276ceabe1b48c4dd2caf2173560a01e10334e85",
+        "status": "REJECTED",
+        "code": "AMBIGUOUS_PDF_REPAIR",
+        "message": "ambiguous repair PDF at byte 1181914: bytes after PDF EOF are not a recognized CAJ footer",
+        "bytes": 0,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.037
+      },
+      {
+        "source": "98157b57a4f51364d6249afdaad3d923f328c8be9b89f1040e4989e96e9e88b3",
+        "status": "REJECTED",
+        "code": "AMBIGUOUS_PDF_REPAIR",
+        "message": "ambiguous repair PDF at byte 11081463: bytes after PDF EOF are not a recognized CAJ footer",
+        "bytes": 0,
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.096
+      }
+    ],
+    "browser": [
+      {
+        "source": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+        "status": "CONVERTED",
+        "pages": 2,
+        "substitutedGlyphs": "0",
+        "bytes": 1271072,
+        "sha256": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.255
+      },
+      {
+        "source": "16ccb2feb13de5ae29461a604a20d0d1fd11d46cfcaec61eba372462b8b622a5",
+        "status": "REJECTED",
+        "code": "UNSUPPORTED_FORMAT",
+        "message": "input is not a recognized PDF, CAJ, KDH, HN, C8, TEB or CAA format",
+        "bytes": 0,
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.265
+      },
+      {
+        "source": "c7af016853a0f56f1367011121360eb10804bf488fef18125b65788a2e11c828",
+        "status": "CONVERTED",
+        "pages": 17,
+        "substitutedGlyphs": "0",
+        "bytes": 896450,
+        "sha256": "487b9a4b28a8beeda7761ecb4c809b3440202693194273e453e586c9a0ede09a",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.254
+      },
+      {
+        "source": "ff8bd83668cca823172ae6a52b572080c28462e9b21b2c6402c215809466f88e",
+        "status": "CONVERTED",
+        "pages": 132,
+        "substitutedGlyphs": "0",
+        "bytes": 16372234,
+        "sha256": "a6da936c117fea0d3caf2f8ca8faf6d15e84d2fc312c786cfc8758df85559867",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 30.143
+      },
+      {
+        "source": "52db5d34e6bae3bf27830db75d2f3e8e99d1e1af1178eb5e05098e758b095bfa",
+        "status": "CONVERTED",
+        "pages": 124,
+        "substitutedGlyphs": "0",
+        "bytes": 14969340,
+        "sha256": "b415137df453629f1f806d46a0b8093da289f2c8ae652b0969504202d122f03e",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 27.12
+      },
+      {
+        "source": "0cebdd5cbaa5d99dab2b804a2d2baf45629d9e04757402572a1ac4b72415b013",
+        "status": "CONVERTED",
+        "pages": 294,
+        "substitutedGlyphs": "0",
+        "bytes": 64648322,
+        "sha256": "f8c82f3bc0f568e5cf9d727555e9397e344c3c89ba6abc0fdc98e777b299d3a7",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 21.967
+      },
+      {
+        "source": "595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3",
+        "status": "REJECTED",
+        "code": "MALFORMED_PDF",
+        "message": "malformed PDF at byte 10194944, object 2 0: PDF number has no digits",
+        "bytes": 0,
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.275
+      },
+      {
+        "source": "bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43",
+        "status": "CONVERTED",
+        "pages": 5,
+        "substitutedGlyphs": "0",
+        "bytes": 1182213,
+        "sha256": "ae15336a87189fcb2d1ba6be0d5be158eebf01b6aea44065b6d128b10e4fb927",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.255
+      },
+      {
+        "source": "9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c",
+        "status": "REJECTED",
+        "code": "HNC8",
+        "message": "malformed HN/C8 C8 at byte 456, page 1: unverified C8 glyph size field",
+        "bytes": 73,
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": false,
+        "seconds": 0.253
+      },
+      {
+        "source": "78bcceee7c667fe13352fa8f6540aae33c8b73eb3c3ac72f2601fbb59481c1de",
+        "status": "CONVERTED",
+        "pages": 6,
+        "substitutedGlyphs": "0",
+        "bytes": 1019958,
+        "sha256": "f5895f444cd929c5e3e175423aa63fffa76f40900d657d6629dd4545f42be2b0",
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 1.759
+      },
+      {
+        "source": "a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852",
+        "status": "REJECTED",
+        "code": "HNC8",
+        "message": "unsupported HN/C8 C8 at byte 404, page 1: native record tag/value",
+        "bytes": 73,
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": false,
+        "seconds": 0.252
+      },
+      {
+        "source": "4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33",
+        "status": "REJECTED",
+        "code": "HNC8",
+        "message": "malformed HN/C8 C8 at byte 456, page 1: unverified C8 glyph size field",
+        "bytes": 73,
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": false,
+        "seconds": 0.251
+      },
+      {
+        "source": "697464e0dc8fa9ddd91b6073e276ceabe1b48c4dd2caf2173560a01e10334e85",
+        "status": "REJECTED",
+        "code": "AMBIGUOUS_PDF_REPAIR",
+        "message": "ambiguous repair PDF at byte 1181914: bytes after PDF EOF are not a recognized CAJ footer",
+        "bytes": 0,
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.255
+      },
+      {
+        "source": "98157b57a4f51364d6249afdaad3d923f328c8be9b89f1040e4989e96e9e88b3",
+        "status": "REJECTED",
+        "code": "AMBIGUOUS_PDF_REPAIR",
+        "message": "ambiguous repair PDF at byte 11081463: bytes after PDF EOF are not a recognized CAJ footer",
+        "bytes": 0,
+        "remaining": [],
+        "source_unchanged": true,
+        "native_match": true,
+        "seconds": 0.275
+      }
+    ]
+  },
+  "native_negative_controls": [
+    {
+      "source_sha256": "bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43",
+      "mutation": "append byte",
+      "mutated_sha256": "697464e0dc8fa9ddd91b6073e276ceabe1b48c4dd2caf2173560a01e10334e85",
+      "exit": 1,
+      "output_exists": false,
+      "stderr": "caj2pdf: error: cannot convert 'external-cache/post504-web-leads/archive-nju-twelve/inputs/697464e0dc8fa9ddd91b6073e276ceabe1b48c4dd2caf2173560a01e10334e85.caj': ambiguous repair PDF at byte 1181914: bytes after PDF EOF are not a recognized CAJ footer\n"
+    },
+    {
+      "source_sha256": "595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3",
+      "mutation": "change last padding byte",
+      "mutated_sha256": "98157b57a4f51364d6249afdaad3d923f328c8be9b89f1040e4989e96e9e88b3",
+      "exit": 1,
+      "output_exists": false,
+      "stderr": "caj2pdf: error: cannot convert 'external-cache/post504-web-leads/archive-nju-twelve/inputs/98157b57a4f51364d6249afdaad3d923f328c8be9b89f1040e4989e96e9e88b3.caj': ambiguous repair PDF at byte 11081463: bytes after PDF EOF are not a recognized CAJ footer\n"
+    }
+  ],
+  "pdf_preservation": {
+    "schema_version": 1,
+    "manifest_sha256": "2f6f5f159b2bdf84d17e49204a4d266ccb67da00f4138e2da5578e2657e15c9d",
+    "qpdf": {
+      "path": "/usr/bin/qpdf",
+      "sha256": "30b2389c3ed0ba73434244fff5b149d4d919279ea7a8c3b1cd9fc25f57ec1792",
+      "version": "qpdf version 12.2.0\nRun qpdf --copyright to see copyright and license information."
+    },
+    "scope": "Selected-object/raw-stream and navigation checks. Reader recovery completeness, unverified profiles and full visual fidelity remain separate.",
+    "attempted": 3,
+    "requested": 3,
+    "counts": {
+      "VERIFIED_SCOPED_PRESERVATION": 3
+    },
+    "results": [
+      {
+        "source_sha256": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+        "pdf_sha256": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+        "format": "PDF",
+        "pages": 2,
+        "outline_nodes": 0,
+        "page_tree_nodes": 3,
+        "source_streams": 38,
+        "source_objects": 89,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [],
+        "source_reader_exit": 0,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      },
+      {
+        "source_sha256": "c7af016853a0f56f1367011121360eb10804bf488fef18125b65788a2e11c828",
+        "pdf_sha256": "487b9a4b28a8beeda7761ecb4c809b3440202693194273e453e586c9a0ede09a",
+        "format": "PDF",
+        "pages": 17,
+        "outline_nodes": 0,
+        "page_tree_nodes": 18,
+        "source_streams": 45,
+        "source_objects": 81,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [],
+        "source_reader_exit": 0,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      },
+      {
+        "source_sha256": "bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43",
+        "pdf_sha256": "ae15336a87189fcb2d1ba6be0d5be158eebf01b6aea44065b6d128b10e4fb927",
+        "format": "PDF",
+        "pages": 5,
+        "outline_nodes": 0,
+        "page_tree_nodes": 6,
+        "source_streams": 37,
+        "source_objects": 76,
+        "status": "VERIFIED_SCOPED_PRESERVATION",
+        "events": [
+          {
+            "object": "trailer",
+            "proof": "xref-only trailer fields and incremental identity",
+            "fields": [
+              "/ID",
+              "/Prev"
+            ]
+          }
+        ],
+        "source_reader_exit": 3,
+        "candidate_reader_exit": 0,
+        "unresolved_references": 0,
+        "scope": "Selected object values/raw streams, page tree and forward outlines with individually proved changes; not a new rendering oracle."
+      }
+    ]
+  },
+  "pdf_page_comparison": [
+    {
+      "source_sha256": "6edb8bfc8af0ed4915c95470b561aaa3ba36629ad9b234a680ee94a4ff413a0d",
+      "pages": 2,
+      "all_page_geometry_words_pixels_match": true,
+      "pixel_sha256": [
+        "4a7cf67298240c9b43435ab392f2e09b3719e0ee6f6f012a1b0c49bc1ccb4459",
+        "5fe69febe4402c1d95fc9730702bb25ba9d8d8fba8c2ecdaab763ee5e59fa72e"
+      ],
+      "reference": "unchanged original PDF"
+    },
+    {
+      "source_sha256": "c7af016853a0f56f1367011121360eb10804bf488fef18125b65788a2e11c828",
+      "pages": 17,
+      "all_page_geometry_words_pixels_match": true,
+      "pixel_sha256": [
+        "1f47f6c7a5b3e84d1c3108a577a97a5accf59455362027483029300591a2adc2",
+        "d7c01f1e491a18c5fa9c3ff2d9822a98a79d2a65a01f1e73805d90a39faaacb6",
+        "2ed0d4c3bfd5f981c2faa264eacd1ba0618a1c5be813928099d8c64de47536b9",
+        "e35289c255b769d476c01caf08ca30d14847e3e90fb53a385d8cc934c33c08a8",
+        "5ee1f915bd47ec4ee3dd07b5915baa657d8e4f45fd02a3a24020dbad291ba6fe",
+        "cdfa28a7d284f3ac7e32e231c3e35ec94eddd24c75ffa8fa8836f55117ec5e50",
+        "7b21c6c16a7d3a577137591d06f703429500d1f839e1c88e30564a86e66ade2f",
+        "f8928eb8e1f9991ba97ec0871ee3a3f8ffaa2667dcf061a0e97a97d48ac33876",
+        "dbe268417bad278a90dcfc28a62dae765d7a084daa37faf7e8d237f8ff6d585d",
+        "0daeed092acc2d5b7e011758db14bd02dee1b5fe8eae459b3b459360db60e449",
+        "3f803328362285d7db63e82b1684fc5c75ae71cf8b1873ba42fd385db4958d49",
+        "a12a0eda565e3c7464fa14fdb2f7ef2e009d3d606246e7a65919df70daf9bb0c",
+        "05eea6fe07b442211d7afb9e90327f9514e2a3ae8812a271ad7b1987adbde483",
+        "4b8b0ca88fe2fb3daf18e98e5b4bc52312cb90c1109cc275c09329bf8f707d3d",
+        "a4342cfebe03a07ffaa51f731dff1d56a60510a1f21e1138bf889393448264eb",
+        "ca84c7d630e2f8f4d712c72d60aa765cf5ba459b5cf054fb62f31d23e746f856",
+        "5f510c6bd64bab8e050c55a7aa94b23ad8ca9562f284c65f7df2b65bff069efa"
+      ],
+      "reference": "unchanged original PDF"
+    },
+    {
+      "source_sha256": "bc1e8f8d49ce7787d00d6511df9450b98d4d523c1992793fe6e1c5b3eaf50e43",
+      "pages": 5,
+      "all_page_geometry_words_pixels_match": true,
+      "pixel_sha256": [
+        "d44d9271143e8497432d85c27e21d2c66e49f56428744e5b554614ae397c25a7",
+        "a74613f0b6a366b76f899b281b8c7784805b387a0fcf6983e069f95a0a7a6f0e",
+        "3c280af2acedf50e398500af61d17e794665214894989c58749d06f43e8efc1e",
+        "34dfb819fd8b9ae1db77918cde68f4103c9b977dec216553d967c86f59202a97",
+        "8f23325f52b0137c7c37d5c588e4b50d73c73aee897e67817bad732afc2c5de4"
+      ],
+      "reference": "unchanged original PDF"
+    }
+  ],
+  "bitmap_geometry": [
+    {
+      "source_sha256": "ff8bd83668cca823172ae6a52b572080c28462e9b21b2c6402c215809466f88e",
+      "bitmap_status": "PASS",
+      "bitmap_sha256": "60147b78b9b0020fdd8abc437f3df0cded9c2233b3d955a1df5314c912d9baa6",
+      "geometry_counts": {
+        "PASS": 132
+      },
+      "geometry_sha256": "dc4d7df9e7b0f6d189acc6fc094b014f430c8eb23bce3605740c39b881b15bd9"
+    },
+    {
+      "source_sha256": "52db5d34e6bae3bf27830db75d2f3e8e99d1e1af1178eb5e05098e758b095bfa",
+      "bitmap_status": "PASS",
+      "bitmap_sha256": "f26bc0f68b15f1deaefa9694a6361f04173c5a3058f2480f0be5d6922b6af4e8",
+      "geometry_counts": {
+        "PASS": 124
+      },
+      "geometry_sha256": "590c7292adf9e9538ab594ba052f84f0fce0530915ce2dda192117d69d26f4e6"
+    },
+    {
+      "source_sha256": "0cebdd5cbaa5d99dab2b804a2d2baf45629d9e04757402572a1ac4b72415b013",
+      "bitmap_status": "PASS",
+      "bitmap_sha256": "7b4708b3796cff60c817e9c8ac1833d29baa4ee70f97746a138becf0b1d26b29",
+      "geometry_counts": {
+        "PASS": 294
+      },
+      "geometry_sha256": "48d4fba7e33b6058818f37997c2888dcc8ea64eb9987c920b64a5de66272e158"
+    },
+    {
+      "source_sha256": "78bcceee7c667fe13352fa8f6540aae33c8b73eb3c3ac72f2601fbb59481c1de",
+      "bitmap_status": "PASS",
+      "bitmap_sha256": "c3e40a463374b8947ab658811a725b1f2b66e34eb894ec7c9c840e6bee7cc86f",
+      "geometry_counts": {
+        "PASS": 6
+      },
+      "geometry_sha256": "6f1db40be2c2dca105985a2f82cfa071445453fd5ad165a7703031e19f9dd5c6"
+    }
+  ],
+  "hna_outlines": [
+    {
+      "source_sha256": "ff8bd83668cca823172ae6a52b572080c28462e9b21b2c6402c215809466f88e",
+      "nodes": 14,
+      "source_output_outline_hash": "905f1925d811f30491c08b33d2f518a838b9b9fa3485c7d81484974f42343993",
+      "status": "PASS"
+    },
+    {
+      "source_sha256": "52db5d34e6bae3bf27830db75d2f3e8e99d1e1af1178eb5e05098e758b095bfa",
+      "nodes": 9,
+      "source_output_outline_hash": "155555473ac710b65d54082a8fb1c62cd900cb0733d805c2042581c8e7ebcaf2",
+      "status": "PASS"
+    },
+    {
+      "source_sha256": "0cebdd5cbaa5d99dab2b804a2d2baf45629d9e04757402572a1ac4b72415b013",
+      "nodes": 95,
+      "source_output_outline_hash": "19993f376b25c3c986c78d450c140c634ebaac15baffa2d9f502867860cd8fc9",
+      "status": "PASS"
+    }
+  ],
+  "missing_header_measurement": {
+    "source_sha256": "16ccb2feb13de5ae29461a604a20d0d1fd11d46cfcaec61eba372462b8b622a5",
+    "bytes": 4804816,
+    "first_nonzero": 225280,
+    "zero_runs_minimum_bytes": 4096,
+    "zero_runs": [
+      {
+        "start": 0,
+        "end": 225280,
+        "length": 225280
+      },
+      {
+        "start": 534667,
+        "end": 544960,
+        "length": 10293
+      },
+      {
+        "start": 579508,
+        "end": 587249,
+        "length": 7741
+      }
+    ],
+    "total_bytes_in_long_zero_runs": 243314,
+    "pdf_magic_count": 0,
+    "caj_magic_count": 0,
+    "pdf_eof_count": 0,
+    "metadata_receipts_searched": 976,
+    "alternate_filename_matches": [
+      {
+        "identifier": "china-12-temp",
+        "name": "蔡元定《律吕新书》点注与分析.caj",
+        "size": "4804816",
+        "sha1": "3e9a6e3664ccfe3579470eecfc1114339d89dcba",
+        "md5": "8ee8cebd03789d107495f699d74b2e21",
+        "source": "original"
+      }
+    ],
+    "source_payload_values_published": false
+  },
+  "damaged_pdf_measurement": {
+    "source_sha256": "595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3",
+    "bytes": 11081488,
+    "zero_runs_minimum_bytes": 4096,
+    "zero_runs": [
+      {
+        "start": 815104,
+        "end": 1728512,
+        "length": 913408
+      },
+      {
+        "start": 1814528,
+        "end": 10194944,
+        "length": 8380416
+      }
+    ],
+    "total_bytes_in_long_zero_runs": 9293824,
+    "independent_qpdf_check_exit": 3,
+    "qpdf_recovers_subset_with_missing_page_object_warnings": true,
+    "faithful_complete_conversion": false,
+    "intact_alternate_acquired": false
+  },
+  "alternate_public_storage_ranges": [
+    {
+      "source_sha256": "16ccb2feb13de5ae29461a604a20d0d1fd11d46cfcaec61eba372462b8b622a5",
+      "observed_metadata_d2_url": "https://ia800807.us.archive.org/6/items/china-12-temp/%E8%94%A1%E5%85%83%E5%AE%9A%E3%80%8A%E5%BE%8B%E5%90%95%E6%96%B0%E4%B9%A6%E3%80%8B%E7%82%B9%E6%B3%A8%E4%B8%8E%E5%88%86%E6%9E%90.caj",
+      "ranges": [
+        {
+          "first": 0,
+          "last": 225279,
+          "status": 206,
+          "content_range": "bytes 0-225279/4804816",
+          "bytes": 225280,
+          "sha256": "97a953e93e29d5703bb995dde21e7122557c4eb80e63533d4bf5d66666898ad3",
+          "matches_original_range": true,
+          "all_zero": true
+        }
+      ]
+    },
+    {
+      "source_sha256": "595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3",
+      "observed_metadata_d2_url": "https://ia801804.us.archive.org/30/items/tibet-music/%E8%97%8F%E6%97%8F%E8%88%9E%E8%B9%88%E5%88%9B%E4%BD%9C%E4%B8%AD%E7%9A%84%E7%A5%9E%E5%9C%A3%E6%80%A7%E4%B8%8E%E8%89%BA%E6%9C%AF%E6%80%A7.caj",
+      "ranges": [
+        {
+          "first": 815104,
+          "last": 819199,
+          "error": "URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
+        },
+        {
+          "first": 1814528,
+          "last": 1818623,
+          "status": 206,
+          "content_range": "bytes 1814528-1818623/11081488",
+          "bytes": 4096,
+          "sha256": "ad7facb2586fc6e966c004d7d1d16b024f5805ff7cb47c7a85dabd8b48892ca7",
+          "matches_original_range": true,
+          "all_zero": true
+        }
+      ]
+    }
+  ],
+  "catalog_update": {
+    "prior_revision": "57f690c05c9d523964007f19a97c450c9b145cc1",
+    "prior_catalog_sha256": "742e1d14f714d4ad09c7af10a4301cba2b88013c83a6aa166df845cf25bea533",
+    "existing_rows_unchanged": 1391,
+    "new_rows": 12,
+    "identities": 1403,
+    "conversion_after": {
+      "PASS": 1353,
+      "FAIL": 22,
+      "UNSUPPORTED": 28
+    },
+    "new_accepted_pages": 580,
+    "accepted_pages_after": 37138,
+    "full_catalog_rerun": false
+  },
+  "research_runner_hashes": {
+    "retry-seven.py": "7150253893e0df7a0697ea1014d09540c83515ca943bd2cf307c1bfa90c717a1",
+    "search-final.py": "051d7759a9505ee54d6131ead1ef4baf9c81daece4480df0896345d08a22daa1",
+    "nju-final-downloads.py": "5d0ac870d9aabe800c4aa7f447f0d9bea7d2906292460edd4f0ce8939141097f",
+    "prepare-twelve.py": "8842580903236779173c59a3cbeb38931b0d06520f302365cfcaf1016f18e3ba",
+    "native-twelve.py": "09f7221daa98ade760f389d4f021ab11beaa9b116669156a3bbd673165033d8d",
+    "runtime-twelve-prepare.py": "fa63378c90fed86c3ad2b931e71ccdaf71db6bd83b2b10eb8ee75360bc9a9353",
+    "verify-twelve-bitmaps.py": "af71f086d091c360c74f26fe42ca2ca51918e591396035f37d55d9870ff1be67",
+    "render-twelve-pdfs.py": "b76873d9a51e3c7cafd951a904e09f76634521754424725339f76430958da2d2",
+    "zero-alternates.py": "93a31cfebdfadd0f04f9f5a6cdf79321a0a5f2957e8ced261ef236cdf570401c"
+  },
+  "checker_revision": "57f690c05c9d523964007f19a97c450c9b145cc1",
+  "source_checker_hashes": {
+    "pdf_source_preservation.py": "704cb46dd53a97ed3bd9c0f382ed5fbe2773768d007cda366d2bb8335ba6ad42",
+    "github_bitmap_oracle.py": "384495ac6c8dfbb3e420e7c715ed18131dfb44242d9f26b68ee4126ff4ecb35d",
+    "source_image_geometry.py": "6df091f16de043be4594acbb58a309587ffe672aeeff6da44c6960048491f910",
+    "current_format_order.py": "e7292b3c248ae7c5a6bdee834a25a56993d28f7f8da186715e88fc0e613d6fff",
+    "conformance.py": "794ff81a08e2de998afea87f45b1427f4c3a55068acdb653b91afa6b4c8e8103"
+  },
+  "limits": [
+    "Three debug-build HN conversions timed out at 180 seconds; optimized unchanged-source conversions succeeded. Initial attempts are retained, not relabeled.",
+    "Three C8 JS errors follow 73 streamed header bytes. The raw zero-output assertions fail; the separate audit records matching failures and browser disposal, not conversion passes.",
+    "The copied runtime summary carries an old revision label. Its enforced new WASM hash and imported worktree pin the actual artifact; the separate audit corrects the label without claiming a rerun.",
+    "Seven conversions have relevant scoped independent checks; 550 HN and six C8 pages have bitmap/order/geometry checks, not complete vendor-rendered font/vector fidelity. C8 outlines remain unknown.",
+    "Two zero-filled originals and three unsupported C8 profiles remain unresolved; no faithful-recovery impossibility verdict, release or skipped-corpus compatibility pass."
+  ],
+  "native_failure_directory_audit": [
+    {
+      "source_sha256": "16ccb2feb13de5ae29461a604a20d0d1fd11d46cfcaec61eba372462b8b622a5",
+      "files_after_failure": [
+        "convert.stderr",
+        "convert.stdout",
+        "inspect.stderr",
+        "inspect.stdout",
+        "result.json"
+      ],
+      "output_or_staging_present": false
+    },
+    {
+      "source_sha256": "595e717a629ec507e44d459065fcc1d0e53fc1f27d01af12b1176f5a780766d3",
+      "files_after_failure": [
+        "convert.stderr",
+        "convert.stdout",
+        "inspect.stderr",
+        "inspect.stdout",
+        "result.json"
+      ],
+      "output_or_staging_present": false
+    },
+    {
+      "source_sha256": "9a50414e00a69836546c1b80cf2c2633cc712ae948a94f5ee512da3ff7b7726c",
+      "files_after_failure": [
+        "convert.stderr",
+        "convert.stdout",
+        "inspect.stderr",
+        "inspect.stdout",
+        "result.json"
+      ],
+      "output_or_staging_present": false
+    },
+    {
+      "source_sha256": "a286d812d9d1b8cc9b7e4f558bb945b115255159cfb2676e7f9c2b2b15d4f852",
+      "files_after_failure": [
+        "convert.stderr",
+        "convert.stdout",
+        "inspect.stderr",
+        "inspect.stdout",
+        "result.json"
+      ],
+      "output_or_staging_present": false
+    },
+    {
+      "source_sha256": "4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33",
+      "files_after_failure": [
+        "convert.stderr",
+        "convert.stdout",
+        "inspect.stderr",
+        "inspect.stdout",
+        "result.json"
+      ],
+      "output_or_staging_present": false
+    }
+  ]
+}

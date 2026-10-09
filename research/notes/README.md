@@ -206,3 +206,5 @@ regression rerun after that fix.
 - [Public SSE object-stream collection and continued web search](public-sse-collection-20261009.md)
 
 - [Recovered Archive.org 360-temp samples](archive-360-temp-20261009.md)
+
+- [Archive retries and NJU follow-up](archive-nju-followup-20261009.md): 12 new identities, seven conversions/580 pages, five retained failures and scoped source/runtime evidence.
