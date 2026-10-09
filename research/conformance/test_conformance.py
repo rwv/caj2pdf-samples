@@ -15,9 +15,10 @@ import unittest
 from unittest.mock import patch
 
 
-ROOT = Path(__file__).resolve().parents[2]
+ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 import conformance  # noqa: E402
+from generate_fixtures import pdf_objects, render_pdf  # noqa: E402
 
 
 def blob_oid(content: bytes) -> str:
@@ -292,7 +293,7 @@ class CorpusRunnerTests(unittest.TestCase):
         self.assertEqual(missing["inventory"]["status"], "PASS")
         self.assertEqual(missing["pdf"]["status"], "FAIL")
         self.assertEqual(missing["pdf"]["passed"], 0)
-        shutil.copyfile(ROOT / "tests/fixtures/valid_nested_outline.pdf", pdf_dir / "sample.pdf")
+        (pdf_dir / "sample.pdf").write_bytes(render_pdf(pdf_objects(), tuple(range(1, 12))))
         report = conformance.run(self.matrix, self.corpus, pdf_dir, "mutool")
         self.assertEqual(report["pdf"]["status"], "NOT_RUN", report["pdf"])
         self.assertEqual(report["pdf"]["passed"], 0)
@@ -513,7 +514,10 @@ class MatrixAndPdfTests(unittest.TestCase):
 
     @unittest.skipUnless(shutil.which("mutool"), "optional mutool integration test")
     def test_synthetic_pdf_checks_pages_outlines_destinations_and_render(self) -> None:
-        fixture = ROOT / "tests/fixtures/valid_nested_outline.pdf"
+        temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(temporary.cleanup)
+        fixture = Path(temporary.name) / "valid_nested_outline.pdf"
+        fixture.write_bytes(render_pdf(pdf_objects(), tuple(range(1, 12))))
         mutool = shutil.which("mutool")
         assert mutool is not None
         version = conformance.mutool_run(mutool, "-v").strip()

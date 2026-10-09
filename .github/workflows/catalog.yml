@@ -20,11 +20,13 @@ jobs:
       - name: Install external PDF tools for original controls
         run: |
           sudo apt-get update
-          sudo apt-get install --no-install-recommends -y poppler-utils qpdf qtbase5-dev libjpeg-dev g++
+          sudo apt-get install --no-install-recommends -y poppler-utils mupdf-tools qpdf qtbase5-dev libjpeg-dev g++
       - name: Test research identity parsers (no corpus download)
         env:
           PYTHONPATH: research/scripts
         run: |
+          python3 -m unittest discover -s research/conformance -p 'test_sample_catalog.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_conformance.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_hnc8_layout_source.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_native_text_order.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_current_format_order.py' -v

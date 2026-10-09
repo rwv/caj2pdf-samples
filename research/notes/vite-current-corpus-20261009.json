@@ -80207,5 +80207,33 @@
     "Full-corpus Chromium is cross-origin isolated; non-isolated coverage is the separate ten-control smoke, not another full-corpus run.",
     "Geodata additions are a separately verified five-source cohort, not inserted into this frozen run.",
     "No product release or optional-corpus skip is claimed as evidence."
-  ]
+  ],
+  "catalog_tooling_validation": {
+    "issue": "https://github.com/rwv/caj2pdf-samples/issues/104",
+    "catalog_tests": {
+      "tests": 7,
+      "passed": 7,
+      "skipped": 0
+    },
+    "conformance_tests": {
+      "tests": 21,
+      "passed": 21,
+      "skipped": 0
+    },
+    "original_nested_outline_pdf_sha256": "65860fd06efec902847585703f995c6e086d58faec43a5c1c2a681c657cde1f9",
+    "retained_logs": {
+      "catalog-path-before.log": "11c35c7641019e41ccb104b2fa03e1bab934d6068a245a7e702c38d17b8c0cba",
+      "catalog-path-after.log": "bdf430c48fb71bc319663f68ddc781cfc30dd24d4d12a07015e72170c3e73edd",
+      "conformance-path-after.log": "127afd5ed226568a780638bf44d06a9cc4c95b5dee3f0df9e606ea60d27b84c6",
+      "conformance-path-fixed.log": "d3820087ed193d1d31996b1b9b179c8b915cee363d631c4e3c2481c477adf66a",
+      "conformance-path-final.log": "2abdcc6e01c6cda6b336739cc7339ba7241104644d0d64f9ecac7b2de773adfa"
+    },
+    "attempts": [
+      "Existing catalog suite: four errors from the old default matrix path.",
+      "Broader conformance suite: two errors from absent pre-migration fixture paths.",
+      "Initial test edit: one AttributeError because the temporary fixture was set up in a different test class.",
+      "Final edit creates the original fixture only in each affected integration test; all seven and 21 tests pass without skips."
+    ],
+    "scope": "Original MIT tooling and existing fixture generator only; frozen conversion ledgers unchanged."
+  }
 }

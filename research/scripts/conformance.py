@@ -24,7 +24,7 @@ import time
 import xml.etree.ElementTree as ET
 
 
-DEFAULT_MATRIX = Path(__file__).resolve().parent.parent / "tests/conformance/matrix.json"
+DEFAULT_MATRIX = Path(__file__).resolve().parent.parent / "conformance/matrix.json"
 KNOWN_FORMATS = ("CAJ", "HN", "C8", "KDH", "PDF", "TEB")
 CHUNK_SIZE = 1024 * 1024
 HEX_SHA1 = re.compile(r"[0-9a-f]{40}\Z")

@@ -121,3 +121,20 @@ converter or proprietary implementation was read or copied. No documents,
 PDF bodies, fonts, decoded text, screenshots or response values are committed.
 This is a verification report and metadata receipt; it changes no conversion
 rule and publishes no release. #433's patch-release criterion remains open.
+
+## Catalog tooling check
+
+The final catalog-pin check exposed the migration path defect in
+[samples #104](https://github.com/rwv/caj2pdf-samples/issues/104): the default
+historical matrix still resolved under the old `tests/conformance` path.
+Four of seven existing catalog-preparation tests errored before conversion.
+The corrected path resolves the checked-in `research/conformance/matrix.json`;
+no historical outcomes or conversion rules change.
+
+The broader 21-test conformance suite also exposed two missing-fixture errors.
+Its two MuPDF integrations now generate the same tiny, original MIT nested-
+outline PDF using the existing repository generator in a temporary directory.
+Both suites fix their migrated script imports and run in Catalog CI, with
+MuPDF explicitly installed. All seven catalog-preparation and 21 conformance
+tests pass locally without skips. Earlier failure logs remain external. These
+controls do not add real-document conversion passes or change the frozen ledgers.
