@@ -163,3 +163,10 @@ route-dependent viewer rasters. `native_page_capture.py --route` records a
 bounded explicit navigation sequence. The
 [navigation report](notes/native-viewer-navigation-20261009.md) reproduces two
 completed rasters with unchanged inputs and keeps readiness/fidelity unclaimed.
+
+`pdf_source_preservation.py` acquires bounded external qpdf JSON/raw-stream
+inventories and checks selected objects, page/outline graphs and source framing.
+The [279-source report](notes/pdf-source-preservation-20261009.md) records 269
+scoped preservation results and ten explicitly unverified profiles. Original
+corruption/receipt/range controls run without the external corpus; object
+agreement is separate from source recovery completeness and visual fidelity.
