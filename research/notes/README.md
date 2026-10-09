@@ -34,6 +34,7 @@ See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for th
 
 | Note | Backs |
 | --- | --- |
+| [TEB certificate and opaque-field boundary](teb-credential-boundary-20261009.md) | Rust #468; public-certificate structure, bounded payload scans and remaining wrapping/credential uncertainty |
 | [TEB container and damaged-tail boundary](teb-container-boundary-20261009.md) | Rust #468/#469; corrected framing/CRCs, eight intact containers and one damaged attachment, offline opens and remaining recovery limits |
 | [Native glyph and ornament model verification](native-glyph-model-20261009.md) | samples #51; 83,432 glyphs and 212 ornament marks in both PDF sets; original-font/raster limits retained |
 | [Native vector geometry and painting order](native-vector-geometry-20261008.md) | samples #51; all 327 paths on 60 pages, with font/ornament/raster limits retained |

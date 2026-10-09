@@ -172,3 +172,8 @@ credentials and recovery of complete TEB documents remain open under #468.
 Native font/raster fidelity, unknown outlines and other exceptions also keep
 #406 open. No general irrecoverability conclusion, release or compatibility
 promotion follows from these measurements.
+
+The [certificate follow-up](teb-credential-boundary-20261009.md) subsequently
+identifies X.509/RSA public-key structure in the eight complete sources and
+records bounded opaque-field/payload probes. Actual wrapping and usable
+credentials remain unestablished; the earlier no-recovery boundary is unchanged.
