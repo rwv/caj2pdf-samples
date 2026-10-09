@@ -50,6 +50,14 @@ HN-A with 81 bookmarks. Full source correctness and general viewer readiness
 remain open under [Rust #406](https://github.com/rwv/caj2pdf-rust/issues/406)
 and [#441](https://github.com/rwv/caj2pdf-rust/issues/441).
 
+### PDF-family source preservation
+
+The [PDF-family source-preservation audit](research/notes/pdf-source-preservation-20261009.md)
+attempts all 279 accepted PDF/KDH/CAJ originals. It verifies selected-object,
+raw-stream and navigation scopes for 269 inputs, retaining ten profiles as
+NOT_VERIFIED. This adds evidence for 18,100 pages and 109,132 raw streams;
+it adds no conversion pass and does not establish complete visual fidelity.
+
 ### Earlier named-destination checkpoint
 
 The [named-destination report](research/notes/named-destinations-20261008.md)
