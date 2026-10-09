@@ -39,7 +39,7 @@ def source_vectors(source, page, variant, mode, origin, height):
             require(read_exact(source, at + 4, 4) == struct.pack('<HH', 0, 200),
                     'unmeasured color payload')
             gray = Fraction(0)
-        elif tag in (0x8006, 0x8007, 0x8090):
+        elif tag in (0x8006, 0x8007, 0x8008, 0x8090):
             require(size == 12, 'drawing record size')
             x, y, u, v = struct.unpack('<4H', read_exact(source, at + 4, 8))
             if tag == 0x8090:
@@ -53,7 +53,10 @@ def source_vectors(source, page, variant, mode, origin, height):
                 width, color = 4 * UNIT, gray
             else:
                 require((tag == 0x8006 and value in (0xa381, 0xa383, 0xa385, 0xa38b))
-                        or (variant == 'C8' and tag == 0x8007 and value in (0xa380, 0xa382)), 'segment style')
+                        or (variant == 'C8' and (tag, value) in ((0x8006, 0xa387), (0x8006, 0xa38d),
+                            (0x8007, 0xa380), (0x8007, 0xa382), (0x8008, 0xa380))), 'segment style')
+                if tag == 0x8008 or value in (0xa387, 0xa38d):
+                    require(all(word < 0x4000 for word in (x, y, u, v)), 'unmeasured segment flags')
                 require(mode == 2 or (variant == 'HN-B' and mode == 0
                                      and tag == 0x8006 and value == 0xa385), 'segment mode')
                 if value == 0xa385 and x & 0xc000 == 0xc000:

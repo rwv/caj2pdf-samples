@@ -105,7 +105,7 @@ def source_glyphs(source, page: dict, variant: str, mode: int, *, image_visitor=
                    and not (word[0] == 0xe000 and 2 * (i + 1) == len(payload))
                    for i, word in enumerate(struct.iter_unpack('<H', payload))):
                 raise ValueError("unmeasured encoded-string payload")
-        elif tag in (0x8006, 0x8007, 0x8010, 0x8090):
+        elif tag in (0x8006, 0x8007, 0x8010, 0x8090) or (variant, tag, value) == ('C8', 0x8008, 0xa380):
             size = 12
         elif tag == 0x800a and value == 0xd300:
             size = 28

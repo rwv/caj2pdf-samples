@@ -14,7 +14,7 @@ from source_image_geometry import UNIT, require
 EM = F(75, 301)
 STEPS = (21, 24, 28, 31, 35, 42, 48, 56, 63, 72, 84)
 LATIN_DOWN = (11, 10, 9, 9, 8, 6, 5, 3, 1, -1, -4)
-AXIS_DOWN = {4: 15, 22: 11, 28: 9, 34: 8, 36: 8, 38: 7, 40: 7, 43: 6}
+AXIS_DOWN = {1: 0, 4: 15, 22: 11, 28: 9, 34: 8, 36: 8, 38: 7, 40: 7, 43: 6}
 # Opening/closing parenthesis x, parenthesis down, square x/down.
 BRACKETS = ((18, 16, 3, 24, 1), (19, 18, 1, 27, -1), (22, 21, 0, 30, -3),
             (26, 25, -4, 36, -7), (30, 28, -7, 41, -10),
@@ -42,7 +42,7 @@ def dimensions(style, axes, mode, variant):
     if axes != (None, None):
         a, b = axes
         require(mode != 0 or axes == (36, 36), 'unmeasured legacy axes')
-        allowed = {4, 22, 34, 36, 38, 40} if variant == 'C8' else {28, 36, 43}
+        allowed = {1, 4, 22, 34, 36, 38, 40} if variant == 'C8' else {28, 36, 43}
         require(a in allowed and b in allowed, 'unmeasured variant axes')
         require((a == b and a in AXIS_DOWN) or (a in (28, 43) and b in (28, 43)),
                 'unmeasured glyph axes')
@@ -52,6 +52,8 @@ def dimensions(style, axes, mode, variant):
                           0x10a4, 0x10a5, 0x04e7, 0x0ce7, 0x154a), 'unmeasured legacy style')
         if style == 0:
             style = 0x1000
+    if style == 0x096b and variant == 'C8':
+        return 95 * EM, 95 * EM, 0  # Only the controlled CJK/symbol geometry.
     if style in (0xe58c, 0x114a, 0x154a, 0xb94c):
         return (109 if style == 0xe58c else 84) * EM, (109 if style in (0xe58c, 0xb94c) else 84) * EM, 0
     width, height = (style >> 5) & 31, style & 31
@@ -109,6 +111,8 @@ class Model:
             self.y = value
         elif tag == 0x8002:
             self.style, self.axes = value, (None, None)
+            if self.variant == 'C8':
+                self.style = {0x6084: 0x1084, 0x0508: 0x1108, 0x64c6: 0x10c6}.get(value, value)
         elif tag in (0x8070, 0x8071):
             axes = list(self.axes); axes[tag - 0x8070] = value; self.axes = tuple(axes)
         elif tag == 0x801d:
@@ -132,7 +136,7 @@ class Model:
         w, h, latin_down = dimensions(self.style, self.axes, self.mode, self.variant)
         if self.axes == (None, None) and self.style in (0xe58c, 0x114a, 0x154a, 0xb94c):
             require(0x3400 <= ord(char) <= 0x9fff, 'unmeasured title glyph class')
-            require(self.style != (0x114a if self.variant == 'C8' else 0xb94c), 'unmeasured title variant')
+            require(self.variant == 'C8' or self.style != 0xb94c, 'unmeasured title variant')
         if self.variant == 'HN-B' and code == 0xa6c2:
             require(self.mode == 2 and self.style == 0x10a5 and self.axes == (None, None), 'unmeasured beta style')
         left = (x - self.origin[0] + 20) * UNIT
@@ -196,6 +200,8 @@ class Model:
                 role, geometry = 'cjk', 'cjk'
             else:
                 raise ValueError(f'unmeasured source glyph class {code:04x}')
+            if self.style == 0x096b or self.axes == (1, 1):
+                require(geometry not in ('latin', 'punctuation'), 'unmeasured NJU Latin baseline')
             if geometry in ('latin', 'punctuation'):
                 top += (latin_down - 15) * UNIT
                 if geometry == 'latin':
@@ -250,7 +256,7 @@ def source_model(source, page, variant, mode, origin, height):
             rows.extend(ornaments); painting.extend('o' for _ in ornaments)
         elif tag in (0x800a, 0x810a):
             painting.append('i')
-        elif tag in (0x8006, 0x8007, 0x8090):
+        elif tag in (0x8006, 0x8007, 0x8008, 0x8090):
             painting.append('v')
         else:
             model.control(source, at, tag, value)

@@ -29623,14 +29623,15 @@
       "original_extension": ".caj",
       "redistribution": "not_declared",
       "local_integrity": "PASS",
-      "conversion": "FAIL",
+      "conversion": "PASS",
       "viewer": "NOT_RUN",
       "page_count": 5,
       "bookmark_count": null,
       "variant": "C8",
-      "conversion_revision": "56d7b7ba0b4da366b73ae842deccd33d207e507f",
-      "conversion_evidence": "research/notes/archive-nju-followup-20261009.json",
-      "source_notes": "Original acquired with verified Archive checksums or ZIP CRC/size/SHA-256. Unchanged source refuses across native/Node/Chromium; see rwv/caj2pdf-rust#513. JS streams 73 partial header bytes before error; browser caller removes OPFS output. This is neither a conversion nor zero-output pass."
+      "conversion_revision": "b32672796dd2c4bd374d172df3271dc64930b7a4",
+      "conversion_evidence": "research/notes/nju-native-profiles-20261009.json",
+      "source_notes": "Unchanged original passes native/Node/Chromium conversion with identical PDFs and independent per-page text, glyph/vector geometry and paint-order checks. Original marker-viewer observations are STABLE, not full font/raster fidelity. Source outlines remain unverified; bookmark_count stays null. Historical refusal is retained in archive-nju-followup-20261009.json.",
+      "output_sha256": "4960547bdf04507d5936c97cfe4c7cc9e98d76b68b537647cd1c0371144b6323"
     },
     {
       "path": "external/web/78bcceee7c667fe13352fa8f6540aae33c8b73eb3c3ac72f2601fbb59481c1de.caj",
@@ -29667,14 +29668,15 @@
       "original_extension": ".caj",
       "redistribution": "not_declared",
       "local_integrity": "PASS",
-      "conversion": "UNSUPPORTED",
+      "conversion": "PASS",
       "viewer": "NOT_RUN",
       "page_count": 7,
       "bookmark_count": null,
       "variant": "C8",
-      "conversion_revision": "56d7b7ba0b4da366b73ae842deccd33d207e507f",
-      "conversion_evidence": "research/notes/archive-nju-followup-20261009.json",
-      "source_notes": "Original acquired with verified Archive checksums or ZIP CRC/size/SHA-256. Unchanged source refuses across native/Node/Chromium; see rwv/caj2pdf-rust#514. JS streams 73 partial header bytes before error; browser caller removes OPFS output. This is neither a conversion nor zero-output pass."
+      "conversion_revision": "b32672796dd2c4bd374d172df3271dc64930b7a4",
+      "conversion_evidence": "research/notes/nju-native-profiles-20261009.json",
+      "source_notes": "Unchanged original passes native/Node/Chromium conversion with identical PDFs and independent per-page text, glyph/vector geometry and paint-order checks. Original marker-viewer observations are STABLE, not full font/raster fidelity. Source outlines remain unverified; bookmark_count stays null. Historical refusal is retained in archive-nju-followup-20261009.json.",
+      "output_sha256": "9354a6c5a2d6455eb0a6898cdd8b893ed8a99065964de1af35ca3516bde30cc4"
     },
     {
       "path": "external/web/4447375ea1b1adf0086721fde0fd26b31e9d661bd70c2aff259872150d5b8a33.caj",
@@ -29689,14 +29691,15 @@
       "original_extension": ".caj",
       "redistribution": "not_declared",
       "local_integrity": "PASS",
-      "conversion": "FAIL",
+      "conversion": "PASS",
       "viewer": "NOT_RUN",
       "page_count": 5,
       "bookmark_count": null,
       "variant": "C8",
-      "conversion_revision": "56d7b7ba0b4da366b73ae842deccd33d207e507f",
-      "conversion_evidence": "research/notes/archive-nju-followup-20261009.json",
-      "source_notes": "Original acquired with verified Archive checksums or ZIP CRC/size/SHA-256. Unchanged source refuses across native/Node/Chromium; see rwv/caj2pdf-rust#513. JS streams 73 partial header bytes before error; browser caller removes OPFS output. This is neither a conversion nor zero-output pass."
+      "conversion_revision": "b32672796dd2c4bd374d172df3271dc64930b7a4",
+      "conversion_evidence": "research/notes/nju-native-profiles-20261009.json",
+      "source_notes": "Unchanged original passes native/Node/Chromium conversion with identical PDFs and independent per-page text, glyph/vector geometry and paint-order checks. Original marker-viewer observations are STABLE, not full font/raster fidelity. Source outlines remain unverified; bookmark_count stays null. Historical refusal is retained in archive-nju-followup-20261009.json.",
+      "output_sha256": "05ae0f4a7ea51660478c5d85e1b7dea51addf725a92e662d534f8b89be68f001"
     }
   ]
 }
