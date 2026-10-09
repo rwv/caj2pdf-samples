@@ -31,7 +31,7 @@ that a permissive certificate reader might otherwise ignore.
 | `rights` | Canonical base64, 496 decoded bytes |
 
 Each of those four decoded fields has eight distinct values across the cohort.
-No values, certificate identities/subjects, key integers or rights URLs enter
+No field values, certificate bodies/subjects, RSA moduli or rights URLs enter
 this report. Parsing the certificate's public key does not validate its
 signature, trust, validity, ownership or authorization. A certificate is not
 itself a demonstrated document credential. Field names and encoded lengths
