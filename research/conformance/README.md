@@ -565,3 +565,10 @@ original page-ID decoding tests. All 18 external sessions and both earlier
 state-check rejection sets are retained. Decoding an authored black/white
 marker at midpoint 128 never relaxes the separate exact pixel comparison;
 the interpolation experiment adds no corpus compatibility pass.
+
+The [JPEG round-trip investigation](../notes/viewer-jpeg-roundtrip-20261009.md)
+adds original public-API forwarding, hash, ABI, resource-bound and process/
+lifecycle controls to CI. Distinct original inputs can produce identical
+lossy outputs; exact JPEG equality cannot replace original-content evidence.
+The 12-session external report retains both observer versions and initial
+codec-analysis rejections, without a general readiness or corpus-pass claim.
