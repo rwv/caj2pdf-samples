@@ -1,5 +1,10 @@
 # Research notes
 
+The [public TTKN response follow-up](public-ttkn-response-20261009.md) adds one
+new protected source, three-runtime refusals and controlled offline observations.
+The disclosed response does not demonstrate recovery; all attempts and the
+additional bounded web/Wayback search remain explicit.
+
 The [public-web source correctness follow-up](public-web-correctness-20261009.md)
 adds complete HN/C8 bitmap/geometry checks, KDH preservation, C8 contents-panel
 observations and framing evidence for the seven unresolved PDF content defects.
