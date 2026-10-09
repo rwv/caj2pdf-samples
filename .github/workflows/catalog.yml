@@ -45,6 +45,7 @@ jobs:
           python3 -m pip install 'Pillow==11.1.0' 'numpy==2.2.4' 'scipy==1.15.2' 'PyMuPDF==1.27.2.2' 'fonttools==4.62.1'
           python3 -m unittest discover -s research/conformance -p 'test_native_composition_inventory.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_native_page_capture.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_native_navigation_controls.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_native_raster_comparison.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_composition_marker_fonts.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_native_glyph_geometry.py' -v

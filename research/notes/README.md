@@ -171,3 +171,5 @@ regression rerun after that fix.
 - [Current complete corpus runtime checkpoint](current-corpus-runtime-20261008.md): all 1,252 accepted inputs match the reviewed native output on Node and Chromium; all 45 remaining inputs receive explicit refusal/cleanup checks on all three runtimes.
 - [Expanded C8/HN-B outline inventory](hnc8-outline-inventory-20261008.md): 849 structural inventories, six selected contents-panel observations and correction of the historical 132-page HN-A example; no verified C8/HN-B outline layout.
 - [Source page and ordered image geometry](source-image-geometry-20261008.md): 973 accepted HN/C8/NH originals, 16,548 pages, independent bitmap/resource bindings and fresh NH bitmap evidence; native glyph/vector placement and complete rendering remain separate.
+
+- [Original native viewer navigation controls](native-viewer-navigation-20261009.md): page-count/index controls reproduce differing completed rasters; index swaps distinguish preceding content from navigation position. No readiness or fidelity pass.

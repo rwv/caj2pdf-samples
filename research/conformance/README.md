@@ -542,3 +542,8 @@ content hash; new documents start with unknown expectations. No current pass is
 inferred from catalog inspection metadata. The generated matrix is temporary
 adapter data, not a second committed catalog. Updating the pin requires reviewing
 the catalog diff and updating both constants in `scripts/sample_catalog.py`.
+
+The [original native navigation controls](../notes/native-viewer-navigation-20261009.md)
+add corpus-free framing/content/limit tests and preflight checks for explicit
+capture routes. Viewer results remain a separate opt-in receipt: two equal
+cached captures are not counted as readiness or document fidelity.

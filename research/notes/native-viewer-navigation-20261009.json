@@ -1,0 +1,2622 @@
+{
+  "schema": 1,
+  "issue": "rwv/caj2pdf-samples#59",
+  "related": [
+    "rwv/caj2pdf-samples#51",
+    "rwv/caj2pdf-rust#441",
+    "rwv/caj2pdf-rust#406"
+  ],
+  "scope": "Original controls reproduce route-dependent completed rasters. No converter defect, readiness rule, pixel tolerance or corpus fidelity pass is established.",
+  "image": "sha256:cb5049d3448b6d5bcfd371cf195d522d637869dce075cb1650d74198875171de",
+  "inputs": [
+    {
+      "file": "original-5-pages-12-index.caj",
+      "sha256": "753a632bcbaa19b34691c779a0b445b46f934b199042f9fdf39c5d5bb1cf3005",
+      "bytes": 13556,
+      "pages": 5,
+      "index_bytes": 12,
+      "target_text_sha256": "d724b1caf8ffba96c0d5e685c3893c522a55d28df09665448d5558a6a11bb6c2"
+    },
+    {
+      "file": "original-5-pages-20-index.caj",
+      "sha256": "aea98f48dc26e1338d20489cebc318d80be210e0a47e14f8d34c828b01fb6cf5",
+      "bytes": 13596,
+      "pages": 5,
+      "index_bytes": 20,
+      "target_text_sha256": "d724b1caf8ffba96c0d5e685c3893c522a55d28df09665448d5558a6a11bb6c2"
+    },
+    {
+      "file": "original-6-pages-12-index.caj",
+      "sha256": "6da05ad21dcba76881d9a8db73c4865f23e469c716b2251599bedcc9204617c0",
+      "bytes": 20172,
+      "pages": 6,
+      "index_bytes": 12,
+      "target_text_sha256": "d724b1caf8ffba96c0d5e685c3893c522a55d28df09665448d5558a6a11bb6c2"
+    },
+    {
+      "file": "original-6-pages-20-index.caj",
+      "sha256": "bead181d6bce457eda7ed430d3cbf7d59370da662bd8b1c02f8bd91e1a57c460",
+      "bytes": 20220,
+      "pages": 6,
+      "index_bytes": 20,
+      "target_text_sha256": "d724b1caf8ffba96c0d5e685c3893c522a55d28df09665448d5558a6a11bb6c2"
+    },
+    {
+      "file": "original-12-pages-12-index.caj",
+      "sha256": "a6fec7c06e86be79923571944c46954dc3e96146df66494dc5bcb95a33389314",
+      "bytes": 59952,
+      "pages": 12,
+      "index_bytes": 12,
+      "target_text_sha256": "d724b1caf8ffba96c0d5e685c3893c522a55d28df09665448d5558a6a11bb6c2"
+    },
+    {
+      "file": "original-12-pages-20-index.caj",
+      "sha256": "c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "bytes": 60048,
+      "pages": 12,
+      "index_bytes": 20,
+      "target_text_sha256": "d724b1caf8ffba96c0d5e685c3893c522a55d28df09665448d5558a6a11bb6c2"
+    }
+  ],
+  "comparisons": [
+    {
+      "pages": 5,
+      "index_bytes": 12,
+      "direct_page5_png_sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68",
+      "prior3_page5_png_sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68",
+      "changed_pixels": 0,
+      "channel_delta_range": [
+        0,
+        0
+      ],
+      "bounds_exclusive": null,
+      "grayscale_differences": true
+    },
+    {
+      "pages": 5,
+      "index_bytes": 20,
+      "direct_page5_png_sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68",
+      "prior3_page5_png_sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68",
+      "changed_pixels": 0,
+      "channel_delta_range": [
+        0,
+        0
+      ],
+      "bounds_exclusive": null,
+      "grayscale_differences": true
+    },
+    {
+      "pages": 6,
+      "index_bytes": 12,
+      "direct_page5_png_sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68",
+      "prior3_page5_png_sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677",
+      "changed_pixels": 29877,
+      "channel_delta_range": [
+        -2,
+        2
+      ],
+      "bounds_exclusive": [
+        32,
+        40,
+        880,
+        1392
+      ],
+      "grayscale_differences": true
+    },
+    {
+      "pages": 6,
+      "index_bytes": 20,
+      "direct_page5_png_sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68",
+      "prior3_page5_png_sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677",
+      "changed_pixels": 29877,
+      "channel_delta_range": [
+        -2,
+        2
+      ],
+      "bounds_exclusive": [
+        32,
+        40,
+        880,
+        1392
+      ],
+      "grayscale_differences": true
+    },
+    {
+      "pages": 12,
+      "index_bytes": 12,
+      "direct_page5_png_sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68",
+      "prior3_page5_png_sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677",
+      "changed_pixels": 29877,
+      "channel_delta_range": [
+        -2,
+        2
+      ],
+      "bounds_exclusive": [
+        32,
+        40,
+        880,
+        1392
+      ],
+      "grayscale_differences": true
+    },
+    {
+      "pages": 12,
+      "index_bytes": 20,
+      "direct_page5_png_sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68",
+      "prior3_page5_png_sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677",
+      "changed_pixels": 29877,
+      "channel_delta_range": [
+        -2,
+        2
+      ],
+      "bounds_exclusive": [
+        32,
+        40,
+        880,
+        1392
+      ],
+      "grayscale_differences": true
+    }
+  ],
+  "counterbalanced_repeats": [
+    {
+      "run": "prior3-repeat",
+      "reference": "prior3",
+      "same_page5_raster": false,
+      "reference_sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677",
+      "repeat_sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68",
+      "changed_pixels": 29877,
+      "channel_delta_range": [
+        -2,
+        2
+      ],
+      "bounds_exclusive": [
+        32,
+        40,
+        880,
+        1392
+      ],
+      "grayscale_differences": true
+    },
+    {
+      "run": "direct-repeat",
+      "reference": "direct",
+      "same_page5_raster": true,
+      "reference_sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68",
+      "repeat_sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68",
+      "changed_pixels": 0,
+      "channel_delta_range": [
+        0,
+        0
+      ],
+      "bounds_exclusive": null,
+      "grayscale_differences": true
+    }
+  ],
+  "final_sessions": [
+    {
+      "run": "direct",
+      "source_sha256": "753a632bcbaa19b34691c779a0b445b46f934b199042f9fdf39c5d5bb1cf3005",
+      "route": [
+        5
+      ],
+      "pages": [
+        {
+          "page": 5,
+          "first": {
+            "field": "5/5",
+            "zoom": "150%",
+            "frame_sha256": "2f69e27cbf7d9bce828ce30014292355a8eb1a4a8b86e6f24efabfd5b2cf3659",
+            "trace_last_event": 317,
+            "pixmap": {
+              "event": 309,
+              "cache_key": "000004b500000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b500000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "second": {
+            "field": "5/5",
+            "zoom": "150%",
+            "frame_sha256": "2f69e27cbf7d9bce828ce30014292355a8eb1a4a8b86e6f24efabfd5b2cf3659",
+            "trace_last_event": 317,
+            "pixmap": {
+              "event": 309,
+              "cache_key": "000004b500000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b500000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 303677440,
+      "launch_sha256": "2a10a21e8330d86b7da2ebe538f2d5ebf44d2f8850e5cc75fd22cae3e7ff9bf4",
+      "actions_sha256": "550f30dcd593a51be95d8fcd035cf2a2e5ff6d41f737e3097b3eeb5d0c849869",
+      "closing_sha256": "8f0b347a362d601e6a9f666a3ce1bdeb03402fa0191d18840e0368f2da8c319b"
+    },
+    {
+      "run": "prior3",
+      "source_sha256": "753a632bcbaa19b34691c779a0b445b46f934b199042f9fdf39c5d5bb1cf3005",
+      "route": [
+        3,
+        5
+      ],
+      "pages": [
+        {
+          "page": 3,
+          "first": {
+            "field": "3/5",
+            "zoom": "150%",
+            "frame_sha256": "da2df77c59bac56fbbc0722d6f4b805713f3310d3d072966bbb33d69ecec2e64",
+            "trace_last_event": 318,
+            "pixmap": {
+              "event": 310,
+              "cache_key": "000004b200000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b200000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "second": {
+            "field": "3/5",
+            "zoom": "150%",
+            "frame_sha256": "da2df77c59bac56fbbc0722d6f4b805713f3310d3d072966bbb33d69ecec2e64",
+            "trace_last_event": 318,
+            "pixmap": {
+              "event": 310,
+              "cache_key": "000004b200000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b200000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "status": "STABLE"
+        },
+        {
+          "page": 5,
+          "first": {
+            "field": "5/5",
+            "zoom": "150%",
+            "frame_sha256": "2f69e27cbf7d9bce828ce30014292355a8eb1a4a8b86e6f24efabfd5b2cf3659",
+            "trace_last_event": 384,
+            "pixmap": {
+              "event": 376,
+              "cache_key": "0000053a00000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000053a00000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "second": {
+            "field": "5/5",
+            "zoom": "150%",
+            "frame_sha256": "2f69e27cbf7d9bce828ce30014292355a8eb1a4a8b86e6f24efabfd5b2cf3659",
+            "trace_last_event": 384,
+            "pixmap": {
+              "event": 376,
+              "cache_key": "0000053a00000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000053a00000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 314118144,
+      "launch_sha256": "81d6c974bf8d28b07224788dec345bf7c9cdd7ea70df4a9accfc1d920c7db495",
+      "actions_sha256": "d68a67228d8ce63a1fdf80efa41dc9fac3894c7b4697398a0045ad443014226e",
+      "closing_sha256": "b5f5a23a48ad75a7df614a30f017a0d464a6640ab0344afd3a91370051a9886a"
+    },
+    {
+      "run": "direct",
+      "source_sha256": "aea98f48dc26e1338d20489cebc318d80be210e0a47e14f8d34c828b01fb6cf5",
+      "route": [
+        5
+      ],
+      "pages": [
+        {
+          "page": 5,
+          "first": {
+            "field": "5/5",
+            "zoom": "150%",
+            "frame_sha256": "2f69e27cbf7d9bce828ce30014292355a8eb1a4a8b86e6f24efabfd5b2cf3659",
+            "trace_last_event": 317,
+            "pixmap": {
+              "event": 309,
+              "cache_key": "000004b500000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b500000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "second": {
+            "field": "5/5",
+            "zoom": "150%",
+            "frame_sha256": "2f69e27cbf7d9bce828ce30014292355a8eb1a4a8b86e6f24efabfd5b2cf3659",
+            "trace_last_event": 317,
+            "pixmap": {
+              "event": 309,
+              "cache_key": "000004b500000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b500000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 302923776,
+      "launch_sha256": "8f2f29f15b044893ccf2097a334bb6cda7310b43faef77e6ad0612e982160d6c",
+      "actions_sha256": "c5a66f8c5c3c72fd6e051a40c532b3d87021fe62f2247a6991c627f9c1d1b63c",
+      "closing_sha256": "2cbd540c3af32695b8c7d223b25648e51be3b9dcb9d1c5af249ef9621d102380"
+    },
+    {
+      "run": "prior3",
+      "source_sha256": "aea98f48dc26e1338d20489cebc318d80be210e0a47e14f8d34c828b01fb6cf5",
+      "route": [
+        3,
+        5
+      ],
+      "pages": [
+        {
+          "page": 3,
+          "first": {
+            "field": "3/5",
+            "zoom": "150%",
+            "frame_sha256": "da2df77c59bac56fbbc0722d6f4b805713f3310d3d072966bbb33d69ecec2e64",
+            "trace_last_event": 314,
+            "pixmap": {
+              "event": 306,
+              "cache_key": "000004a900000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004a900000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "second": {
+            "field": "3/5",
+            "zoom": "150%",
+            "frame_sha256": "da2df77c59bac56fbbc0722d6f4b805713f3310d3d072966bbb33d69ecec2e64",
+            "trace_last_event": 314,
+            "pixmap": {
+              "event": 306,
+              "cache_key": "000004a900000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004a900000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "status": "STABLE"
+        },
+        {
+          "page": 5,
+          "first": {
+            "field": "5/5",
+            "zoom": "150%",
+            "frame_sha256": "2f69e27cbf7d9bce828ce30014292355a8eb1a4a8b86e6f24efabfd5b2cf3659",
+            "trace_last_event": 380,
+            "pixmap": {
+              "event": 372,
+              "cache_key": "0000053100000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000053100000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "second": {
+            "field": "5/5",
+            "zoom": "150%",
+            "frame_sha256": "2f69e27cbf7d9bce828ce30014292355a8eb1a4a8b86e6f24efabfd5b2cf3659",
+            "trace_last_event": 380,
+            "pixmap": {
+              "event": 372,
+              "cache_key": "0000053100000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000053100000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 314187776,
+      "launch_sha256": "883c6b104969ebee8c65e65b1f9d64f5881daf3192d2e5a6a82ac2202ed5d1d5",
+      "actions_sha256": "173c11b9b2337ac0ec719fa2d001362e9e79eefe6156422b5ad49b5b2e7b0648",
+      "closing_sha256": "2f8c643debd923361d9f44a8ca6e00a7b4f46bd1a3e8cb4452a0168aa4ff6606"
+    },
+    {
+      "run": "direct",
+      "source_sha256": "6da05ad21dcba76881d9a8db73c4865f23e469c716b2251599bedcc9204617c0",
+      "route": [
+        5
+      ],
+      "pages": [
+        {
+          "page": 5,
+          "first": {
+            "field": "5/6",
+            "zoom": "150%",
+            "frame_sha256": "75ef8409568be7668fee746791736db3ce27ff1f22873fb19c7f3e2d57d9875e",
+            "trace_last_event": 322,
+            "pixmap": {
+              "event": 314,
+              "cache_key": "000004b700000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b700000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "second": {
+            "field": "5/6",
+            "zoom": "150%",
+            "frame_sha256": "75ef8409568be7668fee746791736db3ce27ff1f22873fb19c7f3e2d57d9875e",
+            "trace_last_event": 322,
+            "pixmap": {
+              "event": 314,
+              "cache_key": "000004b700000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b700000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 300548096,
+      "launch_sha256": "c99490dbc20158392b93e1f7aeb3c98eb18bd41841f5b038132177172325a195",
+      "actions_sha256": "3c520ce225dd4c666f79b7b017cee3b753609be1a43a199b9e3bd75c6c3a31f7",
+      "closing_sha256": "dd400de91a01b177e5c434b8ddbc92906ecb27e90878099d1266f82ec677e2bc"
+    },
+    {
+      "run": "prior3",
+      "source_sha256": "6da05ad21dcba76881d9a8db73c4865f23e469c716b2251599bedcc9204617c0",
+      "route": [
+        3,
+        5
+      ],
+      "pages": [
+        {
+          "page": 3,
+          "first": {
+            "field": "3/6",
+            "zoom": "150%",
+            "frame_sha256": "ec66e62f29a0471151d57f7967f9123944e33ccaccd439bf90d6c45aa853c00b",
+            "trace_last_event": 320,
+            "pixmap": {
+              "event": 312,
+              "cache_key": "000004b200000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b200000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "second": {
+            "field": "3/6",
+            "zoom": "150%",
+            "frame_sha256": "ec66e62f29a0471151d57f7967f9123944e33ccaccd439bf90d6c45aa853c00b",
+            "trace_last_event": 320,
+            "pixmap": {
+              "event": 312,
+              "cache_key": "000004b200000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b200000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "status": "STABLE"
+        },
+        {
+          "page": 5,
+          "first": {
+            "field": "5/6",
+            "zoom": "150%",
+            "frame_sha256": "b0caaae873e7df97588ea7046cc19b94da3faaab95ca82b800b10fdfa16f76bb",
+            "trace_last_event": 382,
+            "pixmap": {
+              "event": 374,
+              "cache_key": "0000052f00000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000052f00000000.png",
+              "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+            }
+          },
+          "second": {
+            "field": "5/6",
+            "zoom": "150%",
+            "frame_sha256": "b0caaae873e7df97588ea7046cc19b94da3faaab95ca82b800b10fdfa16f76bb",
+            "trace_last_event": 382,
+            "pixmap": {
+              "event": 374,
+              "cache_key": "0000052f00000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000052f00000000.png",
+              "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 321781760,
+      "launch_sha256": "3d60d9785e4f14269c54b07be7d66f240b2587c80f4ce1d5ca40c69546202ae2",
+      "actions_sha256": "d55f861298234650a6136cdce34517dfc7e1bc60a6a8f39ac1f63daf19b3aaad",
+      "closing_sha256": "44e5d9244bb6946a36e4f5908a974850bc27a46df9ef193a56126a24553b4379"
+    },
+    {
+      "run": "direct",
+      "source_sha256": "bead181d6bce457eda7ed430d3cbf7d59370da662bd8b1c02f8bd91e1a57c460",
+      "route": [
+        5
+      ],
+      "pages": [
+        {
+          "page": 5,
+          "first": {
+            "field": "5/6",
+            "zoom": "150%",
+            "frame_sha256": "75ef8409568be7668fee746791736db3ce27ff1f22873fb19c7f3e2d57d9875e",
+            "trace_last_event": 312,
+            "pixmap": {
+              "event": 304,
+              "cache_key": "000004ac00000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004ac00000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "second": {
+            "field": "5/6",
+            "zoom": "150%",
+            "frame_sha256": "75ef8409568be7668fee746791736db3ce27ff1f22873fb19c7f3e2d57d9875e",
+            "trace_last_event": 312,
+            "pixmap": {
+              "event": 304,
+              "cache_key": "000004ac00000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004ac00000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 303652864,
+      "launch_sha256": "ecdd857c5985d001d99b643a65f648f96a93dadb04e5e3d4a02c62e600f36622",
+      "actions_sha256": "c84515af7fd7f77bb6a8382c08eba966e90d1f1437ac27b2c1bba8c767028143",
+      "closing_sha256": "f861ed6d771f57d11f34d7b4c3878c9d92e5380080cc8ab7514b61106746a3ba"
+    },
+    {
+      "run": "prior3",
+      "source_sha256": "bead181d6bce457eda7ed430d3cbf7d59370da662bd8b1c02f8bd91e1a57c460",
+      "route": [
+        3,
+        5
+      ],
+      "pages": [
+        {
+          "page": 3,
+          "first": {
+            "field": "3/6",
+            "zoom": "150%",
+            "frame_sha256": "ec66e62f29a0471151d57f7967f9123944e33ccaccd439bf90d6c45aa853c00b",
+            "trace_last_event": 311,
+            "pixmap": {
+              "event": 303,
+              "cache_key": "000004a700000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004a700000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "second": {
+            "field": "3/6",
+            "zoom": "150%",
+            "frame_sha256": "ec66e62f29a0471151d57f7967f9123944e33ccaccd439bf90d6c45aa853c00b",
+            "trace_last_event": 311,
+            "pixmap": {
+              "event": 303,
+              "cache_key": "000004a700000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004a700000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "status": "STABLE"
+        },
+        {
+          "page": 5,
+          "first": {
+            "field": "5/6",
+            "zoom": "150%",
+            "frame_sha256": "b0caaae873e7df97588ea7046cc19b94da3faaab95ca82b800b10fdfa16f76bb",
+            "trace_last_event": 373,
+            "pixmap": {
+              "event": 365,
+              "cache_key": "0000052400000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000052400000000.png",
+              "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+            }
+          },
+          "second": {
+            "field": "5/6",
+            "zoom": "150%",
+            "frame_sha256": "b0caaae873e7df97588ea7046cc19b94da3faaab95ca82b800b10fdfa16f76bb",
+            "trace_last_event": 373,
+            "pixmap": {
+              "event": 365,
+              "cache_key": "0000052400000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000052400000000.png",
+              "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 322482176,
+      "launch_sha256": "9a04564db0b7fc7210c24602fa351f2a51bb0fd9ca93e0361abf603e8db12f83",
+      "actions_sha256": "3297109900f532504c4a62c6adec1c48f553421ed5effbcd2515637a3869f2ed",
+      "closing_sha256": "048584ddf75f39619bf70d24820c79f716829e62dc660033856d104c5584cb5f"
+    },
+    {
+      "run": "direct",
+      "source_sha256": "a6fec7c06e86be79923571944c46954dc3e96146df66494dc5bcb95a33389314",
+      "route": [
+        5
+      ],
+      "pages": [
+        {
+          "page": 5,
+          "first": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "50f61fefd8e1a670391521f3124563659e78354191f3522a17549e6ac5f023ee",
+            "trace_last_event": 322,
+            "pixmap": {
+              "event": 314,
+              "cache_key": "000004b700000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b700000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "second": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "50f61fefd8e1a670391521f3124563659e78354191f3522a17549e6ac5f023ee",
+            "trace_last_event": 322,
+            "pixmap": {
+              "event": 314,
+              "cache_key": "000004b700000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b700000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 311468032,
+      "launch_sha256": "5f691e40d99726628c4af91a6bdffde4fd9426bd9d17661d3031370353e3c974",
+      "actions_sha256": "b13dd37903442e4b998f8e74d7a504d599ea5370acdef0a1724c5dbe15991e1a",
+      "closing_sha256": "66f37ac9f67ca285ba0d80c0c960e8d52075a577b758a028bfe3f882435c5236"
+    },
+    {
+      "run": "prior3",
+      "source_sha256": "a6fec7c06e86be79923571944c46954dc3e96146df66494dc5bcb95a33389314",
+      "route": [
+        3,
+        5
+      ],
+      "pages": [
+        {
+          "page": 3,
+          "first": {
+            "field": "3/12",
+            "zoom": "150%",
+            "frame_sha256": "1cc33f570d3e2268075b0dfd22522a135831df8e644343acb219959beead8390",
+            "trace_last_event": 317,
+            "pixmap": {
+              "event": 309,
+              "cache_key": "000004af00000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004af00000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "second": {
+            "field": "3/12",
+            "zoom": "150%",
+            "frame_sha256": "1cc33f570d3e2268075b0dfd22522a135831df8e644343acb219959beead8390",
+            "trace_last_event": 317,
+            "pixmap": {
+              "event": 309,
+              "cache_key": "000004af00000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004af00000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "status": "STABLE"
+        },
+        {
+          "page": 5,
+          "first": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "f46709325191c3badee701697b8f507bdc21d230c5531f505d63d8416f27d832",
+            "trace_last_event": 379,
+            "pixmap": {
+              "event": 371,
+              "cache_key": "0000052c00000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000052c00000000.png",
+              "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+            }
+          },
+          "second": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "f46709325191c3badee701697b8f507bdc21d230c5531f505d63d8416f27d832",
+            "trace_last_event": 379,
+            "pixmap": {
+              "event": 371,
+              "cache_key": "0000052c00000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000052c00000000.png",
+              "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 326545408,
+      "launch_sha256": "06457ebf0a397e90533f9fdf82c9b72d9eae44d8fd306fbc06cc82649f3e768c",
+      "actions_sha256": "1fe67931305a8929feba7882c31fb52c7a2890b5d747cbb5078dfa5f36096919",
+      "closing_sha256": "7348713100d1c102621a9fd83e16d13ccf4fe1fa12a231b92f3053f6a59c052b"
+    },
+    {
+      "run": "direct",
+      "source_sha256": "c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "route": [
+        5
+      ],
+      "pages": [
+        {
+          "page": 5,
+          "first": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "50f61fefd8e1a670391521f3124563659e78354191f3522a17549e6ac5f023ee",
+            "trace_last_event": 319,
+            "pixmap": {
+              "event": 311,
+              "cache_key": "000004b400000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b400000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "second": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "50f61fefd8e1a670391521f3124563659e78354191f3522a17549e6ac5f023ee",
+            "trace_last_event": 319,
+            "pixmap": {
+              "event": 311,
+              "cache_key": "000004b400000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b400000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 312352768,
+      "launch_sha256": "88a6a4d0a36532ac231bf7412e61e026aa1a791e7bca4cdfdfb13754b14ee342",
+      "actions_sha256": "a2a99e2354c6f66d3a31289b17de4eca990a137f0881e859717a85fe197a26d5",
+      "closing_sha256": "11bdd360d1d4d6d0b3607b9d6d59b3a0e43053bd8c01cd1f4f23f4773233bd6f"
+    },
+    {
+      "run": "prior3",
+      "source_sha256": "c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "route": [
+        3,
+        5
+      ],
+      "pages": [
+        {
+          "page": 3,
+          "first": {
+            "field": "3/12",
+            "zoom": "150%",
+            "frame_sha256": "1cc33f570d3e2268075b0dfd22522a135831df8e644343acb219959beead8390",
+            "trace_last_event": 313,
+            "pixmap": {
+              "event": 305,
+              "cache_key": "000004a900000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004a900000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "second": {
+            "field": "3/12",
+            "zoom": "150%",
+            "frame_sha256": "1cc33f570d3e2268075b0dfd22522a135831df8e644343acb219959beead8390",
+            "trace_last_event": 313,
+            "pixmap": {
+              "event": 305,
+              "cache_key": "000004a900000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004a900000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "status": "STABLE"
+        },
+        {
+          "page": 5,
+          "first": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "f46709325191c3badee701697b8f507bdc21d230c5531f505d63d8416f27d832",
+            "trace_last_event": 375,
+            "pixmap": {
+              "event": 367,
+              "cache_key": "0000052600000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000052600000000.png",
+              "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+            }
+          },
+          "second": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "f46709325191c3badee701697b8f507bdc21d230c5531f505d63d8416f27d832",
+            "trace_last_event": 375,
+            "pixmap": {
+              "event": 367,
+              "cache_key": "0000052600000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000052600000000.png",
+              "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 326914048,
+      "launch_sha256": "acb7e6667181f95b5d1c1247d807041885f5af559cf695697cc0527e14e6fd20",
+      "actions_sha256": "6599fb51bf4adf19584d1bdafc4e57ddc915f5d4ea13cf0029a1879873d8f920",
+      "closing_sha256": "835296ea055811efe1e6520f93ac0c5d6333cdc89c21501a2f63bf44c88106c0"
+    },
+    {
+      "run": "prior3-repeat",
+      "source_sha256": "c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "route": [
+        3,
+        5
+      ],
+      "pages": [
+        {
+          "page": 3,
+          "first": {
+            "field": "3/12",
+            "zoom": "150%",
+            "frame_sha256": "1cc33f570d3e2268075b0dfd22522a135831df8e644343acb219959beead8390",
+            "trace_last_event": 311,
+            "pixmap": {
+              "event": 303,
+              "cache_key": "000004a600000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004a600000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "second": {
+            "field": "3/12",
+            "zoom": "150%",
+            "frame_sha256": "1cc33f570d3e2268075b0dfd22522a135831df8e644343acb219959beead8390",
+            "trace_last_event": 311,
+            "pixmap": {
+              "event": 303,
+              "cache_key": "000004a600000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004a600000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "status": "STABLE"
+        },
+        {
+          "page": 5,
+          "first": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "50f61fefd8e1a670391521f3124563659e78354191f3522a17549e6ac5f023ee",
+            "trace_last_event": 373,
+            "pixmap": {
+              "event": 365,
+              "cache_key": "0000052300000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000052300000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "second": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "50f61fefd8e1a670391521f3124563659e78354191f3522a17549e6ac5f023ee",
+            "trace_last_event": 373,
+            "pixmap": {
+              "event": 365,
+              "cache_key": "0000052300000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000052300000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 327081984,
+      "launch_sha256": "ec20050528f07027249ec43e3f41deba63e7eb1d7bad4a9a37615614d5dbb28d",
+      "actions_sha256": "2da928c671d5309aebab29480d3cbc53bdb5bf86e376762defc16421df43f068",
+      "closing_sha256": "61170eff7c80620603183093830d52a664ffee85e7e597a8c181a41caaf25782"
+    },
+    {
+      "run": "direct-repeat",
+      "source_sha256": "c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "route": [
+        5
+      ],
+      "pages": [
+        {
+          "page": 5,
+          "first": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "50f61fefd8e1a670391521f3124563659e78354191f3522a17549e6ac5f023ee",
+            "trace_last_event": 318,
+            "pixmap": {
+              "event": 310,
+              "cache_key": "000004b200000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b200000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "second": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "50f61fefd8e1a670391521f3124563659e78354191f3522a17549e6ac5f023ee",
+            "trace_last_event": 318,
+            "pixmap": {
+              "event": 310,
+              "cache_key": "000004b200000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b200000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 311205888,
+      "launch_sha256": "3f2a45721570c36cc2fe374680a54b7235d6db604eaece4bf095c047ac2988b9",
+      "actions_sha256": "7657aca6e5bbb3873f9ec919dbd5617948e73ecc1eddc1e2f60e22a0bceda0ea",
+      "closing_sha256": "33150ae120e3b2d1278d716786c6e33740d9f1a5b87b41d9aa0ed29d3d91373c"
+    }
+  ],
+  "discovery_sessions": [
+    {
+      "run": "interior-direct",
+      "source_sha256": "c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "route": [
+        5
+      ],
+      "pages": [
+        {
+          "page": 5,
+          "first": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "50f61fefd8e1a670391521f3124563659e78354191f3522a17549e6ac5f023ee",
+            "trace_last_event": 316,
+            "pixmap": {
+              "event": 308,
+              "cache_key": "000004b400000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b400000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "second": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "50f61fefd8e1a670391521f3124563659e78354191f3522a17549e6ac5f023ee",
+            "trace_last_event": 316,
+            "pixmap": {
+              "event": 308,
+              "cache_key": "000004b400000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b400000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 314269696,
+      "launch_sha256": "53995e1dbeeab7526debb74f2c8b46edce6031eb5c95ff96fa68fa1165bbede4",
+      "actions_sha256": "01e1b4f86a635dc0453e66f64c41c7d0c4f47f7b1b793b5769e78b9b411d6ca5",
+      "closing_sha256": "8a19cbc5f8533530619d08090402de8af67f47d97eade078236f7b72cbf64e90"
+    },
+    {
+      "run": "interior-route-3-5",
+      "source_sha256": "c65c48aa01d8acabc25e0a3c13ee0ed0fe652be9c063750609d9082aca7684ca",
+      "route": [
+        3,
+        5
+      ],
+      "pages": [
+        {
+          "page": 3,
+          "first": {
+            "field": "3/12",
+            "zoom": "150%",
+            "frame_sha256": "1cc33f570d3e2268075b0dfd22522a135831df8e644343acb219959beead8390",
+            "trace_last_event": 311,
+            "pixmap": {
+              "event": 303,
+              "cache_key": "000004a600000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-20-000004a600000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "second": {
+            "field": "3/12",
+            "zoom": "150%",
+            "frame_sha256": "1cc33f570d3e2268075b0dfd22522a135831df8e644343acb219959beead8390",
+            "trace_last_event": 311,
+            "pixmap": {
+              "event": 303,
+              "cache_key": "000004a600000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-20-000004a600000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "status": "STABLE"
+        },
+        {
+          "page": 5,
+          "first": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "f46709325191c3badee701697b8f507bdc21d230c5531f505d63d8416f27d832",
+            "trace_last_event": 373,
+            "pixmap": {
+              "event": 365,
+              "cache_key": "0000052300000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-20-0000052300000000.png",
+              "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+            }
+          },
+          "second": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "f46709325191c3badee701697b8f507bdc21d230c5531f505d63d8416f27d832",
+            "trace_last_event": 373,
+            "pixmap": {
+              "event": 365,
+              "cache_key": "0000052300000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-20-0000052300000000.png",
+              "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 327663616,
+      "launch_sha256": "8b41dffbd9d84b22f516400af506e1713c0dceb04511a8d6ddef4dd70b9a53d2",
+      "actions_sha256": "2d54bed8e4e62befc42521c8f387d9bde6cda1a8538ecbc66310296ec49b8008",
+      "closing_sha256": "7388529b3917ce59ef019c1823e7144e46feac8b968af470cf99e50357aa8831"
+    },
+    {
+      "run": "interior-direct",
+      "source_sha256": "a6fec7c06e86be79923571944c46954dc3e96146df66494dc5bcb95a33389314",
+      "route": [
+        5
+      ],
+      "pages": [
+        {
+          "page": 5,
+          "first": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "50f61fefd8e1a670391521f3124563659e78354191f3522a17549e6ac5f023ee",
+            "trace_last_event": 317,
+            "pixmap": {
+              "event": 309,
+              "cache_key": "000004b100000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b100000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "second": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "50f61fefd8e1a670391521f3124563659e78354191f3522a17549e6ac5f023ee",
+            "trace_last_event": 317,
+            "pixmap": {
+              "event": 309,
+              "cache_key": "000004b100000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004b100000000.png",
+              "sha256": "cf503215234ccef451a29906a5aef1eb7ef592f0e04d6b842064703a81e4ef68"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 311742464,
+      "launch_sha256": "fc1100f8cc060d0f40f579082232aec4d7566716591fe2252ef5335ed8e55fbf",
+      "actions_sha256": "04f2c48f5c80a39762b45c46856340a64d3e891530954f5275c0ed5b01073fae",
+      "closing_sha256": "7bf2a8253f7a9ea4b3254a1327f7fbcfcbd33a990cb2683cab1f0d3ce87b6141"
+    },
+    {
+      "run": "interior-route-3-5",
+      "source_sha256": "a6fec7c06e86be79923571944c46954dc3e96146df66494dc5bcb95a33389314",
+      "route": [
+        3,
+        5
+      ],
+      "pages": [
+        {
+          "page": 3,
+          "first": {
+            "field": "3/12",
+            "zoom": "150%",
+            "frame_sha256": "1cc33f570d3e2268075b0dfd22522a135831df8e644343acb219959beead8390",
+            "trace_last_event": 313,
+            "pixmap": {
+              "event": 305,
+              "cache_key": "000004a600000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004a600000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "second": {
+            "field": "3/12",
+            "zoom": "150%",
+            "frame_sha256": "1cc33f570d3e2268075b0dfd22522a135831df8e644343acb219959beead8390",
+            "trace_last_event": 313,
+            "pixmap": {
+              "event": 305,
+              "cache_key": "000004a600000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-000004a600000000.png",
+              "sha256": "2c86ca5e7943bb5971583e568454e4f0bee44aa1a04136274034866e32242931"
+            }
+          },
+          "status": "STABLE"
+        },
+        {
+          "page": 5,
+          "first": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "f46709325191c3badee701697b8f507bdc21d230c5531f505d63d8416f27d832",
+            "trace_last_event": 375,
+            "pixmap": {
+              "event": 367,
+              "cache_key": "0000052300000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000052300000000.png",
+              "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+            }
+          },
+          "second": {
+            "field": "5/12",
+            "zoom": "150%",
+            "frame_sha256": "f46709325191c3badee701697b8f507bdc21d230c5531f505d63d8416f27d832",
+            "trace_last_event": 375,
+            "pixmap": {
+              "event": 367,
+              "cache_key": "0000052300000000",
+              "size": [
+                1003,
+                1506
+              ],
+              "target": [
+                10.0,
+                10.0,
+                1002.0,
+                1505.0
+              ],
+              "source": [
+                0.0,
+                0.0,
+                1003.0,
+                1506.0
+              ],
+              "source_aspect_error_pixels": 0.05263157894728465,
+              "file": "pixmap-21-0000052300000000.png",
+              "sha256": "c610a94a38c5cc9d3322222ddaf3ffbe3c3166a8a84aa7833d51623724580677"
+            }
+          },
+          "status": "STABLE"
+        }
+      ],
+      "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+      "source_unchanged": true,
+      "container_absent": true,
+      "oom_killed": false,
+      "memory_peak_bytes": 327274496,
+      "launch_sha256": "a4bde856d4f6104faa2f0c684a612444ecb21e2aff1338ef9c7c06e4aed8ae47",
+      "actions_sha256": "1eaba76d47e8746c8e3dcf4d3e3811468c87fe3c8680f60ea655f4d6e314f080",
+      "closing_sha256": "1f1bec127eded917b0e286fc6c45922a9704f86d4c26afc791afebd525107aea"
+    }
+  ],
+  "retained_aggregation_failure": {
+    "script_sha256": "7adb7757bdb20b29dc05d41630f8f620d48577c92949a2bbf8efc3fbbca0a7b7",
+    "failure_sha256": "b88f9cae802b0a30fef0e50f4444fc84457dad7e58ce0e6c9418a2274be00fcc",
+    "reason": "An initial assertion expected the same prior3 raster on repeat. The repeat produced A instead of B. The assumption was removed; no viewer attempt was retried or discarded."
+  },
+  "diagnostic_index_swap": {
+    "mutation": {
+      "original_sha256": "166d0014792326570d9e8ca42fe13a4a44329e4ad095d3ac8dfd73c8ddb9f20e",
+      "diagnostic_sha256": "1fabc07fe3c9a08972ba435138f5899dce1c51b65990e3ac67d2429df643139c",
+      "bytes": 163779,
+      "changed_offsets": [
+        236,
+        237,
+        240,
+        241,
+        244,
+        256,
+        257,
+        260,
+        261,
+        264
+      ],
+      "permutation": {
+        "2": 3,
+        "3": 2
+      },
+      "all_other_bytes_equal": true,
+      "all_text_image_spans_unchanged": true,
+      "source_unchanged": true,
+      "scope": "External diagnostic only; never substitutes for an original conversion/fidelity test."
+    },
+    "sessions": [
+      {
+        "run": "direct",
+        "source_sha256": "1fabc07fe3c9a08972ba435138f5899dce1c51b65990e3ac67d2429df643139c",
+        "route": [
+          5
+        ],
+        "pages": [
+          {
+            "page": 5,
+            "first": {
+              "field": "5/12",
+              "zoom": "150%",
+              "frame_sha256": "85825a31e1068614cb35f35969f2a0baa71fb01e541477d55d3fe7dd4203341e",
+              "trace_last_event": 318,
+              "pixmap": {
+                "event": 310,
+                "cache_key": "000004b700000000",
+                "size": [
+                  1003,
+                  1506
+                ],
+                "target": [
+                  10.0,
+                  10.0,
+                  1002.0,
+                  1505.0
+                ],
+                "source": [
+                  0.0,
+                  0.0,
+                  1003.0,
+                  1506.0
+                ],
+                "source_aspect_error_pixels": 0.05263157894728465,
+                "file": "pixmap-20-000004b700000000.png",
+                "sha256": "c2b1b1716287350dd3087d0f2186a43124ebf4bc4e0483ab6770bb69b44099c1"
+              }
+            },
+            "second": {
+              "field": "5/12",
+              "zoom": "150%",
+              "frame_sha256": "85825a31e1068614cb35f35969f2a0baa71fb01e541477d55d3fe7dd4203341e",
+              "trace_last_event": 318,
+              "pixmap": {
+                "event": 310,
+                "cache_key": "000004b700000000",
+                "size": [
+                  1003,
+                  1506
+                ],
+                "target": [
+                  10.0,
+                  10.0,
+                  1002.0,
+                  1505.0
+                ],
+                "source": [
+                  0.0,
+                  0.0,
+                  1003.0,
+                  1506.0
+                ],
+                "source_aspect_error_pixels": 0.05263157894728465,
+                "file": "pixmap-20-000004b700000000.png",
+                "sha256": "c2b1b1716287350dd3087d0f2186a43124ebf4bc4e0483ab6770bb69b44099c1"
+              }
+            },
+            "status": "STABLE"
+          }
+        ],
+        "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 322269184,
+        "launch_sha256": "1ff3afd4c3daa7507e1a29dfdbb4c0ab25725c68b279dcc83dfcc56030b1f474",
+        "actions_sha256": "ba074c0b00ff29f152518ab6b5e571cb963a1d24d7aa583a3deb85d552150211",
+        "closing_sha256": "51b1ada00a8673ea90bb7f8394e78c3bf4bbc73a25ae6e8ddab16a9108c5f4c1"
+      },
+      {
+        "run": "route-2-5",
+        "source_sha256": "1fabc07fe3c9a08972ba435138f5899dce1c51b65990e3ac67d2429df643139c",
+        "route": [
+          2,
+          5
+        ],
+        "pages": [
+          {
+            "page": 2,
+            "first": {
+              "field": "2/12",
+              "zoom": "150%",
+              "frame_sha256": "86ace8f44a483c1d3df0adea235b6f7a2c95cbdfebcd868a0ed2610f81db5313",
+              "trace_last_event": 322,
+              "pixmap": {
+                "event": 314,
+                "cache_key": "000004bb00000000",
+                "size": [
+                  1003,
+                  1506
+                ],
+                "target": [
+                  10.0,
+                  10.0,
+                  1002.0,
+                  1505.0
+                ],
+                "source": [
+                  0.0,
+                  0.0,
+                  1003.0,
+                  1506.0
+                ],
+                "source_aspect_error_pixels": 0.05263157894728465,
+                "file": "pixmap-21-000004bb00000000.png",
+                "sha256": "12d6caba6ada0b8ec85cf7b2d236086951ac5b6d3b1cbdb64211dae11b6e8824"
+              }
+            },
+            "second": {
+              "field": "2/12",
+              "zoom": "150%",
+              "frame_sha256": "86ace8f44a483c1d3df0adea235b6f7a2c95cbdfebcd868a0ed2610f81db5313",
+              "trace_last_event": 322,
+              "pixmap": {
+                "event": 314,
+                "cache_key": "000004bb00000000",
+                "size": [
+                  1003,
+                  1506
+                ],
+                "target": [
+                  10.0,
+                  10.0,
+                  1002.0,
+                  1505.0
+                ],
+                "source": [
+                  0.0,
+                  0.0,
+                  1003.0,
+                  1506.0
+                ],
+                "source_aspect_error_pixels": 0.05263157894728465,
+                "file": "pixmap-21-000004bb00000000.png",
+                "sha256": "12d6caba6ada0b8ec85cf7b2d236086951ac5b6d3b1cbdb64211dae11b6e8824"
+              }
+            },
+            "status": "STABLE"
+          },
+          {
+            "page": 5,
+            "first": {
+              "field": "5/12",
+              "zoom": "150%",
+              "frame_sha256": "85825a31e1068614cb35f35969f2a0baa71fb01e541477d55d3fe7dd4203341e",
+              "trace_last_event": 386,
+              "pixmap": {
+                "event": 378,
+                "cache_key": "0000053d00000000",
+                "size": [
+                  1003,
+                  1506
+                ],
+                "target": [
+                  10.0,
+                  10.0,
+                  1002.0,
+                  1505.0
+                ],
+                "source": [
+                  0.0,
+                  0.0,
+                  1003.0,
+                  1506.0
+                ],
+                "source_aspect_error_pixels": 0.05263157894728465,
+                "file": "pixmap-21-0000053d00000000.png",
+                "sha256": "c2b1b1716287350dd3087d0f2186a43124ebf4bc4e0483ab6770bb69b44099c1"
+              }
+            },
+            "second": {
+              "field": "5/12",
+              "zoom": "150%",
+              "frame_sha256": "85825a31e1068614cb35f35969f2a0baa71fb01e541477d55d3fe7dd4203341e",
+              "trace_last_event": 386,
+              "pixmap": {
+                "event": 378,
+                "cache_key": "0000053d00000000",
+                "size": [
+                  1003,
+                  1506
+                ],
+                "target": [
+                  10.0,
+                  10.0,
+                  1002.0,
+                  1505.0
+                ],
+                "source": [
+                  0.0,
+                  0.0,
+                  1003.0,
+                  1506.0
+                ],
+                "source_aspect_error_pixels": 0.05263157894728465,
+                "file": "pixmap-21-0000053d00000000.png",
+                "sha256": "c2b1b1716287350dd3087d0f2186a43124ebf4bc4e0483ab6770bb69b44099c1"
+              }
+            },
+            "status": "STABLE"
+          }
+        ],
+        "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 336859136,
+        "launch_sha256": "478e0ff1e847480484d633d4bdb7ba31044f2a8fb02d1a1dceed31bce07106f3",
+        "actions_sha256": "9de554cf3c02dfd8de1368eb64d5ee7cbf5e40ca4dac943ac7915a7376f4afee",
+        "closing_sha256": "25a36a874ea41326523f41119cb3cdb7453d69ba395b96db9228c5b671045d95"
+      },
+      {
+        "run": "route-3-5",
+        "source_sha256": "1fabc07fe3c9a08972ba435138f5899dce1c51b65990e3ac67d2429df643139c",
+        "route": [
+          3,
+          5
+        ],
+        "pages": [
+          {
+            "page": 3,
+            "first": {
+              "field": "3/12",
+              "zoom": "150%",
+              "frame_sha256": "f54df601e86607e5fe8b9625ed85f9739ae93b54f56e37000a4526a81d4fc0c2",
+              "trace_last_event": 322,
+              "pixmap": {
+                "event": 314,
+                "cache_key": "000004bc00000000",
+                "size": [
+                  1003,
+                  1506
+                ],
+                "target": [
+                  10.0,
+                  10.0,
+                  1002.0,
+                  1505.0
+                ],
+                "source": [
+                  0.0,
+                  0.0,
+                  1003.0,
+                  1506.0
+                ],
+                "source_aspect_error_pixels": 0.05263157894728465,
+                "file": "pixmap-21-000004bc00000000.png",
+                "sha256": "94d3467281e6f8c1f0a8486df4345a30ab7de6a46a5ae80ea9405b02bf46e738"
+              }
+            },
+            "second": {
+              "field": "3/12",
+              "zoom": "150%",
+              "frame_sha256": "f54df601e86607e5fe8b9625ed85f9739ae93b54f56e37000a4526a81d4fc0c2",
+              "trace_last_event": 322,
+              "pixmap": {
+                "event": 314,
+                "cache_key": "000004bc00000000",
+                "size": [
+                  1003,
+                  1506
+                ],
+                "target": [
+                  10.0,
+                  10.0,
+                  1002.0,
+                  1505.0
+                ],
+                "source": [
+                  0.0,
+                  0.0,
+                  1003.0,
+                  1506.0
+                ],
+                "source_aspect_error_pixels": 0.05263157894728465,
+                "file": "pixmap-21-000004bc00000000.png",
+                "sha256": "94d3467281e6f8c1f0a8486df4345a30ab7de6a46a5ae80ea9405b02bf46e738"
+              }
+            },
+            "status": "STABLE"
+          },
+          {
+            "page": 5,
+            "first": {
+              "field": "5/12",
+              "zoom": "150%",
+              "frame_sha256": "bb9812d0d4b28482cc7a7f1e461bd7ded08849d7326ab1823a82c09dcf0c1c4f",
+              "trace_last_event": 384,
+              "pixmap": {
+                "event": 376,
+                "cache_key": "0000053900000000",
+                "size": [
+                  1003,
+                  1506
+                ],
+                "target": [
+                  10.0,
+                  10.0,
+                  1002.0,
+                  1505.0
+                ],
+                "source": [
+                  0.0,
+                  0.0,
+                  1003.0,
+                  1506.0
+                ],
+                "source_aspect_error_pixels": 0.05263157894728465,
+                "file": "pixmap-21-0000053900000000.png",
+                "sha256": "2d09b4db29c5eff0356a4ad07af41d96d052bbb6a6c1126cfe869425cfa4467d"
+              }
+            },
+            "second": {
+              "field": "5/12",
+              "zoom": "150%",
+              "frame_sha256": "bb9812d0d4b28482cc7a7f1e461bd7ded08849d7326ab1823a82c09dcf0c1c4f",
+              "trace_last_event": 384,
+              "pixmap": {
+                "event": 376,
+                "cache_key": "0000053900000000",
+                "size": [
+                  1003,
+                  1506
+                ],
+                "target": [
+                  10.0,
+                  10.0,
+                  1002.0,
+                  1505.0
+                ],
+                "source": [
+                  0.0,
+                  0.0,
+                  1003.0,
+                  1506.0
+                ],
+                "source_aspect_error_pixels": 0.05263157894728465,
+                "file": "pixmap-21-0000053900000000.png",
+                "sha256": "2d09b4db29c5eff0356a4ad07af41d96d052bbb6a6c1126cfe869425cfa4467d"
+              }
+            },
+            "status": "STABLE"
+          }
+        ],
+        "observer_sha256": "155e6a3e7a9604c6510c12986c0f867267d28a1b8fe72a2b0e2c382baa647e9b",
+        "source_unchanged": true,
+        "container_absent": true,
+        "oom_killed": false,
+        "memory_peak_bytes": 338690048,
+        "launch_sha256": "c3776aa43bd75955c06d0dbad21cc2e889052b7bcc85c17343b5287d8faeda8d",
+        "actions_sha256": "a1c9c3b3d5081ed632d1fa8cbd58c951384b4669bc6d97aeec8ddd781c0bfedd",
+        "closing_sha256": "1838ac2325246df8528224afe5ce4313d920c4321ab45212ce5018a6e629905e"
+      }
+    ]
+  },
+  "terminal_viewer_sessions": 21,
+  "fresh_final_sessions": 14,
+  "containment": {
+    "network": "none",
+    "root_input_observer": "read-only",
+    "user": "1000:1000",
+    "capabilities": "drop ALL",
+    "no_new_privileges": true,
+    "memory_and_swap_bytes": 2147483648,
+    "cpus": 2,
+    "pids": 256,
+    "lifetime_seconds": 90
+  },
+  "code_sha256": {
+    "research/cajviewer/native_navigation_controls.py": "e228cbee83ebd38994f296c1098b16dc5aab14d41e3e1e71b1504a4c9bcd7e62",
+    "research/cajviewer/native_page_capture.py": "566adb8a3b960c2404dbd405c5f97c4e5a8f0696eaf86b285f287504859bd3b0",
+    "research/cajviewer/qpaint_observe.cpp": "3fda09d7646cd274909ee922af75c8a6695ea4723444990e81abdfdfab934f11",
+    "research/scripts/hnc8_layout_source.py": "54ef9179b7dc03316f43c3205542df36e3dd5c9bebfa6a77b9fc9b7bed456cdf"
+  },
+  "libraries": {
+    "python": "3.13.5",
+    "Pillow": "12.1.1",
+    "numpy": "2.4.3"
+  },
+  "previous_attempts": {
+    "receipt_sha256": "d5a63e793508abf6282b486d346281d79ad26d42475e9105404b916e58ca1755",
+    "issue_comment": "https://github.com/rwv/caj2pdf-rust/issues/441#issuecomment-6073721966",
+    "boundary": "Retains 30 prior viewer sessions including one observer startup failure; not added to this report session count. Earlier five-page controls were negative; target5 was their last page."
+  },
+  "limits": [
+    "A forward prefetch/cache path is a hypothesis, not observed vendor implementation. No vendor source or font outlines inspected.",
+    "Two stable captures can retain either state. No retry-to-match protocol or +/-2 acceptance threshold.",
+    "The original7797 PDF discrepancy and historical native sequential A remain unexplained; this report does not generalize the HN control to PDF.",
+    "All generated controls, source/derived documents, pixels, fonts and binaries remain external. Code is original MIT; no new dependency or production change.",
+    "Corpus baseline remains1252PASS/18FAIL/27UNSUPPORTED. No new conversion pass or full-corpus run."
+  ]
+}
