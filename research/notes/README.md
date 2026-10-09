@@ -34,6 +34,7 @@ See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for th
 
 | Note | Backs |
 | --- | --- |
+| [Native glyph and ornament model verification](native-glyph-model-20261009.md) | samples #51; 83,432 glyphs and 212 ornament marks in both PDF sets; original-font/raster limits retained |
 | [Native vector geometry and painting order](native-vector-geometry-20261008.md) | samples #51; all 327 paths on 60 pages, with font/ornament/raster limits retained |
 | [Bounded HN/C8 container records](hnc8-container.md) | `hnc8.rs` reader |
 | [Compact HN-B page index](hnb-compact-index.md) | `hnc8.rs` HN-B index |

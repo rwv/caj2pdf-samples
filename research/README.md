@@ -132,3 +132,9 @@ only Python's standard library; seven original control groups run in CI.
 PDF stroke state and glyph/image/vector kind order with pikepdf 10.5.1.
 The [60-page report](notes/native-vector-geometry-20261008.md) records all 327
 paths, original negative controls, bounds and explicit ornament/font exclusions.
+
+`native_glyph_geometry.py` evaluates the existing glyph/ornament models with
+pikepdf 10.5.1, PyMuPDF 1.27.2.2 and fonttools 4.62.1. An optional directory of
+this project's original generated marker fonts enables CID/outline/width-based
+role checks. The [full native report](notes/native-glyph-model-20261009.md)
+preserves the distinction between model consistency and original-font fidelity.

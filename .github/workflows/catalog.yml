@@ -45,3 +45,4 @@ jobs:
           python3 -m unittest discover -s research/conformance -p 'test_native_page_capture.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_native_raster_comparison.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_composition_marker_fonts.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_native_glyph_geometry.py' -v
