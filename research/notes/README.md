@@ -1,5 +1,9 @@
 # Research notes
 
+The [incomplete PDF content-token follow-up](content-eof-ambiguity-20261009.md)
+locates 11 endings in seven originals, checks non-unique diagnostic completions
+and retains missing-text and viewer limitations without a guessed repair.
+
 The [unchanged TTKN wrapper follow-up](ttkn-unaltered-wrapper-20261009.md)
 establishes viewer opening, independent rights-layer equality and observed-IV
 research recovery of all 234 streams / 180 pages. It explains the earlier
