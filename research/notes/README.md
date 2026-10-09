@@ -180,3 +180,5 @@ regression rerun after that fix.
 - [Original native viewer navigation controls](native-viewer-navigation-20261009.md): page-count/index controls reproduce differing completed rasters; index swaps distinguish preceding content from navigation position. No readiness or fidelity pass.
 
 - [Complete displayed-contents sweep](viewer-outlines-20261009.md): all 849 C8/HN-B originals, three empty-model checkpoints each, populated controls before/after and retained attempts; no stored-layout absence or rendering claim.
+
+- [Original #441 JPEG representation](viewer-original7797-jpeg-20261009.md): the actual historical page-3 crops recur on unchanged source/PDF inputs; seven observed pre-encoding values agree and a public API chain explains the two representations. All twelve sessions, one abort and the initial analysis correction remain recorded; general readiness stays open.
