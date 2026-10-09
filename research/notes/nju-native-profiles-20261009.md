@@ -117,7 +117,7 @@ The catalog changes exactly three existing rows: **1,403 identities, 1,356
 conversion PASS, 20 FAIL, 27 UNSUPPORTED**, and **37,155 accepted pages** across
 separate historical checkpoints. The other 1,400 rows are unchanged. This
 adds no new identity, release, broad format guarantee or irrecoverability
-verdict. Remaining damaged-source cases from the same ZIP stay unresolved.
+verdict. Remaining damaged-source cases from the same acquisition cohort stay unresolved.
 
 Reproduce the original fixtures outside the repository:
 
