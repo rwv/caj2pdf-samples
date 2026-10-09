@@ -18,9 +18,13 @@ added 12 identities: initially seven conversions with 580 pages and five refusal
 The [NJU native-profile follow-up](research/notes/nju-native-profiles-20261009.md)
 now converts three of those originals (17 pages), with independent text/geometry
 checks and native/Node/Chromium parity; two damaged sources remain unresolved.
-Before the Geodata additions, the reconciled accepted-page total was 37,155
-across separate historical checkpoints; this is not a fresh full-catalog run
-or full-rendering claim.
+The [fresh frozen-catalog run](research/notes/vite-current-corpus-20261009.md)
+checks all 1,403 pre-Geodata identities through native, Node and the actual
+Vite IIFE Chromium Worker: 1,356 matching conversions / 37,155 pages and
+47 matching refusals, with no output regression or cleanup failure. Of those
+outputs, 1,349 are qpdf-clean and seven retain the known #499 source warnings.
+The five Geodata originals use the same pinned artifacts in their separate
+receipt. Runtime agreement does not establish complete source/visual fidelity.
 
 The [TTKN product follow-up](research/notes/ttkn-product-conversion-20261009.md)
 now converts the one measured public source with its matching explicit response.
@@ -54,14 +58,15 @@ adds no conversion pass or irrecoverability verdict.
 
 ### Previous full-catalog runtime checkpoint
 
-The [current per-input receipt](research/notes/current-corpus-runtime-20261008.md)
+The [previous per-input receipt](research/notes/current-corpus-runtime-20261008.md)
 records **1,252 conversion PASS, 18 FAIL and 27 UNSUPPORTED** across all 1,297
-identities. Every accepted input now has fresh Node and Chromium output matching
-the reviewed #457 native hashes, sizes and page counts (35,587 pages). All 45
-remaining inputs have fresh three-runtime refusal, source-integrity and cleanup
-checks; these are not conversion passes or proof of irrecoverability.
-The original 1,297 catalog rows retain this reviewed checkpoint; the new web
-cohort points to its separate revision and receipt.
+identities. At that checkpoint, every accepted input had Node and Chromium
+output matching the reviewed #457 native hashes, sizes and page counts
+(35,587 pages). The 45 remaining inputs had three-runtime refusal,
+source-integrity and cleanup checks; these are not conversion passes or proof of irrecoverability.
+That historical checkpoint remains available. The pre-Geodata catalog rows
+now point to the fresh 1,403-original receipt above, which retains their prior
+revision/evidence mapping.
 
 The [source geometry report](research/notes/source-image-geometry-20261008.md)
 adds independent declared-page and ordered-image checks for all 973 accepted
