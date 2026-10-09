@@ -59,6 +59,7 @@ jobs:
           python3 -m unittest discover -s research/conformance -p 'test_raster_gray_comparison.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_qimage_buffer_observe.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_jpeg_observe.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_jpeg_trace.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_qtree_observe.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_outline_capture.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_native_raster_comparison.py' -v

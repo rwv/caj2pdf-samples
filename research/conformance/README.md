@@ -572,3 +572,10 @@ lifecycle controls to CI. Distinct original inputs can produce identical
 lossy outputs; exact JPEG equality cannot replace original-content evidence.
 The 12-session external report retains both observer versions and initial
 codec-analysis rejections, without a general readiness or corpus-pass claim.
+
+The [original #441 JPEG follow-up](../notes/viewer-original7797-jpeg-20261009.md)
+adds bounded trace-correlation controls for process namespaces, chronological
+order, dimensions, exact encoded/row identities and incomplete lifecycles.
+It retains misleading-trace negatives and ambiguous matches. The twelve real
+viewer sessions and their one abort remain separate from these corpus-free
+tests; explaining one page's representation does not establish general readiness.

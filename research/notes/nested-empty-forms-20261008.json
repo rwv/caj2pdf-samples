@@ -80297,5 +80297,22 @@
       "receipt_sha256": "127e12975ecbd15534a02abb8d2789f1cb7675a26a54e6f25b30ee1b092bbfca",
       "scope": "Fresh byte-identity check; earlier external decoders were not rerun and all prior exclusions remain."
     }
-  ]
+  ],
+  "viewer_follow_up_20261009": {
+    "issue": "https://github.com/rwv/caj2pdf-samples/issues/76",
+    "report": "viewer-original7797-jpeg-20261009.md",
+    "receipt": "viewer-original7797-jpeg-20261009.json",
+    "receipt_sha256": "d01723ca6618133da869ca924e2bdfa88e446b99ac58b2f7d9c7cfa7aa2e3d04",
+    "source_sha256": "7797fd3c7d6ce8b1ae8203ff9957d6a52ef76c4290a8a777da66297f30c8fa78",
+    "pdf_sha256": "d54f082daf364513529f46a7fe92b539512a498d2aec50e9dccb3078fa57e041",
+    "page": 3,
+    "zoom_percent": 50,
+    "sessions": 12,
+    "confirmed_buffers": 7,
+    "confirmed_screenshots": 4,
+    "not_confirmed_viewer_abort": 1,
+    "result": "Both historical crop values reproduced; old differing PDF matches observed pre-JPEG value, old original reference matches decoded JPEG value. All seven confirmed observed target pre-encoding values agree across CAJ/PDF.",
+    "historical_calls": "Not instrumented; not retroactively claimed observed.",
+    "limits": "One page only; general readiness and all-page original-viewer fidelity remain open. Legacy paint trace lacks timestamp/PID; initial analysis rejects are retained and corrected read-only. No production change, corpus conversion/pass or release."
+  }
 }

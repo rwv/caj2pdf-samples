@@ -154,3 +154,21 @@ from #441's unresolved repeatability and #406's remaining fidelity work.
 Only original MIT code, authored synthetic controls and observation metadata
 are committed. No external document bytes, PDFs, document text/pixels, fonts,
 vendor binaries or foreign/private converter implementation enter Git.
+
+## Original page-3 viewer follow-up (2026-10-09)
+
+The [actual-document JPEG report](viewer-original7797-jpeg-20261009.md) and
+[receipt](viewer-original7797-jpeg-20261009.json) reproduce both historical
+`7797…` crop values with unchanged CAJ/PDF bytes. The old differing PDF crop
+corresponds to the observed pre-JPEG value; the old original reference matches
+the decoded JPEG value. Seven confirmed buffer sessions share the same
+pre-encoding target hash across source and PDF, and one observed CAJ session
+links encoding input, encoded bytes, returned rows and the selected QImage value.
+All twelve sessions are retained, including one unconfirmed viewer abort and
+the first collector's corrected timestamp-field assumption. Historical calls
+were not instrumented and are not retroactively claimed observed.
+
+This explains the scoped page-3 discrepancy and updates its evidence limit.
+It does not establish general readiness or complete all-page original-viewer
+coverage. The initial mismatch, old receipts and other original documents are
+unchanged evidence; no recovery behavior, conversion counts or release changes.
