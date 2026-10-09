@@ -13,6 +13,8 @@ from pdf_source_graphs import require, verify as verify_pdf
 from caj_source_preservation import verify as verify_caj
 from caj_reviewed_framing import frame_selected, substitution_source
 from caj_reviewed_selection import REPORTS, verify as verify_reviewed
+from caj_field_proofs import FIELD_SOURCES, verify as verify_fields
+import caj_accounted_profiles as accounted
 
 
 def reviewed_profiles(notes):
@@ -59,6 +61,7 @@ def run(manifest, output, notes):
         for key in ('source', 'pdf'):
             case[key] = str(Path(case[key]).resolve())
     profiles = reviewed_profiles(notes)
+    accounted_profiles = accounted.profiles(notes)
     output.mkdir()
     executable = shutil.which('qpdf')
     require(executable, 'qpdf is required for an explicit acquisition')
@@ -69,12 +72,18 @@ def run(manifest, output, notes):
         result = {'source_sha256': case['source_sha256'], 'pdf_sha256': case['pdf_sha256']}
         try:
             builder = None
-            if case['source_sha256'] in profiles:
+            if case['source_sha256'] in accounted_profiles:
+                builder = lambda c, d: accounted.build_reference(c, d, accounted_profiles[c['source_sha256']])
+            elif case['source_sha256'] in profiles:
                 builder = lambda c, d: build_reviewed_reference(c, d, profiles[c['source_sha256']])
             row = probe(case, output, build_reference=builder)
             if row['status'] == 'NOT_CONFIRMED':
                 raise ValueError(row.get('reason', 'source acquisition not confirmed'))
-            if 'prior_proof' in row:
+            if case['source_sha256'] in accounted_profiles:
+                proof = accounted.verify(row, accounted_profiles[case['source_sha256']])
+            elif case['source_sha256'] in FIELD_SOURCES:
+                proof = verify_fields(row, notes)
+            elif 'prior_proof' in row:
                 proof = verify_reviewed(row)
             elif case['format'] == 'CAJ':
                 proof = verify_caj(row)
