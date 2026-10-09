@@ -5,7 +5,7 @@
   "build": {
     "code_head": "6e432cd43e9a3f89930b94f0b566084c1ea27944",
     "merged_code": "6b184250ab8d51e5be6215e17169d6c39e33ac2c",
-    "core_build_commit": "f4cd0166b1acefbd302fbe6e90bdb019fc982cea",
+    "core_build_commit": "b32672796dd2c4bd374d172df3271dc64930b7a4",
     "core_sources_unchanged": true,
     "catalog_commit": "2b8a84f8854c226a3cc778b614c91c8d5669d24d",
     "catalog_sha256": "300f21806c7fcd3d9332585e6edb25abcdc14e5fb8da62ad574ad5df554a0c62",
@@ -48,7 +48,9 @@
       "corpus-app/vite.config.mjs": "6b934bf0d9d40357ddb24dfb772a37878d24598e32be45564a809eb84a3139af",
       "prepare-corpus.py": "b7406056a2ae1e8a1b48d7e5d83e5a05ece379a17d261d66f93d41e45cb15756",
       "vite/package-lock.json": "34e000f2934d80cb4596c26c6dcf31cd43b1c6920ddf9e4fad68610e6fe24a39"
-    }
+    },
+    "core_merged_commit": "f4cd0166b1acefbd302fbe6e90bdb019fc982cea",
+    "core_build_and_merge_tree": "04236310a7739a8d59a70032152bab1657b0d4f7"
   },
   "configuration": {
     "caller_fonts": false,

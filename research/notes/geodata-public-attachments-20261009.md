@@ -86,8 +86,10 @@ or conversion.
 The package uses reviewed JavaScript head
 `6e432cd43e9a3f89930b94f0b566084c1ea27944`, merged as
 `6b184250ab8d51e5be6215e17169d6c39e33ac2c` with an identical tree. Native/WASM
-artifacts come from `f4cd0166b1acefbd302fbe6e90bdb019fc982cea`; Rust sources
-and locked build inputs are unchanged. The receipt pins the executable,
+artifacts were built at reviewed #516 head
+`b32672796dd2c4bd374d172df3271dc64930b7a4`, merged as
+`f4cd0166b1acefbd302fbe6e90bdb019fc982cea` with an identical tree. Rust sources
+and locked build inputs are unchanged by #517. The receipt pins the executable,
 WASM, package, generated Vite assets, tools and external drivers. No caller
 font or explicit TTKN response is needed for this cohort.
 
