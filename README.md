@@ -27,6 +27,9 @@ adds 87 SHA-pinned originals from Archive.org and Nanjing University. All
 87 convert after the three focused PDF fixes, with 701 pages. Of these,
 80 pass qpdf cleanly and seven retain source-content warnings tracked in
 [Rust #499](https://github.com/rwv/caj2pdf-rust/issues/499).
+The [content-token follow-up](research/notes/content-eof-ambiguity-20261009.md)
+locates all 11 incomplete strings and demonstrates non-unique completions;
+independent rendering and bounded viewer observations do not recover missing text.
 Public availability does not grant redistribution; all new rows are metadata-only.
 The [source correctness follow-up](research/notes/public-web-correctness-20261009.md)
 adds independent HN/C8 content/geometry and KDH preservation checks, with
