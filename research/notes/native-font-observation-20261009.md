@@ -8,7 +8,7 @@ conversion result. The catalog remains **1,408 identities: 1,361 PASS,
 20 FAIL and 27 UNSUPPORTED**.
 
 The [metadata receipt](native-font-observation-20261009.json) has SHA-256
-`19b0a5ab121becaa79a197483888a2486c7d7f7244cf0cb8e3acacac352627fb`.
+`5f9164c9a657840d7a9c2bbd5afd1cc26824b1d7ff7f30644f044959703833c4`.
 It retains the source/tool/resource hashes, all 48 session outcomes, prior
 analysis failures, final process exits, capture hashes and repertoire counts.
 No external document, font program, outline, rendered pixels or viewer binary
@@ -116,13 +116,13 @@ container limit. Repertoire parsing is per page with existing record bounds;
 distinct repertoire and model-state combinations are each capped at 65,536.
 The measured inventory also has a 512 MiB process address-space limit.
 
-Nine new original control tests cover real public-FreeType forwarding and
+Ten new original control tests cover real public-FreeType forwarding and
 bitmap-result preservation, explicit nested calls, nonmatching-family filtering,
 the actual event cap, erroneous loads, trace corruption/ambiguity, reordered
 disagreement, resource hashes/cmap mismatches and repertoire roles. They use
-only this project's generated geometric font. All nine, six existing font-subset
+only this project's generated geometric font. All ten, six existing font-subset
 tests, eight page-capture controls and four catalog tests pass locally:
-**27 tests, zero skipped**.
+**28 tests, zero skipped**.
 Catalog CI runs the new controls with an explicit FreeType development package.
 
 With externally supplied, permitted viewer resources and the existing compiled

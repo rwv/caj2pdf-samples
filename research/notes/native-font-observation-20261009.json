@@ -12,7 +12,7 @@
     "research/cajviewer/native_page_capture.py": "ea7ca7bbe94b5d612d3aca449c5297215a06f14353ba78268eb01f1d8d5cde2c",
     "research/scripts/native_font_trace.py": "9d8fe507d48fcd3d138991ac66914e22c2e1f586e66812656a394d534ee5032e",
     "research/scripts/native_font_resource_probe.py": "1c028db848c06791e42c45062634665305da4fd4df5157a2283f933357de0cb5",
-    "research/scripts/native_font_repertoire.py": "65ba5e82e45a0c63cc40d6b912670d829f973a9c43d3c9e76efdae5032223718",
+    "research/scripts/native_font_repertoire.py": "a95ee9cc738fe60882c8e4d709b0fd18e469e5f2abb96ef62e8545c4fddef733",
     "research/scripts/native_glyph_model.py": "980b3aaa1f39fa5e8ff63df79bc77bcdaefdda18e0845214a58b6bc92d2fb632",
     "research/scripts/native_text_order.py": "5dbb488ef65909d15743518452d02e46febeed5f3a1ea83c8d6748c6ebc7d26c",
     "research/scripts/hnc8_layout_source.py": "54ef9179b7dc03316f43c3205542df36e3dd5c9bebfa6a77b9fc9b7bed456cdf",
@@ -11533,8 +11533,8 @@
   },
   "repertoire": {
     "scope": "All 18 font-option cases in the frozen 1403-input runtime cohort; 13 measured native originals, not evidence that all 18 require fonts. Model roles, not source-resource identity.",
-    "seconds": 4.5981142818927765,
-    "ru_maxrss_kib": 35120,
+    "seconds": 4.815849229693413,
+    "ru_maxrss_kib": 35720,
     "address_space_limit_bytes": 536870912,
     "documents": [
       {
@@ -15336,7 +15336,7 @@
         "bytes": 6804512,
         "variant": "HN-A",
         "pages": 106,
-        "header_mode": 1,
+        "header_mode": null,
         "status": "OUTSIDE_NATIVE_MODEL"
       },
       {
@@ -18931,7 +18931,7 @@
         "bytes": 2783424,
         "variant": "HN-A",
         "pages": 66,
-        "header_mode": 23112,
+        "header_mode": null,
         "status": "OUTSIDE_NATIVE_MODEL"
       },
       {
@@ -23468,6 +23468,10 @@
       "name": "First explicit-depth interpretation",
       "script_sha256": "0d06f71ff17012875cda5d734c3b7004bf3aef5657d9f85c57c0b99eef9eea0d",
       "result": "Refused because the non-rendering 75785 load is itself nested. Final analyzer pairs only outer cmap and outer render, retaining and counting nested records. No captures retried for this analysis correction."
+    },
+    {
+      "name": "Final metadata review",
+      "result": "HN-A is outside the native model. Its bytes are no longer labeled with a C8/HN-B native-mode field. Two excluded rows now use null, with no native repertoire or count changes."
     }
   ],
   "plans": {
@@ -23499,6 +23503,11 @@
       "tests": 8,
       "skipped": 0,
       "sha256": "f219514a310b8c67b434eae3bbfe82fe5c5842dcd744ed9e2cd529686c5bd53e"
+    },
+    "tests-repertoire-review.log": {
+      "tests": 2,
+      "skipped": 0,
+      "sha256": "ec1d5a9062068c9ce6878625b842a69273e8c9eeb73c4118fd1d222e63b8b9e9"
     }
   }
 }

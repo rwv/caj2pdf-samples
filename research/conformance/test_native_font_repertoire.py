@@ -3,6 +3,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
@@ -10,9 +11,20 @@ sys.path.insert(0, str(ROOT / 'cajviewer'))
 from native_font_repertoire import inventory
 from native_font_controls import document
 from native_text_order import digest
+from test_hnc8_layout_source import sample
 
 
 class RepertoireTests(unittest.TestCase):
+    def test_hna_header_bytes_are_not_interpreted_as_a_native_mode(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / 'original-hna.caj'
+            path.write_bytes(sample('HN-A')[0])
+            with patch('native_font_repertoire.read_exact') as read:
+                got = inventory(path, digest(path))
+                read.assert_not_called()
+            self.assertEqual(got['status'], 'OUTSIDE_NATIVE_MODEL')
+            self.assertIsNone(got['header_mode'])
+
     def test_authored_characters_roles_and_hash_refusal(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / 'control.caj'

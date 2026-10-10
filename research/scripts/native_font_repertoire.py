@@ -24,7 +24,8 @@ def inventory(path, sha256):
         reader = SourceExtractor(data, sha256); variant = reader.header['variant']
         result.update(variant=variant, pages=reader.header['page_count'])
         base = 0 if variant == 'C8' else 136
-        mode = int.from_bytes(read_exact(data, base + 12, 4), 'little')
+        mode = (int.from_bytes(read_exact(data, base + 12, 4), 'little')
+                if variant in ('C8', 'HN-B') else None)
         result['header_mode'] = mode
         if variant not in ('C8', 'HN-B') or not (mode == 2 or variant == 'HN-B' and mode == 0):
             result['status'] = 'OUTSIDE_NATIVE_MODEL'
