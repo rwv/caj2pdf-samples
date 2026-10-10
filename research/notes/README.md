@@ -1,5 +1,9 @@
 # Research notes
 
+The [broader web and historical-index follow-up](web-historical-followup-20261009.md)
+records 193 additional Archive item requests and 400 public attachment-list
+requests, with historical-index failures and zero new acquired documents.
+
 The [frozen catalog through Vite IIFE Workers](vite-current-corpus-20261009.md)
 records fresh native, Node and bundled Chromium checks for the 1,403 identities
 preceding the Geodata additions; source-fidelity and refusal limits remain open.
