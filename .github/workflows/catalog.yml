@@ -20,7 +20,7 @@ jobs:
       - name: Install external PDF tools for original controls
         run: |
           sudo apt-get update
-          sudo apt-get install --no-install-recommends -y poppler-utils mupdf-tools qpdf qtbase5-dev libjpeg-dev libfreetype-dev g++
+          sudo apt-get install --no-install-recommends -y poppler-utils mupdf-tools qpdf qtbase5-dev libjpeg-dev libfreetype-dev libssl-dev g++
       - name: Test research identity parsers (no corpus download)
         env:
           PYTHONPATH: research/scripts
@@ -74,3 +74,5 @@ jobs:
           python3 -m unittest discover -s research/conformance -p 'test_native_font_trace.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_native_font_resource_probe.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_native_font_repertoire.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_ft_face_observe.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_native_font_faces.py' -v
