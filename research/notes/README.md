@@ -68,6 +68,7 @@ See the [2026-10-07 GitHub corpus sweep](github-sample-sweep-20261007.md) for th
 
 | Note | Backs |
 | --- | --- |
+| [Native symbol shapes and semantic identities](native-symbol-shapes-20261009.md) | Rust #518 / samples #106; measured shape distinctions and original paired controls expose Unicode-only glyph selection loss |
 | [Opened native font resources and legacy symbols](opened-font-resources-20261009.md) | samples #106; constructor hashes bind recorded calls across 13 originals, with isolated HN-B symbol controls; shape/cache limits remain |
 | [Native font-slot observation protocol](native-font-observation-20261009.md) | samples #106; nested public API controls, 336 measured slots and 13-original model repertoire; source-font appearance remains open |
 | [TEB certificate and opaque-field boundary](teb-credential-boundary-20261009.md) | Rust #468; public-certificate structure, bounded payload scans and remaining wrapping/credential uncertainty |

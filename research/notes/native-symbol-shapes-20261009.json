@@ -1,0 +1,4737 @@
+{
+  "issue": "https://github.com/rwv/caj2pdf-rust/issues/518",
+  "parent_research": "https://github.com/rwv/caj2pdf-samples/issues/106",
+  "samples_base": "71ea475d6b81054d2b815d2c9e576a968f7e0668",
+  "rust_main": "6b184250ab8d51e5be6215e17169d6c39e33ac2c",
+  "resource": {
+    "resource": "HGFX_CNKI.ttf",
+    "sha256": "4ef6bcbe9c48ebff552a57e0bca245554dcb4d5bb12d580b95e0babdd736036c",
+    "bytes": 541656,
+    "freetype_error": 0,
+    "family": "HGFX_CNKI",
+    "face_index": 0,
+    "num_faces": 1,
+    "num_glyphs": 3206
+  },
+  "image": "sha256:cb5049d3448b6d5bcfd371cf195d522d637869dce075cb1650d74198875171de",
+  "freetype_version": [
+    2,
+    12,
+    1
+  ],
+  "units_per_em": 2048,
+  "source_receipt_sha256": "dd0bc48ae6217a37a2d3d122c27181300e41c515b6255433060e5ae05f89b4fa",
+  "mappings": [
+    {
+      "native_code": "9ff5",
+      "cmap_argument": 26871,
+      "gid": 937,
+      "semantic_unicode": 65295,
+      "shape": {
+        "query_kind": "u",
+        "query": 26871,
+        "gid": 937,
+        "bbox_units": [
+          68,
+          -324,
+          1000,
+          1532
+        ],
+        "advance_units": 1024,
+        "commands": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "outline_sha256": "abb6fd79cd1b44457307df6fbacdf0306b9a72edfc496cddca3013ab2d21863a",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              30,
+              59
+            ],
+            "bearing": [
+              2,
+              48
+            ],
+            "advance_26_6": [
+              2048,
+              0
+            ],
+            "nonzero": 300,
+            "coverage_sum": 55999,
+            "pixels_sha256": "8691afa7a24ce167b6e2f2620be40c9a2159c978cdda7bcd7206438ddc1d282f"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              59,
+              117
+            ],
+            "bearing": [
+              4,
+              96
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 1040,
+            "coverage_sum": 223992,
+            "pixels_sha256": "e960ff8cdfde4da4344c328614528cbc82effbad74ecfd6e1e0d94f12717b8ce"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 65295,
+        "gid": 0,
+        "missing": true
+      }
+    },
+    {
+      "native_code": "a1a1",
+      "cmap_argument": 32,
+      "gid": 1,
+      "semantic_unicode": 32,
+      "shape": {
+        "query_kind": "u",
+        "query": 32,
+        "gid": 1,
+        "bbox_units": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "advance_units": 569,
+        "commands": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              0,
+              0
+            ],
+            "bearing": [
+              0,
+              0
+            ],
+            "advance_26_6": [
+              1138,
+              0
+            ],
+            "nonzero": 0,
+            "coverage_sum": 0,
+            "pixels_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              0,
+              0
+            ],
+            "bearing": [
+              0,
+              0
+            ],
+            "advance_26_6": [
+              2276,
+              0
+            ],
+            "nonzero": 0,
+            "coverage_sum": 0,
+            "pixels_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 32,
+        "gid": 1,
+        "bbox_units": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "advance_units": 569,
+        "commands": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "outline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              0,
+              0
+            ],
+            "bearing": [
+              0,
+              0
+            ],
+            "advance_26_6": [
+              1138,
+              0
+            ],
+            "nonzero": 0,
+            "coverage_sum": 0,
+            "pixels_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              0,
+              0
+            ],
+            "bearing": [
+              0,
+              0
+            ],
+            "advance_26_6": [
+              2276,
+              0
+            ],
+            "nonzero": 0,
+            "coverage_sum": 0,
+            "pixels_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+          }
+        ]
+      }
+    },
+    {
+      "native_code": "a1a2",
+      "cmap_argument": 26253,
+      "gid": 661,
+      "semantic_unicode": 12289,
+      "shape": {
+        "query_kind": "u",
+        "query": 26253,
+        "gid": 661,
+        "bbox_units": [
+          404,
+          -306,
+          830,
+          183
+        ],
+        "advance_units": 1024,
+        "commands": [
+          1,
+          0,
+          6,
+          0
+        ],
+        "outline_sha256": "8db6413701072e2b9209177b4ea235a2d48c45821155c00082c335eb740e5c54",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              15,
+              18
+            ],
+            "bearing": [
+              12,
+              7
+            ],
+            "advance_26_6": [
+              2048,
+              0
+            ],
+            "nonzero": 121,
+            "coverage_sum": 24146,
+            "pixels_sha256": "820f93f411caf33dbcfed6cfd5221d84ce2d8dbf6969e2e0e15ef280937abfbc"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              30,
+              34
+            ],
+            "bearing": [
+              24,
+              13
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 433,
+            "coverage_sum": 96810,
+            "pixels_sha256": "f55a2969c8b3890cacf122595d08933ab2e708aeee828bf06dbdd6c34895141b"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 12289,
+        "gid": 108,
+        "bbox_units": [
+          80,
+          -308,
+          1944,
+          1552
+        ],
+        "advance_units": 2048,
+        "commands": [
+          4,
+          2,
+          46,
+          0
+        ],
+        "outline_sha256": "d2feb904dfd376d816bfed21e8ae65e8b616dcc3e61d984e36ca85e8be616231",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              59,
+              59
+            ],
+            "bearing": [
+              2,
+              49
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 953,
+            "coverage_sum": 166777,
+            "pixels_sha256": "c4dfd4e95a65b4392588c1a47cc378ac58e749770ed0bc520135ec94a2f7b8f0"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              117,
+              117
+            ],
+            "bearing": [
+              5,
+              97
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 3210,
+            "coverage_sum": 667835,
+            "pixels_sha256": "defc3debd273eb128f89a48fc91db4de497b02839ca60b274ad57c808667fc4f"
+          }
+        ]
+      }
+    },
+    {
+      "native_code": "a1a3",
+      "cmap_argument": 26254,
+      "gid": 662,
+      "semantic_unicode": 12290,
+      "shape": {
+        "query_kind": "u",
+        "query": 26254,
+        "gid": 662,
+        "bbox_units": [
+          264,
+          -280,
+          772,
+          208
+        ],
+        "advance_units": 1024,
+        "commands": [
+          2,
+          0,
+          10,
+          0
+        ],
+        "outline_sha256": "178e059797a10472376c17a78dd7666a99f7686b1f52225e61eb646847f9e2ba",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              17,
+              16
+            ],
+            "bearing": [
+              8,
+              7
+            ],
+            "advance_26_6": [
+              2048,
+              0
+            ],
+            "nonzero": 174,
+            "coverage_sum": 33085,
+            "pixels_sha256": "53cb6770692cfcffd11427ef9a7e52f62f5a949bd3ebe3507d40b6de1b374c3d"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              33,
+              31
+            ],
+            "bearing": [
+              16,
+              13
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 606,
+            "coverage_sum": 132024,
+            "pixels_sha256": "0a0caa826ec1ccbbd423d34eb3b42915e2121aaf5aad11606660b906a1c29ad1"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 12290,
+        "gid": 109,
+        "bbox_units": [
+          80,
+          -308,
+          1944,
+          1552
+        ],
+        "advance_units": 2048,
+        "commands": [
+          5,
+          4,
+          63,
+          0
+        ],
+        "outline_sha256": "977314243a3ab83b8e1896dd4aa2f588e571a630832b5876db06e3ceaf601452",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              59,
+              59
+            ],
+            "bearing": [
+              2,
+              49
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 1056,
+            "coverage_sum": 187925,
+            "pixels_sha256": "289fdbaf7eb542e6fb37c8b08d2af84eb0d9df9ece308294ad657724ba8bb8ff"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              117,
+              117
+            ],
+            "bearing": [
+              5,
+              97
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 3587,
+            "coverage_sum": 752515,
+            "pixels_sha256": "b84bd2befa4ea9b7b6f8fa7cc7e9c8980c299886258ef0eb08166e438d894cef"
+          }
+        ]
+      }
+    },
+    {
+      "native_code": "a1aa",
+      "cmap_argument": 25962,
+      "gid": 481,
+      "semantic_unicode": 8212,
+      "shape": {
+        "query_kind": "u",
+        "query": 25962,
+        "gid": 481,
+        "bbox_units": [
+          344,
+          956,
+          1664,
+          1104
+        ],
+        "advance_units": 2048,
+        "commands": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "outline_sha256": "7aa098db619750e56e0ef1f67e07b78f09534b44552e4c041c27176e4661d46f",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              42,
+              6
+            ],
+            "bearing": [
+              10,
+              35
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 252,
+            "coverage_sum": 48588,
+            "pixels_sha256": "8b67d68d14a7ccbe30c2a0bd1d48cd5b4bdc73aacf63046861807d974ca70bc5"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              83,
+              10
+            ],
+            "bearing": [
+              21,
+              69
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 830,
+            "coverage_sum": 194530,
+            "pixels_sha256": "5779f8a47db18d5ba898e150c2285b428a00e759d5c090534cb771d5901d4ca5"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 8212,
+        "gid": 100,
+        "bbox_units": [
+          92,
+          -308,
+          1956,
+          1552
+        ],
+        "advance_units": 2048,
+        "commands": [
+          5,
+          1,
+          47,
+          0
+        ],
+        "outline_sha256": "43bb8a9fd6aa9460cc3840f47d79a8f6df03b141beb0a10d8aaefdc5e1ad6839",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              60,
+              59
+            ],
+            "bearing": [
+              2,
+              49
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 1138,
+            "coverage_sum": 203316,
+            "pixels_sha256": "233a54f98476c7ff2ff326f23a0b6489496252b7cdd8d0b75bdeecf90268b94a"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              118,
+              117
+            ],
+            "bearing": [
+              5,
+              97
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 3844,
+            "coverage_sum": 812345,
+            "pixels_sha256": "38eb48c3ef438bb0d6107e7c3404ae3b24687c43fe66378c1ea3d8bc41e5ac30"
+          }
+        ]
+      }
+    },
+    {
+      "native_code": "a1ae",
+      "cmap_argument": 26268,
+      "gid": 670,
+      "semantic_unicode": 8216,
+      "shape": {
+        "query_kind": "u",
+        "query": 26268,
+        "gid": 670,
+        "bbox_units": [
+          412,
+          939,
+          636,
+          1385
+        ],
+        "advance_units": 1024,
+        "commands": [
+          1,
+          0,
+          7,
+          0
+        ],
+        "outline_sha256": "708a0a188c98d72ce0e9b74a34dae247fbc6f523edef81e5e9a383a2d79f84dd",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              8,
+              15
+            ],
+            "bearing": [
+              12,
+              44
+            ],
+            "advance_26_6": [
+              2048,
+              0
+            ],
+            "nonzero": 101,
+            "coverage_sum": 20829,
+            "pixels_sha256": "741252d08a759c23b5d5aa7a840ab99fbeda2fc7df848464d27524a2df5c2315"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              15,
+              30
+            ],
+            "bearing": [
+              25,
+              88
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 371,
+            "coverage_sum": 83619,
+            "pixels_sha256": "9b2f625452045efc7dfac6feaebdd223975c8f20be56a6277538689886b3c284"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 8216,
+        "gid": 102,
+        "bbox_units": [
+          80,
+          -308,
+          1944,
+          1552
+        ],
+        "advance_units": 2048,
+        "commands": [
+          7,
+          11,
+          63,
+          0
+        ],
+        "outline_sha256": "7d272130d40eef6b4e4b3a1815508ca74172219d3ac825b84e6f1637f65125c8",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              59,
+              59
+            ],
+            "bearing": [
+              2,
+              49
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 1220,
+            "coverage_sum": 215381,
+            "pixels_sha256": "eb06a3fbd34bb38807ac9e821e058b45629e9967157b1cf1d56f53c165362649"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              117,
+              117
+            ],
+            "bearing": [
+              5,
+              97
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 4076,
+            "coverage_sum": 862183,
+            "pixels_sha256": "ae68df91cf543c7317555ac85bcf636f53c25b54f9daf2fc8b432b7e5d71804b"
+          }
+        ]
+      }
+    },
+    {
+      "native_code": "a1af",
+      "cmap_argument": 26270,
+      "gid": 671,
+      "semantic_unicode": 8217,
+      "shape": {
+        "query_kind": "u",
+        "query": 26270,
+        "gid": 671,
+        "bbox_units": [
+          432,
+          939,
+          656,
+          1385
+        ],
+        "advance_units": 1024,
+        "commands": [
+          1,
+          0,
+          7,
+          0
+        ],
+        "outline_sha256": "a4384a539eab1c9f4e7bf82f4edfe0c51a929d379cafed05271a1a9fbf4a15fe",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              8,
+              15
+            ],
+            "bearing": [
+              13,
+              44
+            ],
+            "advance_26_6": [
+              2048,
+              0
+            ],
+            "nonzero": 105,
+            "coverage_sum": 20817,
+            "pixels_sha256": "e8c37bab57705b19b7e6ce3a951fac501fb17c4db57a5cc53563d1b6ecc4a7ff"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              16,
+              30
+            ],
+            "bearing": [
+              26,
+              88
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 363,
+            "coverage_sum": 83583,
+            "pixels_sha256": "2d8b0e4223f5735ab688b1267c1f347d9f5940a4e80c806a8a7f54dc68262b0d"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 8217,
+        "gid": 103,
+        "bbox_units": [
+          80,
+          -308,
+          1944,
+          1552
+        ],
+        "advance_units": 2048,
+        "commands": [
+          5,
+          4,
+          72,
+          0
+        ],
+        "outline_sha256": "e178b3dfd5f13725e0c30937775bbec44c17c883ad1a6aa15a09cad907e743ab",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              59,
+              59
+            ],
+            "bearing": [
+              2,
+              49
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 1151,
+            "coverage_sum": 202834,
+            "pixels_sha256": "d978863960c4ea262ff859218c2dc52d8178acca4d44625b58346d0e27a519b9"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              117,
+              117
+            ],
+            "bearing": [
+              5,
+              97
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 3882,
+            "coverage_sum": 812119,
+            "pixels_sha256": "296b703323d6e05875a30efe02d6e00be7d98328206082d30330a939044fdb01"
+          }
+        ]
+      }
+    },
+    {
+      "native_code": "a1b0",
+      "cmap_argument": 26271,
+      "gid": 672,
+      "semantic_unicode": 8220,
+      "shape": {
+        "query_kind": "u",
+        "query": 26271,
+        "gid": 672,
+        "bbox_units": [
+          188,
+          939,
+          792,
+          1385
+        ],
+        "advance_units": 1024,
+        "commands": [
+          2,
+          0,
+          14,
+          0
+        ],
+        "outline_sha256": "ec5a1d4aa5acc4039b3aa1e66fbca3facfeda8b93d15401db7c29508118b06ea",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              20,
+              15
+            ],
+            "bearing": [
+              5,
+              44
+            ],
+            "advance_26_6": [
+              2048,
+              0
+            ],
+            "nonzero": 208,
+            "coverage_sum": 42547,
+            "pixels_sha256": "6cbfec19563ede9d332b80330405b372ad96936860379f6985230b38b50bdb29"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              39,
+              30
+            ],
+            "bearing": [
+              11,
+              88
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 754,
+            "coverage_sum": 170528,
+            "pixels_sha256": "6cd7b935b85844cc812a663419cadd7d0069f3976d09ee5c05ffeded26c6b660"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 8220,
+        "gid": 104,
+        "bbox_units": [
+          80,
+          -308,
+          1944,
+          1552
+        ],
+        "advance_units": 2048,
+        "commands": [
+          6,
+          0,
+          65,
+          0
+        ],
+        "outline_sha256": "9e6372e7c0c6b2e3eee99afae1cb36919e9482c22303565946058dfec1093ba4",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              59,
+              59
+            ],
+            "bearing": [
+              2,
+              49
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 1090,
+            "coverage_sum": 187250,
+            "pixels_sha256": "dbe5e0c78c2ed4bc773f08ddcbd0f0181c86786de4a8218ca885a71a81ed2345"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              117,
+              117
+            ],
+            "bearing": [
+              5,
+              97
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 3631,
+            "coverage_sum": 750257,
+            "pixels_sha256": "f8830ebd09f1702344f214f8e37a72204816ab01c85e508a916a497b2ab1b85c"
+          }
+        ]
+      }
+    },
+    {
+      "native_code": "a1b1",
+      "cmap_argument": 26272,
+      "gid": 673,
+      "semantic_unicode": 8221,
+      "shape": {
+        "query_kind": "u",
+        "query": 26272,
+        "gid": 673,
+        "bbox_units": [
+          220,
+          939,
+          828,
+          1389
+        ],
+        "advance_units": 1024,
+        "commands": [
+          2,
+          0,
+          14,
+          0
+        ],
+        "outline_sha256": "9e0f5d62b7f0b7d4fcc8f2d9c7a9c51bc3b0c8c5c2d961d64058e78a2a876831",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              20,
+              15
+            ],
+            "bearing": [
+              6,
+              44
+            ],
+            "advance_26_6": [
+              2048,
+              0
+            ],
+            "nonzero": 210,
+            "coverage_sum": 42988,
+            "pixels_sha256": "191a26cddcb4f7f18635a83a34dc70731e22ebbb6bb8763b14842edc4ef8399d"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              39,
+              30
+            ],
+            "bearing": [
+              13,
+              88
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 760,
+            "coverage_sum": 172396,
+            "pixels_sha256": "907be761efc075490a515481fde1c6eaf7fbaac49b4dd42a4fc32dd8b7b62d55"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 8221,
+        "gid": 105,
+        "bbox_units": [
+          80,
+          -308,
+          1944,
+          1552
+        ],
+        "advance_units": 2048,
+        "commands": [
+          4,
+          4,
+          53,
+          0
+        ],
+        "outline_sha256": "5d088817b0ed41de775f2be211159530d57d3a661100a2ec161a254d17f05fa5",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              59,
+              59
+            ],
+            "bearing": [
+              2,
+              49
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 1104,
+            "coverage_sum": 192249,
+            "pixels_sha256": "a8e6c14b76e3391fb14c251974f61b36a925b8db2a2170d50b8ac545e2de2e6b"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              117,
+              117
+            ],
+            "bearing": [
+              5,
+              97
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 3679,
+            "coverage_sum": 770077,
+            "pixels_sha256": "f593b19cd15c763171af4094430e23b8b16ddbfa89510ed44e19618e57cd3e06"
+          }
+        ]
+      }
+    },
+    {
+      "native_code": "a3a7",
+      "cmap_argument": 24518,
+      "gid": 374,
+      "semantic_unicode": 8217,
+      "shape": {
+        "query_kind": "u",
+        "query": 24518,
+        "gid": 374,
+        "bbox_units": [
+          200,
+          864,
+          478,
+          1471
+        ],
+        "advance_units": 681,
+        "commands": [
+          1,
+          3,
+          2,
+          0
+        ],
+        "outline_sha256": "e9310e24c00ba00d2c19955e4ef7a04aff25264300e7500228fe020e11714472",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              10,
+              20
+            ],
+            "bearing": [
+              6,
+              47
+            ],
+            "advance_26_6": [
+              1362,
+              0
+            ],
+            "nonzero": 95,
+            "coverage_sum": 18525,
+            "pixels_sha256": "b52f54e5c19ed2a13dc5e33c488624389efd1e52d08e85f21e5c1610f0976d91"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              20,
+              40
+            ],
+            "bearing": [
+              12,
+              94
+            ],
+            "advance_26_6": [
+              2724,
+              0
+            ],
+            "nonzero": 338,
+            "coverage_sum": 74112,
+            "pixels_sha256": "c67a060462cab265dc815f14adf2518c23f1d7b63ad1d8f2c23dd8f62bc4609c"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 8217,
+        "gid": 103,
+        "bbox_units": [
+          80,
+          -308,
+          1944,
+          1552
+        ],
+        "advance_units": 2048,
+        "commands": [
+          5,
+          4,
+          72,
+          0
+        ],
+        "outline_sha256": "e178b3dfd5f13725e0c30937775bbec44c17c883ad1a6aa15a09cad907e743ab",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              59,
+              59
+            ],
+            "bearing": [
+              2,
+              49
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 1151,
+            "coverage_sum": 202834,
+            "pixels_sha256": "d978863960c4ea262ff859218c2dc52d8178acca4d44625b58346d0e27a519b9"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              117,
+              117
+            ],
+            "bearing": [
+              5,
+              97
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 3882,
+            "coverage_sum": 812119,
+            "pixels_sha256": "296b703323d6e05875a30efe02d6e00be7d98328206082d30330a939044fdb01"
+          }
+        ]
+      }
+    },
+    {
+      "native_code": "a3ab",
+      "cmap_argument": 25960,
+      "gid": 479,
+      "semantic_unicode": 65291,
+      "shape": {
+        "query_kind": "u",
+        "query": 25960,
+        "gid": 479,
+        "bbox_units": [
+          324,
+          364,
+          1668,
+          1688
+        ],
+        "advance_units": 2048,
+        "commands": [
+          1,
+          12,
+          0,
+          0
+        ],
+        "outline_sha256": "bf481a9eba8585bae2ccfd49854bd4406b9bb1f33a8a7882052a424f7ba31a44",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              43,
+              42
+            ],
+            "bearing": [
+              10,
+              53
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 400,
+            "coverage_sum": 91664,
+            "pixels_sha256": "6d0ec33d3ff864bdf0877075532c0495553133d9367bcb9eb4e8cfacd3bd072f"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              85,
+              84
+            ],
+            "bearing": [
+              20,
+              106
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 1516,
+            "coverage_sum": 366740,
+            "pixels_sha256": "c088f3538a66244c36e22c6d55174fc7cf095d0837c6f887a3c4ef5eed95bc85"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 65291,
+        "gid": 0,
+        "missing": true
+      }
+    },
+    {
+      "native_code": "a3ac",
+      "cmap_argument": 25961,
+      "gid": 480,
+      "semantic_unicode": 65292,
+      "shape": {
+        "query_kind": "u",
+        "query": 25961,
+        "gid": 480,
+        "bbox_units": [
+          300,
+          -4,
+          492,
+          472
+        ],
+        "advance_units": 2048,
+        "commands": [
+          1,
+          5,
+          3,
+          0
+        ],
+        "outline_sha256": "4937bfbc14ecaa327d3d3f527f7fef29d90cd0fe3d83e2feb8a07b7db4d01d4d",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              7,
+              16
+            ],
+            "bearing": [
+              9,
+              15
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 84,
+            "coverage_sum": 15857,
+            "pixels_sha256": "aa75153d1ba2a14a7162d41a79a376f6a14e08390d3b0afe03b17d6e106c1c36"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              13,
+              31
+            ],
+            "bearing": [
+              18,
+              30
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 298,
+            "coverage_sum": 63578,
+            "pixels_sha256": "73ee2d328444e21b888430b8562be9705f51fed93ee3b00ce76dec2fd7d19263"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 65292,
+        "gid": 0,
+        "missing": true
+      }
+    },
+    {
+      "native_code": "a3ad",
+      "cmap_argument": 25962,
+      "gid": 481,
+      "semantic_unicode": 65293,
+      "shape": {
+        "query_kind": "u",
+        "query": 25962,
+        "gid": 481,
+        "bbox_units": [
+          344,
+          956,
+          1664,
+          1104
+        ],
+        "advance_units": 2048,
+        "commands": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "outline_sha256": "7aa098db619750e56e0ef1f67e07b78f09534b44552e4c041c27176e4661d46f",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              42,
+              6
+            ],
+            "bearing": [
+              10,
+              35
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 252,
+            "coverage_sum": 48588,
+            "pixels_sha256": "8b67d68d14a7ccbe30c2a0bd1d48cd5b4bdc73aacf63046861807d974ca70bc5"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              83,
+              10
+            ],
+            "bearing": [
+              21,
+              69
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 830,
+            "coverage_sum": 194530,
+            "pixels_sha256": "5779f8a47db18d5ba898e150c2285b428a00e759d5c090534cb771d5901d4ca5"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 65293,
+        "gid": 0,
+        "missing": true
+      }
+    },
+    {
+      "native_code": "a3ae",
+      "cmap_argument": 25965,
+      "gid": 482,
+      "semantic_unicode": 65294,
+      "shape": {
+        "query_kind": "u",
+        "query": 25965,
+        "gid": 482,
+        "bbox_units": [
+          300,
+          308,
+          472,
+          468
+        ],
+        "advance_units": 2048,
+        "commands": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "outline_sha256": "6398e03377d71dbb23e7043e7f755e2a936b1d771f95428ba43f39758ddb4932",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              6,
+              6
+            ],
+            "bearing": [
+              9,
+              15
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 36,
+            "coverage_sum": 6844,
+            "pixels_sha256": "4f60f071ebc259cae2554e6dc2d5abfd39afc785a941487aa1aeb897f1fbfefd"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              12,
+              11
+            ],
+            "bearing": [
+              18,
+              30
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 132,
+            "coverage_sum": 27388,
+            "pixels_sha256": "fe52cc7b607c54a7bf12286824e095ef8213d782d1ca54e9307592b337181da7"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 65294,
+        "gid": 0,
+        "missing": true
+      }
+    },
+    {
+      "native_code": "a3ba",
+      "cmap_argument": 26887,
+      "gid": 948,
+      "semantic_unicode": 65306,
+      "shape": {
+        "query_kind": "u",
+        "query": 26887,
+        "gid": 948,
+        "bbox_units": [
+          364,
+          -232,
+          685,
+          668
+        ],
+        "advance_units": 1024,
+        "commands": [
+          2,
+          0,
+          8,
+          0
+        ],
+        "outline_sha256": "e0879f094569e5f269d95a6ffb3fd3633b13f3ef35c8e82e09bfaf44a86c5455",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              11,
+              29
+            ],
+            "bearing": [
+              11,
+              21
+            ],
+            "advance_26_6": [
+              2048,
+              0
+            ],
+            "nonzero": 168,
+            "coverage_sum": 33525,
+            "pixels_sha256": "7f8b2f002146c854907108ade97b093aa439938272d523e15949f4862c6fbead"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              21,
+              57
+            ],
+            "bearing": [
+              22,
+              42
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 600,
+            "coverage_sum": 134104,
+            "pixels_sha256": "531f95ca853a0a3073fe56c60cfbb39caaaa2a64333250790ee33ec554911fa5"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 65306,
+        "gid": 0,
+        "missing": true
+      }
+    },
+    {
+      "native_code": "a3bb",
+      "cmap_argument": 25982,
+      "gid": 496,
+      "semantic_unicode": 65307,
+      "shape": {
+        "query_kind": "u",
+        "query": 25982,
+        "gid": 496,
+        "bbox_units": [
+          396,
+          20,
+          580,
+          1196
+        ],
+        "advance_units": 2048,
+        "commands": [
+          2,
+          9,
+          3,
+          0
+        ],
+        "outline_sha256": "36864dc4a30503dddee6351d0684af0a513a7a451d07c2fd420cd16f23e1bdd9",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              7,
+              38
+            ],
+            "bearing": [
+              12,
+              38
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 129,
+            "coverage_sum": 21992,
+            "pixels_sha256": "9fca7824b3ed2cd136007b9410a4b54a08ed77a97fce511287f2e703ca94373e"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              13,
+              74
+            ],
+            "bearing": [
+              24,
+              75
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 425,
+            "coverage_sum": 88191,
+            "pixels_sha256": "4137bbe799356dc0e54eb8d6ef30aeafdbb415b8efdab89e3f7110610de3e690"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 65307,
+        "gid": 0,
+        "missing": true
+      }
+    },
+    {
+      "native_code": "a3bf",
+      "cmap_argument": 25986,
+      "gid": 500,
+      "semantic_unicode": 65311,
+      "shape": {
+        "query_kind": "u",
+        "query": 25986,
+        "gid": 500,
+        "bbox_units": [
+          96,
+          212,
+          920,
+          1676
+        ],
+        "advance_units": 2048,
+        "commands": [
+          2,
+          6,
+          16,
+          0
+        ],
+        "outline_sha256": "cf98447955d23453266a28d48f028d63cf1ea83ea8e8e5f13a4534d4ac382c35",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              27,
+              47
+            ],
+            "bearing": [
+              2,
+              53
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 416,
+            "coverage_sum": 84031,
+            "pixels_sha256": "b5ba4aff7fec1f183ddc7b6891fc6cc333d02106a6a39b1a3008b585b2b1377e"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              53,
+              93
+            ],
+            "bearing": [
+              5,
+              106
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 1488,
+            "coverage_sum": 336701,
+            "pixels_sha256": "0669d6dc0dc3266d5801fae54f16a05fdaa3a46123d56faa61d641f971174cde"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 65311,
+        "gid": 0,
+        "missing": true
+      }
+    },
+    {
+      "native_code": "a3db",
+      "cmap_argument": 26930,
+      "gid": 981,
+      "semantic_unicode": 65339,
+      "shape": {
+        "query_kind": "u",
+        "query": 26930,
+        "gid": 981,
+        "bbox_units": [
+          296,
+          -368,
+          792,
+          1548
+        ],
+        "advance_units": 1024,
+        "commands": [
+          1,
+          6,
+          6,
+          0
+        ],
+        "outline_sha256": "e17037f376e160ca9c7c38e8c2ab3d57c6f7df3c648a8870d06364f5a949082d",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              16,
+              61
+            ],
+            "bearing": [
+              9,
+              49
+            ],
+            "advance_26_6": [
+              2048,
+              0
+            ],
+            "nonzero": 411,
+            "coverage_sum": 84743,
+            "pixels_sha256": "f67f9c65704850fa91ed22f4237b38937464a6f77381649a3dddd587fe12e289"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              32,
+              120
+            ],
+            "bearing": [
+              18,
+              97
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 1453,
+            "coverage_sum": 339388,
+            "pixels_sha256": "65d7dac6c3680b0dfc4607e18cb727e8544a6ef11cb0d6f85024fcb782887fe3"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 65339,
+        "gid": 0,
+        "missing": true
+      }
+    },
+    {
+      "native_code": "a3dd",
+      "cmap_argument": 26933,
+      "gid": 982,
+      "semantic_unicode": 65341,
+      "shape": {
+        "query_kind": "u",
+        "query": 26933,
+        "gid": 982,
+        "bbox_units": [
+          248,
+          -368,
+          744,
+          1548
+        ],
+        "advance_units": 1024,
+        "commands": [
+          1,
+          6,
+          6,
+          0
+        ],
+        "outline_sha256": "d7954b5e8f7f4e35912b50b3aa2c0b71091a46a6442ec9d90692ab95f0994c2a",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              17,
+              61
+            ],
+            "bearing": [
+              7,
+              49
+            ],
+            "advance_26_6": [
+              2048,
+              0
+            ],
+            "nonzero": 414,
+            "coverage_sum": 84738,
+            "pixels_sha256": "1698b77ce4571fad61975381b18914344bb27b721e191e8697ae6795da58c7e5"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              32,
+              120
+            ],
+            "bearing": [
+              15,
+              97
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 1450,
+            "coverage_sum": 339046,
+            "pixels_sha256": "e1730f17566276dd4d266897acb7ba6ef17c2310b0e67ed4ee160b1a338f0297"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 65341,
+        "gid": 0,
+        "missing": true
+      }
+    },
+    {
+      "native_code": "aab1",
+      "cmap_argument": 26870,
+      "gid": 936,
+      "semantic_unicode": 46,
+      "shape": {
+        "query_kind": "u",
+        "query": 26870,
+        "gid": 936,
+        "bbox_units": [
+          300,
+          308,
+          472,
+          472
+        ],
+        "advance_units": 2048,
+        "commands": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "outline_sha256": "c760beb86ff42877c12623ff9cd09b78395ebf5f9db27c4a92b3edb575f889ff",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              6,
+              6
+            ],
+            "bearing": [
+              9,
+              15
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 36,
+            "coverage_sum": 7016,
+            "pixels_sha256": "211e705f36c836986c5c535d8d801ab4ee690b9f240e7999e103b5a1c37675da"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              12,
+              11
+            ],
+            "bearing": [
+              18,
+              30
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 132,
+            "coverage_sum": 28076,
+            "pixels_sha256": "479f54cfbc423b1c3417d38b58a178c6b4ab1ec601eb5843e5dbf47c7627dc75"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 46,
+        "gid": 15,
+        "bbox_units": [
+          180,
+          0,
+          432,
+          208
+        ],
+        "advance_units": 569,
+        "commands": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "outline_sha256": "31946eade78320bfe7a86853e373bc0fad23ade04eab9022632fdd7a26f8bf7a",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              9,
+              7
+            ],
+            "bearing": [
+              5,
+              7
+            ],
+            "advance_26_6": [
+              1138,
+              0
+            ],
+            "nonzero": 54,
+            "coverage_sum": 10976,
+            "pixels_sha256": "5ccad103a54f32ddebe6e10ffb6fd25f6f04e59082dd52f1ce23db7fc3d8d4e6"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              16,
+              13
+            ],
+            "bearing": [
+              11,
+              13
+            ],
+            "advance_26_6": [
+              2276,
+              0
+            ],
+            "nonzero": 185,
+            "coverage_sum": 43924,
+            "pixels_sha256": "d9b1383ac4116b853385517bdc3968f4aa3823b12aa4f83906dfa6c50f93be14"
+          }
+        ]
+      }
+    },
+    {
+      "native_code": "aab2",
+      "cmap_argument": 26038,
+      "gid": 535,
+      "semantic_unicode": 45,
+      "shape": {
+        "query_kind": "u",
+        "query": 26038,
+        "gid": 535,
+        "bbox_units": [
+          764,
+          640,
+          1340,
+          812
+        ],
+        "advance_units": 2048,
+        "commands": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "outline_sha256": "b14210e75c349fbb6bdb52f3a7854ac993d9098b1e50b049b683ee29bae569d0",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              19,
+              6
+            ],
+            "bearing": [
+              23,
+              26
+            ],
+            "advance_26_6": [
+              4096,
+              0
+            ],
+            "nonzero": 114,
+            "coverage_sum": 24654,
+            "pixels_sha256": "9c7f87d3739337e009b72033a5818a9671b893ca4cb431021d8dda94dbb0332a"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              37,
+              11
+            ],
+            "bearing": [
+              47,
+              51
+            ],
+            "advance_26_6": [
+              8192,
+              0
+            ],
+            "nonzero": 407,
+            "coverage_sum": 98665,
+            "pixels_sha256": "82f39a57c76ca4415dab609bd00d2886cda3f934aa2ac198f36e0a55e52c6c92"
+          }
+        ]
+      },
+      "ordinary_unicode": {
+        "query_kind": "u",
+        "query": 45,
+        "gid": 14,
+        "bbox_units": [
+          180,
+          444,
+          1244,
+          592
+        ],
+        "advance_units": 1196,
+        "commands": [
+          1,
+          4,
+          0,
+          0
+        ],
+        "outline_sha256": "3c548a36a7abf8e62c7e726f1ab5e292033caf141ca9a9d4d83fd7b92befa555",
+        "rasters": [
+          {
+            "ppem": 64,
+            "size": [
+              34,
+              6
+            ],
+            "bearing": [
+              5,
+              19
+            ],
+            "advance_26_6": [
+              2392,
+              0
+            ],
+            "nonzero": 201,
+            "coverage_sum": 38282,
+            "pixels_sha256": "ac50797b1cd897e28644049e907844f1bde4bdc5554a1edf8cd4b4fca34e8a6a"
+          },
+          {
+            "ppem": 128,
+            "size": [
+              67,
+              10
+            ],
+            "bearing": [
+              11,
+              37
+            ],
+            "advance_26_6": [
+              4784,
+              0
+            ],
+            "nonzero": 661,
+            "coverage_sum": 153266,
+            "pixels_sha256": "8a8b2fa54ee3b9b2b7d213bdb81ba4153c3bc16865c33bb3c09a2ca05584c8ce"
+          }
+        ]
+      }
+    }
+  ],
+  "queries": [
+    {
+      "query_kind": "u",
+      "query": 32,
+      "gid": 1,
+      "bbox_units": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "advance_units": 569,
+      "commands": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "outline_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            0,
+            0
+          ],
+          "bearing": [
+            0,
+            0
+          ],
+          "advance_26_6": [
+            1138,
+            0
+          ],
+          "nonzero": 0,
+          "coverage_sum": 0,
+          "pixels_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            0,
+            0
+          ],
+          "bearing": [
+            0,
+            0
+          ],
+          "advance_26_6": [
+            2276,
+            0
+          ],
+          "nonzero": 0,
+          "coverage_sum": 0,
+          "pixels_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 39,
+      "gid": 8,
+      "bbox_units": [
+        516,
+        1216,
+        960,
+        1508
+      ],
+      "advance_units": 681,
+      "commands": [
+        1,
+        4,
+        0,
+        0
+      ],
+      "outline_sha256": "40a3ee46e1e00e691381839e92729c9b883655529d3f56dfca268483b3951d5a",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            14,
+            10
+          ],
+          "bearing": [
+            16,
+            48
+          ],
+          "advance_26_6": [
+            1362,
+            0
+          ],
+          "nonzero": 72,
+          "coverage_sum": 12357,
+          "pixels_sha256": "192824980b2e728c9df054f7614b65ed20ec6eefa46ccb10cf76b4d5e0fbaa5c"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            28,
+            19
+          ],
+          "bearing": [
+            32,
+            95
+          ],
+          "advance_26_6": [
+            2724,
+            0
+          ],
+          "nonzero": 236,
+          "coverage_sum": 49442,
+          "pixels_sha256": "bfbe0edfd045cf62702d41f4bf7fc03c1ed4518c15a5ee49bef012e19afbf40e"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 45,
+      "gid": 14,
+      "bbox_units": [
+        180,
+        444,
+        1244,
+        592
+      ],
+      "advance_units": 1196,
+      "commands": [
+        1,
+        4,
+        0,
+        0
+      ],
+      "outline_sha256": "3c548a36a7abf8e62c7e726f1ab5e292033caf141ca9a9d4d83fd7b92befa555",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            34,
+            6
+          ],
+          "bearing": [
+            5,
+            19
+          ],
+          "advance_26_6": [
+            2392,
+            0
+          ],
+          "nonzero": 201,
+          "coverage_sum": 38282,
+          "pixels_sha256": "ac50797b1cd897e28644049e907844f1bde4bdc5554a1edf8cd4b4fca34e8a6a"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            67,
+            10
+          ],
+          "bearing": [
+            11,
+            37
+          ],
+          "advance_26_6": [
+            4784,
+            0
+          ],
+          "nonzero": 661,
+          "coverage_sum": 153266,
+          "pixels_sha256": "8a8b2fa54ee3b9b2b7d213bdb81ba4153c3bc16865c33bb3c09a2ca05584c8ce"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 46,
+      "gid": 15,
+      "bbox_units": [
+        180,
+        0,
+        432,
+        208
+      ],
+      "advance_units": 569,
+      "commands": [
+        1,
+        4,
+        0,
+        0
+      ],
+      "outline_sha256": "31946eade78320bfe7a86853e373bc0fad23ade04eab9022632fdd7a26f8bf7a",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            9,
+            7
+          ],
+          "bearing": [
+            5,
+            7
+          ],
+          "advance_26_6": [
+            1138,
+            0
+          ],
+          "nonzero": 54,
+          "coverage_sum": 10976,
+          "pixels_sha256": "5ccad103a54f32ddebe6e10ffb6fd25f6f04e59082dd52f1ce23db7fc3d8d4e6"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            16,
+            13
+          ],
+          "bearing": [
+            11,
+            13
+          ],
+          "advance_26_6": [
+            2276,
+            0
+          ],
+          "nonzero": 185,
+          "coverage_sum": 43924,
+          "pixels_sha256": "d9b1383ac4116b853385517bdc3968f4aa3823b12aa4f83906dfa6c50f93be14"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 8212,
+      "gid": 100,
+      "bbox_units": [
+        92,
+        -308,
+        1956,
+        1552
+      ],
+      "advance_units": 2048,
+      "commands": [
+        5,
+        1,
+        47,
+        0
+      ],
+      "outline_sha256": "43bb8a9fd6aa9460cc3840f47d79a8f6df03b141beb0a10d8aaefdc5e1ad6839",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            60,
+            59
+          ],
+          "bearing": [
+            2,
+            49
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 1138,
+          "coverage_sum": 203316,
+          "pixels_sha256": "233a54f98476c7ff2ff326f23a0b6489496252b7cdd8d0b75bdeecf90268b94a"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            118,
+            117
+          ],
+          "bearing": [
+            5,
+            97
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 3844,
+          "coverage_sum": 812345,
+          "pixels_sha256": "38eb48c3ef438bb0d6107e7c3404ae3b24687c43fe66378c1ea3d8bc41e5ac30"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 8216,
+      "gid": 102,
+      "bbox_units": [
+        80,
+        -308,
+        1944,
+        1552
+      ],
+      "advance_units": 2048,
+      "commands": [
+        7,
+        11,
+        63,
+        0
+      ],
+      "outline_sha256": "7d272130d40eef6b4e4b3a1815508ca74172219d3ac825b84e6f1637f65125c8",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            59,
+            59
+          ],
+          "bearing": [
+            2,
+            49
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 1220,
+          "coverage_sum": 215381,
+          "pixels_sha256": "eb06a3fbd34bb38807ac9e821e058b45629e9967157b1cf1d56f53c165362649"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            117,
+            117
+          ],
+          "bearing": [
+            5,
+            97
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 4076,
+          "coverage_sum": 862183,
+          "pixels_sha256": "ae68df91cf543c7317555ac85bcf636f53c25b54f9daf2fc8b432b7e5d71804b"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 8217,
+      "gid": 103,
+      "bbox_units": [
+        80,
+        -308,
+        1944,
+        1552
+      ],
+      "advance_units": 2048,
+      "commands": [
+        5,
+        4,
+        72,
+        0
+      ],
+      "outline_sha256": "e178b3dfd5f13725e0c30937775bbec44c17c883ad1a6aa15a09cad907e743ab",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            59,
+            59
+          ],
+          "bearing": [
+            2,
+            49
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 1151,
+          "coverage_sum": 202834,
+          "pixels_sha256": "d978863960c4ea262ff859218c2dc52d8178acca4d44625b58346d0e27a519b9"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            117,
+            117
+          ],
+          "bearing": [
+            5,
+            97
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 3882,
+          "coverage_sum": 812119,
+          "pixels_sha256": "296b703323d6e05875a30efe02d6e00be7d98328206082d30330a939044fdb01"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 8220,
+      "gid": 104,
+      "bbox_units": [
+        80,
+        -308,
+        1944,
+        1552
+      ],
+      "advance_units": 2048,
+      "commands": [
+        6,
+        0,
+        65,
+        0
+      ],
+      "outline_sha256": "9e6372e7c0c6b2e3eee99afae1cb36919e9482c22303565946058dfec1093ba4",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            59,
+            59
+          ],
+          "bearing": [
+            2,
+            49
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 1090,
+          "coverage_sum": 187250,
+          "pixels_sha256": "dbe5e0c78c2ed4bc773f08ddcbd0f0181c86786de4a8218ca885a71a81ed2345"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            117,
+            117
+          ],
+          "bearing": [
+            5,
+            97
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 3631,
+          "coverage_sum": 750257,
+          "pixels_sha256": "f8830ebd09f1702344f214f8e37a72204816ab01c85e508a916a497b2ab1b85c"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 8221,
+      "gid": 105,
+      "bbox_units": [
+        80,
+        -308,
+        1944,
+        1552
+      ],
+      "advance_units": 2048,
+      "commands": [
+        4,
+        4,
+        53,
+        0
+      ],
+      "outline_sha256": "5d088817b0ed41de775f2be211159530d57d3a661100a2ec161a254d17f05fa5",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            59,
+            59
+          ],
+          "bearing": [
+            2,
+            49
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 1104,
+          "coverage_sum": 192249,
+          "pixels_sha256": "a8e6c14b76e3391fb14c251974f61b36a925b8db2a2170d50b8ac545e2de2e6b"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            117,
+            117
+          ],
+          "bearing": [
+            5,
+            97
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 3679,
+          "coverage_sum": 770077,
+          "pixels_sha256": "f593b19cd15c763171af4094430e23b8b16ddbfa89510ed44e19618e57cd3e06"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 12289,
+      "gid": 108,
+      "bbox_units": [
+        80,
+        -308,
+        1944,
+        1552
+      ],
+      "advance_units": 2048,
+      "commands": [
+        4,
+        2,
+        46,
+        0
+      ],
+      "outline_sha256": "d2feb904dfd376d816bfed21e8ae65e8b616dcc3e61d984e36ca85e8be616231",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            59,
+            59
+          ],
+          "bearing": [
+            2,
+            49
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 953,
+          "coverage_sum": 166777,
+          "pixels_sha256": "c4dfd4e95a65b4392588c1a47cc378ac58e749770ed0bc520135ec94a2f7b8f0"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            117,
+            117
+          ],
+          "bearing": [
+            5,
+            97
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 3210,
+          "coverage_sum": 667835,
+          "pixels_sha256": "defc3debd273eb128f89a48fc91db4de497b02839ca60b274ad57c808667fc4f"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 12290,
+      "gid": 109,
+      "bbox_units": [
+        80,
+        -308,
+        1944,
+        1552
+      ],
+      "advance_units": 2048,
+      "commands": [
+        5,
+        4,
+        63,
+        0
+      ],
+      "outline_sha256": "977314243a3ab83b8e1896dd4aa2f588e571a630832b5876db06e3ceaf601452",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            59,
+            59
+          ],
+          "bearing": [
+            2,
+            49
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 1056,
+          "coverage_sum": 187925,
+          "pixels_sha256": "289fdbaf7eb542e6fb37c8b08d2af84eb0d9df9ece308294ad657724ba8bb8ff"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            117,
+            117
+          ],
+          "bearing": [
+            5,
+            97
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 3587,
+          "coverage_sum": 752515,
+          "pixels_sha256": "b84bd2befa4ea9b7b6f8fa7cc7e9c8980c299886258ef0eb08166e438d894cef"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 24518,
+      "gid": 374,
+      "bbox_units": [
+        200,
+        864,
+        478,
+        1471
+      ],
+      "advance_units": 681,
+      "commands": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "outline_sha256": "e9310e24c00ba00d2c19955e4ef7a04aff25264300e7500228fe020e11714472",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            10,
+            20
+          ],
+          "bearing": [
+            6,
+            47
+          ],
+          "advance_26_6": [
+            1362,
+            0
+          ],
+          "nonzero": 95,
+          "coverage_sum": 18525,
+          "pixels_sha256": "b52f54e5c19ed2a13dc5e33c488624389efd1e52d08e85f21e5c1610f0976d91"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            20,
+            40
+          ],
+          "bearing": [
+            12,
+            94
+          ],
+          "advance_26_6": [
+            2724,
+            0
+          ],
+          "nonzero": 338,
+          "coverage_sum": 74112,
+          "pixels_sha256": "c67a060462cab265dc815f14adf2518c23f1d7b63ad1d8f2c23dd8f62bc4609c"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 25960,
+      "gid": 479,
+      "bbox_units": [
+        324,
+        364,
+        1668,
+        1688
+      ],
+      "advance_units": 2048,
+      "commands": [
+        1,
+        12,
+        0,
+        0
+      ],
+      "outline_sha256": "bf481a9eba8585bae2ccfd49854bd4406b9bb1f33a8a7882052a424f7ba31a44",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            43,
+            42
+          ],
+          "bearing": [
+            10,
+            53
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 400,
+          "coverage_sum": 91664,
+          "pixels_sha256": "6d0ec33d3ff864bdf0877075532c0495553133d9367bcb9eb4e8cfacd3bd072f"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            85,
+            84
+          ],
+          "bearing": [
+            20,
+            106
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 1516,
+          "coverage_sum": 366740,
+          "pixels_sha256": "c088f3538a66244c36e22c6d55174fc7cf095d0837c6f887a3c4ef5eed95bc85"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 25961,
+      "gid": 480,
+      "bbox_units": [
+        300,
+        -4,
+        492,
+        472
+      ],
+      "advance_units": 2048,
+      "commands": [
+        1,
+        5,
+        3,
+        0
+      ],
+      "outline_sha256": "4937bfbc14ecaa327d3d3f527f7fef29d90cd0fe3d83e2feb8a07b7db4d01d4d",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            7,
+            16
+          ],
+          "bearing": [
+            9,
+            15
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 84,
+          "coverage_sum": 15857,
+          "pixels_sha256": "aa75153d1ba2a14a7162d41a79a376f6a14e08390d3b0afe03b17d6e106c1c36"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            13,
+            31
+          ],
+          "bearing": [
+            18,
+            30
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 298,
+          "coverage_sum": 63578,
+          "pixels_sha256": "73ee2d328444e21b888430b8562be9705f51fed93ee3b00ce76dec2fd7d19263"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 25962,
+      "gid": 481,
+      "bbox_units": [
+        344,
+        956,
+        1664,
+        1104
+      ],
+      "advance_units": 2048,
+      "commands": [
+        1,
+        4,
+        0,
+        0
+      ],
+      "outline_sha256": "7aa098db619750e56e0ef1f67e07b78f09534b44552e4c041c27176e4661d46f",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            42,
+            6
+          ],
+          "bearing": [
+            10,
+            35
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 252,
+          "coverage_sum": 48588,
+          "pixels_sha256": "8b67d68d14a7ccbe30c2a0bd1d48cd5b4bdc73aacf63046861807d974ca70bc5"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            83,
+            10
+          ],
+          "bearing": [
+            21,
+            69
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 830,
+          "coverage_sum": 194530,
+          "pixels_sha256": "5779f8a47db18d5ba898e150c2285b428a00e759d5c090534cb771d5901d4ca5"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 25965,
+      "gid": 482,
+      "bbox_units": [
+        300,
+        308,
+        472,
+        468
+      ],
+      "advance_units": 2048,
+      "commands": [
+        1,
+        4,
+        0,
+        0
+      ],
+      "outline_sha256": "6398e03377d71dbb23e7043e7f755e2a936b1d771f95428ba43f39758ddb4932",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            6,
+            6
+          ],
+          "bearing": [
+            9,
+            15
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 36,
+          "coverage_sum": 6844,
+          "pixels_sha256": "4f60f071ebc259cae2554e6dc2d5abfd39afc785a941487aa1aeb897f1fbfefd"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            12,
+            11
+          ],
+          "bearing": [
+            18,
+            30
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 132,
+          "coverage_sum": 27388,
+          "pixels_sha256": "fe52cc7b607c54a7bf12286824e095ef8213d782d1ca54e9307592b337181da7"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 25982,
+      "gid": 496,
+      "bbox_units": [
+        396,
+        20,
+        580,
+        1196
+      ],
+      "advance_units": 2048,
+      "commands": [
+        2,
+        9,
+        3,
+        0
+      ],
+      "outline_sha256": "36864dc4a30503dddee6351d0684af0a513a7a451d07c2fd420cd16f23e1bdd9",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            7,
+            38
+          ],
+          "bearing": [
+            12,
+            38
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 129,
+          "coverage_sum": 21992,
+          "pixels_sha256": "9fca7824b3ed2cd136007b9410a4b54a08ed77a97fce511287f2e703ca94373e"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            13,
+            74
+          ],
+          "bearing": [
+            24,
+            75
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 425,
+          "coverage_sum": 88191,
+          "pixels_sha256": "4137bbe799356dc0e54eb8d6ef30aeafdbb415b8efdab89e3f7110610de3e690"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 25986,
+      "gid": 500,
+      "bbox_units": [
+        96,
+        212,
+        920,
+        1676
+      ],
+      "advance_units": 2048,
+      "commands": [
+        2,
+        6,
+        16,
+        0
+      ],
+      "outline_sha256": "cf98447955d23453266a28d48f028d63cf1ea83ea8e8e5f13a4534d4ac382c35",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            27,
+            47
+          ],
+          "bearing": [
+            2,
+            53
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 416,
+          "coverage_sum": 84031,
+          "pixels_sha256": "b5ba4aff7fec1f183ddc7b6891fc6cc333d02106a6a39b1a3008b585b2b1377e"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            53,
+            93
+          ],
+          "bearing": [
+            5,
+            106
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 1488,
+          "coverage_sum": 336701,
+          "pixels_sha256": "0669d6dc0dc3266d5801fae54f16a05fdaa3a46123d56faa61d641f971174cde"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 26038,
+      "gid": 535,
+      "bbox_units": [
+        764,
+        640,
+        1340,
+        812
+      ],
+      "advance_units": 2048,
+      "commands": [
+        1,
+        4,
+        0,
+        0
+      ],
+      "outline_sha256": "b14210e75c349fbb6bdb52f3a7854ac993d9098b1e50b049b683ee29bae569d0",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            19,
+            6
+          ],
+          "bearing": [
+            23,
+            26
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 114,
+          "coverage_sum": 24654,
+          "pixels_sha256": "9c7f87d3739337e009b72033a5818a9671b893ca4cb431021d8dda94dbb0332a"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            37,
+            11
+          ],
+          "bearing": [
+            47,
+            51
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 407,
+          "coverage_sum": 98665,
+          "pixels_sha256": "82f39a57c76ca4415dab609bd00d2886cda3f934aa2ac198f36e0a55e52c6c92"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 26253,
+      "gid": 661,
+      "bbox_units": [
+        404,
+        -306,
+        830,
+        183
+      ],
+      "advance_units": 1024,
+      "commands": [
+        1,
+        0,
+        6,
+        0
+      ],
+      "outline_sha256": "8db6413701072e2b9209177b4ea235a2d48c45821155c00082c335eb740e5c54",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            15,
+            18
+          ],
+          "bearing": [
+            12,
+            7
+          ],
+          "advance_26_6": [
+            2048,
+            0
+          ],
+          "nonzero": 121,
+          "coverage_sum": 24146,
+          "pixels_sha256": "820f93f411caf33dbcfed6cfd5221d84ce2d8dbf6969e2e0e15ef280937abfbc"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            30,
+            34
+          ],
+          "bearing": [
+            24,
+            13
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 433,
+          "coverage_sum": 96810,
+          "pixels_sha256": "f55a2969c8b3890cacf122595d08933ab2e708aeee828bf06dbdd6c34895141b"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 26254,
+      "gid": 662,
+      "bbox_units": [
+        264,
+        -280,
+        772,
+        208
+      ],
+      "advance_units": 1024,
+      "commands": [
+        2,
+        0,
+        10,
+        0
+      ],
+      "outline_sha256": "178e059797a10472376c17a78dd7666a99f7686b1f52225e61eb646847f9e2ba",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            17,
+            16
+          ],
+          "bearing": [
+            8,
+            7
+          ],
+          "advance_26_6": [
+            2048,
+            0
+          ],
+          "nonzero": 174,
+          "coverage_sum": 33085,
+          "pixels_sha256": "53cb6770692cfcffd11427ef9a7e52f62f5a949bd3ebe3507d40b6de1b374c3d"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            33,
+            31
+          ],
+          "bearing": [
+            16,
+            13
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 606,
+          "coverage_sum": 132024,
+          "pixels_sha256": "0a0caa826ec1ccbbd423d34eb3b42915e2121aaf5aad11606660b906a1c29ad1"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 26268,
+      "gid": 670,
+      "bbox_units": [
+        412,
+        939,
+        636,
+        1385
+      ],
+      "advance_units": 1024,
+      "commands": [
+        1,
+        0,
+        7,
+        0
+      ],
+      "outline_sha256": "708a0a188c98d72ce0e9b74a34dae247fbc6f523edef81e5e9a383a2d79f84dd",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            8,
+            15
+          ],
+          "bearing": [
+            12,
+            44
+          ],
+          "advance_26_6": [
+            2048,
+            0
+          ],
+          "nonzero": 101,
+          "coverage_sum": 20829,
+          "pixels_sha256": "741252d08a759c23b5d5aa7a840ab99fbeda2fc7df848464d27524a2df5c2315"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            15,
+            30
+          ],
+          "bearing": [
+            25,
+            88
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 371,
+          "coverage_sum": 83619,
+          "pixels_sha256": "9b2f625452045efc7dfac6feaebdd223975c8f20be56a6277538689886b3c284"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 26270,
+      "gid": 671,
+      "bbox_units": [
+        432,
+        939,
+        656,
+        1385
+      ],
+      "advance_units": 1024,
+      "commands": [
+        1,
+        0,
+        7,
+        0
+      ],
+      "outline_sha256": "a4384a539eab1c9f4e7bf82f4edfe0c51a929d379cafed05271a1a9fbf4a15fe",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            8,
+            15
+          ],
+          "bearing": [
+            13,
+            44
+          ],
+          "advance_26_6": [
+            2048,
+            0
+          ],
+          "nonzero": 105,
+          "coverage_sum": 20817,
+          "pixels_sha256": "e8c37bab57705b19b7e6ce3a951fac501fb17c4db57a5cc53563d1b6ecc4a7ff"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            16,
+            30
+          ],
+          "bearing": [
+            26,
+            88
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 363,
+          "coverage_sum": 83583,
+          "pixels_sha256": "2d8b0e4223f5735ab688b1267c1f347d9f5940a4e80c806a8a7f54dc68262b0d"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 26271,
+      "gid": 672,
+      "bbox_units": [
+        188,
+        939,
+        792,
+        1385
+      ],
+      "advance_units": 1024,
+      "commands": [
+        2,
+        0,
+        14,
+        0
+      ],
+      "outline_sha256": "ec5a1d4aa5acc4039b3aa1e66fbca3facfeda8b93d15401db7c29508118b06ea",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            20,
+            15
+          ],
+          "bearing": [
+            5,
+            44
+          ],
+          "advance_26_6": [
+            2048,
+            0
+          ],
+          "nonzero": 208,
+          "coverage_sum": 42547,
+          "pixels_sha256": "6cbfec19563ede9d332b80330405b372ad96936860379f6985230b38b50bdb29"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            39,
+            30
+          ],
+          "bearing": [
+            11,
+            88
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 754,
+          "coverage_sum": 170528,
+          "pixels_sha256": "6cd7b935b85844cc812a663419cadd7d0069f3976d09ee5c05ffeded26c6b660"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 26272,
+      "gid": 673,
+      "bbox_units": [
+        220,
+        939,
+        828,
+        1389
+      ],
+      "advance_units": 1024,
+      "commands": [
+        2,
+        0,
+        14,
+        0
+      ],
+      "outline_sha256": "9e0f5d62b7f0b7d4fcc8f2d9c7a9c51bc3b0c8c5c2d961d64058e78a2a876831",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            20,
+            15
+          ],
+          "bearing": [
+            6,
+            44
+          ],
+          "advance_26_6": [
+            2048,
+            0
+          ],
+          "nonzero": 210,
+          "coverage_sum": 42988,
+          "pixels_sha256": "191a26cddcb4f7f18635a83a34dc70731e22ebbb6bb8763b14842edc4ef8399d"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            39,
+            30
+          ],
+          "bearing": [
+            13,
+            88
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 760,
+          "coverage_sum": 172396,
+          "pixels_sha256": "907be761efc075490a515481fde1c6eaf7fbaac49b4dd42a4fc32dd8b7b62d55"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 26870,
+      "gid": 936,
+      "bbox_units": [
+        300,
+        308,
+        472,
+        472
+      ],
+      "advance_units": 2048,
+      "commands": [
+        1,
+        4,
+        0,
+        0
+      ],
+      "outline_sha256": "c760beb86ff42877c12623ff9cd09b78395ebf5f9db27c4a92b3edb575f889ff",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            6,
+            6
+          ],
+          "bearing": [
+            9,
+            15
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 36,
+          "coverage_sum": 7016,
+          "pixels_sha256": "211e705f36c836986c5c535d8d801ab4ee690b9f240e7999e103b5a1c37675da"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            12,
+            11
+          ],
+          "bearing": [
+            18,
+            30
+          ],
+          "advance_26_6": [
+            8192,
+            0
+          ],
+          "nonzero": 132,
+          "coverage_sum": 28076,
+          "pixels_sha256": "479f54cfbc423b1c3417d38b58a178c6b4ab1ec601eb5843e5dbf47c7627dc75"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 26871,
+      "gid": 937,
+      "bbox_units": [
+        68,
+        -324,
+        1000,
+        1532
+      ],
+      "advance_units": 1024,
+      "commands": [
+        1,
+        4,
+        0,
+        0
+      ],
+      "outline_sha256": "abb6fd79cd1b44457307df6fbacdf0306b9a72edfc496cddca3013ab2d21863a",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            30,
+            59
+          ],
+          "bearing": [
+            2,
+            48
+          ],
+          "advance_26_6": [
+            2048,
+            0
+          ],
+          "nonzero": 300,
+          "coverage_sum": 55999,
+          "pixels_sha256": "8691afa7a24ce167b6e2f2620be40c9a2159c978cdda7bcd7206438ddc1d282f"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            59,
+            117
+          ],
+          "bearing": [
+            4,
+            96
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 1040,
+          "coverage_sum": 223992,
+          "pixels_sha256": "e960ff8cdfde4da4344c328614528cbc82effbad74ecfd6e1e0d94f12717b8ce"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 26887,
+      "gid": 948,
+      "bbox_units": [
+        364,
+        -232,
+        685,
+        668
+      ],
+      "advance_units": 1024,
+      "commands": [
+        2,
+        0,
+        8,
+        0
+      ],
+      "outline_sha256": "e0879f094569e5f269d95a6ffb3fd3633b13f3ef35c8e82e09bfaf44a86c5455",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            11,
+            29
+          ],
+          "bearing": [
+            11,
+            21
+          ],
+          "advance_26_6": [
+            2048,
+            0
+          ],
+          "nonzero": 168,
+          "coverage_sum": 33525,
+          "pixels_sha256": "7f8b2f002146c854907108ade97b093aa439938272d523e15949f4862c6fbead"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            21,
+            57
+          ],
+          "bearing": [
+            22,
+            42
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 600,
+          "coverage_sum": 134104,
+          "pixels_sha256": "531f95ca853a0a3073fe56c60cfbb39caaaa2a64333250790ee33ec554911fa5"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 26930,
+      "gid": 981,
+      "bbox_units": [
+        296,
+        -368,
+        792,
+        1548
+      ],
+      "advance_units": 1024,
+      "commands": [
+        1,
+        6,
+        6,
+        0
+      ],
+      "outline_sha256": "e17037f376e160ca9c7c38e8c2ab3d57c6f7df3c648a8870d06364f5a949082d",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            16,
+            61
+          ],
+          "bearing": [
+            9,
+            49
+          ],
+          "advance_26_6": [
+            2048,
+            0
+          ],
+          "nonzero": 411,
+          "coverage_sum": 84743,
+          "pixels_sha256": "f67f9c65704850fa91ed22f4237b38937464a6f77381649a3dddd587fe12e289"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            32,
+            120
+          ],
+          "bearing": [
+            18,
+            97
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 1453,
+          "coverage_sum": 339388,
+          "pixels_sha256": "65d7dac6c3680b0dfc4607e18cb727e8544a6ef11cb0d6f85024fcb782887fe3"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 26933,
+      "gid": 982,
+      "bbox_units": [
+        248,
+        -368,
+        744,
+        1548
+      ],
+      "advance_units": 1024,
+      "commands": [
+        1,
+        6,
+        6,
+        0
+      ],
+      "outline_sha256": "d7954b5e8f7f4e35912b50b3aa2c0b71091a46a6442ec9d90692ab95f0994c2a",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            17,
+            61
+          ],
+          "bearing": [
+            7,
+            49
+          ],
+          "advance_26_6": [
+            2048,
+            0
+          ],
+          "nonzero": 414,
+          "coverage_sum": 84738,
+          "pixels_sha256": "1698b77ce4571fad61975381b18914344bb27b721e191e8697ae6795da58c7e5"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            32,
+            120
+          ],
+          "bearing": [
+            15,
+            97
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 1450,
+          "coverage_sum": 339046,
+          "pixels_sha256": "e1730f17566276dd4d266897acb7ba6ef17c2310b0e67ed4ee160b1a338f0297"
+        }
+      ]
+    },
+    {
+      "query_kind": "u",
+      "query": 65287,
+      "gid": 0,
+      "missing": true
+    },
+    {
+      "query_kind": "u",
+      "query": 65291,
+      "gid": 0,
+      "missing": true
+    },
+    {
+      "query_kind": "u",
+      "query": 65292,
+      "gid": 0,
+      "missing": true
+    },
+    {
+      "query_kind": "u",
+      "query": 65293,
+      "gid": 0,
+      "missing": true
+    },
+    {
+      "query_kind": "u",
+      "query": 65294,
+      "gid": 0,
+      "missing": true
+    },
+    {
+      "query_kind": "u",
+      "query": 65295,
+      "gid": 0,
+      "missing": true
+    },
+    {
+      "query_kind": "u",
+      "query": 65306,
+      "gid": 0,
+      "missing": true
+    },
+    {
+      "query_kind": "u",
+      "query": 65307,
+      "gid": 0,
+      "missing": true
+    },
+    {
+      "query_kind": "u",
+      "query": 65311,
+      "gid": 0,
+      "missing": true
+    },
+    {
+      "query_kind": "u",
+      "query": 65339,
+      "gid": 0,
+      "missing": true
+    },
+    {
+      "query_kind": "u",
+      "query": 65341,
+      "gid": 0,
+      "missing": true
+    },
+    {
+      "query_kind": "g",
+      "query": 374,
+      "gid": 374,
+      "bbox_units": [
+        200,
+        864,
+        478,
+        1471
+      ],
+      "advance_units": 681,
+      "commands": [
+        1,
+        3,
+        2,
+        0
+      ],
+      "outline_sha256": "e9310e24c00ba00d2c19955e4ef7a04aff25264300e7500228fe020e11714472",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            10,
+            20
+          ],
+          "bearing": [
+            6,
+            47
+          ],
+          "advance_26_6": [
+            1362,
+            0
+          ],
+          "nonzero": 95,
+          "coverage_sum": 18525,
+          "pixels_sha256": "b52f54e5c19ed2a13dc5e33c488624389efd1e52d08e85f21e5c1610f0976d91"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            20,
+            40
+          ],
+          "bearing": [
+            12,
+            94
+          ],
+          "advance_26_6": [
+            2724,
+            0
+          ],
+          "nonzero": 338,
+          "coverage_sum": 74112,
+          "pixels_sha256": "c67a060462cab265dc815f14adf2518c23f1d7b63ad1d8f2c23dd8f62bc4609c"
+        }
+      ]
+    },
+    {
+      "query_kind": "g",
+      "query": 671,
+      "gid": 671,
+      "bbox_units": [
+        432,
+        939,
+        656,
+        1385
+      ],
+      "advance_units": 1024,
+      "commands": [
+        1,
+        0,
+        7,
+        0
+      ],
+      "outline_sha256": "a4384a539eab1c9f4e7bf82f4edfe0c51a929d379cafed05271a1a9fbf4a15fe",
+      "rasters": [
+        {
+          "ppem": 64,
+          "size": [
+            8,
+            15
+          ],
+          "bearing": [
+            13,
+            44
+          ],
+          "advance_26_6": [
+            2048,
+            0
+          ],
+          "nonzero": 105,
+          "coverage_sum": 20817,
+          "pixels_sha256": "e8c37bab57705b19b7e6ce3a951fac501fb17c4db57a5cc53563d1b6ecc4a7ff"
+        },
+        {
+          "ppem": 128,
+          "size": [
+            16,
+            30
+          ],
+          "bearing": [
+            26,
+            88
+          ],
+          "advance_26_6": [
+            4096,
+            0
+          ],
+          "nonzero": 363,
+          "coverage_sum": 83583,
+          "pixels_sha256": "2d8b0e4223f5735ab688b1267c1f347d9f5940a4e80c806a8a7f54dc68262b0d"
+        }
+      ]
+    }
+  ],
+  "probe_runs": [
+    {
+      "exit": 0,
+      "seconds": 0.20798728242516518,
+      "stdout_bytes": 19551,
+      "cleanup": [
+        {
+          "command": [
+            "docker",
+            "inspect",
+            "--format",
+            "{{json .State}}",
+            "caj2pdf-font-shape-hgfx-20261009-v1"
+          ],
+          "exit": 0,
+          "stdout": "{\"Status\":\"exited\",\"Running\":false,\"Paused\":false,\"Restarting\":false,\"OOMKilled\":false,\"Dead\":false,\"Pid\":0,\"ExitCode\":0,\"Error\":\"\",\"StartedAt\":\"2026-10-10T01:20:19.328988825Z\",\"FinishedAt\":\"2026-10-10T01:20:19.341760324Z\"}\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "docker",
+            "rm",
+            "-f",
+            "caj2pdf-font-shape-hgfx-20261009-v1"
+          ],
+          "exit": 0,
+          "stdout": "caj2pdf-font-shape-hgfx-20261009-v1\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "docker",
+            "ps",
+            "-a",
+            "--filter",
+            "name=^/caj2pdf-font-shape-hgfx-20261009-v1$",
+            "--format",
+            "{{.Names}}"
+          ],
+          "exit": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    },
+    {
+      "exit": 0,
+      "seconds": 0.18890481442213058,
+      "stdout_bytes": 19551,
+      "cleanup": [
+        {
+          "command": [
+            "docker",
+            "inspect",
+            "--format",
+            "{{json .State}}",
+            "caj2pdf-font-shape-hgfx-20261009-v2"
+          ],
+          "exit": 0,
+          "stdout": "{\"Status\":\"exited\",\"Running\":false,\"Paused\":false,\"Restarting\":false,\"OOMKilled\":false,\"Dead\":false,\"Pid\":0,\"ExitCode\":0,\"Error\":\"\",\"StartedAt\":\"2026-10-10T01:30:26.457642905Z\",\"FinishedAt\":\"2026-10-10T01:30:26.466879514Z\"}\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "docker",
+            "rm",
+            "-f",
+            "caj2pdf-font-shape-hgfx-20261009-v2"
+          ],
+          "exit": 0,
+          "stdout": "caj2pdf-font-shape-hgfx-20261009-v2\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "docker",
+            "ps",
+            "-a",
+            "--filter",
+            "name=^/caj2pdf-font-shape-hgfx-20261009-v2$",
+            "--format",
+            "{{.Names}}"
+          ],
+          "exit": 0,
+          "stdout": "",
+          "stderr": ""
+        }
+      ]
+    }
+  ],
+  "final_probe_output_equals_first": true,
+  "tool_sha256": {
+    "research/cajviewer/ft_shape_probe.c": "7db1664af99f8d702c83dbac92ceecaa8d609151dab7ab30a76a7674aef9a6a2",
+    "research/cajviewer/native_symbol_pair_controls.py": "f1eeae74ae1a7b6f81583e34c3b7f0bb9f0b80202469936df281580e48fa0835",
+    "research/conformance/test_ft_shape_probe.py": "da76a2c8604a0a3da957ce4f0b080bfd86c5da500d56dc8e0e2f5be5558fc829",
+    "research/cajviewer/native_page_capture.py": "ea7ca7bbe94b5d612d3aca449c5297215a06f14353ba78268eb01f1d8d5cde2c",
+    "research/scripts/native_font_faces.py": "edd1fa25186c9fb0d99986c456ec43eff1433acc3e0e19019924e75b2ea7db82",
+    "research/cajviewer/c8_geometric_font.py": "4b8d4f745771bd2f966a80fbc16c9f2214ebd28429cff1dd006b82d7e838422f",
+    "research/cajviewer/c8_style_fixture.py": "c8389f05e0d8ad415ea525edcc94d11ff8ac496e5ef182bd5740548bca8692bd",
+    "research/cajviewer/hnb_geometry_fixture.py": "0ab275a5fc3584705e4ce907433b19149fe9c53c5b142b3e58bb24408135c9ee"
+  },
+  "external_sha256": {
+    "hgfx-plan-v1.json": "44642a8b6fd278d017bb3cbfd548cd4bbeb5403fca6146ccd606312945c58336",
+    "hgfx-result-v1.json": "1a3c0267821d7dd66acc3afa42c836ac706b6f39fe10e12e35c14fd781253924",
+    "hgfx-v1.stdout": "bd3a073597d8e834dd924e4a862e9a30438e2e6432f5baf6343169beb1020c82",
+    "hgfx-plan-v2.json": "3b332af0124d9af7cf3bb4f184dad0226ef85788ce1bd4d0e627a2bb2e2c44cf",
+    "hgfx-result-v2.json": "633c59133512c79aa66ad944939226de4fea701ae8661d66ddb0e0a0718f31d0",
+    "hgfx-v2.stdout": "bd3a073597d8e834dd924e4a862e9a30438e2e6432f5baf6343169beb1020c82",
+    "ft_shape_probe-v1.c": "773cc8e12355c5651807dda9808075fbe14b6295db9466bacb8da84325cd3dcb",
+    "ft-shape-v1": "0fe20e76e0134b3128519424961b818a8b49c1d35a5917ebe23722ec9f330b1a",
+    "ft-shape-v2": "085b2723aed1c77f3e2527d78f19bdcfc57b6cec08de22baf67025164faef96e",
+    "run-hgfx-v1.py": "9404db29882684d8d49a310e40ba8e39f837289cce6fc4e6905c3fae1d9788af",
+    "run-hgfx-v2.py": "5549da9f0c6013d73411c884d3fb8ab1b05c4d4b8105896ed9f4db1457784335",
+    "original-pair-controls.py": "04259a842f4d90a278a69bf997a7120b368a6ba4e41b9a22a56bfab4d1256a27",
+    "original-pair-cases.json": "bf2e84c43232399ea8513df6e892b0ca5c4a7ba005286325ea42a5d59f9e97c7",
+    "original-pair-plan.json": "41f37e2747224d3b3ae4baab6f8e71f4b025a3002ed220f1e67fe0118d4e8d87",
+    "original-pair-generation.json": "5dc3a324578573b7b48a1eff531c0cb7821018d308a0ccc616f51aed177be759",
+    "original-pair-order.json": "1740af0a7c4883dfb091a8d45e36055513928ddc28b1851d6357696fb10e9779",
+    "original-pair-pixels.json": "2e60a3e709dcd05c9f04c91bb7dcb38354fd4a8ff861d07eadae20180b3564bd",
+    "baseline-pair-conversion.json": "2ef2458ff2a4325273633f6ff4af3ec96e9d0e86c3b28b01277080414931a518",
+    "baseline-source-identity.json": "e9a622968dddcdc36be28802a3e9b7f62125b9c1112e1c9a1278cae4f1d51e30",
+    "local-validation.json": "e1ece655ca30b7b6a06c0f05406b51b6d2d2caa9028bc6c82978b47f81d808b9",
+    "local-validation.log": "ac00cef827f8b4841b206e8cd251a30a9747ab3c266ac2b99302dd1a7c96705b",
+    "build-receipt.py": "3e3c99d59af39708c26d227e6070fa60e6eb3760880803c850c25db662931435"
+  },
+  "original_font_sha256": "3fe188954a316a89bd80cd866ee0620f89346b48d26e38c3caf7de2b9e0bb682",
+  "original_controls": [
+    {
+      "label": "curly",
+      "source_sha256": "aedbf592ea500b3d96740293403dd26f627dc44c668a05adb4afbdb0aa70e86a",
+      "native_codes": [
+        "a1af"
+      ],
+      "binding": {
+        "status": "OBSERVED_CALLS_BOUND",
+        "face_trace_sha256": "3ca35dedf04a33164c26b4a542db92d521d5b9a3bcb13340683d28c65e39350d",
+        "glyph_trace_sha256": "cb1373bbf644ae28a14267d8dd49d4c37da11af33028410f37b2d226886526f0",
+        "face_events": 803,
+        "glyph_events": 1377,
+        "face_processes": 3,
+        "face_operations": {
+          "done": 400,
+          "open": 403
+        },
+        "live_faces_at_trace_end": 3,
+        "resources": [
+          {
+            "resource": "HGFX_CNKI.ttf",
+            "family": "HGFX_CNKI",
+            "sha256": "3fe188954a316a89bd80cd866ee0620f89346b48d26e38c3caf7de2b9e0bb682",
+            "face_index": 0,
+            "all_glyph_api_events": 1377,
+            "outer_cmap_calls": 5,
+            "outer_render_loads": 5,
+            "nested_events": 1367,
+            "rendered_glyph_ids": [
+              2
+            ],
+            "render_sizes": [
+              {
+                "x": 4,
+                "y": 4,
+                "loads": 1
+              },
+              {
+                "x": 5,
+                "y": 5,
+                "loads": 1
+              },
+              {
+                "x": 7,
+                "y": 7,
+                "loads": 1
+              },
+              {
+                "x": 16,
+                "y": 16,
+                "loads": 1
+              },
+              {
+                "x": 17,
+                "y": 17,
+                "loads": 1
+              }
+            ],
+            "distinct_face_addresses": 3
+          }
+        ],
+        "source_font_fidelity": "UNVERIFIED",
+        "cached_draw_coverage": "UNVERIFIED"
+      },
+      "ordered_calls": {
+        "label": "curly",
+        "source_sha256": "aedbf592ea500b3d96740293403dd26f627dc44c668a05adb4afbdb0aa70e86a",
+        "glyph_trace_sha256": "cb1373bbf644ae28a14267d8dd49d4c37da11af33028410f37b2d226886526f0",
+        "sequence": [
+          [
+            26270,
+            2
+          ]
+        ],
+        "sizes": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            17,
+            17
+          ]
+        ]
+      },
+      "viewer_pixels": {
+        "label": "curly",
+        "source_sha256": "aedbf592ea500b3d96740293403dd26f627dc44c668a05adb4afbdb0aa70e86a",
+        "pixmap_sha256": "f973507eaba88b5c07b7b3b6fe7d6c183e8c02c735f93e92507cda30e09cc327",
+        "pixmap_rgb_sha256": "cfbae0825f03ff3e1b37ceedd27fb0c90b105a12a5a4c4dfbaf152f1bc1ca816",
+        "size": [
+          835,
+          1184
+        ],
+        "components": [
+          {
+            "box": [
+              100,
+              97,
+              121,
+              106
+            ],
+            "pixels": 188
+          }
+        ]
+      },
+      "source_unchanged": true,
+      "container_absent": true,
+      "files": {
+        "launch.json": "5c5cab3b9ee307a832fda79092d73600d4a00dd1371f7f47ca727fee85109d6e",
+        "closing.json": "a5767f06d600cb09d64ff851876716fb762c5dc81225263204fe7a505d07af67",
+        "pages.json": "e96f37f1848132c370b9b4c1e2b7e2564aa82e2471a6d9c6acab45a08277139e",
+        "ft-faces.tsv": "3ca35dedf04a33164c26b4a542db92d521d5b9a3bcb13340683d28c65e39350d",
+        "ft-events.tsv": "cb1373bbf644ae28a14267d8dd49d4c37da11af33028410f37b2d226886526f0"
+      },
+      "baseline_pdf_sha256": "834bfcf4f122c7586c2920a631f679ac11fd2a8c80df925367a02acbd488a676",
+      "baseline_pdf_draws": [
+        {
+          "font": "/F4",
+          "cid_bytes_hex": "2019"
+        }
+      ],
+      "baseline_subset_bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "baseline_extracted_codepoints": [
+        8217
+      ],
+      "qpdf_exit": 0
+    },
+    {
+      "label": "apostrophe",
+      "source_sha256": "d0ca727c5cee8f79f374e7f343156e43113adcef382752b273326fc607eddd17",
+      "native_codes": [
+        "a3a7"
+      ],
+      "binding": {
+        "status": "OBSERVED_CALLS_BOUND",
+        "face_trace_sha256": "8ebc1da371e5206313b1e1d7d7e06c10aa69a41195904836e057d589a0dbee2d",
+        "glyph_trace_sha256": "5c9a50e1f5aba67f849cedf60b6c784632d20b3592fd0a757c911a35f8241e0a",
+        "face_events": 803,
+        "glyph_events": 1182,
+        "face_processes": 3,
+        "face_operations": {
+          "done": 400,
+          "open": 403
+        },
+        "live_faces_at_trace_end": 3,
+        "resources": [
+          {
+            "resource": "HGFX_CNKI.ttf",
+            "family": "HGFX_CNKI",
+            "sha256": "3fe188954a316a89bd80cd866ee0620f89346b48d26e38c3caf7de2b9e0bb682",
+            "face_index": 0,
+            "all_glyph_api_events": 1182,
+            "outer_cmap_calls": 5,
+            "outer_render_loads": 5,
+            "nested_events": 1172,
+            "rendered_glyph_ids": [
+              3
+            ],
+            "render_sizes": [
+              {
+                "x": 4,
+                "y": 4,
+                "loads": 1
+              },
+              {
+                "x": 5,
+                "y": 5,
+                "loads": 1
+              },
+              {
+                "x": 7,
+                "y": 7,
+                "loads": 1
+              },
+              {
+                "x": 16,
+                "y": 16,
+                "loads": 1
+              },
+              {
+                "x": 17,
+                "y": 17,
+                "loads": 1
+              }
+            ],
+            "distinct_face_addresses": 3
+          }
+        ],
+        "source_font_fidelity": "UNVERIFIED",
+        "cached_draw_coverage": "UNVERIFIED"
+      },
+      "ordered_calls": {
+        "label": "apostrophe",
+        "source_sha256": "d0ca727c5cee8f79f374e7f343156e43113adcef382752b273326fc607eddd17",
+        "glyph_trace_sha256": "5c9a50e1f5aba67f849cedf60b6c784632d20b3592fd0a757c911a35f8241e0a",
+        "sequence": [
+          [
+            24518,
+            3
+          ]
+        ],
+        "sizes": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            17,
+            17
+          ]
+        ]
+      },
+      "viewer_pixels": {
+        "label": "apostrophe",
+        "source_sha256": "d0ca727c5cee8f79f374e7f343156e43113adcef382752b273326fc607eddd17",
+        "pixmap_sha256": "f8ade716bdd51a9be220cfca0a61d9113faffa97ce859bf2d39169d892752697",
+        "pixmap_rgb_sha256": "9d248ef83788d8b1009e35e777ebe67ca14c593472a9a96e5eb3be236a632007",
+        "size": [
+          835,
+          1184
+        ],
+        "components": [
+          {
+            "box": [
+              100,
+              105,
+              120,
+              114
+            ],
+            "pixels": 180
+          }
+        ]
+      },
+      "source_unchanged": true,
+      "container_absent": true,
+      "files": {
+        "launch.json": "9a3466ad4fcd6e173a33f8f79df19d5bfa4ccec84c4201b9fca7bda28722ab03",
+        "closing.json": "9ac3315d15bfc3a936c82a5805a21f9db87a888e1e77ada84bfa0634f3466383",
+        "pages.json": "1987cee13d5e80e716991b903ea5be8e926dbd2b87c032d36f04a6c8abfb54e5",
+        "ft-faces.tsv": "8ebc1da371e5206313b1e1d7d7e06c10aa69a41195904836e057d589a0dbee2d",
+        "ft-events.tsv": "5c9a50e1f5aba67f849cedf60b6c784632d20b3592fd0a757c911a35f8241e0a"
+      },
+      "baseline_pdf_sha256": "834bfcf4f122c7586c2920a631f679ac11fd2a8c80df925367a02acbd488a676",
+      "baseline_pdf_draws": [
+        {
+          "font": "/F4",
+          "cid_bytes_hex": "2019"
+        }
+      ],
+      "baseline_subset_bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "baseline_extracted_codepoints": [
+        8217
+      ],
+      "qpdf_exit": 0
+    },
+    {
+      "label": "forward",
+      "source_sha256": "258d645082262ad07891a29bcf3cf860fb9c2698c6233907a215d9310dd48640",
+      "native_codes": [
+        "a1af",
+        "a3a7"
+      ],
+      "binding": {
+        "status": "OBSERVED_CALLS_BOUND",
+        "face_trace_sha256": "71a7c8b525124cf3977cc42649129d4d4cfc69ad2c65015bf1c8009560badd33",
+        "glyph_trace_sha256": "523541a217eccb50ecf6d202263fb0479d3b79b2227577ec7422760bd29e0608",
+        "face_events": 803,
+        "glyph_events": 1533,
+        "face_processes": 3,
+        "face_operations": {
+          "done": 400,
+          "open": 403
+        },
+        "live_faces_at_trace_end": 3,
+        "resources": [
+          {
+            "resource": "HGFX_CNKI.ttf",
+            "family": "HGFX_CNKI",
+            "sha256": "3fe188954a316a89bd80cd866ee0620f89346b48d26e38c3caf7de2b9e0bb682",
+            "face_index": 0,
+            "all_glyph_api_events": 1533,
+            "outer_cmap_calls": 10,
+            "outer_render_loads": 10,
+            "nested_events": 1513,
+            "rendered_glyph_ids": [
+              2,
+              3
+            ],
+            "render_sizes": [
+              {
+                "x": 4,
+                "y": 4,
+                "loads": 2
+              },
+              {
+                "x": 5,
+                "y": 5,
+                "loads": 2
+              },
+              {
+                "x": 7,
+                "y": 7,
+                "loads": 2
+              },
+              {
+                "x": 16,
+                "y": 16,
+                "loads": 2
+              },
+              {
+                "x": 17,
+                "y": 17,
+                "loads": 2
+              }
+            ],
+            "distinct_face_addresses": 3
+          }
+        ],
+        "source_font_fidelity": "UNVERIFIED",
+        "cached_draw_coverage": "UNVERIFIED"
+      },
+      "ordered_calls": {
+        "label": "forward",
+        "source_sha256": "258d645082262ad07891a29bcf3cf860fb9c2698c6233907a215d9310dd48640",
+        "glyph_trace_sha256": "523541a217eccb50ecf6d202263fb0479d3b79b2227577ec7422760bd29e0608",
+        "sequence": [
+          [
+            26270,
+            2
+          ],
+          [
+            24518,
+            3
+          ]
+        ],
+        "sizes": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            17,
+            17
+          ]
+        ]
+      },
+      "viewer_pixels": {
+        "label": "forward",
+        "source_sha256": "258d645082262ad07891a29bcf3cf860fb9c2698c6233907a215d9310dd48640",
+        "pixmap_sha256": "494398bacbc6db6ce913c17c4617beded518fd46a1584018cc22b8e052061895",
+        "pixmap_rgb_sha256": "4dd983a278eb788fcc777ac6c9e9e6874e879b5f4c9e3ecdbf5e3d6180e30e02",
+        "size": [
+          835,
+          1184
+        ],
+        "components": [
+          {
+            "box": [
+              100,
+              97,
+              121,
+              106
+            ],
+            "pixels": 188
+          },
+          {
+            "box": [
+              168,
+              105,
+              188,
+              114
+            ],
+            "pixels": 180
+          }
+        ]
+      },
+      "source_unchanged": true,
+      "container_absent": true,
+      "files": {
+        "launch.json": "819f104ca4abb2c62b01b0b0f2b38441d78a6650710b417820392215040b1c7f",
+        "closing.json": "817177e628e3bd0fac10e5eb7ba364a163a32e85ee22343da856de48dff43434",
+        "pages.json": "a5a9e8fb43dce8e77f1e3bd7c37b7b89b48e1d08bfb99134c291e8c2f6ee796f",
+        "ft-faces.tsv": "71a7c8b525124cf3977cc42649129d4d4cfc69ad2c65015bf1c8009560badd33",
+        "ft-events.tsv": "523541a217eccb50ecf6d202263fb0479d3b79b2227577ec7422760bd29e0608"
+      },
+      "baseline_pdf_sha256": "a46a4471d677340b80fd339add691194901bc1a312187ab367c615ac41ac89e7",
+      "baseline_pdf_draws": [
+        {
+          "font": "/F4",
+          "cid_bytes_hex": "2019"
+        },
+        {
+          "font": "/F4",
+          "cid_bytes_hex": "2019"
+        }
+      ],
+      "baseline_subset_bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "baseline_extracted_codepoints": [
+        8217,
+        8217
+      ],
+      "qpdf_exit": 0
+    },
+    {
+      "label": "reverse",
+      "source_sha256": "cdbb93dbd1cc61b17c66ffd17abd90211c9bcd31c7b960d1db65134d020fa50f",
+      "native_codes": [
+        "a3a7",
+        "a1af"
+      ],
+      "binding": {
+        "status": "OBSERVED_CALLS_BOUND",
+        "face_trace_sha256": "5092911dac399a23be9ad325f3f98b7b01fa5252dc169b54f280f6753a7ff29d",
+        "glyph_trace_sha256": "7f349b46919ef55d1e126dee3ec758c6fa30aab630a03ec2e9d7cd0e74b4000b",
+        "face_events": 803,
+        "glyph_events": 1533,
+        "face_processes": 3,
+        "face_operations": {
+          "done": 400,
+          "open": 403
+        },
+        "live_faces_at_trace_end": 3,
+        "resources": [
+          {
+            "resource": "HGFX_CNKI.ttf",
+            "family": "HGFX_CNKI",
+            "sha256": "3fe188954a316a89bd80cd866ee0620f89346b48d26e38c3caf7de2b9e0bb682",
+            "face_index": 0,
+            "all_glyph_api_events": 1533,
+            "outer_cmap_calls": 10,
+            "outer_render_loads": 10,
+            "nested_events": 1513,
+            "rendered_glyph_ids": [
+              2,
+              3
+            ],
+            "render_sizes": [
+              {
+                "x": 4,
+                "y": 4,
+                "loads": 2
+              },
+              {
+                "x": 5,
+                "y": 5,
+                "loads": 2
+              },
+              {
+                "x": 7,
+                "y": 7,
+                "loads": 2
+              },
+              {
+                "x": 16,
+                "y": 16,
+                "loads": 2
+              },
+              {
+                "x": 17,
+                "y": 17,
+                "loads": 2
+              }
+            ],
+            "distinct_face_addresses": 3
+          }
+        ],
+        "source_font_fidelity": "UNVERIFIED",
+        "cached_draw_coverage": "UNVERIFIED"
+      },
+      "ordered_calls": {
+        "label": "reverse",
+        "source_sha256": "cdbb93dbd1cc61b17c66ffd17abd90211c9bcd31c7b960d1db65134d020fa50f",
+        "glyph_trace_sha256": "7f349b46919ef55d1e126dee3ec758c6fa30aab630a03ec2e9d7cd0e74b4000b",
+        "sequence": [
+          [
+            24518,
+            3
+          ],
+          [
+            26270,
+            2
+          ]
+        ],
+        "sizes": [
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            16,
+            16
+          ],
+          [
+            17,
+            17
+          ]
+        ]
+      },
+      "viewer_pixels": {
+        "label": "reverse",
+        "source_sha256": "cdbb93dbd1cc61b17c66ffd17abd90211c9bcd31c7b960d1db65134d020fa50f",
+        "pixmap_sha256": "b23ee2005d56f584463b3d5a864562f6a306fe15a4f464ed0583f4035e00fe4e",
+        "pixmap_rgb_sha256": "7877cf76f7ded49be7c0b793a0e2e76354e7e1b05af045919a17ed120abd949b",
+        "size": [
+          835,
+          1184
+        ],
+        "components": [
+          {
+            "box": [
+              100,
+              105,
+              120,
+              114
+            ],
+            "pixels": 180
+          },
+          {
+            "box": [
+              168,
+              97,
+              189,
+              106
+            ],
+            "pixels": 188
+          }
+        ]
+      },
+      "source_unchanged": true,
+      "container_absent": true,
+      "files": {
+        "launch.json": "1b5827c30aa5a8d59e64301fa983ca9a77d8de1628be3119dbcf891385fb68fc",
+        "closing.json": "db71cb92d34177bbe13d2a2c3e7b1112ce5fd2469f4d914b36db7c0d740a04fd",
+        "pages.json": "203f1de93771b1319ed98729b96e5c1a34764fac2d703a7ab55f8d816248d8fa",
+        "ft-faces.tsv": "5092911dac399a23be9ad325f3f98b7b01fa5252dc169b54f280f6753a7ff29d",
+        "ft-events.tsv": "7f349b46919ef55d1e126dee3ec758c6fa30aab630a03ec2e9d7cd0e74b4000b"
+      },
+      "baseline_pdf_sha256": "a46a4471d677340b80fd339add691194901bc1a312187ab367c615ac41ac89e7",
+      "baseline_pdf_draws": [
+        {
+          "font": "/F4",
+          "cid_bytes_hex": "2019"
+        },
+        {
+          "font": "/F4",
+          "cid_bytes_hex": "2019"
+        }
+      ],
+      "baseline_subset_bbox": [
+        0,
+        0,
+        1000,
+        1000
+      ],
+      "baseline_extracted_codepoints": [
+        8217,
+        8217
+      ],
+      "qpdf_exit": 0
+    }
+  ],
+  "viewer_process_evidence": "Unified exec 52397 completed with exit 0; each closing receipt independently verifies integrity/removal.",
+  "baseline_cli_sha256": "dfad3f1734ee25305923e21566f1523cdbc17df2d5e56d4109312875e3637c27",
+  "native_source_identity": {
+    "baseline_commit": "b32672796dd2c4bd374d172df3271dc64930b7a4",
+    "rust_main": "6b184250ab8d51e5be6215e17169d6c39e33ac2c",
+    "objects": [
+      {
+        "path": "Cargo.toml",
+        "baseline_object": "88016f39d8cf51981f302ac3fb4db01a8bf67c6b",
+        "current_object": "88016f39d8cf51981f302ac3fb4db01a8bf67c6b",
+        "equal": true
+      },
+      {
+        "path": "Cargo.lock",
+        "baseline_object": "5d97b604266c0b9475ac568a19e2c2c8f8392c5c",
+        "current_object": "5d97b604266c0b9475ac568a19e2c2c8f8392c5c",
+        "equal": true
+      },
+      {
+        "path": "crates/caj2pdf-core",
+        "baseline_object": "5a18f017f1035bf8068a8d8c1ac4baad71a38382",
+        "current_object": "5a18f017f1035bf8068a8d8c1ac4baad71a38382",
+        "equal": true
+      },
+      {
+        "path": "crates/caj2pdf-cli",
+        "baseline_object": "127886c8d48345a72f0887389fba91c71131b778",
+        "current_object": "127886c8d48345a72f0887389fba91c71131b778",
+        "equal": true
+      }
+    ]
+  },
+  "local_validation": {
+    "tests": 40,
+    "errors": 0,
+    "failures": 0,
+    "skipped": 0,
+    "seconds": 4.15493818372488
+  },
+  "analysis_attempts": [
+    "Initial component analysis imported unavailable scipy before reading any capture. The final bounded component walk uses numpy plus the standard library, capped at 100000 dark pixels. No viewer recapture followed.",
+    "The first parent relationship request used issue_id and received HTTP 422; the corrected sub_issue_id request linked Rust #518 under #406."
+  ],
+  "limits": {
+    "font_bytes": 33554432,
+    "font_hash_buffer_bytes": 65536,
+    "query_count": 128,
+    "commands_per_kind": 65536,
+    "coordinate_magnitude": 16777216,
+    "raster_side": 2048,
+    "probe_container_memory_bytes": 268435456,
+    "probe_timeout_seconds": 45
+  },
+  "limitations": [
+    "No entire native-original/PDF shape or geometry validation yet",
+    "Unhinted glyph probes are not the viewer auto-hinted page raster",
+    "Same outline-command hash establishes this representation; different hashes alone do not establish different visible shapes",
+    "Cached viewer STABLE does not establish readiness",
+    "No inferred Unicode replacement, font grant, font redistribution or production change",
+    "Rust #518 acceptance remains open; catalog 1408/1361 PASS/20 FAIL/27 UNSUPPORTED unchanged"
+  ]
+}
