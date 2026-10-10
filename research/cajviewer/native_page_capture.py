@@ -127,7 +127,10 @@ def observe(args, case):
         if mode not in (0, 2) or not all(extent):
             raise ValueError('unmeasured native extent')
     name = 'caj2pdf-page-observer-' + sha[:12] + '-' + str(time.time_ns())
-    (output / 'start.sh').write_text(START)
+    font_observer = getattr(args, 'font_observer', None)
+    startup = START.replace('LD_PRELOAD=/probe/observer.so ',
+                            'LD_PRELOAD=/probe/observer.so:/probe/font.so ') if font_observer else START
+    (output / 'start.sh').write_text(startup)
     command = ['docker', 'run', '-d', '--pull', 'never', '--name', name,
                '--network', 'none', '--read-only', '--user', '1000:1000',
                '--cap-drop', 'ALL', '--security-opt', 'no-new-privileges',
@@ -142,6 +145,8 @@ def observe(args, case):
               (output / 'start.sh', '/start.sh', True),
               (Path(__file__).resolve().parent, '/tools', True),
               (args.observer, '/probe/observer.so', True)]
+    if font_observer:
+        mounts.append((font_observer, '/probe/font.so', True))
     fonts = {}
     if args.font_directory:
         paths = sorted(path for path in args.font_directory.iterdir() if path.suffix.lower() == '.ttf')
@@ -158,7 +163,8 @@ def observe(args, case):
         command += ['--mount', f'type=bind,src={path},dst={destination}' + (',readonly' if readonly else '')]
     command += ['--entrypoint', '/usr/bin/timeout', args.image, str(args.lifetime_seconds), 'sh', '/start.sh']
     write_json(output / 'launch.json', {'command': command, 'source_sha256': sha, 'route': route,
-               'source_extent': extent, 'observer_sha256': digest(args.observer), 'fonts': fonts})
+               'source_extent': extent, 'observer_sha256': digest(args.observer), 'fonts': fonts,
+               'font_observer_sha256': digest(font_observer) if font_observer else None})
 
     def run(command):
         started = time.monotonic()
@@ -266,6 +272,8 @@ if __name__ == '__main__':
     parser.add_argument('manifest', type=Path)
     parser.add_argument('output', type=Path)
     parser.add_argument('--observer', required=True, type=Path)
+    parser.add_argument('--font-observer', type=Path,
+                        help='optional original public-FreeType interposer; traces are not fidelity passes')
     parser.add_argument('--image', required=True)
     parser.add_argument('--font-directory', type=Path)
     parser.add_argument('--route', type=int, nargs='+', help='distinct pages to visit; default: all pages')
@@ -274,7 +282,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     if not re.fullmatch(r'sha256:[0-9a-f]{64}', args.image) or args.manifest.stat().st_size > 1024 * 1024:
         parser.error('require a pinned local image and a bounded manifest')
-    for key in ('output', 'observer', 'font_directory'):
+    for key in ('output', 'observer', 'font_directory', 'font_observer'):
         if getattr(args, key) is not None:
             setattr(args, key, getattr(args, key).resolve())
     cases = json.loads(args.manifest.read_text())
