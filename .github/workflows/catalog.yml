@@ -75,6 +75,7 @@ jobs:
           python3 -m unittest discover -s research/conformance -p 'test_native_font_resource_probe.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_native_font_repertoire.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_ornament_resource_controls.py' -v
+          python3 -m unittest discover -s research/conformance -p 'test_wine_pdf_font_sharing_control.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_ft_face_observe.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_native_font_faces.py' -v
           python3 -m unittest discover -s research/conformance -p 'test_ft_shape_probe.py' -v
