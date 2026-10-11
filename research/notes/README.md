@@ -1,5 +1,9 @@
 # Research notes
 
+The [Wine 7.3 typography study](wine73-typography-20261010.md) rechecks ten
+native documents, verifies three finite native glyph aliases, and separates
+font/resource selection from the remaining same-outline placement differences.
+
 The [Wine 7.3 raster/rounding study](wine73-raster-rounding-20261010.md)
 rechecks 72 actual display differences, distinguishes original page-width and
 placement controls across three zooms, and retains explicit unresolved cases.
