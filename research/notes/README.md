@@ -1,5 +1,10 @@
 # Research notes
 
+The [Wine 7.3 JPEG orientation discriminator](wine73-jpeg-orientation-20261010.md)
+distinguishes top-first type 1 from bottom-first type 2 using original HN-A/C8
+controls and fixes four affected pages in the 433-page original. Residual
+raster and font differences remain separate obligations under Rust #530–#534.
+
 The [broader web and historical-index follow-up](web-historical-followup-20261009.md)
 records 193 additional Archive item requests and 400 public attachment-list
 requests, with historical-index failures and zero new acquired documents.
