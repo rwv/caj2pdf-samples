@@ -1,5 +1,9 @@
 # Research notes
 
+The [Wine 7.3 ornament resource study](wine73-ornament-resources-20261010.md)
+identifies four distinct decoration slots with original resource controls,
+checks the explicit caller-font recipe and retains residual raster/font limits.
+
 The [Wine 7.3 JPEG orientation discriminator](wine73-jpeg-orientation-20261010.md)
 distinguishes top-first type 1 from bottom-first type 2 using original HN-A/C8
 controls and fixes four affected pages in the 433-page original. Residual
