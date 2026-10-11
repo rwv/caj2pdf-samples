@@ -2,6 +2,12 @@
 
 # HN/C8 type-1 JPEG support (#224)
 
+**Orientation correction (2026-10-10):** the historical checks below establish
+payload/order identity, not vertical orientation. The
+[Wine 7.3 descriptor controls](wine73-jpeg-orientation-20261010.md) distinguish
+top-first type 1 from bottom-first type 2. Rust #530 corrects that placement
+assumption; these historical hashes are retained, not current fidelity passes.
+
 The type-1 descriptor in the pinned issue-43 HN-A document contains ordinary
 baseline JFIF JPEG data. Its six observed images are 8-bit, three-component
 frames on pages 1, 16, 30, 64, 86 and 94. Their dimensions are respectively

@@ -1,0 +1,5598 @@
+{
+  "issue": "https://github.com/rwv/caj2pdf-rust/issues/530",
+  "baseline": {
+    "base_commit": "bfe4ff8fcbc33a082f23dee107d625893da26b1d",
+    "wasm_sha256": "8f5169b0613515d5e05c186adf6d3663a0ff90980e7e423178d07ad5ca57b833",
+    "cli_sha256": "a4494bb1ea57e088703dde7906537906ace66a0a4b705494e415a94a16a66da9",
+    "historical_receipt_sha256": "42a0430f1736ebfca4d41f42512d9306965acf9685c4f88c45a6966357ac3581",
+    "worktree": "$IMPLEMENTATION"
+  },
+  "candidate": {
+    "cli_sha256": "eb11927d4f067b8d6693fbc96902e3f0fb0309396c1ac5adc6b756f045247686",
+    "wasm_sha256": "5df0b8e4984b80045cdc1598b7eb9a338850cb95a5226eeb96c325e5f0e5fd28",
+    "source_files_sha256": {
+      "crates/caj2pdf-core/src/hnc8/compose/route.rs": "57049bc03e413af5a40638e208e980dce90d837dd8b2159a583e0abd05ab8adf",
+      "crates/caj2pdf-core/src/hnc8/compose/tests.rs": "69b686f479fc60631f7c96cdfdb498f40161b25058bd6f39e885c2a98936dc25",
+      "crates/caj2pdf-core/src/hnc8/compose/native.rs": "c608bc629af8942dc4792945b2e3a9295bbbb496b58855ddc12f109ba1c1727c",
+      "crates/caj2pdf-core/src/hnc8/compose/tests/route.rs": "0961a2e823e0ad85d1fcba7abe17834da0e9046e4f62c802edaa71f62d1b0af8",
+      "crates/caj2pdf-core/src/hnc8/compose/tests/malformed.rs": "a7dfe4b9a955633b8e59bec6a4949feaf3ce8e0e98a06eff21c2edd037a86369",
+      "crates/caj2pdf-core/src/hnc8/compose/tests/application_info.rs": "826862b1604dd090d5e7ce9a770f23ef58226bfec7e9424575cfa0a2842255ed",
+      "crates/caj2pdf-core/src/hnc8/compose/tests/native_document.rs": "5ff70452048fe6e05cf7c4ec637518fba62e5ff27afeec6f3ebc4b0a3e6013dd",
+      "crates/caj2pdf-core/src/hnc8/compose.rs": "c30d4ade719664702c0c93fc2d59abb02076da799c841a4d000475035f5ba084"
+    }
+  },
+  "wine": {
+    "version": "8.0, 32-bit",
+    "viewer": "CAJViewer 7.3.151 Simple",
+    "image_sha256": "6c9f5ec0610a7ff8bc45fe8e0a87dffd0ff17e42466c90b80237a1712847b95c",
+    "prefix_manifest_sha256": "dd1b0800c0eed8f5fdb6e0541ac170488b02e3183aff7367478673bd0576297b",
+    "font_and_registry_files": [
+      {
+        "path": "drive_c/windows/Fonts/arial.ttf",
+        "bytes": 275572,
+        "sha256": "35c0f3559d8db569e36c31095b8a60d441643d95f59139de40e23fada819b833"
+      },
+      {
+        "path": "drive_c/windows/Fonts/arialbd.ttf",
+        "bytes": 286620,
+        "sha256": "4044aa6b5bebbc36980206b45b0aaaaa5681552a48bcadb41746d5d1d71fd7b4"
+      },
+      {
+        "path": "drive_c/windows/Fonts/arialbi.ttf",
+        "bytes": 224692,
+        "sha256": "2f371cd9d96b3ac544519d85c16dc43ceacdfcea35090ee8ddf3ec5857c50328"
+      },
+      {
+        "path": "drive_c/windows/Fonts/ariali.ttf",
+        "bytes": 206132,
+        "sha256": "70ade233175a6a6675e4501461af9326e6f78b1ffdf787ca0da5ab0fc8c9cfd6"
+      },
+      {
+        "path": "drive_c/windows/Fonts/cajnote.ttf",
+        "bytes": 5896,
+        "sha256": "b6edd9034de90da5cc5df6b154f283e42db6607a2251b976fe689c9f3a29db36"
+      },
+      {
+        "path": "drive_c/windows/Fonts/cour.ttf",
+        "bytes": 302688,
+        "sha256": "6715838c52f813f3821549d3f645db9a768bd6f3a43d8f85a89cb6875a546c61"
+      },
+      {
+        "path": "drive_c/windows/Fonts/courbd.ttf",
+        "bytes": 311508,
+        "sha256": "edf8a7c5bfcac2e1fe507faab417137cbddc9071637ef4648238d0768c921e02"
+      },
+      {
+        "path": "drive_c/windows/Fonts/courbi.ttf",
+        "bytes": 234788,
+        "sha256": "66dbfa20b534fba0e203da140fec7276a45a1069e424b1b9c35547538128bbe8"
+      },
+      {
+        "path": "drive_c/windows/Fonts/couri.ttf",
+        "bytes": 244156,
+        "sha256": "f3f6b09855b6700977e214aab5eb9e5be6813976a24f894bd7766e92c732fbe1"
+      },
+      {
+        "path": "drive_c/windows/Fonts/msyh.ttf",
+        "bytes": 21543568,
+        "sha256": "34cb01a122f82b5ad76ee916dbb34ac35edb2916b857ac6ed4c8593a759ad5ab"
+      },
+      {
+        "path": "drive_c/windows/Fonts/simfang.ttf",
+        "bytes": 10578152,
+        "sha256": "3e2d44b01c9a248a61bedae4f15c8aae501328b1f7adfe6e111a5da5aa5c5104"
+      },
+      {
+        "path": "drive_c/windows/Fonts/simhei.ttf",
+        "bytes": 9753388,
+        "sha256": "aa4560dd8fe5645745fed3ffa301c3ca4d6c03cbd738145b613303961ba733b8"
+      },
+      {
+        "path": "drive_c/windows/Fonts/simkai.ttf",
+        "bytes": 11787328,
+        "sha256": "9dd76f7ab430edd091db24c3f18e71410325c1414141aad5fe67947873ffba06"
+      },
+      {
+        "path": "drive_c/windows/Fonts/simsun.ttc",
+        "bytes": 18214472,
+        "sha256": "2e3cc9dbd787c827f73496f01633bba430e15c5db4d4f6ed9938386ea01f0171"
+      },
+      {
+        "path": "drive_c/windows/Fonts/times.ttf",
+        "bytes": 330412,
+        "sha256": "4e98adeff8ccc8ef4e3ece8d4547e288ff85fdc9c7ca711a4599c234874bbe86"
+      },
+      {
+        "path": "drive_c/windows/Fonts/timesbd.ttf",
+        "bytes": 333900,
+        "sha256": "4357b63cef20c01661a53c5dae70ffd20cb4765503aaed6d38b17a57c5a90bff"
+      },
+      {
+        "path": "drive_c/windows/Fonts/timesbi.ttf",
+        "bytes": 238612,
+        "sha256": "192e1b0d18e90334e999a99f8c32808d6a2e74b3698b8cd90c943c2249a46549"
+      },
+      {
+        "path": "drive_c/windows/Fonts/timesi.ttf",
+        "bytes": 247092,
+        "sha256": "c25ae529b4cecdbca148b6ccb862ee0abad770af8b1fd29c8dba619d1b8da78a"
+      },
+      {
+        "path": "system.reg",
+        "bytes": 1836307,
+        "sha256": "e8b86ff53e9862f4b3330fcda8c303bdd58d0944bc4dc96ab66f7ae48c9bc7c7"
+      },
+      {
+        "path": "user.reg",
+        "bytes": 1065492,
+        "sha256": "4de70ae13112b55bcaed78bf25b1a02974f740106327cd1edf2c6877d18a0211"
+      },
+      {
+        "path": "userdef.reg",
+        "bytes": 4078,
+        "sha256": "4b4161324a7872e71c0a53ea81aa2d9ffc10de97794240fbf03d03832a32eb10"
+      }
+    ]
+  },
+  "font_resources": [
+    {
+      "role": "cjk",
+      "path": "NotoSerifCJK-Regular.ttc",
+      "face": 2,
+      "sha256": "5d9c31a059600193c9d7968a998bde886ccdc77e934006ad243b41794c496a7d"
+    },
+    {
+      "role": "latin",
+      "path": "FreeSerif.ttf",
+      "face": 0,
+      "sha256": "c1dd2270ff624d66a7f1cd23075b5ce05a662f560be06a70a9599065ce008355"
+    },
+    {
+      "role": "empty native C8 control",
+      "path": "DejaVuSans.ttf",
+      "face": 0,
+      "sha256": "57f73e11f51999432bf7ab22ce55b6f945d5eca1bf824404cfa9ec2e3718c84e"
+    }
+  ],
+  "control_plan": {
+    "prediction": "Only the descriptor type changes in each same-variant pair. If type 1 and 2 have different source row orientation, Wine original crops will vertically reflect their asymmetric color regions while baseline PDF crops remain identical. If originals match, type alone does not explain the failure. The black top/left bars and bottom-left blue/bottom-right red regions define JPEG decode orientation. All controls use offset placement and are original generated content.",
+    "page_size": [
+      6400,
+      4800
+    ],
+    "image_extent": [
+      3500,
+      2500
+    ],
+    "image_origin": [
+      400,
+      500
+    ],
+    "payload_sha256": "0d9945b6083234e10a3fe04eb3a7c4bb5f4dfe50ee692eb2dbb023d5f6bfacd0",
+    "helpers_sha256": {
+      "hna_image_fixture.py": "76e1296372ce1a1007c44d8b86657dfbd42341a83f292b31084e27d62c31d69a",
+      "c8_image_fixture.py": "ce97066a4aa57a8c1dc275077d5bd8ee8e6321331d81419412c1c2f247ba0411"
+    },
+    "rows": [
+      {
+        "name": "hna-type1",
+        "variant": "hna",
+        "kind": 1,
+        "source": "$EVIDENCE/orientation-controls-v2/hna-type1.caj",
+        "source_sha256": "817a84bae133970ea134cca83c7a7249552d8edb1f1d0293cdb93635dab0c684",
+        "pdf": "$EVIDENCE/orientation-controls-v2/hna-type1.pdf",
+        "pdf_sha256": "72cf68d51bbeb59c9906ee577960f20e5fd3380211ae3bac8443fd8fa760e4d4",
+        "descriptor_offset": 408
+      },
+      {
+        "name": "hna-type2",
+        "variant": "hna",
+        "kind": 2,
+        "source": "$EVIDENCE/orientation-controls-v2/hna-type2.caj",
+        "source_sha256": "05c068f5149c804a6cf9a20e5f9a90118244f8335bc930b4cf73f5eb04b87561",
+        "pdf": "$EVIDENCE/orientation-controls-v2/hna-type2.pdf",
+        "pdf_sha256": "72cf68d51bbeb59c9906ee577960f20e5fd3380211ae3bac8443fd8fa760e4d4",
+        "descriptor_offset": 408
+      },
+      {
+        "name": "c8-type1",
+        "variant": "c8",
+        "kind": 1,
+        "source": "$EVIDENCE/orientation-controls-v2/c8-type1.caj",
+        "source_sha256": "1342167919aff0761036bed19c7ca5c7ce5880b7217013269d80f64cebd52548",
+        "pdf": "$EVIDENCE/orientation-controls-v2/c8-type1.pdf",
+        "pdf_sha256": "90997c49d90b216188c1d963a30eeab7dbaa86b273e0040886acdd72c029453b",
+        "descriptor_offset": 132
+      },
+      {
+        "name": "c8-type2",
+        "variant": "c8",
+        "kind": 2,
+        "source": "$EVIDENCE/orientation-controls-v2/c8-type2.caj",
+        "source_sha256": "f5f3344422eb283e4e24ad17ce01d3ce27e185d1c24cec903675f05f2a0d7f47",
+        "pdf": "$EVIDENCE/orientation-controls-v2/c8-type2.pdf",
+        "pdf_sha256": "90997c49d90b216188c1d963a30eeab7dbaa86b273e0040886acdd72c029453b",
+        "descriptor_offset": 132
+      }
+    ]
+  },
+  "baseline_control_analysis": {
+    "scope": "Original controls only. Color thresholds classify orientation; exact screenshot differences use no tolerance or resampling.",
+    "rows": [
+      {
+        "name": "hna-type1",
+        "roles": {
+          "source": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "acaf3076351e769f58d0f31585e59e96346b5a50dcc4ddaf87983558fc8d8c65",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                226.5
+              ],
+              "red": [
+                341.5,
+                251.5
+              ]
+            }
+          },
+          "pdf": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "074eaee1e079e9b602e64393f11b359675083caafe1e40c8a23a3a67c543c899",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                114.0
+              ],
+              "red": [
+                340.5,
+                89.0
+              ]
+            }
+          }
+        },
+        "difference": {
+          "comparable": true,
+          "changed_pixels": 42173,
+          "maximum_absolute_channel_delta": 255,
+          "bounds_in_page": [
+            38,
+            49,
+            379,
+            293
+          ]
+        }
+      },
+      {
+        "name": "hna-type2",
+        "roles": {
+          "source": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "102bdd1edad30cc26d5b5073f9658c63e133e0ee83de4a60c983eba42e48a318",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                114.5
+              ],
+              "red": [
+                341.5,
+                89.0
+              ]
+            }
+          },
+          "pdf": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "074eaee1e079e9b602e64393f11b359675083caafe1e40c8a23a3a67c543c899",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                114.0
+              ],
+              "red": [
+                340.5,
+                89.0
+              ]
+            }
+          }
+        },
+        "difference": {
+          "comparable": true,
+          "changed_pixels": 937,
+          "maximum_absolute_channel_delta": 255,
+          "bounds_in_page": [
+            38,
+            49,
+            379,
+            293
+          ]
+        }
+      },
+      {
+        "name": "c8-type1",
+        "roles": {
+          "source": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "acaf3076351e769f58d0f31585e59e96346b5a50dcc4ddaf87983558fc8d8c65",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                226.5
+              ],
+              "red": [
+                341.5,
+                251.5
+              ]
+            }
+          },
+          "pdf": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "074eaee1e079e9b602e64393f11b359675083caafe1e40c8a23a3a67c543c899",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                114.0
+              ],
+              "red": [
+                340.5,
+                89.0
+              ]
+            }
+          }
+        },
+        "difference": {
+          "comparable": true,
+          "changed_pixels": 42173,
+          "maximum_absolute_channel_delta": 255,
+          "bounds_in_page": [
+            38,
+            49,
+            379,
+            293
+          ]
+        }
+      },
+      {
+        "name": "c8-type2",
+        "roles": {
+          "source": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "102bdd1edad30cc26d5b5073f9658c63e133e0ee83de4a60c983eba42e48a318",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                114.5
+              ],
+              "red": [
+                341.5,
+                89.0
+              ]
+            }
+          },
+          "pdf": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "074eaee1e079e9b602e64393f11b359675083caafe1e40c8a23a3a67c543c899",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                114.0
+              ],
+              "red": [
+                340.5,
+                89.0
+              ]
+            }
+          }
+        },
+        "difference": {
+          "comparable": true,
+          "changed_pixels": 937,
+          "maximum_absolute_channel_delta": 255,
+          "bounds_in_page": [
+            38,
+            49,
+            379,
+            293
+          ]
+        }
+      }
+    ]
+  },
+  "candidate_control_analysis": {
+    "scope": "Original controls only. Color thresholds classify orientation; exact screenshot differences use no tolerance or resampling.",
+    "rows": [
+      {
+        "name": "hna-type1",
+        "roles": {
+          "source": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "acaf3076351e769f58d0f31585e59e96346b5a50dcc4ddaf87983558fc8d8c65",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                226.5
+              ],
+              "red": [
+                341.5,
+                251.5
+              ]
+            }
+          },
+          "pdf": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "28dff9bb28c0d509e6d73735ff4df791e7703cc779263261e6bfb1dba671327a",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                226.0
+              ],
+              "red": [
+                340.5,
+                251.0
+              ]
+            }
+          },
+          "repeat": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "acaf3076351e769f58d0f31585e59e96346b5a50dcc4ddaf87983558fc8d8c65",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                226.5
+              ],
+              "red": [
+                341.5,
+                251.5
+              ]
+            }
+          }
+        },
+        "cold_source_repeat_equal": true,
+        "difference": {
+          "comparable": true,
+          "changed_pixels": 702,
+          "maximum_absolute_channel_delta": 255,
+          "bounds_in_page": [
+            38,
+            49,
+            379,
+            293
+          ]
+        }
+      },
+      {
+        "name": "hna-type2",
+        "roles": {
+          "source": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "102bdd1edad30cc26d5b5073f9658c63e133e0ee83de4a60c983eba42e48a318",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                114.5
+              ],
+              "red": [
+                341.5,
+                89.0
+              ]
+            }
+          },
+          "pdf": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "074eaee1e079e9b602e64393f11b359675083caafe1e40c8a23a3a67c543c899",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                114.0
+              ],
+              "red": [
+                340.5,
+                89.0
+              ]
+            }
+          },
+          "repeat": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "102bdd1edad30cc26d5b5073f9658c63e133e0ee83de4a60c983eba42e48a318",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                114.5
+              ],
+              "red": [
+                341.5,
+                89.0
+              ]
+            }
+          }
+        },
+        "cold_source_repeat_equal": true,
+        "difference": {
+          "comparable": true,
+          "changed_pixels": 937,
+          "maximum_absolute_channel_delta": 255,
+          "bounds_in_page": [
+            38,
+            49,
+            379,
+            293
+          ]
+        }
+      },
+      {
+        "name": "c8-type1",
+        "roles": {
+          "source": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "acaf3076351e769f58d0f31585e59e96346b5a50dcc4ddaf87983558fc8d8c65",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                226.5
+              ],
+              "red": [
+                341.5,
+                251.5
+              ]
+            }
+          },
+          "pdf": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "28dff9bb28c0d509e6d73735ff4df791e7703cc779263261e6bfb1dba671327a",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                226.0
+              ],
+              "red": [
+                340.5,
+                251.0
+              ]
+            }
+          },
+          "repeat": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "acaf3076351e769f58d0f31585e59e96346b5a50dcc4ddaf87983558fc8d8c65",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                226.5
+              ],
+              "red": [
+                341.5,
+                251.5
+              ]
+            }
+          }
+        },
+        "cold_source_repeat_equal": true,
+        "difference": {
+          "comparable": true,
+          "changed_pixels": 702,
+          "maximum_absolute_channel_delta": 255,
+          "bounds_in_page": [
+            38,
+            49,
+            379,
+            293
+          ]
+        }
+      },
+      {
+        "name": "c8-type2",
+        "roles": {
+          "source": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "102bdd1edad30cc26d5b5073f9658c63e133e0ee83de4a60c983eba42e48a318",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                114.5
+              ],
+              "red": [
+                341.5,
+                89.0
+              ]
+            }
+          },
+          "pdf": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "074eaee1e079e9b602e64393f11b359675083caafe1e40c8a23a3a67c543c899",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                114.0
+              ],
+              "red": [
+                340.5,
+                89.0
+              ]
+            }
+          },
+          "repeat": {
+            "complete": true,
+            "bounds_with_border": [
+              473,
+              395,
+              1098,
+              866
+            ],
+            "size": [
+              625,
+              471
+            ],
+            "rgb_sha256": "102bdd1edad30cc26d5b5073f9658c63e133e0ee83de4a60c983eba42e48a318",
+            "component_pixels": 293281,
+            "color_centroids": {
+              "blue": [
+                117.5,
+                114.5
+              ],
+              "red": [
+                341.5,
+                89.0
+              ]
+            }
+          }
+        },
+        "cold_source_repeat_equal": true,
+        "difference": {
+          "comparable": true,
+          "changed_pixels": 937,
+          "maximum_absolute_channel_delta": 255,
+          "bounds_in_page": [
+            38,
+            49,
+            379,
+            293
+          ]
+        }
+      }
+    ]
+  },
+  "control_outputs": [
+    {
+      "name": "hna-type1",
+      "variant": "hna",
+      "kind": 1,
+      "source": "$EVIDENCE/orientation-controls-v2/hna-type1.caj",
+      "source_sha256": "817a84bae133970ea134cca83c7a7249552d8edb1f1d0293cdb93635dab0c684",
+      "pdf": "$EVIDENCE/orientation-controls-v2/hna-type1.pdf",
+      "pdf_sha256": "72cf68d51bbeb59c9906ee577960f20e5fd3380211ae3bac8443fd8fa760e4d4",
+      "descriptor_offset": 408,
+      "candidate_pdf": "$EVIDENCE/candidate530/controls/hna-type1.pdf",
+      "candidate_pdf_sha256": "3f1f6d50ec55591f54858864cd05254060620aff9f1561e11a21c592c9a79861",
+      "baseline_unchanged": false
+    },
+    {
+      "name": "hna-type2",
+      "variant": "hna",
+      "kind": 2,
+      "source": "$EVIDENCE/orientation-controls-v2/hna-type2.caj",
+      "source_sha256": "05c068f5149c804a6cf9a20e5f9a90118244f8335bc930b4cf73f5eb04b87561",
+      "pdf": "$EVIDENCE/orientation-controls-v2/hna-type2.pdf",
+      "pdf_sha256": "72cf68d51bbeb59c9906ee577960f20e5fd3380211ae3bac8443fd8fa760e4d4",
+      "descriptor_offset": 408,
+      "candidate_pdf": "$EVIDENCE/candidate530/controls/hna-type2.pdf",
+      "candidate_pdf_sha256": "72cf68d51bbeb59c9906ee577960f20e5fd3380211ae3bac8443fd8fa760e4d4",
+      "baseline_unchanged": true
+    },
+    {
+      "name": "c8-type1",
+      "variant": "c8",
+      "kind": 1,
+      "source": "$EVIDENCE/orientation-controls-v2/c8-type1.caj",
+      "source_sha256": "1342167919aff0761036bed19c7ca5c7ce5880b7217013269d80f64cebd52548",
+      "pdf": "$EVIDENCE/orientation-controls-v2/c8-type1.pdf",
+      "pdf_sha256": "90997c49d90b216188c1d963a30eeab7dbaa86b273e0040886acdd72c029453b",
+      "descriptor_offset": 132,
+      "candidate_pdf": "$EVIDENCE/candidate530/controls/c8-type1.pdf",
+      "candidate_pdf_sha256": "48df028b5e9fd7fda425f2522617f71b96db1aba8e426930d05bd18ebaeb21d2",
+      "baseline_unchanged": false
+    },
+    {
+      "name": "c8-type2",
+      "variant": "c8",
+      "kind": 2,
+      "source": "$EVIDENCE/orientation-controls-v2/c8-type2.caj",
+      "source_sha256": "f5f3344422eb283e4e24ad17ce01d3ce27e185d1c24cec903675f05f2a0d7f47",
+      "pdf": "$EVIDENCE/orientation-controls-v2/c8-type2.pdf",
+      "pdf_sha256": "90997c49d90b216188c1d963a30eeab7dbaa86b273e0040886acdd72c029453b",
+      "descriptor_offset": 132,
+      "candidate_pdf": "$EVIDENCE/candidate530/controls/c8-type2.pdf",
+      "candidate_pdf_sha256": "90997c49d90b216188c1d963a30eeab7dbaa86b273e0040886acdd72c029453b",
+      "baseline_unchanged": true
+    }
+  ],
+  "actual_analysis": [
+    {
+      "page": 1,
+      "frames": {
+        "source": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "2c226a208b08632107ed3a6210a02ed2751986811f6476f5ef025deec057d1ba",
+          "component_pixels": 384649
+        },
+        "baseline": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "40364d34e587cab92da0f9a4fa0a68a80ae607167bd7f05c3895788a4b247068",
+          "component_pixels": 384649
+        },
+        "repeat": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "2c226a208b08632107ed3a6210a02ed2751986811f6476f5ef025deec057d1ba",
+          "component_pixels": 384649
+        },
+        "candidate": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "da73b4431f01902f78c79de0b8f312efa2936821f4021b80a52870935216d4f1",
+          "component_pixels": 384649
+        }
+      },
+      "source_cold_repeat_equal": true,
+      "baseline_difference": {
+        "comparable": true,
+        "changed_pixels": 360380,
+        "maximum_absolute_channel_delta": 136,
+        "bounds_in_page": [
+          0,
+          1,
+          514,
+          712
+        ]
+      },
+      "candidate_difference": {
+        "comparable": true,
+        "changed_pixels": 237471,
+        "maximum_absolute_channel_delta": 167,
+        "bounds_in_page": [
+          0,
+          1,
+          514,
+          713
+        ]
+      },
+      "pdf_unchanged": false
+    },
+    {
+      "page": 7,
+      "frames": {
+        "source": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "a5e53b2421fe6f1d77efba690f45cc6c0fdf284075e4a575aa82cf93259f6623",
+          "component_pixels": 384649
+        },
+        "baseline": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "b37a1145470185604383e1e4c3b28f4e2fa43e073d604b2ef65f0816265c1dee",
+          "component_pixels": 384649
+        },
+        "repeat": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "a5e53b2421fe6f1d77efba690f45cc6c0fdf284075e4a575aa82cf93259f6623",
+          "component_pixels": 384649
+        },
+        "candidate": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "fd07ed3dc2f23e48be7ca9cda629794f3d29c91bc9a0f6f85e86a61c16bcc3ab",
+          "component_pixels": 384649
+        }
+      },
+      "source_cold_repeat_equal": true,
+      "baseline_difference": {
+        "comparable": true,
+        "changed_pixels": 326953,
+        "maximum_absolute_channel_delta": 114,
+        "bounds_in_page": [
+          0,
+          1,
+          503,
+          714
+        ]
+      },
+      "candidate_difference": {
+        "comparable": true,
+        "changed_pixels": 157722,
+        "maximum_absolute_channel_delta": 24,
+        "bounds_in_page": [
+          0,
+          1,
+          503,
+          714
+        ]
+      },
+      "pdf_unchanged": false
+    },
+    {
+      "page": 9,
+      "frames": {
+        "source": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "f403238b9ecb7f13ce5d099db306137c2efeea72b499b65f3867ae1cee34f886",
+          "component_pixels": 384649
+        },
+        "baseline": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "b8caee4b00abb243b5a242a98110d3eeb0465f5349a0f75a1b17dacc567e3cc0",
+          "component_pixels": 384649
+        },
+        "repeat": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "f403238b9ecb7f13ce5d099db306137c2efeea72b499b65f3867ae1cee34f886",
+          "component_pixels": 384649
+        },
+        "candidate": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "103e4d6418222784552145d981cd4815d3d4fd55c56c6e08190a96e0a0ec7e8d",
+          "component_pixels": 384649
+        }
+      },
+      "source_cold_repeat_equal": true,
+      "baseline_difference": {
+        "comparable": true,
+        "changed_pixels": 104693,
+        "maximum_absolute_channel_delta": 106,
+        "bounds_in_page": [
+          23,
+          7,
+          452,
+          681
+        ]
+      },
+      "candidate_difference": {
+        "comparable": true,
+        "changed_pixels": 67859,
+        "maximum_absolute_channel_delta": 64,
+        "bounds_in_page": [
+          23,
+          7,
+          452,
+          681
+        ]
+      },
+      "pdf_unchanged": false
+    },
+    {
+      "page": 217,
+      "frames": {
+        "source": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "01565ec2845f181392ee0746ed8c11b9083d29059b2ea6bc60aff0a9583557fc",
+          "component_pixels": 384649
+        },
+        "baseline": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "38bd5f20418c60fb7aa6fc1a2990faf3f915fad3d0eb0358b2bcd54c50e12c1e",
+          "component_pixels": 384649
+        },
+        "repeat": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "01565ec2845f181392ee0746ed8c11b9083d29059b2ea6bc60aff0a9583557fc",
+          "component_pixels": 384649
+        },
+        "candidate": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "38bd5f20418c60fb7aa6fc1a2990faf3f915fad3d0eb0358b2bcd54c50e12c1e",
+          "component_pixels": 384649
+        }
+      },
+      "source_cold_repeat_equal": true,
+      "baseline_difference": {
+        "comparable": true,
+        "changed_pixels": 21042,
+        "maximum_absolute_channel_delta": 64,
+        "bounds_in_page": [
+          25,
+          55,
+          449,
+          686
+        ]
+      },
+      "candidate_difference": {
+        "comparable": true,
+        "changed_pixels": 21042,
+        "maximum_absolute_channel_delta": 64,
+        "bounds_in_page": [
+          25,
+          55,
+          449,
+          686
+        ]
+      },
+      "pdf_unchanged": true
+    },
+    {
+      "page": 433,
+      "frames": {
+        "source": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "442a7d2fbf0117f4e76fa1dfe4e6d426f34acc955d941e4659b0c0bec65b7d31",
+          "component_pixels": 384649
+        },
+        "baseline": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "6c5d6129753e52f9ae967ae0b43757bdf6c2ab857d21792722dab9bdfcf90803",
+          "component_pixels": 384649
+        },
+        "repeat": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "442a7d2fbf0117f4e76fa1dfe4e6d426f34acc955d941e4659b0c0bec65b7d31",
+          "component_pixels": 384649
+        },
+        "candidate": {
+          "complete": true,
+          "bounds_with_border": [
+            527,
+            258,
+            1045,
+            1003
+          ],
+          "size": [
+            518,
+            745
+          ],
+          "rgb_sha256": "0f5a2afbf9654820372dee74d1ab4b53d28c745110215135ebb38b90c05983ca",
+          "component_pixels": 384649
+        }
+      },
+      "source_cold_repeat_equal": true,
+      "baseline_difference": {
+        "comparable": true,
+        "changed_pixels": 346673,
+        "maximum_absolute_channel_delta": 143,
+        "bounds_in_page": [
+          0,
+          1,
+          483,
+          741
+        ]
+      },
+      "candidate_difference": {
+        "comparable": true,
+        "changed_pixels": 163216,
+        "maximum_absolute_channel_delta": 39,
+        "bounds_in_page": [
+          0,
+          1,
+          483,
+          741
+        ]
+      },
+      "pdf_unchanged": false
+    }
+  ],
+  "pdf_page_proof": {
+    "original": "16b1a3b1cb7177cc3d327f749f7f273d806b153ded5fe11d9261bac030ec66ac",
+    "all_433_media_boxes_identical": true,
+    "changed_content_pages": [
+      {
+        "page": 1,
+        "before": "q\n514.4520824909017 0 0 -711.0715729882734 0 740.1860088960776 cm\n/Im0 Do\nQ\n",
+        "after": "q\n514.4520824909017 0 0 711.0715729882734 0 29.11443590780425 cm\n/Im0 Do\nQ\n",
+        "image_payloads_equal": true
+      },
+      {
+        "page": 7,
+        "before": "q\n502.80630812778 0 0 -712.8184391427417 0 740.1860088960776 cm\n/Im0 Do\nQ\n",
+        "after": "q\n502.80630812778 0 0 712.8184391427417 0 27.367569753335943 cm\n/Im0 Do\nQ\n",
+        "image_payloads_equal": true
+      },
+      {
+        "page": 9,
+        "before": "q\n502.61221188839465 0 0 712.3331985442783 0 27.85281035179935 cm\n/Im0 Do\nQ\nq\n399.35301253538216 0 0 -246.50222401940962 40.274969672462596 656.4334816012939 cm\n/Im1 Do\nQ\n",
+        "after": "q\n502.61221188839465 0 0 712.3331985442783 0 27.85281035179935 cm\n/Im0 Do\nQ\nq\n399.35301253538216 0 0 246.50222401940962 40.274969672462596 409.9312575818843 cm\n/Im1 Do\nQ\n",
+        "image_payloads_equal": true
+      },
+      {
+        "page": 433,
+        "before": "q\n482.8143954710878 0 0 -740.1860088960776 0 740.1860088960776 cm\n/Im0 Do\nQ\n",
+        "after": "q\n482.8143954710878 0 0 740.1860088960776 0 0 cm\n/Im0 Do\nQ\n",
+        "image_payloads_equal": true
+      }
+    ],
+    "native_node_equal": true,
+    "all_image_streams_and_dictionaries_across_433_pages_identical": true,
+    "image_draw_count": 434
+  },
+  "baseline_outputs": [
+    {
+      "source": "0110e749332c661251e0dab2c27504a1d451847a1c8222ffac402e4b7704e2c5",
+      "path": "$EVIDENCE/baseline/pdfs/0110e749332c661251e0dab2c27504a1d451847a1c8222ffac402e4b7704e2c5.pdf",
+      "pdf_sha256": "e590af73d1f88d5c8e865ec4ade850c460e31c7b37d9d40897b25eaf52cd721a",
+      "bytes": 104034,
+      "pages": 3,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "01588263579f252d96578f04f2e72d27dc90b464dc25b28f906f6cc1cadb4c2c",
+      "path": "$EVIDENCE/baseline/pdfs/01588263579f252d96578f04f2e72d27dc90b464dc25b28f906f6cc1cadb4c2c.pdf",
+      "pdf_sha256": "b85a8696fec30596dc0247722b3d1498a9a25ba1157cebcb1f6a109cb939559f",
+      "bytes": 2219726,
+      "pages": 3,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "03770ea1cdebc9856d1443438b296860fa11f3e283717d256ea0af57ecae1c89",
+      "path": "$EVIDENCE/baseline/pdfs/03770ea1cdebc9856d1443438b296860fa11f3e283717d256ea0af57ecae1c89.pdf",
+      "pdf_sha256": "65ffb1a8fd283abd4190fc7072bfbe266b877132cf00b87e6d9028c29bc34cde",
+      "bytes": 680583,
+      "pages": 5,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "166d0014792326570d9e8ca42fe13a4a44329e4ad095d3ac8dfd73c8ddb9f20e",
+      "path": "$EVIDENCE/baseline/pdfs/166d0014792326570d9e8ca42fe13a4a44329e4ad095d3ac8dfd73c8ddb9f20e.pdf",
+      "pdf_sha256": "11cadd7d1857a26a929d5d74be4da53facef1215f5a2e43f9104706c26bb7b88",
+      "bytes": 726143,
+      "pages": 12,
+      "substitutedGlyphs": "1",
+      "baseline_match": true
+    },
+    {
+      "source": "1b9aa912e0bc9dcce4dfbefa07e08a24665d6db624a02f9a30a8c404df5a9ef7",
+      "path": "$EVIDENCE/baseline/pdfs/1b9aa912e0bc9dcce4dfbefa07e08a24665d6db624a02f9a30a8c404df5a9ef7.pdf",
+      "pdf_sha256": "4e38dc686ae8a07b23d006e9a908cd5929a0ce67281a3f1ac4f67cd5b7f6c212",
+      "bytes": 398374,
+      "pages": 4,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "3dc7f393740dccfaa614b9f8b21f5a46db60bbf11a0e1c1e0dfba84764097586",
+      "path": "$EVIDENCE/baseline/pdfs/3dc7f393740dccfaa614b9f8b21f5a46db60bbf11a0e1c1e0dfba84764097586.pdf",
+      "pdf_sha256": "60d6c5be092c2b8e4b53d420b454a6000bbd5697bb51c061b51e1fc919cfa326",
+      "bytes": 5781024,
+      "pages": 37,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "3f3b9b57d6925df811247dced47fd7fb74cf0f678ab9bfda0827c827258ab39b",
+      "path": "$EVIDENCE/baseline/pdfs/3f3b9b57d6925df811247dced47fd7fb74cf0f678ab9bfda0827c827258ab39b.pdf",
+      "pdf_sha256": "375b15bbcc400ebc770f51e086e8a00835956ab17233a0d3252dc5678eb00d3f",
+      "bytes": 284544,
+      "pages": 4,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "58a8fdaf423c5b923ec8323bbc28ce447d1d583e7041fd19d4758b98983a804f",
+      "path": "$EVIDENCE/baseline/pdfs/58a8fdaf423c5b923ec8323bbc28ce447d1d583e7041fd19d4758b98983a804f.pdf",
+      "pdf_sha256": "bf398d555b074c938e5b67c07c1f6ace507061b081704aa62d32f4488c5cd87b",
+      "bytes": 2300273,
+      "pages": 3,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "5d988d74a6e6a0c392eb58297e70d91ff2e1ad2c2887374a04adc67a253ac2ab",
+      "path": "$EVIDENCE/baseline/pdfs/5d988d74a6e6a0c392eb58297e70d91ff2e1ad2c2887374a04adc67a253ac2ab.pdf",
+      "pdf_sha256": "17af66b3201925945c16cbfbda3b587cc3cd2369eafe9ddfcd2f71f15f72c1cf",
+      "bytes": 536962,
+      "pages": 75,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "63870d12f2069d3d6c663dc2813d04a38a632c4c319f20b6f8dd1b8b8bc589c2",
+      "path": "$EVIDENCE/baseline/pdfs/63870d12f2069d3d6c663dc2813d04a38a632c4c319f20b6f8dd1b8b8bc589c2.pdf",
+      "pdf_sha256": "c6a63c710126984fd57d90257a5d33244bbfa876f57491aedffaf80f2842200a",
+      "bytes": 279894,
+      "pages": 4,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "7797fd3c7d6ce8b1ae8203ff9957d6a52ef76c4290a8a777da66297f30c8fa78",
+      "path": "$EVIDENCE/baseline/pdfs/7797fd3c7d6ce8b1ae8203ff9957d6a52ef76c4290a8a777da66297f30c8fa78.pdf",
+      "pdf_sha256": "d54f082daf364513529f46a7fe92b539512a498d2aec50e9dccb3078fa57e041",
+      "bytes": 2201598,
+      "pages": 64,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "7e3f2c0faebb8ddac2f4feff3cfc9249476ab170b43250ac00610b10aa46c74b",
+      "path": "$EVIDENCE/baseline/pdfs/7e3f2c0faebb8ddac2f4feff3cfc9249476ab170b43250ac00610b10aa46c74b.pdf",
+      "pdf_sha256": "db0859192313afc1879f3b2bf941c9978251ef01ebeec28d446a16a4992bff23",
+      "bytes": 8891004,
+      "pages": 10,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "90e7b47716c32ef7a67cde8094f312e0ee7f1a7e0ed50a25830e8ba64a84f6a6",
+      "path": "$EVIDENCE/baseline/pdfs/90e7b47716c32ef7a67cde8094f312e0ee7f1a7e0ed50a25830e8ba64a84f6a6.pdf",
+      "pdf_sha256": "e3a45bc6a235339fd57c3822446213a6d824457efe9aecc348f5e2d778dbc919",
+      "bytes": 268201,
+      "pages": 6,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "b9a64bf99e4bc496b976541a27128ee84109835d5f79f228a9c8ad159ec6829b",
+      "path": "$EVIDENCE/baseline/pdfs/b9a64bf99e4bc496b976541a27128ee84109835d5f79f228a9c8ad159ec6829b.pdf",
+      "pdf_sha256": "185a14fd1155782ed691c450f4b63e15213c61914cd362f3a6ee380dbb8e4a42",
+      "bytes": 305034,
+      "pages": 4,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "d6a23a9cfd0f37a71e245a3c96b2c3fafdf648f4bb1694f094cfe746b3f4f13d",
+      "path": "$EVIDENCE/baseline/pdfs/d6a23a9cfd0f37a71e245a3c96b2c3fafdf648f4bb1694f094cfe746b3f4f13d.pdf",
+      "pdf_sha256": "1ce3a67f4f6a43647dff2a8da88162d4a15f21ad2c06f7616e054f38989c280e",
+      "bytes": 818868,
+      "pages": 5,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "e1b17805a87f62097987c41f2821836d6b774caaf035c9846be966c965f08a49",
+      "path": "$EVIDENCE/baseline/pdfs/e1b17805a87f62097987c41f2821836d6b774caaf035c9846be966c965f08a49.pdf",
+      "pdf_sha256": "99b129a924fe0ab80d1b712ad3a7dda5009d78c62b16784422ae7c242455ff73",
+      "bytes": 1161487,
+      "pages": 6,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "16b1a3b1cb7177cc3d327f749f7f273d806b153ded5fe11d9261bac030ec66ac",
+      "path": "$EVIDENCE/baseline/pdfs/16b1a3b1cb7177cc3d327f749f7f273d806b153ded5fe11d9261bac030ec66ac.pdf",
+      "pdf_sha256": "b12385a8a53a811ac245dd6f65b410a5c1b1be526292b42e94594a6b75c4add3",
+      "bytes": 24592732,
+      "pages": 433,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    }
+  ],
+  "candidate_outputs": [
+    {
+      "source": "0110e749332c661251e0dab2c27504a1d451847a1c8222ffac402e4b7704e2c5",
+      "path": "$EVIDENCE/candidate530/pdfs/0110e749332c661251e0dab2c27504a1d451847a1c8222ffac402e4b7704e2c5.pdf",
+      "pdf_sha256": "e590af73d1f88d5c8e865ec4ade850c460e31c7b37d9d40897b25eaf52cd721a",
+      "bytes": 104034,
+      "pages": 3,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "01588263579f252d96578f04f2e72d27dc90b464dc25b28f906f6cc1cadb4c2c",
+      "path": "$EVIDENCE/candidate530/pdfs/01588263579f252d96578f04f2e72d27dc90b464dc25b28f906f6cc1cadb4c2c.pdf",
+      "pdf_sha256": "b85a8696fec30596dc0247722b3d1498a9a25ba1157cebcb1f6a109cb939559f",
+      "bytes": 2219726,
+      "pages": 3,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "03770ea1cdebc9856d1443438b296860fa11f3e283717d256ea0af57ecae1c89",
+      "path": "$EVIDENCE/candidate530/pdfs/03770ea1cdebc9856d1443438b296860fa11f3e283717d256ea0af57ecae1c89.pdf",
+      "pdf_sha256": "65ffb1a8fd283abd4190fc7072bfbe266b877132cf00b87e6d9028c29bc34cde",
+      "bytes": 680583,
+      "pages": 5,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "166d0014792326570d9e8ca42fe13a4a44329e4ad095d3ac8dfd73c8ddb9f20e",
+      "path": "$EVIDENCE/candidate530/pdfs/166d0014792326570d9e8ca42fe13a4a44329e4ad095d3ac8dfd73c8ddb9f20e.pdf",
+      "pdf_sha256": "11cadd7d1857a26a929d5d74be4da53facef1215f5a2e43f9104706c26bb7b88",
+      "bytes": 726143,
+      "pages": 12,
+      "substitutedGlyphs": "1",
+      "baseline_match": true
+    },
+    {
+      "source": "1b9aa912e0bc9dcce4dfbefa07e08a24665d6db624a02f9a30a8c404df5a9ef7",
+      "path": "$EVIDENCE/candidate530/pdfs/1b9aa912e0bc9dcce4dfbefa07e08a24665d6db624a02f9a30a8c404df5a9ef7.pdf",
+      "pdf_sha256": "4e38dc686ae8a07b23d006e9a908cd5929a0ce67281a3f1ac4f67cd5b7f6c212",
+      "bytes": 398374,
+      "pages": 4,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "3dc7f393740dccfaa614b9f8b21f5a46db60bbf11a0e1c1e0dfba84764097586",
+      "path": "$EVIDENCE/candidate530/pdfs/3dc7f393740dccfaa614b9f8b21f5a46db60bbf11a0e1c1e0dfba84764097586.pdf",
+      "pdf_sha256": "60d6c5be092c2b8e4b53d420b454a6000bbd5697bb51c061b51e1fc919cfa326",
+      "bytes": 5781024,
+      "pages": 37,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "3f3b9b57d6925df811247dced47fd7fb74cf0f678ab9bfda0827c827258ab39b",
+      "path": "$EVIDENCE/candidate530/pdfs/3f3b9b57d6925df811247dced47fd7fb74cf0f678ab9bfda0827c827258ab39b.pdf",
+      "pdf_sha256": "375b15bbcc400ebc770f51e086e8a00835956ab17233a0d3252dc5678eb00d3f",
+      "bytes": 284544,
+      "pages": 4,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "58a8fdaf423c5b923ec8323bbc28ce447d1d583e7041fd19d4758b98983a804f",
+      "path": "$EVIDENCE/candidate530/pdfs/58a8fdaf423c5b923ec8323bbc28ce447d1d583e7041fd19d4758b98983a804f.pdf",
+      "pdf_sha256": "bf398d555b074c938e5b67c07c1f6ace507061b081704aa62d32f4488c5cd87b",
+      "bytes": 2300273,
+      "pages": 3,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "5d988d74a6e6a0c392eb58297e70d91ff2e1ad2c2887374a04adc67a253ac2ab",
+      "path": "$EVIDENCE/candidate530/pdfs/5d988d74a6e6a0c392eb58297e70d91ff2e1ad2c2887374a04adc67a253ac2ab.pdf",
+      "pdf_sha256": "17af66b3201925945c16cbfbda3b587cc3cd2369eafe9ddfcd2f71f15f72c1cf",
+      "bytes": 536962,
+      "pages": 75,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "63870d12f2069d3d6c663dc2813d04a38a632c4c319f20b6f8dd1b8b8bc589c2",
+      "path": "$EVIDENCE/candidate530/pdfs/63870d12f2069d3d6c663dc2813d04a38a632c4c319f20b6f8dd1b8b8bc589c2.pdf",
+      "pdf_sha256": "c6a63c710126984fd57d90257a5d33244bbfa876f57491aedffaf80f2842200a",
+      "bytes": 279894,
+      "pages": 4,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "7797fd3c7d6ce8b1ae8203ff9957d6a52ef76c4290a8a777da66297f30c8fa78",
+      "path": "$EVIDENCE/candidate530/pdfs/7797fd3c7d6ce8b1ae8203ff9957d6a52ef76c4290a8a777da66297f30c8fa78.pdf",
+      "pdf_sha256": "d54f082daf364513529f46a7fe92b539512a498d2aec50e9dccb3078fa57e041",
+      "bytes": 2201598,
+      "pages": 64,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "7e3f2c0faebb8ddac2f4feff3cfc9249476ab170b43250ac00610b10aa46c74b",
+      "path": "$EVIDENCE/candidate530/pdfs/7e3f2c0faebb8ddac2f4feff3cfc9249476ab170b43250ac00610b10aa46c74b.pdf",
+      "pdf_sha256": "db0859192313afc1879f3b2bf941c9978251ef01ebeec28d446a16a4992bff23",
+      "bytes": 8891004,
+      "pages": 10,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "90e7b47716c32ef7a67cde8094f312e0ee7f1a7e0ed50a25830e8ba64a84f6a6",
+      "path": "$EVIDENCE/candidate530/pdfs/90e7b47716c32ef7a67cde8094f312e0ee7f1a7e0ed50a25830e8ba64a84f6a6.pdf",
+      "pdf_sha256": "e3a45bc6a235339fd57c3822446213a6d824457efe9aecc348f5e2d778dbc919",
+      "bytes": 268201,
+      "pages": 6,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "b9a64bf99e4bc496b976541a27128ee84109835d5f79f228a9c8ad159ec6829b",
+      "path": "$EVIDENCE/candidate530/pdfs/b9a64bf99e4bc496b976541a27128ee84109835d5f79f228a9c8ad159ec6829b.pdf",
+      "pdf_sha256": "185a14fd1155782ed691c450f4b63e15213c61914cd362f3a6ee380dbb8e4a42",
+      "bytes": 305034,
+      "pages": 4,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "d6a23a9cfd0f37a71e245a3c96b2c3fafdf648f4bb1694f094cfe746b3f4f13d",
+      "path": "$EVIDENCE/candidate530/pdfs/d6a23a9cfd0f37a71e245a3c96b2c3fafdf648f4bb1694f094cfe746b3f4f13d.pdf",
+      "pdf_sha256": "1ce3a67f4f6a43647dff2a8da88162d4a15f21ad2c06f7616e054f38989c280e",
+      "bytes": 818868,
+      "pages": 5,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "e1b17805a87f62097987c41f2821836d6b774caaf035c9846be966c965f08a49",
+      "path": "$EVIDENCE/candidate530/pdfs/e1b17805a87f62097987c41f2821836d6b774caaf035c9846be966c965f08a49.pdf",
+      "pdf_sha256": "99b129a924fe0ab80d1b712ad3a7dda5009d78c62b16784422ae7c242455ff73",
+      "bytes": 1161487,
+      "pages": 6,
+      "substitutedGlyphs": "0",
+      "baseline_match": true
+    },
+    {
+      "source": "16b1a3b1cb7177cc3d327f749f7f273d806b153ded5fe11d9261bac030ec66ac",
+      "path": "$EVIDENCE/candidate530/pdfs/16b1a3b1cb7177cc3d327f749f7f273d806b153ded5fe11d9261bac030ec66ac.pdf",
+      "pdf_sha256": "ea43a23bb3e46b4589d78a81cedfd5e616384b3285af4eb0c00f12fefbfbbcdf",
+      "bytes": 24592713,
+      "pages": 433,
+      "substitutedGlyphs": "0",
+      "baseline_match": false
+    }
+  ],
+  "browser_results": [
+    {
+      "source": "0110e749332c661251e0dab2c27504a1d451847a1c8222ffac402e4b7704e2c5",
+      "status": "CONVERTED",
+      "pages": 3,
+      "substitutedGlyphs": "0",
+      "bytes": 104034,
+      "sha256": "e590af73d1f88d5c8e865ec4ade850c460e31c7b37d9d40897b25eaf52cd721a",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.508
+    },
+    {
+      "source": "01588263579f252d96578f04f2e72d27dc90b464dc25b28f906f6cc1cadb4c2c",
+      "status": "CONVERTED",
+      "pages": 3,
+      "substitutedGlyphs": "0",
+      "bytes": 2219726,
+      "sha256": "b85a8696fec30596dc0247722b3d1498a9a25ba1157cebcb1f6a109cb939559f",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.266
+    },
+    {
+      "source": "03770ea1cdebc9856d1443438b296860fa11f3e283717d256ea0af57ecae1c89",
+      "status": "CONVERTED",
+      "pages": 5,
+      "substitutedGlyphs": "0",
+      "bytes": 680583,
+      "sha256": "65ffb1a8fd283abd4190fc7072bfbe266b877132cf00b87e6d9028c29bc34cde",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 1.006
+    },
+    {
+      "source": "166d0014792326570d9e8ca42fe13a4a44329e4ad095d3ac8dfd73c8ddb9f20e",
+      "status": "CONVERTED",
+      "pages": 12,
+      "substitutedGlyphs": "1",
+      "bytes": 726143,
+      "sha256": "11cadd7d1857a26a929d5d74be4da53facef1215f5a2e43f9104706c26bb7b88",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.757
+    },
+    {
+      "source": "1b9aa912e0bc9dcce4dfbefa07e08a24665d6db624a02f9a30a8c404df5a9ef7",
+      "status": "CONVERTED",
+      "pages": 4,
+      "substitutedGlyphs": "0",
+      "bytes": 398374,
+      "sha256": "4e38dc686ae8a07b23d006e9a908cd5929a0ce67281a3f1ac4f67cd5b7f6c212",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.757
+    },
+    {
+      "source": "3dc7f393740dccfaa614b9f8b21f5a46db60bbf11a0e1c1e0dfba84764097586",
+      "status": "CONVERTED",
+      "pages": 37,
+      "substitutedGlyphs": "0",
+      "bytes": 5781024,
+      "sha256": "60d6c5be092c2b8e4b53d420b454a6000bbd5697bb51c061b51e1fc919cfa326",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 5.304
+    },
+    {
+      "source": "3f3b9b57d6925df811247dced47fd7fb74cf0f678ab9bfda0827c827258ab39b",
+      "status": "CONVERTED",
+      "pages": 4,
+      "substitutedGlyphs": "0",
+      "bytes": 284544,
+      "sha256": "375b15bbcc400ebc770f51e086e8a00835956ab17233a0d3252dc5678eb00d3f",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.503
+    },
+    {
+      "source": "58a8fdaf423c5b923ec8323bbc28ce447d1d583e7041fd19d4758b98983a804f",
+      "status": "CONVERTED",
+      "pages": 3,
+      "substitutedGlyphs": "0",
+      "bytes": 2300273,
+      "sha256": "bf398d555b074c938e5b67c07c1f6ace507061b081704aa62d32f4488c5cd87b",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.262
+    },
+    {
+      "source": "5d988d74a6e6a0c392eb58297e70d91ff2e1ad2c2887374a04adc67a253ac2ab",
+      "status": "CONVERTED",
+      "pages": 75,
+      "substitutedGlyphs": "0",
+      "bytes": 536962,
+      "sha256": "17af66b3201925945c16cbfbda3b587cc3cd2369eafe9ddfcd2f71f15f72c1cf",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.254
+    },
+    {
+      "source": "63870d12f2069d3d6c663dc2813d04a38a632c4c319f20b6f8dd1b8b8bc589c2",
+      "status": "CONVERTED",
+      "pages": 4,
+      "substitutedGlyphs": "0",
+      "bytes": 279894,
+      "sha256": "c6a63c710126984fd57d90257a5d33244bbfa876f57491aedffaf80f2842200a",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.504
+    },
+    {
+      "source": "7797fd3c7d6ce8b1ae8203ff9957d6a52ef76c4290a8a777da66297f30c8fa78",
+      "status": "CONVERTED",
+      "pages": 64,
+      "substitutedGlyphs": "0",
+      "bytes": 2201598,
+      "sha256": "d54f082daf364513529f46a7fe92b539512a498d2aec50e9dccb3078fa57e041",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.261
+    },
+    {
+      "source": "7e3f2c0faebb8ddac2f4feff3cfc9249476ab170b43250ac00610b10aa46c74b",
+      "status": "CONVERTED",
+      "pages": 10,
+      "substitutedGlyphs": "0",
+      "bytes": 8891004,
+      "sha256": "db0859192313afc1879f3b2bf941c9978251ef01ebeec28d446a16a4992bff23",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.545
+    },
+    {
+      "source": "90e7b47716c32ef7a67cde8094f312e0ee7f1a7e0ed50a25830e8ba64a84f6a6",
+      "status": "CONVERTED",
+      "pages": 6,
+      "substitutedGlyphs": "0",
+      "bytes": 268201,
+      "sha256": "e3a45bc6a235339fd57c3822446213a6d824457efe9aecc348f5e2d778dbc919",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.504
+    },
+    {
+      "source": "b9a64bf99e4bc496b976541a27128ee84109835d5f79f228a9c8ad159ec6829b",
+      "status": "CONVERTED",
+      "pages": 4,
+      "substitutedGlyphs": "0",
+      "bytes": 305034,
+      "sha256": "185a14fd1155782ed691c450f4b63e15213c61914cd362f3a6ee380dbb8e4a42",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.252
+    },
+    {
+      "source": "d6a23a9cfd0f37a71e245a3c96b2c3fafdf648f4bb1694f094cfe746b3f4f13d",
+      "status": "CONVERTED",
+      "pages": 5,
+      "substitutedGlyphs": "0",
+      "bytes": 818868,
+      "sha256": "1ce3a67f4f6a43647dff2a8da88162d4a15f21ad2c06f7616e054f38989c280e",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.506
+    },
+    {
+      "source": "e1b17805a87f62097987c41f2821836d6b774caaf035c9846be966c965f08a49",
+      "status": "CONVERTED",
+      "pages": 6,
+      "substitutedGlyphs": "0",
+      "bytes": 1161487,
+      "sha256": "99b129a924fe0ab80d1b712ad3a7dda5009d78c62b16784422ae7c242455ff73",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 0.508
+    },
+    {
+      "source": "16b1a3b1cb7177cc3d327f749f7f273d806b153ded5fe11d9261bac030ec66ac",
+      "status": "CONVERTED",
+      "pages": 433,
+      "substitutedGlyphs": "0",
+      "bytes": 24592713,
+      "sha256": "ea43a23bb3e46b4589d78a81cedfd5e616384b3285af4eb0c00f12fefbfbbcdf",
+      "remaining": [],
+      "source_unchanged": true,
+      "expected_match": true,
+      "seconds": 68.849
+    }
+  ],
+  "control_runtimes_initial": {
+    "candidate_commit": "uncommitted; exact binaries frozen separately",
+    "wasm_sha256": "5df0b8e4984b80045cdc1598b7eb9a338850cb95a5226eeb96c325e5f0e5fd28",
+    "count": 4,
+    "node_matches": 4,
+    "browser_matches": 2,
+    "node_failures": [],
+    "browser_failures": [
+      {
+        "source": "1342167919aff0761036bed19c7ca5c7ce5880b7217013269d80f64cebd52548",
+        "status": "CONVERTED",
+        "pages": 1,
+        "substitutedGlyphs": "0",
+        "bytes": 10614,
+        "sha256": "df7e64b6b7cfb78294b054962c5a3e237fddc5c90046f445cc0a5f75ab46073c",
+        "remaining": [],
+        "source_unchanged": true,
+        "expected_match": false,
+        "seconds": 0.252
+      },
+      {
+        "source": "f5f3344422eb283e4e24ad17ce01d3ce27e185d1c24cec903675f05f2a0d7f47",
+        "status": "CONVERTED",
+        "pages": 1,
+        "substitutedGlyphs": "0",
+        "bytes": 10615,
+        "sha256": "b309e91731a52ea3ba936e790351cb2c3ff20120ebd10b38e98c5e3d7d347c03",
+        "remaining": [],
+        "source_unchanged": true,
+        "expected_match": false,
+        "seconds": 0.253
+      }
+    ]
+  },
+  "control_runtimes": {
+    "candidate_commit": "uncommitted; exact binaries frozen separately",
+    "wasm_sha256": "5df0b8e4984b80045cdc1598b7eb9a338850cb95a5226eeb96c325e5f0e5fd28",
+    "count": 4,
+    "node_matches": 4,
+    "browser_matches": 4,
+    "node_failures": [],
+    "browser_failures": []
+  },
+  "sessions": [
+    {
+      "row": {
+        "label": "current-ready-16b1a3b1cb71-pdf",
+        "path": "$EVIDENCE/baseline/pdfs/16b1a3b1cb7177cc3d327f749f7f273d806b153ded5fe11d9261bac030ec66ac.pdf",
+        "sha256": "b12385a8a53a811ac245dd6f65b410a5c1b1be526292b42e94594a6b75c4add3",
+        "pages": [
+          1,
+          7,
+          9,
+          217,
+          433
+        ],
+        "total": 433,
+        "role": "pdf"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "fa45a0416b47fe4c6010d476559803df5d30b040a64b45c4136926d4ee02d2b5",
+              "frame_sha256": "094009926848f5d9ba73010fd71e06838ebc5421ea20a86a572d7bca4949cd57"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "fa45a0416b47fe4c6010d476559803df5d30b040a64b45c4136926d4ee02d2b5",
+              "frame_sha256": "094009926848f5d9ba73010fd71e06838ebc5421ea20a86a572d7bca4949cd57"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 7,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "7/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "7/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "278529760598372d1dd20860e934f0ea86dac52f8e327d9cb4fa68e9e9da708e",
+              "frame_sha256": "cd347cbeed1545d2c03919733bea0c53227199019e6b14f2b431b9e9cbf6bea1"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "278529760598372d1dd20860e934f0ea86dac52f8e327d9cb4fa68e9e9da708e",
+              "frame_sha256": "411ca31d541102396da1872b3fbe6b27ada668c308ef118a0a35055ed6ccb966"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "7/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 9,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "9/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "9/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "d9b27e940065b8bcfee8edb2fc5c6cd9d2492f7edc1ef9546c4d2d3455f2c9ad",
+              "frame_sha256": "a11fa17b5702fb4376d67a73da36e215a9e613425b63315b01599320cd3d229c"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "d9b27e940065b8bcfee8edb2fc5c6cd9d2492f7edc1ef9546c4d2d3455f2c9ad",
+              "frame_sha256": "a11fa17b5702fb4376d67a73da36e215a9e613425b63315b01599320cd3d229c"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "9/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 217,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "217/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "217/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "962b95cb9eb5d681eb8efa4810eace73c1428f3df60a638ff8b20786753a291a",
+              "frame_sha256": "e2548c78bf48e35d05f723eef33bb527fe86b7ae0523cd6fca7b733f93934518"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "962b95cb9eb5d681eb8efa4810eace73c1428f3df60a638ff8b20786753a291a",
+              "frame_sha256": "e2548c78bf48e35d05f723eef33bb527fe86b7ae0523cd6fca7b733f93934518"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "217/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 433,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "433/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "433/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "de1176575b2f14101b3827b66c4e89a3933e6f4b49edc7954b4a3f17439db689",
+              "frame_sha256": "02f98da8cd3de3eec0517b71655b15f17ca54784b3109875036ca47ccae502d9"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "de1176575b2f14101b3827b66c4e89a3933e6f4b49edc7954b4a3f17439db689",
+              "frame_sha256": "02f98da8cd3de3eec0517b71655b15f17ca54784b3109875036ca47ccae502d9"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "433/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "c4a333e57d8509deacc6492bb38ff12a3ab094b6bc27e6deaab0322d723f9669",
+      "audit_result_sha256": "c8b0413a6ce65a35a8a25d9b902b7b70ef40a47e8a35aee73479270f0c34ba6b"
+    },
+    {
+      "row": {
+        "label": "current-ready-16b1a3b1cb71-source",
+        "path": "$CORPUS/16b1a3b1cb7177cc3d327f749f7f273d806b153ded5fe11d9261bac030ec66ac.caj",
+        "sha256": "16b1a3b1cb7177cc3d327f749f7f273d806b153ded5fe11d9261bac030ec66ac",
+        "pages": [
+          1,
+          7,
+          9,
+          217,
+          433
+        ],
+        "total": 433,
+        "role": "source"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "d792aa118fef88ea37a0df6ca4cd58ddf50eeebd9bb71f2136a4217f768adfe4",
+              "frame_sha256": "2f6d979e2dc677bbdb37a9ed035b6e847b65a86c71e499a56529cd34745a659a"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "d792aa118fef88ea37a0df6ca4cd58ddf50eeebd9bb71f2136a4217f768adfe4",
+              "frame_sha256": "2f6d979e2dc677bbdb37a9ed035b6e847b65a86c71e499a56529cd34745a659a"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 7,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "7/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "7/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "8d237fd730b7232b6108943b09fe9e607207780a2a7359b074fc6e1b10f4dea1",
+              "frame_sha256": "c700534d8985453a06335c4cadd911d982dd2cf10b22b3086ff9ac966587b846"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "8d237fd730b7232b6108943b09fe9e607207780a2a7359b074fc6e1b10f4dea1",
+              "frame_sha256": "c700534d8985453a06335c4cadd911d982dd2cf10b22b3086ff9ac966587b846"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "7/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 9,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "9/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "9/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "a87729f7e3415183c9ebd6475b5ea5abd9c626aeaf0b2eb1a771fb836d37615b",
+              "frame_sha256": "aba23f6af329e698b542e78e2c80a274598c5220bc872043d49c4fec09a1e2aa"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "a87729f7e3415183c9ebd6475b5ea5abd9c626aeaf0b2eb1a771fb836d37615b",
+              "frame_sha256": "aba23f6af329e698b542e78e2c80a274598c5220bc872043d49c4fec09a1e2aa"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "9/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 217,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "217/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "217/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "e0442c3a888f21a37bfcb0f8860613b64ebcd622fea8ec388bcf47e1987cd622",
+              "frame_sha256": "58c73d9e0b570bb198304136bf2fb811021237592368ebdb82dd1fa6155f970a"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "e0442c3a888f21a37bfcb0f8860613b64ebcd622fea8ec388bcf47e1987cd622",
+              "frame_sha256": "58c73d9e0b570bb198304136bf2fb811021237592368ebdb82dd1fa6155f970a"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "217/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 433,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "433/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "433/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "daebbe6def540e1f150c8436b5fd5351bba45a010a6318e835540d0f7bb5ab41",
+              "frame_sha256": "1e18368be8429a46e2dee9356d6cfbf5abe72e57332bdc3c1b6d42bf7a8aeaa5"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "daebbe6def540e1f150c8436b5fd5351bba45a010a6318e835540d0f7bb5ab41",
+              "frame_sha256": "1e18368be8429a46e2dee9356d6cfbf5abe72e57332bdc3c1b6d42bf7a8aeaa5"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "433/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "ed78ff595afdb8428ccd940521b691ea886f912eb0513a3c6f2971fdbfc06ef5",
+      "audit_result_sha256": "cfedec8fada663dff32fce1963d9b7b796e0a509fb21ef264da299c2003ca3bd"
+    },
+    {
+      "row": {
+        "label": "fixed-ready-16b1a3b1cb71-pdf",
+        "path": "$EVIDENCE/candidate530/pdfs/16b1a3b1cb7177cc3d327f749f7f273d806b153ded5fe11d9261bac030ec66ac.pdf",
+        "sha256": "ea43a23bb3e46b4589d78a81cedfd5e616384b3285af4eb0c00f12fefbfbbcdf",
+        "pages": [
+          1,
+          7,
+          9,
+          217,
+          433
+        ],
+        "total": 433,
+        "role": "pdf"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "414d8374a655bd2f4a1fde7a7f438091c8a25578ad0d9e2dddee2a29c226fc79",
+              "frame_sha256": "18dc3b5e5acb1be25b586a6647bf39953180c271eb6e10102aaa42da69515ce4"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "414d8374a655bd2f4a1fde7a7f438091c8a25578ad0d9e2dddee2a29c226fc79",
+              "frame_sha256": "36e39abff1cf59c282c24dede71e387b1b963fd1c43782a62ba39af8c5c18ab6"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 7,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "7/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "7/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "6cd3fc2a4e5ae1e1fc4d32cdf8722d07a02415b9b193881d9dc9e380d6923b5c",
+              "frame_sha256": "1520e7bf68c485a9ce5d0abcd50b681687604694896d40dfe54fc7792808bcfe"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "6cd3fc2a4e5ae1e1fc4d32cdf8722d07a02415b9b193881d9dc9e380d6923b5c",
+              "frame_sha256": "0dd354dbf51e9c9f9c3f6836a483a4a3ce90c091aed16c241dd1e336128b45f0"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "7/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 9,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "9/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "9/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "7724539e67e5e88231933696404f08a43d301cb2bc7cfa4f480a38987434121f",
+              "frame_sha256": "329e621e2bb33b51fa0fafbf7ca41633847ac4faf8c5bfa836cb573b0dbe3f71"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "7724539e67e5e88231933696404f08a43d301cb2bc7cfa4f480a38987434121f",
+              "frame_sha256": "329e621e2bb33b51fa0fafbf7ca41633847ac4faf8c5bfa836cb573b0dbe3f71"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "9/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 217,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "217/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "217/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "962b95cb9eb5d681eb8efa4810eace73c1428f3df60a638ff8b20786753a291a",
+              "frame_sha256": "e2548c78bf48e35d05f723eef33bb527fe86b7ae0523cd6fca7b733f93934518"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "962b95cb9eb5d681eb8efa4810eace73c1428f3df60a638ff8b20786753a291a",
+              "frame_sha256": "e2548c78bf48e35d05f723eef33bb527fe86b7ae0523cd6fca7b733f93934518"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "217/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 433,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "433/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "433/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "98496ad9dfbd55bee99bd206eadc6ce97c5f8667d3667cff759839b29dbaa2ad",
+              "frame_sha256": "c46fae1fcb1dcbe298558cffaf4e6716d4b5b5344a950538046a1b96487e479f"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "98496ad9dfbd55bee99bd206eadc6ce97c5f8667d3667cff759839b29dbaa2ad",
+              "frame_sha256": "c46fae1fcb1dcbe298558cffaf4e6716d4b5b5344a950538046a1b96487e479f"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "433/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "bfaf895c94afcbff14ebcc794530113326e26599a2fc12f0ca001ca56f270d88",
+      "audit_result_sha256": "7d3970eab45baa5174980a60fbd7374adc2d3a6d997303d5ac5444ccdeba95a3"
+    },
+    {
+      "row": {
+        "label": "fixed-ready-16b1a3b1cb71-source",
+        "path": "$CORPUS/16b1a3b1cb7177cc3d327f749f7f273d806b153ded5fe11d9261bac030ec66ac.caj",
+        "sha256": "16b1a3b1cb7177cc3d327f749f7f273d806b153ded5fe11d9261bac030ec66ac",
+        "pages": [
+          1,
+          7,
+          9,
+          217,
+          433
+        ],
+        "total": 433,
+        "role": "source"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "d792aa118fef88ea37a0df6ca4cd58ddf50eeebd9bb71f2136a4217f768adfe4",
+              "frame_sha256": "2f6d979e2dc677bbdb37a9ed035b6e847b65a86c71e499a56529cd34745a659a"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "d792aa118fef88ea37a0df6ca4cd58ddf50eeebd9bb71f2136a4217f768adfe4",
+              "frame_sha256": "0800f8c270c1393a18dc77d7b8d0f82797ee725629351c045ca7f26f543cc323"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 7,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "7/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "7/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "8d237fd730b7232b6108943b09fe9e607207780a2a7359b074fc6e1b10f4dea1",
+              "frame_sha256": "c700534d8985453a06335c4cadd911d982dd2cf10b22b3086ff9ac966587b846"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "8d237fd730b7232b6108943b09fe9e607207780a2a7359b074fc6e1b10f4dea1",
+              "frame_sha256": "c700534d8985453a06335c4cadd911d982dd2cf10b22b3086ff9ac966587b846"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "7/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 9,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "9/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "9/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "a87729f7e3415183c9ebd6475b5ea5abd9c626aeaf0b2eb1a771fb836d37615b",
+              "frame_sha256": "aba23f6af329e698b542e78e2c80a274598c5220bc872043d49c4fec09a1e2aa"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "a87729f7e3415183c9ebd6475b5ea5abd9c626aeaf0b2eb1a771fb836d37615b",
+              "frame_sha256": "eddd6601fbf5dfa26e3f27cba75cc3a76d48d3c143ca398197beae9dc4e3359a"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "9/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 217,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "217/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "217/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "e0442c3a888f21a37bfcb0f8860613b64ebcd622fea8ec388bcf47e1987cd622",
+              "frame_sha256": "58c73d9e0b570bb198304136bf2fb811021237592368ebdb82dd1fa6155f970a"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "e0442c3a888f21a37bfcb0f8860613b64ebcd622fea8ec388bcf47e1987cd622",
+              "frame_sha256": "3a473fc6ab42d225bae836d9725bac5ea144818de860ac1397a1d486a88f6fa5"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "217/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        },
+        {
+          "requested_page": 433,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "433/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "433/433"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "daebbe6def540e1f150c8436b5fd5351bba45a010a6318e835540d0f7bb5ab41",
+              "frame_sha256": "1e18368be8429a46e2dee9356d6cfbf5abe72e57332bdc3c1b6d42bf7a8aeaa5"
+            },
+            {
+              "bounds_with_border": [
+                525,
+                258,
+                1045,
+                1003
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "daebbe6def540e1f150c8436b5fd5351bba45a010a6318e835540d0f7bb5ab41",
+              "frame_sha256": "1e18368be8429a46e2dee9356d6cfbf5abe72e57332bdc3c1b6d42bf7a8aeaa5"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "433/433"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "b52a17533de9a9f459efea78947bb5e5b94e0b9766b36fd00f028c38440fe9e7",
+      "audit_result_sha256": "2adfd32ba127b3c68fbda30e44e41e1bf89c9e526884e89f066b40eb62d83b04"
+    },
+    {
+      "row": {
+        "label": "fixed-ready-c8-type1-pdf",
+        "path": "$EVIDENCE/candidate530/controls/c8-type1.pdf",
+        "sha256": "48df028b5e9fd7fda425f2522617f71b96db1aba8e426930d05bd18ebaeb21d2",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "pdf"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "f8ec4a50d160c2da64a9e9e7c93359acf8ac46842ccfc220e8d9b391569ca2d5",
+              "frame_sha256": "9d37b1825790601dac1dc2a07ec59acada8c968fd4a1ab5ab08233d1fa4d3e62"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "f8ec4a50d160c2da64a9e9e7c93359acf8ac46842ccfc220e8d9b391569ca2d5",
+              "frame_sha256": "2140a4512553eb299ebcf13051ff42191067e65540f32a4f568d0950b35484a1"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "5fa75775a9fb456ba6571b02c2e08df0b6e64f693bf5084b68250e95699db05f",
+      "audit_result_sha256": "2f7b9982d6fd485c3b1a5556521aa8f0f8786613447d08a7b428892c9394e923"
+    },
+    {
+      "row": {
+        "label": "fixed-ready-c8-type1-repeat",
+        "path": "$EVIDENCE/orientation-controls-v2/c8-type1.caj",
+        "sha256": "1342167919aff0761036bed19c7ca5c7ce5880b7217013269d80f64cebd52548",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "repeat"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "3d921d00414a8d93a8689b2d1877e4e2e1a92b603481edbfc583616cb5a55008",
+              "frame_sha256": "c090ed87b69f2c17281789938761deefa0850aeca8fa5624497c71cc93cf54f6"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "3d921d00414a8d93a8689b2d1877e4e2e1a92b603481edbfc583616cb5a55008",
+              "frame_sha256": "829f8af55cfd41e3eab64337045a665f54cdedb585f39fd413a222251be1ad29"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "f1990eaf71fc17cdae346d6fcc2ce75f68c141cd2a00178c917a0589ad47f78d",
+      "audit_result_sha256": "22e4c11b20e457dab162063b60c8835d949aefcbb9bdc04a7b9ae8e1dbdd23f7"
+    },
+    {
+      "row": {
+        "label": "fixed-ready-c8-type2-pdf",
+        "path": "$EVIDENCE/candidate530/controls/c8-type2.pdf",
+        "sha256": "90997c49d90b216188c1d963a30eeab7dbaa86b273e0040886acdd72c029453b",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "pdf"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "bd65b9337ea002fb8b2919e6a314269fe1af27bf778a2fd5c799b0a87b38c877",
+              "frame_sha256": "cf8449cbc97ba80a4f5c595cce953d020724f0973f58c12bebafe9bc50604aea"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "bd65b9337ea002fb8b2919e6a314269fe1af27bf778a2fd5c799b0a87b38c877",
+              "frame_sha256": "27f003219cc7af4907a900de73beff002e5e6a9c2564e73782d4f67d8414283d"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "06c9361d7e51c014f5df1262f069eb040449017d1b622a860b23a929d516baf6",
+      "audit_result_sha256": "a7b8269518098b46926f9d25404d1db8a7711b17c8674cd824beefad7a94cea6"
+    },
+    {
+      "row": {
+        "label": "fixed-ready-c8-type2-repeat",
+        "path": "$EVIDENCE/orientation-controls-v2/c8-type2.caj",
+        "sha256": "f5f3344422eb283e4e24ad17ce01d3ce27e185d1c24cec903675f05f2a0d7f47",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "repeat"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "a763537e63aea4cf2be58e517907fbc58a21a25eff4e9748b009d4119d87d8df",
+              "frame_sha256": "708bb5afbf7c40df9fa327cfce3fb5d4d5deb4d6c8ce48bb0ceea38fa3744894"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "a763537e63aea4cf2be58e517907fbc58a21a25eff4e9748b009d4119d87d8df",
+              "frame_sha256": "5753a92e445a5f3663cd7fad5b000245b1547e68097814b578af3f908111ab43"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "867c8ecc7e85ad12c9aeb464f280f89cbe0cc0d0435555de4392726cd683d6c9",
+      "audit_result_sha256": "7f802ff06015913369e284b7640ecc52bfa14cbf875aa00979ffd1e063c60734"
+    },
+    {
+      "row": {
+        "label": "fixed-ready-hna-type1-pdf",
+        "path": "$EVIDENCE/candidate530/controls/hna-type1.pdf",
+        "sha256": "3f1f6d50ec55591f54858864cd05254060620aff9f1561e11a21c592c9a79861",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "pdf"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "f8ec4a50d160c2da64a9e9e7c93359acf8ac46842ccfc220e8d9b391569ca2d5",
+              "frame_sha256": "9d37b1825790601dac1dc2a07ec59acada8c968fd4a1ab5ab08233d1fa4d3e62"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "f8ec4a50d160c2da64a9e9e7c93359acf8ac46842ccfc220e8d9b391569ca2d5",
+              "frame_sha256": "2140a4512553eb299ebcf13051ff42191067e65540f32a4f568d0950b35484a1"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "054d17d236e58c56eeb4c865e11219318c1d443915d33339ce320c87c13db85f",
+      "audit_result_sha256": "76a3afd49833ecbe60a8f8e576446aabc2b099d1473f76c298346a2ac0307fa7"
+    },
+    {
+      "row": {
+        "label": "fixed-ready-hna-type1-repeat",
+        "path": "$EVIDENCE/orientation-controls-v2/hna-type1.caj",
+        "sha256": "817a84bae133970ea134cca83c7a7249552d8edb1f1d0293cdb93635dab0c684",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "repeat"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "3d921d00414a8d93a8689b2d1877e4e2e1a92b603481edbfc583616cb5a55008",
+              "frame_sha256": "c090ed87b69f2c17281789938761deefa0850aeca8fa5624497c71cc93cf54f6"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "3d921d00414a8d93a8689b2d1877e4e2e1a92b603481edbfc583616cb5a55008",
+              "frame_sha256": "829f8af55cfd41e3eab64337045a665f54cdedb585f39fd413a222251be1ad29"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "d4cf39df522840ad896f004105b431a990f40e0dc59f463d39606d1727b0cb84",
+      "audit_result_sha256": "f9b57b18642073075234ecffa32e911672a56f35bc092664338309a445a30c82"
+    },
+    {
+      "row": {
+        "label": "fixed-ready-hna-type2-pdf",
+        "path": "$EVIDENCE/candidate530/controls/hna-type2.pdf",
+        "sha256": "72cf68d51bbeb59c9906ee577960f20e5fd3380211ae3bac8443fd8fa760e4d4",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "pdf"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "bd65b9337ea002fb8b2919e6a314269fe1af27bf778a2fd5c799b0a87b38c877",
+              "frame_sha256": "cf8449cbc97ba80a4f5c595cce953d020724f0973f58c12bebafe9bc50604aea"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "bd65b9337ea002fb8b2919e6a314269fe1af27bf778a2fd5c799b0a87b38c877",
+              "frame_sha256": "27f003219cc7af4907a900de73beff002e5e6a9c2564e73782d4f67d8414283d"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "2c47bc61ae9899e78e69bc1c8442c57dd65f7981dbc878595fc38d0b4d7379cc",
+      "audit_result_sha256": "6d869230abb491a34c43309924608ebedfc90d6206ea0f78b70fef007dfe4cee"
+    },
+    {
+      "row": {
+        "label": "fixed-ready-hna-type2-repeat",
+        "path": "$EVIDENCE/orientation-controls-v2/hna-type2.caj",
+        "sha256": "05c068f5149c804a6cf9a20e5f9a90118244f8335bc930b4cf73f5eb04b87561",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "repeat"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "a763537e63aea4cf2be58e517907fbc58a21a25eff4e9748b009d4119d87d8df",
+              "frame_sha256": "708bb5afbf7c40df9fa327cfce3fb5d4d5deb4d6c8ce48bb0ceea38fa3744894"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "a763537e63aea4cf2be58e517907fbc58a21a25eff4e9748b009d4119d87d8df",
+              "frame_sha256": "5753a92e445a5f3663cd7fad5b000245b1547e68097814b578af3f908111ab43"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "498f0bef141f1df9ccb6d56ae5fdfdb6bad57d661ca2e3741030eeaf62d26eab",
+      "audit_result_sha256": "b0b97687c22e88257a0d3a7c377c3d7b39f829a9d186724668bb73d24fc276d0"
+    },
+    {
+      "row": {
+        "label": "orient-ready-c8-type1-pdf",
+        "path": "$EVIDENCE/orientation-controls-v2/c8-type1.pdf",
+        "sha256": "90997c49d90b216188c1d963a30eeab7dbaa86b273e0040886acdd72c029453b",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "pdf"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "bd65b9337ea002fb8b2919e6a314269fe1af27bf778a2fd5c799b0a87b38c877",
+              "frame_sha256": "cf8449cbc97ba80a4f5c595cce953d020724f0973f58c12bebafe9bc50604aea"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "bd65b9337ea002fb8b2919e6a314269fe1af27bf778a2fd5c799b0a87b38c877",
+              "frame_sha256": "27f003219cc7af4907a900de73beff002e5e6a9c2564e73782d4f67d8414283d"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "6e1e9643f76c7ffa5a17019438f887809f25cb1cd3571658760f5402c0ccf3ed",
+      "audit_result_sha256": "972946b46114ef68e7e7954b04c32848a3496041d350b9e3bd0051271c3b3063"
+    },
+    {
+      "row": {
+        "label": "orient-ready-c8-type1-source",
+        "path": "$EVIDENCE/orientation-controls-v2/c8-type1.caj",
+        "sha256": "1342167919aff0761036bed19c7ca5c7ce5880b7217013269d80f64cebd52548",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "source"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "3d921d00414a8d93a8689b2d1877e4e2e1a92b603481edbfc583616cb5a55008",
+              "frame_sha256": "c090ed87b69f2c17281789938761deefa0850aeca8fa5624497c71cc93cf54f6"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "3d921d00414a8d93a8689b2d1877e4e2e1a92b603481edbfc583616cb5a55008",
+              "frame_sha256": "829f8af55cfd41e3eab64337045a665f54cdedb585f39fd413a222251be1ad29"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "827e698ef385f2f76e690faa2b553d791563ceab11725e07446e7f23bd7d0a18",
+      "audit_result_sha256": "2c4d049b5a0face07227f89d1792ae0dbd06cf6558e6d3f7505af581266c281e"
+    },
+    {
+      "row": {
+        "label": "orient-ready-c8-type2-pdf",
+        "path": "$EVIDENCE/orientation-controls-v2/c8-type2.pdf",
+        "sha256": "90997c49d90b216188c1d963a30eeab7dbaa86b273e0040886acdd72c029453b",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "pdf"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "bd65b9337ea002fb8b2919e6a314269fe1af27bf778a2fd5c799b0a87b38c877",
+              "frame_sha256": "cf8449cbc97ba80a4f5c595cce953d020724f0973f58c12bebafe9bc50604aea"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "bd65b9337ea002fb8b2919e6a314269fe1af27bf778a2fd5c799b0a87b38c877",
+              "frame_sha256": "cf8449cbc97ba80a4f5c595cce953d020724f0973f58c12bebafe9bc50604aea"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "aea783606c082f8dd614393aedd5f127fd6ed6810df8429317eca0b46765598b",
+      "audit_result_sha256": "dfb85f7b3ccc2c3c68a2315705a81db3b1c916ff1b4d2df407b5e775ea540b4d"
+    },
+    {
+      "row": {
+        "label": "orient-ready-c8-type2-source",
+        "path": "$EVIDENCE/orientation-controls-v2/c8-type2.caj",
+        "sha256": "f5f3344422eb283e4e24ad17ce01d3ce27e185d1c24cec903675f05f2a0d7f47",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "source"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "a763537e63aea4cf2be58e517907fbc58a21a25eff4e9748b009d4119d87d8df",
+              "frame_sha256": "708bb5afbf7c40df9fa327cfce3fb5d4d5deb4d6c8ce48bb0ceea38fa3744894"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "a763537e63aea4cf2be58e517907fbc58a21a25eff4e9748b009d4119d87d8df",
+              "frame_sha256": "708bb5afbf7c40df9fa327cfce3fb5d4d5deb4d6c8ce48bb0ceea38fa3744894"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "e566227176107dac6e106e27eb4dda95f65115a49e47f6a0f11e858d3c25e5da",
+      "audit_result_sha256": "1086384f856e522b685a29f72fe2969c1433ac411dd908392213a3676dd70df5"
+    },
+    {
+      "row": {
+        "label": "orient-ready-hna-type1-pdf",
+        "path": "$EVIDENCE/orientation-controls-v2/hna-type1.pdf",
+        "sha256": "72cf68d51bbeb59c9906ee577960f20e5fd3380211ae3bac8443fd8fa760e4d4",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "pdf"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "bd65b9337ea002fb8b2919e6a314269fe1af27bf778a2fd5c799b0a87b38c877",
+              "frame_sha256": "cf8449cbc97ba80a4f5c595cce953d020724f0973f58c12bebafe9bc50604aea"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "bd65b9337ea002fb8b2919e6a314269fe1af27bf778a2fd5c799b0a87b38c877",
+              "frame_sha256": "27f003219cc7af4907a900de73beff002e5e6a9c2564e73782d4f67d8414283d"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "c5c8340f4db3a15d9f6c8379ea5288dac8a0a18cc76206f12cb73bfe278d8f22",
+      "audit_result_sha256": "e44c20b4d62982213a2b09025ee691a81bf85d9fe710c369eb1fe3567e90e67b"
+    },
+    {
+      "row": {
+        "label": "orient-ready-hna-type1-source",
+        "path": "$EVIDENCE/orientation-controls-v2/hna-type1.caj",
+        "sha256": "817a84bae133970ea134cca83c7a7249552d8edb1f1d0293cdb93635dab0c684",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "source"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "3d921d00414a8d93a8689b2d1877e4e2e1a92b603481edbfc583616cb5a55008",
+              "frame_sha256": "c090ed87b69f2c17281789938761deefa0850aeca8fa5624497c71cc93cf54f6"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "3d921d00414a8d93a8689b2d1877e4e2e1a92b603481edbfc583616cb5a55008",
+              "frame_sha256": "829f8af55cfd41e3eab64337045a665f54cdedb585f39fd413a222251be1ad29"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "4fbe1b5b260033b5b0e94dcd9334a6518ebf209be08d6ae027dc04df36ac4d07",
+      "audit_result_sha256": "f2df889d3abbffb41f6773f09529b0bde292dc339ea971e821536d929c35fcef"
+    },
+    {
+      "row": {
+        "label": "orient-ready-hna-type2-pdf",
+        "path": "$EVIDENCE/orientation-controls-v2/hna-type2.pdf",
+        "sha256": "72cf68d51bbeb59c9906ee577960f20e5fd3380211ae3bac8443fd8fa760e4d4",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "pdf"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "bd65b9337ea002fb8b2919e6a314269fe1af27bf778a2fd5c799b0a87b38c877",
+              "frame_sha256": "cf8449cbc97ba80a4f5c595cce953d020724f0973f58c12bebafe9bc50604aea"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "bd65b9337ea002fb8b2919e6a314269fe1af27bf778a2fd5c799b0a87b38c877",
+              "frame_sha256": "27f003219cc7af4907a900de73beff002e5e6a9c2564e73782d4f67d8414283d"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "250fe0fecb55e8a44b038a2597dc08f7877e90e8b9551f5d250807c8f1c861ea",
+      "audit_result_sha256": "49b899360a30f361adf62dddd4ff064654e464a6e970364f9b81d6e7222a85dd"
+    },
+    {
+      "row": {
+        "label": "orient-ready-hna-type2-source",
+        "path": "$EVIDENCE/orientation-controls-v2/hna-type2.caj",
+        "sha256": "05c068f5149c804a6cf9a20e5f9a90118244f8335bc930b4cf73f5eb04b87561",
+        "pages": [
+          1
+        ],
+        "total": 1,
+        "role": "source"
+      },
+      "status": "OBSERVED",
+      "observations": [
+        {
+          "requested_page": 1,
+          "fields_before": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "numeric_readiness": [
+            [
+              {
+                "center": [
+                  401,
+                  1168
+                ],
+                "text": "1/1"
+              },
+              {
+                "center": [
+                  542,
+                  1168
+                ],
+                "text": "75%"
+              }
+            ]
+          ],
+          "frames": [
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "a763537e63aea4cf2be58e517907fbc58a21a25eff4e9748b009d4119d87d8df",
+              "frame_sha256": "708bb5afbf7c40df9fa327cfce3fb5d4d5deb4d6c8ce48bb0ceea38fa3744894"
+            },
+            {
+              "bounds_with_border": [
+                471,
+                395,
+                1098,
+                866
+              ],
+              "background": [
+                94,
+                104,
+                131
+              ],
+              "complete": true,
+              "viewport_rgb_sha256": "a763537e63aea4cf2be58e517907fbc58a21a25eff4e9748b009d4119d87d8df",
+              "frame_sha256": "5753a92e445a5f3663cd7fad5b000245b1547e68097814b578af3f908111ab43"
+            }
+          ],
+          "fields_after": [
+            {
+              "center": [
+                401,
+                1168
+              ],
+              "text": "1/1"
+            },
+            {
+              "center": [
+                542,
+                1168
+              ],
+              "text": "75%"
+            }
+          ],
+          "navigation_confirmed": true,
+          "stable": true,
+          "complete": true
+        }
+      ],
+      "cleanup": true,
+      "actions_sha256": "40c705dfb98caebd791b0cc280b0555da076ecb3b5fb0b11a69ee79fa604161f",
+      "audit_result_sha256": "d08780425909b1f18c727d394ba4f5bfe13eb36feef1d94aae130e8cbbd9e98a"
+    }
+  ],
+  "validation": {
+    "rust_passed": 1422,
+    "rust_ignored_NOT_RUN": 7,
+    "javascript_passed": 186,
+    "javascript_skipped": 0,
+    "clippy": "pass, warnings denied",
+    "qpdf_433_pages": "exit 0, no syntax or stream encoding errors"
+  },
+  "development_attempts": {
+    "orientation_control_v1": "HN-A pair converted; font-free C8 conversion refused native text framing before output. Retained. V2 supplies an explicit external font to native C8 even though its page draws only an image.",
+    "candidate530_packaging": {
+      "failure": "shutil.copyfile omitted executable permission. Both first CLI launches refused before conversion; no viewer sessions started. Restored mode from built CLI; bytes unchanged.",
+      "driver_before_sha256": "16f99836d50ea9872b02ebb89c7593a2a6194b21cb1e1f28e181907c00084bc6"
+    },
+    "browser_control_font_sources": "First control browser run passed HN-A but differed for C8: it created two distinct OPFS font sources from the same file, unlike native/Node sharing one file. Outputs and failures retained. V2 shares one spooled font source across both roles to reproduce the native/Node recipe; no converter change.",
+    "tests": [
+      "First native unit matrix parser assumed cm ended a line and failed; corrected token framing, then passed.",
+      "First JS full run: 185 passed, 1 failed obsolete equality of type-1/type-2 PDFs; replaced with descriptor-specific geometry assertion, then all 186 passed."
+    ]
+  },
+  "limitations": [
+    "Five actual pages viewed; 428 other pages have inventory/stream evidence only.",
+    "Residual raster differences are not pixel-parity passes and remain #534.",
+    "Native Windows equivalence is unverified.",
+    "No document, image, font or vendor binary bodies are redistributed."
+  ]
+}
