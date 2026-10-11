@@ -1,5 +1,9 @@
 # Research notes
 
+The [Wine 7.3 raster/rounding study](wine73-raster-rounding-20261010.md)
+rechecks 72 actual display differences, distinguishes original page-width and
+placement controls across three zooms, and retains explicit unresolved cases.
+
 The [Wine 7.3 PDF window study](wine73-pdf-window-20261010.md) retains the
 fatal-dialog and font-sharing observations, an original negative control,
 and a complete four-page continuous-mode workaround with cold repeats.
