@@ -1,5 +1,9 @@
 # Research notes
 
+The [Wine 7.3 PDF window study](wine73-pdf-window-20261010.md) retains the
+fatal-dialog and font-sharing observations, an original negative control,
+and a complete four-page continuous-mode workaround with cold repeats.
+
 The [Wine 7.3 ornament resource study](wine73-ornament-resources-20261010.md)
 identifies four distinct decoration slots with original resource controls,
 checks the explicit caller-font recipe and retains residual raster/font limits.
